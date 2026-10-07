@@ -6,7 +6,7 @@ import zlib from "node:zlib";
 const ROOT=process.cwd();
 const cfg=JSON.parse(fs.readFileSync(path.join(ROOT,"data/factory-config.json"),"utf8"));
 const foundation=JSON.parse(fs.readFileSync(path.join(ROOT,cfg.foundation_matrix_path),"utf8"));
-const packed=fs.readFileSync(path.join(ROOT,cfg.source_plan_path),"utf8").trim();
+const packed=cfg.source_plan_parts.map(p=>fs.readFileSync(path.join(ROOT,p),"utf8").trim()).join("");
 const rawRows=JSON.parse(zlib.inflateSync(Buffer.from(packed,"base64")).toString("utf8"));
 const source=rawRows.map(v=>({source_id:Number(v[0]),hub_vi:v[1]||"",page_type_vi:v[2]||"",title_vi:v[3]||"",intent_vi:v[4]||"",keyword_variants:v[5]||"",seed:v[6]||"",priority:v[7]||"P2",claim_policy_vi:v[8]||"",source_url:v[9]||""}));
 if(source.length!==500)throw new Error("Expected 500 source rows, got "+source.length);

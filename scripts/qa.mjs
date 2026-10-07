@@ -41,7 +41,7 @@ if(matrix.length!==0&&matrix.length!==500)err.push("factory matrix row count "+m
 for(const r of matrix.filter(x=>x.production_status==="PUBLISHED")){if(!r.path||!fs.existsSync(path.join(root,r.path)))err.push(r.id+": published output missing");if(!sm.includes(r.url))err.push(r.id+": sitemap missing")}
 const pathsSeen=new Set(),urlSeen=new Set();
 for(const r of matrix.filter(x=>x.path)){if(pathsSeen.has(r.path))err.push(r.id+": duplicate factory path");pathsSeen.add(r.path);if(urlSeen.has(r.url))err.push(r.id+": duplicate factory URL");urlSeen.add(r.url)}
-if(!fs.existsSync("data/source-plan.zlib.b64"))err.push("source plan missing");
+for(const p of ["data/source-plan.part1.b64","data/source-plan.part2.b64","data/source-plan.part3.b64","data/source-plan.part4.b64"])if(!fs.existsSync(p))err.push("source plan part missing "+p);
 if(!fs.readFileSync("assets/js/components.js","utf8").includes('dataset.pageType==="article"'))err.push("article schema support missing");
 if(!fs.readFileSync("index.html","utf8").includes("https://app.rentbikehanoi.com/"))err.push("English-site homepage link missing");
 if(fs.readFileSync("CNAME","utf8").trim()!=="fr.rentbikehanoi.com")err.push("CNAME");

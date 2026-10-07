@@ -13,7 +13,6 @@
   "draft_extension": ".article",
   "inbox_dir": "_factory/inbox",
   "review_dir": "_factory/review",
-  "source_plan_path": "data/source-plan.zlib.b64",
   "matrix_path": "data/content-matrix.csv",
   "foundation_matrix_path": "data/seo-cluster-matrix.json",
   "writer_queue_path": "data/writer-queue.json",
@@ -24,5 +23,11 @@
   "title_max_chars": 70,
   "meta_description_min_chars": 120,
   "meta_description_max_chars": 180,
-  "seo_score_min": 85
+  "seo_score_min": 85,
+  "source_plan_parts": [
+    "data/source-plan.part1.b64",
+    "data/source-plan.part2.b64",
+    "data/source-plan.part3.b64",
+    "data/source-plan.part4.b64"
+  ]
 }

@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - '_factory/inbox/**'
-      - 'data/source-plan.zlib.b64'
+      - 'data/source-plan.part*.b64'
       - 'data/factory-prepare.trigger'
   workflow_dispatch:
     inputs:
@@ -54,7 +54,7 @@ jobs:
             action="${{ inputs.action }}"
           else
             changed="$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" || true)"
-            if echo "$changed" | grep -Eq "^(data/source-plan.zlib.b64|data/factory-prepare.trigger)$"; then action="prepare-plan"; else action="process"; fi
+            if echo "$changed" | grep -Eq "^(data/source-plan\.part[1-4]\.b64|data/factory-prepare.trigger)$"; then action="prepare-plan"; else action="process"; fi
           fi
           echo "action=$action" >> "$GITHUB_OUTPUT"
 
