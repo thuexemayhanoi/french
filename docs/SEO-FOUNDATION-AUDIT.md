@@ -3,12 +3,11 @@
 ## Audit snapshot
 
 - Audited: **43 existing HTML pages** on `main`.
-- **42/43 pages are thin** in their current static body (roughly 13–55 words for most pages).
-- The FAQ is the only substantial page today: **~667 words / 20 questions**.
-- Titles, canonicals and meta descriptions exist, but many hub/category descriptions are extremely short and generic.
-- Most hub/category pages currently have **0–1 static H2** and almost no static editorial depth.
-- Shared navigation/related links are rendered by JavaScript; useful for UX, but the body of each hub still needs unique, indexable French content.
-- The 500-article factory should **not start yet**. These foundation URLs should first become strong parent pages so future articles inherit a clear topical hierarchy.
+- User requested long-form expansion for every created page except Contact.
+- **42/42 non-contact foundation pages are now targeted at 1,500–3,000 words** and enforced by QA.
+- Contact remains intentionally short and transactional.
+- The FAQ remains structured for AI/search answers, while hubs now contain substantial static French copy.
+- The 500-article factory is still untouched.
 
 ## SEO rules before touching the 500-article matrix
 
@@ -94,3 +93,8 @@ Write complete policies for the site's real data and business behavior. Do not f
 **Wave 3 — P1/P2 support:** About, Contact, districts, electric, weekly pricing, Ha Long, Centre/Sud and legal/trust pages.
 
 Only after the 43 foundation pages pass content QA should the 500-article production matrix be activated.
+
+
+## Long-form expansion status
+
+Completed before the 500-article factory. QA now fails any non-contact HTML page below 1,500 or above 3,000 words. Contact is intentionally excluded by user request.
