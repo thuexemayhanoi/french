@@ -58,3 +58,6 @@
 .chat-panel[data-keyboard-open="true"]{top:var(--chat-vv-top,8px);bottom:auto;height:var(--chat-vv-height,430px);max-height:none}
 body.chat-keyboard-open .quick-contact,body.chat-keyboard-open .chat-fab{visibility:hidden;pointer-events:none}
 @media(max-width:700px){.chat-panel{left:12px;right:12px;width:auto;bottom:calc(88px + env(safe-area-inset-bottom));border-radius:20px}.chat-panel[data-keyboard-open="true"]{left:8px;right:8px}.site-footer{padding-bottom:calc(105px + env(safe-area-inset-bottom))}.qc-tip,.chat-tip{display:none}}
+
+/* Sommaire des articles */
+.article-toc{margin:1.1rem 0 1.6rem;border:1px solid var(--line,#d9d9d9);border-radius:14px;background:var(--surface,#fff);overflow:hidden}.article-toc summary{cursor:pointer;font-weight:800;padding:.9rem 1rem;list-style:none}.article-toc summary::-webkit-details-marker{display:none}.article-toc summary::after{content:"+";float:right}.article-toc[open] summary::after{content:"−"}.article-toc nav{padding:0 1rem 1rem}.article-toc ol{margin:.1rem 0 0;padding-left:1.35rem}.article-toc li{margin:.4rem 0}.article-toc a{text-decoration:none}.article-toc a:hover{text-decoration:underline}

@@ -2,6 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
+import {frenchSlug} from "./french-slug.mjs";
 
 const ROOT=process.cwd();
 const cfg=JSON.parse(fs.readFileSync(path.join(ROOT,"data/factory-config.json"),"utf8"));
@@ -69,11 +70,11 @@ for(const r of source){
   const key=(r.hub_vi.match(/^(\d{2})/)||[])[1],hub=hubs[key];
   if(!hub)throw new Error("Unknown hub "+r.hub_vi);
   const primary=(r.keyword_variants.split(";")[0]||r.seed||r.title_vi).trim();
-  let slug=slugify(primary),n=2;
-  while(used.has(hub.path+slug+"/"))slug=slugify(primary)+"-"+(n++);
-  used.add(hub.path+slug+"/");
   const merge=merges[r.source_id]||"";
   const id="FR-"+String(r.source_id).padStart(3,"0");
+  let slug=frenchSlug(primary,id),n=2;
+  while(used.has(hub.path+slug+"/"))slug=frenchSlug(primary,id)+"-"+(n++);
+  used.add(hub.path+slug+"/");
   const url=merge?"":cfg.production_domain+hub.path+slug+"/";
   const outputPath=merge?"":hub.path.slice(1)+slug+"/index.html";
   const manual=/^06\./.test(r.hub_vi)&&/(license|permit|law|legal|driving licence|international|permis|loi|légal|legal|police|vitesse|autoroute|péage|peage|documents|panneaux|circulation)/i.test(primary+" "+r.seed+" "+r.title_vi);

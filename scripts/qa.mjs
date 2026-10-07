@@ -1,3 +1,4 @@
+import {expectedFactoryRoute,hasEnglishSlugToken} from"../tools/french-slug.mjs";
 import fs from"node:fs";import path from"node:path";
 const root=process.cwd(),all=[];
 function walk(d){for(const n of fs.readdirSync(d)){if([".git","node_modules","site","_factory"].includes(n))continue;const f=path.join(d,n),s=fs.statSync(f);s.isDirectory()?walk(f):all.push(f)}}walk(root);
@@ -11,11 +12,14 @@ const byPath=new Map(matrix.filter(r=>r.path).map(r=>[r.path,r]));
 const route=f=>{const r=path.relative(root,f).replace(/\\/g,"/");return r==="index.html"?"/":"/"+r.replace(/index\.html$/,"")};
 const count=t=>t.replace(/<script[\s\S]*?<\/script>/gi," ").replace(/<style[\s\S]*?<\/style>/gi," ").replace(/<[^>]+>/g," ").replace(/&[a-z#0-9]+;/gi," ").replace(/\s+/g," ").trim().split(/\s+/).filter(Boolean).length;
 const routes=new Set();
+let redirectCount=0,indexableCount=0;
 for(const f of html){
  const t=fs.readFileSync(f,"utf8"),r=path.relative(root,f).replace(/\\/g,"/"),u=route(f),main=t.match(/<main class="shell">([\s\S]*?)<\/main>/i)?.[1]||"";
+ const isRedirect=/data-page-type="redirect"/i.test(t);if(isRedirect){redirectCount++;const canonical=(t.match(/<link rel="canonical" href="([^"]+)"/i)||[])[1]||"";if(!/<meta name="robots" content="noindex,follow">/i.test(t))err.push(r+": redirect noindex missing");if(!/<meta http-equiv="refresh"/i.test(t))err.push(r+": redirect refresh missing");if(sm.includes("https://fr.rentbikehanoi.com"+u))err.push(r+": legacy redirect in sitemap");const target=canonical.replace("https://fr.rentbikehanoi.com/","");if(!canonical||!fs.existsSync(path.join(root,target?target+"index.html":"index.html")))err.push(r+": redirect target missing");continue}indexableCount++;
  const fr=foundation.pages.find(x=>x.path===u),mr=byPath.get(r);
  const title=t.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim()||"",desc=t.match(/<meta name="description" content="([^"]*)"/i)?.[1]||"",h1=t.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1]?.replace(/<[^>]+>/g,"").trim()||"",canonical=t.match(/<link rel="canonical" href="([^"]+)"/i)?.[1]||"";
  routes.add(u);
+ if(!/<html[^>]*lang="fr"/i.test(t))err.push(r+": lang fr missing");
  if((t.match(/<h1\b/gi)||[]).length!==1)err.push(r+": H1 count");
  if(!title||!desc||!canonical)err.push(r+": SEO head missing");
  if(!/site-config\.js/.test(t)||!/silo-map\.js/.test(t)||!/content-index\.js/.test(t))err.push(r+": shared data");
@@ -34,6 +38,7 @@ for(const f of html){
    const internal=[...main.matchAll(/href="(\/[^"#?]*)"/g)].map(m=>m[1]),uniqueInternal=new Set(internal);if(uniqueInternal.size<cfg.first_pass_min_internal_links||uniqueInternal.size>cfg.first_pass_max_internal_links)err.push(r+": internal links "+uniqueInternal.size+" expected "+cfg.first_pass_min_internal_links+"-"+cfg.first_pass_max_internal_links);
    const storedScore=Number(mr.seo_score||0);if(storedScore<cfg.seo_score_min)err.push(r+": SEO score "+storedScore+" below "+cfg.seo_score_min);
    if(!t.includes('data-factory-id="'+mr.id+'"'))err.push(r+": factory ID marker missing");
+   if(!t.includes("data-auto-toc"))err.push(r+": article TOC missing");
    for(const l of (mr.internal_link_targets||"").split(";").filter(Boolean))if(!main.includes('href="'+l+'"'))err.push(r+": missing factory link "+l);
  }else err.push(r+": public page missing from foundation/factory matrix");
  if(title){const tk=norm(title);if(titles.has(tk))err.push(r+": duplicate title with "+titles.get(tk));else titles.set(tk,r)}
@@ -44,7 +49,7 @@ if(foundation.pages.length!==43||foundation.summary?.pending!==0)err.push("found
 if(matrix.length!==0&&matrix.length!==515)err.push("factory matrix row count "+matrix.length+" expected 515");
 for(const r of matrix.filter(x=>x.production_status==="PUBLISHED")){if(!r.path||!fs.existsSync(path.join(root,r.path)))err.push(r.id+": published output missing");if(!sm.includes(r.url))err.push(r.id+": sitemap missing");if(Number(r.seo_score||0)<cfg.seo_score_min)err.push(r.id+": matrix SEO score below "+cfg.seo_score_min)}
 const pathsSeen=new Set(),urlSeen=new Set();
-for(const r of matrix.filter(x=>x.path)){if(pathsSeen.has(r.path))err.push(r.id+": duplicate factory path");pathsSeen.add(r.path);if(urlSeen.has(r.url))err.push(r.id+": duplicate factory URL");urlSeen.add(r.url)}
+for(const r of matrix.filter(x=>x.path)){if(pathsSeen.has(r.path))err.push(r.id+": duplicate factory path");pathsSeen.add(r.path);if(urlSeen.has(r.url))err.push(r.id+": duplicate factory URL");urlSeen.add(r.url);const routeExpected=expectedFactoryRoute(r);if(new URL(r.url).pathname!==routeExpected)err.push(r.id+": non-French factory route");const leaf=new URL(r.url).pathname.split("/").filter(Boolean).at(-1)||"";if(hasEnglishSlugToken(leaf))err.push(r.id+": English slug token")}
 for(const p of ["data/source-plan.part1.b64","data/source-plan.part2.b64","data/source-plan.part3.b64","data/source-plan.part4.b64"])if(!fs.existsSync(p))err.push("source plan part missing "+p);
 if(!fs.readFileSync("assets/js/components.js","utf8").includes('dataset.pageType==="article"'))err.push("article schema support missing");
 const cfgSrc=fs.readFileSync("assets/js/site-config.js","utf8");
@@ -52,8 +57,10 @@ if(!cfgSrc.includes("quickContact:true")||!cfgSrc.includes("localChatbot:true"))
 if(!cfgSrc.includes("wa.me/84942467674")||!cfgSrc.includes("zalo.me/84942467674")||!cfgSrc.includes("google.com/maps/search"))err.push("quick contact targets missing");
 if(!fs.existsSync("assets/js/assistant.js"))err.push("local assistant script missing");
 if(!fs.existsSync("assets/chat/search-index.json"))err.push("chat search index missing");
-else{const chat=JSON.parse(fs.readFileSync("assets/chat/search-index.json","utf8"));if(chat.count!==html.length)err.push("chat index count "+chat.count+" differs from public HTML "+html.length);if(!Array.isArray(chat.e)||chat.e.length!==chat.count)err.push("chat index entries invalid")}
+else{const chat=JSON.parse(fs.readFileSync("assets/chat/search-index.json","utf8"));if(chat.count!==indexableCount)err.push("chat index count "+chat.count+" differs from indexable HTML "+indexableCount);if(!Array.isArray(chat.e)||chat.e.length!==chat.count)err.push("chat index entries invalid")}
 if(!fs.readFileSync("assets/css/site.css","utf8").includes(".quick-contact")||!fs.readFileSync("assets/css/site.css","utf8").includes(".chat-panel"))err.push("floating UI CSS missing");
+const legacy=fs.existsSync("data/legacy-redirects.json")?JSON.parse(fs.readFileSync("data/legacy-redirects.json","utf8")):[];if(legacy.length!==redirectCount)err.push("legacy redirect inventory mismatch");for(const x of legacy){if(!fs.existsSync(x.from.replace(/^\\//,"")+"index.html"))err.push("legacy redirect missing "+x.from)}
+if(!fs.readFileSync("assets/css/site.css","utf8").includes(".article-toc"))err.push("article TOC CSS missing");
 if(!fs.readFileSync("index.html","utf8").includes("https://app.rentbikehanoi.com/"))err.push("English-site homepage link missing");
 if(fs.readFileSync("CNAME","utf8").trim()!=="fr.rentbikehanoi.com")err.push("CNAME");
 if(err.length){console.error(err.join("\n"));process.exit(1)}

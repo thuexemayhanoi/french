@@ -2,6 +2,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import {execFileSync} from "node:child_process";
+import {normalizeFrenchArticleHtml} from "./article-html.mjs";
+import {expectedFactoryRoute,hasEnglishSlugToken} from "./french-slug.mjs";
 
 const ROOT=process.cwd();
 const read=p=>fs.readFileSync(path.join(ROOT,p),"utf8");
@@ -186,6 +188,7 @@ function normalizeDraft(html,row){
   if(!html.includes("data-breadcrumbs"))html=html.replace(/<main[^>]*>/i,m=>m+"\n<div data-breadcrumbs></div>");
   if(!html.includes("data-global-cta"))html=html.replace(/<\/main>/i,'<div data-global-cta></div><div data-related></div></main>');
   if(!/site-config\.js/.test(html))html=html.replace(/<\/body>/i,'<script src="/assets/js/site-config.js?v=20261007-nav3"></script><script src="/assets/js/silo-map.js"></script><script src="/assets/js/content-index.js"></script><script src="/assets/js/components.js?v=20261007-factory1"></script><script src="/assets/js/app.js"></script></body>');
+  html=normalizeFrenchArticleHtml(html,row);
   return html;
 }
 
@@ -202,6 +205,10 @@ function validateDraft(html,row){
   if(dlen<cfg.meta_description_min_chars||dlen>cfg.meta_description_max_chars)errors.push("meta description length "+dlen+" outside "+cfg.meta_description_min_chars+"-"+cfg.meta_description_max_chars);
   if(h1n!==1)errors.push("expected exactly one H1");
   if(canon!==row.url)errors.push("canonical mismatch");
+  const expectedRoute=expectedFactoryRoute(row),actualRoute=new URL(row.url).pathname,leaf=actualRoute.split("/").filter(Boolean).at(-1)||"";
+  if(actualRoute!==expectedRoute)errors.push("factory URL is not the normalized French route");
+  if(hasEnglishSlugToken(leaf))errors.push("English token detected in French slug");
+  if(!html.includes("data-auto-toc"))errors.push("automatic article table of contents missing");
   if(wc<cfg.first_pass_min_words||wc>cfg.first_pass_max_words)errors.push("word count "+wc+" outside "+cfg.first_pass_min_words+"-"+cfg.first_pass_max_words);
   if(links.length<cfg.first_pass_min_internal_links)errors.push("internal links below minimum");
   if(links.length>cfg.first_pass_max_internal_links)errors.push("internal links above maximum: "+links.length);

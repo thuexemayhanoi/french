@@ -1,0 +1,30 @@
+[
+  {
+    "id": "FR-002",
+    "from": "/location-moto-hanoi/best-motorbike-rental-hanoi/",
+    "to": "/location-moto-hanoi/choisir-location-moto-hanoi/",
+    "from_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/best-motorbike-rental-hanoi/",
+    "to_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/choisir-location-moto-hanoi/"
+  },
+  {
+    "id": "FR-003",
+    "from": "/location-moto-hanoi/motorbike-rental-in-hanoi-vietnam/",
+    "to": "/location-moto-hanoi/location-moto-hanoi-vietnam/",
+    "from_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/motorbike-rental-in-hanoi-vietnam/",
+    "to_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-hanoi-vietnam/"
+  },
+  {
+    "id": "FR-004",
+    "from": "/location-moto-hanoi/motorbike-rental-hanoi-old-quarter/",
+    "to": "/location-moto-hanoi/location-moto-vieux-quartier-hanoi/",
+    "from_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/motorbike-rental-hanoi-old-quarter/",
+    "to_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-vieux-quartier-hanoi/"
+  },
+  {
+    "id": "FR-012",
+    "from": "/location-moto-hanoi/motorbike-rental-hanoi-airport/",
+    "to": "/location-moto-hanoi/location-moto-aeroport-noi-bai/",
+    "from_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/motorbike-rental-hanoi-airport/",
+    "to_url": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-aeroport-noi-bai/"
+  }
+]
