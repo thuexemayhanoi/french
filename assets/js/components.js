@@ -5,7 +5,22 @@ const f=document.querySelector("[data-site-footer]");if(f){const groups=[{title:
 document.querySelectorAll("[data-silo-grid]").forEach(host=>host.innerHTML='<div class="silo-grid">'+S.map(s=>'<a class="silo-card" href="'+s.href+'"><div class="silo-count">'+s.count+' guides</div><h3>'+e(s.title)+'</h3><p>'+e(s.desc)+'</p><span>Explorer →</span></a>').join("")+'</div>');
 document.querySelectorAll("[data-child-grid]").forEach(host=>{const s=byId(host.getAttribute("data-child-grid"));if(s)host.innerHTML='<div class="card-grid">'+s.children.map(c=>'<a class="card" href="'+c.href+'"><strong>'+e(c.title)+'</strong><span>Découvrir →</span></a>').join("")+'</div>'});
 document.querySelectorAll("[data-global-cta]").forEach(x=>x.innerHTML='<aside class="global-cta"><div><span class="eyebrow light">Hanoi · Long Bien</span><strong>Besoin d’une moto à Hanoi ?</strong><p>Appelez-nous ou venez directement à Long Bien.</p></div><div class="cta-actions"><a class="btn primary inverse" href="tel:'+C.phone+'">Appeler</a><a class="btn inverse-outline" href="/contact/">Contact</a></div></aside>');
-const cur=location.pathname.replace(/index\.html$/,""),tags=(document.body.dataset.tags||"").split(",").filter(Boolean);const rel=I.filter(x=>x.url!==cur&&!["/confidentialite/","/conditions/"].includes(x.url)).map(x=>({...x,score:x.tags.filter(t=>tags.includes(t)).length})).sort((a,b)=>b.score-a.score||a.title.localeCompare(b.title)).slice(0,4);document.querySelectorAll("[data-related]").forEach(x=>x.innerHTML='<section class="related"><p class="eyebrow">À lire aussi</p><h2>Continuer à explorer</h2><div class="card-grid">'+rel.map(r=>'<a class="card" href="'+r.url+'"><strong>'+e(r.title)+'</strong><span>Lire →</span></a>').join("")+'</div></section>');
+const cur=location.pathname.replace(/index\\.html$/,""),tags=(document.body.dataset.tags||"").split(",").map(x=>x.trim()).filter(Boolean);
+const currentSilo=S.find(s=>cur===s.href||cur.startsWith(s.href)||s.children.some(c=>cur===c.href||cur.startsWith(c.href)));
+const cross={"location-hanoi":["types","prix","permis","hanoi"],honda:["types","yamaha","prix"],yamaha:["types","honda","nord","prix"],types:["location-hanoi","prix","permis","honda","yamaha"],prix:["location-hanoi","types"],permis:["types","location-hanoi","nord"],hanoi:["location-hanoi","nord"],nord:["types","permis","hanoi"],"centre-sud":["types","permis","nord"]};
+const seen=new Set([cur]),cluster=[];
+const add=(url,title,tags=[])=>{if(url&&!seen.has(url)){seen.add(url);cluster.push({url,title,tags})}};
+if(currentSilo){
+  add(currentSilo.href,currentSilo.title,[currentSilo.id,"parent"]);
+  currentSilo.children.forEach(c=>add(c.href,c.title,[currentSilo.id,"sibling"]));
+  (cross[currentSilo.id]||[]).map(byId).filter(Boolean).forEach(s=>add(s.href,s.title,[s.id,"cross"]));
+}
+I.filter(x=>x.url!==cur&&!["/confidentialite/","/conditions/"].includes(x.url))
+ .map(x=>({...x,score:x.tags.filter(t=>tags.includes(t)).length+(currentSilo&&x.tags.includes(currentSilo.id)?4:0)}))
+ .sort((a,b)=>b.score-a.score||a.title.localeCompare(b.title))
+ .forEach(x=>add(x.url,x.title,x.tags));
+const rel=cluster.slice(0,6);
+document.querySelectorAll("[data-related]").forEach(x=>x.innerHTML='<section class="related topical-cluster"><p class="eyebrow">Cluster thématique</p><h2>Continuer dans ce sujet</h2><div class="card-grid">'+rel.map(r=>'<a class="card" href="'+r.url+'"><strong>'+e(r.title)+'</strong><span>Lire →</span></a>').join("")+'</div></section>');
 document.querySelectorAll("[data-breadcrumbs]").forEach(host=>{const s=S.find(s=>cur===s.href||s.children.some(c=>c.href===cur));if(!s)return;const child=s.children.find(c=>c.href===cur);const it=[["Accueil","/"],[s.title,s.href],...(child?[[child.title,child.href]]:[])];host.innerHTML='<nav class="breadcrumbs">'+it.map((x,i)=>i===it.length-1?'<span>'+e(x[0])+'</span>':'<a href="'+x[1]+'">'+e(x[0])+'</a><b>/</b>').join("")+'</nav>'});
 if(C.featureFlags.schema){const graph=[{"@type":"LocalBusiness","@id":C.domain+"/#business",name:C.siteName,url:C.domain,telephone:C.phone,email:C.email,address:{"@type":"PostalAddress",streetAddress:C.address.street,addressLocality:C.address.city,addressCountry:"VN"}},{"@type":document.body.dataset.pageType==="hub"?"CollectionPage":"WebPage",name:document.querySelector("h1")?.textContent?.trim()||document.title,url:C.domain+cur}];
 if(document.body.dataset.pageType==="faq"){const q=[...document.querySelectorAll("[data-faq-item]")].map(x=>({q:x.querySelector("h2")?.textContent?.trim(),a:x.querySelector("p")?.textContent?.trim()})).filter(x=>x.q&&x.a);if(q.length)graph.push({"@type":"FAQPage",mainEntity:q.map(x=>({"@type":"Question",name:x.q,acceptedAnswer:{"@type":"Answer",text:x.a}}))})}
