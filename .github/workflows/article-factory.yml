@@ -64,6 +64,7 @@ jobs:
           node tools/import-plan.mjs
           node tools/factory.mjs refresh-queue
           node tools/build-content-index.mjs
+          node tools/build-chat-index.mjs
           node scripts/qa.mjs
 
       - name: Refresh queue
@@ -87,6 +88,7 @@ jobs:
         run: |
           node tools/factory.mjs process --before "${{ github.event.before }}" --after "${{ github.sha }}"
           node tools/build-content-index.mjs
+          node tools/build-chat-index.mjs
           node scripts/qa.mjs
           node tools/factory.mjs verify-last
 
@@ -96,6 +98,7 @@ jobs:
           test -n "${{ inputs.id }}"
           node tools/factory.mjs approve "${{ inputs.id }}"
           node tools/build-content-index.mjs
+          node tools/build-chat-index.mjs
           node scripts/qa.mjs
 
       - name: Commit factory state

@@ -9,8 +9,9 @@ window.SITE_CONFIG=Object.freeze({
   email:"nguyentuantu8x@gmail.com",
   address:{street:"112 Nguyen Van Cu",district:"Long Bien",city:"Hanoi",country:"Vietnam"},
   hours:{open:"09:00",close:"21:30",timezone:"Asia/Ho_Chi_Minh"},
+  contacts:{whatsapp:"https://wa.me/84942467674",zalo:"https://zalo.me/84942467674",maps:"https://www.google.com/maps/search/?api=1&query=Thue%20xe%20may%20Nguyen%20Tu%20112%20Nguyen%20Van%20Cu%20Long%20Bien%20Hanoi"},
   brand:{blue:"#1877F2",black:"#050505",white:"#FFFFFF"},
-  featureFlags:{themeToggle:true,businessStatus:true,globalCTA:true,related:true,schema:true,breadcrumbs:true},
+  featureFlags:{themeToggle:true,businessStatus:true,globalCTA:true,related:true,schema:true,breadcrumbs:true,quickContact:true,localChatbot:true},
   navGroups:[
     {label:"Accueil",href:"/"},
     {label:"À propos",href:"/a-propos/"},

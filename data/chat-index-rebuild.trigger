@@ -1,0 +1,1 @@
+rebuild local chatbot index v1\n
