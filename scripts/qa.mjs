@@ -22,6 +22,7 @@ for(const f of html){
  if(!/<html[^>]*lang="fr"/i.test(t))err.push(r+": lang fr missing");
  if((t.match(/<h1\b/gi)||[]).length!==1)err.push(r+": H1 count");
  if(!title||!desc||!canonical)err.push(r+": SEO head missing");
+ if(/\b(motorbike rental|motorcycle rental|best motorbike|old quarter|things to do|rental price|driving license)\b/i.test(title+" "+desc+" "+h1))err.push(r+": obvious English SEO phrase");
  if(!/site-config\.js/.test(t)||!/silo-map\.js/.test(t)||!/content-index\.js/.test(t))err.push(r+": shared data");
  if(!sm.includes("https://fr.rentbikehanoi.com"+u))err.push(r+": sitemap");
  if(!/data-breadcrumbs/.test(t)||!/data-related/.test(t))err.push(r+": shared hooks");

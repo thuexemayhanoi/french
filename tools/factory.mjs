@@ -203,6 +203,7 @@ function validateDraft(html,row){
   if(!/<html[^>]*lang="fr"/i.test(html))errors.push("html lang must be fr");
   if(tlen<cfg.title_min_chars||tlen>cfg.title_max_chars)errors.push("title length "+tlen+" outside "+cfg.title_min_chars+"-"+cfg.title_max_chars);
   if(dlen<cfg.meta_description_min_chars||dlen>cfg.meta_description_max_chars)errors.push("meta description length "+dlen+" outside "+cfg.meta_description_min_chars+"-"+cfg.meta_description_max_chars);
+  if(/\b(motorbike rental|motorcycle rental|best motorbike|old quarter|things to do|rental price|driving license)\b/i.test(title+" "+desc))errors.push("obvious English SEO phrase in title/meta");
   if(h1n!==1)errors.push("expected exactly one H1");
   if(canon!==row.url)errors.push("canonical mismatch");
   const expectedRoute=expectedFactoryRoute(row),actualRoute=new URL(row.url).pathname,leaf=actualRoute.split("/").filter(Boolean).at(-1)||"";
