@@ -1,0 +1,123 @@
+name: French Article Factory
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_factory/inbox/**'
+      - 'data/source-plan.xlsx'
+      - 'data/factory-prepare.trigger'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Factory control
+        required: true
+        default: status
+        type: choice
+        options:
+          - prepare-plan
+          - refresh-queue
+          - process
+          - pause
+          - resume
+          - status
+          - approve
+      id:
+        description: Article ID for approve, e.g. FR-320
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: french-article-factory-v1
+  cancel-in-progress: false
+
+jobs:
+  factory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Resolve action
+        id: control
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            action="${{ inputs.action }}"
+          else
+            changed="$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" || true)"
+            if echo "$changed" | grep -Eq "^(data/source-plan.xlsx|data/factory-prepare.trigger)$"; then action="prepare-plan"; else action="process"; fi
+          fi
+          echo "action=$action" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare 500-row plan
+        if: steps.control.outputs.action == 'prepare-plan'
+        run: |
+          node tools/import-plan.mjs
+          node tools/factory.mjs refresh-queue
+          node tools/build-content-index.mjs
+          node scripts/qa.mjs
+
+      - name: Refresh queue
+        if: steps.control.outputs.action == 'refresh-queue'
+        run: node tools/factory.mjs refresh-queue
+
+      - name: Pause
+        if: steps.control.outputs.action == 'pause'
+        run: node tools/factory.mjs pause
+
+      - name: Resume
+        if: steps.control.outputs.action == 'resume'
+        run: node tools/factory.mjs resume
+
+      - name: Status
+        if: steps.control.outputs.action == 'status'
+        run: node tools/factory.mjs status
+
+      - name: Process inbox
+        if: steps.control.outputs.action == 'process'
+        run: |
+          node tools/factory.mjs process --before "${{ github.event.before }}" --after "${{ github.sha }}"
+          node tools/build-content-index.mjs
+          node scripts/qa.mjs
+          node tools/factory.mjs verify-last
+
+      - name: Approve reviewed article
+        if: steps.control.outputs.action == 'approve'
+        run: |
+          test -n "${{ inputs.id }}"
+          node tools/factory.mjs approve "${{ inputs.id }}"
+          node tools/build-content-index.mjs
+          node scripts/qa.mjs
+
+      - name: Commit factory state
+        if: steps.control.outputs.action != 'status'
+        shell: bash
+        run: |
+          set -e
+          git config user.name "french-factory-bot"
+          git config user.email "nguyentuantu2482@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "factory: ${{ steps.control.outputs.action }}"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## French Article Factory" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Action: ${{ steps.control.outputs.action }}" >> "$GITHUB_STEP_SUMMARY"
+          node tools/factory.mjs status >> "$GITHUB_STEP_SUMMARY" || true
