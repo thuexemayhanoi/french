@@ -16,3 +16,7 @@ jobs:
           node-version: "22"
       - name: Run static QA
         run: node scripts/qa.mjs
+      - name: Verify generated content index
+        run: node tools/build-content-index.mjs --check
+      - name: Verify factory state
+        run: node tools/factory.mjs status
