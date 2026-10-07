@@ -59,7 +59,7 @@ if(!fs.existsSync("assets/js/assistant.js"))err.push("local assistant script mis
 if(!fs.existsSync("assets/chat/search-index.json"))err.push("chat search index missing");
 else{const chat=JSON.parse(fs.readFileSync("assets/chat/search-index.json","utf8"));if(chat.count!==indexableCount)err.push("chat index count "+chat.count+" differs from indexable HTML "+indexableCount);if(!Array.isArray(chat.e)||chat.e.length!==chat.count)err.push("chat index entries invalid")}
 if(!fs.readFileSync("assets/css/site.css","utf8").includes(".quick-contact")||!fs.readFileSync("assets/css/site.css","utf8").includes(".chat-panel"))err.push("floating UI CSS missing");
-const legacy=fs.existsSync("data/legacy-redirects.json")?JSON.parse(fs.readFileSync("data/legacy-redirects.json","utf8")):[];if(legacy.length!==redirectCount)err.push("legacy redirect inventory mismatch");for(const x of legacy){if(!fs.existsSync(x.from.replace(/^\\//,"")+"index.html"))err.push("legacy redirect missing "+x.from)}
+const legacy=fs.existsSync("data/legacy-redirects.json")?JSON.parse(fs.readFileSync("data/legacy-redirects.json","utf8")):[];if(legacy.length!==redirectCount)err.push("legacy redirect inventory mismatch");for(const x of legacy){const p=(x.from.startsWith("/")?x.from.slice(1):x.from)+"index.html";if(!fs.existsSync(p))err.push("legacy redirect missing "+x.from)}
 if(!fs.readFileSync("assets/css/site.css","utf8").includes(".article-toc"))err.push("article TOC CSS missing");
 if(!fs.readFileSync("index.html","utf8").includes("https://app.rentbikehanoi.com/"))err.push("English-site homepage link missing");
 if(fs.readFileSync("CNAME","utf8").trim()!=="fr.rentbikehanoi.com")err.push("CNAME");
