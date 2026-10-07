@@ -7,12 +7,12 @@ for(const f of html){
  const t=fs.readFileSync(f,"utf8"),r=path.relative(root,f),u=route(f),main=t.match(/<main class="shell">([\s\S]*?)<\/main>/i)?.[1]||"";
  const title=t.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.trim()||"",desc=t.match(/<meta name="description" content="([^"]*)"/i)?.[1]||"",h1=t.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1]?.replace(/<[^>]+>/g,"").trim()||"",canonical=t.match(/<link rel="canonical" href="([^"]+)"/i)?.[1]||"";
  if((t.match(/<h1\b/gi)||[]).length!==1)err.push(r+": H1");
- if(!canonical)err.push(r+": canonical");
+ if(!canonical)err.push(r+": canonical"); if(row&&canonical!==row.canonical)err.push(r+": canonical differs from matrix");
  if(!/meta name="description"/i.test(t))err.push(r+": meta"); const row=clusterMatrix.pages.find(x=>x.path===u); if(!row)err.push(r+": missing from SEO cluster matrix"); else {if(title!==row.seo_title)err.push(r+": title differs from matrix"); if(desc!==row.meta_description)err.push(r+": meta description differs from matrix"); if(h1!==row.h1)err.push(r+": H1 differs from matrix");}
  if(!/site-config\.js/.test(t)||!/silo-map\.js/.test(t)||!/content-index\.js/.test(t))err.push(r+": shared data");
  if(!sm.includes("https://fr.rentbikehanoi.com"+u))err.push(r+": sitemap");
- if(!/data-breadcrumbs/.test(t))err.push(r+": breadcrumbs");
- if(!/data-related/.test(t))err.push(r+": topical cluster placeholder");
+ if(!/data-breadcrumbs/.test(t))err.push(r+": breadcrumbs"); if(row&&(!row.breadcrumbs||!row.breadcrumbs.length))err.push(r+": missing breadcrumb mapping in matrix");
+ if(!/data-related/.test(t))err.push(r+": topical cluster placeholder"); if(row&&row.sitemap!=="INCLUDED")err.push(r+": sitemap matrix status"); if(row&&!row.schema_type)err.push(r+": schema type missing from matrix");
  const wc=count(main);
  if(r!=="contact/index.html"&&(wc<1500||wc>3000))err.push(r+": word-count "+wc+" (expected 1500-3000)");
  if(r!=="contact/index.html"){

@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "scope": "SEO content + topical cluster + internal-link matrix for all 43 existing French foundation pages",
+  "version": "1.2",
+  "scope": "43 existing foundation pages: SEO content, metadata, topical clusters, internal links, canonical, breadcrumbs, schema and sitemap mapping",
   "rules": {
     "one_primary_intent_per_url": true,
     "foundation_content_words": "1500-3000 except /contact/",
@@ -12,7 +12,10 @@
     "english_site_body_link_on_home": "https://app.rentbikehanoi.com/",
     "metadata_from_matrix": true,
     "unique_seo_title": true,
-    "unique_h1_per_intent": true
+    "unique_h1_per_intent": true,
+    "canonical_locked_to_matrix": true,
+    "breadcrumb_schema": true,
+    "schema_type_from_matrix": true
   },
   "pages": [
     {
@@ -41,7 +44,18 @@
       "seo_title": "Location moto Hanoi & scooter | Nguyen Tu",
       "meta_description": "Location de moto et scooter à Hanoi avec Nguyen Tu : 50cc, Honda, Yamaha, prix, permis, quartiers et itinéraires au Vietnam.",
       "h1": "Location de moto et scooter à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/",
+      "schema_type": "WebPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-002",
@@ -67,7 +81,22 @@
       "seo_title": "Nguyen Tu | Location moto Hanoi, Long Bien",
       "meta_description": "Découvrez Nguyen Tu, service local de location de moto à Long Bien, Hanoi : expérience, adresse, méthode, conseils et organisation du site.",
       "h1": "À propos de Nguyen Tu à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/a-propos/",
+      "schema_type": "AboutPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "À propos de Nguyen Tu à Hanoi",
+          "url": "/a-propos/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-003",
@@ -94,7 +123,22 @@
       "seo_title": "Blog moto Vietnam | Location, modèles & road trips",
       "meta_description": "Guides en français sur la location de moto à Hanoi, Honda, Yamaha, 50cc, prix, permis, sécurité et road trips au Vietnam.",
       "h1": "Blog moto et scooter au Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/blog/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Blog moto et scooter au Vietnam",
+          "url": "/blog/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-004",
@@ -120,7 +164,22 @@
       "seo_title": "FAQ location moto Hanoi | Prix, permis & dépôt",
       "meta_description": "20 réponses utiles sur la location de moto à Hanoi : prix 50cc, dépôt, passeport, durée, modèles, permis, sécurité et voyages.",
       "h1": "20 questions sur la location de moto à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/faq/",
+      "schema_type": "FAQPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "20 questions sur la location de moto à Hanoi",
+          "url": "/faq/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-005",
@@ -141,7 +200,22 @@
       "seo_title": "Contact location moto Hanoi | Nguyen Tu",
       "meta_description": "Contactez Nguyen Tu pour une location de moto à Hanoi : téléphone, email, adresse à Long Bien et horaires habituels de 09:00 à 21:30.",
       "h1": "Contact location moto Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/contact/",
+      "schema_type": "ContactPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Contact location moto Hanoi",
+          "url": "/contact/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE_CONTACT_EXEMPT"
     },
     {
       "id": "FND-006",
@@ -165,7 +239,22 @@
       "seo_title": "Politique de confidentialité | Nguyen Tu",
       "meta_description": "Politique de confidentialité de fr.rentbikehanoi.com : données fournies, données techniques, contact, conservation, sécurité et droits.",
       "h1": "Politique de confidentialité",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/confidentialite/",
+      "schema_type": "WebPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Politique de confidentialité",
+          "url": "/confidentialite/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-007",
@@ -190,7 +279,22 @@
       "seo_title": "Conditions d’utilisation | Location moto Hanoi",
       "meta_description": "Conditions d’utilisation de fr.rentbikehanoi.com : informations, prix, disponibilité, documents, conduite, responsabilité et contenu voyage.",
       "h1": "Conditions d’utilisation du site",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/conditions/",
+      "schema_type": "WebPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Conditions d’utilisation du site",
+          "url": "/conditions/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-008",
@@ -218,7 +322,22 @@
       "seo_title": "Location moto Hanoi | Scooter, 50cc & longue durée",
       "meta_description": "Guide de location moto à Hanoi : scooter, 50cc, courte ou longue durée, dépôt, retrait à Long Bien, livraison, prix et préparation.",
       "h1": "Location de moto à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Location de moto à Hanoi",
+          "url": "/location-moto-hanoi/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-009",
@@ -245,7 +364,26 @@
       "seo_title": "Location moto courte durée Hanoi | 1 à 14 jours",
       "meta_description": "Location moto courte durée à Hanoi pour 1 à 14 jours : choix du véhicule, prix, dépôt, retrait, 50cc et excursions autour de Hanoi.",
       "h1": "Location de moto courte durée à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/courte-duree/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Location de moto à Hanoi",
+          "url": "/location-moto-hanoi/"
+        },
+        {
+          "name": "Location de moto courte durée à Hanoi",
+          "url": "/location-moto-hanoi/courte-duree/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-010",
@@ -271,7 +409,26 @@
       "seo_title": "Location moto longue durée Hanoi | Mois & long séjour",
       "meta_description": "Location moto longue durée à Hanoi : prix mensuel, dépôt, entretien, modèles adaptés, prolongation et usage quotidien sur plusieurs semaines.",
       "h1": "Location de moto longue durée à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/longue-duree/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Location de moto à Hanoi",
+          "url": "/location-moto-hanoi/"
+        },
+        {
+          "name": "Location de moto longue durée à Hanoi",
+          "url": "/location-moto-hanoi/longue-duree/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-011",
@@ -299,7 +456,26 @@
       "seo_title": "Location moto par quartier à Hanoi | Long Bien & centre",
       "meta_description": "Où louer une moto selon votre quartier à Hanoi : Long Bien, Hoan Kiem, Vieux Quartier, Tay Ho, Ba Dinh, retrait, circulation et livraison.",
       "h1": "Location de moto par quartier à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/quartiers/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Location de moto à Hanoi",
+          "url": "/location-moto-hanoi/"
+        },
+        {
+          "name": "Location de moto par quartier à Hanoi",
+          "url": "/location-moto-hanoi/quartiers/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-012",
@@ -327,7 +503,22 @@
       "seo_title": "Location Honda Hanoi | Vision, Air Blade, Wave & plus",
       "meta_description": "Guide Honda à Hanoi : Vision, Air Blade, LEAD, Vario, Wave, Future et modèles électriques, avec critères de choix pour ville et voyage.",
       "h1": "Motos Honda à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/honda/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Honda à Hanoi",
+          "url": "/honda/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-013",
@@ -355,7 +546,26 @@
       "seo_title": "Scooters Honda Hanoi | Vision, Air Blade, LEAD, Vario",
       "meta_description": "Comparez les scooters Honda à Hanoi : Vision, Air Blade, LEAD, Vario et autres modèles selon gabarit, rangement, ville, route et confort.",
       "h1": "Scooters Honda à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/honda/scooters/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Honda à Hanoi",
+          "url": "/honda/"
+        },
+        {
+          "name": "Scooters Honda à Hanoi",
+          "url": "/honda/scooters/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-014",
@@ -381,7 +591,26 @@
       "seo_title": "Honda semi-automatique | Wave & Future à Hanoi",
       "meta_description": "Guide des Honda semi-automatiques à Hanoi : Wave, Future, passage des rapports, ville, route, entretien, bagages et comparaison avec Yamaha.",
       "h1": "Motos semi-automatiques Honda",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/honda/semi-automatiques/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Honda à Hanoi",
+          "url": "/honda/"
+        },
+        {
+          "name": "Motos semi-automatiques Honda",
+          "url": "/honda/semi-automatiques/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-015",
@@ -407,7 +636,26 @@
       "seo_title": "Scooter électrique Honda Vietnam | ICON e:, CUV e:",
       "meta_description": "Guide des motos et scooters électriques Honda au Vietnam : autonomie, recharge, usage urbain, coût, limites et disponibilité à vérifier.",
       "h1": "Motos et scooters électriques Honda",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/honda/electriques/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Honda à Hanoi",
+          "url": "/honda/"
+        },
+        {
+          "name": "Motos et scooters électriques Honda",
+          "url": "/honda/electriques/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-016",
@@ -435,7 +683,22 @@
       "seo_title": "Location Yamaha Hanoi | NVX, NMAX, Sirius, WR155R",
       "meta_description": "Guide Yamaha à Hanoi : NVX, NMAX, Janus, Grande, Sirius, PG-1, WR155R et autres modèles pour ville, route et aventure.",
       "h1": "Motos Yamaha à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/yamaha/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Yamaha à Hanoi",
+          "url": "/yamaha/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-017",
@@ -463,7 +726,26 @@
       "seo_title": "Scooters Yamaha Hanoi | NVX, NMAX, Janus, Grande",
       "meta_description": "Comparez les scooters Yamaha à Hanoi : NVX, NMAX, Janus, Grande et FreeGo selon confort, gabarit, rangement, ville et route.",
       "h1": "Scooters Yamaha à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/yamaha/scooters/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Yamaha à Hanoi",
+          "url": "/yamaha/"
+        },
+        {
+          "name": "Scooters Yamaha à Hanoi",
+          "url": "/yamaha/scooters/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-018",
@@ -489,7 +771,26 @@
       "seo_title": "Yamaha semi-automatique | Sirius & Jupiter Finn",
       "meta_description": "Guide Yamaha semi-automatique : Sirius, Jupiter Finn, passage des rapports, usage quotidien, voyages, bagages et comparaison avec Honda Wave.",
       "h1": "Motos semi-automatiques Yamaha",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/yamaha/semi-automatiques/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Yamaha à Hanoi",
+          "url": "/yamaha/"
+        },
+        {
+          "name": "Motos semi-automatiques Yamaha",
+          "url": "/yamaha/semi-automatiques/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-019",
@@ -515,7 +816,26 @@
       "seo_title": "Yamaha WR155R Hanoi | Trail & aventure Vietnam",
       "meta_description": "Guide Yamaha trail et aventure : WR155R, routes de montagne, hauteur de selle, bagages, pneus, sécurité et préparation Ha Giang ou Sapa.",
       "h1": "Yamaha trail et aventure",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/yamaha/trail-aventure/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Motos Yamaha à Hanoi",
+          "url": "/yamaha/"
+        },
+        {
+          "name": "Yamaha trail et aventure",
+          "url": "/yamaha/trail-aventure/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-020",
@@ -545,7 +865,22 @@
       "seo_title": "Types de motos à Hanoi | Scooter, 50cc, trail & électrique",
       "meta_description": "Comparez les types de motos à louer à Hanoi : scooter automatique, semi-automatique, 50cc, électrique et trail selon usage et permis.",
       "h1": "Types de motos à louer à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/types-motos/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Types de motos à louer à Hanoi",
+          "url": "/types-motos/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-021",
@@ -571,7 +906,26 @@
       "seo_title": "Location scooter automatique Hanoi | Guide complet",
       "meta_description": "Guide de location scooter automatique à Hanoi : gabarit, cylindrée, rangement, ville, route, Honda, Yamaha, permis et sécurité.",
       "h1": "Location de scooter automatique à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/types-motos/scooter-automatique/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Types de motos à louer à Hanoi",
+          "url": "/types-motos/"
+        },
+        {
+          "name": "Location de scooter automatique à Hanoi",
+          "url": "/types-motos/scooter-automatique/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-022",
@@ -597,7 +951,26 @@
       "seo_title": "Location moto semi-automatique Hanoi | Guide complet",
       "meta_description": "Guide de location moto semi-automatique à Hanoi : rapports, Wave, Sirius, ville, montagne, entretien, bagages et comparaison avec scooter.",
       "h1": "Location de moto semi-automatique à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/types-motos/semi-automatique/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Types de motos à louer à Hanoi",
+          "url": "/types-motos/"
+        },
+        {
+          "name": "Location de moto semi-automatique à Hanoi",
+          "url": "/types-motos/semi-automatique/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-023",
@@ -623,7 +996,26 @@
       "seo_title": "Location scooter 50cc Hanoi | Prix, dépôt & permis",
       "meta_description": "Location scooter 50cc à Hanoi : prix vérifié 200 000 VND/jour, dépôt 4 000 000 VND ou passeport, usages, limites et permis.",
       "h1": "Location de scooter 50cc à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/types-motos/50cc/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Types de motos à louer à Hanoi",
+          "url": "/types-motos/"
+        },
+        {
+          "name": "Location de scooter 50cc à Hanoi",
+          "url": "/types-motos/50cc/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-024",
@@ -649,7 +1041,26 @@
       "seo_title": "Location scooter électrique Hanoi | Autonomie & recharge",
       "meta_description": "Guide de location scooter électrique à Hanoi : autonomie réelle, recharge, coût, usage urbain, longue durée et comparaison avec essence.",
       "h1": "Location de moto et scooter électrique à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/types-motos/electrique/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Types de motos à louer à Hanoi",
+          "url": "/types-motos/"
+        },
+        {
+          "name": "Location de moto et scooter électrique à Hanoi",
+          "url": "/types-motos/electrique/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-025",
@@ -676,7 +1087,26 @@
       "seo_title": "Location moto trail Hanoi | Ha Giang, Sapa & aventure",
       "meta_description": "Guide de location moto trail à Hanoi : WR155R, CT125, hauteur de selle, pneus, bagages, montagne, Ha Giang, Sapa et sécurité.",
       "h1": "Location de moto trail pour voyager au Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/types-motos/trail/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Types de motos à louer à Hanoi",
+          "url": "/types-motos/"
+        },
+        {
+          "name": "Location de moto trail pour voyager au Vietnam",
+          "url": "/types-motos/trail/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-026",
@@ -702,7 +1132,22 @@
       "seo_title": "Prix location moto Hanoi | Jour, semaine & mois",
       "meta_description": "Prix de location moto à Hanoi : tarifs par jour, semaine et mois, dépôt, livraison, carburant, entretien et coût total selon le véhicule.",
       "h1": "Prix de location de moto à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/prix-location/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Prix de location de moto à Hanoi",
+          "url": "/prix-location/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-027",
@@ -728,7 +1173,26 @@
       "seo_title": "Prix location moto Hanoi par jour | Tarifs & dépôt",
       "meta_description": "Prix location moto à Hanoi par jour : exemple 50cc à 200 000 VND, dépôt, durée réelle, carburant et comparaison avec semaine ou mois.",
       "h1": "Prix de location de moto par jour à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/prix-location/jour/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Prix de location de moto à Hanoi",
+          "url": "/prix-location/"
+        },
+        {
+          "name": "Prix de location de moto par jour à Hanoi",
+          "url": "/prix-location/jour/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-028",
@@ -753,7 +1217,26 @@
       "seo_title": "Prix location moto Hanoi semaine | Coût & conditions",
       "meta_description": "Prix location moto à Hanoi pour une semaine : coût total, dépôt, carburant, entretien, confort et comparaison avec location journalière ou mensuelle.",
       "h1": "Prix de location de moto par semaine à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/prix-location/semaine/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Prix de location de moto à Hanoi",
+          "url": "/prix-location/"
+        },
+        {
+          "name": "Prix de location de moto par semaine à Hanoi",
+          "url": "/prix-location/semaine/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-029",
@@ -779,7 +1262,26 @@
       "seo_title": "Prix location moto Hanoi mois | Longue durée & entretien",
       "meta_description": "Prix location moto à Hanoi au mois : coût mensuel, dépôt, entretien, modèles adaptés, prolongation et comparaison avec achat ou location courte.",
       "h1": "Prix de location de moto par mois à Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/prix-location/mois/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Prix de location de moto à Hanoi",
+          "url": "/prix-location/"
+        },
+        {
+          "name": "Prix de location de moto par mois à Hanoi",
+          "url": "/prix-location/mois/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-030",
@@ -804,7 +1306,22 @@
       "seo_title": "Permis moto Vietnam & sécurité | Guide étrangers",
       "meta_description": "Guide permis moto et sécurité au Vietnam pour étrangers : documents, catégories de permis, casque, freins, pneus, pluie, montagne et pannes.",
       "h1": "Permis moto et sécurité au Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/permis-securite/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Permis moto et sécurité au Vietnam",
+          "url": "/permis-securite/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-031",
@@ -830,7 +1347,26 @@
       "seo_title": "Permis moto Vietnam pour étranger | A1, A & documents",
       "meta_description": "Permis moto au Vietnam pour les étrangers : catégories A1 et A, permis international, documents, cylindrée, puissance et points à vérifier.",
       "h1": "Permis moto au Vietnam pour les étrangers",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/permis-securite/permis/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Permis moto et sécurité au Vietnam",
+          "url": "/permis-securite/"
+        },
+        {
+          "name": "Permis moto au Vietnam pour les étrangers",
+          "url": "/permis-securite/permis/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-032",
@@ -856,7 +1392,26 @@
       "seo_title": "Sécurité moto Vietnam | Hanoi, pluie & montagne",
       "meta_description": "Conseils de sécurité à moto au Vietnam : freins, pneus, casque, pluie, circulation à Hanoi, descentes, montagne, pannes et contrôle avant départ.",
       "h1": "Sécurité à moto au Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/permis-securite/securite/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Permis moto et sécurité au Vietnam",
+          "url": "/permis-securite/"
+        },
+        {
+          "name": "Sécurité à moto au Vietnam",
+          "url": "/permis-securite/securite/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-033",
@@ -881,7 +1436,22 @@
       "seo_title": "Hanoi à moto | Itinéraires, quartiers & excursions",
       "meta_description": "Visiter Hanoi à moto : Vieux Quartier, Hoan Kiem, West Lake, Long Bien, quartiers, circulation, stationnement et excursions autour de la ville.",
       "h1": "Visiter Hanoi à moto",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/hanoi/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Visiter Hanoi à moto",
+          "url": "/hanoi/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-034",
@@ -907,7 +1477,26 @@
       "seo_title": "Que faire à Hanoi | 1, 2 ou 3 jours à moto",
       "meta_description": "Que faire à Hanoi en 1, 2 ou 3 jours : Vieux Quartier, Hoan Kiem, Ba Dinh, West Lake, musées, nourriture, pluie et déplacements à moto.",
       "h1": "Que faire à Hanoi : itinéraires et idées",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/hanoi/que-faire/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Visiter Hanoi à moto",
+          "url": "/hanoi/"
+        },
+        {
+          "name": "Que faire à Hanoi : itinéraires et idées",
+          "url": "/hanoi/que-faire/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-035",
@@ -934,7 +1523,26 @@
       "seo_title": "Excursions moto depuis Hanoi | Ba Vi, Bat Trang & plus",
       "meta_description": "Excursions à moto depuis Hanoi : Bat Trang, Ba Vi, Duong Lam, Soc Son, Ninh Binh, choix du véhicule, météo, sécurité et durée réaliste.",
       "h1": "Excursions à moto depuis Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/hanoi/excursions-moto/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Visiter Hanoi à moto",
+          "url": "/hanoi/"
+        },
+        {
+          "name": "Excursions à moto depuis Hanoi",
+          "url": "/hanoi/excursions-moto/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-036",
@@ -961,7 +1569,22 @@
       "seo_title": "Road trip moto Nord Vietnam | Ha Giang, Sapa & plus",
       "meta_description": "Road trip moto dans le Nord du Vietnam : Ha Giang, Sapa, Ninh Binh, Ha Long, Cao Bang, Mai Chau, choix de moto, météo et sécurité.",
       "h1": "Road trip moto dans le Nord du Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Nord du Vietnam",
+          "url": "/nord-vietnam/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-037",
@@ -988,7 +1611,26 @@
       "seo_title": "Ha Giang Loop à moto | Itinéraire, permis & moto",
       "meta_description": "Préparer la Ha Giang Loop à moto : durée, trail ou semi-automatique, météo, bagages, pneus, permis, hébergement et sécurité en montagne.",
       "h1": "Ha Giang Loop à moto",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/ha-giang/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Nord du Vietnam",
+          "url": "/nord-vietnam/"
+        },
+        {
+          "name": "Ha Giang Loop à moto",
+          "url": "/nord-vietnam/ha-giang/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-038",
@@ -1014,7 +1656,26 @@
       "seo_title": "Sapa à moto depuis Hanoi | Route, météo & choix moto",
       "meta_description": "Sapa à moto depuis Hanoi : route, météo, brouillard, pentes, choix de moto, bagages, sécurité et itinéraires autour des vallées.",
       "h1": "Sapa à moto : route et préparation",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/sapa/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Nord du Vietnam",
+          "url": "/nord-vietnam/"
+        },
+        {
+          "name": "Sapa à moto : route et préparation",
+          "url": "/nord-vietnam/sapa/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-039",
@@ -1040,7 +1701,26 @@
       "seo_title": "Ninh Binh à moto depuis Hanoi | Itinéraire & conseils",
       "meta_description": "Ninh Binh à moto depuis Hanoi : Trang An, Tam Coc, Hang Mua, trajet, scooter ou semi-automatique, 50cc, météo et retour en sécurité.",
       "h1": "Ninh Binh à moto depuis Hanoi",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/ninh-binh/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Nord du Vietnam",
+          "url": "/nord-vietnam/"
+        },
+        {
+          "name": "Ninh Binh à moto depuis Hanoi",
+          "url": "/nord-vietnam/ninh-binh/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-040",
@@ -1066,7 +1746,26 @@
       "seo_title": "Hanoi–Ha Long à moto | Route, sécurité & conseils",
       "meta_description": "Hanoi à Ha Long à moto : itinéraire autorisé, durée, choix de véhicule, stationnement, météo, croisière et retour vers Hanoi.",
       "h1": "Hanoi à Ha Long à moto",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/ha-long/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Nord du Vietnam",
+          "url": "/nord-vietnam/"
+        },
+        {
+          "name": "Hanoi à Ha Long à moto",
+          "url": "/nord-vietnam/ha-long/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-041",
@@ -1092,7 +1791,22 @@
       "seo_title": "Road trip moto Centre & Sud Vietnam | Guide",
       "meta_description": "Road trip moto dans le Centre et le Sud du Vietnam : Hue, Da Nang, Hoi An, Da Lat, Saigon, Mékong, Phu Quoc et traversée du pays.",
       "h1": "Road trip moto dans le Centre et le Sud du Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/centre-sud-vietnam/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Centre et le Sud du Vietnam",
+          "url": "/centre-sud-vietnam/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-042",
@@ -1118,7 +1832,26 @@
       "seo_title": "Road trip moto Centre Vietnam | Hue, Da Nang, Hoi An",
       "meta_description": "Road trip moto dans le Centre du Vietnam : Hue, Hai Van Pass, Da Nang, Hoi An, Phong Nha, météo, routes, bagages et sécurité.",
       "h1": "Road trip moto dans le Centre du Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/centre-sud-vietnam/centre/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Centre et le Sud du Vietnam",
+          "url": "/centre-sud-vietnam/"
+        },
+        {
+          "name": "Road trip moto dans le Centre du Vietnam",
+          "url": "/centre-sud-vietnam/centre/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     },
     {
       "id": "FND-043",
@@ -1144,7 +1877,32 @@
       "seo_title": "Road trip moto Sud Vietnam | Saigon, Mekong, Phu Quoc",
       "meta_description": "Road trip moto dans le Sud du Vietnam : Saigon, Vung Tau, Can Tho, delta du Mékong, Phu Quoc, chaleur, circulation et sécurité.",
       "h1": "Road trip moto dans le Sud du Vietnam",
-      "meta_status": "APPLIED"
+      "meta_status": "APPLIED",
+      "canonical": "https://fr.rentbikehanoi.com/centre-sud-vietnam/sud/",
+      "schema_type": "CollectionPage",
+      "breadcrumbs": [
+        {
+          "name": "Accueil",
+          "url": "/"
+        },
+        {
+          "name": "Road trip moto dans le Centre et le Sud du Vietnam",
+          "url": "/centre-sud-vietnam/"
+        },
+        {
+          "name": "Road trip moto dans le Sud du Vietnam",
+          "url": "/centre-sud-vietnam/sud/"
+        }
+      ],
+      "sitemap": "INCLUDED",
+      "technical_status": "COMPLETE",
+      "overall_status": "COMPLETE"
     }
-  ]
+  ],
+  "summary": {
+    "total_pages": 43,
+    "complete": 42,
+    "contact_exempt": 1,
+    "pending": 0
+  }
 }
