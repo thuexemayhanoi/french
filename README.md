@@ -1,2 +1,1 @@
-# french
-Blog french
+# french\n\nFrench static SEO site for https://fr.rentbikehanoi.com. Shared config/components/design tokens; no heavy dependency; CNAME preserved.\n
