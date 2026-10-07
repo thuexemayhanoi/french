@@ -204,7 +204,7 @@ function validateDraft(html,row){
   if(canon!==row.url)errors.push("canonical mismatch");
   if(wc<cfg.first_pass_min_words||wc>cfg.first_pass_max_words)errors.push("word count "+wc+" outside "+cfg.first_pass_min_words+"-"+cfg.first_pass_max_words);
   if(links.length<cfg.first_pass_min_internal_links)errors.push("internal links below minimum");
-  if(links.length>cfg.first_pass_max_internal_links)warnings.push("internal links above preferred maximum: "+links.length);
+  if(links.length>cfg.first_pass_max_internal_links)errors.push("internal links above maximum: "+links.length);
   if(fr<25)errors.push("French-language signal too weak");
   if(h2n<4)errors.push("fewer than 4 H2 sections");
   for(const t of targets)if(!links.includes(t))errors.push("missing required link "+t);
@@ -219,7 +219,7 @@ function validateDraft(html,row){
   if(h1n===1)score+=10;
   if(canon===row.url)score+=10;
   if(wc>=cfg.first_pass_min_words&&wc<=cfg.first_pass_max_words)score+=15;
-  if(links.length>=3&&links.length<=8)score+=15;
+  if(links.length>=cfg.first_pass_min_internal_links&&links.length<=cfg.first_pass_max_internal_links)score+=15;
   if(fr>=25)score+=10;
   if(targets.every(t=>links.includes(t)))score+=10;
   if(h2n>=4)score+=5;

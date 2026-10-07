@@ -2,7 +2,7 @@ import fs from"node:fs";import path from"node:path";
 const root=process.cwd(),all=[];
 function walk(d){for(const n of fs.readdirSync(d)){if([".git","node_modules","site","_factory"].includes(n))continue;const f=path.join(d,n),s=fs.statSync(f);s.isDirectory()?walk(f):all.push(f)}}walk(root);
 const html=all.filter(f=>f.endsWith(".html")),err=[],sm=fs.readFileSync("sitemap.xml","utf8"),titles=new Map(),canonicals=new Map();
-const foundation=JSON.parse(fs.readFileSync("data/seo-cluster-matrix.json","utf8"));
+const foundation=JSON.parse(fs.readFileSync("data/seo-cluster-matrix.json","utf8"));\nconst cfg=JSON.parse(fs.readFileSync("data/factory-config.json","utf8"));\nconst norm=s=>String(s||"").toLowerCase().normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").replace(/[^a-z0-9]+/g," ").replace(/\\s+/g," ").trim();
 function parseCSV(text){const rows=[];let row=[],f="",q=false;for(let i=0;i<text.length;i++){const c=text[i];if(q){if(c==='"'&&text[i+1]==='"'){f+='"';i++;}else if(c==='"')q=false;else f+=c;}else{if(c==='"')q=true;else if(c===","){row.push(f);f="";}else if(c==="\n"){row.push(f);rows.push(row);row=[];f="";}else if(c!=="\r")f+=c;}}if(f||row.length){row.push(f);rows.push(row);}return rows.filter(r=>r.length)}
 const raw=parseCSV(fs.readFileSync("data/content-matrix.csv","utf8")),mh=raw[0]||[],matrix=raw.slice(1).map(r=>Object.fromEntries(mh.map((h,i)=>[h,r[i]||""])));
 const byPath=new Map(matrix.filter(r=>r.path).map(r=>[r.path,r]));
@@ -28,17 +28,17 @@ for(const f of html){
  }else if(mr){
    if(mr.production_status!=="PUBLISHED")err.push(r+": public factory page not marked PUBLISHED");
    if(canonical!==mr.url)err.push(r+": factory canonical mismatch");
-   const wc=count(main);if(wc<1500||wc>3000)err.push(r+": factory word count "+wc);
+   const wc=count(main);if(wc<cfg.first_pass_min_words||wc>cfg.first_pass_max_words)err.push(r+": factory word count "+wc+" expected "+cfg.first_pass_min_words+"-"+cfg.first_pass_max_words);\n   const internal=[...main.matchAll(/href="(\\/[^"#?]*)"/g)].map(m=>m[1]),uniqueInternal=new Set(internal);if(uniqueInternal.size<cfg.first_pass_min_internal_links||uniqueInternal.size>cfg.first_pass_max_internal_links)err.push(r+": internal links "+uniqueInternal.size+" expected "+cfg.first_pass_min_internal_links+"-"+cfg.first_pass_max_internal_links);\n   const storedScore=Number(mr.seo_score||0);if(storedScore<cfg.seo_score_min)err.push(r+": SEO score "+storedScore+" below "+cfg.seo_score_min);
    if(!t.includes('data-factory-id="'+mr.id+'"'))err.push(r+": factory ID marker missing");
    for(const l of (mr.internal_link_targets||"").split(";").filter(Boolean))if(!main.includes('href="'+l+'"'))err.push(r+": missing factory link "+l);
  }else err.push(r+": public page missing from foundation/factory matrix");
- if(title){if(titles.has(title))err.push(r+": duplicate title with "+titles.get(title));else titles.set(title,r)}
+ if(title){const tk=norm(title);if(titles.has(tk))err.push(r+": duplicate title with "+titles.get(tk));else titles.set(tk,r)}
  if(canonical){if(canonicals.has(canonical))err.push(r+": duplicate canonical with "+canonicals.get(canonical));else canonicals.set(canonical,r)}
 }
 for(const p of foundation.pages)if(!routes.has(p.path))err.push("foundation orphan "+p.path);
 if(foundation.pages.length!==43||foundation.summary?.pending!==0)err.push("foundation matrix incomplete");
 if(matrix.length!==0&&matrix.length!==515)err.push("factory matrix row count "+matrix.length+" expected 515");
-for(const r of matrix.filter(x=>x.production_status==="PUBLISHED")){if(!r.path||!fs.existsSync(path.join(root,r.path)))err.push(r.id+": published output missing");if(!sm.includes(r.url))err.push(r.id+": sitemap missing")}
+for(const r of matrix.filter(x=>x.production_status==="PUBLISHED")){if(!r.path||!fs.existsSync(path.join(root,r.path)))err.push(r.id+": published output missing");if(!sm.includes(r.url))err.push(r.id+": sitemap missing");if(Number(r.seo_score||0)<cfg.seo_score_min)err.push(r.id+": matrix SEO score below "+cfg.seo_score_min)}
 const pathsSeen=new Set(),urlSeen=new Set();
 for(const r of matrix.filter(x=>x.path)){if(pathsSeen.has(r.path))err.push(r.id+": duplicate factory path");pathsSeen.add(r.path);if(urlSeen.has(r.url))err.push(r.id+": duplicate factory URL");urlSeen.add(r.url)}
 for(const p of ["data/source-plan.part1.b64","data/source-plan.part2.b64","data/source-plan.part3.b64","data/source-plan.part4.b64"])if(!fs.existsSync(p))err.push("source plan part missing "+p);

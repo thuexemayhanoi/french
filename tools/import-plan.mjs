@@ -82,7 +82,7 @@ for(const r of source){
   out.push({
     id,source_id:r.source_id,source_title_vi:r.title_vi,keyword_signal:primary,keyword_variants:r.keyword_variants,silo_id:hub.id,parent_hub_path:hub.path,parent_hub_title:hub.title,
     content_role:"CLUSTER",intent_vi:r.intent_vi,priority:r.priority,claim_policy_vi:r.claim_policy_vi,source_url:r.source_url,url,path:outputPath,working_title_fr:"",content_brief_fr:brief,
-    internal_link_targets:targets,source_policy:policy(r),manual_review_required:String(manual),target_min_words:r.priority==="P0"?"1700":"1500",target_max_words:r.priority==="P0"?"2800":"2600",
+    internal_link_targets:targets,source_policy:policy(r),manual_review_required:String(manual),target_min_words:"1500",target_max_words:"5000",
     factory_status:merge?"FOUNDATION_MERGE":"PLANNED",production_status:merge?"MERGED_FOUNDATION":"PLANNED",repair_attempts:"0",published_at:"",actual_word_count:"",seo_score:"",foundation_merge_path:merge
   });
 }

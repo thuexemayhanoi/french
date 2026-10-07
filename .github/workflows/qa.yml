@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Run static QA
+      - name: Core SEO QA — 1500-5000 words, 3-7 links, unique title/URL, SEO >=75
         run: node scripts/qa.mjs
       - name: Verify generated content index
         run: node tools/build-content-index.mjs --check
@@ -26,5 +26,5 @@ jobs:
         run: |
           node --check assets/js/assistant.js
           node --check assets/js/components.js
-      - name: Verify factory state
+      - name: Verify factory queue and state
         run: node tools/factory.mjs status
