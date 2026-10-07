@@ -16,7 +16,7 @@ for(const f of files){
  entries.push({u,t:title,d:cut(desc,240),h:h1,p:fallback,s:sections});
 }
 entries.sort((a,b)=>a.u.localeCompare(b.u));
-const data={version:1,site:"https://fr.rentbikehanoi.com",generated:new Date().toISOString().slice(0,10),count:entries.length,e:entries};
+const data={version:1,site:"https://fr.rentbikehanoi.com",generated:null,count:entries.length,e:entries};
 const out=JSON.stringify(data);
 const cur=fs.existsSync(OUT)?fs.readFileSync(OUT,"utf8").trim():"";
 if(CHECK&&cur!==out){console.error("chat search-index drift:",entries.length,"pages");process.exit(1)}
