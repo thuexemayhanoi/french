@@ -1,33 +1,37 @@
 {
   "schema_version": 1,
-  "started": "2026-10-07T18:06:35.549Z",
-  "finished": "2026-10-07T18:06:35.613Z",
+  "started": "2026-10-07T18:10:30.090Z",
+  "finished": "2026-10-07T18:10:30.151Z",
   "processed": [
     {
-      "id": "FR-101",
-      "draft": "_factory/inbox/FR-101.article",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "FR-103",
+      "draft": "_factory/inbox/FR-103.article",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link /honda/honda-wave-alpha-110-longue-distance-vietnam/"
+      ],
       "warnings": [],
-      "word_count": 1519,
+      "word_count": 1586,
       "seo_score": 100
     },
     {
-      "id": "FR-102",
-      "draft": "_factory/inbox/FR-102.article",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "FR-104",
+      "draft": "_factory/inbox/FR-104.article",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link /honda/honda-wave-alpha-110-hanoi-ville/"
+      ],
       "warnings": [],
-      "word_count": 1517,
+      "word_count": 1548,
       "seo_score": 100
     }
   ],
-  "published_ids": [
-    "FR-101",
-    "FR-102"
-  ],
+  "published_ids": [],
   "review_ids": [],
-  "repair_ids": [],
+  "repair_ids": [
+    "FR-103",
+    "FR-104"
+  ],
   "blocked_ids": [],
   "fatal": null
 }
