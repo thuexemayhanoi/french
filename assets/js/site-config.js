@@ -12,20 +12,16 @@ window.SITE_CONFIG=Object.freeze({
   brand:{blue:"#1877F2",black:"#050505",white:"#FFFFFF"},
   featureFlags:{themeToggle:true,businessStatus:true,globalCTA:true,related:true,schema:true,breadcrumbs:true},
   navGroups:[
-    {label:"Accueil",items:[
-      {label:"Accueil",href:"/"},
-      {label:"À propos",href:"/a-propos/"}
-    ]},
+    {label:"Accueil",href:"/"},
+    {label:"À propos",href:"/a-propos/"},
     {label:"Location",silos:["location-hanoi","honda","yamaha","types","prix"]},
     {label:"Voyager",silos:["hanoi","nord","centre-sud"]},
     {label:"Conseils",items:[
       {label:"Permis & sécurité",href:"/permis-securite/"}
     ]},
     {label:"FAQ",href:"/faq/"},
-    {label:"Contact",items:[
-      {label:"Contact",href:"/contact/"},
-      {label:"Confidentialité",href:"/confidentialite/"},
-      {label:"Conditions d’utilisation",href:"/conditions/"}
-    ]}
+    {label:"Contact",href:"/contact/"},
+    {label:"Confidentialité",href:"/confidentialite/"},
+    {label:"Conditions",href:"/conditions/"}
   ]
 });
