@@ -37,7 +37,7 @@ for(const f of html){
 }
 for(const p of foundation.pages)if(!routes.has(p.path))err.push("foundation orphan "+p.path);
 if(foundation.pages.length!==43||foundation.summary?.pending!==0)err.push("foundation matrix incomplete");
-if(matrix.length!==0&&matrix.length!==500)err.push("factory matrix row count "+matrix.length+" expected 500");
+if(matrix.length!==0&&matrix.length!==515)err.push("factory matrix row count "+matrix.length+" expected 515");
 for(const r of matrix.filter(x=>x.production_status==="PUBLISHED")){if(!r.path||!fs.existsSync(path.join(root,r.path)))err.push(r.id+": published output missing");if(!sm.includes(r.url))err.push(r.id+": sitemap missing")}
 const pathsSeen=new Set(),urlSeen=new Set();
 for(const r of matrix.filter(x=>x.path)){if(pathsSeen.has(r.path))err.push(r.id+": duplicate factory path");pathsSeen.add(r.path);if(urlSeen.has(r.url))err.push(r.id+": duplicate factory URL");urlSeen.add(r.url)}

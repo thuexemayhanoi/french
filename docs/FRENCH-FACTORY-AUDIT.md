@@ -25,3 +25,11 @@ At audit time the English factory had a 1,000-page matrix, batch size 10 and 564
 Plan -> claim 2 tasks -> writer creates _factory/inbox/<ID>.article -> factory validates -> publish or repair/review -> sitemap + content index -> QA -> commit.
 
 No cron is enabled. No paid AI API is required. The workflow only processes drafts explicitly pushed to the inbox.
+
+## Gap closure — 15 replacement intents
+
+The initial audit found 15 source topics that correctly merge into the 43 protected foundation pages. To preserve the user's target of 500 genuinely new articles, the importer now appends FR-501 through FR-515 as distinct intent gaps rather than creating duplicate synonym pages.
+
+These replacements cover navigation, phone mounting/charging, passenger/luggage setup, anti-theft habits, flooded streets, refuelling logistics, handover/return checklists, breakdown/accident handling, and five traffic-law topics. The legal topics enter the manual review gate before publication.
+
+Expected matrix after preparation: 515 rows = 15 FOUNDATION_MERGE + 500 new article rows.

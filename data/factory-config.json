@@ -29,5 +29,8 @@
     "data/source-plan.part2.b64",
     "data/source-plan.part3.b64",
     "data/source-plan.part4.b64"
-  ]
+  ],
+  "source_plan_rows": 500,
+  "replacement_gap_rows": 15,
+  "expected_matrix_rows": 515
 }

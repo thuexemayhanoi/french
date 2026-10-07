@@ -11,6 +11,26 @@ const rawRows=JSON.parse(zlib.inflateSync(Buffer.from(packed,"base64")).toString
 const source=rawRows.map(v=>({source_id:Number(v[0]),hub_vi:v[1]||"",page_type_vi:v[2]||"",title_vi:v[3]||"",intent_vi:v[4]||"",keyword_variants:v[5]||"",seed:v[6]||"",priority:v[7]||"P2",claim_policy_vi:v[8]||"",source_url:v[9]||""}));
 if(source.length!==500)throw new Error("Expected 500 source rows, got "+source.length);
 
+const gapReplacements=[
+  [501,"04. Loại xe & nhu cầu sử dụng","Bài hướng dẫn","Dùng Google Maps khi đi xe máy ở Hà Nội: tránh đường cấm và chọn lộ trình dễ đi","Điều hướng","google maps moto hanoi; navigation scooter hanoi; itineraire moto hanoi","google maps moto hanoi","P1","Không khẳng định quy định giao thông nếu chưa kiểm tra nguồn chính thức.","EDITORIAL_GAP_AUDIT"],
+  [502,"04. Loại xe & nhu cầu sử dụng","Bài hướng dẫn","Giá đỡ điện thoại và sạc pin khi đi xe máy: cách dùng an toàn cho khách du lịch","Thông tin","support telephone scooter hanoi; charge telephone moto vietnam","support telephone scooter hanoi","P2","Không quảng cáo thiết bị cụ thể nếu chưa xác minh.","EDITORIAL_GAP_AUDIT"],
+  [503,"04. Loại xe & nhu cầu sử dụng","Bài hướng dẫn","Chở người ngồi sau bằng xe máy ở Việt Nam: chọn xe và sắp xếp hành lý","Thông tin","passager scooter vietnam; deux personnes moto hanoi","passager scooter vietnam","P1","Chỉ đưa hướng dẫn an toàn chung, không suy diễn luật.","EDITORIAL_GAP_AUDIT"],
+  [504,"04. Loại xe & nhu cầu sử dụng","Bài hướng dẫn","Khóa xe và chống trộm khi thuê xe máy ở Hà Nội: thói quen nên có","Thông tin","antivol moto hanoi; securiser scooter hanoi; vol moto location vietnam","antivol moto hanoi","P1","Không khẳng định mức độ tội phạm hay bảo hiểm nếu chưa có nguồn.","EDITORIAL_GAP_AUDIT"],
+  [505,"04. Loại xe & nhu cầu sử dụng","Bài hướng dẫn","Đi xe máy qua phố ngập ở Hà Nội: khi nào nên dừng và đổi lộ trình","An toàn","rue inondee moto hanoi; scooter pluie hanoi; inondation moto vietnam","rue inondee moto hanoi","P1","Ưu tiên an toàn, không đưa ngưỡng kỹ thuật tuyệt đối nếu chưa xác minh.","EDITORIAL_GAP_AUDIT"],
+  [506,"04. Loại xe & nhu cầu sử dụng","Bài hướng dẫn","Đổ xăng ở Hà Nội khi thuê xe máy: tìm cây xăng, thanh toán và kiểm tra nhiên liệu","Thông tin","station essence hanoi moto; faire le plein scooter hanoi; essence moto vietnam","station essence hanoi moto","P1","Không khẳng định loại xăng hoặc giá hiện tại nếu chưa kiểm tra.","EDITORIAL_GAP_AUDIT"],
+  [507,"01. Thuê xe máy Hà Nội","Bài hướng dẫn","Nhận xe thuê: nên chụp ảnh và quay video những gì trước khi rời cửa hàng","Điều tra thương mại","etat des lieux moto location hanoi; photo scooter location hanoi","etat des lieux moto location hanoi","P1","Chỉ hướng dẫn quy trình kiểm tra, không hứa chính sách bồi thường.","EDITORIAL_GAP_AUDIT"],
+  [508,"01. Thuê xe máy Hà Nội","Bài hướng dẫn","Trả xe thuê ở Hà Nội: kiểm tra xe, nhiên liệu và đồ dùng trước khi bàn giao","Giao dịch","rendre scooter location hanoi; retour moto location hanoi","rendre scooter location hanoi","P1","Không khẳng định chính sách nhiên liệu hay phí nếu chưa xác minh.","EDITORIAL_GAP_AUDIT"],
+  [509,"01. Thuê xe máy Hà Nội","Bài hướng dẫn","Làm gì khi xe thuê bị chết máy trong nội thành Hà Nội","Hỗ trợ","panne scooter hanoi; moto location en panne hanoi","panne scooter hanoi","P1","Ưu tiên liên hệ bên cho thuê, không hướng dẫn sửa chữa nguy hiểm.","EDITORIAL_GAP_AUDIT"],
+  [510,"01. Thuê xe máy Hà Nội","Bài hướng dẫn","Làm gì sau va chạm nhẹ khi đang sử dụng xe thuê ở Việt Nam","Hỗ trợ","accident scooter location vietnam; collision moto louee vietnam","accident scooter location vietnam","P1","Không thay thế tư vấn pháp lý; thông tin pháp lý phải kiểm tra nguồn chính thức.","EDITORIAL_GAP_AUDIT"],
+  [511,"06. Bằng lái & an toàn","Bài pháp lý","Xe máy có được đi vào đường cao tốc ở Việt Nam không? Hướng dẫn cho khách nước ngoài","Pháp lý","autoroute moto vietnam; scooter autoroute vietnam; route interdite moto vietnam","autoroute moto vietnam","P1","Bắt buộc kiểm tra văn bản pháp luật Việt Nam hiện hành trước khi xuất bản.","EDITORIAL_GAP_AUDIT"],
+  [512,"06. Bằng lái & an toàn","Bài pháp lý","Giới hạn tốc độ xe máy ở Việt Nam: khách du lịch cần kiểm tra gì trước chuyến đi","Pháp lý","limite vitesse moto vietnam; vitesse scooter vietnam","limite vitesse moto vietnam","P1","Bắt buộc kiểm tra quy định tốc độ hiện hành từ nguồn chính thức.","EDITORIAL_GAP_AUDIT"],
+  [513,"06. Bằng lái & an toàn","Bài pháp lý","Khi cảnh sát giao thông dừng xe: khách nước ngoài nên chuẩn bị giấy tờ nào","Pháp lý","police moto vietnam touriste; controle routier vietnam moto","police moto vietnam touriste","P1","Bắt buộc kiểm tra quy định hiện hành; không tư vấn né tránh thực thi pháp luật.","EDITORIAL_GAP_AUDIT"],
+  [514,"06. Bằng lái & an toàn","Bài pháp lý","Giấy tờ cần mang theo khi lái xe máy thuê ở Việt Nam","Pháp lý","documents moto location vietnam; papiers scooter vietnam","documents moto location vietnam","P1","Bắt buộc kiểm tra danh mục giấy tờ hiện hành từ nguồn chính thức.","EDITORIAL_GAP_AUDIT"],
+  [515,"06. Bằng lái & an toàn","Bài pháp lý","Biển báo, vòng xuyến và đường một chiều ở Hà Nội: hướng dẫn đọc nhanh cho khách nước ngoài","Pháp lý","panneaux circulation hanoi moto; rond point hanoi scooter; sens unique hanoi moto","panneaux circulation hanoi moto","P2","Bắt buộc kiểm tra quy tắc giao thông hiện hành từ nguồn chính thức.","EDITORIAL_GAP_AUDIT"]
+];
+for(const v of gapReplacements)source.push({source_id:v[0],hub_vi:v[1],page_type_vi:v[2],title_vi:v[3],intent_vi:v[4],keyword_variants:v[5],seed:v[6],priority:v[7],claim_policy_vi:v[8],source_url:v[9]});
+
+
 const hubs={
  "01":{id:"location-hanoi",path:"/location-moto-hanoi/",title:"Location de moto à Hanoi",links:["/prix-location/","/types-motos/"]},
  "02":{id:"honda",path:"/honda/",title:"Motos Honda",links:["/types-motos/","/prix-location/"]},
@@ -56,7 +76,7 @@ for(const r of source){
   const id="FR-"+String(r.source_id).padStart(3,"0");
   const url=merge?"":cfg.production_domain+hub.path+slug+"/";
   const outputPath=merge?"":hub.path.slice(1)+slug+"/index.html";
-  const manual=/^06\./.test(r.hub_vi)&&/(license|permit|law|legal|driving licence|international)/i.test(primary+" "+r.seed);
+  const manual=/^06\./.test(r.hub_vi)&&/(license|permit|law|legal|driving licence|international|permis|loi|légal|legal|police|vitesse|autoroute|péage|peage|documents|panneaux|circulation)/i.test(primary+" "+r.seed+" "+r.title_vi);
   const brief="Rédiger en français natif à partir de l'intention du plan vietnamien « "+r.title_vi+" ». Utiliser les mots-clés de recherche comme signaux, sans traduction littérale ni bourrage. Répondre à une intention distincte du hub parent, garder les affirmations prudentes et suivre la politique de source.";
   const targets=[hub.path,...hub.links].join(";");
   out.push({
