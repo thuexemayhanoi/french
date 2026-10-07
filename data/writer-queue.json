@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "PLAN_NOT_PREPARED",
+  "generated_at": null,
+  "target_new_articles": 500,
+  "planned_new_articles": 0,
+  "foundation_merges": 0,
+  "published": 0,
+  "remaining_to_target": 500,
+  "unplanned_slots": 500,
+  "queue": []
+}
