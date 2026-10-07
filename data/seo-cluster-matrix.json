@@ -1,0 +1,975 @@
+{
+  "version": "1.0",
+  "scope": "SEO content + topical cluster + internal-link matrix for all 43 existing French foundation pages",
+  "rules": {
+    "one_primary_intent_per_url": true,
+    "foundation_content_words": "1500-3000 except /contact/",
+    "minimum_static_internal_links": 3,
+    "new_pages_must_have_parent_cluster": true,
+    "new_pages_must_link_parent_and_contextual_pages": true,
+    "no_exact_match_sitewide_spam": true,
+    "no_unverified_price_inventory_legal_or_road_claims": true,
+    "english_site_body_link_on_home": "https://app.rentbikehanoi.com/"
+  },
+  "pages": [
+    {
+      "id": "FND-001",
+      "path": "/",
+      "role": "root",
+      "cluster": "core",
+      "primary_keyword": "location moto hanoi",
+      "secondary_terms": [
+        "location scooter hanoi",
+        "louer moto hanoi",
+        "location moto vietnam"
+      ],
+      "intent": "Transactionnel + navigationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/location-moto-hanoi/",
+        "/types-motos/",
+        "/prix-location/",
+        "/permis-securite/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-002",
+      "path": "/a-propos/",
+      "role": "support",
+      "cluster": "brand",
+      "primary_keyword": "nguyen tu location moto hanoi",
+      "secondary_terms": [
+        "à propos location moto hanoi",
+        "loueur moto long bien"
+      ],
+      "intent": "Navigationnel + confiance",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/contact/",
+        "/faq/",
+        "/location-moto-hanoi/",
+        "/permis-securite/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-003",
+      "path": "/blog/",
+      "role": "pillar",
+      "cluster": "core",
+      "primary_keyword": "blog moto vietnam",
+      "secondary_terms": [
+        "guide location moto hanoi",
+        "voyage moto vietnam"
+      ],
+      "intent": "Informationnel",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/location-moto-hanoi/",
+        "/honda/",
+        "/yamaha/",
+        "/types-motos/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-004",
+      "path": "/faq/",
+      "role": "support-ai",
+      "cluster": "core",
+      "primary_keyword": "faq location moto hanoi",
+      "secondary_terms": [
+        "questions location scooter hanoi",
+        "permis moto vietnam étranger"
+      ],
+      "intent": "Informationnel / AI search",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/prix-location/",
+        "/types-motos/",
+        "/permis-securite/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-005",
+      "path": "/contact/",
+      "role": "support",
+      "cluster": "brand",
+      "primary_keyword": "contact location moto hanoi",
+      "secondary_terms": [
+        "location moto long bien contact",
+        "louer scooter hanoi contact"
+      ],
+      "intent": "Navigationnel / local",
+      "priority": "P1",
+      "word_range": "contact-exempt",
+      "required_internal_links": [],
+      "link_policy": "support-page; no long-form requirement",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-006",
+      "path": "/confidentialite/",
+      "role": "support",
+      "cluster": "brand",
+      "primary_keyword": "politique de confidentialité",
+      "secondary_terms": [
+        "confidentialité rentbikehanoi"
+      ],
+      "intent": "Navigationnel / confiance",
+      "priority": "P2",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/contact/",
+        "/conditions/",
+        "/a-propos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-007",
+      "path": "/conditions/",
+      "role": "support",
+      "cluster": "brand",
+      "primary_keyword": "conditions location moto hanoi",
+      "secondary_terms": [
+        "conditions location scooter vietnam",
+        "contrat location moto"
+      ],
+      "intent": "Navigationnel / confiance",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/confidentialite/",
+        "/contact/",
+        "/faq/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-008",
+      "path": "/location-moto-hanoi/",
+      "role": "pillar",
+      "cluster": "location-hanoi",
+      "primary_keyword": "location moto hanoi",
+      "secondary_terms": [
+        "location scooter hanoi",
+        "louer moto hanoi",
+        "location motorcycle hanoi"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/location-moto-hanoi/courte-duree/",
+        "/location-moto-hanoi/longue-duree/",
+        "/location-moto-hanoi/quartiers/",
+        "/types-motos/",
+        "/prix-location/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-009",
+      "path": "/location-moto-hanoi/courte-duree/",
+      "role": "cluster",
+      "cluster": "location-hanoi",
+      "primary_keyword": "location moto courte durée hanoi",
+      "secondary_terms": [
+        "location scooter 1 jour hanoi",
+        "location moto 3 jours hanoi",
+        "location semaine hanoi"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/location-moto-hanoi/longue-duree/",
+        "/prix-location/jour/",
+        "/hanoi/",
+        "/nord-vietnam/ninh-binh/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-010",
+      "path": "/location-moto-hanoi/longue-duree/",
+      "role": "cluster",
+      "cluster": "location-hanoi",
+      "primary_keyword": "location moto longue durée hanoi",
+      "secondary_terms": [
+        "location moto mensuelle hanoi",
+        "location scooter mois hanoi"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/prix-location/mois/",
+        "/honda/",
+        "/yamaha/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-011",
+      "path": "/location-moto-hanoi/quartiers/",
+      "role": "cluster",
+      "cluster": "location-hanoi",
+      "primary_keyword": "location moto par quartier hanoi",
+      "secondary_terms": [
+        "location moto old quarter hanoi",
+        "long bien",
+        "tay ho",
+        "hoan kiem"
+      ],
+      "intent": "Local transactionnel",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/types-motos/",
+        "/prix-location/",
+        "/hanoi/",
+        "/contact/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-012",
+      "path": "/honda/",
+      "role": "pillar",
+      "cluster": "honda",
+      "primary_keyword": "location honda hanoi",
+      "secondary_terms": [
+        "honda rental hanoi",
+        "louer honda hanoi",
+        "scooter honda hanoi"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/honda/scooters/",
+        "/honda/semi-automatiques/",
+        "/honda/electriques/",
+        "/yamaha/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-013",
+      "path": "/honda/scooters/",
+      "role": "cluster",
+      "cluster": "honda",
+      "primary_keyword": "location scooter honda hanoi",
+      "secondary_terms": [
+        "honda vision location hanoi",
+        "air blade",
+        "lead",
+        "vario"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/honda/",
+        "/yamaha/scooters/",
+        "/types-motos/scooter-automatique/",
+        "/prix-location/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-014",
+      "path": "/honda/semi-automatiques/",
+      "role": "cluster",
+      "cluster": "honda",
+      "primary_keyword": "location moto semi automatique honda",
+      "secondary_terms": [
+        "honda wave location hanoi",
+        "future location hanoi"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/yamaha/semi-automatiques/",
+        "/types-motos/semi-automatique/",
+        "/types-motos/trail/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-015",
+      "path": "/honda/electriques/",
+      "role": "cluster",
+      "cluster": "honda",
+      "primary_keyword": "scooter électrique honda vietnam",
+      "secondary_terms": [
+        "honda icon e vietnam",
+        "honda cuv e location"
+      ],
+      "intent": "Informationnel / commercial",
+      "priority": "P2",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/types-motos/electrique/",
+        "/types-motos/50cc/",
+        "/prix-location/",
+        "/honda/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-016",
+      "path": "/yamaha/",
+      "role": "pillar",
+      "cluster": "yamaha",
+      "primary_keyword": "location yamaha hanoi",
+      "secondary_terms": [
+        "yamaha rental hanoi",
+        "louer yamaha hanoi",
+        "scooter yamaha vietnam"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/yamaha/scooters/",
+        "/yamaha/semi-automatiques/",
+        "/yamaha/trail-aventure/",
+        "/honda/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-017",
+      "path": "/yamaha/scooters/",
+      "role": "cluster",
+      "cluster": "yamaha",
+      "primary_keyword": "location scooter yamaha hanoi",
+      "secondary_terms": [
+        "yamaha nvx location hanoi",
+        "nmax",
+        "janus",
+        "grande"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/honda/scooters/",
+        "/types-motos/scooter-automatique/",
+        "/prix-location/",
+        "/yamaha/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-018",
+      "path": "/yamaha/semi-automatiques/",
+      "role": "cluster",
+      "cluster": "yamaha",
+      "primary_keyword": "location moto semi automatique yamaha",
+      "secondary_terms": [
+        "yamaha sirius location hanoi",
+        "jupiter finn"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/yamaha/trail-aventure/",
+        "/honda/semi-automatiques/",
+        "/types-motos/semi-automatique/",
+        "/nord-vietnam/sapa/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-019",
+      "path": "/yamaha/trail-aventure/",
+      "role": "cluster",
+      "cluster": "yamaha",
+      "primary_keyword": "location moto trail yamaha vietnam",
+      "secondary_terms": [
+        "yamaha wr155r location vietnam",
+        "wr155r hanoi"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/types-motos/trail/",
+        "/nord-vietnam/ha-giang/",
+        "/nord-vietnam/sapa/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-020",
+      "path": "/types-motos/",
+      "role": "pillar",
+      "cluster": "types",
+      "primary_keyword": "types de motos à louer hanoi",
+      "secondary_terms": [
+        "scooter automatique",
+        "semi automatique",
+        "50cc",
+        "électrique",
+        "trail"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/types-motos/scooter-automatique/",
+        "/types-motos/semi-automatique/",
+        "/types-motos/50cc/",
+        "/types-motos/electrique/",
+        "/types-motos/trail/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-021",
+      "path": "/types-motos/scooter-automatique/",
+      "role": "cluster",
+      "cluster": "types",
+      "primary_keyword": "location scooter automatique hanoi",
+      "secondary_terms": [
+        "scooter automatic hanoi",
+        "louer scooter automatique vietnam"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/honda/scooters/",
+        "/yamaha/scooters/",
+        "/prix-location/",
+        "/permis-securite/permis/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-022",
+      "path": "/types-motos/semi-automatique/",
+      "role": "cluster",
+      "cluster": "types",
+      "primary_keyword": "location moto semi automatique hanoi",
+      "secondary_terms": [
+        "semi automatic motorbike hanoi",
+        "moto semi automatique vietnam"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/honda/semi-automatiques/",
+        "/yamaha/semi-automatiques/",
+        "/types-motos/trail/",
+        "/nord-vietnam/ha-giang/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-023",
+      "path": "/types-motos/50cc/",
+      "role": "cluster",
+      "cluster": "types",
+      "primary_keyword": "location scooter 50cc hanoi",
+      "secondary_terms": [
+        "location moto 50cc hanoi",
+        "scooter 50cc sans permis vietnam"
+      ],
+      "intent": "Transactionnel + légal",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/prix-location/jour/",
+        "/types-motos/scooter-automatique/",
+        "/permis-securite/permis/",
+        "/nord-vietnam/ninh-binh/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-024",
+      "path": "/types-motos/electrique/",
+      "role": "cluster",
+      "cluster": "types",
+      "primary_keyword": "location scooter électrique hanoi",
+      "secondary_terms": [
+        "location moto électrique hanoi",
+        "scooter électrique vietnam"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/honda/electriques/",
+        "/prix-location/",
+        "/location-moto-hanoi/longue-duree/",
+        "/types-motos/50cc/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-025",
+      "path": "/types-motos/trail/",
+      "role": "cluster",
+      "cluster": "types",
+      "primary_keyword": "location moto trail hanoi",
+      "secondary_terms": [
+        "moto aventure hanoi",
+        "dirt bike vietnam",
+        "moto pour ha giang"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/yamaha/trail-aventure/",
+        "/nord-vietnam/ha-giang/",
+        "/nord-vietnam/sapa/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-026",
+      "path": "/prix-location/",
+      "role": "pillar",
+      "cluster": "prix",
+      "primary_keyword": "prix location moto hanoi",
+      "secondary_terms": [
+        "coût location scooter hanoi",
+        "tarif location moto hanoi"
+      ],
+      "intent": "Commercial investigation",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/prix-location/jour/",
+        "/prix-location/semaine/",
+        "/prix-location/mois/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-027",
+      "path": "/prix-location/jour/",
+      "role": "cluster",
+      "cluster": "prix",
+      "primary_keyword": "prix location moto hanoi par jour",
+      "secondary_terms": [
+        "tarif scooter hanoi journée",
+        "coût moto 1 jour hanoi"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/prix-location/semaine/",
+        "/prix-location/mois/",
+        "/types-motos/50cc/",
+        "/location-moto-hanoi/courte-duree/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-028",
+      "path": "/prix-location/semaine/",
+      "role": "cluster",
+      "cluster": "prix",
+      "primary_keyword": "prix location moto hanoi semaine",
+      "secondary_terms": [
+        "location scooter 7 jours hanoi",
+        "tarif hebdomadaire moto"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/prix-location/mois/",
+        "/location-moto-hanoi/longue-duree/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-029",
+      "path": "/prix-location/mois/",
+      "role": "cluster",
+      "cluster": "prix",
+      "primary_keyword": "prix location moto hanoi mois",
+      "secondary_terms": [
+        "location moto mensuelle hanoi",
+        "scooter long terme hanoi"
+      ],
+      "intent": "Transactionnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/location-moto-hanoi/longue-duree/",
+        "/honda/",
+        "/yamaha/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-030",
+      "path": "/permis-securite/",
+      "role": "pillar",
+      "cluster": "permis",
+      "primary_keyword": "permis moto vietnam étranger",
+      "secondary_terms": [
+        "conduire moto vietnam étranger",
+        "sécurité moto vietnam"
+      ],
+      "intent": "Informationnel / YMYL",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/permis-securite/permis/",
+        "/permis-securite/securite/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-031",
+      "path": "/permis-securite/permis/",
+      "role": "cluster",
+      "cluster": "permis",
+      "primary_keyword": "permis moto vietnam pour étranger",
+      "secondary_terms": [
+        "permis international vietnam moto",
+        "échange permis vietnam"
+      ],
+      "intent": "Informationnel / YMYL",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/permis-securite/securite/",
+        "/types-motos/50cc/",
+        "/types-motos/scooter-automatique/",
+        "/location-moto-hanoi/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-032",
+      "path": "/permis-securite/securite/",
+      "role": "cluster",
+      "cluster": "permis",
+      "primary_keyword": "sécurité moto vietnam",
+      "secondary_terms": [
+        "conseils conduite moto hanoi",
+        "sécurité scooter vietnam"
+      ],
+      "intent": "Informationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/permis-securite/permis/",
+        "/nord-vietnam/",
+        "/nord-vietnam/ha-giang/",
+        "/nord-vietnam/sapa/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-033",
+      "path": "/hanoi/",
+      "role": "pillar",
+      "cluster": "hanoi",
+      "primary_keyword": "hanoi à moto",
+      "secondary_terms": [
+        "visiter hanoi en scooter",
+        "que faire hanoi moto"
+      ],
+      "intent": "Informationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/hanoi/que-faire/",
+        "/hanoi/excursions-moto/",
+        "/location-moto-hanoi/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-034",
+      "path": "/hanoi/que-faire/",
+      "role": "cluster",
+      "cluster": "hanoi",
+      "primary_keyword": "que faire à hanoi",
+      "secondary_terms": [
+        "visiter hanoi",
+        "activités hanoi",
+        "hanoi itinéraire"
+      ],
+      "intent": "Informationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/hanoi/excursions-moto/",
+        "/location-moto-hanoi/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-035",
+      "path": "/hanoi/excursions-moto/",
+      "role": "cluster",
+      "cluster": "hanoi",
+      "primary_keyword": "excursion moto depuis hanoi",
+      "secondary_terms": [
+        "balade moto hanoi",
+        "day trip moto hanoi",
+        "ba vi bat trang"
+      ],
+      "intent": "Informationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/nord-vietnam/ninh-binh/",
+        "/nord-vietnam/",
+        "/types-motos/",
+        "/hanoi/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-036",
+      "path": "/nord-vietnam/",
+      "role": "pillar",
+      "cluster": "nord",
+      "primary_keyword": "road trip moto nord vietnam",
+      "secondary_terms": [
+        "voyage moto nord vietnam",
+        "itinéraire moto depuis hanoi"
+      ],
+      "intent": "Informationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/nord-vietnam/ha-giang/",
+        "/nord-vietnam/sapa/",
+        "/nord-vietnam/ninh-binh/",
+        "/nord-vietnam/ha-long/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-037",
+      "path": "/nord-vietnam/ha-giang/",
+      "role": "cluster",
+      "cluster": "nord",
+      "primary_keyword": "ha giang à moto",
+      "secondary_terms": [
+        "boucle ha giang moto",
+        "ha giang loop moto",
+        "location moto ha giang"
+      ],
+      "intent": "Informationnel / commercial",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/types-motos/trail/",
+        "/types-motos/semi-automatique/",
+        "/permis-securite/permis/",
+        "/permis-securite/securite/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-038",
+      "path": "/nord-vietnam/sapa/",
+      "role": "cluster",
+      "cluster": "nord",
+      "primary_keyword": "sapa à moto",
+      "secondary_terms": [
+        "hanoi sapa moto",
+        "itinéraire moto sapa"
+      ],
+      "intent": "Informationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/types-motos/semi-automatique/",
+        "/types-motos/trail/",
+        "/permis-securite/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-039",
+      "path": "/nord-vietnam/ninh-binh/",
+      "role": "cluster",
+      "cluster": "nord",
+      "primary_keyword": "ninh binh à moto",
+      "secondary_terms": [
+        "hanoi ninh binh moto",
+        "itinéraire moto ninh binh"
+      ],
+      "intent": "Informationnel",
+      "priority": "P0",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/types-motos/scooter-automatique/",
+        "/types-motos/semi-automatique/",
+        "/types-motos/50cc/",
+        "/nord-vietnam/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-040",
+      "path": "/nord-vietnam/ha-long/",
+      "role": "cluster",
+      "cluster": "nord",
+      "primary_keyword": "hanoi ha long à moto",
+      "secondary_terms": [
+        "ha long moto",
+        "hanoi to halong motorbike"
+      ],
+      "intent": "Informationnel",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/nord-vietnam/",
+        "/nord-vietnam/ninh-binh/",
+        "/types-motos/",
+        "/permis-securite/securite/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-041",
+      "path": "/centre-sud-vietnam/",
+      "role": "pillar",
+      "cluster": "centre-sud",
+      "primary_keyword": "road trip moto vietnam centre sud",
+      "secondary_terms": [
+        "voyage moto vietnam",
+        "itinéraire moto vietnam"
+      ],
+      "intent": "Informationnel",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/centre-sud-vietnam/centre/",
+        "/centre-sud-vietnam/sud/",
+        "/permis-securite/securite/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-042",
+      "path": "/centre-sud-vietnam/centre/",
+      "role": "cluster",
+      "cluster": "centre-sud",
+      "primary_keyword": "road trip moto centre vietnam",
+      "secondary_terms": [
+        "hue hoi an da nang moto",
+        "hai van pass moto",
+        "dalat moto"
+      ],
+      "intent": "Informationnel",
+      "priority": "P1",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/centre-sud-vietnam/sud/",
+        "/permis-securite/securite/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    },
+    {
+      "id": "FND-043",
+      "path": "/centre-sud-vietnam/sud/",
+      "role": "cluster",
+      "cluster": "centre-sud",
+      "primary_keyword": "road trip moto sud vietnam",
+      "secondary_terms": [
+        "saigon moto",
+        "mekong moto",
+        "phu quoc scooter"
+      ],
+      "intent": "Informationnel",
+      "priority": "P2",
+      "word_range": "1500-3000",
+      "required_internal_links": [
+        "/centre-sud-vietnam/centre/",
+        "/permis-securite/securite/",
+        "/types-motos/"
+      ],
+      "link_policy": "parent/sibling/supporting links must stay contextual",
+      "status": "APPLIED_EXISTING"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import fs from"node:fs";import path from"node:path";
 const root=process.cwd(),all=[];function w(d){for(const n of fs.readdirSync(d)){if([".git","node_modules"].includes(n))continue;const f=path.join(d,n),s=fs.statSync(f);s.isDirectory()?w(f):all.push(f)}}w(root);
-const html=all.filter(f=>f.endsWith(".html")),err=[],sm=fs.readFileSync("sitemap.xml","utf8"),titles=new Map(),canonicals=new Map();
+const html=all.filter(f=>f.endsWith(".html")),err=[],sm=fs.readFileSync("sitemap.xml","utf8"),titles=new Map(),canonicals=new Map(),clusterMatrix=JSON.parse(fs.readFileSync("data/seo-cluster-matrix.json","utf8"));
 const route=f=>{const r=path.relative(root,f).replace(/\\/g,"/");return r==="index.html"?"/":"/"+r.replace(/index\.html$/,"")};
 const count=t=>t.replace(/<script[\s\S]*?<\/script>/gi," ").replace(/<style[\s\S]*?<\/style>/gi," ").replace(/<[^>]+>/g," ").replace(/&[a-z#0-9]+;/gi," ").replace(/\s+/g," ").trim().split(/\s+/).filter(Boolean).length;
 for(const f of html){
