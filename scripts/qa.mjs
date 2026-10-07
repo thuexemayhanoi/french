@@ -31,7 +31,7 @@ for(const f of html){
    if(mr.production_status!=="PUBLISHED")err.push(r+": public factory page not marked PUBLISHED");
    if(canonical!==mr.url)err.push(r+": factory canonical mismatch");
    const wc=count(main);if(wc<cfg.first_pass_min_words||wc>cfg.first_pass_max_words)err.push(r+": factory word count "+wc+" expected "+cfg.first_pass_min_words+"-"+cfg.first_pass_max_words);
-   const internal=[...main.matchAll(/href="(\\/[^"#?]*)"/g)].map(m=>m[1]),uniqueInternal=new Set(internal);if(uniqueInternal.size<cfg.first_pass_min_internal_links||uniqueInternal.size>cfg.first_pass_max_internal_links)err.push(r+": internal links "+uniqueInternal.size+" expected "+cfg.first_pass_min_internal_links+"-"+cfg.first_pass_max_internal_links);
+   const internal=[...main.matchAll(/href="(\/[^"#?]*)"/g)].map(m=>m[1]),uniqueInternal=new Set(internal);if(uniqueInternal.size<cfg.first_pass_min_internal_links||uniqueInternal.size>cfg.first_pass_max_internal_links)err.push(r+": internal links "+uniqueInternal.size+" expected "+cfg.first_pass_min_internal_links+"-"+cfg.first_pass_max_internal_links);
    const storedScore=Number(mr.seo_score||0);if(storedScore<cfg.seo_score_min)err.push(r+": SEO score "+storedScore+" below "+cfg.seo_score_min);
    if(!t.includes('data-factory-id="'+mr.id+'"'))err.push(r+": factory ID marker missing");
    for(const l of (mr.internal_link_targets||"").split(";").filter(Boolean))if(!main.includes('href="'+l+'"'))err.push(r+": missing factory link "+l);
