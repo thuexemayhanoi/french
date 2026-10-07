@@ -20,5 +20,11 @@ jobs:
         run: node scripts/qa.mjs
       - name: Verify generated content index
         run: node tools/build-content-index.mjs --check
+      - name: Verify local chatbot HTML index
+        run: node tools/build-chat-index.mjs --check
+      - name: Check browser scripts
+        run: |
+          node --check assets/js/assistant.js
+          node --check assets/js/components.js
       - name: Verify factory state
         run: node tools/factory.mjs status

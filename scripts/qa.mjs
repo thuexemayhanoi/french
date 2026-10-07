@@ -43,6 +43,13 @@ const pathsSeen=new Set(),urlSeen=new Set();
 for(const r of matrix.filter(x=>x.path)){if(pathsSeen.has(r.path))err.push(r.id+": duplicate factory path");pathsSeen.add(r.path);if(urlSeen.has(r.url))err.push(r.id+": duplicate factory URL");urlSeen.add(r.url)}
 for(const p of ["data/source-plan.part1.b64","data/source-plan.part2.b64","data/source-plan.part3.b64","data/source-plan.part4.b64"])if(!fs.existsSync(p))err.push("source plan part missing "+p);
 if(!fs.readFileSync("assets/js/components.js","utf8").includes('dataset.pageType==="article"'))err.push("article schema support missing");
+const cfgSrc=fs.readFileSync("assets/js/site-config.js","utf8");
+if(!cfgSrc.includes("quickContact:true")||!cfgSrc.includes("localChatbot:true"))err.push("floating feature flags missing");
+if(!cfgSrc.includes("wa.me/84942467674")||!cfgSrc.includes("zalo.me/84942467674")||!cfgSrc.includes("google.com/maps/search"))err.push("quick contact targets missing");
+if(!fs.existsSync("assets/js/assistant.js"))err.push("local assistant script missing");
+if(!fs.existsSync("assets/chat/search-index.json"))err.push("chat search index missing");
+else{const chat=JSON.parse(fs.readFileSync("assets/chat/search-index.json","utf8"));if(chat.count!==html.length)err.push("chat index count "+chat.count+" differs from public HTML "+html.length);if(!Array.isArray(chat.e)||chat.e.length!==chat.count)err.push("chat index entries invalid")}
+if(!fs.readFileSync("assets/css/site.css","utf8").includes(".quick-contact")||!fs.readFileSync("assets/css/site.css","utf8").includes(".chat-panel"))err.push("floating UI CSS missing");
 if(!fs.readFileSync("index.html","utf8").includes("https://app.rentbikehanoi.com/"))err.push("English-site homepage link missing");
 if(fs.readFileSync("CNAME","utf8").trim()!=="fr.rentbikehanoi.com")err.push("CNAME");
 if(err.length){console.error(err.join("\n"));process.exit(1)}
