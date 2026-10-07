@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "status": "READY_WITH_PLAN_GAP",
-  "generated_at": "2026-10-07T10:08:44.338Z",
+  "status": "READY",
+  "generated_at": "2026-10-07T10:35:33.223Z",
   "target_new_articles": 500,
-  "planned_new_articles": 485,
+  "planned_new_articles": 500,
   "foundation_merges": 15,
   "published": 0,
   "remaining_to_target": 500,
-  "unplanned_slots": 15,
+  "unplanned_slots": 0,
   "queue": [
     {
       "id": "FR-002",
