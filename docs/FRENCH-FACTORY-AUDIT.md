@@ -10,7 +10,7 @@ At audit time the English factory had a 1,000-page matrix, batch size 10 and 564
 
 - Batch size starts at 2, not 10.
 - The existing 43 French foundation pages remain protected and cannot be overwritten.
-- The original 500-row planning workbook is preserved as data/source-plan.xlsx and imported deterministically.
+- The original 500-row planning workbook is normalized losslessly into data/source-plan.zlib.b64 and imported deterministically.
 - Fifteen broad topics that now duplicate foundation URLs are marked FOUNDATION_MERGE instead of creating cannibalizing pages.
 - The factory reports the resulting 15 plan gaps rather than silently claiming 500 unique new URLs.
 - Drafts must be native French and pass a French-language signal.

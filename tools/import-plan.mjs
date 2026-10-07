@@ -1,21 +1,14 @@
 #!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
-import {execFileSync} from "node:child_process";
+import zlib from "node:zlib";
 
 const ROOT=process.cwd();
 const cfg=JSON.parse(fs.readFileSync(path.join(ROOT,"data/factory-config.json"),"utf8"));
 const foundation=JSON.parse(fs.readFileSync(path.join(ROOT,cfg.foundation_matrix_path),"utf8"));
-const xml=execFileSync("unzip",["-p",cfg.source_plan_path,"xl/worksheets/sheet1.xml"],{encoding:"utf8",maxBuffer:20*1024*1024});
-
-const dec=s=>String(s||"").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'");
-const source=[];
-for(const m of xml.matchAll(/<x:row\b[^>]*>([\s\S]*?)<\/x:row>/g)){
-  const cells={};
-  for(const c of m[1].matchAll(/<x:c\b[^>]*r="([A-J])\d+"[^>]*>[\s\S]*?<x:v>([\s\S]*?)<\/x:v>[\s\S]*?<\/x:c>/g))cells[c[1]]=dec(c[2]);
-  if(cells.A==="STT"||!cells.A)continue;
-  source.push({source_id:Number(cells.A),hub_vi:cells.B||"",page_type_vi:cells.C||"",title_vi:cells.D||"",intent_vi:cells.E||"",keyword_variants:cells.F||"",seed:cells.G||"",priority:cells.H||"P2",claim_policy_vi:cells.I||"",source_url:cells.J||""});
-}
+const packed=fs.readFileSync(path.join(ROOT,cfg.source_plan_path),"utf8").trim();
+const rawRows=JSON.parse(zlib.inflateSync(Buffer.from(packed,"base64")).toString("utf8"));
+const source=rawRows.map(v=>({source_id:Number(v[0]),hub_vi:v[1]||"",page_type_vi:v[2]||"",title_vi:v[3]||"",intent_vi:v[4]||"",keyword_variants:v[5]||"",seed:v[6]||"",priority:v[7]||"P2",claim_policy_vi:v[8]||"",source_url:v[9]||""}));
 if(source.length!==500)throw new Error("Expected 500 source rows, got "+source.length);
 
 const hubs={
