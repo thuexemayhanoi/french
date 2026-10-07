@@ -87,6 +87,14 @@ for(const r of source){
     factory_status:merge?"FOUNDATION_MERGE":"PLANNED",production_status:merge?"MERGED_FOUNDATION":"PLANNED",repair_attempts:"0",published_at:"",actual_word_count:"",seo_score:"",foundation_merge_path:merge
   });
 }
+// Preserve runtime/progress fields if the plan is regenerated after publishing has begun.
+if(fs.existsSync(path.join(ROOT,cfg.matrix_path))){
+  const parsePrev=text=>{const rows=[];let row=[],f="",q=false;for(let i=0;i<text.length;i++){const ch=text[i];if(q){if(ch==='"'&&text[i+1]==='"'){f+='"';i++;}else if(ch==='"')q=false;else f+=ch}else{if(ch==='"')q=true;else if(ch===","){row.push(f);f=""}else if(ch==="\n"){row.push(f);rows.push(row);row=[];f=""}else if(ch!=="\r")f+=ch}}if(f||row.length){row.push(f);rows.push(row)}return rows.filter(r=>r.length)};
+  const prevRaw=parsePrev(fs.readFileSync(path.join(ROOT,cfg.matrix_path),"utf8")),prevH=prevRaw[0]||[],prev=new Map(prevRaw.slice(1).map(r=>{const o=Object.fromEntries(prevH.map((h,i)=>[h,r[i]||""]));return[o.id,o]}));
+  const keep=["working_title_fr","factory_status","production_status","repair_attempts","published_at","actual_word_count","seo_score"];
+  for(const r of out){const p=prev.get(r.id);if(!p||r.factory_status==="FOUNDATION_MERGE")continue;for(const k of keep)if(p[k]!==undefined&&p[k]!=="")r[k]=p[k]}
+}
+
 const text=[headers.map(csv).join(","),...out.map(r=>headers.map(h=>csv(r[h])).join(","))].join("\n")+"\n";
 fs.writeFileSync(path.join(ROOT,cfg.matrix_path),text);
 const mergeCount=out.filter(r=>r.factory_status==="FOUNDATION_MERGE").length;
