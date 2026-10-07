@@ -1,3 +1,4 @@
+// French SEO gate: URLs, metadata, redirects and automatic article sommaire.
 import {expectedFactoryRoute,hasEnglishSlugToken} from"../tools/french-slug.mjs";
 import fs from"node:fs";import path from"node:path";
 const root=process.cwd(),all=[];
