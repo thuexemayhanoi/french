@@ -1,7 +1,1 @@
-window.CONTENT_INDEX=[
-{url:"/",title:"Location de moto et scooter à Hanoi",tags:["location","hanoi","scooter"]},
-{url:"/a-propos/",title:"À propos de Nguyen Tu",tags:["entreprise","hanoi"]},
-{url:"/blog/",title:"Blog location moto Hanoi",tags:["blog","location","voyage"]},
-{url:"/faq/",title:"Questions fréquentes",tags:["faq","location"]},
-{url:"/contact/",title:"Contact",tags:["contact","hanoi"]}
-];
+(()=>{const fixed=[{url:"/",title:"Location de moto et scooter à Hanoi",tags:["location","hanoi","scooter"]},{url:"/a-propos/",title:"À propos",tags:["entreprise","hanoi"]},{url:"/blog/",title:"Blog",tags:["blog","location","voyage"]},{url:"/faq/",title:"FAQ",tags:["faq","location","permis"]},{url:"/contact/",title:"Contact",tags:["contact","hanoi"]}];const silo=(window.SILO_MAP||[]).flatMap(s=>[{url:s.href,title:s.title,tags:[s.id,"hub"]},...(s.children||[]).map(c=>({url:c.href,title:c.title,tags:[s.id,"cluster"]}))]);window.CONTENT_INDEX=[...fixed,...silo]})();
