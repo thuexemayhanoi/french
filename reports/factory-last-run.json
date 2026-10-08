@@ -1,33 +1,37 @@
 {
   "schema_version": 1,
-  "started": "2026-10-08T05:19:34.103Z",
-  "finished": "2026-10-08T05:19:34.188Z",
+  "started": "2026-10-08T05:23:48.190Z",
+  "finished": "2026-10-08T05:23:48.266Z",
   "processed": [
     {
-      "id": "FR-462",
-      "draft": "_factory/inbox/FR-462.article",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "FR-470",
+      "draft": "_factory/inbox/FR-470.article",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link /types-motos/meilleure-moto-montagne-routes-vietnam/"
+      ],
       "warnings": [],
-      "word_count": 1696,
+      "word_count": 1724,
       "seo_score": 100
     },
     {
-      "id": "FR-463",
-      "draft": "_factory/inbox/FR-463.article",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "FR-471",
+      "draft": "_factory/inbox/FR-471.article",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link /types-motos/meilleure-moto-montagne-routes-vietnam/"
+      ],
       "warnings": [],
-      "word_count": 1633,
+      "word_count": 1530,
       "seo_score": 100
     }
   ],
-  "published_ids": [
-    "FR-462",
-    "FR-463"
-  ],
+  "published_ids": [],
   "review_ids": [],
-  "repair_ids": [],
+  "repair_ids": [
+    "FR-470",
+    "FR-471"
+  ],
   "blocked_ids": [],
   "fatal": null
 }
