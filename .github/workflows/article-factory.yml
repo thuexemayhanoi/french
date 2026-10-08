@@ -7,6 +7,8 @@ on:
       - '_factory/inbox/**'
       - 'data/source-plan.part*.b64'
       - 'data/factory-prepare.trigger'
+  schedule:
+    - cron: '13,43 * * * *'
   workflow_dispatch:
     inputs:
       action:
@@ -52,9 +54,11 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             action="${{ inputs.action }}"
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            action="process"
           else
-            changed="$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" || true)"
-            if echo "$changed" | grep -Eq "^(data/source-plan\.part[1-4]\.b64|data/factory-prepare.trigger)$"; then action="prepare-plan"; else action="process"; fi
+            changed="$(git diff --name-only "${{ github.event.before }}" "${{ github.event.sha }}" || true)"
+            if echo "$changed" | grep -Eq "^(data/source-plan\.part[1-4]\.b64|data/factory-prepare\.trigger)$"; then action="prepare-plan"; else action="process"; fi
           fi
           echo "action=$action" >> "$GITHUB_OUTPUT"
 
@@ -86,7 +90,7 @@ jobs:
       - name: Process inbox
         if: steps.control.outputs.action == 'process'
         run: |
-          node tools/factory.mjs process --before "${{ github.event.before }}" --after "${{ github.sha }}"
+          node tools/factory.mjs process --before "${{ github.event.before }}" --after "${{ github.event.sha }}"
           node tools/build-content-index.mjs
           node tools/build-chat-index.mjs
           node scripts/qa.mjs
@@ -114,9 +118,24 @@ jobs:
             exit 0
           fi
           git commit -m "factory: ${{ steps.control.outputs.action }}"
-          git fetch origin main
-          git rebase origin/main
-          git push origin HEAD:main
+          pushed=0
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Rebase attempt ${attempt} failed."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              pushed=1
+              break
+            fi
+            echo "Push attempt ${attempt} failed, retrying after backoff."
+            sleep $((attempt * 5))
+          done
+          if [ "$pushed" != "1" ]; then
+            echo "Push failed after 3 attempts."
+            exit 1
+          fi
 
       - name: Summary
         if: always()
