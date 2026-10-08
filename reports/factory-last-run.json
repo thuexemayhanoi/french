@@ -1,38 +1,33 @@
 {
   "schema_version": 1,
-  "started": "2026-10-08T05:59:36.188Z",
-  "finished": "2026-10-08T05:59:36.248Z",
+  "started": "2026-10-08T06:00:04.375Z",
+  "finished": "2026-10-08T06:00:04.452Z",
   "processed": [
     {
       "id": "FR-033",
       "draft": "_factory/inbox/FR-033.article",
-      "status": "REPAIR",
-      "errors": [
-        "html lang must be fr",
-        "title length 0 outside 45-70",
-        "meta description length 0 outside 120-180",
-        "expected exactly one H1",
-        "canonical mismatch",
-        "automatic article table of contents missing",
-        "word count 0 outside 1500-5000",
-        "internal links below minimum",
-        "French-language signal too weak",
-        "fewer than 4 H2 sections",
-        "missing required link /location-moto-hanoi/",
-        "missing required link /prix-location/",
-        "missing required link /types-motos/",
-        "SEO score 0 below 75"
-      ],
+      "status": "PUBLISHED",
+      "errors": [],
       "warnings": [],
-      "word_count": 0,
-      "seo_score": 0
+      "word_count": 1990,
+      "seo_score": 100
+    },
+    {
+      "id": "FR-036",
+      "draft": "_factory/inbox/FR-036.article",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1898,
+      "seo_score": 100
     }
   ],
-  "published_ids": [],
-  "review_ids": [],
-  "repair_ids": [
-    "FR-033"
+  "published_ids": [
+    "FR-033",
+    "FR-036"
   ],
+  "review_ids": [],
+  "repair_ids": [],
   "blocked_ids": [],
   "fatal": null
 }
