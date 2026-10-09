@@ -87,8 +87,27 @@ jobs:
         if: steps.control.outputs.action == 'status'
         run: node tools/factory.mjs status
 
-      - name: Process inbox
+      - name: Detect available writer drafts
         if: steps.control.outputs.action == 'process'
+        id: writer_input
+        shell: bash
+        run: |
+          if find _factory/inbox -maxdepth 1 -type f -name '*.article' | grep -q .; then
+            echo "has_drafts=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_drafts=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Report writer liveness (read-only)
+        if: steps.control.outputs.action == 'process'
+        run: node tools/factory-liveness.mjs
+
+      - name: Factory liveness regression tests
+        if: steps.control.outputs.action == 'process'
+        run: node --test tests/factory-liveness.test.mjs
+
+      - name: Process inbox
+        if: steps.control.outputs.action == 'process' && steps.writer_input.outputs.has_drafts == 'true'
         run: |
           node tools/factory.mjs process --before "${{ github.event.before }}" --after "${{ github.event.sha }}"
           node tools/build-content-index.mjs
@@ -106,7 +125,7 @@ jobs:
           node scripts/qa.mjs
 
       - name: Commit factory state
-        if: steps.control.outputs.action != 'status'
+        if: steps.control.outputs.action != 'status' && (steps.control.outputs.action != 'process' || steps.writer_input.outputs.has_drafts == 'true')
         shell: bash
         run: |
           set -e
