@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '_factory/approvals/*.txt'
+      - '_factory/approvals/batch.txt'
 
 permissions:
   contents: write
@@ -30,26 +30,26 @@ jobs:
           git fetch origin main
           git reset --hard origin/main
 
-      - name: Collect approval IDs
-        id: ids
+      - name: Process approval batch
         shell: bash
         run: |
-          changed="$(git diff --name-only "${{ github.event.before }}" "${{ github.event.sha }}" -- '_factory/approvals/' || true)"
-          ids="$(printf '%s\n' "$changed" | sed -n 's#^_factory/approvals/\(FR-[0-9][0-9]*\)\.txt$#\1#p' | sort -u | tr '\n' ' ')"
-          ids="$(echo $ids | sed 's/ *$//')"
-          echo "ids=$ids" >> "$GITHUB_OUTPUT"
-          echo "Collected approval IDs: [$ids]"
-          test -n "$ids"
-
-      - name: Approve reviewed articles
-        run: |
-          for id in ${{ steps.ids.outputs.ids }}; do
+          set -e
+          if [ ! -f "_factory/approvals/batch.txt" ]; then
+            echo "No pending batch. Nothing to do."
+            exit 0
+          fi
+          ids="$(grep -E '^FR-[0-9]+$' _factory/approvals/batch.txt | sort -u | tr '\n' ' ')"
+          if [ -z "$ids" ]; then
+            echo "Batch file present but contains no valid IDs."
+            exit 1
+          fi
+          echo "Approving: [$ids]"
+          for id in $ids; do
             echo "=== Approving $id ==="
             node tools/factory.mjs approve "$id"
           done
-
-      - name: Rebuild indexes and run QA
-        run: |
+          rm -f _factory/approvals/batch.txt
+          rm -f _factory/approvals/FR-*.txt
           node tools/build-content-index.mjs
           node tools/build-chat-index.mjs
           node scripts/qa.mjs
@@ -65,7 +65,7 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          git commit -m "factory: approve ${{ steps.ids.outputs.ids }}"
+          git commit -m "factory: approve reviewed articles after manual fact-check"
           pushed=0
           for attempt in 1 2 3; do
             git fetch origin main
