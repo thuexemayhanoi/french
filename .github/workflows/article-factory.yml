@@ -62,6 +62,12 @@ jobs:
           fi
           echo "action=$action" >> "$GITHUB_OUTPUT"
 
+      - name: Sync to latest main
+        if: steps.control.outputs.action == 'process' || steps.control.outputs.action == 'approve'
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Prepare 500-row plan
         if: steps.control.outputs.action == 'prepare-plan'
         run: |
