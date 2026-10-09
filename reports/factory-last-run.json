@@ -1,23 +1,25 @@
 {
   "schema_version": 1,
-  "started": "2026-10-09T07:39:51.037Z",
-  "finished": "2026-10-09T07:39:51.103Z",
+  "started": "2026-10-09T07:41:10.645Z",
+  "finished": "2026-10-09T07:41:10.710Z",
   "processed": [
     {
-      "id": "FR-249",
-      "draft": "_factory/inbox/FR-249.article",
-      "status": "PUBLISHED",
-      "errors": [],
+      "id": "FR-251",
+      "draft": "_factory/inbox/FR-251.article",
+      "status": "REPAIR",
+      "errors": [
+        "broken internal link /types-motos/50cc-scooter-long-distance-vietnam/"
+      ],
       "warnings": [],
-      "word_count": 1781,
+      "word_count": 1653,
       "seo_score": 100
     }
   ],
-  "published_ids": [
-    "FR-249"
-  ],
+  "published_ids": [],
   "review_ids": [],
-  "repair_ids": [],
+  "repair_ids": [
+    "FR-251"
+  ],
   "blocked_ids": [],
   "fatal": null
 }
