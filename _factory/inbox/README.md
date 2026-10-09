@@ -16,3 +16,9 @@ Hard gates:
 - Do not overwrite an existing URL.
 
 Pushing an .article file triggers the factory. Passing drafts are published; legal/high-risk drafts are moved to _factory/review/ for approval.
+
+## Writer liveness and recovery
+
+The scheduled factory is a validator/publisher, not a generative AI writer. If the queue contains IDs but no .article drafts, check the Actions job summary for WAITING_FOR_WRITER. It is not proof that new content has been produced. See docs/FACTORY-LIVENESS.md.
+
+An external agent or locally hosted model must create truthful original French drafts for the current queue IDs. Push only QA-ready articles; never reset the matrix or bypass manual legal review. Empty scheduled runs must not produce generated commits.
