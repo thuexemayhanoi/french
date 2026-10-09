@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-09T12:32:01.423Z",
+  "generated_at": "2026-10-09T12:33:46.414Z",
   "target_new_articles": 500,
   "planned_new_articles": 500,
   "foundation_merges": 15,
-  "published": 288,
-  "remaining_to_target": 212,
+  "published": 289,
+  "remaining_to_target": 211,
   "unplanned_slots": 0,
   "queue": [
     {
@@ -43,11 +43,11 @@
       "template": "site/templates/article.html"
     },
     {
-      "id": "FR-302",
-      "source_id": 302,
-      "source_title_vi": "Thuê Vision hay Janus: so sánh tổng chi phí sử dụng",
-      "keyword_signal": "vision vs janus rental cost hanoi",
-      "keyword_variants": "vision vs janus rental cost hanoi",
+      "id": "FR-304",
+      "source_id": 304,
+      "source_title_vi": "Thuê Wave hay Sirius: xe nào tiết kiệm hơn cho 1 tháng",
+      "keyword_signal": "wave vs sirius monthly rental cost",
+      "keyword_variants": "wave vs sirius monthly rental cost",
       "silo_id": "prix",
       "parent_hub_path": "/prix-location/",
       "parent_hub_title": "Prix & coûts",
@@ -55,9 +55,9 @@
       "priority": "P1",
       "claim_policy_vi": "Chỉ dùng giá đã xác minh; không tự bịa giá, giảm giá hoặc tồn kho.",
       "source_url": "https://keywordtool.io/",
-      "url": "https://fr.rentbikehanoi.com/prix-location/vision-ou-janus-cout-location-hanoi/",
-      "path": "prix-location/vision-ou-janus-cout-location-hanoi/index.html",
-      "content_brief_fr": "Rédiger en français natif à partir de l'intention du plan vietnamien « Thuê Vision hay Janus: so sánh tổng chi phí sử dụng ». Utiliser les mots-clés de recherche comme signaux, sans traduction littérale ni bourrage. Répondre à une intention distincte du hub parent, garder les affirmations prudentes et suivre la politique de source.",
+      "url": "https://fr.rentbikehanoi.com/prix-location/wave-ou-sirius-mensuelle-cout-location/",
+      "path": "prix-location/wave-ou-sirius-mensuelle-cout-location/index.html",
+      "content_brief_fr": "Rédiger en français natif à partir de l'intention du plan vietnamien « Thuê Wave hay Sirius: xe nào tiết kiệm hơn cho 1 tháng ». Utiliser les mots-clés de recherche comme signaux, sans traduction littérale ni bourrage. Répondre à une intention distincte du hub parent, garder les affirmations prudentes et suivre la politique de source.",
       "internal_link_targets": [
         "/prix-location/",
         "/location-moto-hanoi/",
@@ -72,7 +72,7 @@
       "meta_description_min_chars": 120,
       "meta_description_max_chars": 180,
       "seo_score_min": 75,
-      "draft_file": "_factory/inbox/FR-302.article",
+      "draft_file": "_factory/inbox/FR-304.article",
       "template": "site/templates/article.html"
     }
   ]
