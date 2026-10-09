@@ -1,19 +1,21 @@
 {
   "schema_version": 1,
-  "started": "2026-10-09T19:33:02.287Z",
-  "finished": "2026-10-09T19:33:02.423Z",
+  "started": "2026-10-09T19:35:11.997Z",
+  "finished": "2026-10-09T19:35:12.081Z",
   "processed": [
     {
-      "id": "FR-189",
-      "draft": "_factory/inbox/FR-189.article",
-      "status": "REJECTED",
-      "errors": [
-        "row not writable"
-      ],
-      "warnings": []
+      "id": "FR-190",
+      "draft": "_factory/inbox/FR-190.article",
+      "status": "PUBLISHED",
+      "errors": [],
+      "warnings": [],
+      "word_count": 1753,
+      "seo_score": 100
     }
   ],
-  "published_ids": [],
+  "published_ids": [
+    "FR-190"
+  ],
   "review_ids": [],
   "repair_ids": [],
   "blocked_ids": [],
