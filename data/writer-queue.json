@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "status": "READY",
-  "generated_at": "2026-10-09T20:18:19.534Z",
+  "generated_at": "2026-10-09T20:19:51.548Z",
   "target_new_articles": 500,
   "planned_new_articles": 500,
   "foundation_merges": 15,
-  "published": 465,
-  "remaining_to_target": 35,
+  "published": 466,
+  "remaining_to_target": 34,
   "unplanned_slots": 0,
   "queue": [
     {
