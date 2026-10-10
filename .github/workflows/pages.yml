@@ -5,11 +5,12 @@ on:
   workflow_dispatch:
   # Factory/index commits made with GITHUB_TOKEN do not trigger push workflows.
   workflow_run:
-    workflows: [French Article Factory, Local Chat Index, Review Approve, pages build and deployment]
+    workflows: [French Article Factory, Local Chat Index, Review Approve]
     types: [completed]
     branches: [main]
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -27,11 +28,11 @@ jobs:
         with:
           script: |
             if (context.eventName !== 'workflow_run') return true;
-            // A legacy branch deployment may overwrite an earlier shared artifact.
-            if (context.payload.workflow_run.name === 'pages build and deployment') return true;
             const { data } = await github.rest.repos.getBranch({ ...context.repo, branch: 'main' });
             return data.commit.sha !== context.payload.workflow_run.head_sha;
   build:
+    outputs:
+      sha: ${{ steps.source.outputs.sha }}
     needs: changes
     if: needs.changes.outputs.publish == 'true'
     runs-on: ubuntu-latest
@@ -40,6 +41,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Record exact built revision
+        id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -61,6 +65,24 @@ jobs:
     timeout-minutes: 10
     needs: build
     steps:
+      - name: Wait for legacy branch Pages deployment to finish
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const sha = '${{ needs.build.outputs.sha }}';
+            const deadline = Date.now() + 5 * 60 * 1000;
+            while (Date.now() < deadline) {
+              const { data } = await github.rest.actions.listWorkflowRunsForRepo({
+                ...context.repo, head_sha: sha, per_page: 100
+              });
+              const legacy = data.workflow_runs.filter(run => run.name === 'pages build and deployment');
+              if (legacy.every(run => run.status === 'completed')) {
+                core.info('Legacy Pages runs finished; publishing the verified shared artifact last.');
+                return;
+              }
+              await new Promise(resolve => setTimeout(resolve, 5000));
+            }
+            core.setFailed('Legacy Pages deployment still active; retry publication after it finishes.');
       - name: Publish verified shared build
         id: deployment
         uses: actions/deploy-pages@v4

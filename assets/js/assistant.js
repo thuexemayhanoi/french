@@ -17,19 +17,21 @@ function icon(type){
  return '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">'+d+'</svg>';
 }
 function mount(){
- if(document.getElementById("quick-contact"))return;
+ if(document.getElementById("quick-contact")||document.getElementById("chat-fab"))return;
  const quick=document.createElement("div");quick.className="quick-contact";quick.id="quick-contact";quick.dataset.open="false";
  quick.innerHTML='<button class="qc-main" type="button" aria-expanded="false" aria-label="Contacts rapides">'+icon("phone")+'</button><div class="qc-actions">'+
   '<a class="qc-btn" href="tel:'+esc(C.phone)+'" aria-label="Appeler">'+icon("phone")+'<span class="qc-tip">Appeler</span></a>'+
-  '<a class="qc-btn" href="'+esc(C.contacts?.zalo||"https://zalo.me/84942467674")+'" target="_blank" rel="noopener" aria-label="Zalo">'+icon("message")+'<span class="qc-tip">Zalo</span></a>'+
-  '<a class="qc-btn" href="'+esc(C.contacts?.whatsapp||"https://wa.me/84942467674")+'" target="_blank" rel="noopener" aria-label="WhatsApp">'+icon("message")+'<span class="qc-tip">WhatsApp</span></a>'+
+  '<a class="qc-btn" href="'+esc(C.contacts.zalo)+'" target="_blank" rel="noopener" aria-label="Zalo">'+icon("message")+'<span class="qc-tip">Zalo</span></a>'+
+  '<a class="qc-btn" href="'+esc(C.contacts.whatsapp)+'" target="_blank" rel="noopener" aria-label="WhatsApp">'+icon("message")+'<span class="qc-tip">WhatsApp</span></a>'+
   '<a class="qc-btn" href="'+esc(C.contacts?.maps||"#")+'" target="_blank" rel="noopener" aria-label="Google Maps">'+icon("map")+'<span class="qc-tip">Carte</span></a></div>';
  document.body.appendChild(quick);
  const fab=document.createElement("button");fab.className="chat-fab";fab.id="chat-fab";fab.type="button";fab.setAttribute("aria-expanded","false");fab.setAttribute("aria-controls","chat-panel");fab.setAttribute("aria-label","Assistant local");fab.innerHTML=icon("chat")+'<span class="chat-tip">Assistant</span>';document.body.appendChild(fab);
- const panel=document.createElement("div");panel.className="chat-panel";panel.id="chat-panel";panel.hidden=true;panel.setAttribute("role","dialog");panel.setAttribute("aria-label","Assistant local Nguyen Tu");
- panel.innerHTML='<div class="chat-head"><div><span class="chat-title">Assistant Nguyen Tu</span><span class="chat-subtitle">Local · sans API · réponses depuis le site</span></div><button class="chat-close" type="button" aria-label="Fermer">×</button></div><div class="chat-log" aria-live="polite"></div><div class="chat-quick"><button data-q="Quel est le prix d’un scooter 50cc ?">50cc</button><button data-q="Quel dépôt faut-il prévoir ?">Dépôt</button><button data-q="Où êtes-vous à Hanoi ?">Adresse</button><button data-q="Quels sont vos horaires ?">Horaires</button><button data-q="Quel permis faut-il au Vietnam ?">Permis</button><button data-q="Conseils pour un road trip depuis Hanoi">Road trip</button></div><form class="chat-input"><input type="text" placeholder="Posez une question sur la location…" aria-label="Votre question" autocomplete="off"><button type="submit" aria-label="Envoyer">➜</button></form>';
+ const panel=document.createElement("div");panel.className="chat-panel";panel.id="chat-panel";panel.hidden=true;panel.setAttribute("role","dialog");panel.setAttribute("aria-label","Assistant local "+C.shortName);
+ panel.innerHTML='<div class="chat-head"><div><span class="chat-title">Assistant '+esc(C.shortName)+'</span><span class="chat-subtitle">Local · sans API · réponses depuis le site</span></div><button class="chat-close" type="button" aria-label="Fermer">×</button></div><div class="chat-log" aria-live="polite"></div><div class="chat-quick"><button data-q="Quel est le prix d’un scooter 50cc ?">50cc</button><button data-q="Quel dépôt faut-il prévoir ?">Dépôt</button><button data-q="Où êtes-vous à Hanoi ?">Adresse</button><button data-q="Quels sont vos horaires ?">Horaires</button><button data-q="Quel permis faut-il au Vietnam ?">Permis</button><button data-q="Conseils pour un road trip depuis Hanoi">Road trip</button></div><form class="chat-input"><input type="text" placeholder="Posez une question sur la location…" aria-label="Votre question" autocomplete="off"><button type="submit" aria-label="Envoyer">➜</button></form>';
  document.body.appendChild(panel);
  wire(quick,fab,panel);
+ if(!C.featureFlags.quickContact)quick.remove();
+ if(!C.featureFlags.localChatbot){fab.remove();panel.remove();}
 }
 class SiteSearch{
  constructor(){this.data=null;this.state="idle";this.promise=null}
@@ -42,14 +44,14 @@ class SiteSearch{
 }
 const search=new SiteSearch(),memory={topic:null};
 function fixedAnswer(raw){
- const q=norm(raw);
+ const q=norm(raw),money=n=>new Intl.NumberFormat(C.locale).format(n)+" "+C.rental.currency;
  if(/disponib|stock|encore une moto|avez vous une moto/.test(q))return "Je ne peux pas vérifier la disponibilité en temps réel. Appelez ou écrivez-nous pour confirmer le modèle et les dates.";
- if(/horaire|heure|ouvert|ferme|fermé/.test(q))return "Horaires habituels : 09:00–21:30, heure de Hanoi.";
- if(/adresse|ou etes|où êtes|localisation|carte|map/.test(raw.toLowerCase())||/adresse|localisation/.test(q))return "Nous sommes au 112 Nguyen Van Cu, Long Bien, Hanoi. "+link(C.contacts.maps,"Ouvrir la carte",true)+".";
+ if(/horaire|heure|ouvert|ferme|fermé/.test(q))return "Horaires habituels : "+esc(C.hours.open)+"–"+esc(C.hours.close)+", heure de Hanoi.";
+ if(/adresse|ou etes|où êtes|localisation|carte|map/.test(raw.toLowerCase())||/adresse|localisation/.test(q))return "Nous sommes au "+esc(C.standardAddress)+" "+link(C.contacts.maps,"Ouvrir la carte",true)+".";
  if(/contact|telephone|téléphone|appeler|zalo|whatsapp/.test(raw.toLowerCase())||/contact|telephone|appeler/.test(q))return "Téléphone : "+link("tel:"+C.phone,C.phoneDisplay)+". Vous pouvez aussi utiliser Zalo ou WhatsApp via le bouton rapide en bas à gauche.";
- if(/depot|dépôt|caution|passeport/.test(raw.toLowerCase())||/depot|caution|passeport/.test(q))return "Pour le scooter 50cc vérifié : dépôt de 4 000 000 VND, ou passeport comme alternative. Pour un autre modèle, demandez confirmation avant la location.";
- if(/50\s*cc/.test(q)&&/prix|tarif|cout|coût|jour|3 jours/.test(raw.toLowerCase()))return "Le tarif vérifié du scooter automatique 50cc est de 200 000 VND par jour. Pour 3 jours : 600 000 VND.";
- if(/livraison|delivery|giao/.test(q))return "La livraison ou reprise peut être disponible pour les contrats d’au moins 800 000 VND, avec frais supplémentaires selon le trajet. Confirmez le lieu avant de réserver.";
+ if(/depot|dépôt|caution|passeport/.test(raw.toLowerCase())||/depot|caution|passeport/.test(q))return "Le dépôt dépend du modèle : de "+money(C.rental.depositMin)+" à "+money(C.rental.depositMax)+". Pour le scooter 50cc : "+money(C.rental.prices.scooter50cc.deposit)+". Confirmez le montant et les conditions du contrat avant la location.";
+ if(/50\s*cc/.test(q)&&/prix|tarif|cout|coût|jour|3 jours/.test(raw.toLowerCase()))return "Tarif indicatif du scooter automatique 50cc : "+money(C.rental.prices.scooter50cc.daily)+" par jour. Confirmez le tarif avant la réservation.";
+ if(/livraison|delivery|giao/.test(q))return "Le lieu, les modalités de livraison et les frais éventuels doivent être confirmés avec le loueur avant la réservation.";
  return null;
 }
 function pickExcerpt(hit,q){

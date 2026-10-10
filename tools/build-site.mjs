@@ -27,7 +27,9 @@ export function buildSite(root=process.cwd(),out=path.join(root,'_site')){
         '<script src="/assets/js/components.js"></script>$&');
     }
     built=built.replace(/(src|href)="(\/assets\/[^"?]+\.(?:js|css))(?:\?[^"]*)?"/g,(_,attr,url)=>{
-      const hash=createHash('sha256').update(fs.readFileSync(path.join(root,url.slice(1)))).digest('hex').slice(0,12);
+      const fingerprint=createHash('sha256').update(fs.readFileSync(path.join(root,url.slice(1))));
+      if(url==='/assets/js/components.js')fingerprint.update(fs.readFileSync(path.join(root,'assets/js/assistant.js')));
+      const hash=fingerprint.digest('hex').slice(0,12);
       return attr+'="'+url+'?v='+hash+'"';
     });
     fs.writeFileSync(target,built);pages++;

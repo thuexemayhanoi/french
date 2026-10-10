@@ -30,3 +30,15 @@ test('schema safely escapes script terminators from shared configuration',()=>{
  const html=renderPage(fs.readFileSync(samples[0],'utf8'),'/honda/honda-wave-rsx-location-hanoi/',modified);
  const raw=html.match(/<script type="application\/ld\+json" data-site-schema="1">([\s\S]*?)<\/script>/)[1];assert.equal(JSON.parse(raw)['@graph'][0].name,modified.config.businessName);assert.ok(!raw.includes('</script>'));
 });
+test('assistant replies use central hours, address, reference rates and deposit policy',async()=>{
+ const {default:vm}=await import('node:vm');
+ const context=vm.createContext({window:{SITE_CONFIG:site.config},document:{readyState:'loading',addEventListener(){}}});
+ const source=fs.readFileSync('assets/js/assistant.js','utf8').replace('if(document.readyState===','window.testFixedAnswer=fixedAnswer;\nif(document.readyState===');
+ vm.runInContext(source,context);
+ const answer=context.window.testFixedAnswer;
+ assert.ok(answer('Horaires').includes('09:00–21:00'));
+ assert.ok(answer('Adresse').includes('Bồ Đề'));
+ assert.ok(!answer('Dépôt').includes('passeport'));
+ assert.ok(answer('Prix 50cc').includes('200'));
+ assert.ok(!answer('Livraison').includes('800'));
+});
