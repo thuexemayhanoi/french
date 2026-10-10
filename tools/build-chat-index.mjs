@@ -5,7 +5,7 @@ const ROOT=process.cwd(),CHECK=process.argv.includes("--check"),OUT=path.join(RO
 const strip=s=>String(s||"").replace(/<script[\s\S]*?<\/script>/gi," ").replace(/<style[\s\S]*?<\/style>/gi," ").replace(/<[^>]+>/g," ").replace(/&nbsp;/gi," ").replace(/&amp;/gi,"&").replace(/&quot;/gi,'"').replace(/&#39;|&apos;/gi,"'").replace(/&lt;/gi,"<").replace(/&gt;/gi,">").replace(/\s+/g," ").trim();
 const cut=(s,n=340)=>s.length>n?s.slice(0,n).replace(/\s+\S*$/,"")+"…":s;
 const files=[];
-function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){if([".git","node_modules","site","_factory","assets"].includes(e.name))continue;const p=path.join(d,e.name);if(e.isDirectory())walk(p);else if(e.isFile()&&e.name==="index.html")files.push(p)}}walk(ROOT);
+function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){if([".git","node_modules","site","_factory","_site","assets"].includes(e.name))continue;const p=path.join(d,e.name);if(e.isDirectory())walk(p);else if(e.isFile()&&e.name==="index.html")files.push(p)}}walk(ROOT);
 const entries=[];
 for(const f of files){
  const html=fs.readFileSync(f,"utf8");if(/data-page-type="redirect"/i.test(html)||/<meta name="robots" content="noindex/i.test(html))continue;const rel=path.relative(ROOT,f).split(path.sep).join("/"),u=rel==="index.html"?"/":"/"+rel.replace(/index\.html$/,"");

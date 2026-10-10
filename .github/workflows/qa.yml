@@ -28,3 +28,9 @@ jobs:
           node --check assets/js/components.js
       - name: Verify factory queue and state
         run: node tools/factory.mjs status
+      - name: Shared config/slot regression tests
+        run: node --test tests/shared-site.test.mjs tests/factory-liveness.test.mjs
+      - name: Build all pages from shared components and layout
+        run: node tools/build-site.mjs
+      - name: Preserve article bytes, SEO, routes and sitemap; verify output links/schema
+        run: node scripts/qa-shared.mjs

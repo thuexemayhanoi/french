@@ -88,3 +88,7 @@ node tools/build-chat-index.mjs --check
 For any new article production: inspect the matrix and queue first, verify the external writer's actual draft, preserve review gates, check CI, then confirm the deployed URL and Search Console coverage. Do not change target counters or remove QA controls merely to report progress.
 
 See also [SEO content rules](SEO-CONTENT-CLUSTER-RULES.md), [silo map](SILO-MAP.md) and [foundation SEO audit](SEO-FOUNDATION-AUDIT.md).
+
+## 7. Shared build rollout (2026-10-10)
+
+Shared components now render at build time as well as browser fallback. `tools/build-site.mjs` applies `site/templates/layout.html`, shared config/components and optional `site/slots/` to all indexable source pages, emitting `_site/`. The `Shared Site Publish` workflow validates and deploys that output, including successful factory/review/index bot changes. Original editorial HTML and metadata remain source-of-truth; generated output does not enter the factory or chat inventory. See [shared-site audit and editing guide](SHARED-SITE-AUDIT.md) for exact edit points, preservation checks and known pre-existing editorial debt.

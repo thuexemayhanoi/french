@@ -89,3 +89,9 @@ For production changes, verify the relevant GitHub Actions run and deployed Page
 - [Silo map](docs/SILO-MAP.md)
 
 This README describes the current state; it does not modify factory settings or promise unattended AI content generation.
+
+## Modifier une fois, synchroniser tout le site
+
+Le build partagé pré-rend les composants sur les **543 pages indexables**, tout en conservant les quatre redirections et le contenu éditorial. Modifier le CTA, le téléphone, les options ou les liens associés dans `assets/js/site-config.js`; les couleurs et dimensions dans `assets/css/site.css`; les blocs globaux dans `site/slots/`. Le layout commun est `site/templates/layout.html`.
+
+Chaque publication valide le contenu, les métadonnées, les URL, le sitemap et les composants avant de déployer `_site/` avec **Shared Site Publish**. Aucun framework ni dépendance runtime supplémentaire. Voir [l’audit et le guide des points d’édition](docs/SHARED-SITE-AUDIT.md).

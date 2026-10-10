@@ -1,8 +1,9 @@
 // French SEO gate: URLs, metadata, redirects and automatic article sommaire.
 import {expectedFactoryRoute,hasEnglishSlugToken} from"../tools/french-slug.mjs";
+import {loadSite} from "../tools/shared-site.mjs";
 import fs from"node:fs";import path from"node:path";
 const root=process.cwd(),all=[];
-function walk(d){for(const n of fs.readdirSync(d)){if([".git","node_modules","site","_factory"].includes(n))continue;const f=path.join(d,n),s=fs.statSync(f);s.isDirectory()?walk(f):all.push(f)}}walk(root);
+function walk(d){for(const n of fs.readdirSync(d)){if([".git","node_modules","site","_factory","_site"].includes(n))continue;const f=path.join(d,n),s=fs.statSync(f);s.isDirectory()?walk(f):all.push(f)}}walk(root);
 const html=all.filter(f=>f.endsWith(".html")),err=[],sm=fs.readFileSync("sitemap.xml","utf8"),titles=new Map(),canonicals=new Map();
 const foundation=JSON.parse(fs.readFileSync("data/seo-cluster-matrix.json","utf8"));
 const cfg=JSON.parse(fs.readFileSync("data/factory-config.json","utf8"));
@@ -55,8 +56,10 @@ for(const r of matrix.filter(x=>x.path)){if(pathsSeen.has(r.path))err.push(r.id+
 for(const p of ["data/source-plan.part1.b64","data/source-plan.part2.b64","data/source-plan.part3.b64","data/source-plan.part4.b64"])if(!fs.existsSync(p))err.push("source plan part missing "+p);
 if(!fs.readFileSync("assets/js/components.js","utf8").includes('dataset.pageType==="article"'))err.push("article schema support missing");
 const cfgSrc=fs.readFileSync("assets/js/site-config.js","utf8");
-if(!cfgSrc.includes("quickContact:true")||!cfgSrc.includes("localChatbot:true"))err.push("floating feature flags missing");
-if(!cfgSrc.includes("wa.me/84942467674")||!cfgSrc.includes("zalo.me/84942467674")||!cfgSrc.includes("google.com/maps/search"))err.push("quick contact targets missing");
+const siteConfig=loadSite().config;
+if(typeof siteConfig.featureFlags.quickContact!=="boolean"||typeof siteConfig.featureFlags.localChatbot!=="boolean")err.push("floating feature flags missing");
+if(!siteConfig.contacts.whatsapp||!siteConfig.contacts.zalo||!siteConfig.contacts.maps)err.push("quick contact targets missing");
+if(siteConfig.domain!==cfg.production_domain)err.push("factory and site production domain differ");
 if(!fs.existsSync("assets/js/assistant.js"))err.push("local assistant script missing");
 if(!fs.existsSync("assets/chat/search-index.json"))err.push("chat search index missing");
 else{const chat=JSON.parse(fs.readFileSync("assets/chat/search-index.json","utf8"));if(chat.count!==indexableCount)err.push("chat index count "+chat.count+" differs from indexable HTML "+indexableCount);if(!Array.isArray(chat.e)||chat.e.length!==chat.count)err.push("chat index entries invalid")}
