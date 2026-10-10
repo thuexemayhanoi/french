@@ -47,14 +47,6 @@ jobs:
       - run: node --test tests/shared-site.test.mjs tests/factory-liveness.test.mjs
       - run: node tools/build-site.mjs
       - run: node scripts/qa-shared.mjs
-      - name: Use verified build artifact as Pages source
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.request('PUT /repos/{owner}/{repo}/pages', {
-              ...context.repo,
-              build_type: 'workflow'
-            });
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
