@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   # Factory/index commits made with GITHUB_TOKEN do not trigger push workflows.
   workflow_run:
-    workflows: [French Article Factory, Local Chat Index, Review Approve]
+    workflows: [French Article Factory, Local Chat Index, Review Approve, pages build and deployment]
     types: [completed]
     branches: [main]
 permissions:
@@ -27,6 +27,8 @@ jobs:
         with:
           script: |
             if (context.eventName !== 'workflow_run') return true;
+            // A legacy branch deployment may overwrite an earlier shared artifact.
+            if (context.payload.workflow_run.name === 'pages build and deployment') return true;
             const { data } = await github.rest.repos.getBranch({ ...context.repo, branch: 'main' });
             return data.commit.sha !== context.payload.workflow_run.head_sha;
   build:
