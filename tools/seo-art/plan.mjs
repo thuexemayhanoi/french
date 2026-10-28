@@ -49,6 +49,7 @@ const PLACES = [
   ['sunset', 'west_lake', null, {time: 'golden'}], ['couples', 'west_lake', null, {time: 'dusk', variant: 'cafe'}], ['early-morning', 'lake_hk', null, {time: 'dawn'}], ['photo-spots', 'long_bien', null, {variant: 'train'}],
   ['free-que-faire', 'lake_hk', null], ['unique-que-faire', 'countryside', 'de la campagne autour de Hanoi'], ['solo', 'old_quarter', null],
 ];
+let ORDER = null; const ordinal = id => { if (!ORDER) { ORDER = new Map(JSON.parse(fs.readFileSync('data/image-seo-matrix.json', 'utf8')).items.map((x, i) => [x.id, i])); } return ORDER.get(id) ?? 0; };
 const hash = s => parseInt(createHash('sha256').update(s).digest('hex').slice(0, 8), 16);
 function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 
@@ -142,7 +143,7 @@ export function planItem(it) {
 
   // Model articles (honda-*/yamaha-*): one angle per suffix.
   const angle = slug.match(/-(hanoi-ville|location-hanoi|longue-distance-vietnam|vietnam-voyage-moto|prix-location-hanoi)$/)?.[1];
-  if (found.length && /-ou-/.test(slug)) { set('duel', {variant: pick(['studio', 'city', 'road', 'studio'])}); if (bikes.length < 2) bikes.push(bikeOf(genericType())); return finalize(sp, it, txt); }
+  if (found.length && /-ou-/.test(slug)) { set('duel', {variant: ['studio', 'city', 'road', 'brick', 'garage', 'lake', 'mountain', 'night'][(ordinal(it.id) * 3) % 8]}); if (bikes.length < 2) bikes.push(bikeOf(genericType())); return finalize(sp, it, txt); }
   if (found.length && (slug.startsWith('honda-') || slug.startsWith('yamaha-'))) {
     sp.bikes = [bikes[0]];
     const mi = MODELS.findIndex(m => m[1] === found[0].label), rot = (list, k = 0) => list[(mi * 3 + k) % list.length];
@@ -175,7 +176,7 @@ export function planItem(it) {
     'location-moto-hanoi-weekend-location-moto-hanoi': () => set('phone_nav'),
     'location-moto-hanoi-longue-duree-location-moto-hanoi': () => set('toolkit', {variant: 'oil'}),
     'prix-location-30-jours-location-moto-hanoi-cout': () => set('budget', {place: 'de trente jours de location', kind: 'city'}),
-    'prix-location-50cc-ou-125cc-location-scooter-cout-hanoi': () => set('duel', {variant: 'studio', bikes: [bikeOf('scooter_flat'), bikeOf('scooter_small')]}),
+    'prix-location-50cc-ou-125cc-location-scooter-cout-hanoi': () => set('duel', {variant: 'brick', bikes: [bikeOf('scooter_flat'), bikeOf('scooter_small')]}),
     'prix-location-abs-location-scooter-hanoi-prix-premium': () => set('brakes', {variant: 'disc'}),
     'prix-location-cheap-location-moto-hanoi': () => set('checklist'),
     'prix-location-hebdomadaire-ou-mensuelle-location-moto-hanoi-cout': () => set('calendar'),
@@ -225,9 +226,9 @@ export function planItem(it) {
   for (const [re, fn] of T) if (re.test(topic)) { fn(); if (sp.scene) return finalize(sp, it, txt); }
   if (placeRule()) return finalize(sp, it, txt);
   if (/meilleur|quelle-moto|semi-automatique-ou-trail|trail-moto-ou-scooter|scooter-ou-semi|scooter-ou-moto|automatique-ou-semi|50cc-ou|125cc-ou|125cc-location|wave-alpha-ou|moins-de-125|plus-de-125/.test(slug)) {
-    const pairs = {trail: ['trail', 'underbone'], semi: ['underbone', 'scooter_small'], '50cc': ['scooter_flat', 'underbone'], '125': ['scooter_small', 'scooter_premium']};
-    const p = has('trail') ? pairs.trail : has('50cc') ? pairs['50cc'] : has('125') ? pairs['125'] : pairs.semi;
-    set('duel', {variant: pick(['road', 'studio']), bikes: [bikeOf(p[0]), bikeOf(p[1])]}); return finalize(sp, it, txt);
+    const pairs = {trail: ['trail', 'underbone'], semi: ['underbone', 'scooter_small'], '50cc': ['scooter_flat', 'underbone'], '125': ['scooter_small', 'scooter_premium'], '160': ['scooter_small', 'scooter_sport'], plus: ['scooter_premium', 'sport_underbone'], moins: ['underbone', 'scooter_flat'], ville: ['scooter_small', 'underbone']};
+    const p = has('trail') ? pairs.trail : has('50cc') ? pairs['50cc'] : has('160cc') ? pairs['160'] : has('plus-de-125') ? pairs.plus : has('moins-de-125') ? pairs.moins : has('circulation') ? pairs.ville : has('125') ? pairs['125'] : pairs.semi;
+    set('duel', {variant: ['road', 'studio', 'brick', 'garage', 'lake', 'mountain', 'city'][(ordinal(it.id) * 3) % 7], bikes: [bikeOf(p[0]), bikeOf(p[1])]}); return finalize(sp, it, txt);
   }
   // Remaining durations / generic rental, Hanoi itineraries and type pages.
   if (/jours|semaine|mois|week-end|weekend|courte|longue|1-jour|mensuelle|student|expat|backpacker|tourists|solo|debutant|experienced|louer-ou-buy|1-way|vietnam$/.test(slug)) {

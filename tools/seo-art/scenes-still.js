@@ -134,10 +134,15 @@ SCENES.duel = sp => {
   const ctxBg = sp.variant || 'studio';
   if (ctxBg === 'city') { sky(sp.time || 'morning', 430); street(430, 9, {}); sidewalk(430, 40); asphalt(470, H); rect(0, 0, W / 2, H, alpha(ca, 0.25)); rect(W / 2, 0, W / 2, H, alpha(cb, 0.25)); }
   else if (ctxBg === 'road') { sky(sp.time || 'morning', 330); mountains(3, 160, 300, '#557c4c', { amp: 130 }); rect(0, 420, W, 210, '#8fbf5a'); road([[-50, 560, 110], [1300, 560, 110]], { shoulder: '#c9b48a' }); }
+  else if (ctxBg === 'brick') { rect(0, 0, W, H, '#b5623e'); for (let y = 0; y < H * 0.72; y += 22) for (let x = (y / 22) % 2 ? -20 : 0; x < W; x += 44) rect(x + 1, y + 1, 42, 20, shade('#b5623e', rnd(-0.1, 0.08))); rect(0, H * 0.72, W, H * 0.28, '#a8a49a'); }
+  else if (ctxBg === 'garage') { rect(0, 0, W, H * 0.72, '#9aa1a8'); for (let y = 10; y < H * 0.72; y += 16) rect(0, y, W, 3, '#7f868d'); rect(0, H * 0.72, W, H * 0.28, '#8a8475'); }
+  else if (ctxBg === 'lake') { sky(sp.time || 'morning', 380); water(380, 470, '#6f9f8a', '#4f857a'); for (let i = 0; i < 12; i++) roundTree(rnd(0, W), 385, 28, depth('#4f7a44', 0.3)); rect(0, 470, W, 160, '#b8ac94'); }
+  else if (ctxBg === 'mountain') { sky(sp.time || 'golden', 330); karst(330, 12, 100, 200, depth('#6f8a68', 0.5), { dots: 300 }); fillBelow(ridgeFn(420, 60, 2, 3), '#557c4c'); road([[-50, 580, 120], [1300, 580, 120]], { shoulder: '#b8a98a' }); }
+  else if (ctxBg === 'night') { sky('night', 420); street(420, 9, { night: true }); asphalt(420, H, '#33363c'); }
   else { rect(0, 0, W / 2, H, lgrad(0, 0, 0, H, [[0, shade(ca, 0.2)], [0.72, ca], [0.72, shade(ca, -0.15)], [1, shade(ca, -0.22)]])); rect(W / 2, 0, W / 2, H, lgrad(0, 0, 0, H, [[0, shade(cb, 0.2)], [0.72, cb], [0.72, shade(cb, -0.15)], [1, shade(cb, -0.22)]])); }
   line(W / 2, 40, W / 2, H - 40, alpha('#ffffff', 0.8), 4);
   heroBike(a, 290, 595, 172, {}); heroBike(b, 910, 595, 172, { flip: true });
-  const where = ctxBg === 'city' ? ' dans une rue de Hanoi' : ctxBg === 'road' ? ' sur une route de campagne au pied des collines' : ' sur un fond partagé en deux tons';
+  const where = { city: ' dans une rue de Hanoi', road: ' sur une route de campagne au pied des collines', brick: ' devant un mur de briques', garage: ' devant un rideau métallique de garage', lake: ' au bord d’un lac', mountain: ' sur une route de montagne entre des pitons karstiques', night: ' dans une rue de Hanoi la nuit' }[ctxBg] || ' sur un fond partagé en deux tons';
   return `comparaison face à face${where} : à gauche ${bikeFR(a)}, à droite ${bikeFR(b)}, présentés de profil sans logo`;
 };
 SCENES.two_up = sp => {
