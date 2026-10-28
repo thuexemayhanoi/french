@@ -56,10 +56,11 @@ SCENES.long_bien = sp => {
   water(hz + 4, 520, '#b08f6a', '#9a7a55');
   trussBridge(330, 70, '#5f564d', { pierH: 200 });
   if (sp.variant === 'train') { rect(200, 296, 700, 28, '#3a5f7a'); for (let i = 0; i < 14; i++) rect(210 + i * 49, 302, 34, 12, '#d8e2e8'); }
+  if (sp.variant === 'island') { ellipse(760, 470, 260, 26, '#d8c79a'); for (let i = 0; i < 9; i++) { const x = 560 + i * 45; line(x, 470, x, 430, '#6a7a3a', 3); for (let k = 0; k < 4; k++) ellipse(x + rnd(-14, 14), 428 + rnd(-6, 6), 18, 6, '#6f9a4a', rnd(-1, 1)); } sampan(380, 490, 45, '#5b3d28'); }
   rect(0, 520, W, 110, '#8fae6a'); for (let i = 0; i < 6; i++) { const x = rnd(0, W); for (let k = 0; k < 5; k++) ellipse(x + rnd(-20, 20), 530 + rnd(-10, 10), 22, 8, '#6f9a4a', rnd(-1, 1)); }
   road([[-50, 600, 60], [1300, 590, 60]], { shoulder: '#b8a98a', center: false });
   const txt = heroAction(sp, 600, 612, 82);
-  return `${txt} sur la rive du fleuve Rouge, face à un long pont métallique à poutres en treillis${sp.variant === 'train' ? ' traversé par un train' : ''}, bananiers sur la berge, ${TIME_FR[sp.time]}`;
+  return `${txt} sur la rive du fleuve Rouge, face à un long pont métallique à poutres en treillis${sp.variant === 'train' ? ' traversé par un train' : ''}${sp.variant === 'island' ? ', un banc de sable planté de bananiers et une barque au milieu du fleuve' : ''}, bananiers sur la berge, ${TIME_FR[sp.time]}`;
 };
 SCENES.french_quarter = sp => {
   const night = sp.time === 'night'; sky(sp.time, 450); const gy = 450;

@@ -36,7 +36,7 @@ const PLACES = [
   ['nord-a-sud', 'long_road', 'du nord au sud du Vietnam', {variant: 'south'}], ['nord-sud', 'long_road', 'du nord au sud du Vietnam', {variant: 'south'}], ['ho-chi-minh-route', 'long_road', 'par la route Hô Chi Minh'], ['saigon', 'saigon', null, {variant: 'river'}], ['ho-chi-minh-ville', 'saigon', null],
   ['soc-son', 'pine_hills', 'de Sóc Sơn'], ['bat-trang', 'pottery', 'de Bát Tràng'], ['duong-lam', 'ancient_village', 'de Đường Lâm'], ['co-loa', 'ancient_village', 'de Cổ Loa', {variant: 'ramparts'}],
   ['ecopark', 'park_lake', null], ['hanoi-hanoi-1-jour-itineraire', 'lake_hk', null], ['hanoi-hanoi-2-jours-itineraire', 'old_quarter', null, {variant: 'lanterns'}], ['hanoi-hanoi-3-jours-itineraire', 'west_lake', null], ['hanoi-hanoi-4-jours-itineraire', 'pottery', 'de Bát Tràng'], ['hanoi-hanoi-5-jours-itineraire', 'street_food', null], ['hanoi-hanoi-7-jours-itineraire', 'countryside', 'de Hanoi', {variant: 'ba_vi'}], ['easy-moto-routes', 'countryside', 'de Hanoi'], ['cafes-itineraire', 'cafe', null, {variant: 'lake'}], ['kids', 'park_lake', null], ['temple-de-literature', 'temple', 'du Temple de la Littérature'], ['ba-dinh', 'ba_dinh', 'de Ba Dinh'],
-  ['hoan-kiem', 'lake_hk', null], ['west-lac', 'west_lake', null], ['tay-ho', 'west_lake', null], ['lakes', 'lake_hk', null], ['long-bien', 'long_bien', null], ['red-river', 'long_bien', null],
+  ['hoan-kiem', 'lake_hk', null], ['west-lac', 'west_lake', null], ['tay-ho', 'west_lake', null], ['lakes', 'lake_hk', null], ['long-bien', 'long_bien', null], ['red-river', 'long_bien', null, {variant: 'island'}],
   ['vieux-quartier', 'old_quarter', null], ['quartier-francais', 'french_quarter', null], ['french-architecture', 'french_quarter', null, {variant: 'cathedral'}], ['christmas', 'french_quarter', null, {variant: 'cathedral', extra: 'christmas', time: 'night'}],
   ['nuit-market', 'night_market', null], ['at-nuit', 'night_ride', null], ['street-food', 'street_food', null], ['food', 'street_food', null], ['cafes', 'cafe', null],
   ['tet', 'tet', null], ['hiver', 'winter_lake', null], ['heat', 'heat_street', null], ['ete', 'heat_street', null], ['when-it-rains', 'rain_street', null], ['pluie', 'rain_street', null], ['musees', 'rain_street', null],
@@ -151,7 +151,8 @@ export function planItem(it) {
     else set(pick(['quiet_street', 'city_traffic']));
     sp.bikes = [bikes[0]]; return finalize(sp, it, txt);
   }
-  if (/jour-voyages/.test(slug)) { set('countryside', {variant: 'hills'}); return finalize(sp, it, txt); }
+  if (/scooter-jour-voyages/.test(slug)) { set('countryside', {variant: 'hills'}); return finalize(sp, it, txt); }
+  if (/jour-voyages/.test(slug)) { set('forest_mountain', {place: 'des environs de Hanoi'}); return finalize(sp, it, txt); }
   // Topic rules by keyword (order matters: most specific first).
   const T = [
     [/roundabout|panneaux|lane|left-turn/, () => set('intersection', {variant: /roundabout|panneaux/.test(slug) ? 'roundabout' : null})],
@@ -200,7 +201,7 @@ export function planItem(it) {
     else set('rental_period');
     return finalize(sp, it, txt);
   }
-  if (/routes|easy-moto|scooter-jour|semi-automatique-moto-routes|trail-moto-routes/.test(slug)) { set(has('trail') ? 'forest_mountain' : pick(['countryside', 'long_bien']), {variant: 'hills'}); return finalize(sp, it, txt); }
+  if (/routes|easy-moto|scooter-jour|semi-automatique-moto-routes|trail-moto-routes/.test(slug)) { set(has('trail') ? 'forest_mountain' : has('semi-automatique') ? 'mountain_lake' : 'countryside', {variant: 'hills', place: has('semi-automatique') ? 'des environs de Hanoi' : null}); return finalize(sp, it, txt); }
   if (/types-motos/.test(slug)) { set(pick(['quiet_street', 'city_traffic'])); return finalize(sp, it, txt); }
   set(pick(['old_quarter', 'city_traffic', 'quiet_street']));
   return finalize(sp, it, txt);
