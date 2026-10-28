@@ -15,7 +15,11 @@ SCENES.documents = sp => {
   return `vue de dessus ${on} : ${items.join(', ')}, sans aucune inscription lisible`;
 };
 SCENES.checklist = sp => {
-  const on = desk(sp); clipboard(380, 330, 330, 460, -0.05, rint(3, 5)); phoneMap(760, 300, 130, 0.15, {}); keyring(990, 210, 50, 0.3); helmetSide(1000, 520, 100, pick(['#f2f2f2', '#2b2d31', '#e8c547']));
+  const on = desk(sp), v = sp.variant || 'inspect';
+  if (v === 'photos') { camera(820, 230, 90, 0.1); const pc = pick(['#c8323a', '#2f6db5', '#e8b23a', '#4f8a5b']), pk = pick(['scooter', 'underbone', 'flat']); for (let i = 0; i < 3; i++) polaroid(560 + i * 170, 470 + (i % 2) * 20, 150, -0.15 + i * 0.12, pk, pc); clipboard(260, 300, 280, 420, -0.06, 2); return `vue de dessus ${on} : un appareil photo, trois photos instantanées du même deux-roues et une feuille d’état des lieux sur porte-bloc, pour documenter la moto avant le départ`; }
+  if (v === 'compare') { clipboard(260, 320, 280, 430, 0.05, 3); const ks = ['scooter', 'underbone', 'trail']; for (let i = 0; i < 3; i++) polaroid(540 + i * 210, 300 + (i % 2) * 40, 170, -0.1 + i * 0.1, ks[i]); pen(780, 540, 170, -0.2); return `vue de dessus ${on} : trois photos instantanées montrant un scooter, une moto semi-automatique et une moto trail, à côté d’une grille de comparaison sur porte-bloc et d’un stylo, pour choisir sa location`; }
+  if (v === 'handover') { paper(380, 320, 330, 440, -0.06, { sign: true }); keyring(760, 250, 70, 0.5); smartkey(880, 420, 110, -0.4); helmetSide(1050, 300, 90, pick(['#f2f2f2', '#e8c547', '#2b2d31'])); pen(640, 520, 170, -0.6); return `vue de dessus ${on} : un bon de remise signé, un trousseau de clés, une clé électronique, un casque et un stylo, le moment de la remise ou du retour de la moto`; }
+  clipboard(380, 330, 330, 460, -0.05, rint(3, 5)); phoneMap(760, 300, 130, 0.15, {}); keyring(990, 210, 50, 0.3); helmetSide(1000, 520, 100, pick(['#f2f2f2', '#2b2d31', '#e8c547']));
   return `vue de dessus ${on} : une feuille de contrôle sur porte-bloc avec plusieurs cases cochées, un smartphone affichant un plan, des clés et un casque, préparation ${sp.place || 'd’une moto de location'}`;
 };
 SCENES.toolkit = sp => {
@@ -76,8 +80,10 @@ SCENES.calendar = sp => {
   return `vue de dessus ${on} : trois fiches de calendrier sans chiffres, une journée, une semaine et un mois surlignés, à côté d’un trousseau de clés de moto, pour comparer les durées de location`;
 };
 SCENES.clock = sp => {
-  rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, '#efe6d6'], [0.66, '#e4d8c3'], [0.66, '#b48a5e'], [1, '#9a744c']])); wallClock(300, 230, 130, sp.hour || 8); hourglass(560, 520, 70);
-  const b = sp.bikes[0]; heroBike(b, 860, 590, 160, { helmetOnSeat: '#f2f2f2' });
+  rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, '#efe6d6'], [0.66, '#e4d8c3'], [0.66, '#b48a5e'], [1, '#9a744c']]));
+  const b = sp.bikes[0];
+  if (sp.variant === 'hourglasses') { for (let i = 0; i < 3; i++) hourglass(170 + i * 170, 470 - i * 10, 60 + i * 12); heroBike(b, 870, 590, 160, { helmetOnSeat: '#f2f2f2' }); return `${bikeFR(b)} garé${fe(sp)} contre un mur clair, à côté de trois sabliers de tailles croissantes posés au sol, pour évoquer des locations de 24, 48 ou 72 heures`; }
+  wallClock(300, 230, 130, sp.hour || 8); hourglass(560, 520, 70); heroBike(b, 860, 590, 160, { helmetOnSeat: '#f2f2f2' });
   return `${bikeFR(b)} garé${fe(sp)} contre un mur clair où est accrochée une horloge sans chiffres, un sablier posé au sol, pour évoquer les horaires et la durée de la location`;
 };
 SCENES.luggage = sp => {

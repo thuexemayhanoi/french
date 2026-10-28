@@ -178,7 +178,9 @@ SCENES.airport = sp => {
   sky(sp.time, 400); plane(820, 140, 160); rect(500, 300, 700, 100, '#c9ced3'); for (let i = 0; i < 14; i++) rect(520 + i * 48, 320, 36, 50, '#7f9fb6'); poly([[480, 300], [1220, 300], [1180, 270], [520, 270]], '#9aa3ab');
   rect(0, 400, W, 230, '#8fae6a'); road([[-50, 520, 120], [1300, 500, 120]], { shoulder: '#b8a98a' });
   for (let i = 0; i < 6; i++) palm(rnd(0, 480), rnd(410, 440), 45);
-  const b = sp.bikes[0]; heroBike(b, 450, 560, 95, { rider: outfit({ backpack: '#3d5a7a' }), bag: '#7a5236' });
+  const b = sp.bikes[0];
+  if (sp.parked) { heroBike(b, 420, 575, 110, { helmetOnSeat: '#f2f2f2' }); rrect(560, 470, 70, 100, 10, '#2f6db5'); rect(585, 455, 20, 18, '#2b2d31'); circle(575, 574, 6, '#2b2d31'); circle(615, 574, 6, '#2b2d31'); return `${bikeFR(b)} garé${fe(sp)} au bord de la route d’accès à un terminal d’aéroport, une valise bleue posée à côté, un avion de ligne dans le ciel, ${TIME_FR[sp.time]}`; }
+  heroBike(b, 450, 560, 95, { rider: outfit({ backpack: '#3d5a7a' }), bag: '#7a5236' });
   return `${bikeFR(b)} chargé${fe(sp)} d’un sac, conduit${fe(sp)} par un voyageur avec sac à dos sur la route qui longe un terminal d’aéroport, un avion de ligne dans le ciel, ${TIME_FR[sp.time]}`;
 };
 SCENES.hotel = sp => {

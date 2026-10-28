@@ -48,7 +48,7 @@ function lock(x, y, s, c = '#e0742e') { shadowOn(8, 4); ctx.beginPath(); ctx.arc
 function discLock(x, y, s, c = '#e8b23a') { shadowOn(8, 4); rrect(x - s * 0.5, y - s * 0.4, s, s * 0.8, s * 0.25, c); shadowOff(); rect(x - s * 0.1, y - s * 0.9, s * 0.2, s * 0.6, '#b9bec4'); circle(x, y + s * 0.1, s * 0.1, '#3a3c40'); }
 
 // Small instant-photo print with a mini illustrated scene (destination cue for budget layouts).
-function polaroid(x, y, w, a, kind) {
+function polaroid(x, y, w, a, kind, color) {
   rot(x, y, a, () => { shadowOn(10, 5); rect(-w / 2, -w * 0.6, w, w * 1.2, '#fbfaf6'); shadowOff(); const iw = w * 0.86, ih = w * 0.8, ix = -iw / 2, iy = -w * 0.53;
     ctx.save(); ctx.beginPath(); ctx.rect(ix, iy, iw, ih); ctx.clip(); rect(ix, iy, iw, ih, kind === 'city' ? '#f2c38a' : '#9fd0ec');
     const base = iy + ih * 0.7;
@@ -57,6 +57,7 @@ function polaroid(x, y, w, a, kind) {
     else if (kind === 'road') { rect(ix, base - 4, iw, ih * 0.34, '#8fbf5a'); poly([[ix + iw * 0.48, base - 4], [ix + iw * 0.52, base - 4], [ix + iw * 0.75, iy + ih], [ix + iw * 0.25, iy + ih]], '#6c6f73'); }
     else if (kind === 'city') { for (let i = 0; i < 6; i++) rect(ix + i * iw / 6, base - ih * (0.3 + (i % 3) * 0.12), iw / 6 - 2, ih, pick(FACADES)); rect(ix, base + ih * 0.12, iw, ih, '#6c6f73'); }
     else if (kind === 'coast') { rect(ix, base - 10, iw, ih * 0.4, '#3b8fa8'); rect(ix, base + ih * 0.12, iw, ih, '#ead7a8'); }
-    if (kind === 'scooter' || kind === 'electric') { rect(ix, iy, iw, ih, '#e6e9ef'); bike(0, iy + ih * 0.85, iw * 0.3, kind === 'electric' ? 'electric' : 'scooter_small', pick(['#c8323a', '#2f6db5', '#e8b23a'])); }
+    const BK = { scooter: 'scooter_small', electric: 'electric', underbone: 'underbone', trail: 'trail', flat: 'scooter_flat', cub: 'cub_trail' };
+    if (BK[kind]) { rect(ix, iy, iw, ih, '#e6e9ef'); rect(ix, iy + ih * 0.8, iw, ih * 0.2, '#c9ced3'); bike(0, iy + ih * 0.85, iw * (kind === 'trail' ? 0.24 : 0.28), BK[kind], color || pick(['#c8323a', '#2f6db5', '#e8b23a', '#4f8a5b'])); }
     ctx.restore(); });
 }
