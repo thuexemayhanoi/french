@@ -139,9 +139,11 @@ export function planItem(it) {
   if (found.length && /-ou-/.test(slug)) { set('duel', {variant: pick(['studio', 'city', 'road', 'studio'])}); if (bikes.length < 2) bikes.push(bikeOf(genericType())); return finalize(sp, it, txt); }
   if (found.length && (slug.startsWith('honda-') || slug.startsWith('yamaha-'))) {
     sp.bikes = [bikes[0]];
-    if (angle === 'hanoi-ville') set(pick(['city_traffic', 'old_quarter', 'city_traffic', 'night_ride', 'transit']), {variant: pick(['bus', null])});
-    else if (angle === 'location-hanoi') set(pick(['quiet_street', 'quiet_street', 'hotel', 'cafe']), {variant: pick(['villa', null, 'lake']), extra: r() < 0.5 ? 'backpack' : null});
-    else if (angle === 'longue-distance-vietnam' || angle === 'vietnam-voyage-moto') { const t = bikes[0].type; set(['trail', 'cub_trail', 'sport_underbone', 'underbone'].includes(t) ? pick(['mountain_pass', 'forest_mountain', 'terraces']) : pick(['long_road', 'coast_road', 'countryside', 'karst_river']), {backpack: true, variant: pick(['karst', null, 'south'])}); }
+    const mi = MODELS.findIndex(m => m[1] === found[0].label), rot = (list, k = 0) => list[(mi * 3 + k) % list.length];
+    const rough = ['trail', 'cub_trail', 'sport_underbone', 'underbone'].includes(bikes[0].type);
+    if (angle === 'hanoi-ville') set(rot(['city_traffic', 'old_quarter', 'night_ride', 'transit', 'rain_street', 'french_quarter', 'long_bien', 'lake_hk', 'city_traffic', 'west_lake', 'ba_dinh']), {variant: rot(['bus', null, 'lanterns'])});
+    else if (angle === 'location-hanoi') set(rot(['quiet_street', 'hotel', 'cafe', 'quiet_street', 'parking', 'west_lake', 'lake_hk', 'cafe'], 1), {variant: rot(['villa', null, 'lake'], 2), extra: r() < 0.5 ? 'backpack' : null, parked: true});
+    else if (angle === 'longue-distance-vietnam' || angle === 'vietnam-voyage-moto') set(rough ? rot(['mountain_pass', 'forest_mountain', 'terraces', 'mountain_lake', 'stilt_valley', 'tea_plateau', 'waterfall']) : rot(['long_road', 'coast_road', 'countryside', 'karst_river', 'beach', 'delta', 'pine_hills', 'bay', 'stilt_valley', 'tea_plateau']), {backpack: true, variant: rot(['karst', null, 'south', 'islands', 'lake', 'flowers'], 1)});
     else if (angle === 'prix-location-hanoi') set('rental_period');
     else set('quiet_street');
     return finalize(sp, it, txt);

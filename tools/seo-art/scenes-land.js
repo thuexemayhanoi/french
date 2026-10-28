@@ -44,14 +44,14 @@ SCENES.karst_river = sp => {
   rect(0, 470, W, 160, '#8fbf5a'); paddies(470, 520, ['#9ccc66', '#86b955']);
   road([[-50, 560, 70], [600, 548, 80], [1300, 565, 90]], { shoulder: '#b8a98a' });
   const who = riderBike(sp, sp.dir ? 380 : 820, 590, 92, 0, { flip: !!sp.dir });
-  return `${who} le long d’une rivière où glissent ${boats > 1 ? boats + ' barques' : 'une barque'} au pied de pitons karstiques couverts de végétation, paysage ${placeFR(sp, 'de Ninh Binh')}, ${TIME_FR[sp.time]}`;
+  return `${who} le long d’une rivière où glissent ${boats > 1 ? boats + ' barques' : 'une barque'} au pied de pitons karstiques couverts de végétation, paysage ${placeFR(sp, 'karstique du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.bay = sp => {
   const hz = 330; sky(sp.time, hz); sea(hz, H, '#2f7f8f', '#6fb3b0');
   for (let l = 0; l < 3; l++) { const n = 5 + l * 2; for (let i = 0; i < n; i++) { const cx = rnd(0, W), w = rnd(30, 80) * (1 + l * 0.5), h = rnd(50, 120) * (1 + l * 0.6), base = hz + l * 40 + rnd(0, 20), c = depth('#4f7448', 0.6 - l * 0.25); ctx.beginPath(); ctx.moveTo(cx - w, base); ctx.bezierCurveTo(cx - w, base - h, cx - w * 0.3, base - h * 1.1, cx, base - h); ctx.bezierCurveTo(cx + w * 0.4, base - h * 1.05, cx + w, base - h * 0.8, cx + w, base); ctx.closePath(); ctx.fillStyle = c; ctx.fill(); ellipse(cx, base, w * 1.05, 4, alpha('#ffffff', 0.3)); } }
   const nj = rint(1, 3); for (let i = 0; i < nj; i++) junk(rnd(200, 1000), rnd(450, 520), rnd(30, 50));
-  if (sp.bikes.length && sp.variant !== 'nobike') { const shore = x => 560 + Math.sin(x / 200) * 10; fillBelow(shore, '#d8c79a'); road([[-50, 600, 60], [1300, 590, 60]], { shoulder: '#c9b48a' }); const who = riderBike(sp, 300, 615, 80, 0); return `${who} sur la route côtière face à une baie parsemée d’îlots karstiques et de ${nj > 1 ? 'jonques aux voiles ocre' : 'une jonque aux voiles ocre'}, paysage ${placeFR(sp, 'de la baie d’Ha Long')}, ${TIME_FR[sp.time]}`; }
-  return `baie parsemée d’îlots karstiques avec ${nj > 1 ? nj + ' jonques aux voiles ocre' : 'une jonque aux voiles ocre'}, paysage ${placeFR(sp, 'de la baie d’Ha Long')}, ${TIME_FR[sp.time]}`;
+  if (sp.bikes.length && sp.variant !== 'nobike') { const shore = x => 560 + Math.sin(x / 200) * 10; fillBelow(shore, '#d8c79a'); road([[-50, 600, 60], [1300, 590, 60]], { shoulder: '#c9b48a' }); const who = riderBike(sp, 300, 615, 80, 0); return `${who} sur la route côtière face à une baie parsemée d’îlots karstiques et de ${nj > 1 ? 'jonques aux voiles ocre' : 'une jonque aux voiles ocre'}, paysage ${placeFR(sp, 'd’une baie karstique du nord du Vietnam')}, ${TIME_FR[sp.time]}`; }
+  return `baie parsemée d’îlots karstiques avec ${nj > 1 ? nj + ' jonques aux voiles ocre' : 'une jonque aux voiles ocre'}, paysage ${placeFR(sp, 'd’une baie karstique du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.waterfall = sp => {
   sky(sp.time, 260); mountains(3, 120, 230, '#5a8050', { amp: 120, forest: true });
@@ -79,7 +79,7 @@ SCENES.tea_plateau = sp => {
   road([[1250, 520, 40], [800, 560, 80], [300, 640, 170]], { shoulder: '#c9b48a', center: false });
   for (let i = 0; i < 2; i++) person(rnd(100, 400), h2(200) + 60, 40, { hat: 'non', top: '#5a7aa0' });
   const who = riderBike(sp, 760, 610, 92, 0);
-  return `${who} sur une petite route qui traverse un plateau couvert de rangées de théiers, avec des cueilleuses coiffées du chapeau conique, paysage ${placeFR(sp, 'de Mộc Châu')}, ${TIME_FR[sp.time]}`;
+  return `${who} sur une petite route qui traverse un plateau couvert de rangées de théiers, avec des cueilleuses coiffées du chapeau conique, paysage ${placeFR(sp, 'd’un plateau du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.stilt_valley = sp => {
   sky(sp.time, 280); mountains(4, 120, 280, '#557c4c', { amp: 150, mistBetween: true, forest: true });
@@ -88,7 +88,7 @@ SCENES.stilt_valley = sp => {
   for (let i = 0; i < 4; i++) palm(rnd(0, W), rnd(400, 440), rnd(40, 55), '#4f8a4a');
   road([[-50, 590, 80], [1300, 570, 80]], { shoulder: '#b8a98a', center: false });
   const who = riderBike(sp, 420, 610, 90, 0);
-  return `${who} traversant une vallée de rizières ponctuée de maisons traditionnelles sur pilotis, au pied de montagnes ${sp.time === 'mist' ? 'voilées' : 'boisées'}, paysage ${placeFR(sp, 'de Mai Châu')}, ${TIME_FR[sp.time]}`;
+  return `${who} traversant une vallée de rizières ponctuée de maisons traditionnelles sur pilotis, au pied de montagnes ${sp.time === 'mist' ? 'voilées' : 'boisées'}, paysage ${placeFR(sp, 'd’une vallée du nord-ouest du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.pine_hills = sp => {
   const hz = 360; sky(sp.time, hz); mountains(3, 180, 300, '#4f7a5a', { amp: 110, mistBetween: true });
@@ -133,7 +133,7 @@ SCENES.dunes = sp => {
   sky(sp.time, 300); dunes(250, ['#f0cf95', '#e7bf7f', '#ddb06c', '#f2d7a2']);
   const who = riderBike(sp, 650, 600, 90, 0, { parked: true, helmetOnSeat: '#f2f2f2' });
   for (let i = 0; i < 3; i++) person(rnd(150, 450), rnd(470, 520), 40, { top: pick(['#d0663a', '#3d6fa8', '#e6d9c2']) });
-  return `${who} garé${fe(sp)} au pied de grandes dunes de sable ondulées où marchent quelques promeneurs, paysage ${placeFR(sp, 'de Mũi Né')}, ${TIME_FR[sp.time]}`;
+  return `${who} garé${fe(sp)} au pied de grandes dunes de sable ondulées où marchent quelques promeneurs, paysage ${placeFR(sp, 'du littoral du Sud-Centre')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.delta = sp => {
   const hz = 330; sky(sp.time, hz); const far = ridgeFn(hz, 25, 4, 3); fillBelow(far, depth('#4f7a44', 0.5));
@@ -143,13 +143,13 @@ SCENES.delta = sp => {
   rect(0, 500, W, 130, '#7fae55'); for (let i = 0; i < 7; i++) palm(rnd(0, W), rnd(520, 560), rnd(50, 75), '#3f8a46');
   road([[-50, 600, 70], [1300, 590, 70]], { shoulder: '#b8a98a', center: false });
   const who = riderBike(sp, 700, 615, 85, 0);
-  return `${who} sur une digue au bord d’un large fleuve brun où naviguent ${nb} barques, entre cocotiers et vergers, paysage ${placeFR(sp, 'du delta du Mékong')}, ${TIME_FR[sp.time]}`;
+  return `${who} sur une digue au bord d’un large fleuve brun où naviguent ${nb} barques, entre cocotiers et vergers, paysage ${placeFR(sp, 'd’un delta du sud du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.floating_market = sp => {
   const hz = 300; sky(sp.time, hz); fillBelow(ridgeFn(hz, 20, 4, 2), depth('#4f7a44', 0.5)); for (let i = 0; i < 25; i++) palm(rnd(0, W), hz, rnd(22, 35), depth('#3f7d46', 0.4));
   water(hz + 5, H, '#a68f6a', '#7f6c4e');
   for (let i = 0; i < 7; i++) { const y = 380 + i * 34 + rnd(-10, 10), x = rnd(80, 1120), s = 45 + (y - 360) / 2.2; sampan(x, y, s, pick(['#5b3d28', '#6a4a2e', '#3f5a7a']), R() < 0.7); for (let k = 0; k < 6; k++) circle(x + rnd(-0.5, 0.5) * s, y - s * 0.15 - rnd(0, 0.15) * s, s * 0.09, pick(['#e8b23a', '#7aa858', '#d0574a', '#f0a024', '#9ccc66'])); line(x + s * 0.6, y - s * 0.1, x + s * 0.6, y - s * 1.4, '#4a3626', 2); }
-  return `marché flottant animé : barques en bois chargées de fruits et de légumes colorés sur un fleuve brun bordé de cocotiers, paysage ${placeFR(sp, 'de Cần Thơ')}, ${TIME_FR[sp.time]}`;
+  return `marché flottant animé : barques en bois chargées de fruits et de légumes colorés sur un fleuve brun bordé de cocotiers, paysage ${placeFR(sp, 'du delta du Mékong')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.hoi_an = sp => {
   const gy = 420; sky(sp.time, gy);
@@ -159,7 +159,7 @@ SCENES.hoi_an = sp => {
   water(gy, 520, night ? '#2a3a55' : '#7f9fa0', night ? '#1f2b40' : '#5f8a88'); if (night) for (let i = 0; i < 30; i++) circle(rnd(0, W), rnd(gy + 10, 510), rnd(2, 4), alpha('#ffcf7a', 0.6));
   sampan(420, 480, 75, '#5b3d28'); rect(0, 520, W, 110, '#b9ab90');
   const who = riderBike(sp, 850, 600, 85, 0, { parked: true });
-  return `${who} garé${fe(sp)} sur le quai face à des maisons anciennes aux murs jaunes ornées de lanternes, une barque sur la rivière, ambiance ${placeFR(sp, 'de Hội An')}, ${TIME_FR[sp.time]}`;
+  return `${who} garé${fe(sp)} sur le quai face à des maisons anciennes aux murs jaunes ornées de lanternes, une barque sur la rivière, ambiance ${placeFR(sp, 'd’une vieille ville marchande du Centre')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.hue_citadel = sp => {
   const gy = 380; sky(sp.time, gy); for (let i = 0; i < 8; i++) roundTree(rnd(0, W), gy - 20, rnd(40, 70), '#4f7a44');
@@ -168,7 +168,7 @@ SCENES.hue_citadel = sp => {
   water(gy, 500, '#6f9f8a', '#4f857a'); for (let i = 0; i < 30; i++) { const x = rnd(0, W), y = rnd(gy + 40, 495); ellipse(x, y, 14, 5, '#5a8f4a'); if (R() < 0.3) circle(x + 4, y - 6, 4, '#f2a6bd'); }
   rect(0, 500, W, 130, '#b9ab90'); road([[-50, 580, 80], [1300, 575, 80]], { center: false });
   const who = riderBike(sp, 380, 600, 85, 0);
-  return `${who} devant une porte monumentale de citadelle impériale aux toits dorés, au-delà d’un fossé couvert de lotus, ambiance ${placeFR(sp, 'de Huế')}, ${TIME_FR[sp.time]}`;
+  return `${who} devant une porte monumentale de citadelle impériale aux toits dorés, au-delà d’un fossé couvert de lotus, ambiance ${placeFR(sp, 'd’une ancienne cité impériale')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.countryside = sp => {
   const hz = 330; sky(sp.time, hz); if (sp.variant === 'ba_vi' || sp.variant === 'hills') mountains(2, 180, 300, '#5a7f50', { amp: 150, mistBetween: true }); else fillBelow(ridgeFn(hz, 20, 3, 2), depth('#5a7f50', 0.5));
@@ -201,7 +201,7 @@ SCENES.cave = sp => {
   water(418, 520, '#4f8a7f', '#3f6f66'); sampan(600, 470, 60, '#5b3d28');
   rect(0, 520, W, 110, '#6f9a52'); for (let i = 0; i < 4; i++) roundTree(rnd(0, 250) + (i % 2) * 950, 530, rnd(40, 60), '#3f6a3a'); road([[-50, 590, 70], [1300, 580, 70]], { shoulder: '#b8a98a', center: false });
   const who = riderBike(sp, 950, 610, 85, 0, { parked: true, helmetOnSeat: '#f2f2f2' });
-  return `${who} garé${fe(sp)} près d’une rivière émeraude qui s’enfonce dans l’entrée d’une grotte, au pied d’une falaise karstique couverte de jungle, paysage ${placeFR(sp, 'de Phong Nha')}, ${TIME_FR[sp.time]}`;
+  return `${who} garé${fe(sp)} près d’une rivière émeraude qui s’enfonce dans l’entrée d’une grotte, au pied d’une falaise karstique couverte de jungle, paysage ${placeFR(sp, 'd’une région karstique du Centre')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.forest_mountain = sp => {
   sky(sp.time, 320); mountains(5, 110, 330, '#3f6a45', { amp: 160, mistBetween: true, forest: true });
@@ -214,7 +214,7 @@ SCENES.pagoda_karst = sp => {
   const hz = 380; sky(sp.time, hz); karst(hz, 12, 120, 230, depth('#5e7b55', 0.35), { dots: 500 });
   const px = rnd(250, 900), py = hz - 6; rect(px - 70, py - 4, 140, 12, '#8f877a'); rect(px - 40, py - 30, 80, 40, '#c9a86a'); poly([[px - 60, py - 30], [px + 60, py - 30], [px + 40, py - 60], [px - 40, py - 60]], '#8f4a32');
   water(hz, H, '#6f9f8a', '#4f857a'); for (let i = 0; i < 5; i++) { const y = 420 + i * 40; sampan(rnd(120, 1080), y, 40 + (y - 400) * 0.35, '#5b3d28'); }
-  return `rivière sinueuse au milieu de montagnes karstiques où glissent cinq barques à rames, avec un petit temple niché sur la rive, paysage ${placeFR(sp, 'de la Pagode des Parfums')}, ${TIME_FR[sp.time]}`;
+  return `rivière sinueuse au milieu de montagnes karstiques où glissent cinq barques à rames, avec un petit temple niché sur la rive, paysage ${placeFR(sp, 'karstique du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.fog_mountain = sp => {
   sp.time = 'mist'; sky('mist', 330); mountains(4, 140, 320, '#5a7a62', { amp: 150, mistBetween: true });

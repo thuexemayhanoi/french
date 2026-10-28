@@ -103,7 +103,7 @@ SCENES.duel = sp => {
   else if (ctxBg === 'road') { sky(sp.time || 'morning', 330); mountains(3, 160, 300, '#557c4c', { amp: 130 }); rect(0, 420, W, 210, '#8fbf5a'); road([[-50, 560, 110], [1300, 560, 110]], { shoulder: '#c9b48a' }); }
   else { rect(0, 0, W / 2, H, lgrad(0, 0, 0, H, [[0, shade(ca, 0.2)], [0.72, ca], [0.72, shade(ca, -0.15)], [1, shade(ca, -0.22)]])); rect(W / 2, 0, W / 2, H, lgrad(0, 0, 0, H, [[0, shade(cb, 0.2)], [0.72, cb], [0.72, shade(cb, -0.15)], [1, shade(cb, -0.22)]])); }
   line(W / 2, 40, W / 2, H - 40, alpha('#ffffff', 0.8), 4);
-  heroBike(a, 300, 585, 150, {}); heroBike(b, 900, 585, 150, { flip: true });
+  heroBike(a, 290, 595, 172, {}); heroBike(b, 910, 595, 172, { flip: true });
   const where = ctxBg === 'city' ? ' dans une rue de Hanoi' : ctxBg === 'road' ? ' sur une route de campagne au pied des collines' : ' sur un fond partagé en deux tons';
   return `comparaison face à face${where} : à gauche ${bikeFR(a)}, à droite ${bikeFR(b)}, présentés de profil sans logo`;
 };
