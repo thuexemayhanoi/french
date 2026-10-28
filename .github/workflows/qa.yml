@@ -18,6 +18,8 @@ jobs:
           node-version: "22"
       - name: Core SEO QA — 1500-5000 words, 3-7 links, unique title/URL, SEO >=75
         run: node scripts/qa.mjs
+      - name: Validate completed French image-SEO matrix entries
+        run: node tools/image-seo.mjs check
       - name: Verify generated content index
         run: node tools/build-content-index.mjs --check
       - name: Verify local chatbot HTML index
