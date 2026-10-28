@@ -18,7 +18,7 @@ export async function openEngine() {
   const src = SOURCES.filter(f => fs.existsSync(path.join(here, f + '.js'))).map(f => fs.readFileSync(path.join(here, f + '.js'), 'utf8')).join('\n;\n');
   await page.addScriptTag({content: src + `
 ;window.__render = sp => { R = mulberry32(sp.seed >>> 0); const c = document.getElementById('c'); ctx = c.getContext('2d'); ctx.setTransform(1,0,0,1,0,0); ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over'; ctx.setLineDash([]); shadowOff(); ctx.clearRect(0,0,W,H);
-  if (!SCENES[sp.scene]) throw new Error('Unknown scene ' + sp.scene); const desc = SCENES[sp.scene](sp); shadowOff(); if (sp.time === 'rain' && !['rain_street','flood_street'].includes(sp.scene)) rain(420, 0.3); ctx.setTransform(1,0,0,1,0,0); ctx.globalAlpha = 1; finish(sp.grain ?? 14, sp.vignette ?? 0.2); return desc; };
+  if (!SCENES[sp.scene]) throw new Error('Unknown scene ' + sp.scene); if (sp.mirror) { ctx.translate(W, 0); ctx.scale(-1, 1); } const desc = SCENES[sp.scene](sp); shadowOff(); if (sp.time === 'rain' && !['rain_street','flood_street'].includes(sp.scene)) rain(420, 0.3); ctx.setTransform(1,0,0,1,0,0); ctx.globalAlpha = 1; finish(sp.grain ?? 14, sp.vignette ?? 0.2); return desc; };
 window.__encode = (type, q) => document.getElementById('c').toDataURL(type, q);`});
   async function render(spec, {png = false} = {}) {
     let grain = spec.grain ?? 14, desc, bytes, quality;

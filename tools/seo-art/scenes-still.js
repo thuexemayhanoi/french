@@ -81,10 +81,14 @@ SCENES.luggage = sp => {
   return `vue de dessus ${on} : un sac à dos, un poncho de pluie plié, deux sangles élastiques, une carte routière et une gourde, le bagage compact d’un voyage à moto`;
 };
 SCENES.rental_period = sp => {
-  const wall = pick(['#efe6d6', '#e3ebe6', '#ece2e6', '#e6e9ef']); rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, wall], [0.7, shade(wall, -0.06)], [0.7, '#b9ab90'], [1, '#a99a7e']]));
-  const acc = pick(['#d6403a', '#2f6db5', '#2f8f5a', '#e0742e']); calendarCard(170, 170, 190, 220, 'day', acc); calendarCard(450, 160, 270, 200, 'week', acc); calendarCard(1000, 190, 280, 270, 'month', acc);
-  const b = sp.bikes[0]; heroBike(b, 600, 615, 195, { helmetOnSeat: pick(['#f2f2f2', '#2b2d31', '#e8c547']) });
-  return `${bikeFR(b)} garé${fe(sp)} devant un mur où sont affichés trois calendriers sans chiffres, une journée, une semaine et un mois, pour comparer les formules de location`;
+  const wall = pick(['#efe6d6', '#e3ebe6', '#ece2e6', '#e6e9ef', '#f0e9da', '#dde7ee']); const floor = pick(['#b9ab90', '#a8a49a', '#c2a27e']);
+  rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, wall], [0.7, shade(wall, -0.06)], [0.7, floor], [1, shade(floor, -0.1)]]));
+  const acc = pick(['#d6403a', '#2f6db5', '#2f8f5a', '#e0742e', '#7a4fa0']); const b = sp.bikes[0]; const layout = rint(0, 2); const helmet = pick(['#f2f2f2', '#2b2d31', '#e8c547', '#c83a3a']);
+  let extra = '';
+  if (layout === 0) { calendarCard(170, 170, 190, 220, 'day', acc); calendarCard(450, 160, 270, 200, 'week', acc); calendarCard(1000, 190, 280, 270, 'month', acc); heroBike(b, 600, 615, 195, { helmetOnSeat: helmet }); }
+  else if (layout === 1) { calendarCard(930, 110, 200, 150, 'day', acc); calendarCard(930, 270, 250, 140, 'week', acc); calendarCard(930, 450, 270, 200, 'month', acc); heroBike(b, 400, 615, 200, { helmetOnSeat: helmet }); rect(60, 150, 160, 10, '#8a6a4a'); helmetSide(140, 150, 50, pick(['#3a5f9a', '#e0742e'])); extra = ', une étagère avec un second casque'; }
+  else { calendarCard(150, 150, 180, 200, 'day', acc); calendarCard(390, 150, 240, 170, 'week', acc); calendarCard(270, 400, 300, 240, 'month', acc); heroBike(b, 820, 615, 200, { flip: true, helmetOnSeat: helmet }); rrect(1080, 470, 70, 80, 8, '#9a6a42'); for (let i = 0; i < 6; i++) ellipse(1115 + rnd(-30, 30), 450 - rnd(0, 60), 26, 12, '#4f8a4c', rnd(-1, 1)); extra = ', une plante verte dans un coin'; }
+  return `${bikeFR(b)} garé${fe(sp)} devant un mur où sont affichés trois calendriers sans chiffres, une journée, une semaine et un mois${extra}, pour comparer les formules de location`;
 };
 function studio(c) { rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, shade(c, 0.2)], [0.72, c], [0.72, shade(c, -0.12)], [1, shade(c, -0.2)]])); rect(0, 0, W, H, rgrad(W / 2, 260, 50, 700, [[0, alpha('#ffffff', 0.35)], [1, alpha('#ffffff', 0)]])); }
 SCENES.lineup = sp => {

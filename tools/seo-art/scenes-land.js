@@ -92,12 +92,16 @@ SCENES.stilt_valley = sp => {
 };
 SCENES.pine_hills = sp => {
   const hz = 360; sky(sp.time, hz); mountains(3, 180, 300, '#4f7a5a', { amp: 110, mistBetween: true });
-  const lake = sp.variant !== 'nolake'; if (lake) { water(hz, 440, '#7fa8b8', '#5f8fa0'); }
-  const g = ridgeFn(lake ? 470 : 420, 60, 1.5, 3); fillBelow(g, '#6f9a5a');
-  for (let i = 0; i < 26; i++) { const x = rnd(-20, W + 20); pine(x, g(x) + rnd(10, 40), rnd(70, 140), shade('#2f5a40', rnd(-0.1, 0.1))); }
+  const v = sp.variant || pick(['lake', 'greenhouses', 'flowers', 'lake']);
+  if (v === 'lake') water(hz, 440, '#7fa8b8', '#5f8fa0');
+  const g = ridgeFn(v === 'lake' ? 470 : 420, 60, 1.5, 3); fillBelow(g, '#6f9a5a');
+  let extra = '';
+  if (v === 'greenhouses') { for (let r = 0; r < 3; r++) for (let i = 0; i < 7; i++) { const x = 60 + i * 160 + r * 40 + rnd(-10, 10), y = 400 + r * 40; ctx.beginPath(); ctx.moveTo(x, y); ctx.quadraticCurveTo(x + 60, y - 40, x + 120, y); ctx.closePath(); ctx.fillStyle = alpha('#f4f6f2', 0.92); ctx.fill(); rect(x, y - 2, 120, 6, alpha('#c9d2cc', 0.9)); } extra = ', serres blanches alignées sur les pentes'; }
+  if (v === 'flowers') { for (let i = 0; i < 700; i++) { const x = rnd(0, W), y = rnd(430, 540); circle(x, y, rnd(2, 4), pick(['#e8b23a', '#d6403a', '#c86aa0', '#f2efe6', '#7a4fa0'])); } extra = ', champs de fleurs multicolores'; }
+  const nTrees = v === 'lake' ? 26 : 16; for (let i = 0; i < nTrees; i++) { const x = rnd(-20, W + 20); pine(x, g(x) + rnd(10, 40), rnd(70, 140), shade('#2f5a40', rnd(-0.1, 0.1))); }
   road([[1300, 560, 60], [700, 580, 80], [-50, 610, 110]], { shoulder: '#b8a98a' });
-  const who = riderBike(sp, 600, 615, 88, 0);
-  return `${who} sur une route bordée de forêts de pins${lake ? ' au-dessus d’un lac' : ''}, collines d’altitude en arrière-plan, paysage ${placeFR(sp, 'des hauts plateaux')}, ${TIME_FR[sp.time]}`;
+  const who = riderBike(sp, rnd(380, 820), 615, 88, 0);
+  return `${who} sur une route bordée de forêts de pins${v === 'lake' ? ' au-dessus d’un lac' : ''}${extra}, collines d’altitude en arrière-plan, paysage ${placeFR(sp, 'des hauts plateaux')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.coast_road = sp => {
   const hz = 300; sky(sp.time, hz); sea(hz, H, '#2a7fa8', '#7fc6c8');
@@ -119,7 +123,7 @@ SCENES.beach = sp => {
   return `${who}${sp.parked ? ' garé' + fe(sp) : ''} sur une route de bord de mer bordée de cocotiers, plage de sable clair et eau turquoise${sp.variant === 'headland' ? ', un phare sur le cap' : sp.variant === 'islands' ? ', îles au large' : ''}, paysage ${placeFR(sp, 'du littoral vietnamien')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.dunes = sp => {
-  sky(sp.time, 300); dunes(300, ['#f0cf95', '#e7bf7f', '#ddb06c', '#f2d7a2']);
+  sky(sp.time, 300); dunes(250, ['#f0cf95', '#e7bf7f', '#ddb06c', '#f2d7a2']);
   const who = riderBike(sp, 650, 600, 90, 0, { parked: true, helmetOnSeat: '#f2f2f2' });
   for (let i = 0; i < 3; i++) person(rnd(150, 450), rnd(470, 520), 40, { top: pick(['#d0663a', '#3d6fa8', '#e6d9c2']) });
   return `${who} garé${fe(sp)} au pied de grandes dunes de sable ondulées où marchent quelques promeneurs, paysage ${placeFR(sp, 'de Mũi Né')}, ${TIME_FR[sp.time]}`;
@@ -137,16 +141,16 @@ SCENES.delta = sp => {
 SCENES.floating_market = sp => {
   const hz = 300; sky(sp.time, hz); fillBelow(ridgeFn(hz, 20, 4, 2), depth('#4f7a44', 0.5)); for (let i = 0; i < 25; i++) palm(rnd(0, W), hz, rnd(22, 35), depth('#3f7d46', 0.4));
   water(hz + 5, H, '#a68f6a', '#7f6c4e');
-  for (let i = 0; i < 9; i++) { const x = rnd(50, 1150), y = rnd(360, 600), s = 30 + (y - 360) / 4; sampan(x, y, s, pick(['#5b3d28', '#6a4a2e', '#3f5a7a']), R() < 0.7); for (let k = 0; k < 6; k++) circle(x + rnd(-0.5, 0.5) * s, y - s * 0.15 - rnd(0, 0.15) * s, s * 0.09, pick(['#e8b23a', '#7aa858', '#d0574a', '#f0a024', '#9ccc66'])); line(x + s * 0.6, y - s * 0.1, x + s * 0.6, y - s * 1.4, '#4a3626', 2); }
+  for (let i = 0; i < 7; i++) { const y = 380 + i * 34 + rnd(-10, 10), x = rnd(80, 1120), s = 45 + (y - 360) / 2.2; sampan(x, y, s, pick(['#5b3d28', '#6a4a2e', '#3f5a7a']), R() < 0.7); for (let k = 0; k < 6; k++) circle(x + rnd(-0.5, 0.5) * s, y - s * 0.15 - rnd(0, 0.15) * s, s * 0.09, pick(['#e8b23a', '#7aa858', '#d0574a', '#f0a024', '#9ccc66'])); line(x + s * 0.6, y - s * 0.1, x + s * 0.6, y - s * 1.4, '#4a3626', 2); }
   return `marché flottant animé : barques en bois chargées de fruits et de légumes colorés sur un fleuve brun bordé de cocotiers, paysage ${placeFR(sp, 'de Cần Thơ')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.hoi_an = sp => {
   const gy = 420; sky(sp.time, gy);
   let x = -10; while (x < W) { const w = rnd(90, 140), h = rnd(150, 210); rect(x, gy - h, w, h, pick(['#e9c25a', '#e6b84a', '#f0cf6a'])); poly([[x - 8, gy - h], [x + w + 8, gy - h], [x + w - 10, gy - h - 40], [x + 10, gy - h - 40]], '#8f5a3e'); rect(x + w * 0.2, gy - h * 0.6, w * 0.25, h * 0.3, '#5a3d2a'); rect(x + w * 0.55, gy - h * 0.6, w * 0.25, h * 0.3, '#5a3d2a'); rect(x + w * 0.3, gy - h * 0.25, w * 0.4, h * 0.25, '#4a3226'); x += w + 4; }
   const night = sp.time === 'night' || sp.time === 'dusk';
-  for (let i = 0; i < 18; i++) lantern(rnd(20, 1180), rnd(200, 300), rnd(12, 18), pick(['#d6403a', '#e8b23a', '#e0742e', '#c83a6a']));
+  for (let i = 0; i < 16; i++) lantern(40 + i * 75 + rnd(-15, 15), rnd(300, 360), rnd(20, 27), pick(['#d6403a', '#e8b23a', '#e0742e', '#c83a6a']));
   water(gy, 520, night ? '#2a3a55' : '#7f9fa0', night ? '#1f2b40' : '#5f8a88'); if (night) for (let i = 0; i < 30; i++) circle(rnd(0, W), rnd(gy + 10, 510), rnd(2, 4), alpha('#ffcf7a', 0.6));
-  sampan(500, 470, 45, '#5b3d28'); rect(0, 520, W, 110, '#b9ab90');
+  sampan(420, 480, 75, '#5b3d28'); rect(0, 520, W, 110, '#b9ab90');
   const who = riderBike(sp, 850, 600, 85, 0, { parked: true });
   return `${who} garé${fe(sp)} sur le quai face à des maisons anciennes aux murs jaunes ornées de lanternes, une barque sur la rivière, ambiance ${placeFR(sp, 'de Hội An')}, ${TIME_FR[sp.time]}`;
 };
@@ -170,22 +174,27 @@ SCENES.countryside = sp => {
   return `${who} sur une route de campagne qui traverse des rizières, des maisons aux toits de tuiles et des bosquets de bambous${sp.variant === 'ba_vi' || sp.variant === 'hills' ? ', collines boisées à l’horizon' : ''}, ${sp.place ? 'environs ' + (sp.place.startsWith('de ') ? sp.place : 'de ' + sp.place) : 'campagne du delta du fleuve Rouge'}, ${TIME_FR[sp.time]}`;
 };
 SCENES.long_road = sp => {
-  const hz = 300; sky(sp.time, hz); mountains(2, 200, 290, sp.variant === 'south' ? '#6a8a5a' : '#557c4c', { amp: 90 });
-  rect(0, hz, W, H - hz, sp.variant === 'south' ? '#b9c97a' : '#8fbf5a'); paddies(hz, H, sp.variant === 'south' ? ['#c4cf86', '#b3c274'] : ['#9ccc66', '#86b955']);
-  road([[600, hz, 4], [600, 400, 60], [600, 500, 200], [600, 700, 520]], { shoulder: '#c9b48a' });
-  for (let i = 0; i < 5; i++) { const t = (i + 1) / 6, y = hz + (H - hz) * t * t, x = 600 + (90 + 340 * t * t); rrect(x, y - 30 * t - 8, 14 * t + 6, 30 * t + 8, 4, '#f2f0e6'); rect(x, y - 30 * t - 8, 14 * t + 6, 8 * t + 3, '#d6403a'); }
-  for (let i = 0; i < 8; i++) { const t = rnd(0.1, 0.8); palm(600 - 120 - 600 * t * t, hz + (H - hz) * t * t, 30 + 80 * t); }
+  const hz = 300; sky(sp.time, hz); const south = sp.variant === 'south', hills = R() < 0.5;
+  mountains(2, hills ? 170 : 210, 290, south ? '#6a8a5a' : '#557c4c', { amp: hills ? 140 : 90 });
+  rect(0, hz, W, H - hz, south ? '#b9c97a' : '#8fbf5a'); paddies(hz, H, south ? ['#c4cf86', '#b3c274'] : ['#9ccc66', '#86b955']);
+  const vx = rnd(480, 720), curve = R() < 0.5;
+  road(curve ? [[vx, hz, 4], [vx - 60, 360, 40], [vx + 40, 460, 140], [600, 700, 520]] : [[vx, hz, 4], [vx, 400, 60], [(vx + 600) / 2, 500, 200], [600, 700, 520]], { shoulder: '#c9b48a' });
+  const tree = south ? palm : (x, y, s) => roundTree(x, y, s * 0.6, '#4f7a44');
+  for (let i = 0; i < 8; i++) { const t = rnd(0.1, 0.8); tree(vx - 120 - 600 * t * t, hz + (H - hz) * t * t, 30 + 80 * t); }
+  for (let i = 0; i < 4; i++) { const t = (i + 1) / 5, y = hz + (H - hz) * t * t, x = vx + 90 + 340 * t * t; rrect(x, y - 30 * t - 8, 14 * t + 6, 30 * t + 8, 4, '#f2f0e6'); rect(x, y - 30 * t - 8, 14 * t + 6, 8 * t + 3, '#d6403a'); }
   const who = riderBike(sp, 560, 585, 88, 0, { bag: '#3d5a7a' });
-  return `${who}, bagage arrimé à l’arrière, sur une longue route droite qui file vers l’horizon, bornes kilométriques blanches et rouges sans inscription sur le bas-côté, image du grand voyage ${sp.place ? sp.place : 'à travers le Vietnam'}, ${TIME_FR[sp.time]}`;
+  return `${who}, bagage arrimé à l’arrière, sur une longue route ${curve ? 'sinueuse' : 'droite'} qui file vers l’horizon${hills ? ' et les collines' : ''} entre rizières et ${south ? 'cocotiers' : 'arbres'}, bornes kilométriques blanches et rouges sans inscription, image du grand voyage ${sp.place ? sp.place : 'à travers le Vietnam'}, ${TIME_FR[sp.time]}`;
 };
 SCENES.cave = sp => {
-  sky(sp.time, 260); karst(330, 10, 150, 260, depth('#4f7448', 0.3), { dots: 700 });
-  ctx.beginPath(); ctx.ellipse(600, 360, 210, 130, 0, Math.PI, 0); ctx.closePath(); ctx.fillStyle = '#1e2420'; ctx.fill();
-  for (let i = 0; i < 12; i++) poly([[400 + i * 36, 235 + Math.abs(6 - i) * 6], [418 + i * 36, 235 + Math.abs(6 - i) * 6], [409 + i * 36, 280 + rnd(0, 30)]], '#4a5a4a');
-  water(360, 520, '#4f8a7f', '#3f6f66'); sampan(600, 440, 50, '#5b3d28');
-  rect(0, 520, W, 110, '#6f9a52'); road([[-50, 590, 70], [1300, 580, 70]], { shoulder: '#b8a98a', center: false });
+  sky(sp.time, 260); karst(300, 10, 120, 220, depth('#5e7b55', 0.45), { dots: 400 }); fillBelow(ridgeFn(340, 50, 3, 3), depth('#4f7448', 0.25)); const cn = fbm(4, 6);
+  const cliff = x => { const d = Math.abs(x - 600) / 430; return (d < 1 ? 380 - 250 * Math.pow(1 - Math.pow(d, 2.2), 1 / 2.2) : 420) - cn(x / W) * 70 + 20; };
+  fillBelow(cliff, '#58704f', 420); ctx.save(); ctx.beginPath(); pathBelow(cliff, 420); ctx.clip(); for (let i = 0; i < 900; i++) { const x = rnd(170, 1030), y = rnd(cliff(x), 420); circle(x, y, rnd(1.5, 4), alpha(shade('#58704f', R() < 0.5 ? -0.2 : 0.12), 0.7)); } ctx.restore();
+  ctx.beginPath(); ctx.moveTo(470, 420); ctx.bezierCurveTo(470, 300, 730, 300, 730, 420); ctx.closePath(); ctx.fillStyle = rgrad(600, 400, 10, 160, [[0, '#0f1210'], [1, '#2a332b']]); ctx.fill();
+  for (let i = 0; i < 6; i++) { const x = 500 + i * 42; line(x, 330 + Math.abs(2.5 - i) * 6, x + rnd(-4, 4), 360 + rnd(0, 20), alpha('#7d8f78', 0.6), 3); }
+  water(418, 520, '#4f8a7f', '#3f6f66'); sampan(600, 470, 60, '#5b3d28');
+  rect(0, 520, W, 110, '#6f9a52'); for (let i = 0; i < 4; i++) roundTree(rnd(0, 250) + (i % 2) * 950, 530, rnd(40, 60), '#3f6a3a'); road([[-50, 590, 70], [1300, 580, 70]], { shoulder: '#b8a98a', center: false });
   const who = riderBike(sp, 950, 610, 85, 0, { parked: true, helmetOnSeat: '#f2f2f2' });
-  return `${who} garé${fe(sp)} près d’une rivière émeraude qui s’enfonce dans l’entrée d’une grotte, au cœur de montagnes karstiques couvertes de jungle, paysage ${placeFR(sp, 'de Phong Nha')}, ${TIME_FR[sp.time]}`;
+  return `${who} garé${fe(sp)} près d’une rivière émeraude qui s’enfonce dans l’entrée d’une grotte, au pied d’une falaise karstique couverte de jungle, paysage ${placeFR(sp, 'de Phong Nha')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.forest_mountain = sp => {
   sky(sp.time, 320); mountains(5, 110, 330, '#3f6a45', { amp: 160, mistBetween: true, forest: true });
@@ -196,8 +205,8 @@ SCENES.forest_mountain = sp => {
 };
 SCENES.pagoda_karst = sp => {
   const hz = 380; sky(sp.time, hz); karst(hz, 12, 120, 230, depth('#5e7b55', 0.35), { dots: 500 });
-  const px = rnd(250, 900), py = hz - 60; rect(px - 40, py - 30, 80, 40, '#c9a86a'); poly([[px - 60, py - 30], [px + 60, py - 30], [px + 40, py - 60], [px - 40, py - 60]], '#8f4a32');
-  water(hz, H, '#6f9f8a', '#4f857a'); for (let i = 0; i < 5; i++) sampan(rnd(80, 1120), rnd(430, 600), rnd(36, 60), '#5b3d28');
+  const px = rnd(250, 900), py = hz - 6; rect(px - 70, py - 4, 140, 12, '#8f877a'); rect(px - 40, py - 30, 80, 40, '#c9a86a'); poly([[px - 60, py - 30], [px + 60, py - 30], [px + 40, py - 60], [px - 40, py - 60]], '#8f4a32');
+  water(hz, H, '#6f9f8a', '#4f857a'); for (let i = 0; i < 5; i++) { const y = 420 + i * 40; sampan(rnd(120, 1080), y, 40 + (y - 400) * 0.35, '#5b3d28'); }
   return `rivière sinueuse au milieu de montagnes karstiques où glissent cinq barques à rames, avec un petit temple niché sur la rive, paysage ${placeFR(sp, 'de la Pagode des Parfums')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.fog_mountain = sp => {

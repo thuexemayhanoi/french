@@ -6,10 +6,10 @@ function heroAction(sp, x, gy, s, extra = {}) {
   heroBike(b, x, gy + s * 0.12, s * 1.22, o); return txt;
 }
 function parkedRow(y, n, s, x0 = 0, x1 = W) { for (let i = 0; i < n; i++) miniBike(x0 + (i + 0.5) * (x1 - x0) / n + rnd(-10, 10), y, s, pick(Object.values(BIKE_COLORS)), R() < 0.5, false); }
-function cityBase(sp, gy = 440, o = {}) { sky(sp.time, gy, { clouds: sp.time !== 'night' }); street(gy, 9, { night: sp.time === 'night' || sp.time === 'dusk', minH: o.minH, maxH: o.maxH }); cables(gy - 240, 7); sidewalk(gy, 40); asphalt(gy + 40, H); }
+function cityBase(sp, gy = 440, o = {}) { sky(sp.time, gy, { clouds: sp.time !== 'night', sun: o.sun }); street(gy, 9, { night: sp.time === 'night' || sp.time === 'dusk', minH: o.minH, maxH: o.maxH }); cables(gy - 240, 7); sidewalk(gy, 40); asphalt(gy + 40, H); }
 SCENES.old_quarter = sp => {
   cityBase(sp, 440); const lan = sp.variant === 'lanterns' || sp.time === 'night';
-  if (lan) for (let i = 0; i < 14; i++) lantern(rnd(20, 1180), rnd(250, 330), rnd(10, 15), pick(['#d6403a', '#e8b23a', '#e0742e']));
+  if (lan) for (let i = 0; i < 14; i++) lantern(40 + i * 85 + rnd(-10, 10), rnd(330, 380), rnd(17, 23), pick(['#d6403a', '#e8b23a', '#e0742e']));
   parkedRow(470, 7, 30); for (let i = 0; i < 3; i++) person(rnd(50, 1150), 480, 46, { top: pick(['#d0663a', '#3d6fa8', '#e6d9c2', '#8a3b4f']), hat: R() < 0.3 ? 'non' : null });
   const txt = heroAction(sp, 640, 600, 100);
   return `${txt} dans une rue étroite du Vieux Quartier de Hanoi bordée de maisons-tubes colorées${lan ? ' décorées de lanternes' : ''}, deux-roues garés sur le trottoir et câbles électriques au-dessus, ${TIME_FR[sp.time]}`;
@@ -110,7 +110,7 @@ SCENES.ba_dinh = sp => {
   return `${txt} longeant une vaste esplanade de pelouses quadrillées bordée de bâtiments officiels jaunes et d’arbres, quartier ${sp.place || 'de Ba Dinh'} à Hanoi, ${TIME_FR[sp.time]}`;
 };
 SCENES.tet = sp => {
-  cityBase(sp, 430); for (let i = 0; i < 12; i++) lantern(rnd(20, 1180), rnd(250, 330), rnd(10, 15), '#d6403a');
+  cityBase(sp, 430); for (let i = 0; i < 14; i++) lantern(40 + i * 85 + rnd(-10, 10), rnd(330, 380), rnd(18, 24), '#d6403a');
   for (let i = 0; i < 3; i++) peachTree(rnd(80, 1100), 470, rnd(60, 90)); for (let i = 0; i < 3; i++) kumquat(rnd(80, 1100), 475, rnd(30, 40));
   const b = sp.bikes[0]; heroBike(b, 600, 610, 100, { rider: outfit() }); peachTree(600 - 60, 610 - 100, 70);
   return `${bikeFR(b)} transportant un pêcher en fleurs dans une rue de Hanoi décorée de lanternes rouges, kumquats en pot et fleurs roses pour le Nouvel An lunaire, ${TIME_FR[sp.time]}`;
@@ -125,10 +125,10 @@ SCENES.rain_street = sp => {
 };
 SCENES.flood_street = sp => {
   sp.time = 'rain'; cityBase(sp, 430);
-  rect(0, 500, W, 130, alpha('#8a7a5a', 0.85)); for (let i = 0; i < 120; i++) rect(rnd(0, W), rnd(505, 630), rnd(10, 40), 1.5, alpha('#d9cfb8', 0.4));
-  const b = sp.bikes[0]; heroBike(b, 640, 640, 100, {}); person(560, 615, 70, { top: '#2f6db5', hat: 'helmet' });
-  rect(0, 560, W, 70, alpha('#8a7a5a', 0.8)); rain(400, 0.35);
-  return `rue de Hanoi inondée après une forte pluie : l’eau boueuse monte à mi-roue et un conducteur pousse ${bikeShort(b)} à pied`;
+  const b = sp.bikes[0]; heroBike(b, 560, 640, 120, {}); person(760, 640, 140, { top: '#2f6db5', pants: '#2f6db5', hat: 'helmet', helmet: '#f2f2f2' }); line(700, 520, 640, 520, '#2f6db5', 16);
+  rect(0, 575, W, 55, alpha('#8a7a5a', 0.82)); rect(0, 500, W, 75, alpha('#8a7a5a', 0.55)); for (let i = 0; i < 140; i++) rect(rnd(0, W), rnd(505, 630), rnd(10, 40), 1.5, alpha('#d9cfb8', 0.45));
+  rain(450, 0.35);
+  return `rue de Hanoi inondée après une forte pluie : l’eau boueuse monte jusqu’au milieu des roues et un conducteur en poncho bleu pousse ${bikeShort(b)} à pied`;
 };
 SCENES.winter_lake = sp => {
   sp.time = 'mist'; sky('mist', 380); for (let i = 0; i < 14; i++) tubeHouse(i * 90 - 20, 380, 86, rnd(60, 110), depth(pick(FACADES), 0.6));
@@ -138,14 +138,14 @@ SCENES.winter_lake = sp => {
   return `${bikeFR(b)} conduit${fe(sp)} par un motard en manteau d’hiver le long d’un lac de Hanoi noyé de brume, arbres dénudés sur la rive`;
 };
 SCENES.heat_street = sp => {
-  sp.time = 'noon'; cityBase(sp, 430); rect(0, 0, W, H, alpha('#ffd98a', 0.12)); thermometerSun(1050, 90, 70);
+  sp.time = 'noon'; cityBase(sp, 430, { sun: false }); rect(0, 0, W, H, alpha('#ffd98a', 0.12)); thermometerSun(1050, 90, 70);
   roundTree(250, 470, 150, '#4f8a4c'); ellipse(250, 560, 230, 40, alpha('#000000', 0.18));
   const b = sp.bikes[0]; heroBike(b, 300, 600, 100, { rider: { top: '#f2efe6', pants: '#3b4a63', helmet: '#f2f2f2' } }); waterBottle(480, 600, 50);
   return `${bikeFR(b)} arrêté${fe(sp)} à l’ombre d’un grand arbre dans une rue de Hanoi écrasée de soleil, le motard en chemise légère avec une bouteille d’eau à portée de main`;
 };
 SCENES.night_ride = sp => {
   sp.time = 'night'; sky('night', 420); street(420, 9, { night: true }); asphalt(420, H, '#33363c');
-  for (let x = 100; x < W; x += 260) { rect(x, 260, 6, 180, '#5a5d63'); circle(x + 20, 262, 10, '#ffe7a8'); ctx.save(); ctx.globalCompositeOperation = 'lighter'; poly([[x + 12, 268], [x + 28, 268], [x + 90, 600], [x - 60, 600]], alpha('#ffd27a', 0.08)); ctx.restore(); }
+  for (let x = 100; x < W; x += 260) { rect(x, 260, 6, 180, '#5a5d63'); circle(x + 20, 262, 10, '#ffe7a8'); ctx.save(); ctx.globalCompositeOperation = 'lighter'; poly([[x + 12, 268], [x + 28, 268], [x + 90, 600], [x - 60, 600]], alpha('#ffd27a', 0.045)); ctx.restore(); }
   for (let i = 0; i < 5; i++) { const x = rnd(50, 1150); miniBike(x, 500, 34, pick(Object.values(BIKE_COLORS)), R() < 0.5, true); circle(x, 505, 4, '#ff5a4a'); }
   const b = sp.bikes[0]; heroBike(b, 500, 612, 100, { rider: outfit() });
   ctx.save(); ctx.globalCompositeOperation = 'lighter'; poly([[500 + 68, 612 - 105], [1100, 520], [1100, 640]], alpha('#fff6d8', 0.22)); ctx.restore();

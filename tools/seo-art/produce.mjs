@@ -54,7 +54,7 @@ try {
 } finally { await engine.close(); }
 fs.writeFileSync(matrixFile, JSON.stringify(matrix, null, 2) + '\n');
 if (sheet) {
-  const py = `import sys\nfrom PIL import Image\nfs=sys.argv[2:];c=3;w,h=400,210\nr=(len(fs)+c-1)//c\ns=Image.new('RGB',(w*c,h*r),'white')\nfor i,f in enumerate(fs):\n  im=Image.open(f);im.load();assert im.size==(1200,630),f\n  s.paste(im.convert('RGB').resize((w,h)),((i%c)*w,(i//c)*h))\ns.save(sys.argv[1])\n`;
+  const py = `import sys\nfrom PIL import Image\nfs=sys.argv[2:];c=4;w,h=300,158\nr=(len(fs)+c-1)//c\ns=Image.new('RGB',(w*c,h*r),'white')\nfor i,f in enumerate(fs):\n  im=Image.open(f);im.load();assert im.size==(1200,630),f\n  s.paste(im.convert('RGB').resize((w,h)),((i%c)*w,(i//c)*h))\ns.save(sys.argv[1])\n`;
   const res = spawnSync('python3', ['-c', py, sheet, ...made.map(m => path.join(root, m.file))], {stdio: 'inherit'});
   if (res.status) throw new Error('Contact sheet failed (WebP decode)');
 }

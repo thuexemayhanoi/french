@@ -28,7 +28,7 @@ const PLACES = [
   ['cat-ba', 'bay', 'de Cát Bà et de la baie de Lan Ha'], ['halong', 'bay', 'de la baie d’Ha Long'], ['ha-long', 'bay', 'de la baie d’Ha Long'], ['quang-ninh', 'bay', 'de la côte de Quảng Ninh'],
   ['hai-phong', 'countryside', 'de Hai Phong'], ['phong-nha', 'cave', 'de Phong Nha'], ['hue-a-hoi-an', 'coast_road', 'du col de Hải Vân'], ['hue-a-da-nang', 'coast_road', 'du col de Hải Vân'],
   ['hue-a-phong-nha', 'cave', 'de Phong Nha'], ['hue', 'hue_citadel', 'de Huế'], ['da-nang-a-hoi-an', 'hoi_an', 'de Hội An'], ['hoi-an', 'hoi_an', 'de Hội An'], ['da-nang', 'coast_road', 'de Da Nang et du col de Hải Vân'],
-  ['nha-trang-a-dalat', 'pine_hills', 'de la route des plateaux vers Đà Lạt', {variant: 'nolake'}], ['dalat', 'pine_hills', 'de Đà Lạt'], ['da-lat', 'pine_hills', 'de Đà Lạt'],
+  ['nha-trang-a-dalat', 'pine_hills', 'de la route des plateaux vers Đà Lạt', {variant: 'nolake'}], ['da-lat-moto-1-jour', 'pine_hills', 'de Đà Lạt', {variant: 'lake'}], ['da-lat-moto-2-jours', 'pine_hills', 'de Đà Lạt', {variant: 'greenhouses'}], ['da-lat-voyage', 'pine_hills', 'de Đà Lạt', {variant: 'flowers'}], ['dalat', 'pine_hills', 'de Đà Lạt', {variant: 'nolake'}], ['da-lat', 'pine_hills', 'de Đà Lạt'],
   ['mui-ne', 'dunes', 'de Mũi Né'], ['phu-quoc', 'beach', 'de Phú Quốc', {variant: 'islands'}], ['con-dao', 'beach', 'de Côn Đảo', {variant: 'islands'}], ['vung-tau', 'beach', 'de Vũng Tàu', {variant: 'headland'}],
   ['phu-yen', 'beach', 'de Phú Yên', {variant: 'headland'}], ['quy-nhon', 'beach', 'de Quy Nhơn'], ['nha-trang', 'beach', 'de Nha Trang', {variant: 'islands'}], ['coastal', 'coast_road', 'de la côte vietnamienne'],
   ['can-tho', 'floating_market', 'de Cần Thơ'], ['chau-doc', 'delta', 'de Châu Đốc'], ['ben-tre', 'delta', 'de Ben Tre'], ['mekong', 'delta', 'du delta du Mékong'],
@@ -206,6 +206,8 @@ export function planItem(it) {
   return finalize(sp, it, txt);
 }
 function finalize(sp, it, txt) {
+  // Seeded horizontal mirroring for compositions without left/right meaning (keeps sibling pages visually distinct).
+  sp.mirror = !['duel', 'size_compare', 'intersection', 'lineup'].includes(sp.scene) && (sp.seed % 2 === 1);
   // Weather/time constraints coming from the topic.
   const t = (it.title_fr + ' ' + txt.h1).toLowerCase();
   if (/pluie|pleut|mousson/.test(t) && !['rain_street', 'flood_street'].includes(sp.scene) && !['documents', 'toolkit', 'tire', 'brakes', 'gear', 'calendar', 'keys', 'budget', 'checklist', 'emergency', 'phone_nav', 'luggage', 'lineup', 'duel', 'rental_period', 'clock', 'charging', 'size_compare', 'intersection'].includes(sp.scene)) sp.time = 'rain';
