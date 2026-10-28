@@ -203,7 +203,7 @@ export function planItem(it) {
     [/rue-inondee/, () => set('flood_street')], [/fog/, () => set('fog_mountain')], [/montagne-pass|descendre/, () => set('mountain_pass', {variant: 'karst', time: 'golden'})],
     [/autoroute/, () => set('highway')], [/nuit-securite/, () => set('night_ride')], [/heat/, () => set('heat_street')], [/pluie-securite|pluie-season/, () => set('rain_street')],
     [/casque|protective/, () => set('gear')], [/deux-personnes|passager|pour-deux/, () => set('two_up', {variant: has('hanoi') ? 'city' : null})],
-    [/grand-gabarit|leger-scooter/, () => set('size_compare', {bikes: [bikeOf('scooter_small'), bikeOf('scooter_premium')]})],
+    [/grand-gabarit/, () => set('size_compare', {bikes: [bikeOf('scooter_premium'), bikeOf('maxi')]})], [/leger-scooter/, () => set('size_compare', {bikes: [bikeOf('scooter_small'), bikeOf('scooter_sport')]})],
     [/assurance/, () => set('documents', {variant: 'insurance'})], [/immatriculation/, () => set('documents', {variant: 'registration'})],
     [/police/, () => set('documents', {variant: 'police'})], [/legal-liste/, () => set('documents', {variant: 'license', kind: 'kit'})], [/contrat|what-is-included/, () => set('documents', {variant: 'contract'})],
     [/passeport|depot/, () => set('documents', {variant: 'deposit'})], [/idp|international/, () => set('documents', {variant: 'idp'})],

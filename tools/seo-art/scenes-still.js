@@ -151,7 +151,7 @@ SCENES.two_up = sp => {
   return `${bikeFR(b)} avec un conducteur et un passager casqués, le passager portant un sac à dos, ${sp.variant === 'city' ? 'dans une rue de Hanoi' : 'sur une route de campagne au pied des collines'}, ${TIME_FR[sp.time]}`;
 };
 SCENES.size_compare = sp => {
-  studio(pick(['#d9dee3', '#e6ddd0'])); const [a, b] = sp.bikes; heroBike(a, 330, 560, 105, { rider: { top: '#d0663a', pants: '#2f3a4f', helmet: '#f2f2f2' } }); heroBike(b, 880, 560, 125, { rider: { top: '#3d6fa8', pants: '#3b3b3b', helmet: '#2b2d31' } });
+  studio(pick(['#d9dee3', '#e6ddd0', '#dfe8d8', '#ecdcd8', '#e3dbe3'])); const [a, b] = sp.bikes; heroBike(a, 300, 590, 140, { rider: { top: '#d0663a', pants: '#2f3a4f', helmet: '#f2f2f2' } }); heroBike(b, 890, 590, 165, { rider: { top: '#3d6fa8', pants: '#3b3b3b', helmet: '#2b2d31' } });
   return `deux motards de gabarits différents assis sur deux deux-roues de tailles différentes, ${bikeShort(a)} à gauche et ${bikeShort(b)} à droite, sur un fond de studio clair`;
 };
 SCENES.roadside_repair = sp => {
