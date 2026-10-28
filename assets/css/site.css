@@ -61,3 +61,8 @@ body.chat-keyboard-open .quick-contact,body.chat-keyboard-open .chat-fab{visibil
 
 /* Sommaire des articles */
 .article-toc{margin:1.1rem 0 1.6rem;border:1px solid var(--line,#d9d9d9);border-radius:14px;background:var(--surface,#fff);overflow:hidden}.article-toc summary{cursor:pointer;font-weight:800;padding:.9rem 1rem;list-style:none}.article-toc summary::-webkit-details-marker{display:none}.article-toc summary::after{content:"+";float:right}.article-toc[open] summary::after{content:"−"}.article-toc nav{padding:0 1rem 1rem}.article-toc ol{margin:.1rem 0 0;padding-left:1.35rem}.article-toc li{margin:.4rem 0}.article-toc a{text-decoration:none}.article-toc a:hover{text-decoration:underline}
+
+/* Shared responsive editorial images; actual assets come from image-seo matrix. */
+.seo-image{margin:1.25rem 0 2rem;max-width:100%}
+.seo-image img{display:block;width:100%;height:auto;aspect-ratio:40/21;object-fit:cover;border-radius:14px}
+@media(max-width:640px){.seo-image{margin:1rem 0 1.5rem}.seo-image img{border-radius:10px}}
