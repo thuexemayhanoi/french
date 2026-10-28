@@ -46,3 +46,17 @@ function camera(x, y, s, a = 0) { rot(x, y, a, () => { shadowOn(); rrect(-s, -s 
 function stamp(x, y, s, c = '#c9473b') { circle(x, y, s, null, alpha(c, 0.7), 3); circle(x, y, s * 0.75, null, alpha(c, 0.5), 2); for (let i = 0; i < 3; i++) rect(x - s * 0.5, y - s * 0.25 + i * s * 0.22, s, 3, alpha(c, 0.5)); }
 function lock(x, y, s, c = '#e0742e') { shadowOn(8, 4); ctx.beginPath(); ctx.arc(x, y - s * 0.3, s * 0.45, Math.PI, 0); ctx.strokeStyle = '#b9bec4'; ctx.lineWidth = s * 0.15; ctx.stroke(); rrect(x - s * 0.65, y - s * 0.3, s * 1.3, s * 1.0, s * 0.15, c); shadowOff(); circle(x, y + s * 0.15, s * 0.12, '#3a3c40'); }
 function discLock(x, y, s, c = '#e8b23a') { shadowOn(8, 4); rrect(x - s * 0.5, y - s * 0.4, s, s * 0.8, s * 0.25, c); shadowOff(); rect(x - s * 0.1, y - s * 0.9, s * 0.2, s * 0.6, '#b9bec4'); circle(x, y + s * 0.1, s * 0.1, '#3a3c40'); }
+
+// Small instant-photo print with a mini illustrated scene (destination cue for budget layouts).
+function polaroid(x, y, w, a, kind) {
+  rot(x, y, a, () => { shadowOn(10, 5); rect(-w / 2, -w * 0.6, w, w * 1.2, '#fbfaf6'); shadowOff(); const iw = w * 0.86, ih = w * 0.8, ix = -iw / 2, iy = -w * 0.53;
+    ctx.save(); ctx.beginPath(); ctx.rect(ix, iy, iw, ih); ctx.clip(); rect(ix, iy, iw, ih, kind === 'city' ? '#f2c38a' : '#9fd0ec');
+    const base = iy + ih * 0.7;
+    if (kind === 'karst' || kind === 'bay') { for (let i = 0; i < 5; i++) { const cx = ix + iw * (0.1 + i * 0.2), h = ih * (0.35 + (i % 2) * 0.2); ctx.beginPath(); ctx.ellipse(cx, base, iw * 0.09, h, 0, Math.PI, 0); ctx.fillStyle = '#4f7448'; ctx.fill(); } rect(ix, base, iw, ih * 0.3, kind === 'bay' ? '#3b8fa8' : '#6f9f8a'); }
+    else if (kind === 'mountain' || kind === 'terraces') { poly([[ix, base], [ix + iw * 0.3, iy + ih * 0.2], [ix + iw * 0.55, base - ih * 0.1], [ix + iw * 0.8, iy + ih * 0.25], [ix + iw, base]], '#557c4c'); rect(ix, base, iw, ih * 0.3, kind === 'terraces' ? '#a6c95a' : '#3f6a40'); if (kind === 'terraces') for (let i = 0; i < 5; i++) line(ix, base + i * 5, ix + iw, base + i * 5 - 6, '#e9e2c4', 1); else { ctx.beginPath(); ctx.moveTo(ix + iw * 0.5, iy + ih); ctx.quadraticCurveTo(ix + iw * 0.2, base, ix + iw * 0.55, base - 4); ctx.strokeStyle = '#d9d6cc'; ctx.lineWidth = 4; ctx.stroke(); } }
+    else if (kind === 'road') { rect(ix, base - 4, iw, ih * 0.34, '#8fbf5a'); poly([[ix + iw * 0.48, base - 4], [ix + iw * 0.52, base - 4], [ix + iw * 0.75, iy + ih], [ix + iw * 0.25, iy + ih]], '#6c6f73'); }
+    else if (kind === 'city') { for (let i = 0; i < 6; i++) rect(ix + i * iw / 6, base - ih * (0.3 + (i % 3) * 0.12), iw / 6 - 2, ih, pick(FACADES)); rect(ix, base + ih * 0.12, iw, ih, '#6c6f73'); }
+    else if (kind === 'coast') { rect(ix, base - 10, iw, ih * 0.4, '#3b8fa8'); rect(ix, base + ih * 0.12, iw, ih, '#ead7a8'); }
+    if (kind === 'scooter' || kind === 'electric') { rect(ix, iy, iw, ih, '#e6e9ef'); bike(0, iy + ih * 0.85, iw * 0.3, kind === 'electric' ? 'electric' : 'scooter_small', pick(['#c8323a', '#2f6db5', '#e8b23a'])); }
+    ctx.restore(); });
+}

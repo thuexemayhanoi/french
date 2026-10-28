@@ -155,6 +155,35 @@ export function planItem(it) {
   }
   if (/scooter-jour-voyages/.test(slug)) { set('countryside', {variant: 'hills'}); return finalize(sp, it, txt); }
   if (/jour-voyages/.test(slug)) { set('forest_mountain', {place: 'des environs de Hanoi'}); return finalize(sp, it, txt); }
+  // Duration and price pages: scene chosen from each page's own H1/subheadings (see pageText).
+  const D = {
+    'location-moto-hanoi-1-jour-location-moto-hanoi': () => set('countryside', {place: 'de Hanoi'}),
+    'location-moto-hanoi-1-semaine-location-moto-hanoi': () => set('lineup', {bikes: [bikeOf('scooter_small'), bikeOf('underbone'), bikeOf('scooter_flat')]}),
+    'location-moto-hanoi-2-jours-location-moto-hanoi': () => set('west_lake'),
+    'location-moto-hanoi-2-semaines-location-moto-hanoi': () => set('brakes', {variant: 'disc'}),
+    'location-moto-hanoi-3-jours-location-moto-hanoi': () => set('ancient_village', {place: 'des villages autour de Hanoi'}),
+    'location-moto-hanoi-3-mois-location-moto-hanoi': () => set('documents', {variant: 'contract'}),
+    'location-moto-hanoi-1-mois-location-moto-hanoi': () => set('budget', {place: 'd’un mois de location à Hanoi', kind: 'city'}),
+    'location-moto-hanoi-courte-duree-location-moto-hanoi': () => set('clock', {hour: 9}),
+    'location-moto-hanoi-location-moto-hanoi-vietnam': () => set('documents', {variant: 'license'}),
+    'location-moto-hanoi-weekend-location-moto-hanoi': () => set('phone_nav'),
+    'location-moto-hanoi-longue-duree-location-moto-hanoi': () => set('toolkit', {variant: 'oil'}),
+    'prix-location-30-jours-location-moto-hanoi-cout': () => set('budget', {place: 'de trente jours de location', kind: 'city'}),
+    'prix-location-50cc-ou-125cc-location-scooter-cout-hanoi': () => set('duel', {variant: 'studio', bikes: [bikeOf('scooter_flat'), bikeOf('scooter_small')]}),
+    'prix-location-abs-location-scooter-hanoi-prix-premium': () => set('brakes', {variant: 'disc'}),
+    'prix-location-cheap-location-moto-hanoi': () => set('checklist'),
+    'prix-location-hebdomadaire-ou-mensuelle-location-moto-hanoi-cout': () => set('calendar'),
+    'prix-location-longue-duree-location-moto-hanoi-discount': () => set('documents', {variant: 'contract'}),
+    'prix-location-vietnam-location-moto-cout-30-jours': () => set('budget', {place: 'd’un mois de voyage au Vietnam', kind: 'road'}),
+    'prix-location-automatique-location-scooter-hanoi-prix': () => set('budget', {place: 'd’une location de scooter automatique', kind: 'scooter'}),
+    'prix-location-electrique-location-scooter-hanoi-prix': () => set('budget', {place: 'd’une location de scooter électrique', kind: 'electric'}),
+    'prix-location-14-jours-location-moto-hanoi-cout': () => set('budget', {place: 'd’une location de deux semaines', kind: 'mountain'}),
+    'prix-location-3-jours-location-moto-hanoi-prix': () => set('budget', {place: 'd’une location de trois jours', kind: 'karst'}),
+    'prix-location-7-jours-location-moto-hanoi-cout': () => set('budget', {place: 'd’une location d’une semaine', kind: 'terraces'}),
+    'prix-location-mensuelle-location-moto-economies-hanoi': () => set('calendar'),
+    'prix-location-prix-location-moto-hanoi': () => set('budget', {place: 'd’une location à Hanoi', kind: 'city'}),
+  };
+  if (D[slug]) { D[slug](); return finalize(sp, it, txt); }
   // Topic rules by keyword (order matters: most specific first).
   const T = [
     [/roundabout|panneaux|lane|left-turn/, () => set('intersection', {variant: /roundabout|panneaux/.test(slug) ? 'roundabout' : null})],
@@ -182,7 +211,7 @@ export function planItem(it) {
     [/grand-rangement/, () => set('quiet_street', {bikes: [bikeOf('scooter_flat')], bag: true})], [/50cc-electrique/, () => set('duel', {variant: 'city', bikes: [bikeOf('scooter_flat'), bikeOf('electric')]})],
     [/long-distance/, () => set('long_road', {backpack: true})],
     [/recharge|batterie|hanoi-range|electrique-ou-essence|electrique-scooter-ou-essence/, () => set('charging', {bikes: [bikeOf('electric')]})],
-    [/luggage|bagage/, () => set('luggage')], [/budget|cout|prix|cheap|discount|economies|negoc/, () => { if (/voyage|nord|ha-giang|sapa|halong|ninh-binh/.test(slug)) { placeRule(); const pl = sp.place, sc = sp.scene; set('budget', {place: !pl ? 'd’un voyage à moto dans le nord du Vietnam' : /nord au sud/.test(pl) ? 'd’une traversée du Vietnam du nord au sud' : 'du voyage vers ' + pl.replace(/^de la /, 'la ').replace(/^de l’/, 'l’').replace(/^du /, 'le ').replace(/^des /, 'les ').replace(/^de /, ''), coast: sc === 'bay'}); } else set(r() < 0.5 ? 'budget' : 'rental_period', {place: 'd’une location à Hanoi'}); }],
+    [/luggage|bagage/, () => set('luggage')], [/budget|cout|prix|cheap|discount|economies|negoc/, () => { if (/voyage|nord|ha-giang|sapa|halong|ninh-binh/.test(slug)) { placeRule(); const pl = sp.place, sc = sp.scene; set('budget', {place: !pl ? 'd’un voyage à moto dans le nord du Vietnam' : /nord au sud/.test(pl) ? 'd’une traversée du Vietnam du nord au sud' : 'du voyage vers ' + pl.replace(/^de la /, 'la ').replace(/^de l’/, 'l’').replace(/^du /, 'le ').replace(/^des /, 'les ').replace(/^de /, ''), coast: sc === 'bay', kind: {karst_river: 'karst', bay: 'bay', mountain_pass: 'mountain', terraces: 'terraces', long_road: 'road'}[sc] || 'mountain'}); } else set(r() < 0.5 ? 'budget' : 'rental_period', {place: 'd’une location à Hanoi'}); }],
     [/circuit-moto/, () => set('mountain_pass', {group: true})],
   ];
   const topic = slug.replace(/^(permis-securite|prix-location|types-motos|location-moto-hanoi|centre-sud-vietnam|nord-vietnam|hanoi)-/, '');

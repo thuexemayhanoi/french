@@ -58,9 +58,13 @@ SCENES.charging = sp => {
   batteryPack(380, 480, 70); const b = sp.bikes[0]; heroBike(b, 850, 590, 160, {});
   return `${bikeFR(b)} garé${fe(sp)} contre un mur intérieur, une batterie amovible posée au sol, branchée sur un chargeur relié à une prise murale`;
 };
+const POLA_FR = { karst: 'des pitons karstiques', bay: 'une baie karstique', mountain: 'une route de montagne', terraces: 'des rizières en terrasses', road: 'une longue route', city: 'des façades de Hanoi', coast: 'une plage', scooter: 'un scooter', electric: 'un scooter électrique' };
 SCENES.budget = sp => {
-  const on = desk(sp); notebookChart(380, 320, 360, 440, -0.06); calculator(740, 420, 90, 0.12); foldedMap(860, 220, 360, 230, 0.06, { coast: !!sp.coast }); keyring(1050, 520, 50, 0.4);
-  return `vue de dessus ${on} : un carnet avec un graphique en barres, une calculatrice, une carte routière pliée où un itinéraire est tracé en pointillés rouges et des clés de moto, pour préparer le budget ${sp.place || 'du voyage'}`;
+  const on = desk(sp), lay = rint(0, 2), kind = sp.kind;
+  if (lay === 0) { notebookChart(380, 320, 360, 440, -0.06); calculator(740, 420, 90, 0.12); foldedMap(860, 220, 360, 230, 0.06, { coast: !!sp.coast }); keyring(1050, 520, 50, 0.4); if (kind) polaroid(640, 190, 150, -0.12, kind); }
+  else if (lay === 1) { foldedMap(330, 230, 420, 260, -0.05, { coast: !!sp.coast }); notebookChart(820, 330, 340, 420, 0.05); calculator(330, 500, 85, -0.2); coffeeTop(560, 520, 46); if (kind) polaroid(1060, 160, 140, 0.15, kind); }
+  else { notebookChart(900, 320, 340, 430, 0.04); foldedMap(420, 420, 400, 240, 0.08, { coast: !!sp.coast }); calculator(620, 170, 80, -0.1); keyring(250, 180, 50, 0.6); if (kind) polaroid(300, 320, 150, -0.08, kind); }
+  return `vue de dessus ${on} : un carnet avec un graphique en barres, une calculatrice, une carte routière pliée où un itinéraire est tracé en pointillés rouges${lay === 1 ? ', une tasse de café' : ', des clés de moto'}${kind ? ' et une photo instantanée représentant ' + POLA_FR[kind] : ''}, pour préparer le budget ${sp.place || 'du voyage'}`;
 };
 SCENES.keys = sp => {
   const on = desk(sp); smartkey(400, 300, 160, -0.3, pick(['#2b2d31', '#7a2635', '#1f3a6a'])); keyring(720, 250, 100, 0.5); key(600, 500, 130, 2.2, '#b9bec4'); circle(950, 330, 90, null, alpha('#2b2d31', 0.35), 3); ctx.setLineDash([8, 8]); circle(950, 330, 70, null, alpha('#2b2d31', 0.4), 2); ctx.setLineDash([]);
@@ -81,14 +85,18 @@ SCENES.luggage = sp => {
   return `vue de dessus ${on} : un sac à dos, un poncho de pluie plié, deux sangles élastiques, une carte routière et une gourde, le bagage compact d’un voyage à moto`;
 };
 SCENES.rental_period = sp => {
-  const wall = pick(['#efe6d6', '#e3ebe6', '#ece2e6', '#e6e9ef', '#f0e9da', '#dde7ee']); const floor = pick(['#b9ab90', '#a8a49a', '#c2a27e']);
+  const wall = pick(['#efe6d6', '#e3ebe6', '#ece2e6', '#e6e9ef', '#f0e9da', '#dde7ee']); const floor = pick(['#b9ab90', '#a8a49a', '#c2a27e']); const bgk = rint(0, 3);
   rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, wall], [0.7, shade(wall, -0.06)], [0.7, floor], [1, shade(floor, -0.1)]]));
+  let place = 'un mur clair';
+  if (bgk === 1) { for (let y = 0; y < H * 0.7; y += 22) for (let x = (y / 22) % 2 ? -20 : 0; x < W; x += 44) rect(x + 1, y + 1, 42, 20, shade('#b5623e', rnd(-0.1, 0.08))); place = 'un mur de briques'; }
+  if (bgk === 2) { rect(0, 0, W, H * 0.7, '#9aa1a8'); for (let y = 10; y < H * 0.7; y += 16) rect(0, y, W, 3, '#7f868d'); place = 'un rideau métallique de garage'; }
+  if (bgk === 3) { for (let y = H * 0.7; y < H; y += 40) for (let x = 0; x < W; x += 40) rect(x + 1, y + 1, 38, 38, ((x + y) / 40) % 2 ? '#d9c7a4' : '#c9b48a'); place = 'un mur de cour carrelée'; }
   const acc = pick(['#d6403a', '#2f6db5', '#2f8f5a', '#e0742e', '#7a4fa0']); const b = sp.bikes[0]; const layout = rint(0, 2); const helmet = pick(['#f2f2f2', '#2b2d31', '#e8c547', '#c83a3a']);
   let extra = '';
   if (layout === 0) { calendarCard(170, 170, 190, 220, 'day', acc); calendarCard(450, 160, 270, 200, 'week', acc); calendarCard(1000, 190, 280, 270, 'month', acc); heroBike(b, 600, 615, 195, { helmetOnSeat: helmet }); }
   else if (layout === 1) { calendarCard(930, 110, 200, 150, 'day', acc); calendarCard(930, 270, 250, 140, 'week', acc); calendarCard(930, 450, 270, 200, 'month', acc); heroBike(b, 400, 615, 200, { helmetOnSeat: helmet }); rect(60, 150, 160, 10, '#8a6a4a'); helmetSide(140, 150, 50, pick(['#3a5f9a', '#e0742e'])); extra = ', une étagère avec un second casque'; }
   else { calendarCard(150, 150, 180, 200, 'day', acc); calendarCard(390, 150, 240, 170, 'week', acc); calendarCard(270, 400, 300, 240, 'month', acc); heroBike(b, 820, 615, 200, { flip: true, helmetOnSeat: helmet }); rrect(1080, 470, 70, 80, 8, '#9a6a42'); for (let i = 0; i < 6; i++) ellipse(1115 + rnd(-30, 30), 450 - rnd(0, 60), 26, 12, '#4f8a4c', rnd(-1, 1)); extra = ', une plante verte dans un coin'; }
-  return `${bikeFR(b)} garé${fe(sp)} devant un mur où sont affichés trois calendriers sans chiffres, une journée, une semaine et un mois${extra}, pour comparer les formules de location`;
+  return `${bikeFR(b)} garé${fe(sp)} devant ${place} où sont affichés trois calendriers sans chiffres, une journée, une semaine et un mois${extra}, pour comparer les formules de location`;
 };
 function studio(c) { rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, shade(c, 0.2)], [0.72, c], [0.72, shade(c, -0.12)], [1, shade(c, -0.2)]])); rect(0, 0, W, H, rgrad(W / 2, 260, 50, 700, [[0, alpha('#ffffff', 0.35)], [1, alpha('#ffffff', 0)]])); }
 SCENES.lineup = sp => {
