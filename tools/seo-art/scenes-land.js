@@ -14,14 +14,14 @@ SCENES.mountain_pass = sp => {
   if (sp.variant === 'karst') { karst(260, 14, 90, 190, depth('#7b8f74', 0.6), { dots: 300 }); karst(330, 10, 80, 200, depth('#5e7b55', 0.35), { dots: 400 }); fillBelow(ridgeFn(380, 60, 2, 3), depth('#557c4c', 0.15)); }
   else mountains(4, 150, 300, greens, { amp: 170, mistBetween: sp.time === 'mist' || sp.time === 'dawn', forest: true });
   const near = ridgeFn(470, 120, 2.2, 4); fillBelow(near, shade(greens, -0.12)); speckle(near, shade(greens, -0.28), 220, 4, 140);
-  const dirL = R() < 0.5; const xs = dirL ? [760, 380, 820, 300, 700] : [440, 820, 380, 900, 500];
-  const pts = [[xs[0], 330, 6], [xs[1], 360, 12], [xs[2], 400, 22], [xs[3], 455, 40], [xs[4], 560, 110], [600, 680, 200]];
+  const dirL = R() < 0.5; const lay = rint(0, 1); const xs = dirL ? [760, 380, 820, 300, 700] : [440, 820, 380, 900, 500];
+  const pts = lay === 0 ? [[xs[0], 330, 6], [xs[1], 360, 12], [xs[2], 400, 22], [xs[3], 455, 40], [xs[4], 560, 110], [600, 680, 200]] : [[620, 300, 5], [760, 318, 8], [480, 340, 10], [800, 368, 16], [420, 400, 22], [860, 440, 34], [380, 500, 60], [700, 600, 130], [600, 700, 200]];
   road(pts, { shoulder: '#b8a98a' });
   const bx = dirL ? 470 : 760;
   const who = riderBike(sp, bx, 600, 112, 0);
   if (sp.group) { for (let i = 1; i <= 2; i++) heroBike(sp.bikes[i % sp.bikes.length], xs[3] + (i - 1) * 40, 470 - i * 4, 38 - i * 6, { rider: outfit() }); }
   const extra = sp.variant === 'karst' ? 'des pics karstiques' : 'des crêtes montagneuses boisées';
-  return `${who}, sur une route de col en lacets qui serpente entre ${extra}${sp.group ? ', suivie de deux autres motos' : ''}, paysage ${placeFR(sp, 'du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
+  return `${who}, sur une route de col ${lay === 1 ? 'aux virages en épingle superposés' : 'en lacets'} qui serpente entre ${extra}${sp.group ? ', suivie de deux autres motos' : ''}, paysage ${placeFR(sp, 'du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.terraces = sp => {
   sky(sp.time, 260); mountains(3, 120, 220, '#5c7f55', { amp: 140, mistBetween: true });

@@ -17,19 +17,23 @@ SCENES.old_quarter = sp => {
 SCENES.city_traffic = sp => {
   cityBase(sp, 420, { minH: 230, maxH: 340 });
   for (let i = 0; i < 7; i++) miniBike(rnd(30, 1170), 500, 36, pick(Object.values(BIKE_COLORS)), R() < 0.5, true);
-  if (sp.variant === 'bus') bus(950, 540, 60, '#3a8f6a'); else car(980, 545, 70, pick(['#d9d9d9', '#3d6fa8', '#2b2d31']), true);
+  if (sp.variant === 'bus') bus(950, 540, 60, '#3a8f6a'); else if (sp.variant === 'car') { car(900, 560, 95, '#f2f2f2', true); car(330, 520, 60, '#2f8f5a', false); } else car(980, 545, 70, pick(['#d9d9d9', '#3d6fa8', '#2b2d31']), true);
   for (let i = 0; i < 4; i++) miniBike(rnd(80, 1150), 560 + rnd(0, 20), 50, pick(Object.values(BIKE_COLORS)), R() < 0.3, true);
   const txt = heroAction(sp, 560, 615, 100);
-  return `${txt} au milieu d’un flot dense de scooters et de motos dans une avenue commerçante de Hanoi${sp.variant === 'bus' ? ', un bus urbain à côté' : ', une voiture à côté'}, ${TIME_FR[sp.time]}`;
+  return `${txt} au milieu d’un flot dense de scooters et de motos dans une avenue commerçante de Hanoi${sp.variant === 'bus' ? ', un bus urbain à côté' : sp.variant === 'car' ? ', deux voitures avec chauffeur dans la circulation' : ', une voiture à côté'}, ${TIME_FR[sp.time]}`;
 };
 SCENES.quiet_street = sp => {
-  sky(sp.time, 430); const gy = 450;
-  if (sp.variant === 'villa') { villa(60, gy, 420, 200, pick(['#e9c86a', '#e6d6b3', '#d8c7e0'])); villa(640, gy, 480, 210, pick(['#e9c86a', '#cfe0d0'])); } else street(gy, 9, {});
-  for (let i = 0; i < 6; i++) roundTree(80 + i * 210 + rnd(-30, 30), gy + 8, rnd(70, 95), pick(['#4f7a44', '#5a8a4c']));
+  sky(sp.time, 430); const gy = 450; const v = sp.variant || pick(['tube', 'alley', 'lake', 'tube']);
+  let where = 'bordée de maisons-tubes';
+  if (v === 'villa') { villa(60, gy, 420, 200, pick(['#e9c86a', '#e6d6b3', '#d8c7e0'])); villa(640, gy, 480, 210, pick(['#e9c86a', '#cfe0d0'])); where = 'bordée de villas de style colonial'; }
+  else if (v === 'lake') { water(330, gy, '#6f9f8a', '#4f857a'); for (let i = 0; i < 12; i++) roundTree(rnd(0, W), 335, 26, depth('#4f7a44', 0.35)); where = 'en bord de lac'; }
+  else if (v === 'alley') { street(gy, 9, { minH: 300, maxH: 400 }); for (let i = 0; i < 10; i++) { const x = rnd(0, W); rrect(x - 14, gy - 30, 28, 30, 4, '#b8662f'); circle(x, gy - 38, 18, '#4f8a4c'); } cables(gy - 300, 5); where = 'dans une ruelle étroite fleurie de plantes en pot'; }
+  else street(gy, 9, {});
+  if (v !== 'alley') for (let i = 0; i < 6; i++) roundTree(80 + i * 210 + rnd(-30, 30), gy + 8, rnd(70, 95), pick(['#4f7a44', '#5a8a4c']));
   sidewalk(gy, 50); asphalt(gy + 50, H); parkedRow(475, 3, 28, 800, 1180);
   sp.parked = true; const txt = heroAction(sp, 520, 590, 115, sp.bag ? { bag: '#3d5a7a' } : {});
   if (sp.extra === 'backpack') backpackTop(760, 580, 34, '#4f8a5b');
-  return `${txt} dans une rue calme et arborée de Hanoi${sp.variant === 'villa' ? ' bordée de villas de style colonial' : ' bordée de maisons-tubes'}${sp.extra === 'backpack' ? ', un sac à dos posé au sol' : ''}, ${TIME_FR[sp.time]}`;
+  return `${txt} dans une rue calme de Hanoi ${where}${sp.extra === 'backpack' ? ', un sac à dos posé au sol' : ''}, ${TIME_FR[sp.time]}`;
 };
 SCENES.lake_hk = sp => {
   const hz = 360; sky(sp.time, hz); for (let i = 0; i < 14; i++) tubeHouse(i * 90 - 20, hz, 86, rnd(60, 110), depth(pick(FACADES), 0.5));
@@ -165,6 +169,8 @@ SCENES.intersection = sp => {
   const topBike = (x, y, a, c) => rot(x, y, a, () => { rrect(-22, -7, 44, 14, 7, c); circle(4, 0, 7, '#f2f2f2'); rect(14, -12, 3, 24, '#2b2d31'); });
   const n = round ? 10 : 12; for (let i = 0; i < n; i++) { if (round) { const a = rnd(0, Math.PI * 2); topBike(600 + Math.cos(a) * 92, 315 + Math.sin(a) * 92, a + Math.PI / 2, pick(Object.values(BIKE_COLORS))); } else if (R() < 0.5) topBike(rnd(0, W), rnd(255, 375), R() < 0.5 ? 0 : Math.PI, pick(Object.values(BIKE_COLORS))); else topBike(rnd(535, 665), rnd(0, H), R() < 0.5 ? Math.PI / 2 : -Math.PI / 2, pick(Object.values(BIKE_COLORS))); }
   for (let i = 0; i < 10; i++) roundTree(rnd(0, 480), rnd(30, 200), 40, '#4f7a44'); for (let i = 0; i < 6; i++) rect(rnd(740, 1150), rnd(440, 580), 80, 60, pick(FACADES));
+  if (sp.variant === 'leftturn') { ctx.save(); ctx.setLineDash([14, 10]); ctx.beginPath(); ctx.moveTo(640, 620); ctx.lineTo(640, 360); ctx.quadraticCurveTo(640, 280, 420, 285); ctx.lineTo(0, 285); ctx.strokeStyle = '#e8b23a'; ctx.lineWidth = 8; ctx.stroke(); ctx.restore(); topBike(640, 470, -Math.PI / 2, '#c8323a'); return 'vue aérienne d’un carrefour urbain : une trajectoire en pointillés jaunes montre un deux-roues qui tourne à gauche en passant par le centre du croisement, passages piétons et flèches peintes au sol'; }
+  if (sp.variant === 'lanes') { for (const y of [270, 300, 330, 360]) for (let x = 0; x < W; x += 50) if (x < 480 || x > 720) rect(x, y, 28, 3, '#f2f0e6'); rect(0, 362, 470, 24, alpha('#2f8f5a', 0.5)); rect(730, 362, 470, 24, alpha('#2f8f5a', 0.5)); return 'vue aérienne d’une grande avenue à plusieurs voies séparées par des lignes blanches, une bande verte réservée aux deux-roues le long du trottoir, un carrefour avec passages piétons au centre'; }
   return round ? 'vue aérienne d’un rond-point arboré où des deux-roues circulent en suivant les flèches peintes au sol, passages piétons à chaque entrée' : 'vue aérienne d’un carrefour urbain avec passages piétons, lignes de voie et flèches de direction peintes au sol, deux-roues engagés dans chaque branche';
 };
 SCENES.gas_station = sp => {

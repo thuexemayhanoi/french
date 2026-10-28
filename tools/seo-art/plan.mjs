@@ -147,7 +147,7 @@ export function planItem(it) {
     sp.bikes = [bikes[0]];
     const mi = MODELS.findIndex(m => m[1] === found[0].label), rot = (list, k = 0) => list[(mi * 3 + k) % list.length];
     const rough = ['trail', 'cub_trail', 'sport_underbone', 'underbone'].includes(bikes[0].type);
-    if (angle === 'hanoi-ville') set(rot(['city_traffic', 'old_quarter', 'night_ride', 'transit', 'rain_street', 'french_quarter', 'long_bien', 'lake_hk', 'city_traffic', 'west_lake', 'ba_dinh']), {variant: rot(['bus', null, 'lanterns'])});
+    if (angle === 'hanoi-ville') { const L = ['city_traffic', 'old_quarter', 'night_ride', 'transit', 'rain_street', 'french_quarter', 'long_bien', 'lake_hk', 'gas_station', 'west_lake', 'ba_dinh']; set(L[(mi * 5) % L.length], {variant: rot([null, 'bus', 'lanterns'])}); }
     else if (angle === 'location-hanoi') set(rot(['quiet_street', 'hotel', 'cafe', 'quiet_street', 'parking', 'west_lake', 'lake_hk', 'cafe'], 1), {variant: rot(['villa', null, 'lake'], 2), extra: r() < 0.5 ? 'backpack' : null, parked: true});
     else if (angle === 'longue-distance-vietnam' || angle === 'vietnam-voyage-moto') set(rough ? rot(['mountain_pass', 'forest_mountain', 'terraces', 'mountain_lake', 'stilt_valley', 'tea_plateau', 'waterfall']) : rot(['long_road', 'coast_road', 'countryside', 'karst_river', 'beach', 'delta', 'pine_hills', 'bay', 'stilt_valley', 'tea_plateau']), {backpack: true, variant: rot(['karst', null, 'south', 'islands', 'lake', 'flowers'], 1)});
     else if (angle === 'prix-location-hanoi') set('rental_period');
@@ -192,12 +192,12 @@ export function planItem(it) {
   if (D[slug]) { D[slug](); return finalize(sp, it, txt); }
   // Topic rules by keyword (order matters: most specific first).
   const T = [
-    [/roundabout|panneaux|lane|left-turn/, () => set('intersection', {variant: /roundabout|panneaux/.test(slug) ? 'roundabout' : null})],
+    [/roundabout|panneaux|lane|left-turn/, () => set('intersection', {variant: /roundabout|panneaux/.test(slug) ? 'roundabout' : /left-turn/.test(slug) ? 'leftturn' : /lane/.test(slug) ? 'lanes' : null})],
     [/accident/, () => set('emergency')], [/emergency/, () => set('emergency')], [/panne-|breakdown/, () => set('roadside_repair')],
     [/crevaison|pneu-controle|tubeless/, () => set('tire', {variant: has('tubeless') ? 'tubeless' : null})],
-    [/chain/, () => set('toolkit', {variant: 'chain'})], [/oil|vidange|entretien/, () => set('toolkit', {variant: 'oil'})],
+    [/chain/, () => set('toolkit', {variant: 'chain'})], [/oil|vidange|entretien/, () => set('toolkit', {variant: 'oil', kind: /oil-change|vidange/.test(slug) ? 'drain' : /controle/.test(slug) ? 'dipstick' : null})],
     [/carburateur|injection/, () => set('toolkit', {variant: 'engine'})], [/disc-frein|frein-controle/, () => set('brakes', {variant: has('disc-frein') ? 'compare' : 'disc'})],
-    [/abs-ou-cbs|abs-vietnam-pluie/, () => set('brakes', {variant: 'compare'})],
+    [/abs-ou-cbs/, () => set('brakes', {variant: 'abs'})], [/abs-vietnam-pluie/, () => set('rain_street')],
     [/perdue-cle|smartkey/, () => set('keys')], [/antivol/, () => set('parking')],
     [/rue-inondee/, () => set('flood_street')], [/fog/, () => set('fog_mountain')], [/montagne-pass|descendre/, () => set('mountain_pass', {variant: 'karst', time: 'golden'})],
     [/autoroute/, () => set('highway')], [/nuit-securite/, () => set('night_ride')], [/heat/, () => set('heat_street')], [/pluie-securite|pluie-season/, () => set('rain_street')],
@@ -206,7 +206,7 @@ export function planItem(it) {
     [/assurance/, () => set('documents', {variant: 'insurance'})], [/immatriculation/, () => set('documents', {variant: 'registration'})],
     [/police/, () => set('documents', {variant: 'police'})], [/legal-liste/, () => set('documents', {variant: 'license', kind: 'kit'})], [/contrat|what-is-included/, () => set('documents', {variant: 'contract'})],
     [/passeport|depot/, () => set('documents', {variant: 'deposit'})], [/idp|international/, () => set('documents', {variant: 'idp'})],
-    [/conversion|permis-etranger|temporary-residence/, () => set('documents', {variant: 'conversion'})],
+    [/conversion|permis-etranger|temporary-residence/, () => set('documents', {variant: 'conversion', kind: /temporary-residence/.test(slug) ? 'residence' : /touriste/.test(slug) ? 'visa' : /permis-etranger-conversion/.test(slug) ? 'photos' : null})],
     [/permis|license|documents-moto/, () => set('documents', {variant: 'license', kind: /50cc/.test(slug) ? 'none50' : /125cc-plus/.test(slug) ? 'big' : /moins-de-125/.test(slug) ? 'small' : /electrique/.test(slug) ? 'electric' : /documents-moto/.test(slug) ? 'kit' : /a1-a/.test(slug) ? 'two' : /etranger-valide/.test(slug) ? 'foreign' : null})],
     [/limite-vitesse|vitesse-limits/, () => set(pick(['long_road', 'highway']))], [/shifting/, () => set('mountain_pass', {bikes: [bikeOf('underbone')]})],
     [/scooter-montagne-pass/, () => set('mountain_pass', {bikes: [bikeOf('scooter_small')]})],
@@ -214,10 +214,10 @@ export function planItem(it) {
     [/inspection|liste-controle/, () => set('checklist')],
     [/aeroport/, () => set('airport', {parked: /location-moto-aeroport/.test(slug)})], [/livraison/, () => set('hotel')], [/horaires|opening|same-jour|24-horaires/, () => set('clock', {hour: has('same') ? 10 : 8})],
     [/online|pres-de-moi|google-maps/, () => set('phone_nav', {variant: has('pres-de-moi') ? 'pins' : null})], [/support-telephone/, () => set('phone_nav', {variant: 'mount'})],
-    [/station-essence|carburant/, () => set('gas_station')], [/grab|taxi|public-transport|business-traveler/, () => set(has('public') ? 'transit' : 'city_traffic', {variant: 'bus'})],
+    [/station-essence|carburant/, () => set('gas_station')], [/grab/, () => set('two_up', {variant: 'city'})], [/taxi|business-traveler/, () => set('city_traffic', {variant: 'car'})], [/public-transport/, () => set('transit')],
     [/grand-rangement/, () => set('quiet_street', {bikes: [bikeOf('scooter_flat')], bag: true})], [/50cc-electrique/, () => set('duel', {variant: 'city', bikes: [bikeOf('scooter_flat'), bikeOf('electric')]})],
     [/long-distance/, () => set('long_road', {backpack: true})],
-    [/recharge|batterie|hanoi-range|electrique-ou-essence|electrique-scooter-ou-essence/, () => set('charging', {bikes: [bikeOf('electric')]})],
+    [/recharge|batterie|hanoi-range|electrique-ou-essence|electrique-scooter-ou-essence/, () => set('charging', {bikes: [bikeOf('electric'), bikeOf('scooter_small')], variant: /swap/.test(slug) ? 'swap' : /removable|hotel/.test(slug) ? 'hotel' : /range/.test(slug) ? 'range' : /ou-essence|electrique-ou-essence/.test(slug) ? 'fuel' : /recharge/.test(slug) ? 'street' : null})],
     [/luggage|bagage/, () => set('luggage')], [/budget|cout|prix|cheap|discount|economies|negoc/, () => { if (/voyage|nord|ha-giang|sapa|halong|ninh-binh/.test(slug)) { placeRule(); const pl = sp.place, sc = sp.scene; set('budget', {place: !pl ? 'd’un voyage à moto dans le nord du Vietnam' : /nord au sud/.test(pl) ? 'd’une traversée du Vietnam du nord au sud' : 'du voyage vers ' + pl.replace(/^de la /, 'la ').replace(/^de l’/, 'l’').replace(/^du /, 'le ').replace(/^des /, 'les ').replace(/^de /, ''), coast: sc === 'bay', kind: {karst_river: 'karst', bay: 'bay', mountain_pass: 'mountain', terraces: 'terraces', long_road: 'road'}[sc] || 'mountain'}); } else set(r() < 0.5 ? 'budget' : 'rental_period', {place: 'd’une location à Hanoi'}); }],
     [/circuit-moto/, () => set('mountain_pass', {group: true})],
   ];
