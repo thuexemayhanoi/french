@@ -29,6 +29,14 @@ This repo is the French static website `https://fr.rentbikehanoi.com/`. The owne
 - No images added to the four redirect URLs.
 - Batch progress is recorded in Git, not in transient chat memory.
 
+## Illustration engine (how the 547 assets were produced)
+Canva AI image quota was exhausted and Figma image generation is paid, so the assets are original vector illustrations drawn by `tools/seo-art/` (canvas code rendered in the pre-installed Chromium, no network, no API). `plan.mjs` maps each row (slug, title, H1/subheadings) to a scene; each scene returns the description of exactly what it drew, which becomes `alt_fr`.
+```bash
+node tools/seo-art/produce.mjs 40 --sheet <png>   # next pending rows → WebP at asset_path + alt_fr + READY; contact sheet for visual review
+node tools/seo-art/produce.mjs --force <id,...>   # re-render specific rows (deterministic per id)
+tools/seo-art/qa-batch.sh                         # apply in chunks of 20 + every CI check
+```
+
 ## Quick commands
 ```bash
 node tools/image-seo.mjs status

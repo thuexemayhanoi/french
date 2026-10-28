@@ -1,5 +1,8 @@
 // Still lifes, studio line-ups and comparison scenes.
 const WOOD_FR = { chene: 'en chêne', noyer: 'en noyer', clair: 'en bois clair', teck: 'en teck' };
+const MAT_FR = { '#4f6b5a': 'vert sauge', '#3f4f63': 'bleu ardoise', '#5a4f45': 'brun', '#5a5650': 'gris taupe', '#2f3b4a': 'bleu nuit', '#4a4a4a': 'anthracite' };
+function mat(list) { const c = pick(list || Object.keys(MAT_FR)); deskMat(c); return 'tapis d’atelier ' + MAT_FR[c]; }
+const ACC_FR = { '#d6403a': 'rouges', '#2f6db5': 'bleus', '#2f8f5a': 'verts', '#e0742e': 'orange', '#7a4fa0': 'violets' };
 function zoom(k = 1.18) { ctx.translate(W / 2, H / 2); ctx.scale(k, k); ctx.translate(-W / 2, -H / 2); }
 function desk(sp) { const k = sp.wood || pick(Object.keys(WOODS)); table(k); zoom(); return 'sur une table ' + WOOD_FR[k]; }
 const PASS_COL = { '#7a2632': 'bordeaux', '#1f3a6a': 'bleu marine', '#2f5a3a': 'vert foncé', '#3a2a24': 'brun' };
@@ -18,7 +21,7 @@ SCENES.documents = sp => {
   }
   if (v === 'license' || v === 'idp' || v === 'conversion') { passport(300, 300, 150, -0.15, pc); items.push('un passeport ' + PASS_COL[pc]); idCard(640, 230, 260, 0.08); items.push('une carte de permis de conduire vierge'); if (v === 'idp') { paper(900, 360, 260, 340, 0.12); items.push('un livret de permis international stylisé'); } if (v === 'conversion') { paper(900, 360, 260, 340, 0.1, { sign: true }); stamp(960, 450, 40); items.push('un formulaire tamponné'); if (sp.kind === 'residence') { idCard(640, 470, 220, -0.12, '#e3ecf5', '#2f6db5'); items.push('une carte de séjour vierge'); } if (sp.kind === 'photos') { for (let i = 0; i < 4; i++) rrect(560 + (i % 2) * 70, 430 + Math.floor(i / 2) * 85, 60, 75, 4, '#c9d2d8'); items.push('quatre photos d’identité vierges'); } if (sp.kind === 'visa') { stamp(330, 480, 46, '#2f8f5a'); items.push('un tampon de visa'); } } pen(620, 470, 180, -0.4); items.push('un stylo'); }
   else if (v === 'deposit') { passport(330, 320, 160, 0.1, pc); items.push('un passeport ' + PASS_COL[pc]); rot(700, 330, -0.08, () => { shadowOn(); rect(-150, -90, 300, 180, '#e9dcc0'); shadowOff(); poly([[-150, -90], [150, -90], [0, 10]], '#dccdaa'); }); items.push('une enveloppe de dépôt fermée'); keyring(980, 260, 50, 0.6); items.push('un trousseau de clés de moto'); }
-  else if (v === 'contract') { paper(470, 320, 360, 470, -0.05, { sign: true }); items.push('un contrat de location signé'); pen(760, 420, 200, -0.7, '#1f3a6a'); items.push('un stylo'); keyring(930, 220, 50, 0.4); items.push('des clés'); helmetSide(1020, 560, 90, pick(['#f2f2f2', '#e8c547', '#c83a3a'])); items.push('un casque'); }
+  else if (v === 'contract') { paper(470, 320, 360, 470, -0.05, { sign: true }); items.push('un contrat de location signé'); pen(760, 420, 200, -0.7, '#1f3a6a'); items.push('un stylo'); keyring(930, 220, 50, 0.4); items.push('des clés'); const hc = pick([['#f2f2f2', 'blanc'], ['#e8c547', 'jaune'], ['#c83a3a', 'rouge'], ['#3a5f9a', 'bleu'], ['#2b2d31', 'noir']]); helmetSide(1020, 560, 90, hc[0]); items.push('un casque ' + hc[1]); }
   else if (v === 'insurance') { paper(430, 320, 340, 450, 0.06); rot(430, 300, 0.06, () => { poly([[0, -60], [55, -38], [48, 30], [0, 70], [-48, 30], [-55, -38]], '#2f8f5a'); poly([[-18, 0], [-5, 18], [24, -22], [16, -28], [-5, 4], [-10, -6]], '#f4f2ec'); }); items.push('un document d’assurance marqué d’un bouclier vert'); idCard(860, 230, 230, -0.1); items.push('une carte d’immatriculation vierge'); keyring(900, 470, 50, 0.2); items.push('des clés'); }
   else if (v === 'registration') { idCard(450, 300, 300, -0.06, '#e9eef2', '#2f6db5'); items.push('une carte d’immatriculation de moto vierge'); keyring(800, 320, 60, 0.4); items.push('une clé de contact'); passport(1020, 360, 140, 0.15, pc); items.push('un passeport ' + PASS_COL[pc]); }
   else if (v === 'police') { idCard(380, 280, 260, -0.1); items.push('une carte de permis'); idCard(420, 470, 260, 0.06, '#e9eef2', '#2f6db5'); items.push('une carte d’immatriculation'); passport(760, 330, 150, 0.12, pc); items.push('un passeport ' + PASS_COL[pc]); helmetSide(1010, 470, 100, '#f2f2f2'); items.push('un casque blanc'); }
@@ -33,7 +36,7 @@ SCENES.checklist = sp => {
   return `vue de dessus ${on} : une feuille de contrôle sur porte-bloc avec plusieurs cases cochées, un smartphone affichant un plan, des clés et un casque, préparation ${sp.place || 'd’une moto de location'}`;
 };
 SCENES.toolkit = sp => {
-  deskMat(pick(['#4f6b5a', '#3f4f63', '#5a4f45'])); zoom(); const v = sp.variant || 'tools'; const items = [];
+  const mt = mat(); zoom(); const v = sp.variant || 'tools'; const items = [];
   wrench(300, 200, 260, 0.3); items.push('une clé plate'); screwdriver(320, 440, 220, -0.2); items.push('un tournevis');
   if (v === 'oil' && sp.kind === 'drain') { ellipse(700, 440, 150, 60, '#2b2d31'); ellipse(700, 432, 130, 48, '#5a4a2a'); oilBottle(980, 470, 150); circle(940, 230, 50, '#2f6db5'); circle(940, 230, 22, '#c9ced3'); items.push('un bac de vidange rempli d’huile usagée', 'un bidon d’huile neuve', 'un filtre à huile bleu'); }
   else if (v === 'oil' && sp.kind === 'dipstick') { oilBottle(700, 430, 160); line(860, 200, 1080, 520, '#c9ced3', 8); circle(860, 200, 16, '#e0742e'); line(1040, 460, 1080, 520, '#5a4a2a', 9); rrect(860, 520, 160, 70, 14, '#e6d9c2'); items.push('un bidon d’huile moteur sans marque', 'une jauge d’huile tachée', 'un chiffon'); }
@@ -41,22 +44,22 @@ SCENES.toolkit = sp => {
   else if (v === 'chain') { chain(700, 320, 420, -0.15); items.push('un segment de chaîne de transmission'); oilBottle(1000, 470, 120, '#3a8f6a'); items.push('un flacon de lubrifiant'); }
   else if (v === 'engine') { rrect(620, 220, 200, 160, 20, '#8d949a'); circle(720, 300, 46, '#5d6268'); circle(720, 300, 22, '#3a3c40'); items.push('un bloc carburateur'); rrect(880, 380, 60, 200, 20, '#b9bec4'); rect(895, 360, 30, 30, '#2b2d31'); items.push('un injecteur'); oilBottle(1060, 520, 110); items.push('un bidon d’huile'); }
   else { pump(720, 360, 150, 0.2); items.push('une pompe à main rouge'); oilBottle(980, 470, 140); items.push('un bidon d’huile'); gloves(1000, 190, 70, 0.3); items.push('une paire de gants'); }
-  return `vue de dessus d’un tapis d’atelier avec des outils d’entretien de moto : ${items.join(', ')}`;
+  return `vue de dessus d’un ${mt} avec des outils d’entretien de moto : ${items.join(', ')}`;
 };
 SCENES.tire = sp => {
-  deskMat('#5a5650'); zoom(1.1); tireTop(420, 320, 230, { nail: sp.variant !== 'tubeless' }); innerTube(860, 230, 110); pump(1000, 470, 130, -0.4); wrench(820, 520, 170, 0.6);
-  return `vue de dessus d’une roue de moto posée à plat${sp.variant !== 'tubeless' ? ', un clou planté dans la bande de roulement' : ''}, avec une chambre à air, une pompe à main et une clé, prêts pour la réparation`;
+  const mt = mat(); zoom(1.1); const rimc = pick([['#8d949a', 'grise'], ['#2b2d31', 'noire'], ['#c9a64a', 'dorée'], ['#b9bec4', 'argentée']]); tireTop(420, 320, 230, { nail: sp.variant !== 'tubeless', rim: rimc[0] }); innerTube(860, 230, 110); pump(1000, 470, 130, -0.4); wrench(820, 520, 170, 0.6);
+  return `vue de dessus d’une roue de moto à jante ${rimc[1]} posée à plat sur un ${mt}${sp.variant !== 'tubeless' ? ', un clou planté dans la bande de roulement' : ''}, avec une chambre à air, une pompe à main et une clé, prêts pour la réparation`;
 };
 SCENES.brakes = sp => {
-  deskMat('#3f4f63'); zoom(1.1); const v = sp.variant || 'disc';
-  if (v === 'compare') { brakeDisc(380, 320, 190); drumBrake(850, 320, 170); return 'vue de dessus d’un disque de frein ajouré avec son étrier rouge à gauche et d’un frein à tambour à droite, posés côte à côte sur un tapis d’atelier'; }
-  if (v === 'abs') { brakeDisc(480, 320, 220); for (let i = 0; i < 40; i++) { const a2 = i / 40 * Math.PI * 2; rect(480 + Math.cos(a2) * 128 - 4, 320 + Math.sin(a2) * 128 - 4, 8, 8, '#3a3c40'); } rrect(700, 300, 90, 40, 8, '#2b2d31'); ctx.beginPath(); ctx.moveTo(790, 320); ctx.bezierCurveTo(880, 330, 900, 420, 1000, 430); ctx.strokeStyle = '#2b2d31'; ctx.lineWidth = 5; ctx.stroke(); return 'vue de dessus d’un disque de frein ajouré avec son étrier rouge et la couronne dentée d’un capteur ABS relié à son câble, posés sur un tapis d’atelier'; }
+  const mt = mat(); zoom(1.1); const v = sp.variant || 'disc';
+  if (v === 'compare') { brakeDisc(380, 320, 190); drumBrake(850, 320, 170); return 'vue de dessus d’un disque de frein ajouré avec son étrier rouge à gauche et d’un frein à tambour à droite, posés côte à côte sur un ' + mt; }
+  if (v === 'abs') { brakeDisc(480, 320, 220); for (let i = 0; i < 40; i++) { const a2 = i / 40 * Math.PI * 2; rect(480 + Math.cos(a2) * 128 - 4, 320 + Math.sin(a2) * 128 - 4, 8, 8, '#3a3c40'); } rrect(700, 300, 90, 40, 8, '#2b2d31'); ctx.beginPath(); ctx.moveTo(790, 320); ctx.bezierCurveTo(880, 330, 900, 420, 1000, 430); ctx.strokeStyle = '#2b2d31'; ctx.lineWidth = 5; ctx.stroke(); return 'vue de dessus d’un disque de frein ajouré avec son étrier rouge et la couronne dentée d’un capteur ABS relié à son câble, posés sur un ' + mt; }
   brakeDisc(480, 320, 220); wrench(900, 220, 220, 0.5); rrect(860, 400, 120, 50, 10, '#5d6268'); rrect(880, 470, 120, 50, 10, '#5d6268');
-  return 'vue de dessus d’un disque de frein ajouré avec son étrier rouge, deux plaquettes de frein et une clé posés sur un tapis d’atelier';
+  return 'vue de dessus d’un disque de frein ajouré avec son étrier rouge, deux plaquettes de frein et une clé posés sur un ' + mt;
 };
 SCENES.gear = sp => {
   const on = desk(sp); const hc = pick(['#f2f2f2', '#e8c547', '#c83a3a', '#2b2d31', '#3a5f9a']); const items = [];
-  helmetSide(330, 380, 160, hc, { stripe: pick(['#d6403a', '#2f6db5', null]) }); items.push('un casque intégral');
+  helmetSide(330, 380, 160, hc, { stripe: pick(['#d6403a', '#2f6db5', null]) }); items.push('un casque intégral ' + ({ '#f2f2f2': 'blanc', '#e8c547': 'jaune', '#c83a3a': 'rouge', '#2b2d31': 'noir', '#3a5f9a': 'bleu' })[hc]);
   gloves(700, 220, 90, -0.2); items.push('une paire de gants'); sunglasses(1000, 180, 70, 0.2); items.push('des lunettes de soleil');
   if (sp.variant === 'rain') { raincoat(820, 480, 150, pick(['#2f6db5', '#e0742e', '#3c8a6e'])); items.push('un poncho de pluie plié'); } else if (sp.variant === 'heat') { waterBottle(800, 560, 120); items.push('une bouteille d’eau'); thermometerSun(1060, 450, 70); } else { rrect(720, 380, 360, 200, 30, '#3a4a5a'); for (let i = 0; i < 3; i++) rect(740, 420 + i * 50, 320, 8, '#2b3540'); items.push('un blouson de moto plié'); }
   return `vue de dessus ${on} : ${items.join(', ')}, l’équipement de protection du motard`;
@@ -94,9 +97,9 @@ SCENES.keys = sp => {
   return `vue de dessus ${on} : une clé électronique de scooter, un trousseau de clés et une clé isolée, à côté d’un emplacement vide en pointillés évoquant une clé perdue`;
 };
 SCENES.calendar = sp => {
-  const on = desk(sp); const acc = pick(['#d6403a', '#2f6db5', '#2f8f5a', '#e0742e']);
+  const on = desk(sp); const acc = pick(['#d6403a', '#2f6db5', '#2f8f5a', '#e0742e', '#7a4fa0']);
   calendarCard(250, 320, 230, 280, 'day', acc, -0.06); calendarCard(590, 300, 300, 230, 'week', acc, 0.03); calendarCard(950, 330, 330, 330, 'month', acc, 0.06); keyring(560, 520, 40, 0.3);
-  return `vue de dessus ${on} : trois fiches de calendrier sans chiffres, une journée, une semaine et un mois surlignés, à côté d’un trousseau de clés de moto, pour comparer les durées de location`;
+  return `vue de dessus ${on} : trois fiches de calendrier aux en-têtes ${ACC_FR[acc]} sans chiffres, une journée, une semaine et un mois surlignés, à côté d’un trousseau de clés de moto, pour comparer les durées de location`;
 };
 SCENES.clock = sp => {
   rect(0, 0, W, H, lgrad(0, 0, 0, H, [[0, '#efe6d6'], [0.66, '#e4d8c3'], [0.66, '#b48a5e'], [1, '#9a744c']]));

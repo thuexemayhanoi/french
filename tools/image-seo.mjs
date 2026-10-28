@@ -50,8 +50,8 @@ function finished(it) {
   if(!v.ok)return false;
   if(!fs.existsSync(pageFile(it.page_path)))return false;
   const h=fs.readFileSync(pageFile(it.page_path),'utf8');
-  const a=h.includes(markStart(it))&&h.includes(markEnd(it))&&h.includes('src="/'+esc(it.asset_path)+'"');
-  const meta=it.type==='EXTRA'||(h.includes(metaStart)&&h.includes(metaEnd)&&h.includes('property="og:image" content="'+domain+'/'+esc(it.asset_path)+'"'));
+  const a=h.includes(markStart(it))&&h.includes(markEnd(it))&&h.includes('src="/'+esc(it.asset_path)+'" alt="'+esc(it.alt_fr)+'"');
+  const meta=it.type==='EXTRA'||(h.includes(metaStart)&&h.includes(metaEnd)&&h.includes('property="og:image" content="'+domain+'/'+esc(it.asset_path)+'"')&&h.includes('property="og:image:alt" content="'+esc(it.alt_fr)+'"'));
   return a&&meta;
 }
 function inject(html,it) {

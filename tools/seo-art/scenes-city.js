@@ -162,7 +162,7 @@ SCENES.intersection = sp => {
   for (let i = 0; i < 6; i++) { rect(450 + i * 18 - 70, 0, 0, 0, '#000'); rect(530 + i * 24, 210, 14, 26, '#f2f0e6'); rect(530 + i * 24, 394, 14, 26, '#f2f0e6'); rect(490, 252 + i * 22, 26, 14, '#f2f0e6'); rect(684, 252 + i * 22, 26, 14, '#f2f0e6'); }
   for (let x = 0; x < W; x += 60) if (x < 470 || x > 730) rect(x, 314, 34, 4, '#f1d36b');
   for (let y = 0; y < H; y += 60) if (y < 200 || y > 430) rect(598, y, 4, 34, '#f1d36b');
-  if (round) { circle(600, 315, 120, '#5f6266'); circle(600, 315, 62, '#7fae55', '#e9e6dc', 6); roundTree(600, 330, 40, '#4f7a44'); }
+  let center = 'planté d’un arbre'; if (round) { circle(600, 315, 120, '#5f6266'); circle(600, 315, 62, '#7fae55', '#e9e6dc', 6); const cf = rint(0, 2); if (cf === 0) roundTree(600, 330, 40, '#4f7a44'); else if (cf === 1) { for (let i = 0; i < 40; i++) circle(600 + rnd(-45, 45), 315 + rnd(-45, 45), 5, pick(['#e8b23a', '#d6403a', '#f2a6bd'])); center = 'fleuri'; } else { circle(600, 315, 30, '#7fb3d9', '#e9e6dc', 4); center = 'orné d’un bassin'; } }
   const arrow = (x, y, a) => rot(x, y, a, () => { rect(-4, -10, 8, 26, '#f2f0e6'); poly([[-12, -10], [12, -10], [0, -26]], '#f2f0e6'); });
   if (!round) { arrow(420, 350, Math.PI / 2); arrow(780, 280, -Math.PI / 2); arrow(640, 480, 0); arrow(560, 150, Math.PI); arrow(640, 520, -0.8); }
   else { for (let i = 0; i < 4; i++) { const a = i * Math.PI / 2 + 0.6; arrow(600 + Math.cos(a) * 92, 315 + Math.sin(a) * 92, a + Math.PI); } }
@@ -171,7 +171,7 @@ SCENES.intersection = sp => {
   for (let i = 0; i < 10; i++) roundTree(rnd(0, 480), rnd(30, 200), 40, '#4f7a44'); for (let i = 0; i < 6; i++) rect(rnd(740, 1150), rnd(440, 580), 80, 60, pick(FACADES));
   if (sp.variant === 'leftturn') { ctx.save(); ctx.setLineDash([14, 10]); ctx.beginPath(); ctx.moveTo(640, 620); ctx.lineTo(640, 360); ctx.quadraticCurveTo(640, 280, 420, 285); ctx.lineTo(0, 285); ctx.strokeStyle = '#e8b23a'; ctx.lineWidth = 8; ctx.stroke(); ctx.restore(); topBike(640, 470, -Math.PI / 2, '#c8323a'); return 'vue aérienne d’un carrefour urbain : une trajectoire en pointillés jaunes montre un deux-roues qui tourne à gauche en passant par le centre du croisement, passages piétons et flèches peintes au sol'; }
   if (sp.variant === 'lanes') { for (const y of [270, 300, 330, 360]) for (let x = 0; x < W; x += 50) if (x < 480 || x > 720) rect(x, y, 28, 3, '#f2f0e6'); rect(0, 362, 470, 24, alpha('#2f8f5a', 0.5)); rect(730, 362, 470, 24, alpha('#2f8f5a', 0.5)); return 'vue aérienne d’une grande avenue à plusieurs voies séparées par des lignes blanches, une bande verte réservée aux deux-roues le long du trottoir, un carrefour avec passages piétons au centre'; }
-  return round ? 'vue aérienne d’un rond-point arboré où des deux-roues circulent en suivant les flèches peintes au sol, passages piétons à chaque entrée' : 'vue aérienne d’un carrefour urbain avec passages piétons, lignes de voie et flèches de direction peintes au sol, deux-roues engagés dans chaque branche';
+  return round ? `vue aérienne d’un rond-point au centre ${center} où des deux-roues circulent en suivant les flèches peintes au sol, passages piétons à chaque entrée` : 'vue aérienne d’un carrefour urbain avec passages piétons, lignes de voie et flèches de direction peintes au sol, deux-roues engagés dans chaque branche';
 };
 SCENES.gas_station = sp => {
   sky(sp.time, 420); street(420, 9, {}); rect(0, 420, W, 210, '#bdb6a8');
