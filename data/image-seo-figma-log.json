@@ -1,0 +1,125 @@
+{
+ "source": "Figma generate_image (gemini-3.1-flash-lite-image)",
+ "items": {
+  "IMG-a-propos": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "2:2",
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "274600 92"
+  },
+  "IMG-blog": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "3:2",
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "233488 92"
+  },
+  "IMG-centre-sud-vietnam-centre": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "4:2",
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "224586 92"
+  },
+  "IMG-centre-sud-vietnam": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "5:2",
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "225174 92"
+  },
+  "IMG-centre-sud-vietnam-sud": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "6:2",
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "264142 92"
+  },
+  "IMG-nord-vietnam-ha-giang-boucle-3-jours-moto": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "1:2",
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "217478 92"
+  },
+  "IMG-confidentialite": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "8:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "179988 92"
+  },
+  "IMG-contact": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "9:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "174340 92"
+  },
+  "IMG-hanoi-excursions-moto": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "11:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "232504 92"
+  },
+  "IMG-hanoi": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "12:2",
+   "blurred_marks": 3,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "253542 92"
+  },
+  "IMG-hanoi-que-faire": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "13:2",
+   "blurred_marks": 1,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "192766 92"
+  },
+  "IMG-honda-electriques": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "14:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "174014 92"
+  },
+  "IMG-conditions": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "15:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "167154 92"
+  },
+  "IMG-faq": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "16:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "162696 98"
+  },
+  "IMG-honda": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "17:2",
+   "blurred_marks": 3,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "256710 92"
+  },
+  "IMG-honda-scooters": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "18:2",
+   "blurred_marks": 2,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "179420 92+grain4"
+  },
+  "IMG-honda-semi-automatiques": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "19:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "206018 92"
+  },
+  "IMG-accueil": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "20:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "205550 92"
+  }
+ }
+}

@@ -37,6 +37,14 @@ node tools/seo-art/produce.mjs --force <id,...>   # re-render specific rows (det
 tools/seo-art/qa-batch.sh                         # apply in chunks of 20 + every CI check
 ```
 
+## Figma photographic upgrade (in progress)
+The owner asked to use Figma: vector illustrations are being replaced, row by row, with Figma `generate_image` pictures. Progress is in `data/image-seo-figma-log.json` (`items` = replaced rows; `pending_retrieval` = nodes already generated in file `ADjYMc8iK0NclWtULInpOu` but not yet downloaded).
+1. `node tools/seo-art/figma-batch.mjs next 8` → rows + prompts. Generate each with Figma `generate_image` (2048×1075) in that file.
+2. The container cannot reach figma.com: get the full-resolution PNG with `get_screenshot` (`maxDimension: 1376`, `enableBase64Response: true`); the PNG is saved under the session `tool-results/` folder.
+3. Inspect every image: no readable text, logos or plates (blur boxes in the TSV if needed), topic correct. Write the French alt from the pixels.
+4. `node tools/seo-art/figma-batch.mjs ingest-tsv <tsv> <tool-results dir>` (line: `ID|blob-suffix|node|alt|blur x0,y0,x1,y1;…|prompt override`), then `tools/seo-art/qa-batch.sh`, commit, push.
+The Figma Starter plan has an MCP tool-call limit; when it is reached, commit what is done and resume when it resets. Rows not yet replaced keep their valid vector illustration.
+
 ## Quick commands
 ```bash
 node tools/image-seo.mjs status
