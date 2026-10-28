@@ -112,15 +112,22 @@ SCENES.coast_road = sp => {
   const who = riderBike(sp, 690, 560, 92, 0);
   return `${who} sur une route de corniche qui domine la mer turquoise, entre colline verdoyante et littoral, paysage ${placeFR(sp, 'de la côte du Centre Vietnam')}, ${TIME_FR[sp.time]}`;
 };
+function basketBoat(x, y, s) { ellipse(x, y, s, s * 0.42, '#5b4a32'); ellipse(x, y - s * 0.06, s * 0.86, s * 0.3, '#3e3222'); for (let i = 0; i < 8; i++) line(x - s * 0.8 + i * s * 0.23, y - s * 0.3, x - s * 0.7 + i * s * 0.2, y + s * 0.3, alpha('#2a2016', 0.5), 1.5); }
 SCENES.beach = sp => {
-  const hz = 320; sky(sp.time, hz); sea(hz, 470, '#2a86a8', '#86d0cc');
-  if (sp.variant === 'headland') { ctx.beginPath(); ctx.moveTo(800, hz); ctx.bezierCurveTo(900, 200, 1100, 190, 1210, 240); ctx.lineTo(1210, hz); ctx.closePath(); ctx.fillStyle = depth('#4f7448', 0.35); ctx.fill(); lighthouse(1040, 222, 50); }
-  if (sp.variant === 'islands') for (let i = 0; i < 3; i++) ellipse(rnd(100, 1100), hz, rnd(60, 140), rnd(15, 30), depth('#4f7448', 0.4));
+  const hz = 320; sky(sp.time, hz); const v = sp.variant || 'plain';
+  sea(hz, 470, '#2a86a8', '#86d0cc');
+  let extra = '';
+  if (v === 'headland') { ctx.beginPath(); ctx.moveTo(800, hz); ctx.bezierCurveTo(900, 200, 1100, 190, 1210, 240); ctx.lineTo(1210, hz); ctx.closePath(); ctx.fillStyle = depth('#4f7448', 0.35); ctx.fill(); lighthouse(1040, 222, 50); extra = ', un phare blanc et rouge sur le cap'; }
+  if (v === 'islands') { for (let i = 0; i < 3; i++) ellipse(rnd(100, 1100), hz, rnd(60, 140), rnd(15, 30), depth('#4f7448', 0.4)); extra = ', îles boisées au large'; }
+  if (v === 'jungle') { mountains(2, 160, 300, '#2f6a3f', { amp: 150, forest: true }); sea(300, 470, '#2a86a8', '#86d0cc'); extra = ', collines couvertes de forêt tropicale qui plongent dans la mer'; }
   const shore = x => 470 + Math.sin(x / 160) * 12; beach(shore, '#ead7a8');
-  for (let i = 0; i < 6; i++) palm(rnd(0, W) , rnd(500, 560), rnd(55, 85));
+  if (v === 'baskets') { for (let i = 0; i < 6; i++) basketBoat(rnd(80, 1100), rnd(490, 540), rnd(26, 36)); for (let i = 0; i < 3; i++) sampan(rnd(200, 1000), rnd(380, 440), rnd(30, 45), '#3f5a7a'); extra = ', bateaux-paniers ronds de pêcheurs échoués sur le sable et barques au large'; }
+  if (v === 'rocks') { ctx.beginPath(); ctx.moveTo(620, 480); ctx.quadraticCurveTo(820, 400, 1210, 410); ctx.lineTo(1210, 490); ctx.closePath(); ctx.fillStyle = '#4a443d'; ctx.fill(); for (let i = 0; i < 40; i++) { const x = 640 + i * 14, top = 470 - Math.min(60, (x - 620) * 0.18) + rnd(-6, 6); rect(x, top, 13, 490 - top, shade('#4f4840', rnd(-0.12, 0.12))); poly([[x, top], [x + 6.5, top - 4], [x + 13, top]], '#6e665c'); } for (let i = 0; i < 24; i++) ellipse(rnd(620, 1200), rnd(470, 492), rnd(10, 30), 5, alpha('#ffffff', 0.7)); extra = ', un cap de roches basaltiques en colonnes battu par les vagues'; }
+  if (v === 'pier') { rect(300, 400, 420, 12, '#7a5a3a'); for (let i = 0; i < 12; i++) rect(310 + i * 36, 410, 6, 40, '#5a4330'); sampan(760, 420, 50, '#c84a3a', false); sampan(820, 445, 40, '#3f5a7a', false); extra = ', une jetée en bois avançant dans la mer avec des bateaux de pêche colorés'; }
+  for (let i = 0; i < (v === 'rocks' ? 3 : 6); i++) palm(v === 'rocks' ? rnd(0, 560) : rnd(0, W), rnd(500, 560), rnd(55, 85));
   road([[-50, 600, 70], [1300, 590, 70]], { shoulder: '#d8c79a', center: false });
-  const who = riderBike(sp, 560, 615, 86, 0, sp.parked ? { parked: true, helmetOnSeat: '#f2f2f2' } : {});
-  return `${who}${sp.parked ? ' garé' + fe(sp) : ''} sur une route de bord de mer bordée de cocotiers, plage de sable clair et eau turquoise${sp.variant === 'headland' ? ', un phare sur le cap' : sp.variant === 'islands' ? ', îles au large' : ''}, paysage ${placeFR(sp, 'du littoral vietnamien')}, ${TIME_FR[sp.time]}`;
+  const who = riderBike(sp, rnd(380, 760), 615, 86, 0, sp.parked ? { parked: true, helmetOnSeat: '#f2f2f2' } : {});
+  return `${who}${sp.parked ? ' garé' + fe(sp) : ''} sur une route de bord de mer bordée de cocotiers, plage de sable clair et eau turquoise${extra}, paysage ${placeFR(sp, 'du littoral vietnamien')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.dunes = sp => {
   sky(sp.time, 300); dunes(250, ['#f0cf95', '#e7bf7f', '#ddb06c', '#f2d7a2']);

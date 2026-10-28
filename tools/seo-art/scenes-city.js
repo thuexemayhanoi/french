@@ -89,8 +89,8 @@ SCENES.street_food = sp => {
 };
 SCENES.cafe = sp => {
   const lakeSide = sp.variant === 'lake'; if (lakeSide) { sky(sp.time, 360); water(360, 470, '#6f9f8a', '#4f857a'); for (let i = 0; i < 10; i++) roundTree(rnd(0, W), 365, 30, depth('#4f7a44', 0.3)); rect(0, 470, W, 160, '#b8ac94'); } else cityBase(sp, 430);
-  for (let i = 0; i < 7; i++) { const x = 90 + i * 120; stool(x, 600, 34, pick(['#d8443a', '#2f6db5', '#3c8a6e'])); } for (let i = 0; i < 3; i++) { rect(120 + i * 240, 545, 100, 10, '#7a5a3a'); coffeeCup(150 + i * 240, 545, 18, true); coffeeCup(190 + i * 240, 545, 16, false); }
-  for (let i = 0; i < 3; i++) person(130 + i * 240 + 60, 600, 44, { top: pick(['#d0663a', '#3d6fa8', '#e6d9c2', '#8a3b4f']) });
+  for (let i = 0; i < 6; i++) { const x = 80 + i * 130; stool(x, 610, 48, pick(['#d8443a', '#2f6db5', '#3c8a6e'])); } for (let i = 0; i < 3; i++) { rect(100 + i * 250, 530, 130, 14, '#7a5a3a'); rect(160 + i * 250, 544, 8, 66, '#5a4330'); coffeeCup(130 + i * 250, 530, 26, true); coffeeCup(190 + i * 250, 530, 22, false); }
+  for (let i = 0; i < 3; i++) person(110 + i * 250 + 100, 612, 70, { top: pick(['#d0663a', '#3d6fa8', '#e6d9c2', '#8a3b4f']) });
   sp.parked = true; const txt = heroAction(sp, 1000, 615, 88);
   return `terrasse de café ${lakeSide ? 'au bord d’un lac de Hanoi' : 'sur un trottoir de Hanoi'} avec tabourets bas, verres de café et clients assis, ${txt.replace(/,$/, '')} tout près, ${TIME_FR[sp.time]}`;
 };
