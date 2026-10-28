@@ -19,6 +19,12 @@ const COLORS = {rouge: '#c8323a', bleu: '#2f6db5', blanc: '#eef0ee', noir: '#2b2
 const CNAMES = Object.keys(COLORS);
 const PLACES = [
   // [slug token, scene, place (for "inspiré de …"), extra]
+  ['ha-giang-boucle-3-jours', 'canyon', 'du col de Mã Pí Lèng'], ['ha-giang-boucle-4-jours', 'buckwheat', 'de Hà Giang'], ['hanoi-cao-bang-ha-giang', 'hmong_village', 'de Đồng Văn'],
+  ['hanoi-sapa-ha-giang', 'canyon', 'de Hà Giang'], ['hanoi-a-cao-bang', 'karst_valley', 'de Cao Bằng'], ['cao-bang-voyage', 'karst_valley', 'de Trùng Khánh'], ['lang-son', 'karst_valley', 'de Lạng Sơn'],
+  ['cat-ba-voyage', 'ferry', 'de Cát Bà et de la baie de Lan Ha'], ['hanoi-a-cat-ba', 'ferry', 'de Cát Bà'], ['halong-voyage-moto-2-jours', 'cruise', 'de la baie d’Ha Long'],
+  ['moto-de-hanoi-a-halong', 'coast_road', 'de la côte de Quảng Ninh'], ['quang-ninh', 'forest_mountain', 'du mont Yên Tử'],
+  ['sapa-moto-2-jours', 'flooded_terraces', 'de Sapa'], ['pu-luong-moto-2-jours', 'flooded_terraces', 'de Pù Luông'], ['hanoi-a-pu-luong', 'stilt_valley', 'de Pù Luông'],
+  ['mai-chau-moto-2-jours', 'hmong_village', 'de Mai Châu', {parked: true}], ['ba-be-itineraire', 'forest_mountain', 'de la route du lac Ba Bể'], ['sapa-itineraire-moto-1-jour', 'hmong_village', 'des villages de Sapa'],
   ['ban-gioc', 'waterfall', 'de Bản Giốc'], ['cao-bang-moto-boucle', 'waterfall', 'de Cao Bằng'], ['cao-bang-voyage', 'waterfall', 'de Cao Bằng'],
   ['ha-giang', 'mountain_pass', 'de Hà Giang', {variant: 'karst'}], ['cao-bang', 'mountain_pass', 'de Cao Bằng', {variant: 'karst'}], ['lang-son', 'mountain_pass', 'de Lạng Sơn', {variant: 'karst'}],
   ['mu-cang-chai', 'terraces', 'de Mù Cang Chải', {variant: 'harvest'}], ['pu-luong', 'terraces', 'de Pù Luông'], ['sapa', 'terraces', 'de Sapa'],

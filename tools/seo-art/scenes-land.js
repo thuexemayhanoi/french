@@ -25,14 +25,16 @@ SCENES.mountain_pass = sp => {
 };
 SCENES.terraces = sp => {
   sky(sp.time, 260); mountains(3, 120, 220, '#5c7f55', { amp: 140, mistBetween: true });
-  const hill = ridgeFn(330, 150, 1.6, 3);
+  const hill = ridgeFn(rnd(300, 350), rnd(120, 170), rnd(1.3, 2), 3);
   const harvest = sp.variant === 'harvest';
   const cols = harvest ? ['#d9b44a', '#c9a23c', '#e2c15a', '#bf9a3a'] : ['#8fbf5a', '#7fb150', '#9cc965', '#76a84a'];
-  terraces(hill, H, cols, 15);
-  for (let i = 0; i < 3; i++) stiltHouse(rnd(80, 1100), hill(600) + rnd(30, 90), rnd(16, 24), '#5d4a3a');
-  const rd = road([[1250, 470, 30], [900, 520, 60], [500, 590, 120], [200, 700, 180]], { shoulder: '#c9b48a', center: false });
-  const who = riderBike(sp, 520, 600, 100, 0, sp.parked ? { parked: true, helmetOnSeat: '#f2f2f2' } : {});
-  return `${who}${sp.parked ? ' garé${fe(sp)} au bord d’une route' : ' sur une route'} qui longe des rizières en terrasses ${harvest ? 'dorées au moment de la récolte' : 'vert tendre'} et des maisons sur pilotis, paysage ${placeFR(sp, 'des montagnes du nord-ouest du Vietnam')}, ${TIME_FR[sp.time]}`;
+  terraces(hill, H, cols, rnd(12, 18));
+  const lay = rint(0, 2); let extra = ' et des maisons sur pilotis';
+  if (lay === 0) { for (let i = 0; i < 3; i++) stiltHouse(rnd(80, 1100), hill(600) + rnd(30, 90), rnd(16, 24), '#5d4a3a'); road([[1250, 470, 30], [900, 520, 60], [500, 590, 120], [200, 700, 180]], { shoulder: '#c9b48a', center: false }); }
+  else if (lay === 1) { const vx = rnd(200, 1000); for (let i = 0; i < 6; i++) stiltHouse(vx + rnd(-120, 120), hill(vx) + rnd(40, 120), rnd(14, 20), '#5d4a3a'); for (let i = 0; i < 3; i++) ellipse(vx + rnd(-100, 100), hill(vx) + rnd(0, 30), 30, 10, alpha('#ffffff', 0.4)); road([[-50, 560, 70], [700, 590, 100], [1300, 640, 150]], { shoulder: '#c9b48a', center: false }); extra = ', un hameau de maisons sur pilotis aux fumées de cuisine'; }
+  else { road([[700, 300, 8], [560, 360, 20], [760, 430, 40], [520, 520, 80], [640, 700, 200]], { shoulder: '#c9b48a', center: false }); for (let i = 0; i < 3; i++) person(rnd(100, 400), rnd(420, 520), 34, { hat: 'non', top: '#3d4f7a' }); extra = ', une route en lacets qui monte à travers les terrasses et des paysans au travail'; }
+  const who = riderBike(sp, lay === 2 ? 760 : 520, 600, 100, 0, sp.parked ? { parked: true, helmetOnSeat: '#f2f2f2' } : {});
+  return `${who}${sp.parked ? ' garé' + fe(sp) + ' au bord d’une route' : ' sur une route'} qui longe des rizières en terrasses ${harvest ? 'dorées au moment de la récolte' : 'vert tendre'}${extra}, paysage ${placeFR(sp, 'des montagnes du nord-ouest du Vietnam')}, ${TIME_FR[sp.time]}`;
 };
 SCENES.karst_river = sp => {
   const hz = 360; sky(sp.time, hz);
@@ -233,4 +235,69 @@ SCENES.highway = sp => {
   car(800, 520, 70, '#d9d9d9'); car(660, 400, 30, '#3d6fa8'); car(980, 600, 90, '#c8323a');
   const b = sp.bikes[0]; heroBike(b, 150, 600, 80, { rider: outfit() });
   return `voie rapide réservée aux voitures, séparée par une bande de sécurité d’une route parallèle où circule ${bikeShort(b)} avec son conducteur, campagne verte en arrière-plan`;
+};
+// ---- Additional northern landscapes (distinct compositions for sibling itinerary pages) ----
+SCENES.canyon = sp => {
+  sky(sp.time, 260); mountains(3, 110, 250, '#5f7f58', { amp: 120, mistBetween: true });
+  poly([[540, 290], [660, 290], [760, 560], [440, 560]], '#2f4430');
+  const rv = []; for (let i = 0; i <= 24; i++) { const t = i / 24; rv.push([600 + Math.sin(t * 7) * 45 * t, 292 + t * 270, 4 + t * 46]); }
+  road(rv, { color: '#36aaa6', edge: '#7fd3cc', center: false });
+  const wall = (pts, c1, c2, gx1, gx2) => { poly(pts, lgrad(gx1, 0, gx2, 0, [[0, c1], [1, c2]])); ctx.save(); ctx.beginPath(); pts.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); ctx.closePath(); ctx.clip(); for (let i = 0; i < 90; i++) { const x = rnd(0, W), y = rnd(170, H); line(x, y, x + rnd(-10, 10), y + rnd(30, 80), alpha('#22301f', 0.35), rnd(1.5, 3)); } for (let i = 0; i < 500; i++) circle(rnd(0, W), rnd(160, H), rnd(2, 5), alpha(shade('#4f7448', rnd(-0.2, 0.15)), 0.7)); ctx.restore(); };
+  wall([[0, 170], [200, 190], [430, 250], [560, 290], [460, 560], [0, H]], '#6f8f5f', '#34492f', 0, 520);
+  wall([[W, 180], [1000, 200], [770, 255], [640, 290], [740, 560], [W, H]], '#3a5234', '#76955f', 680, W);
+  ctx.beginPath(); ctx.moveTo(-10, 250); ctx.quadraticCurveTo(250, 255, 470, 330); ctx.strokeStyle = '#d9d2c2'; ctx.lineWidth = 10; ctx.stroke(); ctx.strokeStyle = '#6c6f73'; ctx.lineWidth = 7; ctx.stroke();
+  rect(0, 560, W, 70, '#8a8475'); for (let x = 0; x < W; x += 60) rrect(x + 4, 543, 46, 24, 4, shade('#a9a395', rnd(-0.08, 0.08)));
+  const who = riderBike(sp, rnd(220, 380), 590, 82, 0, { parked: true, helmetOnSeat: '#f2f2f2' });
+  return `${who} garé${fe(sp)} à un belvédère au muret de pierre, face à une gorge profonde aux parois boisées au fond de laquelle serpente une rivière turquoise, une route taillée à flanc de falaise, paysage ${placeFR(sp, 'du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
+};
+SCENES.karst_valley = sp => {
+  const hz = 330; sky(sp.time, hz); karst(hz, 14, 120, 240, depth('#5e7b55', 0.4), { dots: 500 });
+  rect(0, hz, W, H - hz, '#9ccc66'); paddies(hz, 540, ['#a6d36d', '#92c25c', '#b4d97a']);
+  ctx.beginPath(); ctx.moveTo(0, 420); ctx.bezierCurveTo(300, 380, 600, 470, W, 400); ctx.lineTo(W, 418); ctx.bezierCurveTo(600, 488, 300, 398, 0, 438); ctx.closePath(); ctx.fillStyle = '#5fa3b0'; ctx.fill();
+  for (let i = 0; i < 6; i++) tileHouse(rnd(60, 1140), rnd(360, 400), rnd(14, 20), '#d8c7a4', '#7a5a3a');
+  road([[-50, 590, 80], [1300, 575, 80]], { shoulder: '#b8a98a', center: false });
+  const who = riderBike(sp, rnd(380, 820), 610, 90, 0);
+  return `${who} traversant une vallée de rizières plates entre des pitons karstiques, une rivière sinueuse et quelques maisons de village, paysage ${placeFR(sp, 'du nord-est du Vietnam')}, ${TIME_FR[sp.time]}`;
+};
+SCENES.buckwheat = sp => {
+  sky(sp.time, 300); karst(300, 12, 100, 200, depth('#6f8a68', 0.5), { dots: 300 }); fillBelow(ridgeFn(360, 50, 2, 3), depth('#557c4c', 0.2));
+  const f = ridgeFn(430, 40, 1.5, 3); fillBelow(f, '#c98ab0'); for (let i = 0; i < 1600; i++) { const x = rnd(0, W), y = rnd(f(x) + 2, H); circle(x, y, rnd(1.5, 3.5), pick(['#e6a6c8', '#f2d0e2', '#b86a9a', '#ffffff', '#d98fbb'])); }
+  road([[1300, 520, 50], [700, 560, 80], [-50, 610, 120]], { shoulder: '#b8a98a' });
+  const who = riderBike(sp, rnd(380, 820), 615, 90, 0);
+  return `${who} sur une route de montagne qui longe des champs de sarrasin en fleurs roses et blancs, pics karstiques à l’horizon, paysage ${placeFR(sp, 'du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
+};
+SCENES.hmong_village = sp => {
+  sky(sp.time, 330); karst(330, 12, 120, 230, depth('#6a8462', 0.4), { dots: 400 }); fillBelow(ridgeFn(400, 40, 2, 3), '#7f9a5a');
+  for (let i = 0; i < 4; i++) { const x = 120 + i * 260 + rnd(-30, 30), y = 470 + rnd(-10, 10), s = rnd(44, 58); rect(x - s, y - s * 0.8, s * 2, s * 0.8, '#c9a77a'); rect(x - s * 0.2, y - s * 0.55, s * 0.4, s * 0.55, '#5a4330'); poly([[x - s * 1.25, y - s * 0.78], [x + s * 1.25, y - s * 0.78], [x + s * 0.9, y - s * 1.3], [x - s * 0.9, y - s * 1.3]], '#6d6a63'); for (let k = 0; k < 12; k++) line(x - s * 1.15 + k * s * 0.2, y - s * 0.8, x - s * 0.85 + k * s * 0.15, y - s * 1.28, alpha('#4a4740', 0.5), 2); }
+  for (let x = 0; x < W; x += 26) rrect(x, 500 + Math.sin(x) * 3, 24, 20, 5, shade('#9a958a', rnd(-0.1, 0.1)));
+  for (let i = 0; i < 3; i++) peachTree(rnd(80, 1120), 500, rnd(50, 70));
+  rect(0, 520, W, 110, '#b9ab90');
+  const who = riderBike(sp, rnd(380, 820), 605, 88, 0, sp.parked ? { parked: true } : {});
+  return `${who}${sp.parked ? ' garé' + fe(sp) : ''} dans un village de montagne aux maisons de terre et toits de tuiles grises, murets de pierres sèches et pêchers en fleurs, pics karstiques derrière, paysage ${placeFR(sp, 'du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
+};
+SCENES.ferry = sp => {
+  const hz = 330; sky(sp.time, hz); sea(hz, H, '#2f7f8f', '#5fa3a6');
+  for (let i = 0; i < 6; i++) { const cx = rnd(0, W), w = rnd(40, 90), h = rnd(60, 130); ctx.beginPath(); ctx.moveTo(cx - w, hz); ctx.bezierCurveTo(cx - w, hz - h, cx + w, hz - h * 1.1, cx + w, hz); ctx.closePath(); ctx.fillStyle = depth('#4f7448', 0.5); ctx.fill(); }
+  poly([[150, 470], [1050, 470], [990, 560], [210, 560]], '#e9e6dc'); rect(150, 455, 900, 18, '#c94a3c'); rect(820, 380, 150, 80, '#f2efe6'); for (let i = 0; i < 4; i++) rect(835 + i * 34, 395, 24, 20, '#3a4a5a'); rect(210, 560, 780, 10, '#5a5d63');
+  for (let i = 0; i < 4; i++) miniBike(250 + i * 70, 465, 26, pick(Object.values(BIKE_COLORS)), false, false);
+  car(640, 468, 40, '#d9d9d9');
+  heroBike(sp.bikes[0], 470, 470, 50, { rider: outfit() });
+  return `${bikeFR(sp.bikes[0])} avec son conducteur à bord d’un bac qui traverse une baie parsemée d’îlots karstiques, d’autres deux-roues et une voiture sur le pont, paysage ${placeFR(sp, 'd’une baie du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
+};
+SCENES.cruise = sp => {
+  const hz = 300; sky(sp.time, hz); sea(hz, H, '#2f7f8f', '#6fb3b0');
+  for (let l = 0; l < 2; l++) for (let i = 0; i < 6; i++) { const cx = rnd(0, W), w = rnd(40, 100) * (1 + l * 0.4), h = rnd(80, 160) * (1 + l * 0.3), base = hz + l * 30; ctx.beginPath(); ctx.moveTo(cx - w, base); ctx.bezierCurveTo(cx - w, base - h, cx + w, base - h * 1.1, cx + w, base); ctx.closePath(); ctx.fillStyle = depth('#4f7448', 0.5 - l * 0.3); ctx.fill(); }
+  junk(620, 520, 150); sampan(200, 560, 50, '#5b3d28');
+  if (sp.bikes.length) { rect(0, 590, W, 40, '#b9ab90'); heroBike(sp.bikes[0], 1000, 615, 60, { helmetOnSeat: '#f2f2f2' }); }
+  return `grande jonque en bois aux voiles ocre naviguant entre des îlots karstiques, une barque à rames au premier plan${sp.bikes.length ? ' et ' + bikeShort(sp.bikes[0]) + ' garé' + fe(sp) + ' sur le quai' : ''}, paysage ${placeFR(sp, 'd’une baie du nord du Vietnam')}, ${TIME_FR[sp.time]}`;
+};
+SCENES.flooded_terraces = sp => {
+  sky(sp.time, 260); mountains(3, 110, 220, '#5c7f55', { amp: 140, mistBetween: true });
+  const hill = ridgeFn(320, 150, 1.6, 3); const sk = shade(S.mid, 0.1);
+  terraces(hill, H, [sk, mix(sk, '#9ccc66', 0.3), shade(sk, -0.05), mix(sk, '#9ccc66', 0.15)], 17);
+  for (let i = 0; i < 2; i++) stiltHouse(rnd(80, 1100), hill(600) + rnd(40, 90), rnd(16, 22), '#5d4a3a');
+  for (let i = 0; i < 3; i++) person(rnd(100, 1100), rnd(420, 500), 34, { hat: 'non', top: '#3d4f7a' });
+  road([[1250, 470, 30], [900, 520, 60], [500, 590, 120], [200, 700, 180]], { shoulder: '#c9b48a', center: false });
+  const who = riderBike(sp, 520, 600, 92, 0, { parked: true, helmetOnSeat: '#f2f2f2' });
+  return `${who} garé${fe(sp)} au bord d’une route qui domine des rizières en terrasses inondées reflétant le ciel, où travaillent des paysans coiffés du chapeau conique, paysage ${placeFR(sp, 'des montagnes du nord-ouest')}, ${TIME_FR[sp.time]}`;
 };
