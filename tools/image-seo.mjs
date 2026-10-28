@@ -69,8 +69,13 @@ function inject(html,it) {
   } else {
     const article=html.indexOf('<article class="seo-longform">');
     const end=html.indexOf('</header>',article);
-    if(article<0||end<0)throw Error('Article header missing in '+it.page_path);
-    html=html.slice(0,end+9)+'\n'+snippet+html.slice(end+9);
+    if(article>=0&&end>=0)html=html.slice(0,end+9)+'\n'+snippet+html.slice(end+9);
+    else {
+      // Short institutional pages (e.g. contact) have no long-form header: place the figure right after the H1.
+      const h1=html.indexOf('</h1>',html.indexOf('<article'));
+      if(html.indexOf('<article')<0||h1<0)throw Error('Article header missing in '+it.page_path);
+      html=html.slice(0,h1+5)+'\n'+snippet+html.slice(h1+5);
+    }
   }
   if(!lazy) {
     const url=domain+'/'+it.asset_path;

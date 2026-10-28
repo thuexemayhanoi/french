@@ -26,7 +26,7 @@ export function renderPage(html,route,site,{year=new Date().getUTCFullYear()}={}
   const dataset=Object.fromEntries(Object.entries(bodyAttrs).filter(([k])=>k.startsWith('data-')).map(([k,v])=>[k.slice(5).replace(/-([a-z])/g,(_,c)=>c.toUpperCase()),v]));
   const added=[];
   const document={body:{dataset},title,
-    querySelector(selector){if(selector==='h1')return h1?{textContent:h1}:null;if(selector==='script[data-site-schema]')return null;
+    querySelector(selector){if(selector==='h1')return h1?{textContent:h1}:null;if(selector==='meta[property="og:image"]'){const v=html.match(/<meta property="og:image" content="([^"]*)">/i)?.[1];return v?{content:v.replace(/&amp;/g,'&')}:null}if(selector==='script[data-site-schema]')return null;
       if(selectorAttributes[selector])return nodes.find(n=>Object.hasOwn(n.attrs,selectorAttributes[selector]))||null;
       throw new Error('Unsupported build selector: '+selector)},
     querySelectorAll(selector){if(selectorAttributes[selector])return nodes.filter(n=>Object.hasOwn(n.attrs,selectorAttributes[selector]));
