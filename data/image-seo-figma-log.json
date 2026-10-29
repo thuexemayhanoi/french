@@ -121,5 +121,23 @@
    "model": "gemini-3.1-flash-lite-image",
    "bytes_q": "205550 92"
   }
+ },
+ "pending_retrieval": {
+  "file": "ADjYMc8iK0NclWtULInpOu",
+  "note": "Generated in Figma on 2026-10-28; full-resolution retrieval blocked since then by the Figma Starter-plan MCP tool-call limit (still blocked 2026-10-29). Retrieve with get_screenshot (maxDimension 1376, enableBase64Response) when the limit resets, then inspect and ingest.",
+  "nodes": {
+   "21:2": "IMG-location-moto-hanoi-courte-duree",
+   "22:2": "IMG-location-moto-hanoi",
+   "23:2": "IMG-location-moto-hanoi-longue-duree",
+   "24:2": "IMG-location-moto-hanoi-quartiers"
+  }
+ },
+ "blockers": {
+  "2026-10-29": [
+   "Figma MCP: Starter-plan tool-call limit reached (generate_image and get_screenshot refused).",
+   "Canva generate-image: credit quota exceeded.",
+   "Adobe MCP: server failed to connect; its tools only edit existing images, no text-to-image.",
+   "Container network cannot reach figma.com, base44.app or canva.com, so image URLs cannot be downloaded directly; only inline MCP responses work."
+  ]
  }
 }
