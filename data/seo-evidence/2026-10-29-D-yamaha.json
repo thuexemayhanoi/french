@@ -1,0 +1,258 @@
+[
+ {
+  "path": "yamaha/index.html",
+  "words": 4738,
+  "words_editorial_excluding_guide_list": 2842,
+  "new_meta": {
+   "title": "Location Yamaha à Hanoi : NVX, Janus, Sirius, WR155R",
+   "description": "Quelle Yamaha louer à Hanoi ? Scooters Janus, Latte, NVX, semi-automatiques Sirius et Jupiter Finn, trail WR155R, électrique NEO’S et tarifs indicatifs.",
+   "h1": "Louer une Yamaha à Hanoi : scooter, semi-automatique ou trail ?"
+  },
+  "evidence": {
+   "FACTS": "Owner NAP/hours/phone channels in 'Préparer votre demande'; price table uses only owner category rows (scooter 150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND; semi-auto 150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000; electric 'Selon le modèle, à confirmer' / 600 000–800 000 / 1 500 000–1 800 000) with the exact disclaimer; states no Yamaha model has its own rate and that WR155R/Exciter 155/NMAX/XMAX are outside the ranges (ask). No deposit, delivery, insurance, stock or assistance claims. Legacy template filler (SEO-architecture talk, duplicated boilerplate) removed entirely.",
+   "INTENT": "primary intent 'location yamaha hanoi' (commercial investigation: which Yamaha to rent in Hanoi); owner URL /yamaha/; distinct from /honda/ (other brand), /types-motos/ (category-neutral) and the 3 Yamaha sub-hubs (family deep-dives) because it orients across families, lists the whole Vietnam lineup and links all 80 children.",
+   "CONTENT": "Rewritten sections: direct answer; current Yamaha Vietnam lineup by official groups + Vietnamese terms xe tay ga/xe số/xe côn tay; 5-family comparison table (controls, use, caveat); choice by programme (city, duo, month in Long Biên, Northern loop, day trip); category price table; Yamaha vs Honda duel table (13 rows linking 15 comparison children); 125 cm³ licence threshold (Law 36/2024/QH15, gov portal, dated); Yamaha-specific pre-ride checklist (smart key, Stop&Start, hybrid assist, ABS light, chain, NEO'S battery); 7 FAQ; full guide list (16 h3, 80 li with actual H1 anchors). Specs only from yamaha-motor.com.vn search results (Latte 37 L, Grande 27 L, NVX ~25 L, GEAR 750 mm/assist 3 s/launch Apr 2026, PG-1 795 mm, NEO'S 72/144 km with test conditions).",
+   "META": "Title 52 chars, description 152 chars, og:title/og:description identical; H1 changed to a question-style decision H1. Sync required in data/seo-cluster-matrix.json (FND-016).",
+   "LINKS": "Required links present: /yamaha/scooters/, /yamaha/semi-automatiques/, /yamaha/trail-aventure/, /honda/, /types-motos/. Also /prix-location/, /permis-securite/permis/, /permis-securite/securite/, /types-motos/electrique/, /nord-vietnam/ha-giang/ and all 80 /yamaha/ children grouped by model/family (guide §5). seo_page_check: no broken links.",
+   "AEO_GEO": "Lead answers 'which Yamaha for which trip' in 4 sentences; extractable tables (families, prices, duels); FAQ answers self-contained; dated, attributed manufacturer and government citations inline."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/",
+    "checked": "2026-10-29",
+    "used_for": "current Vietnam lineup groups: scooters GEAR 125 Hybrid, NMAX, XMAX, TMAX, NVX, Janus 125, LEXi, Grande, FreeGo, Latte (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/xe-so/",
+    "checked": "2026-10-29",
+    "used_for": "xe số/xe côn tay group: Exciter 155 VVA TCS, Exciter, PG-1, Jupiter Finn, Sirius, Sirius FI (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/xe-the-thao/",
+    "checked": "2026-10-29",
+    "used_for": "imported sport group: WR155R, MT-15, YZF-R15, XS155R, MT-03, YZF-R3, Ténéré 700, MT-07, YZF-R7, MT-09... (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/",
+    "checked": "2026-10-29",
+    "used_for": "GEAR 125 Hybrid launched in Vietnam April 2026 (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-29",
+    "used_for": "Latte storage up to 37 L, flat floor fits A4 file and 13-inch laptop (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "checked": "2026-10-29",
+    "used_for": "Grande 27 L lit storage, two helmets (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/xe-yamaha-pg-1-danh-gia-chi-tiet/",
+    "checked": "2026-10-29",
+    "used_for": "PG-1: 113.7 cm3, 4-speed, 795 mm seat height (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+    "checked": "2026-10-29",
+    "used_for": "NEO'S range 72 km per battery at constant 30 km/h with 75 kg rider, 144 km with optional second battery, removable battery (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/",
+    "checked": "2026-10-29",
+    "used_for": "GEAR 125 Hybrid: automatic scooter, 17.4 L storage, 750 mm seat, 12-inch wheels, electric assist up to 3 s, two front hooks, Stop & Start on DX only (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-29",
+    "used_for": "NVX 155 VVA ABS: ~25 L storage (another Yamaha page says 24.5 L), smart key knob functions, ABS, VVA, engine stop system, phone charging (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 art. 57 licence classes: A1 up to 125 cm3 or electric up to 11 kW, A above 125 cm3 / 11 kW (seen in search result; government portal)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner reference price exists for any specific Yamaha model; pages use only the owner category ranges (automatic, semi-automatic, electric) and tell readers to confirm model and amount. If the owner wants model rows (e.g. NVX, Sirius, Jupiter Finn) they must supply them.",
+   "Actual Yamaha fleet/availability is unconfirmed: pages never imply any model is in stock and ask readers to have the exact model confirmed.",
+   "Whether trail/clutch bikes (WR155R, Exciter 155) or large scooters (NMAX, XMAX) can be rented at all, and at what price, is unknown; pages say to ask."
+  ],
+  "editorial_gaps": [
+   "The 5 child articles under /yamaha/yamaha-boite-125-hybride-*/ describe the GEAR 125 Hybrid as a retro underbone with a foot gear lever; Yamaha Motor Vietnam lists it as an automatic scooter (xe tay ga) with 17.4 L storage and 750 mm seat. Those articles need factual correction (not edited here: out of scope). Hub descriptions for them were written neutrally.",
+   "Slug 'boite-125-hybride' vs model name 'GEAR 125 Hybrid' mismatch noted; slugs preserved."
+  ]
+ },
+ {
+  "path": "yamaha/scooters/index.html",
+  "words": 3051,
+  "words_editorial_excluding_guide_list": 2147,
+  "new_meta": {
+   "title": "Scooters Yamaha à Hanoi : NVX, Janus, Grande, Latte, FreeGo",
+   "description": "Janus, Latte, FreeGo, Grande, NVX ou NMAX : comparez les scooters Yamaha pour Hanoi selon le gabarit, le coffre, le confort à deux et l’usage sur route.",
+   "h1": "Scooters Yamaha à Hanoi : NVX, Janus, Grande ou Latte ?"
+  },
+  "evidence": {
+   "FACTS": "Scooter category range only (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with exact disclaimer; explicitly no Yamaha model rate, NMAX/XMAX not assumed in range; Honda Vision/Air Blade own rows mentioned without quoting other models. No stock/deposit/delivery claims.",
+   "INTENT": "primary intent 'location scooter yamaha hanoi' (NVX, NMAX, Janus, Grande); owner URL /yamaha/scooters/; distinct from /types-motos/scooter-automatique/ (brand-neutral) and /honda/scooters/ (Honda models) because it compares Yamaha scooter models against each other.",
+   "CONTENT": "Sections: short answer + 'smallest scooter that carries your load' rule; 9-model comparison table (profile, Yamaha-announced storage, strength, limit) with source paragraph and version caveat (NVX 25 vs 24.5 L); compacts (Janus, Latte 37 L/A4/13-inch laptop, FreeGo 25 L, LEXi, GEAR 125 Hybrid 750 mm seat/12-inch wheels/3 s assist/DX Stop&Start, launch Apr 2026); Grande (27 L lit, 2 helmets) vs NVX 155 VVA ABS (smart key functions, ABS, VVA, phone charging; 155 cm³ → class A); NMAX (24 L) and XMAX: when a large scooter is justified; city/road/mountain (no engine braking, rainy-season flooding); price; 8-point scooter inspection; 6 FAQ; 45 child links grouped by 9 models.",
+   "META": "Title 59 chars, description 152 chars, og tags identical. Sync required (FND-017).",
+   "LINKS": "Required links present: /honda/scooters/, /types-motos/scooter-automatique/, /prix-location/, /yamaha/. Also /yamaha/semi-automatiques/, /permis-securite/permis/, /permis-securite/securite/ and 45 scooter children (Janus, Latte, FreeGo, LEXi, GEAR 125 Hybrid, Grande, NVX, NMAX, XMAX).",
+   "AEO_GEO": "Direct answer in lead; storage/profile table with cited manufacturer values; FAQ for small riders, Janus vs Latte, NVX for beginners, duo, licence (cited), Ha Giang."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-29",
+    "used_for": "Latte storage up to 37 L, flat floor fits A4 file and 13-inch laptop (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/freego-phien-ban-tieu-chuan-mau-moi-b4u9/",
+    "checked": "2026-10-29",
+    "used_for": "FreeGo standard 25 L storage (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/",
+    "checked": "2026-10-29",
+    "used_for": "GEAR 125 Hybrid: automatic scooter, 17.4 L storage, 750 mm seat, 12-inch wheels, electric assist up to 3 s, two front hooks, Stop & Start on DX only (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/",
+    "checked": "2026-10-29",
+    "used_for": "GEAR 125 Hybrid launched in Vietnam April 2026 (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "checked": "2026-10-29",
+    "used_for": "Grande 27 L lit storage, two helmets (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-29",
+    "used_for": "NVX 155 VVA ABS: ~25 L storage (another Yamaha page says 24.5 L), smart key knob functions, ABS, VVA, engine stop system, phone charging (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-29",
+    "used_for": "NMAX standard 24 L storage (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 art. 57 licence classes: A1 up to 125 cm3 or electric up to 11 kW, A above 125 cm3 / 11 kW (seen in search result; government portal)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner reference price exists for any specific Yamaha model; pages use only the owner category ranges (automatic, semi-automatic, electric) and tell readers to confirm model and amount. If the owner wants model rows (e.g. NVX, Sirius, Jupiter Finn) they must supply them.",
+   "Actual Yamaha fleet/availability is unconfirmed: pages never imply any model is in stock and ask readers to have the exact model confirmed.",
+   "Whether NMAX/XMAX can be rented and at what price is unknown (page says ask)."
+  ],
+  "editorial_gaps": [
+   "GEAR 125 Hybrid child articles contradict Yamaha's classification (see hub entry)."
+  ]
+ },
+ {
+  "path": "yamaha/semi-automatiques/index.html",
+  "words": 2351,
+  "words_editorial_excluding_guide_list": 1948,
+  "new_meta": {
+   "title": "Yamaha semi-automatique à Hanoi : Sirius, Jupiter Finn, PG-1",
+   "description": "Sirius, Sirius FI, Jupiter Finn ou PG-1 : comment se conduit une Yamaha semi-automatique, pourquoi elle convient au Nord et quoi vérifier avant de louer.",
+   "h1": "Motos semi-automatiques Yamaha : Sirius, Jupiter Finn et PG-1"
+  },
+  "evidence": {
+   "FACTS": "Semi-automatic category range only (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) + disclaimer, comparison with scooter monthly range from owner table; PG-1 not assumed in range. Stray post-article filler section 'Critère supplémentaire à vérifier' (SEO/cannibalisation talk) deleted; no unique fact lost.",
+   "INTENT": "primary intent 'location moto semi automatique yamaha' (Sirius, Jupiter Finn); owner URL /yamaha/semi-automatiques/; distinct from /types-motos/semi-automatique/ (brand-neutral) and /honda/semi-automatiques/ (Wave/Future) because it compares Yamaha's xe số models and how to ride them.",
+   "CONTENT": "Sections: why a semi-auto (engine braking, repairability, cheapest monthly range; who it suits/doesn't); how the gearbox works (Jupiter Finn spec: 4-speed rotary + wet multi-plate centrifugal clutch; shifting technique, neutral, rotary caveat, 3 beginner mistakes); 4-model table (Sirius 110 cc carb/3 versions, Sirius FI 115 cc injection, Jupiter Finn 113.7 cm³ and claimed 1.64 L/100 km, PG-1 113.7 cm³/795 mm/ABS) with sources; why it suits Northern roads (Sapa/Ha Giang links, seasonal closures caveat); 6-step learning checklist; semi-auto vs trail threshold; price; 9-point inspection (chain, sprocket, gears, centrifugal clutch, brakes...); Honda equivalents; 6 FAQ; 20 child links (Sirius, Sirius FI, Jupiter Finn, PG-1 ABS).",
+   "META": "Title 60 chars, description 153 chars, og tags identical. Sync required (FND-018).",
+   "LINKS": "Required links present: /yamaha/trail-aventure/, /honda/semi-automatiques/, /types-motos/semi-automatique/, /nord-vietnam/sapa/. Also /yamaha/, /nord-vietnam/ha-giang/, /permis-securite/permis/ and 20 children.",
+   "AEO_GEO": "Lead defines semi-automatic and gives the recommendation; step-by-step learning list; FAQ incl. licence class A1 (cited) and neutral troubleshooting."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+    "checked": "2026-10-29",
+    "used_for": "Jupiter Finn 113.7 cm3, 4-speed rotary gearbox, wet multi-plate centrifugal clutch, manufacturer-claimed 1.64 L/100 km (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-bgyb/",
+    "checked": "2026-10-29",
+    "used_for": "Sirius carburettor 110 cc; drum-brake, disc-brake and cast-wheel versions (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/nang-tam-phong-cach-moi-cung-sirius-fi-2021/",
+    "checked": "2026-10-29",
+    "used_for": "Sirius FI 115 cc fuel injection, 4-speed (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/xe-yamaha-pg-1-danh-gia-chi-tiet/",
+    "checked": "2026-10-29",
+    "used_for": "PG-1: 113.7 cm3, 4-speed, 795 mm seat height (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/xe-so/",
+    "checked": "2026-10-29",
+    "used_for": "xe số/xe côn tay group: Exciter 155 VVA TCS, Exciter, PG-1, Jupiter Finn, Sirius, Sirius FI (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 art. 57 licence classes: A1 up to 125 cm3 or electric up to 11 kW, A above 125 cm3 / 11 kW (seen in search result; government portal)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner reference price exists for any specific Yamaha model; pages use only the owner category ranges (automatic, semi-automatic, electric) and tell readers to confirm model and amount. If the owner wants model rows (e.g. NVX, Sirius, Jupiter Finn) they must supply them.",
+   "Actual Yamaha fleet/availability is unconfirmed: pages never imply any model is in stock and ask readers to have the exact model confirmed."
+  ]
+ },
+ {
+  "path": "yamaha/trail-aventure/index.html",
+  "words": 2180,
+  "words_editorial_excluding_guide_list": 1908,
+  "new_meta": {
+   "title": "Yamaha WR155R à Hanoi : louer une trail pour le Nord Vietnam",
+   "description": "WR155R ou Exciter 155 : à qui s’adresse une Yamaha à embrayage, quelles routes vers Ha Giang et Sapa, quel permis vérifier et quoi inspecter avant de partir.",
+   "h1": "Yamaha WR155R et motos à embrayage : trail et aventure au Vietnam"
+  },
+  "evidence": {
+   "FACTS": "No price quoted: states the owner table has no trail/clutch-bike row and other category ranges do not apply; ask availability and total. No deposit amount; conditions after off-road damage to be clarified. Licence: Law 36/2024/QH15 A1 ≤125 cm³ / A >125 cm³ via government portal, dated; foreign-licence recognition left to /permis-securite/permis/ with no blanket claim.",
+   "INTENT": "primary intent 'location moto trail yamaha vietnam' / 'yamaha wr155r location'; owner URL /yamaha/trail-aventure/; distinct from /types-motos/trail/ (brand-neutral category) and /nord-vietnam/* (itineraries) because it decides whether a Yamaha clutch bike (WR155R, Exciter 155) fits the rider and trip.",
+   "CONTENT": "Sections: short answer (most travellers don't need a trail); WR155R official data table (155 cm³, 880 mm seat, 245 mm clearance, 134 kg wet, 1,430 mm wheelbase, manual clutch) with practical consequences; who should rent (6-point checklist); Ha Giang/Sapa/Northern loops with weather/closure caveats and no distances/times; 7 rider skills; licence class A; alternatives (Exciter 155 6-speed + A&S clutch cited, PG-1 795 mm semi-auto, Honda CT125/Winner X, XS155R); price section without figures; 9-point trail inspection (clutch play, chain, fork seals, levers...); 6 FAQ; 12 child links (WR155R ×5, Exciter 155 ×5, PG-1 ×2).",
+   "META": "Title 60 chars, description 157 chars, og tags identical. Sync required (FND-019).",
+   "LINKS": "Required links present: /types-motos/trail/, /nord-vietnam/ha-giang/, /nord-vietnam/sapa/, /nord-vietnam/. Also /yamaha/, /yamaha/semi-automatiques/, /permis-securite/permis/, /prix-location/ and 12 children.",
+   "AEO_GEO": "Lead gives the decision rule; spec table with consequences; FAQ on beginners, Ha Giang, WR155R vs CT125, rider height, price, two-up."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/wr155r-b3mf/",
+    "checked": "2026-10-29",
+    "used_for": "WR155R 155 cc; seat height 880 mm, wheelbase 1,430 mm, wet weight 134 kg, min ground clearance 245 mm (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/xe-the-thao/",
+    "checked": "2026-10-29",
+    "used_for": "imported sport group: WR155R, MT-15, YZF-R15, XS155R, MT-03, YZF-R3, Ténéré 700, MT-07, YZF-R7, MT-09... (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-phien-ban-tieu-chuan-mau-moi-b5vj/",
+    "checked": "2026-10-29",
+    "used_for": "Exciter 155 VVA: mechanical 6-speed gearbox, Assist & Slipper clutch (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/xe-yamaha-pg-1-danh-gia-chi-tiet/",
+    "checked": "2026-10-29",
+    "used_for": "PG-1: 113.7 cm3, 4-speed, 795 mm seat height (seen in search result (WebSearch, allowed_domains yamaha-motor.com.vn); page not opened because WebFetch/Firecrawl are blocked in this session)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 art. 57 licence classes: A1 up to 125 cm3 or electric up to 11 kW, A above 125 cm3 / 11 kW (seen in search result; government portal)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner reference price exists for any specific Yamaha model; pages use only the owner category ranges (automatic, semi-automatic, electric) and tell readers to confirm model and amount. If the owner wants model rows (e.g. NVX, Sirius, Jupiter Finn) they must supply them.",
+   "Actual Yamaha fleet/availability is unconfirmed: pages never imply any model is in stock and ask readers to have the exact model confirmed.",
+   "Whether WR155R/Exciter 155 can be rented, their price and any specific conditions for off-road use are unknown; the page says to ask."
+  ]
+ }
+]

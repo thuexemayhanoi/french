@@ -11669,11 +11669,11 @@
      "similarity": 0.21
     },
     {
-     "path": "yamaha/trail-aventure/index.html",
-     "similarity": 0.18
+     "path": "yamaha/yamaha-lexi-vietnam-voyage-moto/index.html",
+     "similarity": 0.17
     },
     {
-     "path": "yamaha/yamaha-lexi-vietnam-voyage-moto/index.html",
+     "path": "yamaha/yamaha-freego-vietnam-voyage-moto/index.html",
      "similarity": 0.17
     }
    ]
@@ -11690,16 +11690,16 @@
    "parent_hub": "/",
    "closest_pages": [
     {
-     "path": "yamaha/scooters/index.html",
-     "similarity": 0.43
+     "path": "yamaha/semi-automatiques/index.html",
+     "similarity": 0.33
     },
     {
-     "path": "types-motos/yamaha-nvx-ou-nmax-vietnam-voyage-moto/index.html",
-     "similarity": 0.3
-    },
-    {
-     "path": "yamaha/trail-aventure/index.html",
+     "path": "yamaha/yamaha-sirius-ou-honda-wave-alpha-location/index.html",
      "similarity": 0.29
+    },
+    {
+     "path": "yamaha/yamaha-wr155r-location-hanoi/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -11715,16 +11715,16 @@
    "parent_hub": "/",
    "closest_pages": [
     {
-     "path": "yamaha/index.html",
-     "similarity": 0.43
-    },
-    {
      "path": "yamaha/yamaha-grande-location-hanoi/index.html",
-     "similarity": 0.33
+     "similarity": 0.29
     },
     {
-     "path": "types-motos/yamaha-nvx-ou-nmax-vietnam-voyage-moto/index.html",
-     "similarity": 0.3
+     "path": "yamaha/yamaha-freego-location-hanoi/index.html",
+     "similarity": 0.29
+    },
+    {
+     "path": "yamaha/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -11741,15 +11741,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/index.html",
-     "similarity": 0.38
+     "similarity": 0.36
     },
     {
-     "path": "yamaha/yamaha-jupiter-finn-location-hanoi/index.html",
+     "path": "yamaha/index.html",
      "similarity": 0.33
     },
     {
-     "path": "yamaha/yamaha-sirius-ou-honda-wave-alpha-location/index.html",
-     "similarity": 0.31
+     "path": "yamaha/yamaha-jupiter-finn-location-hanoi/index.html",
+     "similarity": 0.3
     }
    ]
   },
@@ -11766,15 +11766,15 @@
    "closest_pages": [
     {
      "path": "yamaha/yamaha-wr155r-location-hanoi/index.html",
-     "similarity": 0.43
-    },
-    {
-     "path": "honda/honda-ct125-ou-yamaha-wr155r-location/index.html",
      "similarity": 0.33
     },
     {
-     "path": "yamaha/yamaha-wr155r-hanoi-ville/index.html",
-     "similarity": 0.3
+     "path": "yamaha/index.html",
+     "similarity": 0.27
+    },
+    {
+     "path": "honda/honda-ct125-ou-yamaha-wr155r-location/index.html",
+     "similarity": 0.27
     }
    ]
   },
