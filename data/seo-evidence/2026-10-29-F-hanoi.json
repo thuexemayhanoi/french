@@ -1,0 +1,227 @@
+[
+ {
+  "path": "hanoi/index.html",
+  "new_meta": {
+   "title": "Visiter Hanoi à moto : quartiers, parking et excursions",
+   "description": "Hanoi à moto : à qui cela convient, secteurs de la ville, parking gửi xe, rues piétonnes du week-end, départ de Long Biên et tous nos guides de visite.",
+   "h1": "Visiter Hanoi à moto"
+  },
+  "words": 2716,
+  "words_note": "2,716 editorial words excluding the guide list; 3,378 QA words in the article including the 49-link guide list (662 words)",
+  "evidence": {
+   "FACTS": "NAP/hours only as in SEO-FACTS (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, near Bến xe Gia Lâm; 09:00–21:00; 0334 699 969 tel/Zalo/WhatsApp). No prices, deposit, delivery, fleet or travel-time claims. Dated external facts: Long Biên bridge closed ~60 days from late March 2026, reopened 28 May 2026 for motorbikes/bicycles/pedestrians both ways; Hoàn Kiếm low-emission-zone pilot since 1 July 2026 with restrictions by vehicle type/time slot in two Hoàn Kiếm sectors, no blanket petrol-motorbike ban inside Ring Road 1, expansion planned from 2027; lake perimeter pedestrian Fri 19:00–Sun 24:00, Old Quarter walking streets Fri/Sat/Sun 19:00–24:00, suspension 13–20 March 2026; holiday parking surcharges reported by Lao Động; motorbike expressway ban with Feb 2026 fines (VOV); district level abolished 1 July 2025; climate seasons. Licence statement kept generic with link to /permis-securite/.",
+   "INTENT": "primary intent 'hanoi à moto' / 'visiter hanoi en scooter': is riding in Hanoi worthwhile, for whom, how the city is laid out, riding/parking rules, starting from Long Biên; owner URL /hanoi/; distinct from /hanoi/que-faire/ (day-by-day sightseeing programmes) and /hanoi/excursions-moto/ (day trips outside the city) because this page answers the decision + practical riding/parking layer and indexes all 49 child guides.",
+   "CONTENT": "Entire article replaced (old template filler and the two 'Repère complémentaire' sections after </article> deleted). Sections: direct answer + profile table (who should rent); city sectors table (Hoàn Kiếm/Vieux Quartier, quartier français, Ba Đình, Đống Đa, Tây Hồ, Cầu Giấy, Long Biên) with 2025 admin-reform note; leaving Long Biên and crossing the Red River (Long Biên/Chương Dương bridges, east-bank first rides to Bát Tràng/Ecopark); riding habits checklist + 2026 low-emission zone; parking gửi xe, tickets, holiday surcharges, weekend pedestrian zone, Ba Đình stopping rules; what the moto lets you see; day trips + expressway ban; seasons/Tết; choosing a vehicle and preparing the rental; 6 FAQ; full child-guide index (7 h3 groups, 49 links, guide-list markup).",
+   "META": "Title 55 chars, description 151 chars, og:title/og:description synced; H1 unchanged. Matrix sync required for seo_title and meta_description.",
+   "LINKS": "Required /hanoi/que-faire/, /hanoi/excursions-moto/, /location-moto-hanoi/ present. Also /location-moto-hanoi/quartiers/, /location-moto-hanoi/courte-duree/, /prix-location/, /types-motos/, /types-motos/electrique/, /permis-securite/, /permis-securite/securite/ and all 49 /hanoi/ child articles (verified against silo-children.json). seo_page_check: no broken links.",
+   "AEO_GEO": "Opening 4-sentence direct answer; decision table; sector table; checklist; 6 FAQ in faq-item markup answering parking near Hoàn Kiếm, petrol ban, Long Biên→Old Quarter, rain, difficulty, Old Quarter need; local entities (Long Biên, Bồ Đề, Bến xe Gia Lâm, Chương Dương, Hoàn Kiếm, Tây Hồ, Ba Đình) and dated, attributed citations."
+  },
+  "sources": [
+   {
+    "url": "https://english.hanoi.gov.vn/featured-news/state-president-luong-cuong-attends-launch-of-hanoi-two-tiered-administrative-system-2655250702182341418.htm",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi two-tier local government from 1 July 2025 (district level removed) — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://news.tuoitre.vn/hanoi-to-ban-motorcycles-pedestrians-on-long-bien-bridge-for-60-days-for-repairs-103260326103203013.htm",
+    "checked": "2026-10-29",
+    "used_for": "Long Biên bridge closed to motorbikes/pedestrians for 60 days of repairs from late March 2026 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-29",
+    "used_for": "Long Biên bridge reopened 28 May 2026 to motorbikes, bicycles, pedestrians in both directions; trains kept running — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-29",
+    "used_for": "Low-emission zone pilot around Hoàn Kiếm Lake officially from 1 July 2026 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://daibieunhandan.vn/de-an-vung-phat-thai-thap-trong-vanh-dai-1-thanh-pho-ha-noi-ho-tro-truoc-han-che-theo-lo-trinh-cong-khai-minh-bach-vi-ha-noi-xanh-sach-dep-10422328.html",
+    "checked": "2026-10-29",
+    "used_for": "No blanket petrol-vehicle ban in Ring Road 1 from 1 July 2026; restrictions by vehicle type/time in Khu vực 1–2 of Hoàn Kiếm ward; expansion 2027–2028 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo",
+    "checked": "2026-10-29",
+    "used_for": "Holiday (2 September) motorbike parking surcharges in Hanoi (amounts deliberately not quoted) — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-29",
+    "used_for": "Hoàn Kiếm walking street 19:00 Friday to 24:00 Sunday; extended on holidays — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+    "checked": "2026-10-29",
+    "used_for": "Old Quarter walking streets operate 19:00–24:00 on Friday, Saturday and Sunday (2025 notice) — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://baovanhoa.vn/doi-song/lich-tam-dung-pho-di-bo-ho-hoan-kiem-tu-ngay-133-den-203-249310.html",
+    "checked": "2026-10-29",
+    "used_for": "Hoàn Kiếm ward notice 190/TB-UBND: pedestrian zone suspended 13–20 March 2026, reopening Friday 20 March 19:00 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-29",
+    "used_for": "Motorcycles prohibited on expressways; 11 foreign riders fined on Tuyên Quang–Phú Thọ expressway, Feb 2026 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi seasons: hot/rainy ~May–Sept, cool drizzly winter Dec–Feb, October/spring pleasant — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   }
+  ],
+  "owner_gaps": [
+   "Whether rentals may be taken outside Hanoi (Ba Vì, Tam Đảo, Ninh Binh) and the breakdown procedure are not confirmed; pages only tell readers to ask the shop before leaving.",
+   "No precise pickup geolocation/map identifier is published; pages ask readers to request the location by Zalo/WhatsApp."
+  ]
+ },
+ {
+  "path": "hanoi/que-faire/index.html",
+  "new_meta": {
+   "title": "Que faire à Hanoi en 1, 2 ou 3 jours avec un deux-roues",
+   "description": "Lac Hoàn Kiếm, Temple de la Littérature, Ba Đình, lac de l’Ouest, pont Long Biên : programmes de 1 à 3 jours à Hanoi, où se garer et quoi voir à pied.",
+   "h1": "Que faire à Hanoi : itinéraires et idées"
+  },
+  "words": 2632,
+  "evidence": {
+   "FACTS": "Only sourced dated opening facts: Museum of Ethnology 8:30–17:30, closed Mondays and Tết (official VME site, entry price not quoted); Ho Chi Minh Mausoleum mornings only, certain days, dress code, annual maintenance 4 Sept–2 Nov 2026 with reopening 3 Nov 2026 (VietnamPlus); Long Biên reopening 28 May 2026; LEZ pilot from 1 July 2026; Trấn Quốc presented as oldest pagoda on a small peninsula of West Lake. Văn Miếu hours/fees explicitly left to check (sources conflict). Pickup opening 09:00 used to adapt the one-day plan. No travel times, no fees.",
+   "INTENT": "primary intent 'que faire à hanoi' / 'hanoi itinéraire': what to see in 1, 2 or 3 days and how to chain it with a two-wheeler; owner URL /hanoi/que-faire/; distinct from /hanoi/ (decision, riding/parking, full index) and /hanoi/excursions-moto/ (outside-city trips) because it focuses on in-city sights and day-by-day programmes.",
+   "CONTENT": "Entire article replaced (template filler and two 'Repère complémentaire' sections removed). Sections: direct answer; must-see table (site, sector, how to visit, note); Hoàn Kiếm & Old Quarter on foot (Ngọc Sơn, Thê Húc, Đồng Xuân, weekend pedestrian rules, LEZ); Temple of Literature & Ba Đình (mausoleum schedule/closure, One Pillar Pagoda); West Lake, Trúc Bạch, Trấn Quốc; Long Biên bridge & Red River; museums & rainy days; 1-day, 2-day, 3-day itinerary tables (moments of day, no times) with 4/5/7-day links; ride-park-walk checklist + parking surcharges; season/profile adaptations; 6 FAQ; next steps.",
+   "META": "Title 55 chars, description 150 chars, og:title/og:description synced; H1 unchanged. Matrix sync required for seo_title and meta_description.",
+   "LINKS": "Required /hanoi/excursions-moto/, /location-moto-hanoi/, /types-motos/ present (body + context-links); parent /hanoi/ linked. 37 of 49 /hanoi/ children linked contextually (all city-sightseeing, itinerary, theme, season and profile guides + Bát Tràng); excursion-route children left to /hanoi/excursions-moto/. seo_page_check: no broken links, no review signals.",
+   "AEO_GEO": "Direct answer listing the five core areas and day split; site table; three itinerary tables; checklist; 6 FAQ (one day, how many days, need a moto, mausoleum open every day, rain, evening); named entities with Vietnamese diacritics and dated citations."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-29",
+    "used_for": "Low-emission zone pilot around Hoàn Kiếm from 1 July 2026 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/au/en/plan-book/travel/travel-guide/ho-chi-minh-mausoleum",
+    "checked": "2026-10-29",
+    "used_for": "Mausoleum visits in the morning, not every day, dress code — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://www.vietnamplus.vn/tu-bo-dinh-ky-lang-chu-tich-ho-chi-minh-tu-49-den-211-post1133954.amp",
+    "checked": "2026-10-29",
+    "used_for": "Mausoleum periodic maintenance 4 Sept–2 Nov 2026, reopening 3 Nov 2026 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://hoangthanhthanglong.vn/en/?p=372",
+    "checked": "2026-10-29",
+    "used_for": "Trấn Quốc pagoda: oldest pagoda of Hanoi, on a peninsula of West Lake — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-29",
+    "used_for": "Long Biên bridge reopened 28 May 2026 for motorbikes, bicycles, pedestrians — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-29",
+    "used_for": "Official Museum of Ethnology hours 8:30–17:30, closed Mondays and Lunar New Year — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo",
+    "checked": "2026-10-29",
+    "used_for": "Holiday parking surcharges near tourist areas (amounts not quoted) — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   }
+  ],
+  "owner_gaps": [
+   "None specific beyond the hub; the one-day plan relies only on the confirmed 09:00 opening of the Long Biên pickup point."
+  ]
+ },
+ {
+  "path": "hanoi/excursions-moto/index.html",
+  "new_meta": {
+   "title": "Excursions à moto depuis Hanoi : Bát Tràng, Ba Vì, Ninh Binh",
+   "description": "Bát Tràng, Đường Lâm, Ba Vì, pagode du Parfum, Tam Đảo, Ninh Binh : distances indicatives, routes sans autoroute, saisons et deux-roues adapté depuis Hanoi.",
+   "h1": "Excursions à moto depuis Hanoi"
+  },
+  "words": 2513,
+  "evidence": {
+   "FACTS": "Approximate distances only as ranges from cited guides (Bát Tràng 13–15 km; Đường Lâm ~40–44 km; Ba Vì ~60 km per most guides; Perfume Pagoda 60–70 km; Tam Đảo 70–85 km; Ninh Binh 86–104 km by site); no travel times. Expressway ban + Feb 2026 fines (VOV); Đại lộ Thăng Long expressway lanes banned to motorbikes with 2026 enforcement; 2025 province mergers (Vĩnh Phúc→Phú Thọ, Hà Nam/Nam Định→Ninh Bình); Đường Lâm first village recognised as national relic, paid entry (amount not quoted); Ba Vì summit temple by >1,000 steps; Perfume Pagoda festival 6th day of 1st lunar month to end of 3rd month, boat from Đục wharf on Yến stream; Tam Đảo French hill station, town ~900 m. Rental-outside-Hanoi permission presented as a question to ask, not a policy.",
+   "INTENT": "primary intent 'excursion moto depuis hanoi' / 'balade moto hanoi': choosing and preparing a day trip by two-wheeler from Hanoi; owner URL /hanoi/excursions-moto/; distinct from /hanoi/ (city riding/parking + index), /hanoi/que-faire/ (in-city sights) and /nord-vietnam/* (multi-day northern road trips) because it compares near-Hanoi destinations, road rules and vehicle fit for one-day outings.",
+   "CONTENT": "Entire article replaced (template filler and two 'Repère complémentaire' sections removed; Sóc Sơn from old copy kept). Sections: direct answer; destination table (direction, sourced distance range, road type, format, child link) with source sentence; rules before leaving (expressway ban, Đại lộ Thăng Long, national roads, return before night, licence link); short trips Bát Tràng/Ecopark/Cổ Loa/Sóc Sơn; Đường Lâm & Ba Vì; Perfume Pagoda and festival calendar; Tam Đảo; Ninh Binh and beyond; vehicle-by-trip table; seasons/weather; 10-item checklist; 6 FAQ; next steps.",
+   "META": "Title 60 chars, description 156 chars, og:title/og:description synced; H1 unchanged. Matrix sync required for seo_title and meta_description.",
+   "LINKS": "Required /nord-vietnam/ninh-binh/, /nord-vietnam/, /types-motos/, /hanoi/ present; also /hanoi/que-faire/, /location-moto-hanoi/, /permis-securite/securite/, /permis-securite/permis/, /nord-vietnam/ha-long/ and 14 relevant /hanoi/ children (8 day-trip guides, red river route, 2-day trips, easy/scooter/semi-auto/trail routes). seo_page_check: no broken links; review only 'legal' sentences (expressway ban, Thăng Long, licence pointer, permit category for trail bikes) — all sourced or generic pointers.",
+   "AEO_GEO": "Direct answer naming the best first trip and three rules; comparison table with sourced distance ranges; vehicle table; checklist; 6 FAQ (easiest trip, Ninh Binh day return, expressways, scooter for Ba Vì/Tam Đảo, when to avoid Perfume Pagoda, telling the renter); citations dated via evidence."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-29",
+    "used_for": "Bát Tràng about 13–15 km south-east of central Hanoi — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://hanoitimes.vn/exploring-a-typical-ancient-village-in-northern-vietnam-315155.html",
+    "checked": "2026-10-29",
+    "used_for": "Đường Lâm some 40 km west of Hanoi — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/duong-lam-first-vietnamese-ancient-village-to-become-national-relic-712606.html",
+    "checked": "2026-10-29",
+    "used_for": "Đường Lâm 44 km from Hanoi centre; first village recognised as national relic — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/vietnam/attractions/ba-vi-national-park/a/poi-sig/1142333/1316122",
+    "checked": "2026-10-29",
+    "used_for": "Ba Vì ~65 km west; summit temple reached by 1,229 steps; confusion with Ba Vì town attractions — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/fr/parc-national-de-tam-dao-le-guide-complet-pour-s-echapper-a",
+    "checked": "2026-10-29",
+    "used_for": "Tam Đảo 70–85 km north-west, hill station around 900 m — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi to Vân Long 86 km, Bái Đính 97, Tràng An 100, Tam Cốc 104 km — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-29",
+    "used_for": "Motorcycles prohibited on expressways; 11 foreign riders with valid licences/visas fined Feb 2026 — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://daibieunhandan.vn/ha-noi-lieu-linh-di-xe-may-vao-cao-toc-dai-lo-thang-long-hang-loat-tai-xe-bi-xu-ly-10413612.html",
+    "checked": "2026-10-29",
+    "used_for": "Motorbikes banned from the expressway lanes of Đại lộ Thăng Long; 2026 enforcement — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/en/useful-information/travel-guide/perfume-pagoda",
+    "checked": "2026-10-29",
+    "used_for": "Perfume Pagoda: boat from Đục wharf on Yến stream, walk to main cave, 60–70 km SW — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/perfume-pagoda-festival-vietnam-s-biggest-spring-pilgrimage",
+    "checked": "2026-10-29",
+    "used_for": "Festival from 6th day of 1st lunar month to end of 3rd month (Feb–Apr) — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://e.vnexpress.net/news/life/floating-under-the-moonlight-to-hanoi-s-perfume-pagoda-3713658.html",
+    "checked": "2026-10-29",
+    "used_for": "Festival crowds and boat queues from before dawn — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-29",
+    "used_for": "34 provinces from 2025: Vĩnh Phúc+Hòa Bình→Phú Thọ; Hà Nam+Nam Định→Ninh Bình — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-29",
+    "used_for": "Seasons: rainy May–Sept, cool foggy winter — seen in search result (WebSearch/TinyFish search, 2026-10-29); page itself not opened because WebFetch/Firecrawl were blocked in this session"
+   }
+  ],
+  "owner_gaps": [
+   "Whether rentals may be taken outside Hanoi (Ba Vì, Tam Đảo, Ninh Binh) and the breakdown procedure are not confirmed; pages only tell readers to ask the shop before leaving.",
+   "No precise pickup geolocation/map identifier is published; pages ask readers to request the location by Zalo/WhatsApp.",
+   "Which vehicle categories the shop actually allows for mountain trips (Ba Vì, Tam Đảo) or Ninh Binh is not confirmed; the page gives general vehicle advice only."
+  ]
+ }
+]

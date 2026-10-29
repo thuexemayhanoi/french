@@ -1,0 +1,258 @@
+[
+ {
+  "path": "prix-location/14-jours-location-moto-hanoi-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget prévoir pour louer une moto 14 jours à Hanoi, sans tarif 14 jours publié",
+  "words_before": 2126,
+  "words_after": 1647,
+  "new_meta": {
+   "title": "Location de moto 14 jours à Hanoi : quel budget prévoir ?",
+   "description": "Deux semaines de moto à Hanoi : repères entre le tarif à la semaine et au mois, postes de budget et questions à poser avant de réserver.",
+   "h1": "Location de moto 14 jours à Hanoi : quel budget prévoir ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table (week and month columns of the 6 rows) with the exact disclaimer next to the table. No 14-day total, no doubling/halving; text states that no 14-day rate is published and the weekly/monthly rows frame it. Vision/Air Blade use their own rows; other automatic scooters = category range as repère to confirm; trail/manual sport = no repère. Removed « presque tous les loueurs d’Hanoi demandent un dépôt », the unsourced claim that the second week is cheaper, « la trail est en tendance plus chère », the claim that package negotiation is possible, the refund-prorata claim, and « coordonnées d’assistance ». Deposit/passport phrased once as general practice (« certains loueurs… ; la règle se confirme avant de réserver »); delivery, extension and early return stated as points to confirm; no fuel price (method only). Têt: generic observation (shops close/reduce hours, late Jan–Feb depending on year), no date claimed. NAP/hours as in SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: what budget for 14 days of rental? Owner of « location de moto 14 jours à Hanoi ». Differs from /7-jours/ (week row) and /30-jours/ (month row) by being the between-the-rows case: how to ask for a total for a duration without own row, single contract vs two chained weeks, 3 itineraries; differs from /location-moto-hanoi/2-semaines-location-moto-hanoi/ (itinerary guide) by the budget angle.",
+   "CONTENT": "Full rewrite. New: owner-table excerpt (week/month), what to send in the quote request, budget-lines table (who fixes each line / what to do), variation factors, 3 profiles, remise/retour checklist. Removed mannered prose (« le parent pauvre des comparatifs », « se négocie en package », « c’est la carte qui dicte la pompe ») and SEO-process wording. FAQ reduced to 4 non-repeating Q&As. Words 2126→1647.",
+   "META": "Title and H1 kept (natural, 57 chars, no exact-price promise). Meta description rewritten (136 chars, factual, replaces « comment la quatorzaine se négocie »); og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/7-jours-location-moto-hanoi-cout/, /prix-location/30-jours-location-moto-hanoi-cout/, /location-moto-hanoi/2-semaines-location-moto-hanoi/, /location-moto-hanoi/location-moto-hanoi-tet/. Contact tel/WhatsApp/Zalo links added. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (no 14-day rate; between weekly and monthly rows; ask for the total). 2 tables, 2 checklists, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Does the shop publish or apply a specific 14-day/two-week rate, and is early return or prolongation priced?",
+   "Deposit/passport rule, delivery and whether vehicles may leave Hanoi province (all left as points to confirm)."
+  ]
+ },
+ {
+  "path": "prix-location/3-jours-location-moto-hanoi-prix/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget pour 3 jours de location de moto à Hanoi, sans forfait 3 jours publié",
+  "words_before": 1697,
+  "words_after": 1576,
+  "new_meta": {
+   "title": "3 jours de location de moto à Hanoi : budgéter juste",
+   "description": "Trois jours de moto à Hanoi : aucun forfait publié, tarif à la journée en repère, comptage des jours, postes de budget et questions avant de réserver.",
+   "h1": "3 jours de location de moto à Hanoi : budgéter juste"
+  },
+  "evidence": {
+   "FACTS": "Prices only from owner table (day and week columns, 6 rows) with the exact disclaimer. No 3-day total, no ×3 calculation, explicitly stated that no 3-day package is published and that a total is asked in writing. Electric day rate = « selon le modèle, à confirmer »; Vision/Air Blade/50cc share 200 000 per day; other automatic scooters = category range as repère to confirm; trail/manual sport = no repère. Removed: « la règle de la plateforme… aucun prix inventé » (process talk), « une machine à embrayage appelle une garantie plus lourde », deposit forms (espèces/empreinte bancaire), insurance/franchise paragraph, « assistance » as an inclusion, péages claim, « quasi-certitude de récupérer sa garantie », ‘procès-verbal’ as shop practice. Deposit/passport only as general practice (« certains loueurs demandent une caution… ») and as questions to ask. Licence: one neutral line (depends on nationality, category, displacement; check official sources), no blanket rule. Hours 09:00–21:00, address and phone per SEO-FACTS. No fuel price, no external source.",
+   "INTENT": "Main question: what budget for 3 days? Owner of « 3 jours de location de moto à Hanoi ». Closest pages: /location-moto-hanoi/3-jours-location-moto-hanoi/ and /2-jours-… (itinerary/combination guides) and /7-jours-…: this page is the budget angle (how a 3-day total is obtained, how days are counted, cost lines), the itinerary page is linked once for the programme.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« deux familles de sommes : celles qu’on dépense et celles qui circulent », « l’incident ne consulte pas le calendrier », « un loueur qui les noie dans le jargon »). New sections: published rates around 3 days (table), how days are counted (24 h vs calendar, example Monday 10:00 → Wednesday 18:00), budget-line table with questions, vehicle choice by programme, message to send, pre-signature checklist. FAQ 5 Q&As not repeating the body (late return, prolongation, fuel, leaving Hanoi, total). Words 1697→1576.",
+   "META": "Title and H1 kept (52 chars, no exact-price promise). Meta description rewritten (150 chars): states no package is published; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/jour/, /prix-location/semaine/ (framing rows), /prix-location/location-moto-jour-24-horaires-hanoi/ (day counting), /location-moto-hanoi/3-jours-location-moto-hanoi/ (itinerary). Contact tel/WhatsApp/Zalo links added. TOC synced to 8 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead; 2 tables + 2 checklists; FAQ of 5 short questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "How the shop counts a day (24 h vs calendar) and whether it applies a specific 2–3 day rule.",
+   "Deposit/passport rule, equipment included (helmets, raincoat, lock), late-return rule, whether vehicles may leave Hanoi."
+  ]
+ },
+ {
+  "path": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget pour 30 jours de location de moto à Hanoi, à partir de la ligne mensuelle publiée",
+  "words_before": 2123,
+  "words_after": 1656,
+  "new_meta": {
+   "title": "Location de moto 30 jours à Hanoi : budget d’un mois complet",
+   "description": "Trente jours de moto à Hanoi : tarifs mensuels indicatifs par véhicule, comment demander le total, entretien, carburant et questions avant de réserver.",
+   "h1": "Location de moto 30 jours à Hanoi : budget d’un mois complet"
+  },
+  "evidence": {
+   "FACTS": "Prices only from owner table (month column, 6 rows) with exact disclaimer; electric month 1 500 000–1 800 000 as per owner table (day rate = to confirm, not inferred). No total computed from day or week rate; no per-day price derived from the month; stated that Vision and Air Blade share the 200 000/day repère but have different month lines (2 000 000 vs 1 500 000) – quoted rows, not derived. « 30 jours » vs « un mois » (30 consecutive days or calendar month) flagged as a point to confirm. Removed: « Cette page ne publiera aucun tarif » (false now), claims on mileage caps/plafonds, assistance, the shop-style kilométrage formulas, « la probabilité n’est plus marginale », dépôt ‘immobilisé pendant trente jours’ presented as practice. Deposit/passport only as general practice (« certains loueurs… ; confirmez la règle ») and as questions; maintenance, change of vehicle, prolongation and early return stated as points to confirm. Licence: one neutral line. No fuel price, no external source.",
+   "INTENT": "Main question: what does a 30-day rental cost and how to budget it? Owner of « trente jours de location de moto à Hanoi ». Closest pages: /7-jours-… (0.46), /prix-location/vietnam-location-moto-cout-30-jours/ (month of road across Vietnam, mentioned but not duplicated), /14-jours-… (0.33). This page is the Hanoi-based month: monthly row, definition of the month, budget lines, maintenance, month vs four weeks.",
+   "CONTENT": "Full rewrite of mannered/abstract prose (« anatomie du total : cinq blocs », « la vertu pédagogique », « coût d’opportunité », « le vrai luxe budgétaire », process talk « cette page dissèque… »). New sections: published monthly rates + disclaimer, message to send, budget-lines table, maintenance and wear, 3 usages, month vs weekly formulas, return preparation, checklist. FAQ 4 non-repeating Q&As. Words 2123→1656.",
+   "META": "Title and H1 aligned (60 chars, previously different: « Louer une moto 30 jours à Hanoi : le coût total décodé » vs a long H1; « coût total décodé » was mannered and « sans aucun prix inventé » removed from the description). Meta description 151 chars; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/mois/, /location-moto-hanoi/1-mois-location-moto-hanoi/, /prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/, /prix-location/mensuelle-location-moto-entretien-cout-hanoi/. Dropped /prix-location/journaliere-ou-hebdomadaire-… (off-topic for 30 days). Contact tel/WhatsApp/Zalo added. TOC synced with 10 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (use the month row; do not divide/multiply; ask for the total). 2 tables, 2 checklists, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Definition of the monthly rate (30 days vs calendar month), prolongation/early-return rule, maintenance sharing, vehicle change during the rental.",
+   "Deposit/passport rule; whether vehicles may leave Hanoi for a long trip."
+  ]
+ },
+ {
+  "path": "prix-location/50cc-location-scooter-hanoi-prix/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Le prix publié du 50cc à Hanoi et ce qu’il ne couvre pas (garantie, équipement, conditions à confirmer)",
+  "words_before": 1824,
+  "words_after": 1535,
+  "new_meta": {
+   "title": "Louer un 50cc à Hanoi : prix publié et conditions à confirmer",
+   "description": "Le 50cc est indiqué à 200 000 VND par jour (tarif indicatif). Ce que ce prix ne dit pas : garantie, équipement, carburant, retour. Questions à poser.",
+   "h1": "Louer un 50cc à Hanoi : prix publié et conditions à confirmer"
+  },
+  "evidence": {
+   "FACTS": "Owner table (all 6 rows) with exact disclaimer; 50cc row 200 000 / 1 000 000 / 2 000 000 quoted verbatim. Comparison statements are read directly from published rows (50cc = Vision on the three durations; 50cc week/month above Air Blade; semi-automatic week/month lines lower) – no derived price, no package. Removed: « la plupart des loueurs demandent un dépôt », « un dépôt qui peut dépasser le tarif », « préautorisation sur carte », « dizaines de milliers de dongs de surprise », claims about kilométrage plafonds/assistance/« santé de sa flotte », « certains loueurs appliquent des remises de durée ». Deposit/passport only as general practice once (« certains loueurs demandent une caution… ; aucune règle publiée pour la maison ») and as questions; delivery as a question. Licence: no rule stated (depends on nationality, vehicle category and real displacement; check official sources); the repo page /permis-securite/50cc-scooter-license-vietnam/ asserts a blanket ‘sans permis’ that contradicts protocol, so it was not linked or repeated. One WebSearch (Vietnamese law 36/2024 A1 scope) was inconclusive on the sub-50cc rule, so no legal claim was added. No fuel price.",
+   "INTENT": "Main question: what does the published 50cc price cover and what must be confirmed? DISTINCT_ANGLE of group TOPIC-DEPOT, owner /location-moto-hanoi/location-moto-depot-hanoi/ (linked once, anchor « caution pour louer une moto à Hanoi »). The general deposit explanation was removed; this page keeps the 50cc row, the question table, vehicle inspection and 50cc-specific price reading. Differs from /types-motos/50cc/ (usages, limits, permis) by being about price lines and conditions.",
+   "CONTENT": "Full rewrite of mannered/process prose (« cette page enseigne la lecture complète », « la santé de sa flotte », « la transparence est une ligne de budget »). New: published rows compared with the 50cc, table of unpublished lines with questions, deposit questions, inspection checklist, vehicle-fit paragraph, three situations, day vs week without multiplying, message to send. FAQ 4 Q&As. Words 1824→1535.",
+   "META": "Title and H1 aligned (61 chars; previously title and H1 differed). Meta description 149 chars, factual; no promise of deposit amount. og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /location-moto-hanoi/location-moto-depot-hanoi/ (owner), /types-motos/50cc/, /prix-location/jour/, /prix-location/semaine/. Dropped /prix-location/journaliere-ou-hebdomadaire-…, /types-motos/50cc-electrique-scooter-vietnam/ and /types-motos/50cc-moto-vietnam-debutant/ (link cap). Contact tel/WhatsApp/Zalo added. TOC synced with 10 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (published 50cc rows + what they leave out). 2 tables, 1 checklist, FAQ of 4 questions."
+  },
+  "sources": [
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/tai-xe-co-bang-lai-xe-a1-chay-duoc-xe-gi-58686.html",
+    "checked": "2026-10-29",
+    "used_for": "Seen in search result only (A1 scope under Law 36/2024); not cited in the page because the sub-50cc rule was not confirmed."
+   }
+  ],
+  "owner_gaps": [
+   "Deposit/passport rule for the 50cc, number of helmets, fuel rule, late-return and prolongation rule.",
+   "Exact vehicle supplied as ‘50cc’ (displacement/documents) so the licence question can be answered."
+  ]
+ },
+ {
+  "path": "prix-location/50cc-ou-125cc-location-scooter-cout-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "50cc ou 125cc : lequel coûte moins sur trois jours à Hanoi",
+  "words_before": 1620,
+  "words_after": 1538,
+  "new_meta": {
+   "title": "50cc ou 125cc à Hanoi : lequel coûte moins sur 3 jours ?",
+   "description": "50cc ou 125cc pour 3 jours à Hanoi : tarifs indicatifs publiés à la journée et à la semaine, usage, permis à vérifier et questions à poser avant de louer.",
+   "h1": "50cc ou 125cc à Hanoi : lequel coûte moins sur 3 jours ?"
+  },
+  "evidence": {
+   "FACTS": "Owner rows 50cc, Honda Vision, Honda Air Blade and the automatic-scooter range (day + week) with the exact disclaimer. The answer is read from published rows: the 50cc (200 000/day) is not cheaper than Vision/Air Blade (200 000/day each), the automatic-scooter range starts lower (150 000); 50cc week (1 000 000) is above Air Blade week (900 000). No 3-day total, no multiplication, no 125cc price: the table is explicitly not classed by displacement, other automatic scooters use the range as repère to confirm. Displacement/specs of Vision and Air Blade not stated (no manufacturer source consulted). Removed unsourced claims: « Ninh Binh ou Ha Long se prient en 125, se tentent en 50 », « les loueurs sérieux posent la question du permis », amendes/litiges d’assurance, « essayer les deux machines » as shop practice, dépôt « espèces ou document ». Licence: no rule stated (nationality, vehicle category, real displacement; check official sources) and a link to /permis-securite/. Deposit only as general practice and as question. No fuel price/consumption figure.",
+   "INTENT": "Main question: which costs less over three days, a 50cc or a larger scooter? Owner of « 50cc ou 125cc ». Closest pages: /vision-ou-janus-…, /location-moto-ou-taxi-…, /7-jours-… (0.31–0.33): differs by being the cylinder-class choice with published rows. The 50cc price/conditions detail is delegated to /prix-location/50cc-location-scooter-hanoi-prix/ and the 3-day budget to /3-jours-…",
+   "CONTENT": "Full rewrite of process/mannered prose (« la politique de la plateforme encadre le propos », « le protocole de décision », « sans jamais laisser un badge décider »). New: published-rows table and its two conclusions, usage checklist, neutral permis section, budget lines, how to read the shop’s reply, what changes beyond 3 days, pre-departure check, 5-step decision. FAQ 4 Q&As. Words 1620→1538.",
+   "META": "Title 56 chars and H1 aligned (previously title « Scooter 50cc ou 125cc : le coût total pour trois jours à Hanoi » vs different H1); meta description 154 chars, factual, no price promise; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /permis-securite/ (kept), /prix-location/3-jours-location-moto-hanoi-prix/ (kept), /prix-location/50cc-location-scooter-hanoi-prix/, /types-motos/50cc/ (added). Contact tel/WhatsApp/Zalo added. TOC synced with 10 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (50cc not cheaper on published rows; no 3-day total; choose by usage and permis). 1 table, 3 checklists, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Exact displacement and model of the vehicles offered as ‘50cc’ / 125cc-class scooters, and their own price rows.",
+   "Deposit/passport rule per vehicle; whether sorties outside Hanoi are accepted."
+  ]
+ },
+ {
+  "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel coût et quel budget pour 7 jours de location de moto à Hanoi, à partir de la ligne « semaine » publiée",
+  "words_before": 1682,
+  "words_after": 1564,
+  "new_meta": {
+   "title": "7 jours de location de moto à Hanoi : coût et budget",
+   "description": "Une semaine de moto à Hanoi : tarifs indicatifs à la semaine par véhicule, comment compter 7 jours, postes de budget et questions à poser avant de réserver.",
+   "h1": "7 jours de location de moto à Hanoi : coût et budget"
+  },
+  "evidence": {
+   "FACTS": "Owner table (day + week columns, 6 rows) with the exact disclaimer; 7 days framed by the weekly row (600 000–1 000 000 depending on vehicle), to confirm for the model and dates; definition of ‘semaine’ (7×24 h vs calendar) flagged as unpublished. No total from day rate, no day price from the week; Vision (1 000 000) vs Air Blade (900 000) used as an example of row-by-model reading. Month row mentioned only as repère for multi-week stays. Removed: « la plupart des loueurs y répondent par un forfait… souvent plus souple que la somme de sept journées » (unsourced), « en tendance oui » in FAQ, « le carburant est rarement inclus », « les stations jalonnent les axes », stationnement « pratique courante et peu coûteuse », insurance/franchise paragraph, « assistance en région », ‘procès-verbal’ as practice, « quasi-certitude d’un retour sans discussion ». Deposit only as general practice (« certains loueurs… ») and question; vehicle change, prolongation and leaving Hanoi as points to confirm. Licence: neutral line + /permis-securite/ link; no rule. No fuel price, no external source.",
+   "INTENT": "Main question: what does a 7-day rental cost and how to budget it? Owner of « 7 jours de location de moto à Hanoi ». Closest pages: /14-jours-… (0.67), /vietnam-location-moto-cout-30-jours/ (0.56), /30-jours-… (0.46). Differs from /14-jours-… (between-the-rows case) because 7 days map to the published weekly row; the 1-semaine page in /location-moto-hanoi/ is linked for itineraries/vehicle choice.",
+   "CONTENT": "Full rewrite of the abstract/process prose (« la semaine, durée charnière », « un compagnon de route », « la règle de la plateforme reste entière », « chaque guide répond à une intention distincte »). New: published-rows table, counting of the 7 days, budget-lines table, three programmes, itinerary preparation, prolongation, checklist. FAQ 4 Q&As not repeating the body. Words 1682→1564.",
+   "META": "Title and H1 kept (52 chars, natural, no exact-price promise); meta description rewritten (156 chars) to state what is delivered (weekly rows, counting, budget lines); og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /permis-securite/ (kept), /prix-location/semaine/, /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/, /location-moto-hanoi/1-semaine-location-moto-hanoi/ (added). Contact tel/WhatsApp/Zalo added. TOC synced with 10 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (weekly row 600 000–1 000 000 VND by vehicle; ask for the total). 2 tables, 1 checklist, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Definition of the weekly rate (7×24 h vs calendar days) and rule for a day early/late.",
+   "Deposit/passport rule, vehicle change and leaving Hanoi for a circuit, equipment included."
+  ]
+ },
+ {
+  "path": "prix-location/abs-location-scooter-hanoi-prix-premium/index.html",
+  "role": "OWNER",
+  "primary_intent": "Faut-il louer un scooter à ABS à Hanoi : ce que l’ABS change, quand il est utile, et quel tarif (aucun tarif propre publié)",
+  "words_before": 1627,
+  "words_after": 1605,
+  "new_meta": {
+   "title": "Scooter à ABS en location à Hanoi : intérêt et tarif à confirmer",
+   "description": "Louer un scooter à ABS à Hanoi : ce que le système change, quand il est utile, pourquoi aucun tarif propre n’est publié et comment le vérifier.",
+   "h1": "Scooter à ABS en location à Hanoi : intérêt et tarif à confirmer"
+  },
+  "evidence": {
+   "FACTS": "No owner row exists for ABS scooters: the page states it and uses only the automatic-scooter category range (150 000–200 000/day, 600 000–1 000 000/week, 1 200 000–2 000 000/month) as « repère, à confirmer », plus the Vision and Air Blade rows verbatim, with the exact disclaimer. It says the published table does not state whether any listed model has ABS. Removed unsourced claims: « les scooters à ABS se louent plus cher sur les grilles », « machines à ABS moins nombreuses dans les flottes », « dépôt plus élevé sur machines modernes », « le CBS souvent mieux positionné en tarif », assurance/livraison lines, the advice to test ABS by a hard brake (unsafe). ABS/CBS described as general mechanisms; model equipment to be confirmed in writing by the shop and on the manufacturer site (honda.com.vn / yamaha-motor.com.vn named as places to check, no specification quoted). Deposit only as general practice and as a question. Rain-season remark kept general, no dates. No fuel price, no external source cited.",
+   "INTENT": "Main question: is an ABS scooter worth asking for / paying more for in Hanoi? Owner of « louer un scooter à ABS à Hanoi ». Closest pages are model pages (/yamaha/yamaha-pg-1-abs-prix-location-hanoi/, /honda/honda-lead-abs-prix-location-hanoi/): this page is the generic decision (usefulness by situation, how to verify, what to ask about price) and links /types-motos/abs-ou-cbs-scooter-vietnam-location/ for the technical ABS/CBS comparison.",
+   "CONTENT": "Full rewrite. Removed « pourquoi l’ABS se monétise dans les flottes » (unsourced market claim) and mannered prose (« le premium se justifie ou se rend », « la triple lecture »). New: what ABS does and does not do, published rows and what they omit, situation table, verification checklist, ABS vs CBS, wet-road braking habits, other checks that matter as much, what to do if unavailable, questions on price. FAQ 4 Q&As. Words 1627→1605.",
+   "META": "Title and H1 aligned (64 chars): « faut-il payer le premium ? » dropped because no premium is published; meta description 143 chars; og:title/og:description synced. The URL slug keeps « prix-premium » (unchanged by rule).",
+   "LINKS": "5/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/abs-ou-cbs-scooter-vietnam-location/ (kept), /prix-location/automatique-location-scooter-hanoi-prix/ (added; sibling for automatic scooter price factors). Dropped /prix-location/longue-duree-… (off-topic). Contact tel/WhatsApp/Zalo added. TOC synced with 10 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (what ABS does; no ABS-specific tariff; automatic-scooter range as repère). 2 tables, 2 checklists, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which models offered have ABS and whether they carry a different rate.",
+   "Deposit rule per model, availability of ABS scooters."
+  ]
+ },
+ {
+  "path": "prix-location/air-blade-ou-nvx-cout-location-hanoi/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Quel coût à l’usage (loyer, carburant, durée) entre un Honda Air Blade et un Yamaha NVX à Hanoi, avec uniquement les tarifs indicatifs publiés",
+  "words_before": 2025,
+  "words_after": 1570,
+  "new_meta": {
+   "title": "Air Blade ou NVX : lequel coûte le moins à Hanoi ?",
+   "description": "Air Blade ou NVX en location à Hanoi : seule la ligne Air Blade est publiée, comment comparer les totaux, le carburant et la durée sans chiffre inventé.",
+   "h1": "Air Blade ou NVX : lequel coûte le moins à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Owner row for Honda Air Blade only (200 000 / 900 000 / 1 500 000) with the exact disclaimer; NVX has no row: only « la fourchette des scooters automatiques sert de repère, à confirmer » (150–200 k/day, 600 k–1 M/week, 1.2–2 M/month). Stated explicitly that no ranking by price can be made from the published rows; no NVX price, no multiplication, no package, no consumption figure, no fuel price. Manufacturer sites (honda.com.vn, yamaha-motor.com.vn) named only as where to consult version specs; no spec quoted. Removed unsourced characterisations (« l’Air Blade, sobriété routinière », « le NVX se loue sur un palier légèrement différent », « le NVX, fougue qui se paie pompe après pompe »), the dépôt-differs-by-model claim (now a question), and all process talk (« cette page apprend à calculer », « grammaires de coût »). Deposit only as general practice and a question.",
+   "INTENT": "Main question: which of the two costs less to rent in Hanoi? DISTINCT_ANGLE of group CMP-AIRBLADE125-NVX; owner /honda/honda-air-blade-125-ou-yamaha-nvx-location/ (linked once with the anchor « Air Blade 125 ou Yamaha NVX : le comparatif pour louer à Hanoi », second mention in the context-links block). Distinct angle kept: cost in use (published rows, fuel measurement, duration, quote comparison); the driving/comfort comparison is delegated to the owner.",
+   "CONTENT": "Full rewrite. New: rows table + what can/cannot be compared, fuel measured not assumed (full-to-full method), duration lines, cost by programme, reading the shop’s reply, version/age/condition, comfort for two/luggage, checklist per model. FAQ 4 Q&As. Words 2025→1570.",
+   "META": "Title and H1 aligned (50 chars; previously title and H1 differed); meta description 152 chars states that only the Air Blade row is published; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /honda/honda-air-blade-125-ou-yamaha-nvx-location/ (owner), /prix-location/automatique-location-scooter-hanoi-prix/ (kept), /honda/honda-air-blade-125-prix-location-hanoi/ and /yamaha/yamaha-nvx-prix-location-hanoi/ (added, model price pages). Dropped /honda/honda-air-blade-160-location-hanoi/, /yamaha/yamaha-nvx-location-hanoi/ and /yamaha/yamaha-nvx-ou-honda-air-blade-160-location/ (link cap; the latter is a sibling comparison). Contact tel/WhatsApp/Zalo added. TOC synced with 10 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (only Air Blade has a row; cannot rank on published rows; compare totals and measure fuel). 1 table, 1 checklist, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which Air Blade and NVX versions (and years) are actually offered, and the NVX tariff.",
+   "Deposit rule per model; fuel-level rule at return."
+  ]
+ },
+ {
+  "path": "prix-location/automatique-location-scooter-hanoi-prix/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un scooter automatique à Hanoi : tarifs indicatifs publiés et raisons des écarts de prix",
+  "words_before": 1888,
+  "words_after": 1570,
+  "new_meta": {
+   "title": "Louer un scooter automatique à Hanoi : prix et écarts",
+   "description": "Scooter automatique à Hanoi : fourchette indicative de 150 000 à 200 000 VND par jour, lignes Vision et Air Blade, et ce qui explique les écarts de prix.",
+   "h1": "Louer un scooter automatique à Hanoi : prix et écarts"
+  },
+  "evidence": {
+   "FACTS": "Owner rows used verbatim with the exact disclaimer: scooter automatique range (150–200 k/day, 600 k–1 M/week, 1.2–2 M/month), Honda Vision, Honda Air Blade; semi-automatic ranges quoted from the owner table in the auto-vs-semi section. Reading of rows only (Vision at the top of the weekly/monthly range, Air Blade below, same 200 000/day); stated that the table does not map models to positions in the range; no price for any other scooter, no derived total. Factors of price differences are labelled as general criteria that the shop must confirm (not as this shop’s policy). Removed unsourced claims: « hiérarchie des cylindrées dans les affiches », « un tarif doux cache une flotte fatiguée », quartier/saison/haute saison effects on prices, « la remise de durée existe chez la plupart des loueurs », assistance/livraison/échange as services, qualité d’accueil. Deposit only as general practice and as a question; Têt only as a reason to ask availability. Licence: neutral line (nationality, category, real displacement; official sources). No fuel price, no external source.",
+   "INTENT": "Main question: how much does it cost to rent an automatic scooter in Hanoi, and why do prices differ? Owner of « louer un scooter automatique à Hanoi ». Closest: /prix-location/semi-automatique-location-moto-hanoi-prix/ (0.45): this page owns the automatic category; the semi-automatic is a short comparison paragraph with a link, not duplicated.",
+   "CONTENT": "Full rewrite of the mannered/process prose (« cette page nomme les facteurs », « un segment, des machines », « le prix se paie en sérénité », « la grille de questions du comptoir »). New: rows table with its reading, price-difference factors as a checklist, choice by programme (table), automatic vs semi-automatic, why automatic suits a first stay, comparing two offers, handover checklist, six questions. FAQ 4 Q&As. Words 1888→1570.",
+   "META": "Title and H1 aligned (53 chars; previously title and H1 differed); meta description 153 chars and factual (price range + what explains the gaps); « sans aucun chiffre inventé » removed; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/jour/, /prix-location/semaine/, /prix-location/mois/, /prix-location/semi-automatique-location-moto-hanoi-prix/. Dropped /prix-location/journaliere-ou-hebdomadaire-… (covered by the three duration pages). Contact tel/WhatsApp/Zalo added. TOC synced with 10 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (published range, Vision and Air Blade rows, causes of gaps). 2 tables, 2 checklists + 1 ordered list, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which models fall where in the automatic range and their own rates.",
+   "Deposit rule, inclusions (helmets, lock), refusal/acceptance of trips outside Hanoi."
+  ]
+ },
+ {
+  "path": "prix-location/cheap-location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer une moto pas chère à Hanoi : où sont les lignes les plus basses du tarif publié et quoi vérifier devant une offre très basse",
+  "words_before": 1937,
+  "words_after": 1555,
+  "new_meta": {
+   "title": "Location de moto pas chère à Hanoi : repères et vérifications",
+   "description": "Louer une moto à petit prix à Hanoi : lignes les plus basses des tarifs indicatifs, rôle de la durée, ce qu’une offre très basse peut retirer.",
+   "h1": "Location de moto pas chère à Hanoi : repères et vérifications"
+  },
+  "evidence": {
+   "FACTS": "Full owner table (6 rows) with the exact disclaimer. The ‘cheapest lines’ are read from published rows only: day = semi-automatic and automatic scooter from 150 000; week = automatic and electric from 600 000 (then semi-automatic 700 000–800 000); month = semi-automatic from 1 000 000 (then Air Blade 1 500 000). Range lower bounds explicitly flagged as not guaranteed prices. 50cc/Vision/Air Blade at 200 000/day shown as not among the lowest lines. No claim that this shop is the cheapest in the city, no other shop’s price, no total computed from a day or week rate. Removed unsourced market claims (« un tarif bas s’appuie sur des machines âgées », « le dépôt compense la pancarte », « la basse saison détend les grilles », « les formules longues écrasent le tarif par jour », ‘papiers/assurance’ of the machine). Retrenchments are now questions with the caveat that no such practice is established for this shop. Deposit only as general practice; seasonal variation stated as not published; Têt only as a reason to ask availability. No fuel price, no external source.",
+   "INTENT": "Main question: how to rent a motorbike cheaply in Hanoi without a false saving. Owner of « location de moto pas chère à Hanoi ». Closest pages (/choisir-location-moto-hanoi/, /solo-voyage-…, /…-pour-tourists/, similarity ≤ 0.23) are general guides; this page is the price-first angle (lowest published rows, duration effect, questions on a very low offer). Deposit detail delegated to /location-moto-hanoi/location-moto-depot-hanoi/ (kept link), inspection to /location-moto-inspection-liste-controle/.",
+   "CONTENT": "Full rewrite of mannered/abstract prose (« la lueur du prix bas », « quatre retranchements au rythme d’un métronome », « la hiérarchie des économies est l’inverse de la hiérarchie des tentations », « cette page ne cite aucun tarif »). New: full rows table with its three readings, duration section, three budget situations, question table for very low offers, vehicle check, savings checklist, contact. FAQ 4 Q&As. Words 1937→1555.",
+   "META": "Title and H1 aligned (61 chars; previously title and H1 differed); meta description 142 chars; « payer juste plutôt que payer peu » removed; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /location-moto-hanoi/location-moto-depot-hanoi/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /prix-location/mensuelle-location-moto-economies-hanoi/ (kept), /prix-location/semi-automatique-location-moto-hanoi-prix/ (added). Dropped /location-moto-hanoi/choisir-location-moto-hanoi/ (link cap). Contact tel/WhatsApp/Zalo added. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (lowest published lines by duration, not a guaranteed price, 50cc not cheaper). 2 tables, 1 checklist, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Real price of the models in the lowest ranges and inclusions (helmets, lock).",
+   "Deposit/passport rule; whether any discount for longer rentals exists."
+  ]
+ }
+]

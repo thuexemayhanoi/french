@@ -1361,7 +1361,7 @@
     },
     {
      "path": "prix-location/50cc-location-scooter-hanoi-prix/index.html",
-     "similarity": 0.08
+     "similarity": 0.11
     }
    ]
   },
@@ -1435,7 +1435,7 @@
      "similarity": 0.29
     },
     {
-     "path": "contact/index.html",
+     "path": "prix-location/50cc-location-scooter-hanoi-prix/index.html",
      "similarity": 0.2
     }
    ]
@@ -1460,8 +1460,8 @@
      "similarity": 0.29
     },
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.23
+     "path": "hanoi/que-faire/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -1527,16 +1527,16 @@
    "parent_hub": "/",
    "closest_pages": [
     {
+     "path": "nord-vietnam/ninh-binh/index.html",
+     "similarity": 0.3
+    },
+    {
      "path": "hanoi/hanoi-a-bat-trang-moto/index.html",
-     "similarity": 0.27
+     "similarity": 0.23
     },
     {
      "path": "hanoi/hanoi-a-ba-vi-moto/index.html",
-     "similarity": 0.27
-    },
-    {
-     "path": "hanoi/red-river-hanoi-itineraire-moto/index.html",
-     "similarity": 0.14
+     "similarity": 0.23
     }
    ]
   },
@@ -1735,8 +1735,8 @@
      "similarity": 0.33
     },
     {
-     "path": "hanoi/excursions-moto/index.html",
-     "similarity": 0.27
+     "path": "hanoi/hanoi-co-loa-moto/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -1760,8 +1760,8 @@
      "similarity": 0.33
     },
     {
-     "path": "hanoi/excursions-moto/index.html",
-     "similarity": 0.27
+     "path": "hanoi/hanoi-co-loa-moto/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -2252,15 +2252,15 @@
    "parent_hub": "/",
    "closest_pages": [
     {
-     "path": "hanoi/que-faire/index.html",
-     "similarity": 0.17
-    },
-    {
-     "path": "types-motos/google-maps-moto-hanoi/index.html",
-     "similarity": 0.12
-    },
-    {
      "path": "hanoi/hanoi-cafes-quartiers-scooter/index.html",
+     "similarity": 0.11
+    },
+    {
+     "path": "hanoi/hanoi-7-jours-itineraire/index.html",
+     "similarity": 0.11
+    },
+    {
+     "path": "hanoi/hanoi-5-jours-itineraire/index.html",
      "similarity": 0.11
     }
    ]
@@ -2553,15 +2553,15 @@
    "closest_pages": [
     {
      "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
-     "similarity": 0.2
+     "similarity": 0.27
     },
     {
-     "path": "hanoi/index.html",
-     "similarity": 0.17
+     "path": "hanoi/hanoi-3-jours-itineraire/index.html",
+     "similarity": 0.25
     },
     {
-     "path": "types-motos/google-maps-moto-hanoi/index.html",
-     "similarity": 0.14
+     "path": "hanoi/hanoi-2-jours-itineraire/index.html",
+     "similarity": 0.21
     }
    ]
   },
@@ -5981,7 +5981,7 @@
      "similarity": 0.17
     },
     {
-     "path": "prix-location/cheap-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/location-moto-retrait-hanoi/index.html",
      "similarity": 0.16
     }
    ]
@@ -6327,11 +6327,11 @@
      "similarity": 0.38
     },
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.27
+     "path": "prix-location/cheap-location-moto-hanoi/index.html",
+     "similarity": 0.3
     },
     {
-     "path": "prix-location/3-jours-location-moto-hanoi-prix/index.html",
+     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
      "similarity": 0.27
     }
    ]
@@ -6356,8 +6356,8 @@
      "similarity": 0.2
     },
     {
-     "path": "prix-location/cheap-location-moto-hanoi/index.html",
-     "similarity": 0.19
+     "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
+     "similarity": 0.18
     }
    ]
   },
@@ -7527,11 +7527,11 @@
      "similarity": 0.3
     },
     {
-     "path": "types-motos/electrique-scooter-hanoi-ninh-binh/index.html",
-     "similarity": 0.22
+     "path": "hanoi/excursions-moto/index.html",
+     "similarity": 0.3
     },
     {
-     "path": "types-motos/50cc-hanoi-a-ninh-binh/index.html",
+     "path": "types-motos/electrique-scooter-hanoi-ninh-binh/index.html",
      "similarity": 0.22
     }
    ]
@@ -7856,7 +7856,7 @@
      "similarity": 0.19
     },
     {
-     "path": "hanoi/semi-automatique-moto-routes-hanoi/index.html",
+     "path": "prix-location/automatique-location-scooter-hanoi-prix/index.html",
      "similarity": 0.18
     }
    ]
@@ -8615,16 +8615,16 @@
    "parent_hub": "/permis-securite/",
    "closest_pages": [
     {
+     "path": "prix-location/cheap-location-moto-hanoi/index.html",
+     "similarity": 0.17
+    },
+    {
      "path": "location-moto-hanoi/location-moto-long-bien/index.html",
      "similarity": 0.17
     },
     {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
      "similarity": 0.15
-    },
-    {
-     "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
-     "similarity": 0.14
     }
    ]
   },
@@ -8969,12 +8969,12 @@
      "similarity": 0.67
     },
     {
-     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
-     "similarity": 0.5
+     "path": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
+     "similarity": 0.55
     },
     {
-     "path": "prix-location/location-moto-ou-grab-hanoi-cout/index.html",
-     "similarity": 0.42
+     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -9007,7 +9007,7 @@
    "path": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
    "url": "https://fr.rentbikehanoi.com/prix-location/30-jours-location-moto-hanoi-cout/",
    "type": "ARTICLE",
-   "primary_query_fr": "trente jours de location de moto à Hanoi",
+   "primary_query_fr": "location de moto 30 jours à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
@@ -9015,16 +9015,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.46
+     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
+     "similarity": 0.6
     },
     {
-     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
-     "similarity": 0.36
+     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
+     "similarity": 0.6
     },
     {
      "path": "prix-location/14-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.33
+     "similarity": 0.55
     }
    ]
   },
@@ -9040,16 +9040,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/prix-location-moto-hanoi/index.html",
+     "path": "yamaha/yamaha-freego-prix-location-hanoi/index.html",
      "similarity": 0.33
     },
     {
-     "path": "yamaha/yamaha-grande-prix-location-hanoi/index.html",
-     "similarity": 0.31
+     "path": "yamaha/yamaha-pg-1-abs-prix-location-hanoi/index.html",
+     "similarity": 0.3
     },
     {
-     "path": "yamaha/yamaha-janus-125-prix-location-hanoi/index.html",
-     "similarity": 0.29
+     "path": "yamaha/yamaha-neo-s-prix-location-hanoi/index.html",
+     "similarity": 0.3
     }
    ]
   },
@@ -9057,7 +9057,7 @@
    "path": "prix-location/50cc-ou-125cc-location-scooter-cout-hanoi/index.html",
    "url": "https://fr.rentbikehanoi.com/prix-location/50cc-ou-125cc-location-scooter-cout-hanoi/",
    "type": "ARTICLE",
-   "primary_query_fr": "50cc ou 125cc",
+   "primary_query_fr": "50cc ou 125cc à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "prix-location/50cc-ou-125cc-location-scooter-cout-hanoi/index.html",
@@ -9065,16 +9065,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/vision-ou-janus-cout-location-hanoi/index.html",
-     "similarity": 0.33
-    },
-    {
      "path": "prix-location/location-moto-ou-taxi-hanoi-cout/index.html",
-     "similarity": 0.33
+     "similarity": 0.44
     },
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.31
+     "path": "prix-location/air-blade-ou-nvx-cout-location-hanoi/index.html",
+     "similarity": 0.4
+    },
+    {
+     "path": "prix-location/location-moto-ou-grab-hanoi-cout/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -9094,12 +9094,12 @@
      "similarity": 0.67
     },
     {
-     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
-     "similarity": 0.56
+     "path": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
+     "similarity": 0.6
     },
     {
-     "path": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.46
+     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
+     "similarity": 0.56
     }
    ]
   },
@@ -9107,7 +9107,7 @@
    "path": "prix-location/abs-location-scooter-hanoi-prix-premium/index.html",
    "url": "https://fr.rentbikehanoi.com/prix-location/abs-location-scooter-hanoi-prix-premium/",
    "type": "ARTICLE",
-   "primary_query_fr": "louer un scooter à ABS à Hanoi",
+   "primary_query_fr": "scooter à ABS en location à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "prix-location/abs-location-scooter-hanoi-prix-premium/index.html",
@@ -9116,15 +9116,15 @@
    "closest_pages": [
     {
      "path": "yamaha/yamaha-pg-1-abs-prix-location-hanoi/index.html",
-     "similarity": 0.38
+     "similarity": 0.3
     },
     {
-     "path": "honda/honda-lead-abs-prix-location-hanoi/index.html",
-     "similarity": 0.33
+     "path": "prix-location/trail-location-moto-vietnam-prix/index.html",
+     "similarity": 0.3
     },
     {
-     "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
-     "similarity": 0.33
+     "path": "prix-location/50cc-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -9141,15 +9141,15 @@
    "closest_pages": [
     {
      "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
-     "similarity": 0.42
+     "similarity": 0.45
     },
     {
      "path": "honda/honda-air-blade-160-ou-yamaha-nvx-155-location/index.html",
-     "similarity": 0.42
+     "similarity": 0.45
     },
     {
      "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
-     "similarity": 0.42
+     "similarity": 0.45
     }
    ]
   },
@@ -9166,15 +9166,15 @@
    "closest_pages": [
     {
      "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
-     "similarity": 0.45
+     "similarity": 0.56
     },
     {
      "path": "yamaha/yamaha-freego-prix-location-hanoi/index.html",
-     "similarity": 0.3
+     "similarity": 0.38
     },
     {
      "path": "yamaha/yamaha-pg-1-abs-prix-location-hanoi/index.html",
-     "similarity": 0.27
+     "similarity": 0.33
     }
    ]
   },
@@ -9190,16 +9190,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "location-moto-hanoi/choisir-location-moto-hanoi/index.html",
-     "similarity": 0.23
+     "path": "location-moto-hanoi/same-jour-location-moto-hanoi/index.html",
+     "similarity": 0.3
     },
     {
-     "path": "location-moto-hanoi/solo-voyage-hanoi-location-moto/index.html",
-     "similarity": 0.19
+     "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
+     "similarity": 0.27
     },
     {
-     "path": "location-moto-hanoi/location-moto-hanoi-pour-tourists/index.html",
-     "similarity": 0.17
+     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -9248,8 +9248,8 @@
      "similarity": 0.46
     },
     {
-     "path": "prix-location/50cc-ou-125cc-location-scooter-cout-hanoi/index.html",
-     "similarity": 0.25
+     "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.24
     }
    ]
   },
@@ -9916,7 +9916,7 @@
    "closest_pages": [
     {
      "path": "prix-location/automatique-location-scooter-hanoi-prix/index.html",
-     "similarity": 0.45
+     "similarity": 0.56
     },
     {
      "path": "prix-location/prix-location-moto-hanoi/index.html",
@@ -9940,16 +9940,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
+     "path": "prix-location/abs-location-scooter-hanoi-prix-premium/index.html",
+     "similarity": 0.3
+    },
+    {
      "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
      "similarity": 0.25
     },
     {
      "path": "honda/honda-icon-e-prix-location-hanoi/index.html",
      "similarity": 0.25
-    },
-    {
-     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
-     "similarity": 0.23
     }
    ]
   },
@@ -9965,16 +9965,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
+     "path": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
+     "similarity": 0.6
+    },
+    {
      "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
      "similarity": 0.56
     },
     {
      "path": "prix-location/14-jours-location-moto-hanoi-cout/index.html",
      "similarity": 0.5
-    },
-    {
-     "path": "prix-location/location-moto-ou-grab-hanoi-cout/index.html",
-     "similarity": 0.45
     }
    ]
   },
@@ -10040,15 +10040,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "prix-location/50cc-ou-125cc-location-scooter-cout-hanoi/index.html",
+     "similarity": 0.22
+    },
+    {
      "path": "types-motos/125cc-ou-160cc-scooter-vietnam/index.html",
      "similarity": 0.2
     },
     {
      "path": "yamaha/yamaha-neo-s-location-hanoi/index.html",
-     "similarity": 0.17
-    },
-    {
-     "path": "yamaha/yamaha-grande-location-hanoi/index.html",
      "similarity": 0.17
     }
    ]
@@ -10169,12 +10169,12 @@
      "similarity": 0.21
     },
     {
-     "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
+     "path": "hanoi/que-faire/index.html",
      "similarity": 0.2
     },
     {
-     "path": "types-motos/50cc-scooter-deux-personnes-vietnam/index.html",
-     "similarity": 0.18
+     "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -10316,7 +10316,7 @@
    "closest_pages": [
     {
      "path": "prix-location/air-blade-ou-nvx-cout-location-hanoi/index.html",
-     "similarity": 0.4
+     "similarity": 0.44
     },
     {
      "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
@@ -10619,12 +10619,12 @@
      "similarity": 0.33
     },
     {
-     "path": "hanoi/que-faire/index.html",
-     "similarity": 0.14
-    },
-    {
      "path": "permis-securite/moto-pluie-securite-vietnam/index.html",
      "similarity": 0.13
+    },
+    {
+     "path": "permis-securite/crevaison-pneu-ha-giang-moto/index.html",
+     "similarity": 0.11
     }
    ]
   },
@@ -10965,15 +10965,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "hanoi/que-faire/index.html",
+     "similarity": 0.11
+    },
+    {
      "path": "types-motos/50cc-scooter-deux-personnes-vietnam/index.html",
      "similarity": 0.1
     },
     {
      "path": "types-motos/scooter-pour-grand-gabarit-conducteur-vietnam/index.html",
-     "similarity": 0.09
-    },
-    {
-     "path": "types-motos/50cc-ou-110cc-scooter-vietnam/index.html",
      "similarity": 0.09
     }
    ]
@@ -11094,11 +11094,11 @@
      "similarity": 0.33
     },
     {
-     "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
-     "similarity": 0.22
+     "path": "prix-location/automatique-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.29
     },
     {
-     "path": "prix-location/automatique-location-scooter-hanoi-prix/index.html",
+     "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
      "similarity": 0.22
     }
    ]
@@ -11215,15 +11215,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "hanoi/que-faire/index.html",
+     "similarity": 0.2
+    },
+    {
      "path": "types-motos/50cc-ou-110cc-scooter-vietnam/index.html",
      "similarity": 0.17
     },
     {
      "path": "types-motos/scooter-pour-deux-personnes-hanoi/index.html",
-     "similarity": 0.15
-    },
-    {
-     "path": "location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/index.html",
      "similarity": 0.15
     }
    ]
