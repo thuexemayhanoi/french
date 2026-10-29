@@ -85,5 +85,12 @@
     "email/other official website/social URLs",
     "privacy/cookie/retention practices",
     "real biographies/reviews/experience"
-  ]
+  ],
+  "postal_address": {
+    "street": "Ngõ 5 Nguyễn Văn Cừ",
+    "ward": "Bồ Đề",
+    "district": "Long Biên",
+    "city": "Hà Nội",
+    "country": "Việt Nam"
+  }
 }

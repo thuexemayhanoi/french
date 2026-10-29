@@ -20,3 +20,7 @@ Tool-only obstacle: the initial Figma/Canva quota block belongs to `G18` and `da
 For new gaps append: exact URL(s)/task ID, unknown claim, source checked, safe change already made, impact, and what factual answer would resolve it. Use `DEFERRED_OWNER` only for the smallest dependent checkpoint. Do not mark other dimensions DONE merely because one fact is deferred.
 
 At final reporting, list confirmed facts already implemented, work completed without access, and this remaining appendix. Do not interrupt matrix execution with routine questions.
+
+## Safe interim changes completed — 2026-10-29
+
+O01/O02: fixed deposit/passport and 800,000 VND delivery claims removed from inspected business statements; no replacement policy invented. Broader qualitative claims still require review. O03/O04: old CID/email/other business website removed from active shared entity/Contact output; generic exact-address map search used instead. No owner question is being raised during this batch.

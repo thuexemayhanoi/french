@@ -56,3 +56,5 @@ node scripts/qa-shared.mjs
 ```
 
 Completion requires per-URL evidence and completed applicable sitewide tasks. Report finished, pending, tool-blocked and owner-deferred work separately. Never set every row DONE simply because these mechanical checks pass.
+
+Confirmed business edits use `data/seo-business-facts.json`; run `node tools/sync-business-facts.mjs` after a justified facts update, and `node tools/sync-business-facts.mjs --check` before validation. See `docs/SEO-P0-2026-10-29.md` for implemented shared footer/schema and current remaining work.

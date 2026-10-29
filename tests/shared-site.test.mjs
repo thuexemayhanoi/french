@@ -42,3 +42,29 @@ test('assistant replies use central hours, address, reference rates and deposit 
  assert.ok(answer('Prix 50cc').includes('200'));
  assert.ok(!answer('Livraison').includes('800'));
 });
+test('confirmed identity reaches the rendered footer and linked schema without legacy identifiers',()=>{
+ const facts=JSON.parse(fs.readFileSync('data/seo-business-facts.json','utf8'));
+ for(const file of samples){
+  const route=file==='index.html'?'/':'/'+file.replace(/index\.html$/,'');
+  const html=renderPage(fs.readFileSync(file,'utf8'),route,site);
+  const graph=JSON.parse(html.match(/<script type="application\/ld\+json" data-site-schema="1">([\s\S]*?)<\/script>/)[1])['@graph'];
+  const business=graph.find(n=>n['@type']==='LocalBusiness'),website=graph.find(n=>n['@type']==='WebSite');
+  assert.equal(business.name,facts.name);assert.equal(business.telephone,facts.phone_e164);
+  assert.equal(website.publisher['@id'],business['@id']);
+  assert.ok(!Object.hasOwn(business,'email'));assert.ok(!Object.hasOwn(business,'geo'));assert.ok(!Object.hasOwn(business,'sameAs'));
+  assert.ok(html.includes(facts.address));assert.ok(html.includes('tel:'+facts.phone_e164));
+  assert.ok(!html.includes('mailto:null'));assert.ok(!html.includes('7448790013669858019'));
+ }
+});
+test('assistant respects model-specific reference rates and never invents an electric daily price',async()=>{
+ const {default:vm}=await import('node:vm');
+ const context=vm.createContext({window:{SITE_CONFIG:site.config},document:{readyState:'loading',addEventListener(){}}});
+ const source=fs.readFileSync('assets/js/assistant.js','utf8').replace('if(document.readyState===','window.testFixedAnswer=fixedAnswer;\nif(document.readyState===');
+ vm.runInContext(source,context);const answer=context.window.testFixedAnswer;
+ const digits=q=>answer(q).replace(/[\s\u00a0\u202f]/g,'');
+ assert.ok(digits('Prix Air Blade semaine').includes('900000'));
+ assert.ok(digits('Prix Vision mois').includes('2000000'));
+ assert.ok(digits('Prix 50cc semaine').includes('1000000'));
+ assert.ok(answer('Prix scooter électrique par jour').includes('selon le modèle, à confirmer'));
+ assert.ok(!/\d/.test(answer('Quel dépôt ?')));
+});

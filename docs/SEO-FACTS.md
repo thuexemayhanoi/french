@@ -41,3 +41,7 @@ Do not mass-substitute a number without reading its context. An itinerary budget
 Deposits/guarantees, passport handling, refund timelines, delivery zones/fees, inclusions, actual available fleet, booking/payment methods, insurance, real team biographies/reviews, exact map identity, email and data-retention/cookie practices have **not** been confirmed by the current owner instructions. Keep a specific verification item in `docs/SEO-OWNER-VERIFY-LAST.md`; remove unsupported promises or use conditional language. Research current driving/licence/road rules from official sources and date the check; this is research work, not automatically a reason to ask the owner.
 
 Never invent legal clauses, customers, years of experience, staff names, author credentials, original photographs or stock availability to satisfy SEO. An AI illustration remains an illustration.
+
+## Implementation checkpoint — 2026-10-29
+
+The first P0 batch applied these facts to the shared browser config, all 543 built footers/schema graphs, corrected source-page identity blocks and rewritten homepage/pricing/FAQ/Contact. Run `node tools/sync-business-facts.mjs` after an authorized facts update; `--check` detects drift. Email and Maps identity remain unconfirmed and are omitted from active entity identifiers; the map link only searches the confirmed text address. See `SEO-P0-2026-10-29.md`.

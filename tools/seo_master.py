@@ -132,6 +132,19 @@ def snapshot():
     policy = read('data/seo-master-policy.json')
     old = read('data/seo-master-matrix.json') if MATRIX.exists() else {}
     previous = {x['path']: x for x in old.get('pages', [])}
+    dependency_groups = {
+        'SCHEMA': ['assets/js/site-config.js', 'assets/js/components.js', 'tools/shared-site.mjs'],
+        'TECHNICAL': ['CNAME', 'robots.txt', 'sitemap.xml', 'tools/build-site.mjs', 'tools/shared-site.mjs', 'site/templates/layout.html'],
+    }
+    shared_inputs = {}
+    for dimension, files in dependency_groups.items():
+        digest = hashlib.sha256()
+        for file in files:
+            digest.update(file.encode())
+            digest.update((ROOT / file).read_bytes())
+        shared_inputs[dimension] = digest.hexdigest()
+    changed_shared = {key for key, value in shared_inputs.items()
+                      if old.get('shared_input_sha256', {}).get(key) not in {None, value}}
     foundations = {x['path']: x for x in read('data/seo-cluster-matrix.json')['pages']}
     with (ROOT / 'data/content-matrix.csv').open(newline='') as fh:
         articles = {x['path']: x for x in csv.DictReader(fh) if x['path']}
@@ -191,7 +204,16 @@ def snapshot():
         flags = []
         if re.search(r'Nguy[eễ]n\s*T[uú]|0942[ .]?467[ .]?674|84942467674|112\s+(?:Nguy|Nguyễ)|21:30', source, re.I):
             flags.append('LEGACY_BUSINESS_FACTS')
-        if re.search(r'4[ .\u00a0]?000[ .\u00a0]?000|800[ .\u00a0]?000|passeport comme alternative', source, re.I):
+        # Approved weekly ranges now include 800,000 VND. Only flag that number
+        # inside a delivery paragraph, not anywhere on a legitimate rate table.
+        policy_risk = False
+        for chunks in page.paragraphs:
+            text = clean(' '.join(chunks))
+            if re.search(r'4[ .\u00a0]?000[ .\u00a0]?000', text):
+                policy_risk = True
+            if re.search(r'800[ .\u00a0]?000', text) and re.search(r'livraison|récupération', text, re.I):
+                policy_risk = True
+        if policy_risk:
             flags.append('UNCONFIRMED_POLICY_OR_PRICE_CONTEXT')
         if repeated_hits:
             flags.append('REPEATED_EDITORIAL_PARAGRAPHS')
@@ -213,6 +235,9 @@ def snapshot():
         if set(flags) & {'CANONICAL_MISMATCH', 'HEAD_OR_H1_ISSUE', 'LEGACY_BUSINESS_FACTS', 'UNCONFIRMED_POLICY_OR_PRICE_CONTEXT'}:
             priority = 'P0'
         checks = old_row.get('checks', ledger_statuses(policy))
+        for dimension in changed_shared:
+            if checks[dimension]['status'] == 'DONE':
+                checks[dimension].update(status='TODO', evidence='', reopen_reason='Shared input changed after verification')
         if old_row.get('baseline', {}).get('source_sha256') not in {None, source_hash}:
             for check in checks.values():
                 if check['status'] == 'DONE':
@@ -253,6 +278,11 @@ def snapshot():
             'notes': old_row.get('notes', ''),
         }
         pages.append(row)
+    global_tasks = old.get('global_tasks', policy['global_tasks'])
+    for task in global_tasks:
+        dependent = ('SCHEMA' in changed_shared and task['id'] == 'G12') or ('TECHNICAL' in changed_shared and task['id'] in {'G03', 'G23', 'G24'})
+        if dependent and task['status'] == 'DONE':
+            task.update(status='TODO', evidence='', reopen_reason='Shared input changed after verification')
     result = {
         'schema_version': 1, 'project': 'French site SEO + AEO + GEO, existing URLs only',
         'domain': DOMAIN, 'created_at': old.get('created_at', '2026-10-29'),
@@ -260,8 +290,9 @@ def snapshot():
         'authority': 'AGENTS.md > docs/SEO-MASTER-PLAN.md > this ledger; owner-provided facts override older repository facts',
         'measurement_scope': 'Local source and built HTML audit only. Live HTTP, Google indexing/rankings, CWV and account data not inferred.',
         'policy_file': 'data/seo-master-policy.json',
+        'shared_input_sha256': shared_inputs,
         'expected_inventory': {'indexable_pages': 543, 'articles': 500, 'foundation_including_home': 43, 'redirects': 4, 'image_assets': 547},
-        'global_tasks': old.get('global_tasks', policy['global_tasks']),
+        'global_tasks': global_tasks,
         'pages': pages, 'redirects': redirects,
         'duplicate_paragraph_groups': [{'pages': len(paths), 'example': para[:240], 'example_paths': sorted(paths)[:3]}
                                       for para, paths in sorted(repeated.items(), key=lambda x: (-len(x[1]), x[0]))[:20]],

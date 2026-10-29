@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "scope": "43 existing foundation pages: SEO content, metadata, topical clusters, internal links, canonical, breadcrumbs, schema and sitemap mapping",
+  "scope": "Foundation component metadata/link mapping; full-site task progress is data/seo-master-matrix.json",
   "rules": {
     "one_primary_intent_per_url": true,
     "foundation_content_words": "1500-3000 except /contact/",
@@ -41,8 +41,8 @@
       ],
       "link_policy": "parent/sibling/supporting links must stay contextual",
       "status": "APPLIED_EXISTING",
-      "seo_title": "Location moto Hanoi & scooter | Nguyen Tu",
-      "meta_description": "Location de moto et scooter à Hanoi avec Nguyen Tu : 50cc, Honda, Yamaha, prix, permis, quartiers et itinéraires au Vietnam.",
+      "seo_title": "Location moto Hanoi : tarifs et contact | Nguyễn Hà",
+      "meta_description": "Louez une moto ou un scooter à Hanoi avec Thuê xe máy Nguyễn Hà. Tarifs indicatifs jour, semaine et mois, contact et retrait à Long Biên.",
       "h1": "Location de moto et scooter à Hanoi",
       "meta_status": "APPLIED",
       "canonical": "https://fr.rentbikehanoi.com/",
@@ -62,14 +62,14 @@
       "path": "/a-propos/",
       "role": "support",
       "cluster": "brand",
-      "primary_keyword": "nguyen tu location moto hanoi",
+      "primary_keyword": "Thuê xe máy Nguyễn Hà Hanoi",
       "secondary_terms": [
         "à propos location moto hanoi",
         "loueur moto long bien"
       ],
       "intent": "Navigationnel + confiance",
       "priority": "P1",
-      "word_range": "1500-3000",
+      "word_range": "800–1600 verified words where useful",
       "required_internal_links": [
         "/contact/",
         "/faq/",
@@ -78,9 +78,9 @@
       ],
       "link_policy": "parent/sibling/supporting links must stay contextual",
       "status": "APPLIED_EXISTING",
-      "seo_title": "Nguyen Tu | Location moto Hanoi, Long Bien",
-      "meta_description": "Découvrez Nguyen Tu, service local de location de moto à Long Bien, Hanoi : expérience, adresse, méthode, conseils et organisation du site.",
-      "h1": "À propos de Nguyen Tu à Hanoi",
+      "seo_title": "Thuê xe máy Nguyễn Hà | Location moto Hanoi, Long Bien",
+      "meta_description": "Découvrez Thuê xe máy Nguyễn Hà, service local de location de moto à Long Bien, Hanoi : expérience, adresse, méthode, conseils et organisation du site.",
+      "h1": "À propos de Thuê xe máy Nguyễn Hà à Hanoi",
       "meta_status": "APPLIED",
       "canonical": "https://fr.rentbikehanoi.com/a-propos/",
       "schema_type": "AboutPage",
@@ -90,7 +90,7 @@
           "url": "/"
         },
         {
-          "name": "À propos de Nguyen Tu à Hanoi",
+          "name": "À propos de Thuê xe máy Nguyễn Hà à Hanoi",
           "url": "/a-propos/"
         }
       ],
@@ -152,7 +152,7 @@
       ],
       "intent": "Informationnel / AI search",
       "priority": "P0",
-      "word_range": "1500-3000",
+      "word_range": "15–20 useful answers; no padding",
       "required_internal_links": [
         "/prix-location/",
         "/types-motos/",
@@ -161,9 +161,9 @@
       ],
       "link_policy": "parent/sibling/supporting links must stay contextual",
       "status": "APPLIED_EXISTING",
-      "seo_title": "FAQ location moto Hanoi | Prix, permis & dépôt",
-      "meta_description": "20 réponses utiles sur la location de moto à Hanoi : prix 50cc, dépôt, passeport, durée, modèles, permis, sécurité et voyages.",
-      "h1": "20 questions sur la location de moto à Hanoi",
+      "seo_title": "FAQ location moto Hanoi : prix et conditions | Nguyễn Hà",
+      "meta_description": "20 réponses pour louer à Hanoi : prix jour, semaine et mois, Vision, Air Blade, 50cc, électrique, adresse, horaires et conditions à confirmer.",
+      "h1": "FAQ : louer une moto ou un scooter à Hanoi",
       "meta_status": "APPLIED",
       "canonical": "https://fr.rentbikehanoi.com/faq/",
       "schema_type": "FAQPage",
@@ -173,7 +173,7 @@
           "url": "/"
         },
         {
-          "name": "20 questions sur la location de moto à Hanoi",
+          "name": "FAQ : louer une moto ou un scooter à Hanoi",
           "url": "/faq/"
         }
       ],
@@ -186,7 +186,7 @@
       "path": "/contact/",
       "role": "support",
       "cluster": "brand",
-      "primary_keyword": "contact location moto hanoi",
+      "primary_keyword": "contact Thuê xe máy Nguyễn Hà",
       "secondary_terms": [
         "location moto long bien contact",
         "louer scooter hanoi contact"
@@ -197,9 +197,9 @@
       "required_internal_links": [],
       "link_policy": "support-page; no long-form requirement",
       "status": "APPLIED_EXISTING",
-      "seo_title": "Contact location moto Hanoi | Nguyen Tu",
-      "meta_description": "Contactez Nguyen Tu pour une location de moto à Hanoi : téléphone, email, adresse à Long Bien et horaires habituels de 09:00 à 21:30.",
-      "h1": "Contact location moto Hanoi",
+      "seo_title": "Contact location moto Hanoi | Thuê xe máy Nguyễn Hà",
+      "meta_description": "Contactez Thuê xe máy Nguyễn Hà : 0334 699 969, Zalo et WhatsApp. Ngõ 5 Nguyễn Văn Cừ, Long Biên, Hanoi. Ouvert de 09:00 à 21:00 tous les jours.",
+      "h1": "Contacter Thuê xe máy Nguyễn Hà à Hanoi",
       "meta_status": "APPLIED",
       "canonical": "https://fr.rentbikehanoi.com/contact/",
       "schema_type": "ContactPage",
@@ -209,7 +209,7 @@
           "url": "/"
         },
         {
-          "name": "Contact location moto Hanoi",
+          "name": "Contacter Thuê xe máy Nguyễn Hà à Hanoi",
           "url": "/contact/"
         }
       ],
@@ -228,7 +228,7 @@
       ],
       "intent": "Navigationnel / confiance",
       "priority": "P2",
-      "word_range": "1500-3000",
+      "word_range": "actual practices; no word quota",
       "required_internal_links": [
         "/contact/",
         "/conditions/",
@@ -236,7 +236,7 @@
       ],
       "link_policy": "parent/sibling/supporting links must stay contextual",
       "status": "APPLIED_EXISTING",
-      "seo_title": "Politique de confidentialité | Nguyen Tu",
+      "seo_title": "Politique de confidentialité | Thuê xe máy Nguyễn Hà",
       "meta_description": "Politique de confidentialité de fr.rentbikehanoi.com : données fournies, données techniques, contact, conservation, sécurité et droits.",
       "h1": "Politique de confidentialité",
       "meta_status": "APPLIED",
@@ -268,7 +268,7 @@
       ],
       "intent": "Navigationnel / confiance",
       "priority": "P1",
-      "word_range": "1500-3000",
+      "word_range": "actual practices; no word quota",
       "required_internal_links": [
         "/confidentialite/",
         "/contact/",
@@ -1129,9 +1129,9 @@
       ],
       "link_policy": "parent/sibling/supporting links must stay contextual",
       "status": "APPLIED_EXISTING",
-      "seo_title": "Prix location moto Hanoi | Jour, semaine & mois",
-      "meta_description": "Prix de location moto à Hanoi : tarifs par jour, semaine et mois, dépôt, livraison, carburant, entretien et coût total selon le véhicule.",
-      "h1": "Prix de location de moto à Hanoi",
+      "seo_title": "Prix location moto Hanoi : jour, semaine et mois | Nguyễn Hà",
+      "meta_description": "Tarifs indicatifs à Hanoi : motos, scooters, 50cc, électrique, Vision et Air Blade par jour, semaine ou mois. À confirmer avant réservation.",
+      "h1": "Prix de location de moto et scooter à Hanoi",
       "meta_status": "APPLIED",
       "canonical": "https://fr.rentbikehanoi.com/prix-location/",
       "schema_type": "CollectionPage",
@@ -1141,7 +1141,7 @@
           "url": "/"
         },
         {
-          "name": "Prix de location de moto à Hanoi",
+          "name": "Prix de location de moto et scooter à Hanoi",
           "url": "/prix-location/"
         }
       ],

@@ -57,6 +57,13 @@ for(const p of ["data/source-plan.part1.b64","data/source-plan.part2.b64","data/
 if(!fs.readFileSync("assets/js/components.js","utf8").includes('dataset.pageType==="article"'))err.push("article schema support missing");
 const cfgSrc=fs.readFileSync("assets/js/site-config.js","utf8");
 const siteConfig=loadSite().config;
+const businessFacts=JSON.parse(fs.readFileSync('data/seo-business-facts.json','utf8'));
+if(siteConfig.businessName!==businessFacts.name||siteConfig.siteName!==businessFacts.name||siteConfig.phone!==businessFacts.phone_e164||siteConfig.phoneDisplay!==businessFacts.phone_display||siteConfig.standardAddress!==businessFacts.address)err.push('confirmed business facts/config drift; run node tools/sync-business-facts.mjs');
+if(siteConfig.hours.open!==businessFacts.hours.open||siteConfig.hours.close!==businessFacts.hours.close)err.push('confirmed business hours drift');
+const referenceRates={semiAutomatic:businessFacts.reference_prices.semi_automatic,scooter:businessFacts.reference_prices.automatic_scooter,vision:businessFacts.reference_prices.vision,scooter50cc:businessFacts.reference_prices.scooter_50cc,electric:businessFacts.reference_prices.electric};
+for(const [key,value] of Object.entries(referenceRates))if(JSON.stringify(siteConfig.rental.prices[key])!==JSON.stringify(value))err.push('confirmed reference rates drift: '+key);
+for(const period of ['daily','weekly','monthly'])if(siteConfig.rental.prices.airBlade[period]!==businessFacts.reference_prices.air_blade[period])err.push('confirmed Air Blade rate drift: '+period);
+if(siteConfig.rental.depositMin!=null||siteConfig.rental.depositMax!=null||Object.values(siteConfig.rental.prices).some(x=>x.deposit!=null))err.push('unconfirmed fixed deposit in business config');
 if(typeof siteConfig.featureFlags.quickContact!=="boolean"||typeof siteConfig.featureFlags.localChatbot!=="boolean")err.push("floating feature flags missing");
 if(!siteConfig.contacts.whatsapp||!siteConfig.contacts.zalo||!siteConfig.contacts.maps)err.push("quick contact targets missing");
 if(siteConfig.domain!==cfg.production_domain)err.push("factory and site production domain differ");

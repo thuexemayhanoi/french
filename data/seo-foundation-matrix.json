@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "scope": "43 foundation pages audited; 42 non-contact pages expanded to 1500-3000 words before the 500-article factory",
+  "scope": "Foundation component history synchronized with owner facts/metadata; full-site progress is in seo-master-matrix.json",
   "rules": {
     "one_primary_intent_per_url": true,
     "broad_hubs_own_broad_queries": true,
@@ -33,7 +33,7 @@
       "page_type": "Trust",
       "silo": "Brand",
       "current_words": 1759,
-      "primary_keyword_fr": "nguyen tu location moto hanoi",
+      "primary_keyword_fr": "Thuê xe máy Nguyễn Hà Hanoi",
       "secondary_terms": "à propos location moto hanoi; loueur moto long bien",
       "intent": "Navigationnel + confiance",
       "target_words": null,
@@ -78,7 +78,7 @@
       "page_type": "Trust",
       "silo": "Brand",
       "current_words": 15,
-      "primary_keyword_fr": "contact location moto hanoi",
+      "primary_keyword_fr": "contact Thuê xe máy Nguyễn Hà",
       "secondary_terms": "location moto long bien contact; louer scooter hanoi contact",
       "intent": "Navigationnel / local",
       "target_words": 450,

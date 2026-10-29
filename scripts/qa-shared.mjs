@@ -20,6 +20,9 @@ for(const file of files){if(!file.endsWith('.html'))continue;run(file,()=>{
  assert.deepEqual(metadata(built),metadata(source),'SEO metadata changed');
  assert.equal((built.match(/<h1\b/gi)||[]).length,1,'H1 count');
  assert.ok(/data-shared-built="1"/.test(built),'build marker missing');
+ assert.ok(built.includes('<footer class="site-footer">'),'shared footer missing');
+ assert.ok(built.includes(config.standardAddress),'confirmed address missing from built page');
+ assert.ok(built.includes('tel:'+config.phone),'confirmed telephone missing from built page');
  assert.ok(/src="\/assets\/js\/components\.js/.test(built),'runtime component bootstrap missing');
  assert.ok(!/data-(?:site-header|site-footer|global-cta|related|breadcrumbs)"(?=>)/.test(built),'malformed shared hook');
  const schemaMatches=[...built.matchAll(/<script type="application\/ld\+json" data-site-schema="1">([\s\S]*?)<\/script>/g)];
@@ -28,6 +31,12 @@ for(const file of files){if(!file.endsWith('.html'))continue;run(file,()=>{
  const business=graph.find(n=>n['@type']==='LocalBusiness');
  assert.equal(business.telephone,config.phone);assert.equal(business.openingHoursSpecification[0].closes,config.hours.close);
  assert.equal(business.name,config.businessName||config.siteName);
+ const website=graph.find(n=>n['@type']==='WebSite');
+ assert.equal(website['@id'],config.domain+'/#website');assert.equal(website.publisher['@id'],business['@id']);
+ assert.equal(graph[1].publisher['@id'],business['@id']);assert.equal(graph[1].isPartOf['@id'],website['@id']);
+ const ids=graph.map(n=>n['@id']).filter(Boolean);assert.equal(new Set(ids).size,ids.length,'duplicate schema entity id');
+ assert.ok(!Object.hasOwn(business,'geo')&&!Object.hasOwn(business,'sameAs'),'unverified business identifier');
+ if(!config.email)assert.ok(!Object.hasOwn(business,'email'),'unconfirmed business email');
  for(const faq of graph.filter(n=>n['@type']==='FAQPage'))assert.ok(faq.mainEntity?.length,'empty FAQ schema');}
  for(const m of built.matchAll(/(?:href|src)="(\/[^"?#]*)(?:[^"\s]*)"/g)){
    const route=m[1];assert.ok(fs.existsSync(path.join(out,route.slice(1))), 'broken local resource '+route);

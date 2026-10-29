@@ -15,6 +15,9 @@ export function loadSite(root=process.cwd()){
 const attributes=html=>Object.fromEntries([...html.matchAll(/([\w:-]+)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+)))?/g)].map(m=>[m[1],textContent(m[2]??m[3]??m[4]??'')]));
 const selectorAttributes={'[data-site-header]':'data-site-header','[data-site-footer]':'data-site-footer','[data-global-cta]':'data-global-cta','[data-related]':'data-related','[data-breadcrumbs]':'data-breadcrumbs','[data-silo-grid]':'data-silo-grid','[data-child-grid]':'data-child-grid'};
 export function renderPage(html,route,site,{year=new Date().getUTCFullYear()}={}){
+  // Legacy factory articles omit this hook. Add it outside editorial HTML so
+  // every built page receives the same confirmed business footer.
+  if(!/<div\b[^>]*\bdata-site-footer\b/i.test(html))html=html.replace(/<\/main>/i,'</main><div data-site-footer></div>');
   const patches=[],nodes=[];
   for(const m of html.matchAll(/<div\b([^>]*\bdata-(?:site-header|site-footer|global-cta|related|breadcrumbs|silo-grid|child-grid)\b[^>]*)>\s*<\/div>/g)){
     const attrs=attributes(m[1]);
