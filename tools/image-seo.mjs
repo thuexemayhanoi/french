@@ -57,7 +57,10 @@ function finished(it) {
 function inject(html,it) {
   const blockStart=markStart(it),blockEnd=markEnd(it);
   const lazy=it.type==='EXTRA';
-  const snippet=blockStart+'\n<figure class="seo-image" data-image-seo-id="'+esc(it.id)+'"><img src="/'+esc(it.asset_path)+'" alt="'+esc(it.alt_fr)+'" width="'+it.target_width+'" height="'+it.target_height+'" loading="'+(lazy?'lazy':'eager')+'" decoding="async"'+(lazy?'':' fetchpriority="high"')+'></figure>\n'+blockEnd;
+  // Responsive 800px derivative (tools/image_variants.py, task G20); the 1200px master stays src/og:image.
+  const variant=it.asset_path.replace(/\.webp$/,'-800.webp');
+  const srcset=fs.existsSync(disk(variant))?' srcset="/'+esc(variant)+' 800w, /'+esc(it.asset_path)+' '+it.target_width+'w" sizes="(max-width: 960px) 100vw, 920px"':'';
+  const snippet=blockStart+'\n<figure class="seo-image" data-image-seo-id="'+esc(it.id)+'"><img src="/'+esc(it.asset_path)+'" alt="'+esc(it.alt_fr)+'"'+srcset+' width="'+it.target_width+'" height="'+it.target_height+'" loading="'+(lazy?'lazy':'eager')+'" decoding="async"'+(lazy?'':' fetchpriority="high"')+'></figure>\n'+blockEnd;
   if(html.includes(blockStart)) {
     const a=html.indexOf(blockStart),b=html.indexOf(blockEnd,a);
     if(b<0)throw Error('Missing image end marker in '+it.page_path);
@@ -123,6 +126,15 @@ else if(command==='next') {
   fs.writeFileSync(file,JSON.stringify(matrix,null,2)+'\n');
   console.log(JSON.stringify({applied_or_marked_done:changed,skipped},null,2));
   status();
+} else if(command==='refresh-markup') {
+  // Re-render every integrated block/meta (e.g. after adding responsive derivatives); idempotent.
+  let changed=0;
+  for(const it of items) {
+    if(!verifyImage(it).ok)continue;
+    const dest=pageFile(it.page_path),old=fs.readFileSync(dest,'utf8'),next=inject(old,it);
+    if(next!==old){fs.writeFileSync(dest,next);changed++;}
+  }
+  console.log(JSON.stringify({refreshed:changed}));
 } else if(command==='check') {
   const problems=[];
   const seen=new Set();

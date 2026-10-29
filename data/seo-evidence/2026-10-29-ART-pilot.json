@@ -1,0 +1,170 @@
+[
+ {
+  "path": "location-moto-hanoi/same-jour-location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Can I rent a motorbike in Hanoi the same day, and how do I do it without wasting the day?",
+  "new_meta": {
+   "title": "Louer une moto à Hanoi le jour même : étapes et vérifications",
+   "description": "Louer une moto à Hanoi le jour même : quoi demander par message, quels papiers préparer, comment inspecter vite la moto et que faire si rien n’est libre.",
+   "h1": "Louer une moto à Hanoi le jour même : étapes et vérifications"
+  },
+  "evidence": {
+   "FACTS": "NAP and hours exactly from SEO-FACTS (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội, near Bến xe Gia Lâm; 9 h–21 h daily; 0334 699 969 / +84 334 699 969 via phone/Zalo/WhatsApp). Day-rate table uses owner rows only (semi-auto and xe ga 150 000–200 000; 50cc, Vision, Air Blade 200 000; electric 'selon le modèle, à confirmer') with the exact disclaimer; no multiplication, told to ask total for multi-day. Removed: 'le dépôt qui se compte en billets prêts', 'au montant qui se fixe à la boutique' and unqualified hotel delivery ('déplace le comptoir à la porte'). Deposit/passport now generic market practice + confirm in writing (O01); delivery explicitly 'pas confirmé ici' (O02). Licence: no blanket rule, 'dépend de votre nationalité, catégorie et moto'. Availability never promised. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+   "INTENT": "Owner of 'louer une moto à Hanoi le jour même'. Closest page location-moto-hanoi/1-jour-location-moto-hanoi (what to ride/where for a 1-day rental) is linked once; this page covers short-notice process: availability by message, pickup timing vs 09:00–21:00 hours, papers, fast inspection, plan B.",
+   "CONTENT": "Full rewrite of all prose (every section was chains of 'qui se…' relatives). New sections: what makes same-day possible (+shop NAP/hours), message checklist (what to state / what to ask), choosing pickup time (rush hours, closing time margin, Red River crossing from Vieux Quartier, rainy season), papers and caution, 8-row inspection table, day-price table, plan B (other category/hour/next morning/other renter, qualified delivery). FAQ 7→5 real questions. Words 1799→2004. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+   "META": "Title/H1 changed from 'la méthode rapide' (vague) to 'étapes et vérifications' (61 chars); description rewritten (177→153 chars, was mannered and over length); og:title/og:description synced; eyebrow 'Location le jour même'.",
+   "LINKS": "7/7 unique: /location-moto-hanoi/ (parent hub, required), /prix-location/ and /types-motos/ (required), 1-jour-location-moto-hanoi, location-moto-inspection-liste-controle, location-moto-retrait-hanoi (added), moto-livraison-hotel-hanoi (kept with qualification); removed location-moto-pres-de-moi to stay within cap.",
+   "AEO_GEO": "Lead answers 'oui, généralement' + method in 3 sentences; 2 checklists, inspection table, price table with disclaimer; 5 FAQ; no external citation needed (no precise legal claim)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "O01: actual deposit/guarantee form and amount, whether the shop keeps or accepts a passport (or a copy/other ID), refund timing and retention rules — no shop policy stated; readers told to confirm in writing before booking.",
+   "O02: hotel delivery availability, zones, cost and hours — presented only as a question to ask.",
+   "Whether a test ride is allowed, which helmets/sizes and poncho are supplied, and which vehicle papers stay with the renter — phrased as questions."
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/courte-duree-location-moto-hanoi/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "How do I organise a 24, 48 or 72-hour motorbike rental in Hanoi (how hours are counted, return time, what fits in each format)?",
+  "new_meta": {
+   "title": "Louer une moto 24, 48 ou 72 heures à Hanoi : bien s’organiser",
+   "description": "Louer une moto 24, 48 ou 72 heures à Hanoi : comment la durée est comptée, quel programme pour chaque format, heure de retour à fixer et budget indicatif.",
+   "h1": "Louer une moto 24, 48 ou 72 heures à Hanoi : bien s’organiser"
+  },
+  "evidence": {
+   "FACTS": "Shop hours 9 h–21 h daily from SEO-FACTS used to illustrate return times (example explicitly conditional on rolling-hour counting). Price table = owner day + week columns only, exact disclaimer, statement that the grid has no 2- or 3-day package and the total must be asked (no multiplication; FAQ '72 h = 3× ?' answered 'pas forcément'). Removed 'livraison au seuil' (unconfirmed delivery). Late-return fees, extension and counting method presented as questions to the renter. No driving times or distances; road restrictions phrased as 'renseignez-vous… la signalisation fait foi' (expressway rule could not be sourced via search). Local references (Hoàn Kiếm, Tây Hồ, Long Biên bridge, Bát Tràng/Gia Lâm) are descriptive, no claims. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+   "INTENT": "Angle per ownership: organise 24/48/72 h (hours, counting, programme). Group owner location-moto-hanoi/courte-duree/ (1–14 day guide) linked with natural anchor in body + context links. Differs from prix-location/location-moto-jour-24-horaires-hanoi (how a rental day is priced/counted) which is linked for the counting detail instead of duplicated.",
+   "CONTENT": "Full rewrite (all paragraphs were abstract 'qui se lit au…' formulas). New: counting methods + three questions to ask, format table (24/48/72 h programme and risk), three timed sample programmes, machine choice for 1–3 days (automatic vs xe số, passenger/luggage), budget table + extra costs (fuel, parking, caution), pickup/return with photo routine and margin before flights. FAQ 5 rewritten. Words 1690→1803. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+   "META": "Title/H1 changed to target the documented angle ('24, 48 ou 72 heures… bien s’organiser', 61 chars); description rewritten (removed 'les formats qui se lisent', 'sans prix inventés'); og synced; eyebrow 'Location de courte durée'.",
+   "LINKS": "7/7: /location-moto-hanoi/ (hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/courte-duree/ (group owner, added), /prix-location/location-moto-jour-24-horaires-hanoi/ (added), location-moto-retrait-hanoi, location-moto-inspection-liste-controle. Dropped /prix-location/jour/ and journaliere-ou-hebdomadaire to respect cap.",
+   "AEO_GEO": "Lead gives the direct rule (24 h city / 48 h city+outing / 72 h excursion+buffer) and the two checks; comparison table, programme checklist, price table; 5 FAQ."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "How the shop counts rental duration (rolling 24 h vs calendar day), late-return tolerance/fees, extension rules, fuel return policy — phrased as questions.",
+   "O01: actual deposit/guarantee form and amount, whether the shop keeps or accepts a passport (or a copy/other ID), refund timing and retention rules — no shop policy stated; readers told to confirm in writing before booking."
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/passeport-depot-location-moto-hanoi/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Should I leave my passport or pay a cash deposit to rent a motorbike in Hanoi?",
+  "new_meta": {
+   "title": "Passeport ou caution en espèces pour louer une moto à Hanoi ?",
+   "description": "Passeport ou caution pour louer une moto à Hanoi : ce que chaque option immobilise, les risques, les questions à poser et ce qu’il faut faire écrire.",
+   "h1": "Laisser son passeport ou verser une caution pour louer une moto à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed section 'Le cas documenté sur ce site' (50cc rates used in a deposit context) and the FAQ claiming 'Oui, en versant la caution en espèces prévue au contrat… l’alternative documentée' (implied shop policy). Removed unsupported generalisations ('beaucoup de loueurs proposent deux formules', 'Partout dans le monde… empreinte de carte bancaire', 'un constat de police… l’original peut être demandé'). Practices now phrased as 'certains loueurs… ; la règle se vérifie auprès de ce loueur'. No amount anywhere; no shop policy stated (O01). Hotel registration fact cited inline to Vietnam News; domestic-flight document cited inline to EY note on Circular 14/2026/TT-BCA with 'vérifiez auprès de votre compagnie'. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+   "INTENT": "Angle per ownership: compare passport vs guarantee, risks, questions; no shop policy. Group owner location-moto-hanoi/location-moto-depot-hanoi linked in body ('dépôt et la caution pour louer une moto à Hanoi'). Differs from prix-location/location-moto-depot-hanoi-passeport (budget effect of the guarantee) and from passeport-location-moto-hanoi (passport owner: whether/how to leave it), linked once for alternatives.",
+   "CONTENT": "Rewritten throughout; new 6-row comparison table, cited 'what you lose' section (hotel, domestic flight, imprévus, recovery risk), real cost of a cash deposit (ATM limits, fees, restitution timing), situation-based choice list, 7 questions to ask, how to document (receipt contents, photos, return inspection). FAQ 4 rewritten. TOC entry 'Ce qu implique' (broken apostrophe) eliminated. Words 2024→1834. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+   "META": "Title changed (old 'Passeport en dépôt… que choisir ?' was ambiguous) to 'Passeport ou caution en espèces pour louer une moto à Hanoi ?' (61); H1 aligned; description 173→149 chars; og synced.",
+   "LINKS": "7/7: hub, /prix-location/, /types-motos/ (required), location-moto-depot-hanoi (group owner), passeport-location-moto-hanoi (passport owner, replaced location-moto-hanoi-pour-tourists), location-moto-retrait-hanoi, 1-mois-location-moto-hanoi.",
+   "AEO_GEO": "Lead gives direct answer (caution generally more prudent if hotel change/flight/admin; passport defensible only short, no travel, written receipt) and the no-policy caveat; comparison table, 2 checklists; 4 FAQ; 2 inline citations (rel=noopener)."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/life-style/expat-corner/1729421/how-do-foreign-travellers-declare-their-temporary-residence-in-viet-nam.html",
+    "checked": "2026-10-29",
+    "used_for": "Seen in search result (WebSearch only; page not opened): accommodation, not the foreign traveller, declares temporary residence to local police from the passport/travel document handed over at check-in; new declaration when changing accommodation."
+   },
+   {
+    "url": "https://www.ey.com/en_vn/technical/tax/tax-and-law-updates/required-identification-documents-for-foreign-passengers-traveling-on-domestic-flights-according-to-the-circular-14-2026-tt-bca",
+    "checked": "2026-10-29",
+    "used_for": "Seen in search result (page not opened): Circular 14/2026/TT-BCA; base document for a foreign passenger on a domestic flight is the passport with latest entry stamp plus visa/residence document unless exempt; other accepted documents concern residents/specific staff. Article tells readers to confirm with their airline."
+   }
+  ],
+  "owner_gaps": [
+   "O01: actual deposit/guarantee form and amount, whether the shop keeps or accepts a passport (or a copy/other ID), refund timing and retention rules — no shop policy stated; readers told to confirm in writing before booking."
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/location-moto-depot-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "How does a motorbike rental deposit work in Hanoi, and how do I make sure I get it back?",
+  "new_meta": {
+   "title": "Caution pour louer une moto à Hanoi : forme, retenue, restitution",
+   "description": "Caution pour louer une moto à Hanoi : à quoi elle sert, les formes courantes, ce qui justifie une retenue et ce qu’il faut faire écrire pour la récupérer.",
+   "h1": "Dépôt et caution pour louer une moto à Hanoi : ce qu’il faut vérifier"
+  },
+  "evidence": {
+   "FACTS": "Title/H1/description promised 'montant'/'Montants documentés' — removed. Removed 'Presque toutes les locations… s’accompagnent d’un dépôt' (unsupported) and the section quoting the 50cc rate in a deposit context; replaced by 'Il est courant qu’un loueur demande une garantie' + 'aucun montant n’est indiqué ici, parce qu’aucun n’est confirmé'. Forms table describes practices met in Hanoi and states it does not say what a given renter accepts (card pre-authorisation listed only as 'selon les loueurs'). Insurance treated as a separate question (not affirmed). Shop hours 9 h–21 h from SEO-FACTS for return timing. No amount, no passport alternative asserted (O01). Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+   "INTENT": "Owner of TOPIC-DEPOT ('dépôt caution location moto hanoi'). Siblings: passeport-depot (passport vs cash) and passeport-location (passport) linked for those sub-questions; prix-location/location-moto-depot-hanoi-passeport keeps the budget angle.",
+   "CONTENT": "Rewritten: role of a deposit (trésorerie vs dépense), forms table with checks, how to ask/compare amounts without deriving from rent, what it should/shouldn't cover (wear, pre-existing damage, mechanical failure, grey cases), deposit ≠ insurance, justified retention signs + dispute handling, restitution sequence, 7 common errors, 8-point checklist. Removed images like 'le dépôt se traverse, comme un pont'. FAQ 4→5. Words 1978→1951. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+   "META": "Title now 'Caution pour louer une moto à Hanoi : forme, retenue, restitution' (65, no 'montant'); H1 'Dépôt et caution… ce qu’il faut vérifier'; description 169→154; og synced.",
+   "LINKS": "7/7: hub, /prix-location/, /types-motos/ (required), passeport-depot-location-moto-hanoi, passeport-location-moto-hanoi (added), location-moto-retrait-hanoi, location-moto-inspection-liste-controle (added); dropped 1-mois-location-moto-hanoi.",
+   "AEO_GEO": "Lead answers what a deposit is, that amount/form must be confirmed in writing; forms table, 3 checklists; 5 FAQ incl. 'Quel est le montant ?' answered honestly (no single amount, not confirmed)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "O01: actual deposit/guarantee form and amount, whether the shop keeps or accepts a passport (or a copy/other ID), refund timing and retention rules — no shop policy stated; readers told to confirm in writing before booking.",
+   "Whether any insurance covers the rental vehicle or third parties, and liability above the deposit — phrased as questions."
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Should I leave my passport with a motorbike rental shop in Hanoi?",
+  "new_meta": {
+   "title": "Laisser son passeport pour louer une moto à Hanoi ?",
+   "description": "Faut-il laisser son passeport à un loueur de moto à Hanoi ? À quoi il vous sert pendant le séjour, les risques, les alternatives et comment tout faire écrire.",
+   "h1": "Laisser son passeport pour louer une moto à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced claims ('Les recommandations aux voyageurs convergent… les copies qui se certifient suffisent', 'le dépôt qui monte, la caution qui double… accepte souvent', 'le dépôt… se réclame à l’assurance', 'paie les trains'). New precise facts cited inline: hotel declaration from passport (Vietnam News), domestic flights document (EY on Circular 14/2026/TT-BCA, 'confirmez auprès de votre compagnie'), stay deadline written in passport (France-Diplomatie dernières minutes). Practices phrased as 'certains loueurs…'; hotel acceptance without passport phrased as 'incertain, posez la question'. No shop policy or amount (O01). Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+   "INTENT": "Owner of TOPIC-PASSEPORT. Distinct from passeport-depot (passport vs cash comparison, linked) and permis-securite/passeport-location-moto-vietnam (papers to keep on the road, linked from 'Copies et papiers').",
+   "CONTENT": "Full rewrite (mannered prose). Sections: why some renters ask, what the passport is needed for during the rental (cited list), concrete risks, alternatives to propose, how to raise the question (suggested wording), safeguards if you still leave it (6-point checklist), copies/papers on the road. FAQ 6→5 (added 'hôtel sans passeport ?' and 'passeport égaré'). Words 1835→1747. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+   "META": "Title and H1 kept (natural, matches query); description rewritten (removed 'les risques qui se pèsent', 'copie qui remplace'), 158 chars; og synced; eyebrow 'Passeport et location'.",
+   "LINKS": "7/7: hub, /prix-location/, /types-motos/ (required), location-moto-depot-hanoi, passeport-depot-location-moto-hanoi (added), permis-securite/passeport-location-moto-vietnam (replaces generic /permis-securite/), location-moto-inspection-liste-controle; dropped what-is-included-location-moto-hanoi.",
+   "AEO_GEO": "Lead: direct answer (avoid when possible; propose caution; if accepted, put storage/return in writing); 3 checklists; 5 FAQ; 3 inline citations (rel=noopener)."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/life-style/expat-corner/1729421/how-do-foreign-travellers-declare-their-temporary-residence-in-viet-nam.html",
+    "checked": "2026-10-29",
+    "used_for": "Seen in search result (WebSearch only; page not opened): accommodation, not the foreign traveller, declares temporary residence to local police from the passport/travel document handed over at check-in; new declaration when changing accommodation."
+   },
+   {
+    "url": "https://www.ey.com/en_vn/technical/tax/tax-and-law-updates/required-identification-documents-for-foreign-passengers-traveling-on-domestic-flights-according-to-the-circular-14-2026-tt-bca",
+    "checked": "2026-10-29",
+    "used_for": "Seen in search result (page not opened): Circular 14/2026/TT-BCA; base document for a foreign passenger on a domestic flight is the passport with latest entry stamp plus visa/residence document unless exempt; other accepted documents concern residents/specific staff. Article tells readers to confirm with their airline."
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/dernieres-minutes-et-alertes",
+    "checked": "2026-10-29",
+    "used_for": "Seen in search result (host not reachable from this session): France-Diplomatie alert to respect the stay deadline written in the passport at arrival."
+   }
+  ],
+  "owner_gaps": [
+   "O01: actual deposit/guarantee form and amount, whether the shop keeps or accepts a passport (or a copy/other ID), refund timing and retention rules — no shop policy stated; readers told to confirm in writing before booking."
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/solo-voyage-hanoi-location-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Travelling alone in Hanoi: is renting a motorbike worth it, and how to do it safely?",
+  "new_meta": {
+   "description": "Voyager seul à Hanoi avec une moto de location : pour quel profil c’est utile, ce que cela coûte, les précautions propres au solo et des idées de sorties."
+  },
+  "evidence": {
+   "FACTS": "Price table = owner day/week/month rows only with exact disclaimer; reader told to compare with their own VTC app quotes (no VTC prices invented). Safety rules cited inline to France-Diplomatie sécurité page (helmet mandatory, uneven local helmet quality, IDP + French licence + vehicle insurance) with 'dépend de votre nationalité et catégorie de permis : vérifiez'. Removed 'le garde qui se demande au loueur' and other implied services; breakdown/assistance phrased as a question to the renter; caution 'à confirmer'. NAP/hours from SEO-FACTS. No distances or driving times; road restrictions as 'renseignez-vous… la signalisation fait foi'. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+   "INTENT": "Owner of 'voyager seul à Hanoi' (motorbike decision for solo travellers). Distinct from debutant-location-moto-hanoi (first-time riders) and location-moto-hanoi-pour-deux-personnes (two riders), both linked once.",
+   "CONTENT": "Full rewrite (every paragraph mannered). New: decision table by situation, freedom vs solo burden with concrete kit, solo budget method + price table, solo safety checklist (itinerary sharing, phone mount, night/rain, travel insurance check, guarded parking, breakdown question), progressive outing ideas (Tây Hồ, Long Biên bridge, Bát Tràng, delta day trip), how to organise the rental. FAQ 5 rewritten. Words 1990→1794. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+   "META": "Title/H1 kept (natural question, 63 chars); description rewritten (removed 'la moto qui se loue s’oppose aux courses qui s’additionnent', 'sans promesse inventée'), 154 chars; og synced (old og:description used &#39; entities); eyebrow 'Voyager seul à Hanoi'.",
+   "LINKS": "7/7 kept: hub, /prix-location/, /types-motos/ (required), debutant-location-moto-hanoi, types-motos/meilleur-scooter-hanoi-circulation, location-moto-hanoi-pour-deux-personnes, permis-securite/securite; duplicate hub link in 'itinéraires' removed.",
+   "AEO_GEO": "Lead answers yes/no by profile in 3 sentences; decision table, price table, 2 checklists; 5 FAQ; 1 inline citation (rel=noopener)."
+  },
+  "sources": [
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+    "checked": "2026-10-29",
+    "used_for": "Seen in search result (host not reachable from this session): helmet mandatory on motorbikes; locally sold helmets of uneven quality; driving requires an international permit with the French licence plus vehicle insurance. Article adds that exact rules depend on nationality/licence category."
+   }
+  ],
+  "owner_gaps": [
+   "O01: actual deposit/guarantee form and amount, whether the shop keeps or accepts a passport (or a copy/other ID), refund timing and retention rules — no shop policy stated; readers told to confirm in writing before booking.",
+   "Breakdown/puncture procedure and any roadside help, lock or helmet supplied — phrased as questions to the renter."
+  ]
+ }
+]

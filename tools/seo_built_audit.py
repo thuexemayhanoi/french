@@ -215,6 +215,13 @@ def main(argv):
                 problems.append(f'{item["id"]} alt differs from image matrix')
             if 'width="1200"' not in tag or 'height="630"' not in tag:
                 problems.append(f'{item["id"]} img width/height missing')
+            srcset = re.search(r'srcset="([^"]*)"', tag)
+            if srcset:
+                for cand in srcset.group(1).split(','):
+                    url_part = cand.strip().split(' ')[0]
+                    if not (ROOT / url_part.lstrip('/')).is_file():
+                        problems.append(f'{item["id"]} srcset target missing {url_part}')
+                notes.append(f'{item["id"]} srcset 800w derivative + 1200w master')
             notes.append(f'{item["id"]} {item["asset_path"]} WebP 1200x630 {kib:.0f} KiB')
         primary = next((i for i in items if 'EXTRA' not in i['id']), items[0] if items else None)
         if primary and page:

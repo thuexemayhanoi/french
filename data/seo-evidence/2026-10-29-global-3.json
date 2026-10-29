@@ -1,0 +1,3 @@
+[
+{"task":"G26","status":"BLOCKED_TOOL","evidence":"2026-10-29: no real ranking, impression, click or AI-citation data could be collected. Attempts: OpenRush inspect_serp('location moto hanoi', France, French) → HTTP 402 insufficient credits; Firecrawl search/scrape → credits exhausted (reported by agents and direct test); WebFetch/curl to fr.rentbikehanoi.com and third-party sites blocked by the session network policy; Search Console/GA4 not connected (owner appendix O07/O08). WebSearch (US-hosted) only gives unranked result lists, logged qualitatively in docs/SEO-RESEARCH-LOG.md without positions. Nothing invented; no paid plan or API key requested. Measurement resumes when an authorized GSC property or a credited SERP tool is available."}
+]

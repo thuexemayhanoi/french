@@ -5227,16 +5227,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "prix-location/longue-duree-location-moto-hanoi-discount/index.html",
+     "path": "prix-location/location-moto-jour-24-horaires-hanoi/index.html",
      "similarity": 0.29
+    },
+    {
+     "path": "prix-location/longue-duree-location-moto-hanoi-discount/index.html",
+     "similarity": 0.21
     },
     {
      "path": "location-moto-hanoi/longue-duree-location-moto-hanoi/index.html",
-     "similarity": 0.29
-    },
-    {
-     "path": "prix-location/location-moto-jour-24-horaires-hanoi/index.html",
-     "similarity": 0.27
+     "similarity": 0.21
     }
    ]
   },
@@ -5256,12 +5256,12 @@
      "similarity": 0.2
     },
     {
-     "path": "location-moto-hanoi/courte-duree-location-moto-hanoi/index.html",
-     "similarity": 0.18
-    },
-    {
      "path": "nord-vietnam/hanoi-hai-phong-moto/index.html",
      "similarity": 0.12
+    },
+    {
+     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
+     "similarity": 0.11
     }
    ]
   },
@@ -5499,15 +5499,15 @@
    "closest_pages": [
     {
      "path": "prix-location/location-moto-depot-hanoi-passeport/index.html",
-     "similarity": 0.4
+     "similarity": 0.33
     },
     {
      "path": "location-moto-hanoi/passeport-depot-location-moto-hanoi/index.html",
-     "similarity": 0.31
+     "similarity": 0.27
     },
     {
-     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
-     "similarity": 0.2
+     "path": "location-moto-hanoi/location-moto-hanoi-vietnam/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -6223,12 +6223,12 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "prix-location/location-moto-depot-hanoi-passeport/index.html",
-     "similarity": 0.67
-    },
-    {
      "path": "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
      "similarity": 0.56
+    },
+    {
+     "path": "prix-location/location-moto-depot-hanoi-passeport/index.html",
+     "similarity": 0.5
     },
     {
      "path": "permis-securite/passeport-location-moto-vietnam/index.html",
@@ -8265,15 +8265,15 @@
    "parent_hub": "/permis-securite/",
    "closest_pages": [
     {
-     "path": "location-moto-hanoi/same-jour-location-moto-hanoi/index.html",
-     "similarity": 0.23
-    },
-    {
      "path": "location-moto-hanoi/longue-duree-location-moto-hanoi/index.html",
      "similarity": 0.21
     },
     {
      "path": "location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/index.html",
+     "similarity": 0.21
+    },
+    {
+     "path": "location-moto-hanoi/location-moto-dong-da/index.html",
      "similarity": 0.21
     }
    ]
@@ -8344,11 +8344,11 @@
      "similarity": 0.24
     },
     {
-     "path": "location-moto-hanoi/location-moto-long-bien/index.html",
-     "similarity": 0.19
+     "path": "location-moto-hanoi/location-moto-depot-hanoi/index.html",
+     "similarity": 0.21
     },
     {
-     "path": "location-moto-hanoi/location-moto-hanoi-vietnam/index.html",
+     "path": "location-moto-hanoi/location-moto-long-bien/index.html",
      "similarity": 0.19
     }
    ]
@@ -9515,15 +9515,15 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "location-moto-hanoi/passeport-depot-location-moto-hanoi/index.html",
-     "similarity": 0.67
-    },
-    {
      "path": "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
      "similarity": 0.57
     },
     {
      "path": "permis-securite/passeport-location-moto-vietnam/index.html",
+     "similarity": 0.5
+    },
+    {
+     "path": "location-moto-hanoi/passeport-depot-location-moto-hanoi/index.html",
      "similarity": 0.5
     }
    ]
@@ -9545,7 +9545,7 @@
     },
     {
      "path": "location-moto-hanoi/courte-duree-location-moto-hanoi/index.html",
-     "similarity": 0.27
+     "similarity": 0.29
     },
     {
      "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",

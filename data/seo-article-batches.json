@@ -4,7 +4,7 @@
   {
    "id": "ART-PILOT",
    "silo": "location-moto-hanoi",
-   "status": "RUNNING",
+   "status": "DONE",
    "paths": [
     "location-moto-hanoi/courte-duree-location-moto-hanoi/index.html",
     "location-moto-hanoi/location-moto-depot-hanoi/index.html",
@@ -17,7 +17,7 @@
   {
    "id": "ART-LOCATI-1",
    "silo": "location-moto-hanoi",
-   "status": "PENDING",
+   "status": "RUNNING",
    "paths": [
     "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
     "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
@@ -91,7 +91,7 @@
   {
    "id": "ART-PRIX-L-1",
    "silo": "prix-location",
-   "status": "PENDING",
+   "status": "RUNNING",
    "paths": [
     "prix-location/14-jours-location-moto-hanoi-cout/index.html",
     "prix-location/3-jours-location-moto-hanoi-prix/index.html",
@@ -144,7 +144,7 @@
   {
    "id": "ART-CENTRE-1",
    "silo": "centre-sud-vietnam",
-   "status": "PENDING",
+   "status": "RUNNING",
    "paths": [
     "centre-sud-vietnam/can-tho-voyage-moto/index.html",
     "centre-sud-vietnam/central-vietnam-coastal-itineraire-moto/index.html",
@@ -198,7 +198,7 @@
   {
    "id": "ART-HONDA-1",
    "silo": "honda",
-   "status": "PENDING",
+   "status": "RUNNING",
    "paths": [
     "honda/honda-air-blade-125-hanoi-ville/index.html",
     "honda/honda-air-blade-125-location-hanoi/index.html",

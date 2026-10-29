@@ -276,8 +276,8 @@
       "title": "Measure search and AI visibility only with real evidence",
       "files": "GSC/authorized tools if present; docs/SEO-RESEARCH-LOG.md",
       "acceptance": "Log real impressions/clicks/indexing/query data and actual dated AI-answer observations if available. No guarantee of 1–3 rankings/citation; absent account access goes to final appendix and does not stop public SEO.",
-      "status": "TODO",
-      "evidence": ""
+      "status": "BLOCKED_TOOL",
+      "evidence": "2026-10-29: no real ranking, impression, click or AI-citation data could be collected. Attempts: OpenRush inspect_serp('location moto hanoi', France, French) → HTTP 402 insufficient credits; Firecrawl search/scrape → credits exhausted (reported by agents and direct test); WebFetch/curl to fr.rentbikehanoi.com and third-party sites blocked by the session network policy; Search Console/GA4 not connected (owner appendix O07/O08). WebSearch (US-hosted) only gives unranked result lists, logged qualitatively in docs/SEO-RESEARCH-LOG.md without positions. Nothing invented; no paid plan or API key requested. Measurement resumes when an authorized GSC property or a credited SERP tool is available."
     },
     {
       "id": "G27",
@@ -22517,7 +22517,7 @@
           "Qui paie l’entretien pendant un mois de location ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 17,
+        "source_body_internal_inlinks": 16,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/3-mois-location-moto-hanoi/index.html",
           "location-moto-hanoi/index.html",
@@ -24051,11 +24051,11 @@
           "Prix et garantie sur quelques jours",
           "Contact et pages voisines"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "index.html",
           "location-moto-hanoi/choisir-location-moto-hanoi/index.html",
-          "location-moto-hanoi/index.html"
+          "location-moto-hanoi/courte-duree-location-moto-hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -24154,32 +24154,33 @@
       "cluster": "location-hanoi",
       "parent_hub": "/location-moto-hanoi/",
       "priority": "P1",
-      "keyword_seed_fr": "Location de moto courte durée à Hanoi : 24, 48 ou 72 heures ?",
+      "keyword_seed_fr": "Louer une moto 24, 48 ou 72 heures à Hanoi : bien s’organiser",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "892863b61e6f85c33c65145dc4d70b1d9dcb22057a245e735888e4af8cab2ef9",
-        "title": "Location de moto courte durée à Hanoi : 24, 48 ou 72 heures ?",
+        "source_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3",
+        "title": "Louer une moto 24, 48 ou 72 heures à Hanoi : bien s’organiser",
         "title_chars": 61,
-        "description": "Location de moto courte durée à Hanoi : 24, 48 ou 72 heures — les formats qui se lisent, la machine qui convient, le budget au jour, sans prix inventés.",
-        "description_chars": 152,
-        "h1": "Location de moto courte durée à Hanoi : 24, 48 ou 72 heures ?",
+        "description": "Louer une moto 24, 48 ou 72 heures à Hanoi : comment la durée est comptée, quel programme pour chaque format, heure de retour à fixer et budget indicatif.",
+        "description_chars": 154,
+        "h1": "Louer une moto 24, 48 ou 72 heures à Hanoi : bien s’organiser",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/courte-duree-location-moto-hanoi/",
-        "editorial_word_count_estimate": 1649,
+        "editorial_word_count_estimate": 1759,
         "h2_h3": [
-          "24, 48 ou 72 heures : les formats qui se lisent",
+          "Comment se comptent 24, 48 ou 72 heures",
           "Quel format pour quel programme",
-          "La machine du court format",
-          "Le retrait et le retour qui s'enchaînent",
-          "Le budget se lit au jour",
+          "Trois exemples de programme",
+          "Quelle moto pour un, deux ou trois jours",
+          "Budget : les repères à la journée",
+          "Retrait et retour sans perdre d’heures",
           "Questions fréquentes",
-          "Les 24 heures couvrent-elles la nuit qui suit ?",
-          "Peut-on prolonger une location qui démarre en 24 heures ?",
-          "Quelle machine pour un format qui se compte en heures ?",
-          "Le tarif change-t-il selon le format choisi ?",
-          "Le retour tardif se paie-t-il plus cher ?",
+          "Une location de 24 heures couvre-t-elle la nuit ?",
+          "Peut-on prolonger une location de 24 ou 48 heures ?",
+          "Que se passe-t-il en cas de retour en retard ?",
+          "72 heures coûtent-elles trois fois le prix d’une journée ?",
+          "Quel format choisir pour une première fois à Hanoi ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 2,
@@ -24212,47 +24213,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Shop hours 9 h–21 h daily from SEO-FACTS used to illustrate return times (example explicitly conditional on rolling-hour counting). Price table = owner day + week columns only, exact disclaimer, statement that the grid has no 2- or 3-day package and the total must be asked (no multiplication; FAQ '72 h = 3× ?' answered 'pas forcément'). Removed 'livraison au seuil' (unconfirmed delivery). Late-return fees, extension and counting method presented as questions to the renter. No driving times or distances; road restrictions phrased as 'renseignez-vous… la signalisation fait foi' (expressway rule could not be sourced via search). Local references (Hoàn Kiếm, Tây Hồ, Long Biên bridge, Bát Tràng/Gia Lâm) are descriptive, no claims. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Angle per ownership: organise 24/48/72 h (hours, counting, programme). Group owner location-moto-hanoi/courte-duree/ (1–14 day guide) linked with natural anchor in body + context links. Differs from prix-location/location-moto-jour-24-horaires-hanoi (how a rental day is priced/counted) which is linked for the counting detail instead of duplicated.",
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Full rewrite (all paragraphs were abstract 'qui se lit au…' formulas). New: counting methods + three questions to ask, format table (24/48/72 h programme and risk), three timed sample programmes, machine choice for 1–3 days (automatic vs xe số, passenger/luggage), budget table + extra costs (fuel, parking, caution), pickup/return with photo routine and margin before flights. FAQ 5 rewritten. Words 1690→1803. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Title/H1 changed to target the documented angle ('24, 48 ou 72 heures… bien s’organiser', 61 chars); description rewritten (removed 'les formats qui se lisent', 'sans prix inventés'); og synced; eyebrow 'Location de courte durée'. Built check: Unique title (61 chars) and description (154 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): 7/7: /location-moto-hanoi/ (hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/courte-duree/ (group owner, added), /prix-location/location-moto-jour-24-horaires-hanoi/ (added), location-moto-retrait-hanoi, location-moto-inspection-liste-controle. Dropped /prix-location/jour/ and journaliere-ou-hebdomadaire to respect cap. Built check: 2 source-body incoming links (e.g. location-moto-hanoi/courte-duree/index.html, location-moto-hanoi/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Lead gives the direct rule (24 h city / 48 h city+outing / 72 h excursion+buffer) and the two checks; comparison table, programme checklist, price table; 5 FAQ.",
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/courte-duree-location-moto-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "892863b61e6f85c33c65145dc4d70b1d9dcb22057a245e735888e4af8cab2ef9"
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-courte-duree-location-moto-hanoi assets/images/seo/location-moto-hanoi/courte-duree-location-moto-hanoi/hero.webp WebP 1200x630 195 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "892863b61e6f85c33c65145dc4d70b1d9dcb22057a245e735888e4af8cab2ef9"
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/courte-duree-location-moto-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/courte-duree-location-moto-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "892863b61e6f85c33c65145dc4d70b1d9dcb22057a245e735888e4af8cab2ef9"
+          "verified_sha256": "cf1dfb4b543d5ab1c5101125de8918a1adaea94ba476ea97cdca2e8d3315dda3"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -25365,34 +25373,35 @@
       "cluster": "location-hanoi",
       "parent_hub": "/location-moto-hanoi/",
       "priority": "P0",
-      "keyword_seed_fr": "Le dépôt pour louer une moto à Hanoi : montant, alternatives et restitution",
+      "keyword_seed_fr": "Dépôt et caution pour louer une moto à Hanoi : ce qu’il faut vérifier",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Thông tin",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "e94d3185e47ebd26c873dfa5b44753e28ffe3885309a2808c896b82fe2aaa786",
-        "title": "Dépôt de location moto à Hanoi : montant, garanties, restitution",
-        "title_chars": 64,
-        "description": "Faut-il laisser un dépôt pour louer une moto à Hanoi ? Montants documentés, alternative du passeport, conditions de restitution et réflexes pour protéger votre location.",
-        "description_chars": 169,
-        "h1": "Le dépôt pour louer une moto à Hanoi : montant, alternatives et restitution",
+        "source_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7",
+        "title": "Caution pour louer une moto à Hanoi : forme, retenue, restitution",
+        "title_chars": 65,
+        "description": "Caution pour louer une moto à Hanoi : à quoi elle sert, les formes courantes, ce qui justifie une retenue et ce qu’il faut faire écrire pour la récupérer.",
+        "description_chars": 154,
+        "h1": "Dépôt et caution pour louer une moto à Hanoi : ce qu’il faut vérifier",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-depot-hanoi/",
-        "editorial_word_count_estimate": 1859,
+        "editorial_word_count_estimate": 1887,
         "h2_h3": [
-          "Pourquoi les loueurs demandent un dépôt",
-          "Les montants documentés et ce dont ils dépendent",
-          "Ce que le dépôt couvre et ce qu’il ne couvre pas",
-          "Les alternatives au dépôt en espèces",
-          "Dans quels cas un dépôt peut être retenu",
-          "La restitution : ce qui protège les deux parties",
-          "Les erreurs à éviter autour du dépôt",
-          "Checklist dépôt avant de signer",
+          "À quoi sert une caution",
+          "Les formes de garantie que l’on rencontre",
+          "Le montant : de quoi il dépend et comment le demander",
+          "Ce que la caution couvre, et ce qu’elle ne devrait pas couvrir",
+          "Quand une retenue est-elle justifiée ?",
+          "Récupérer sa caution au retour",
+          "Les erreurs qui compliquent la restitution",
+          "Checklist avant de remettre une caution",
           "Questions fréquentes",
-          "Quel est le montant du dépôt pour une location de moto à Hanoi ?",
-          "Le dépôt est-il restitué intégralement ?",
-          "Peut-on laisser son passeport au lieu d’un dépôt en espèces ?",
-          "Comment éviter une discussion sur le dépôt au retour ?",
+          "Quel est le montant de la caution pour louer une moto à Hanoi ?",
+          "La caution est-elle rendue en totalité ?",
+          "Peut-on laisser son passeport au lieu d’une caution en espèces ?",
+          "La caution couvre-t-elle un accident ?",
+          "Comment prouver l’état de la moto au départ ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 14,
@@ -25426,47 +25435,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Title/H1/description promised 'montant'/'Montants documentés' — removed. Removed 'Presque toutes les locations… s’accompagnent d’un dépôt' (unsupported) and the section quoting the 50cc rate in a deposit context; replaced by 'Il est courant qu’un loueur demande une garantie' + 'aucun montant n’est indiqué ici, parce qu’aucun n’est confirmé'. Forms table describes practices met in Hanoi and states it does not say what a given renter accepts (card pre-authorisation listed only as 'selon les loueurs'). Insurance treated as a separate question (not affirmed). Shop hours 9 h–21 h from SEO-FACTS for return timing. No amount, no passport alternative asserted (O01). Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Owner of TOPIC-DEPOT ('dépôt caution location moto hanoi'). Siblings: passeport-depot (passport vs cash) and passeport-location (passport) linked for those sub-questions; prix-location/location-moto-depot-hanoi-passeport keeps the budget angle.",
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Rewritten: role of a deposit (trésorerie vs dépense), forms table with checks, how to ask/compare amounts without deriving from rent, what it should/shouldn't cover (wear, pre-existing damage, mechanical failure, grey cases), deposit ≠ insurance, justified retention signs + dispute handling, restitution sequence, 7 common errors, 8-point checklist. Removed images like 'le dépôt se traverse, comme un pont'. FAQ 4→5. Words 1978→1951. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Title now 'Caution pour louer une moto à Hanoi : forme, retenue, restitution' (65, no 'montant'); H1 'Dépôt et caution… ce qu’il faut vérifier'; description 169→154; og synced. Built check: Unique title (65 chars) and description (154 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): 7/7: hub, /prix-location/, /types-motos/ (required), passeport-depot-location-moto-hanoi, passeport-location-moto-hanoi (added), location-moto-retrait-hanoi, location-moto-inspection-liste-controle (added); dropped 1-mois-location-moto-hanoi. Built check: 14 source-body incoming links (e.g. location-moto-hanoi/accident-scooter-location-vietnam/index.html, location-moto-hanoi/courte-duree/index.html, location-moto-hanoi/etat-des-lieux-moto-location-hanoi/index.html); 15 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Lead answers what a deposit is, that amount/form must be confirmed in writing; forms table, 3 checklists; 5 FAQ incl. 'Quel est le montant ?' answered honestly (no single amount, not confirmed).",
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-depot-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "e94d3185e47ebd26c873dfa5b44753e28ffe3885309a2808c896b82fe2aaa786"
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-location-moto-depot-hanoi assets/images/seo/location-moto-hanoi/location-moto-depot-hanoi/hero.webp WebP 1200x630 188 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "e94d3185e47ebd26c873dfa5b44753e28ffe3885309a2808c896b82fe2aaa786"
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/location-moto-depot-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-depot-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "e94d3185e47ebd26c873dfa5b44753e28ffe3885309a2808c896b82fe2aaa786"
+          "verified_sha256": "d64bf06a2f92e8a0ed4322829af9fd13b45e4b5d32c5d229a9a028e077ad3ea7"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -26800,7 +26816,7 @@
           "Faut-il un permis pour conduire une moto louée au Vietnam ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/courte-duree/index.html",
           "location-moto-hanoi/index.html",
@@ -27276,7 +27292,7 @@
           "L’inspection est-elle différente pour un scooter automatique ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 29,
+        "source_body_internal_inlinks": 30,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
@@ -27625,7 +27641,7 @@
           "Que vérifier sur place avant de signer ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/book-location-moto-hanoi-online-ou-walk-a/index.html",
           "location-moto-hanoi/index.html",
@@ -27748,7 +27764,7 @@
           "Faut-il photographier la moto au retrait ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 14,
+        "source_body_internal_inlinks": 15,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html",
@@ -28807,37 +28823,36 @@
       "cluster": "location-hanoi",
       "parent_hub": "/location-moto-hanoi/",
       "priority": "P0",
-      "keyword_seed_fr": "Laisser son passeport ou verser une caution : que choisir pour louer une moto à Hanoi ?",
+      "keyword_seed_fr": "Laisser son passeport ou verser une caution pour louer une moto à Hanoi ?",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "11ca0062b91e80f429fc378ceb24ee925f3c8579093181685fbac155b4cdc95e",
-        "title": "Passeport en dépôt pour louer une moto à Hanoi : que choisir ?",
-        "title_chars": 62,
-        "description": "Laisser son passeport ou verser une caution en espèces pour louer une moto à Hanoi : comparaison des deux formules, points de vigilance et conseils pour choisir sans stress.",
-        "description_chars": 173,
-        "h1": "Laisser son passeport ou verser une caution : que choisir pour louer une moto à Hanoi ?",
+        "source_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13",
+        "title": "Passeport ou caution en espèces pour louer une moto à Hanoi ?",
+        "title_chars": 61,
+        "description": "Passeport ou caution pour louer une moto à Hanoi : ce que chaque option immobilise, les risques, les questions à poser et ce qu’il faut faire écrire.",
+        "description_chars": 149,
+        "h1": "Laisser son passeport ou verser une caution pour louer une moto à Hanoi ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/passeport-depot-location-moto-hanoi/",
-        "editorial_word_count_estimate": 1902,
+        "editorial_word_count_estimate": 1780,
         "h2_h3": [
-          "Pourquoi cette question se pose à Hanoi",
-          "Ce qu’implique de laisser son passeport",
-          "Le cas documenté sur ce site",
-          "Les critères pour choisir",
-          "Quand le passeport manque : les situations à prévoir",
-          "Quand la caution en espèces pèse",
-          "Protéger son document ou son argent",
-          "Checklist avant de trancher",
+          "Deux façons de garantir le retour de la moto",
+          "Passeport ou caution : le comparatif",
+          "Ce que vous perdez en laissant votre passeport",
+          "Ce que coûte vraiment une caution en espèces",
+          "Choisir selon votre séjour",
+          "Les questions à poser au loueur",
+          "Faire écrire l’accord et garder des preuves",
           "Questions fréquentes",
           "Le passeport est-il obligatoire pour louer une moto à Hanoi ?",
           "Peut-on louer une moto sans laisser son passeport ?",
-          "La caution en espèces est-elle restituée intégralement ?",
-          "Que faire si l’on a besoin de son passeport pendant la location ?",
+          "Une photocopie du passeport suffit-elle ?",
+          "Que faire si j’ai besoin de mon passeport pendant la location ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/courte-duree/index.html",
           "location-moto-hanoi/index.html",
@@ -28868,47 +28883,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Removed section 'Le cas documenté sur ce site' (50cc rates used in a deposit context) and the FAQ claiming 'Oui, en versant la caution en espèces prévue au contrat… l’alternative documentée' (implied shop policy). Removed unsupported generalisations ('beaucoup de loueurs proposent deux formules', 'Partout dans le monde… empreinte de carte bancaire', 'un constat de police… l’original peut être demandé'). Practices now phrased as 'certains loueurs… ; la règle se vérifie auprès de ce loueur'. No amount anywhere; no shop policy stated (O01). Hotel registration fact cited inline to Vietnam News; domestic-flight document cited inline to EY note on Circular 14/2026/TT-BCA with 'vérifiez auprès de votre compagnie'. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported. Sources: https://vietnamnews.vn/life-style/expat-corner/1729421/how-do-foreign-travellers-declare-their-temporary-residence-in-viet-nam.html; https://www.ey.com/en_vn/technical/tax/tax-and-law-updates/required-identification-documents-for-foreign-passengers-traveling-on-domestic-flights-according-to-the-circular-14-2026-tt-bca",
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Angle per ownership: compare passport vs guarantee, risks, questions; no shop policy. Group owner location-moto-hanoi/location-moto-depot-hanoi linked in body ('dépôt et la caution pour louer une moto à Hanoi'). Differs from prix-location/location-moto-depot-hanoi-passeport (budget effect of the guarantee) and from passeport-location-moto-hanoi (passport owner: whether/how to leave it), linked once for alternatives.",
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Rewritten throughout; new 6-row comparison table, cited 'what you lose' section (hotel, domestic flight, imprévus, recovery risk), real cost of a cash deposit (ATM limits, fees, restitution timing), situation-based choice list, 7 questions to ask, how to document (receipt contents, photos, return inspection). FAQ 4 rewritten. TOC entry 'Ce qu implique' (broken apostrophe) eliminated. Words 2024→1834. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged. Sources: https://vietnamnews.vn/life-style/expat-corner/1729421/how-do-foreign-travellers-declare-their-temporary-residence-in-viet-nam.html; https://www.ey.com/en_vn/technical/tax/tax-and-law-updates/required-identification-documents-for-foreign-passengers-traveling-on-domestic-flights-according-to-the-circular-14-2026-tt-bca",
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Title changed (old 'Passeport en dépôt… que choisir ?' was ambiguous) to 'Passeport ou caution en espèces pour louer une moto à Hanoi ?' (61); H1 aligned; description 173→149 chars; og synced. Built check: Unique title (61 chars) and description (149 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): 7/7: hub, /prix-location/, /types-motos/ (required), location-moto-depot-hanoi (group owner), passeport-location-moto-hanoi (passport owner, replaced location-moto-hanoi-pour-tourists), location-moto-retrait-hanoi, 1-mois-location-moto-hanoi. Built check: 4 source-body incoming links (e.g. location-moto-hanoi/courte-duree/index.html, location-moto-hanoi/index.html, location-moto-hanoi/location-moto-depot-hanoi/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Lead gives direct answer (caution generally more prudent if hotel change/flight/admin; passport defensible only short, no travel, written receipt) and the no-policy caveat; comparison table, 2 checklists; 4 FAQ; 2 inline citations (rel=noopener).",
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/passeport-depot-location-moto-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "11ca0062b91e80f429fc378ceb24ee925f3c8579093181685fbac155b4cdc95e"
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-passeport-depot-location-moto-hanoi assets/images/seo/location-moto-hanoi/passeport-depot-location-moto-hanoi/hero.webp WebP 1200x630 185 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "11ca0062b91e80f429fc378ceb24ee925f3c8579093181685fbac155b4cdc95e"
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/passeport-depot-location-moto-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/passeport-depot-location-moto-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "11ca0062b91e80f429fc378ceb24ee925f3c8579093181685fbac155b4cdc95e"
+          "verified_sha256": "df0837bfe60336c5830842b6790c403b8fc16f353b50287ef1420cd950e85f13"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -28931,34 +28953,36 @@
       "intent_to_validate": "Thông tin",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "d7c1cf2e223b0584d959c5201ab08231af4fbc8b970e8fd9ea50a493e90aa387",
+        "source_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00",
         "title": "Laisser son passeport pour louer une moto à Hanoi ?",
         "title_chars": 51,
-        "description": "Passeport retenu au comptoir, dépôt en espèces, copie qui remplace : ce qui se pratique à Hanoi, les risques qui se pèsent et les réflexes qui protègent avant de signer.",
-        "description_chars": 169,
+        "description": "Faut-il laisser son passeport à un loueur de moto à Hanoi ? À quoi il vous sert pendant le séjour, les risques, les alternatives et comment tout faire écrire.",
+        "description_chars": 158,
         "h1": "Laisser son passeport pour louer une moto à Hanoi ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/passeport-location-moto-hanoi/",
-        "editorial_word_count_estimate": 1809,
+        "editorial_word_count_estimate": 1695,
         "h2_h3": [
-          "Ce qui se pratique au comptoir",
-          "Les risques qui se pèsent",
-          "Les alternatives qui se négocient",
-          "Les réflexes qui protègent",
+          "Pourquoi certains loueurs demandent le passeport",
+          "À quoi votre passeport vous servira pendant la location",
+          "Les risques concrets de s’en séparer",
+          "Les alternatives à proposer",
+          "Comment aborder la question avec le loueur",
+          "Si vous laissez quand même votre passeport",
+          "Copies et papiers à garder sur vous",
           "Questions fréquentes",
           "Faut-il obligatoirement laisser son passeport pour louer une moto à Hanoi ?",
-          "Quel montant pour un dépôt en espèces ?",
-          "Une photocopie du passeport suffit-elle ?",
-          "Que faire si le loueur refuse toute alternative au passeport ?",
-          "Le passeport reste-t-il en sûreté pendant la location ?",
-          "Le loueur peut-il retenir la garantie en cas de rayure ?",
+          "Un hôtel peut-il m’accueillir si mon passeport est chez le loueur ?",
+          "Une photocopie du passeport suffit-elle pour louer ?",
+          "Que faire si j’ai besoin de mon passeport pendant la location ?",
+          "Que faire si le loueur égare mon passeport ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/courte-duree/index.html",
           "location-moto-hanoi/index.html",
-          "location-moto-hanoi/longue-duree/index.html"
+          "location-moto-hanoi/location-moto-depot-hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -28985,47 +29009,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Removed unsourced claims ('Les recommandations aux voyageurs convergent… les copies qui se certifient suffisent', 'le dépôt qui monte, la caution qui double… accepte souvent', 'le dépôt… se réclame à l’assurance', 'paie les trains'). New precise facts cited inline: hotel declaration from passport (Vietnam News), domestic flights document (EY on Circular 14/2026/TT-BCA, 'confirmez auprès de votre compagnie'), stay deadline written in passport (France-Diplomatie dernières minutes). Practices phrased as 'certains loueurs…'; hotel acceptance without passport phrased as 'incertain, posez la question'. No shop policy or amount (O01). Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported. Sources: https://vietnamnews.vn/life-style/expat-corner/1729421/how-do-foreign-travellers-declare-their-temporary-residence-in-viet-nam.html; https://www.ey.com/en_vn/technical/tax/tax-and-law-updates/required-identification-documents-for-foreign-passengers-traveling-on-domestic-flights-according-to-the-circular-14-2026-tt-bca; https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/dernieres-minutes-et-alertes",
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Owner of TOPIC-PASSEPORT. Distinct from passeport-depot (passport vs cash comparison, linked) and permis-securite/passeport-location-moto-vietnam (papers to keep on the road, linked from 'Copies et papiers').",
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Full rewrite (mannered prose). Sections: why some renters ask, what the passport is needed for during the rental (cited list), concrete risks, alternatives to propose, how to raise the question (suggested wording), safeguards if you still leave it (6-point checklist), copies/papers on the road. FAQ 6→5 (added 'hôtel sans passeport ?' and 'passeport égaré'). Words 1835→1747. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged. Sources: https://vietnamnews.vn/life-style/expat-corner/1729421/how-do-foreign-travellers-declare-their-temporary-residence-in-viet-nam.html; https://www.ey.com/en_vn/technical/tax/tax-and-law-updates/required-identification-documents-for-foreign-passengers-traveling-on-domestic-flights-according-to-the-circular-14-2026-tt-bca; https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/dernieres-minutes-et-alertes",
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Title and H1 kept (natural, matches query); description rewritten (removed 'les risques qui se pèsent', 'copie qui remplace'), 158 chars; og synced; eyebrow 'Passeport et location'. Built check: Unique title (51 chars) and description (158 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): 7/7: hub, /prix-location/, /types-motos/ (required), location-moto-depot-hanoi, passeport-depot-location-moto-hanoi (added), permis-securite/passeport-location-moto-vietnam (replaces generic /permis-securite/), location-moto-inspection-liste-controle; dropped what-is-included-location-moto-hanoi. Built check: 5 source-body incoming links (e.g. location-moto-hanoi/courte-duree/index.html, location-moto-hanoi/index.html, location-moto-hanoi/location-moto-depot-hanoi/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Lead: direct answer (avoid when possible; propose caution; if accepted, put storage/return in writing); 3 checklists; 5 FAQ; 3 inline citations (rel=noopener).",
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/passeport-location-moto-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "d7c1cf2e223b0584d959c5201ab08231af4fbc8b970e8fd9ea50a493e90aa387"
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-passeport-location-moto-hanoi assets/images/seo/location-moto-hanoi/passeport-location-moto-hanoi/hero.webp WebP 1200x630 185 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "d7c1cf2e223b0584d959c5201ab08231af4fbc8b970e8fd9ea50a493e90aa387"
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/passeport-location-moto-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/passeport-location-moto-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "d7c1cf2e223b0584d959c5201ab08231af4fbc8b970e8fd9ea50a493e90aa387"
+          "verified_sha256": "3dd2f769b9a36e06828d114b77260a28e5ab2dac5e1589baffe9b8be42f6dd00"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -29303,33 +29334,34 @@
       "cluster": "location-hanoi",
       "parent_hub": "/location-moto-hanoi/",
       "priority": "P1",
-      "keyword_seed_fr": "Louer une moto à Hanoi le jour même : la méthode rapide",
+      "keyword_seed_fr": "Louer une moto à Hanoi le jour même : étapes et vérifications",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Giao dịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "0255b9c6aaf236c3011518fcf8d59fefd4967cde665a7d7765b127aa9ef4d284",
-        "title": "Louer une moto à Hanoi le jour même : la méthode rapide",
-        "title_chars": 55,
-        "description": "Location le jour même à Hanoi : où se porter vite, comment la disponibilité se vérifie en amont, ce que le contrôle rapide couvre et les pièces qui se préparent avant de sortir.",
-        "description_chars": 177,
-        "h1": "Louer une moto à Hanoi le jour même : la méthode rapide",
+        "source_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e",
+        "title": "Louer une moto à Hanoi le jour même : étapes et vérifications",
+        "title_chars": 61,
+        "description": "Louer une moto à Hanoi le jour même : quoi demander par message, quels papiers préparer, comment inspecter vite la moto et que faire si rien n’est libre.",
+        "description_chars": 153,
+        "h1": "Louer une moto à Hanoi le jour même : étapes et vérifications",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/same-jour-location-moto-hanoi/",
-        "editorial_word_count_estimate": 1765,
+        "editorial_word_count_estimate": 1948,
         "h2_h3": [
-          "Où se porter vite le jour même",
-          "La disponibilité qui se vérifie en amont",
-          "Le contrôle rapide qui reste complet",
-          "Les pièces qui se préparent avant de sortir",
+          "Ce qui rend une location le jour même possible",
+          "Le message à envoyer avant de vous déplacer",
+          "Choisir l’heure du retrait",
+          "Papiers et caution : ce qu’il faut avoir sur soi",
+          "Inspecter la moto sans perdre de temps",
+          "Prix à la journée : les repères",
+          "Si aucune moto n’est libre",
           "Questions fréquentes",
-          "Peut-on vraiment louer une moto à Hanoi sans réservation préalable ?",
-          "Combien de temps compte une location conclue le jour même ?",
-          "Le contrôle de la machine peut-il se raccourcir ?",
-          "Que faire si aucune machine ne reste dans la première boutique ?",
-          "Le dépôt se prépare-t-il différemment pour une location rapide ?",
-          "La livraison à l'hôtel vaut-elle mieux que le passage au comptoir ?",
-          "La veille qui se prépare change-t-elle la journée qui suit ?",
+          "Peut-on louer une moto à Hanoi sans réservation ?",
+          "Combien de temps prévoir au comptoir ?",
+          "Peut-on récupérer la moto le soir pour partir le lendemain matin ?",
+          "Faut-il une caution pour une location décidée le jour même ?",
+          "Que faire si la moto présente un défaut au retrait ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 2,
@@ -29362,47 +29394,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): NAP and hours exactly from SEO-FACTS (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội, near Bến xe Gia Lâm; 9 h–21 h daily; 0334 699 969 / +84 334 699 969 via phone/Zalo/WhatsApp). Day-rate table uses owner rows only (semi-auto and xe ga 150 000–200 000; 50cc, Vision, Air Blade 200 000; electric 'selon le modèle, à confirmer') with the exact disclaimer; no multiplication, told to ask total for multi-day. Removed: 'le dépôt qui se compte en billets prêts', 'au montant qui se fixe à la boutique' and unqualified hotel delivery ('déplace le comptoir à la porte'). Deposit/passport now generic market practice + confirm in writing (O01); delivery explicitly 'pas confirmé ici' (O02). Licence: no blanket rule, 'dépend de votre nationalité, catégorie et moto'. Availability never promised. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported.",
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Owner of 'louer une moto à Hanoi le jour même'. Closest page location-moto-hanoi/1-jour-location-moto-hanoi (what to ride/where for a 1-day rental) is linked once; this page covers short-notice process: availability by message, pickup timing vs 09:00–21:00 hours, papers, fast inspection, plan B.",
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Full rewrite of all prose (every section was chains of 'qui se…' relatives). New sections: what makes same-day possible (+shop NAP/hours), message checklist (what to state / what to ask), choosing pickup time (rush hours, closing time margin, Red River crossing from Vieux Quartier, rainy season), papers and caution, 8-row inspection table, day-price table, plan B (other category/hour/next morning/other renter, qualified delivery). FAQ 7→5 real questions. Words 1799→2004. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged.",
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Title/H1 changed from 'la méthode rapide' (vague) to 'étapes et vérifications' (61 chars); description rewritten (177→153 chars, was mannered and over length); og:title/og:description synced; eyebrow 'Location le jour même'. Built check: Unique title (61 chars) and description (153 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): 7/7 unique: /location-moto-hanoi/ (parent hub, required), /prix-location/ and /types-motos/ (required), 1-jour-location-moto-hanoi, location-moto-inspection-liste-controle, location-moto-retrait-hanoi (added), moto-livraison-hotel-hanoi (kept with qualification); removed location-moto-pres-de-moi to stay within cap. Built check: 2 source-body incoming links (e.g. location-moto-hanoi/courte-duree/index.html, location-moto-hanoi/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Lead answers 'oui, généralement' + method in 3 sentences; 2 checklists, inspection table, price table with disclaimer; 5 FAQ; no external citation needed (no precise legal claim).",
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/same-jour-location-moto-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "0255b9c6aaf236c3011518fcf8d59fefd4967cde665a7d7765b127aa9ef4d284"
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-same-jour-location-moto-hanoi assets/images/seo/location-moto-hanoi/same-jour-location-moto-hanoi/hero.webp WebP 1200x630 193 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "0255b9c6aaf236c3011518fcf8d59fefd4967cde665a7d7765b127aa9ef4d284"
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/same-jour-location-moto-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/same-jour-location-moto-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "0255b9c6aaf236c3011518fcf8d59fefd4967cde665a7d7765b127aa9ef4d284"
+          "verified_sha256": "f2631a45a001bcaa57d422cb23242625f45b81ee6700ca5ab9c13e3aa5056e9e"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -29425,27 +29464,28 @@
       "intent_to_validate": "Thông tin + giao dịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "0e010bb3368c9512e4baf0c6a1ac81a0ad76725010396e624cd6e78ee1936b66",
+        "source_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3",
         "title": "Voyager seul à Hanoi : la location de moto se justifie-t-elle ?",
         "title_chars": 63,
-        "description": "Voyager seul à Hanoi : la moto qui se loue s'oppose aux courses qui s'additionnent — liberté, budget, sécurité et itinéraires qui se décident seul, sans promesse inventée.",
-        "description_chars": 171,
+        "description": "Voyager seul à Hanoi avec une moto de location : pour quel profil c’est utile, ce que cela coûte, les précautions propres au solo et des idées de sorties.",
+        "description_chars": 154,
         "h1": "Voyager seul à Hanoi : la location de moto se justifie-t-elle ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/solo-voyage-hanoi-location-moto/",
-        "editorial_word_count_estimate": 1952,
+        "editorial_word_count_estimate": 1744,
         "h2_h3": [
-          "Le voyageur solo : une question qui se pèse",
-          "La liberté qui se gagne",
-          "Le budget qui se compare",
-          "La sécurité qui se prend au sérieux",
-          "Les itinéraires qui se décident seul",
+          "Pour quel voyageur solo la moto a du sens",
+          "Ce que la moto change quand on voyage seul",
+          "Budget : moto ou VTC quand on est seul",
+          "Sécurité : les précautions propres au solo",
+          "Idées de sorties en solo",
+          "Louer seul : comment s’organiser",
           "Questions fréquentes",
-          "La location se justifie-t-elle pour un court séjour solo ?",
-          "Les courses qui se commandent sur application ne remplacent-elles pas la moto ?",
+          "Peut-on louer une moto seul à Hanoi sans jamais avoir conduit ?",
+          "Moto ou VTC pour un court séjour en solo ?",
           "Où garer la moto quand on voyage seul ?",
-          "Quel type de machine convient au voyageur solo ?",
-          "La première sortie solo se prépare-t-elle vraiment ?",
+          "Quelle moto choisir quand on voyage seul ?",
+          "Que faire en cas de panne quand on est seul ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 3,
@@ -29479,47 +29519,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Price table = owner day/week/month rows only with exact disclaimer; reader told to compare with their own VTC app quotes (no VTC prices invented). Safety rules cited inline to France-Diplomatie sécurité page (helmet mandatory, uneven local helmet quality, IDP + French licence + vehicle insurance) with 'dépend de votre nationalité et catégorie de permis : vérifiez'. Removed 'le garde qui se demande au loueur' and other implied services; breakdown/assistance phrased as a question to the renter; caution 'à confirmer'. NAP/hours from SEO-FACTS. No distances or driving times; road restrictions as 'renseignez-vous… la signalisation fait foi'. Research constraint: WebFetch/Firecrawl unavailable this session (diplomatie.gouv.fr DNS-blocked, Firecrawl out of credits); external sources are WebSearch results only, cited within what the result supported. Sources: https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Owner of 'voyager seul à Hanoi' (motorbike decision for solo travellers). Distinct from debutant-location-moto-hanoi (first-time riders) and location-moto-hanoi-pour-deux-personnes (two riders), both linked once.",
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Full rewrite (every paragraph mannered). New: decision table by situation, freedom vs solo burden with concrete kit, solo budget method + price table, solo safety checklist (itinerary sharing, phone mount, night/rain, travel insurance check, guarded parking, breakdown question), progressive outing ideas (Tây Hồ, Long Biên bridge, Bát Tràng, delta day trip), how to organise the rental. FAQ 5 rewritten. Words 1990→1794. Structural: FAQ wrapper now 'seo-section seo-faq' per guide skeleton; tables use existing table-scroll/price-table classes; protected parts (canonical, og:url, og:image*, SEO_IMAGE blocks, body data-* markers, hooks, scripts, lang) unchanged. Sources: https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Title/H1 kept (natural question, 63 chars); description rewritten (removed 'la moto qui se loue s’oppose aux courses qui s’additionnent', 'sans promesse inventée'), 154 chars; og synced (old og:description used &#39; entities); eyebrow 'Voyager seul à Hanoi'. Built check: Unique title (63 chars) and description (154 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): 7/7 kept: hub, /prix-location/, /types-motos/ (required), debutant-location-moto-hanoi, types-motos/meilleur-scooter-hanoi-circulation, location-moto-hanoi-pour-deux-personnes, permis-securite/securite; duplicate hub link in 'itinéraires' removed. Built check: 3 source-body incoming links (e.g. location-moto-hanoi/courte-duree/index.html, location-moto-hanoi/index.html, location-moto-hanoi/location-moto-hanoi-ou-circuit-moto-hanoi/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-29-ART-pilot.json): Lead answers yes/no by profile in 3 sentences; decision table, price table, 2 checklists; 5 FAQ; 1 inline citation (rel=noopener).",
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/solo-voyage-hanoi-location-moto/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "0e010bb3368c9512e4baf0c6a1ac81a0ad76725010396e624cd6e78ee1936b66"
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-solo-voyage-hanoi-location-moto assets/images/seo/location-moto-hanoi/solo-voyage-hanoi-location-moto/hero.webp WebP 1200x630 187 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "0e010bb3368c9512e4baf0c6a1ac81a0ad76725010396e624cd6e78ee1936b66"
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/solo-voyage-hanoi-location-moto/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/solo-voyage-hanoi-location-moto/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "0e010bb3368c9512e4baf0c6a1ac81a0ad76725010396e624cd6e78ee1936b66"
+          "verified_sha256": "e4452baa33d2496aa1ec3e1a11b6a0705ef9c69da9192caeb6086dcf0f9a96b3"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -29801,7 +29848,7 @@
           "Comment comparer deux formules de location honnêtement ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 13,
+        "source_body_internal_inlinks": 12,
         "source_body_internal_inlink_examples": [
           "honda/honda-air-blade-125-prix-location-hanoi/index.html",
           "honda/honda-vision-prix-location-hanoi/index.html",
@@ -37660,7 +37707,7 @@
           "Repère complémentaire",
           "Repère complémentaire"
         ],
-        "source_body_internal_inlinks": 127,
+        "source_body_internal_inlinks": 126,
         "source_body_internal_inlink_examples": [
           "a-propos/index.html",
           "blog/index.html",
@@ -40342,8 +40389,9 @@
           "Faut-il laisser les papiers de la moto dans la machine ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 1,
+        "source_body_internal_inlinks": 2,
         "source_body_internal_inlink_examples": [
+          "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
           "permis-securite/documents-moto-location-vietnam/index.html"
         ],
         "broken_body_links_or_fragments": [],
@@ -44014,7 +44062,7 @@
           "Budget d’une sortie",
           "Pages voisines"
         ],
-        "source_body_internal_inlinks": 24,
+        "source_body_internal_inlinks": 23,
         "source_body_internal_inlink_examples": [
           "honda/honda-air-blade-160-prix-location-hanoi/index.html",
           "honda/honda-sh-mode-125-prix-location-hanoi/index.html",
@@ -44145,7 +44193,7 @@
           "Que se passe-t-il si l'on rend la machine avant la fin de la semaine ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 20,
+        "source_body_internal_inlinks": 19,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "honda/honda-lead-abs-prix-location-hanoi/index.html",
@@ -44497,11 +44545,11 @@
           "La convention du jour dépend-elle de la catégorie de moto ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
-          "location-moto-hanoi/courte-duree/index.html",
-          "prix-location/index.html"
+          "location-moto-hanoi/courte-duree-location-moto-hanoi/index.html",
+          "location-moto-hanoi/courte-duree/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
