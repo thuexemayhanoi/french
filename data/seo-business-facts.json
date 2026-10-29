@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "source": "Explicit owner instructions, current SEO assignment 2026-10-29; overrides older business data in repository",
+  "name": "Thuê xe máy Nguyễn Hà",
+  "address": "Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm)",
+  "phone_display": "0334 699 969",
+  "phone_international": "+84 334 699 969",
+  "phone_e164": "+84334699969",
+  "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "days": "daily",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "currency": "VND",
+  "prices_are_reference": true,
+  "confirmation_before_booking_required": true,
+  "reference_prices": {
+    "semi_automatic": {
+      "daily": [
+        150000,
+        200000
+      ],
+      "weekly": [
+        700000,
+        800000
+      ],
+      "monthly": [
+        1000000,
+        1200000
+      ]
+    },
+    "automatic_scooter": {
+      "daily": [
+        150000,
+        200000
+      ],
+      "weekly": [
+        600000,
+        1000000
+      ],
+      "monthly": [
+        1200000,
+        2000000
+      ]
+    },
+    "electric": {
+      "daily": null,
+      "daily_note": "Selon le modèle, à confirmer",
+      "weekly": [
+        600000,
+        800000
+      ],
+      "monthly": [
+        1500000,
+        1800000
+      ]
+    },
+    "scooter_50cc": {
+      "daily": 200000,
+      "weekly": 1000000,
+      "monthly": 2000000
+    },
+    "vision": {
+      "daily": 200000,
+      "weekly": 1000000,
+      "monthly": 2000000
+    },
+    "air_blade": {
+      "owner_original_label": "Air Blale",
+      "editorial_label": "Air Blade",
+      "daily": 200000,
+      "weekly": 900000,
+      "monthly": 1500000
+    }
+  },
+  "unconfirmed": [
+    "deposit amounts and forms",
+    "passport handling",
+    "refund terms",
+    "delivery zones/fees/minimums",
+    "fleet availability",
+    "included equipment/services/insurance",
+    "official Maps CID/coordinates",
+    "email/other official website/social URLs",
+    "privacy/cookie/retention practices",
+    "real biographies/reviews/experience"
+  ]
+}

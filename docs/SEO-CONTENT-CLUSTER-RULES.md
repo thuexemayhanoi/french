@@ -1,45 +1,17 @@
-# SEO content, topical clusters & internal linking rules
+# Current French SEO content and cluster rules
 
-These rules apply to **all existing pages and every new page** created in the French repository before the 500-article factory is enabled.
+Full task authority: `AGENTS.md` and `docs/SEO-MASTER-PLAN.md`; progress: `data/seo-master-matrix.json`. Applies to all 543 current indexable URLs. Do not restart the completed 500-article queue.
 
-## SEO content
-
-- One primary search intent per URL.
-- French copy must be written for French search intent, not literal translation.
-- Foundation/content pages: **1,500–3,000 words**. Contact is intentionally exempt.
-- Exactly one H1, unique title, unique canonical and useful meta description.
-- Do not invent current prices, inventory, availability, legal rules, road conditions or vehicle specifications.
-- Legal/licence content must be rechecked against current official sources before publication.
-- Travel content must distinguish evergreen planning advice from conditions that can change.
-
-## Topical clusters
-
-Nine parent clusters remain canonical: Location Hanoi, Honda, Yamaha, Types de motos, Prix, Permis & sécurité, Hanoi, Nord Vietnam, Centre & Sud.
-
-Each new article must:
-1. belong to one primary cluster;
-2. link back to its parent hub;
-3. link to at least two contextually related pages;
-4. avoid targeting the same primary intent as an existing URL;
-5. use sibling/cross-cluster links only where they help the reader's next decision.
-
-The shared related-content component derives the current cluster from the URL and prioritizes the parent hub, sibling pages and useful cross-cluster hubs.
-
-## Internal links
-
-- Every non-contact page must contain at least **3 static internal links in the body**.
-- Shared topical-cluster cards add further contextual links at runtime.
-- Prefer descriptive anchors (for example, `Prix de location par mois`) over generic anchors such as `cliquez ici`.
-- Do not create sitewide exact-match keyword spam.
-- Future 500-article content should normally link: parent hub + 2–4 sibling/related articles + 1–2 supporting hubs such as Prix, Permis or Types where useful.
-
-## Cross-language link
-
-The French homepage contains a body link to the English site:
-`https://app.rentbikehanoi.com/`
-
-This is a normal editorial language link, not a claim that every page has an exact English equivalent. Do not add hreflang sitewide unless equivalent page mappings are defined.
-
-## QA enforcement
-
-`scripts/qa.mjs` checks the long-form word range, unique titles/canonicals, sitemap membership, shared data, breadcrumbs, topical-cluster placeholder, minimum static internal links and the English-site homepage link.
+- One primary reader need per URL and one preferred owner URL per keyword group inside the French site. Homepage owns broad rental/commercial intent; rental pillar covers process/options. Other owned sites are competitors, not reasons to surrender commercial keywords.
+- Write specific natural French, answer the question, remove repetitive filler and internal SEO-process language. No mass template paraphrases, doorway pages or invented firsthand experience.
+- Homepage/hubs normally 1,600–6,000 useful words if warranted; articles 1,000–5,000; About about 800–1,600 verified words; Contact concise; Privacy/Terms real practices without word quotas. Quality/intent outrank length. G09 reconciles legacy automated thresholds only when needed, without bypassing meaningful QA.
+- Use current owner NAP/reference prices from `docs/SEO-FACTS.md`. Unknown policy/stock/legal/route/spec claims must not be invented. Owner-only facts go to the final appendix; public legal/spec facts are researched through primary sources.
+- Unique truthful title/meta/H1, self canonical on existing protected route, French lang/locale, coherent OG/Twitter. Length is an editorial heuristic, not a Google hard limit.
+- Nine topic groups remain: Location Hanoi, Honda, Yamaha, Types, Prix, Permis/sécurité, Hanoi, Nord, Centre/Sud. Retain the parent/hub structure; contextual body links reach parent and relevant siblings/support pages, with useful incoming links in return. No blanket maximum if more links genuinely help.
+- Shared breadcrumbs/menu/footer/related blocks stay coherent and statically rendered by the shared build. Check source and built links/fragments; a nav link alone does not establish strong editorial context.
+- Direct answers, helpful FAQ/checklists/tables and sources support readers and AI retrieval. FAQ hub has 15–20 practical answers; no FAQ rich-result promise, fake citations, artificial reviews or guaranteed AI inclusion.
+- Built JSON-LD matches visible content and real entity facts. Use proper page types/relationships and factual authors/dates/images; no fictional ratings/offers.
+- Keep 547 valid integrated images. Photographic replacement is separate; quota cannot block independent SEO. Inspect pixels before writing French alt; no noise to inflate image bytes.
+- Preserve CNAME, verification tokens, existing canonical paths and four legacy redirects. Any true consolidation needs documented duplicate intent and a redirect map; no mass deletion/noindex.
+- The English homepage link is an editorial link. Hreflang only for verified equivalent reciprocal URLs, never blanket links to foreign homepages.
+- After actual edits, synchronize legacy metadata matrices and indexes/QA, refresh the master snapshot, record evidence, export/check, validate, commit and push. No routine approval questions.

@@ -1,3 +1,5 @@
+> Historical component snapshot. The 2026-10-29 full-site assignment in `../AGENTS.md`, `SEO-MASTER-PLAN.md` and `../data/seo-master-matrix.json` supersedes completion/scope/word-target claims here. Do not treat it as current project completion.
+
 # SEO Matrix Completion Report
 
 Status: **COMPLETE for the 43 existing foundation URLs**.

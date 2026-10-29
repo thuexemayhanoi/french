@@ -1,4 +1,15 @@
-# Nguyen Tu — French static SEO website
+# French static SEO website — fr.rentbikehanoi.com
+
+## Current assignment — 2026-10-29
+
+The current task is the **full-site French SEO + AEO + GEO project** in [AGENTS.md](AGENTS.md) and [docs/SEO-MASTER-PLAN.md](docs/SEO-MASTER-PLAN.md). The mutable ledger is [data/seo-master-matrix.json](data/seo-master-matrix.json); [CSV](data/seo-master-matrix.csv) and [progress](docs/SEO-PROGRESS.md) are generated views. All 543 indexable URLs are in scope; retain four legacy redirects and the completed 500-article inventory. Current owner NAP/reference prices in [docs/SEO-FACTS.md](docs/SEO-FACTS.md) supersede older business data in the source; their implementation is an open P0 task, not already completed.
+
+Research, optimize, repair, validate, commit and push autonomously. Owner/account-only verification belongs at the end in [docs/SEO-OWNER-VERIFY-LAST.md](docs/SEO-OWNER-VERIFY-LAST.md). Do not restart article production or stop independent SEO for image quotas. Historical component completion claims below are not completion of this new matrix.
+
+```bash
+python3 tools/seo_master.py status
+python3 tools/seo_master.py next 20
+```
 
 Production site: **https://fr.rentbikehanoi.com/**  
 Repository: **https://github.com/thuexemayhanoi/french** (default branch: `main`)

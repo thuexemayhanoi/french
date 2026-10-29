@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-29",
+  "owner_authorization": "Autonomous SEO/repair/commit/push for all existing French pages; verification for owner-only unknowns last; no new article loop",
+  "page_dimensions": {
+    "FACTS": {
+      "priority": "P0",
+      "acceptance": "Owner NAP/hours/reference prices consistent in page, links and built output; unsupported deposits/passport/refunds/delivery/fleet claims removed or qualified; claim-level source and affected sections logged. Unknown owner-only facts deferred narrowly to final appendix."
+    },
+    "INTENT": {
+      "priority": "P0",
+      "acceptance": "Review actual French query/intent against closest sibling URLs. Record primary intent, owner URL for keyword group, supporting variations, parent hub and distinction from similar pages. Existing H1 is only a seed, not measured demand. Home owns broad commercial query; rental pillar covers process and choices."
+    },
+    "CONTENT": {
+      "priority": "P1",
+      "acceptance": "Read full page; repair repeated filler, SEO-process copy, weak French and missing answers using topic-specific useful material. Appropriate depth by role, no padding. Sources for changing/legal/model facts. No fabricated first-hand experience. Record sections changed and source URLs/date."
+    },
+    "META": {
+      "priority": "P1",
+      "acceptance": "Unique truthful title/meta/H1, coherent OG/Twitter, no English boilerplate; natural French terms and compelling factual benefit. Length is a heuristic, not hard Google limit. Reconcile legacy foundation matrices/QA when changing locked metadata. Canonical unchanged."
+    },
+    "LINKS": {
+      "priority": "P1",
+      "acceptance": "Useful source-body links to parent and relevant siblings/supporting pages; add contextual incoming links from relevant hubs/articles. Repair broken targets/fragments, confirm breadcrumbs/menu/footer and no accidental orphans in built HTML. No arbitrary maximum or exact-match spam."
+    },
+    "AEO_GEO": {
+      "priority": "P1",
+      "acceptance": "Answer real page question directly where useful, explain relevant entities/conditions and cite primary evidence for unstable claims; natural French FAQs/checklists/tables only if helpful. No repeated Q&A padding, made-up citations, AI inclusion promises or mandatory AI text files."
+    },
+    "SCHEMA": {
+      "priority": "P1",
+      "acceptance": "Inspect built JSON-LD, parse successfully, match visible facts. Correct WebSite/Organization or LocalBusiness/page/Article/Breadcrumb/Image relationships and stable @ids. Real dates/authors only; no fake rating/review/Offer/sameAs. FAQ is optional and not a promised Google rich result."
+    },
+    "IMAGES": {
+      "priority": "P1",
+      "acceptance": "Retain existing valid primary image and optional extra; verify actual bytes, responsive width/height, French pixel-accurate alt and OG/Twitter match, no broken paths. Visual relevance/duplication review. Record Figma upgrade separately; unavailable tools do not block the other page dimensions."
+    },
+    "UX_CRO": {
+      "priority": "P1",
+      "acceptance": "Check rendered mobile and desktop reading/layout, anchors/TOC, keyboard/contrast, contact options and confirmed hours/address. Appropriate contextual CTA with correct tel/Zalo/WhatsApp; no obstructive popup, fictional urgency or false service promise."
+    },
+    "TECHNICAL": {
+      "priority": "P0",
+      "acceptance": "Self canonical on intended production route, lang fr, indexability and sitemap consistent, useful page not accidentally noindexed/robots-blocked, shared build renders important content, no broken local assets/links. Preserve four legacy redirects. Distinguish local audit from actual HTTP/indexing."
+    },
+    "LIVE_VERIFY": {
+      "priority": "P2",
+      "acceptance": "After verified publish, test actual URL/primary asset/CTA and deployed built revision when reachable. Log URL/status/date and deployment run/SHA. Actual GSC indexing/rank/CWV not inferred from 200 or deploy; missing external access is BLOCKED_TOOL or owner appendix for that evidence alone."
+    }
+  },
+  "route_overrides": {
+    "/": {
+      "role": "HOME_COMMERCIAL_OWNER",
+      "keyword_seed_fr": "location moto hanoi",
+      "intent": "Réserver / comparer la location de moto et scooter à Hanoi; page commerciale principale du site français",
+      "parent_hub": "/"
+    },
+    "/location-moto-hanoi/": {
+      "role": "PILLAR_RENTAL_PROCESS",
+      "keyword_seed_fr": "guide location moto hanoi",
+      "intent": "Comprendre le choix du véhicule, la durée et les démarches avant réservation; distinct de la landing commerciale",
+      "parent_hub": "/"
+    },
+    "/a-propos/": {
+      "role": "ABOUT_VERIFIED_ENTITY",
+      "keyword_seed_fr": "Thuê xe máy Nguyễn Hà Hanoi",
+      "intent": "Identifier le loueur et ses informations vérifiées",
+      "parent_hub": "/"
+    },
+    "/contact/": {
+      "role": "CONTACT_LOCAL",
+      "keyword_seed_fr": "contact Thuê xe máy Nguyễn Hà",
+      "intent": "Trouver adresse, horaires et téléphone confirmés",
+      "parent_hub": "/"
+    },
+    "/faq/": {
+      "role": "FAQ_HUB",
+      "keyword_seed_fr": "questions location moto hanoi",
+      "intent": "Réponses pratiques avant réservation, 15–20 Q&A utiles",
+      "parent_hub": "/"
+    },
+    "/conditions/": {
+      "role": "TERMS_ACTUAL_PRACTICES",
+      "keyword_seed_fr": "conditions location moto Hanoi",
+      "intent": "Lire les conditions réellement confirmées; pas de clauses inventées",
+      "parent_hub": "/"
+    },
+    "/confidentialite/": {
+      "role": "PRIVACY_ACTUAL_PRACTICES",
+      "keyword_seed_fr": "confidentialité fr.rentbikehanoi.com",
+      "intent": "Comprendre le traitement réellement observé et confirmé des données",
+      "parent_hub": "/"
+    },
+    "/prix-location/": {
+      "role": "PILLAR_PRICING",
+      "keyword_seed_fr": "prix location moto hanoi",
+      "intent": "Comparer les tarifs indicatifs confirmés selon type, modèle et durée",
+      "parent_hub": "/"
+    },
+    "/blog/": {
+      "role": "EDITORIAL_HUB",
+      "keyword_seed_fr": "guides moto vietnam en français",
+      "intent": "Trouver les guides pratiques par thème; pas une copie de la home commerciale",
+      "parent_hub": "/"
+    }
+  },
+  "global_tasks": [
+    {
+      "id": "G01",
+      "phase": 0,
+      "priority": "P0",
+      "title": "Replace conflicting shared business identity",
+      "files": "assets/js/site-config.js; assets/js/components.js; site/slots/; assets/js/assistant.js",
+      "acceptance": "Apply current owner NAP/hours/phone in shared config, schema, tel/wa/Zalo and actual business references. Do not keep old Maps CID/email/website as Nguyễn Hà identities without proof; use confirmed channels. Source strings, built output and local indexes agree.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G02",
+      "phase": 0,
+      "priority": "P0",
+      "title": "Reconcile prices and remove unsupported rental policies",
+      "files": "data/seo-business-facts.json; all source HTML; shared config; FAQ; conditions; search/chat indexes",
+      "acceptance": "Use confirmed category/model reference rows, disclaimer and electric daily unknown. Read context of every old deposit/passport/delivery/refund statement, remove unverified assertion or safely qualify. No invented replacement policy. Log unknowns only in final appendix.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G03",
+      "phase": 0,
+      "priority": "P0",
+      "title": "Audit crawl/indexability and protect existing URLs",
+      "files": "CNAME; robots.txt; sitemap.xml; data/legacy-redirects.json; .github/workflows/pages.yml",
+      "acceptance": "Keep 543 indexable routes and four intended redirects; verify canonical/sitemap/robots/production domain, links and asset reachability. Public HTTP observations distinct from local source checks. Repair accidental blocks without moving slugs.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G04",
+      "phase": 0,
+      "priority": "P0",
+      "title": "Reconcile legacy completion claims and task authority",
+      "files": "AGENTS.md; CLAUDE.md; README.md; docs/; legacy matrices",
+      "acceptance": "Master matrix is current task authority; old factory/foundation/image reports are component history. 500 published articles retained, no new article loop. Fix inconsistent runtime flags only after understanding their producer, not by cosmetic edits.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G05",
+      "phase": 1,
+      "priority": "P0",
+      "title": "Create French query ownership and cannibalization map",
+      "files": "all 543 master page rows; data/seo-cluster-matrix.json; docs/SILO-MAP.md",
+      "acceptance": "Assign each actual intent to one preferred French URL and distinct purpose for siblings. Home broad commercial query; rental pillar process/options. No surrender to other owned domains. Document duplicate-intent candidates and safe content differentiation; no bulk redirects/noindex.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G06",
+      "phase": 1,
+      "priority": "P0",
+      "title": "Perform public French SERP/competitor research",
+      "files": "docs/SEO-RESEARCH-LOG.md; relevant master rows",
+      "acceptance": "Use actual available search/tools for French commercial/model/pricing/local/travel intent. Log dated query, target country/language when known, URLs, observed pattern and actionable gaps. All relevant domains may be competitors. Never fabricate volume, rank or traffic, and do not copy competitors.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G07",
+      "phase": 1,
+      "priority": "P0",
+      "title": "Rewrite homepage and commercial conversion hubs",
+      "files": "index.html; location-moto-hanoi/; prix-location/; types-motos/; contact/",
+      "acceptance": "Replace observed generic filler, old identity and unsupported claims with useful French decisions, owner reference price guidance, verified location and contact CTA; make role/search-intent distinct. Preserve useful material and current routes.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G08",
+      "phase": 1,
+      "priority": "P1",
+      "title": "Review every 500 article and 43 foundation URL",
+      "files": "data/seo-master-matrix.json; all production HTML",
+      "acceptance": "Complete every applicable per-page dimension with actual evidence; no blind bulk DONE. Repair repetition, awkward French, topic gaps and factual support. Homepage/hub/article/About/Contact/legal word policies are contextual, not quotas.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G09",
+      "phase": 1,
+      "priority": "P1",
+      "title": "Synchronize legacy metadata and validation with approved SEO edits",
+      "files": "data/seo-cluster-matrix.json; data/seo-foundation-matrix.json; data/content-matrix.csv; data/factory-config.json; scripts/qa.mjs",
+      "acceptance": "Keep metadata assertions and keyword ownership synchronized as pages improve. Replace obsolete global word/link quotas with intent-specific checks only when implementation requires it; preserve meaningful uniqueness, canonical, links and content assertions. No approval/AI-review dependency added.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "phase": 1,
+      "priority": "P1",
+      "title": "Build contextual two-way internal links",
+      "files": "hub/category HTML; source article body; assets/js/silo-map.js; assets/js/content-index.js",
+      "acceptance": "Repair orphan candidates with genuinely relevant incoming links. Parent/pillar/sibling/cross-silo links support reader next question. Verify built header/footer/breadcrumbs/related plus source-body link targets and fragments; avoid navigational link spam.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "phase": 2,
+      "priority": "P1",
+      "title": "Complete direct answers and French FAQ",
+      "files": "faq/index.html; relevant topic pages",
+      "acceptance": "FAQ hub has 15–20 useful accurate Q&As; section answers concise and properly qualified. Add tables/checklists where useful, citations at claims and entity clarity. Do not promise rich results or treat repetitive FAQ schema as AI optimization.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "phase": 2,
+      "priority": "P1",
+      "title": "Correct entity/page/article/image JSON-LD graph",
+      "files": "assets/js/components.js; tools/shared-site.mjs; built HTML",
+      "acceptance": "Validate JSON-LD types/links/@ids. Correct confirmed local entity, WebSite, suitable page type, breadcrumbs, Article.image and truthful authors/dates if known; align with visible copy. Do not invent reviews/ratings/availability/offers/coordinates.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "phase": 2,
+      "priority": "P1",
+      "title": "Research legal, licence and safety claims from current primary sources",
+      "files": "permis-securite/; types-motos/50cc/; electric/model/travel safety guides",
+      "acceptance": "Check jurisdiction, rider nationality/licence/vehicle class, effective dates and source text. Do not state blanket sans-permis / IDP / insurance rules. Record official URL/date and uncertainty in relevant page checkpoint. Owner need not supply publicly verifiable law.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G14",
+      "phase": 2,
+      "priority": "P1",
+      "title": "Research vehicle specs and itinerary facts",
+      "files": "honda/; yamaha/; types-motos/; hanoi/; nord-vietnam/; centre-sud-vietnam/",
+      "acceptance": "Use manufacturer/official transport/tourism/weather sources where relevant; distinguish model-year specs, availability, route estimates and changing closures. No guessed fuel use/range/fees/driving times or implied fleet.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G15",
+      "phase": 2,
+      "priority": "P1",
+      "title": "Implement truthful trust/About/Contact content",
+      "files": "a-propos/; contact/; conditions/; confidentialite/",
+      "acceptance": "Use confirmed facts; no fictional founder/history/experience/author credentials. Contact short and accurate, policy/terms reflect audited code and actual practices; unknown operational facts safely qualified and final appendix updated.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G16",
+      "phase": 2,
+      "priority": "P1",
+      "title": "Audit international SEO without forced equivalence",
+      "files": "lang/locale/canonical; language links; any existing hreflang",
+      "acceptance": "French copy and fr/fr-FR labels agree; unique French URLs self canonical. Verify language equivalents/reciprocity before adding hreflang; no sitewide mapping to foreign homepages and no canonical surrender to another domain.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G17",
+      "phase": 2,
+      "priority": "P1",
+      "title": "Validate all 547 existing integrated images",
+      "files": "data/image-seo-matrix.json; assets/images/seo/; tools/image-seo.mjs",
+      "acceptance": "Run actual image check plus relevant pixel/layout review, meaningful French alt, 1200x630 true WebP and 150–300 KiB existing policy; complete primary/extra integration and ImageObject consistency. Do not inflate small images with grain solely to meet a floor; document size exception if superior quality/performance needs it.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G18",
+      "phase": 2,
+      "priority": "P2",
+      "title": "Resume photographic image upgrade independently",
+      "files": "data/image-seo-figma-log.json; tools/seo-art/figma-batch.mjs",
+      "acceptance": "Initial progress 18/547 Figma upgrades; 529 remain with valid vectors. Retrieve four existing pending nodes first when tools work. Preserve integrated art while quota blocked, log actual attempted tool/date and continue all other SEO. No paid plan/API-key request.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G19",
+      "phase": 3,
+      "priority": "P1",
+      "title": "Audit mobile, desktop and accessibility",
+      "files": "shared CSS/JS/components; representative built page templates; then all relevant rows",
+      "acceptance": "Check actual rendered representative home/hub/article/contact/legal pages on mobile+desktop and expand on failures; keyboard navigation, focus, contrast, headings, touch controls, image layout and TOC. Log browser evidence or explicit tool block, never pretend a visual inspection.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G20",
+      "phase": 3,
+      "priority": "P1",
+      "title": "Improve loading and Core Web Vitals inputs",
+      "files": "assets/css/; assets/js/; cover images; build output",
+      "acceptance": "Measure real available lab tools; optimize LCP hero priority, image dimensions, blocking assets, JS and CLS without removing useful features. Distinguish lab estimates from CrUX/field data. No invented score and no needless noise to increase image size.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G21",
+      "phase": 3,
+      "priority": "P1",
+      "title": "Validate booking/contact paths and optional conversion events",
+      "files": "CTA/footer/contact; assistant; analytics code",
+      "acceptance": "Confirmed phone/Zalo/WhatsApp and contact details work across viewport/keyboard flows. No invented GA4 IDs or duplicate trackers; instrument only existing authorized setup if available. Missing analytics access affects measurement alone.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G22",
+      "phase": 3,
+      "priority": "P1",
+      "title": "Audit duplicate content and broken links on built site",
+      "files": "all source/built HTML; tools/seo_master.py; existing QA",
+      "acceptance": "Review exact repeated paragraphs and likely same-intent pages, not only title uniqueness. Repair broken internal URLs/fragments/assets. Verify nav-only versus editorial orphan candidates. External links checked honestly with real tools and no mass assumptions.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G23",
+      "phase": 3,
+      "priority": "P1",
+      "title": "Verify shared build and derived indexes",
+      "files": "tools/build-site.mjs; build-content-index.mjs; build-chat-index.mjs; _site; existing tests",
+      "acceptance": "Build and inspect static rendered shared NAP/links/schema; regenerate content/chat indexes when source changes. Keep production pages, canonical, sitemap and redirects consistent; meaningful QA passes without disabling assertions.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G24",
+      "phase": 3,
+      "priority": "P1",
+      "title": "Validate sitemap/robots and lastmod honesty",
+      "files": "sitemap.xml; robots.txt; build pipeline",
+      "acceptance": "Only intended canonicals in sitemap; redirects excluded; crawler access actually allowed. lastmod reflects meaningful real changes, not automatic fake freshness. Do not use broad noindex/robots as a duplicate-content shortcut.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G25",
+      "phase": 4,
+      "priority": "P1",
+      "title": "Publish verified batches and check actual deployment",
+      "files": "Git commits; main; .github/workflows/pages.yml; master evidence",
+      "acceptance": "Push without routine approval; verify exact build/deploy jobs and built SHA. Preserve concurrent edits, do not force overwrite. Verify actual live representative and changed pages where reachable. Green/skipped factory run is not implementation or deployment evidence.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G26",
+      "phase": 4,
+      "priority": "P2",
+      "title": "Measure search and AI visibility only with real evidence",
+      "files": "GSC/authorized tools if present; docs/SEO-RESEARCH-LOG.md",
+      "acceptance": "Log real impressions/clicks/indexing/query data and actual dated AI-answer observations if available. No guarantee of 1–3 rankings/citation; absent account access goes to final appendix and does not stop public SEO.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G27",
+      "phase": 4,
+      "priority": "P1",
+      "title": "Reconcile all progress and finish actionable matrix",
+      "files": "data/seo-master-matrix.json; .csv; docs/SEO-PROGRESS.md; docs/SEO-OWNER-VERIFY-LAST.md",
+      "acceptance": "All applicable page and global tasks have evidence-based terminal status; distinguish implemented, verified live, tool-blocked and owner-deferred. Refresh/export/check and commit before final report. No claim total completion while actionable TODOs remain.",
+      "status": "TODO",
+      "evidence": ""
+    },
+    {
+      "id": "G28",
+      "phase": 5,
+      "priority": "P3",
+      "title": "Present owner-only verification last",
+      "files": "docs/SEO-OWNER-VERIFY-LAST.md",
+      "acceptance": "Only after independent work: summarize smallest unresolved fact/account tasks, URLs, safe action already taken and effect. Do not ask during execution or solicit subscriptions/API keys/admin tutorials. Reuse supplied NAP/prices, never request them again.",
+      "status": "TODO",
+      "evidence": ""
+    }
+  ],
+  "official_references": [
+    {
+      "url": "https://developers.google.com/search/docs/appearance/title-link",
+      "checked": "2026-10-29",
+      "use": "Unique concise titles; no Google character hard limit"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "checked": "2026-10-29",
+      "use": "Useful original content and technical clarity; no special AI visibility guarantee"
+    },
+    {
+      "url": "https://developers.google.com/search/updates",
+      "checked": "2026-10-29",
+      "use": "FAQ rich result deprecated May 7 2026; documentation removed June 15 2026; do not promise FAQ rich results"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "use": "Current guidance to recheck during content task"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "use": "Current guidance to recheck during schema task"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "use": "Current guidance to recheck before hreflang changes"
+    }
+  ]
+}
