@@ -1,3 +1,5 @@
+> Historical component document. Current task authority: `../AGENTS.md`, `SEO-MASTER-PLAN.md` and `../data/seo-master-matrix.json`; query ownership: `../data/seo-query-ownership.json`.
+
 # French Factory Audit — reference: thuexemayhanoi/web
 
 ## What was retained from /web

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Repository-only SEO inventory and resumable work ledger; never claims rankings.
 
-Run from the repo root: python3 tools/seo_master.py refresh|check|status|next [N]
+Run from the repo root: python3 tools/seo_master.py refresh|check|status|next [N]|record <evidence.json>
 Progress lives in data/seo-master-matrix.json; CSV/report are derived exports.
 """
 import argparse
@@ -398,11 +398,66 @@ def validate(matrix):
     return bool(errors)
 
 
+def record(matrix, file):
+    """Merge reviewed evidence into the ledger. Run only after `refresh`.
+
+    Input: JSON array or JSONL of {"path", "checks": {DIM: {"status", "evidence"}}, "source_sha256"?}
+    or {"task": "G..", "status", "evidence"}. Page evidence is rejected when the reviewed file
+    no longer matches the ledger snapshot (edit after review or refresh not run).
+    """
+    policy = read('data/seo-master-policy.json')
+    text = (ROOT / file).read_text() if not Path(file).is_absolute() else Path(file).read_text()
+    entries = json.loads(text) if text.lstrip().startswith('[') else [json.loads(x) for x in text.splitlines() if x.strip()]
+    pages = {p['path']: p for p in matrix['pages']}
+    tasks = {t['id']: t for t in matrix['global_tasks']}
+    errors, applied = [], 0
+    for entry in entries:
+        if 'task' in entry:
+            task = tasks.get(entry['task'])
+            if not task or entry.get('status') not in STATES or (entry['status'] != 'TODO' and not entry.get('evidence', '').strip()):
+                errors.append(f"invalid task entry {entry.get('task')}")
+                continue
+            task.update(status=entry['status'], evidence=entry['evidence'].strip())
+            task.pop('reopen_reason', None)
+            applied += 1
+            continue
+        page = pages.get(entry.get('path', ''))
+        if not page:
+            errors.append(f"unknown page {entry.get('path')}")
+            continue
+        current = hashlib.sha256((ROOT / page['path']).read_bytes()).hexdigest()
+        if current != page['baseline']['source_sha256'] or entry.get('source_sha256', current) != current:
+            errors.append(f"{page['path']}: stale source (edit after review or refresh not run)")
+            continue
+        for dim, check in entry.get('checks', {}).items():
+            if dim not in policy['page_dimensions'] or check.get('status') not in STATES:
+                errors.append(f"{page['path']}: invalid dimension/state {dim}")
+                continue
+            if check['status'] != 'TODO' and not check.get('evidence', '').strip():
+                errors.append(f"{page['path']}: evidence required for {dim}")
+                continue
+            page['checks'][dim] = {'status': check['status'], 'evidence': check.get('evidence', '').strip(),
+                                   'verified_sha256': current}
+            applied += 1
+    return applied, errors
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['refresh', 'export', 'check', 'status', 'next'])
-    parser.add_argument('limit', type=int, nargs='?', default=20)
+    parser.add_argument('command', choices=['refresh', 'export', 'check', 'status', 'next', 'record'])
+    parser.add_argument('limit', nargs='?', default='20')
     args = parser.parse_args()
+    if args.command == 'record':
+        matrix = read('data/seo-master-matrix.json')
+        applied, errors = record(matrix, args.limit)
+        if errors:
+            print(json.dumps({'applied': 0, 'errors': errors[:50], 'error_count': len(errors)}, ensure_ascii=False, indent=2))
+            return 1
+        save('data/seo-master-matrix.json', matrix)
+        exports(matrix)
+        print(json.dumps({'applied': applied, **summary(matrix)}, ensure_ascii=False, indent=2))
+        return 0
+    args.limit = int(args.limit)
     if args.command == 'refresh':
         matrix = snapshot()
         save('data/seo-master-matrix.json', matrix)

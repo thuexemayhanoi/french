@@ -1,0 +1,234 @@
+[
+ {
+  "path": "location-moto-hanoi/courte-duree/index.html",
+  "words": 3123,
+  "new_meta": {
+   "title": "Location moto courte durée à Hanoi : de 1 jour à 2 semaines",
+   "description": "Organiser une location de moto de quelques jours à Hanoi : horaires, tarifs jour et semaine, choix du véhicule, retrait et contrôle à Long Biên.",
+   "h1": "Location de moto courte durée à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Owner NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 0334 699 969 / tel:+84334699969 / Zalo / WhatsApp, 09:00–21:00 daily) and owner price rows used verbatim with the exact disclaimer next to the table; no deposit amount, passport rule, delivery promise, insurance, assistance, stock, discount, refund, payment method or exchange rate stated; deposit/delivery each qualified once as \"non publié / à confirmer\"; no package derived by multiplying a day rate; electric day price kept as \"selon le modèle\". seo_page_check: no money_not_in_owner_table, no seo_process_language, no paragraph_duplicated_elsewhere, no mannered phrasing; remaining review hits are qualified questions or guide-list anchors (incl. false positives \"précautions\"→caution, \"permise\"→permis). Day + week columns (6 full rows).",
+   "INTENT": "primary intent: organiser une location de 1 jour à ~2 semaines à Hanoi (heures, jour compté, ligne jour/semaine, véhicule, retrait/contrôle à Long Biên); owner URL /location-moto-hanoi/courte-duree/; distinct from /prix-location/jour/ because it covers organisation (start/end times, extension, early return, vehicle per programme, pickup logistics, inspection, questions, short trips) while price reading/comparison lives on /prix-location/jour/.",
+   "CONTENT": "All template filler replaced. Sections: essentiel avant de réserver; heure de début/fin et jour compté (24 h vs calendaire, worked question, arrival/departure cases, Bến xe Gia Lâm return, extension/early return); tableau jour+semaine + reading rules; choix du véhicule (transmission, programme, 50cc/électrique caveats, 5-row decision table); retrait à Long Biên (address, how to come, what to bring, deposit asked once, delivery only as a question, first metres); contrôle au retrait checklist (8 points); 7 questions à poser; sorties Bat Trang/Ba Vi/Duong Lam/Ninh Binh without fixed times; FAQ 6; guide list; contact. ~2,100 words excluding the guide list. No external source needed.",
+   "META": "Title 59 chars, description 144 chars, og:title/og:description identical; H1 unchanged; old title/meta promised \"prix, dépôt\" — new meta promises only organisation content delivered.",
+   "LINKS": "Required links kept in body: /location-moto-hanoi/longue-duree/, /prix-location/jour/, /hanoi/, /nord-vietnam/ninh-binh/. Parent /location-moto-hanoi/ and siblings /location-moto-hanoi/quartiers/, /prix-location/semaine/ in text; guide list (h3 groups: durée; réserver/retirer/rendre; profil; sorties; saisons/imprévus; prix et garantie) links 42 child articles (incl. the experienced-rider article, so every /location-moto-hanoi/ child appears on at least one of the three sub-hubs).",
+   "AEO_GEO": "Direct answer in lead (4 points to settle), question-form FAQ, decision table by programme, quoted example question for the counted day, checklists usable as extractable steps; local entities: Long Biên, Bồ Đề, Bến xe Gia Lâm, Nguyễn Văn Cừ, Vieux Quartier, Hoàn Kiếm, Ninh Binh."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "How a rental day is counted (24 h rolling vs calendar day, grace period, late-return rule)",
+   "Extension and early-return rules (any adjustment of price)",
+   "Pickup/return outside 09:00–21:00",
+   "Whether trips outside Hanoi (e.g. Ninh Binh) are allowed",
+   "Deposit amount/form and restitution timing; documents requested at pickup",
+   "Delivery/collection possibility, area and fee",
+   "Included equipment (helmets, raincoat, lock) and fuel-level convention",
+   "Breakdown/puncture procedure and who pays"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/longue-duree/index.html",
+  "words": 2668,
+  "new_meta": {
+   "title": "Location moto longue durée à Hanoi : guide pour louer au mois",
+   "description": "Louer une moto un mois ou plus à Hanoi : tarifs mensuels indicatifs, entretien et pannes à convenir, prolongation, stationnement et papiers.",
+   "h1": "Location de moto longue durée à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Owner NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 0334 699 969 / tel:+84334699969 / Zalo / WhatsApp, 09:00–21:00 daily) and owner price rows used verbatim with the exact disclaimer next to the table; no deposit amount, passport rule, delivery promise, insurance, assistance, stock, discount, refund, payment method or exchange rate stated; deposit/delivery each qualified once as \"non publié / à confirmer\"; no package derived by multiplying a day rate; electric day price kept as \"selon le modèle\". seo_page_check: no money_not_in_owner_table, no seo_process_language, no paragraph_duplicated_elsewhere, no mannered phrasing; remaining review hits are qualified questions or guide-list anchors (incl. false positives \"précautions\"→caution, \"permise\"→permis). Month column (6 full rows) plus an advice column \"À préciser pour un mois\" (no new figures). Legal: Law 36/2024/QH15 (in force 1 Jan 2025) art. 56 documents the driver must carry — only \"notamment\" registration certificate + mandatory civil-liability insurance certificate, with official portal link and \"règles susceptibles d’évoluer\"; licence question deferred to /permis-securite/permis/. Market practice on deposits/ID phrased as generic \"certains loueurs\", not as this shop policy.",
+   "INTENT": "primary intent: louer une moto un mois ou plus (usage quotidien, entretien/pannes à convenir, prolongation, stationnement au logement, papiers); owner URL /location-moto-hanoi/longue-duree/; distinct from /prix-location/mois/ because it organises the long rental (maintenance agreement table, extension/swap, parking per district, papers, rent vs buy) while /prix-location/mois/ reads the month column and cost lines.",
+   "CONTENT": "All filler replaced. Sections: ce qui change au mois; tarifs mensuels (table + disclaimer); choisir une machine du quotidien (Honda/Yamaha scooter and semi-auto families, electric charging at home, 50cc limits); entretien/usure/pannes (6-row question table, call before repair, keep receipts); prolonger/écourter/changer; garer chez soi par quartier (Tây Hồ, Ba Đình/Hoàn Kiếm, Cầu Giấy/Thanh Xuân, Đống Đa/Hai Bà Trưng, Long Biên); papiers et conditions (Law 36/2024 art. 56, written agreement, deposit asked once, passport trade-offs); louer ou acheter; FAQ 6; guide list; contact. ~1,860 words excluding the guide list.",
+   "META": "Title 61 chars, description 140 chars, og tags identical; H1 unchanged; removed \"dépôt\" promise from meta.",
+   "LINKS": "Required links kept: /prix-location/mois/, /honda/, /yamaha/, /types-motos/. Parent and siblings (/location-moto-hanoi/courte-duree/, /location-moto-hanoi/quartiers/) in text; /permis-securite/permis/ for licence. Guide list (durée et budget; situation; entretien et incidents; quartiers; saisons; garantie/contrat/modèles) links 32 child articles from both silos.",
+   "AEO_GEO": "Direct answer in lead; maintenance question table; per-district parking list; FAQ in question form; dated official legal citation; local entities Tây Hồ, Cầu Giấy, Thanh Xuân, Ba Đình, Long Biên, gửi xe."
+  },
+  "sources": [
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 identity, in force 1 Jan 2025; art. 56 list of documents to carry (registration certificate, mandatory civil-liability insurance). URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated. Art. 56 content was cross-read from search summaries (hethongphapluat.com aggregator); coordinator may want to open the official PDF to confirm."
+   }
+  ],
+  "owner_gaps": [
+   "Who pays routine maintenance (oil change, tyres, brakes, chain) on monthly rentals; whether service requires a visit to Long Biên",
+   "Replacement vehicle and delay in case of immobilising breakdown",
+   "Damage/accident liability split",
+   "Renewal notice period, next-month rate, early termination rule, payment timing",
+   "Any multi-month discount",
+   "Which vehicle documents travel with the bike (original/copy registration, insurance certificate)",
+   "Deposit/ID requirement for monthly rentals"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/quartiers/index.html",
+  "words": 2250,
+  "new_meta": {
+   "title": "Location moto par quartier à Hanoi : trajets vers Long Biên",
+   "description": "Depuis le Vieux Quartier, Ba Đình, Tây Hồ, Cầu Giấy ou Hai Bà Trưng : rejoindre le point de retrait de Long Biên, ponts et stationnement.",
+   "h1": "Location de moto par quartier à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Owner NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 0334 699 969 / tel:+84334699969 / Zalo / WhatsApp, 09:00–21:00 daily) and owner price rows used verbatim with the exact disclaimer next to the table; no deposit amount, passport rule, delivery promise, insurance, assistance, stock, discount, refund, payment method or exchange rate stated; deposit/delivery each qualified once as \"non publié / à confirmer\"; no package derived by multiplying a day rate; electric day price kept as \"selon le modèle\". seo_page_check: no money_not_in_owner_table, no seo_process_language, no paragraph_duplicated_elsewhere, no mannered phrasing; remaining review hits are qualified questions or guide-list anchors (incl. false positives \"précautions\"→caution, \"permise\"→permis). No coordinates/Maps CID; reader told to ask for a location pin. No travel times. Bridge facts each cited: Long Biên bridge closed to cars (pedestrians, bicycles, motorbikes only); reopened 28 May 2026 after ~2 months of spring 2026 repairs, two-way between Bồ Đề and Hoàn Kiếm on side lanes; closed during Sept 2024 high water; Chương Dương links Hoàn Kiếm–Long Biên and carries cars and two-wheelers, Nguyễn Văn Cừ leads to it and queued in March 2026; Vĩnh Tuy 1/2 one-way each since 30 Aug 2023; 2025 two-tier administration (districts no longer an administrative level). Hoàn Kiếm weekend pedestrian streets phrased qualitatively (\"certains soirs\").",
+   "INTENT": "primary intent: louer selon son quartier = rejoindre le point de retrait confirmé de Long Biên depuis chaque secteur, ponts, rouler/stationner par secteur, livraison comme question; owner URL /location-moto-hanoi/quartiers/; distinct from district child articles (each covers one district) and from /contact/ (NAP only).",
+   "CONTENT": "All filler replaced. Sections: point de retrait (NAP block, ngõ explanation, Bến xe Gia Lâm landmark, 2025 administrative reform note); traverser le fleuve Rouge (Long Biên, Chương Dương, Vĩnh Tuy with 7 dated citations, no times); 7-row table secteur → trajet → rouler/se garer (Vieux Quartier/Hoàn Kiếm, Ba Đình, Tây Hồ, Đống Đa/Thanh Xuân/Cầu Giấy, Hai Bà Trưng/Hoàng Mai, Long Biên/Gia Lâm, Nội Bài); rouler et stationner (4 h3); venir sans moto; livraison = question (one qualification); FAQ 6; guide list; contact. ~1,760 words excluding the guide list.",
+   "META": "Title 59 chars, description 137 chars, og tags identical; H1 unchanged; removed \"livraison\" promise from meta.",
+   "LINKS": "Required links kept: /types-motos/, /prix-location/, /hanoi/, /contact/. Parent and siblings (courte-duree, longue-duree) in text; contextual /hanoi/long-bien-pont-hanoi/, /hanoi/west-lac-hanoi-moto/, /hanoi/red-river-hanoi-itineraire-moto/. Guide list (centre historique; rive est; ouest et sud; arrivée et choix du loueur) links all 8 district articles + airport/near-me/delivery/pickup/hours/choice articles (17 children).",
+   "AEO_GEO": "Lead answers \"où retirer / comment venir\"; district table extractable; bridge facts dated and attributed; FAQ in question form; entities: Long Biên, Bồ Đề, Bến xe Gia Lâm, Nguyễn Văn Cừ, Chương Dương, Vĩnh Tuy, Hoàn Kiếm, Ba Đình, Tây Hồ, Đống Đa, Cầu Giấy, Hai Bà Trưng, Thanh Xuân, Nội Bài."
+  },
+  "sources": [
+   {
+    "url": "https://vov.vn/tin-24h/bat-chap-bien-cam-o-to-ngang-nhien-di-vao-cau-long-bien-1063326.vov",
+    "checked": "2026-10-29",
+    "used_for": "Long Biên bridge: only pedestrians, non-motorised vehicles and motorbikes allowed; car-ban signs at both ends. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-29",
+    "used_for": "Reopening 28 May 2026 after ~2 months of repairs; motorbikes, bicycles, pedestrians both directions between Bồ Đề and Hoàn Kiếm wards on side lanes. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   },
+   {
+    "url": "https://vietnamfinance.vn/ha-noi-toan-bo-viec-di-lai-tren-cau-long-bien-d115922.html",
+    "checked": "2026-10-29",
+    "used_for": "Full closure of Long Biên bridge to all traffic during Red River high water, September 2024. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   },
+   {
+    "url": "https://vietnamnet.vn/en/seven-artery-bridges-connecting-traffic-in-hanoi-554276.html",
+    "checked": "2026-10-29",
+    "used_for": "Chương Dương bridge links Hoàn Kiếm and Long Biên and is shared by cars and motorbikes. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   },
+   {
+    "url": "https://dtinews.dantri.com.vn/vietnam-today/long-bien-bridge-closure-snarls-hanoi-traffic-20260330105245418.htm",
+    "checked": "2026-10-29",
+    "used_for": "March 2026 closure: morning queues along Nguyễn Văn Cừ towards Chương Dương bridge (shows Nguyễn Văn Cừ leads to it). URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   },
+   {
+    "url": "https://tuoitrenews.vn/news/society/20230830/2nd-phase-of-vinh-tuy-bridge-opened-to-traffic-in-hanoi/75288.html",
+    "checked": "2026-10-29",
+    "used_for": "Vĩnh Tuy 2 opened 30 Aug 2023 between Hai Bà Trưng and Long Biên; the two bridges each one-way. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   },
+   {
+    "url": "https://english.hanoi.gov.vn/featured-news/state-president-luong-cuong-attends-launch-of-hanoi-two-tiered-administrative-system-2655250702182341418.htm",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi two-tier local administration from 1 July 2025 (district level ended). URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   }
+  ],
+  "owner_gaps": [
+   "Exact map pin / directions inside Ngõ 5 (no coordinates published)",
+   "Delivery/collection by district: availability, fee, time slots",
+   "Whether return can be made elsewhere than Long Biên",
+   "Luggage handling at pickup"
+  ]
+ },
+ {
+  "path": "prix-location/jour/index.html",
+  "words": 2268,
+  "new_meta": {
+   "title": "Prix location moto Hanoi par jour : tarifs indicatifs en VND",
+   "description": "Tarifs journaliers indicatifs à Hanoi pour semi-automatique, scooter, 50cc, Vision et Air Blade, ce que le loyer d’un jour ne couvre pas et comment comparer.",
+   "h1": "Prix de location de moto par jour à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Owner NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 0334 699 969 / tel:+84334699969 / Zalo / WhatsApp, 09:00–21:00 daily) and owner price rows used verbatim with the exact disclaimer next to the table; no deposit amount, passport rule, delivery promise, insurance, assistance, stock, discount, refund, payment method or exchange rate stated; deposit/delivery each qualified once as \"non publié / à confirmer\"; no package derived by multiplying a day rate; electric day price kept as \"selon le modèle\". seo_page_check: no money_not_in_owner_table, no seo_process_language, no paragraph_duplicated_elsewhere, no mannered phrasing; remaining review hits are qualified questions or guide-list anchors (incl. false positives \"précautions\"→caution, \"permise\"→permis). Day column (6 full rows). Week figures for Vision/Air Blade quoted once \"à titre indicatif\" for the 5–6 day case, without multiplication. Fuel kept qualitative with Petrolimex link (no price).",
+   "INTENT": "primary intent: prix d’une location à la journée à Hanoi; owner URL /prix-location/jour/; distinct from /location-moto-hanoi/courte-duree/ (organisation) because it reads the day column, what the rent excludes, how to compare two day quotes and when to ask for the week line.",
+   "CONTENT": "All filler and the 3 post-article \"Repère complémentaire\" sections removed. Sections: tarifs à la journée (table + disclaimer + range reading); prix identique → choisir sur l’usage (50cc/Vision/Air Blade all 200 000 VND; electric); ce que le loyer ne couvre pas (6-point checklist; fuel method + Petrolimex); ce qu’une journée recouvre; comparer deux offres (8-row table); exemples (ville seul, sortie à deux, Ninh Binh dans la journée, électrique); message à envoyer (checklist); deux/cinq jours: jour ou semaine; FAQ 6; guide list; voisines. ~1,660 words excluding the guide list.",
+   "META": "Old title \"… | Tarifs & dépôt\" promised deposit info not delivered → new title 60 chars \"tarifs indicatifs en VND\"; description 157 chars; og tags identical; H1 unchanged.",
+   "LINKS": "Required links kept: /prix-location/semaine/, /prix-location/mois/, /types-motos/50cc/, /location-moto-hanoi/courte-duree/. Parent /prix-location/ in text; /types-motos/, /nord-vietnam/ninh-binh/, /contact/. Guide list (lire un tarif; prix selon véhicule; comparer sur quelques jours; dépenses autour du loyer; budget d’une sortie) links 23 children.",
+   "AEO_GEO": "Lead gives the day figures directly; comparison table and request checklist; FAQ with direct numeric answers + qualification; key insight (same 200 000 VND line for 50cc/Vision/Air Blade → choose on use)."
+  },
+  "sources": [
+   {
+    "url": "https://www.petrolimex.com.vn/index.html",
+    "checked": "2026-10-29",
+    "used_for": "Qualitative only: retail fuel prices are adjusted periodically and published by Petrolimex; no price quoted. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   }
+  ],
+  "owner_gaps": [
+   "Day-count convention and late-return rule",
+   "Fuel: who pays and return level",
+   "Helmets/raincoat/lock included per day",
+   "Deposit for a one-day rental",
+   "Electric day price per model",
+   "Seasonal (Tết) pricing"
+  ]
+ },
+ {
+  "path": "prix-location/semaine/index.html",
+  "words": 2263,
+  "new_meta": {
+   "title": "Prix location moto Hanoi à la semaine : tarifs et devis",
+   "description": "Tarifs hebdomadaires indicatifs à Hanoi par catégorie et par modèle, lecture des fourchettes, dépenses hors loyer et choix entre jours, semaine et mois.",
+   "h1": "Prix de location de moto par semaine à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Owner NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 0334 699 969 / tel:+84334699969 / Zalo / WhatsApp, 09:00–21:00 daily) and owner price rows used verbatim with the exact disclaimer next to the table; no deposit amount, passport rule, delivery promise, insurance, assistance, stock, discount, refund, payment method or exchange rate stated; deposit/delivery each qualified once as \"non publié / à confirmer\"; no package derived by multiplying a day rate; electric day price kept as \"selon le modèle\". seo_page_check: no money_not_in_owner_table, no seo_process_language, no paragraph_duplicated_elsewhere, no mannered phrasing; remaining review hits are qualified questions or guide-list anchors (incl. false positives \"précautions\"→caution, \"permise\"→permis). Week column (6 full rows). Month figures for semi-auto and Air Blade quoted once \"à titre indicatif\" for the 3-week case, no multiplication. Fuel qualitative + Petrolimex link.",
+   "INTENT": "primary intent: prix d’une location à la semaine; owner URL /prix-location/semaine/; distinct from /location-moto-hanoi/courte-duree/ and /location-moto-hanoi/longue-duree/ because it reads the week column, off-rent costs over 7 days and how to compare weekly quotes / choose between days, week and month.",
+   "CONTENT": "All filler and the post-article filler sections removed. Sections: tarifs à la semaine; lire les fourchettes (widest auto range, Vision vs Air Blade, 50cc = Vision, electric weekly line); ce que contient une semaine; dépenses hors loyer (6-row table + fuel/charging); comparer deux offres (checklist); cas concrets (4–5 jours, 10 jours, 3 semaines, semaine dans le Nord); ville vs route; prolonger/écourter/modifier; FAQ 6; guide list; voisines. ~1,660 words excluding the guide list.",
+   "META": "Old title \"… | Coût & conditions\" and meta promising \"dépôt, entretien\" replaced; title 55 chars, description 152 chars; og tags identical; H1 unchanged.",
+   "LINKS": "Required links kept: /prix-location/mois/, /location-moto-hanoi/longue-duree/, /types-motos/. Parent /prix-location/, sibling /prix-location/jour/, /location-moto-hanoi/courte-duree/, /contact/. Guide list (semaine/jour/mois; modèle; budgets de voyage; autour du loyer) links 23 children.",
+   "AEO_GEO": "Lead lists all weekly figures; FAQ with direct answers; cost table; scenario h3s answer \"4–5 jours / 10 jours / 3 semaines\" queries without invented packages."
+  },
+  "sources": [
+   {
+    "url": "https://www.petrolimex.com.vn/index.html",
+    "checked": "2026-10-29",
+    "used_for": "Qualitative only: retail fuel prices are adjusted periodically and published by Petrolimex; no price quoted. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   }
+  ],
+  "owner_gaps": [
+   "Definition of a rental week (start/end hour)",
+   "Extra-day counting beyond 7 days",
+   "Early return after 5 days",
+   "Trips outside Hanoi allowed during weekly rental",
+   "Puncture/repair responsibility during the week",
+   "Weekly deposit"
+  ]
+ },
+ {
+  "path": "prix-location/mois/index.html",
+  "words": 2263,
+  "new_meta": {
+   "title": "Prix location moto Hanoi au mois : tarifs et frais à prévoir",
+   "description": "Tarifs mensuels indicatifs à Hanoi pour semi-automatique, scooter, électrique, 50cc, Vision et Air Blade, frais hors loyer et méthode pour comparer les devis.",
+   "h1": "Prix de location de moto par mois à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Owner NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 0334 699 969 / tel:+84334699969 / Zalo / WhatsApp, 09:00–21:00 daily) and owner price rows used verbatim with the exact disclaimer next to the table; no deposit amount, passport rule, delivery promise, insurance, assistance, stock, discount, refund, payment method or exchange rate stated; deposit/delivery each qualified once as \"non publié / à confirmer\"; no package derived by multiplying a day rate; electric day price kept as \"selon le modèle\". seo_page_check: no money_not_in_owner_table, no seo_process_language, no paragraph_duplicated_elsewhere, no mannered phrasing; remaining review hits are qualified questions or guide-list anchors (incl. false positives \"précautions\"→caution, \"permise\"→permis). Month column (6 full rows). Vision week + month quoted once for the 3–4 week case, no multiplication. Parking monthly fees phrased as generic market practice (\"il est courant que\"), no amount.",
+   "INTENT": "primary intent: prix d’une location au mois; owner URL /prix-location/mois/; distinct from /location-moto-hanoi/longue-duree/ because it reads the month column, the monthly budget beyond rent and how to compare monthly quotes, while longue-duree handles maintenance agreement, parking logistics, papers and extension.",
+   "CONTENT": "All filler and post-article filler sections removed. Sections: tarifs au mois; lire la colonne mensuelle (lowest semi-auto line, Air Blade below Vision/50cc, month ≠ sum of days, electric line excludes charging); budget au-delà du loyer (8-row table + parking + fuel/Petrolimex); trois profils (étudiant, télétravailleur Tây Hồ, résident Cầu Giấy électrique); comparer deux devis (checklist); mois/semaines/achat (3–4 semaines, mois + jours, plusieurs mois, calendrier incertain, choix du modèle); préparer la demande + contact; FAQ 6; guide list; voisines. ~1,660 words excluding the guide list.",
+   "META": "Old title \"… | Longue durée & entretien\" and meta promising \"dépôt, entretien, comparaison avec achat\" replaced; title 60 chars, description 158 chars; og tags identical; H1 unchanged.",
+   "LINKS": "Required links kept: /location-moto-hanoi/longue-duree/, /honda/, /yamaha/, /types-motos/. Parent /prix-location/, siblings jour/semaine. Guide list (mois/semaine/jour; budget de trente jours; entretien et frais; modèle; énergie, garantie et remise; situation) links 23 children.",
+   "AEO_GEO": "Lead lists all monthly figures; cost table; profile-based reading; FAQ with direct answers (cheapest monthly line, month ≠ 30 × day)."
+  },
+  "sources": [
+   {
+    "url": "https://www.petrolimex.com.vn/index.html",
+    "checked": "2026-10-29",
+    "used_for": "Qualitative only: retail fuel prices are adjusted periodically and published by Petrolimex; no price quoted. URL seen in a search result on 2026-10-29; direct page fetch was blocked by the session network policy (WebFetch/curl) and Firecrawl had no credits, so the claim is limited to what the result snippet stated."
+   }
+  ],
+  "owner_gaps": [
+   "Month definition (calendar vs 30 days) and extra-day rule",
+   "Maintenance/repairs included or not",
+   "Renewal notice and next-month rate; early termination",
+   "Multi-month discount",
+   "Monthly deposit",
+   "Electric charging arrangements"
+  ]
+ },
+ {
+  "path": "prix-location/index.html",
+  "words": 2200,
+  "evidence": {
+   "FACTS": "No fact changed; single insertion only.",
+   "INTENT": "Unchanged (pillar for prices).",
+   "CONTENT": "One change: inserted before the FAQ a <section class=\"seo-section\"> \"Guides détaillés sur les prix et les coûts\" with 8 h3 groups and <ul class=\"guide-list\"> listing all 39 /prix-location/ child articles (verified set-equal to silo-children.json) with H1-based anchors and one-sentence descriptions. Byte check: removing the inserted section restores the original file exactly.",
+   "META": "Unchanged.",
+   "LINKS": "Adds 39 child links (lire/comparer un tarif 8; budget selon la durée 5; prix selon le véhicule 6; comparer deux modèles 5; carburant et recharge 2; garantie, livraison et frais imprévus 6; budgets de voyage 5; moto ou autre transport 2).",
+   "AEO_GEO": "Hub now exposes the full topic cluster with descriptive anchors."
+  },
+  "sources": [],
+  "owner_gaps": [],
+  "coordinator_note": "Pre-existing issue NOT fixed (instruction: one change only): two duplicated \"Repère complémentaire\" sections sit between </article> and <div data-global-cta> and contain SEO-process filler (\"Les futurs articles…\", \"pages de fondation\"); seo_page_check flags them as seo_process_language and paragraph_duplicated_elsewhere (+6 pages). The same filler block was removed from /prix-location/jour/, /semaine/ and /mois/ as part of their rewrite. Recommend deleting it on /prix-location/ too."
+ }
+]

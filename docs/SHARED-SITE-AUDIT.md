@@ -1,3 +1,5 @@
+> Historical component document. Current task authority: `../AGENTS.md`, `SEO-MASTER-PLAN.md` and `../data/seo-master-matrix.json`; query ownership: `../data/seo-query-ownership.json`.
+
 # Shared-site architecture audit and operating guide
 
 Audit date: 2026-10-10. Baseline: `9f49b04e6afa8473f2da2e917019c458cc426685`.

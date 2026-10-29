@@ -1,3 +1,5 @@
+> Historical component document. Current task authority: `../AGENTS.md`, `SEO-MASTER-PLAN.md` and `../data/seo-master-matrix.json`; query ownership: `../data/seo-query-ownership.json`.
+
 # French website — current architecture
 
 Last documentation review: **2026-10-10**  

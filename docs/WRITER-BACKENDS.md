@@ -1,3 +1,5 @@
+> Historical component document. Current task authority: `../AGENTS.md`, `SEO-MASTER-PLAN.md` and `../data/seo-master-matrix.json`; query ownership: `../data/seo-query-ownership.json`.
+
 # Writer backends: verified feasibility (2026-10-09)
 
 The GitHub Actions factory (`.github/workflows/article-factory.yml`) is a

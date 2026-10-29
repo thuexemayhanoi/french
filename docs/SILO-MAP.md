@@ -1,3 +1,5 @@
+> Historical component document. Current task authority: `../AGENTS.md`, `SEO-MASTER-PLAN.md` and `../data/seo-master-matrix.json`; query ownership: `../data/seo-query-ownership.json`.
+
 # SEO silo map
 
 Prepared for 500 planned guides. No 500-article workflow is created here.

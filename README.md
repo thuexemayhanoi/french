@@ -2,7 +2,7 @@
 
 ## Current assignment — 2026-10-29
 
-The current task is the **full-site French SEO + AEO + GEO project** in [AGENTS.md](AGENTS.md) and [docs/SEO-MASTER-PLAN.md](docs/SEO-MASTER-PLAN.md). The mutable ledger is [data/seo-master-matrix.json](data/seo-master-matrix.json); [CSV](data/seo-master-matrix.csv) and [progress](docs/SEO-PROGRESS.md) are generated views. All 543 indexable URLs are in scope; retain four legacy redirects and the completed 500-article inventory. Current owner NAP/reference prices in [docs/SEO-FACTS.md](docs/SEO-FACTS.md) supersede older business data in the source; their implementation is an open P0 task, not already completed.
+The current task is the **full-site French SEO + AEO + GEO project** in [AGENTS.md](AGENTS.md) and [docs/SEO-MASTER-PLAN.md](docs/SEO-MASTER-PLAN.md). The mutable ledger is [data/seo-master-matrix.json](data/seo-master-matrix.json); [CSV](data/seo-master-matrix.csv) and [progress](docs/SEO-PROGRESS.md) are generated views. All 543 indexable URLs are in scope; retain four legacy redirects and the completed 500-article inventory. Current owner NAP/reference prices in [docs/SEO-FACTS.md](docs/SEO-FACTS.md) supersede older business data; the shared config, footer and schema implementation is recorded in [docs/SEO-P0-2026-10-29.md](docs/SEO-P0-2026-10-29.md), and page-level reviews follow [docs/SEO-EDITORIAL-GUIDE.md](docs/SEO-EDITORIAL-GUIDE.md) and [docs/SEO-ARTICLE-REVIEW-PROTOCOL.md](docs/SEO-ARTICLE-REVIEW-PROTOCOL.md).
 
 Research, optimize, repair, validate, commit and push autonomously. Owner/account-only verification belongs at the end in [docs/SEO-OWNER-VERIFY-LAST.md](docs/SEO-OWNER-VERIFY-LAST.md). Do not restart article production or stop independent SEO for image quotas. Historical component completion claims below are not completion of this new matrix.
 
@@ -16,9 +16,9 @@ Repository: **https://github.com/thuexemayhanoi/french** (default branch: `main`
 
 A French-language, dependency-light static website about motorcycle and scooter rental in Hanoi and travel in Vietnam. Pages use shared site configuration, styles and JavaScript components. GitHub Pages serves the published site; the existing `CNAME` is retained.
 
-## Content and publishing status
+## Content and publishing status (historical component snapshot)
 
-Snapshot checked on **2026-10-10** against the repository's content matrix, queue, sitemap and GitHub Pages deployment:
+The table below is the article-factory inventory, not SEO completion: per-URL SEO status lives only in `data/seo-master-matrix.json`. Snapshot checked on **2026-10-10** against the repository's content matrix, queue, sitemap and GitHub Pages deployment:
 
 | Measure | Repository-reported result |
 | --- | ---: |

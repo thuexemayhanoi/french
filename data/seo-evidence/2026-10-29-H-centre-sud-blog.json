@@ -1,0 +1,440 @@
+[
+ {
+  "path": "centre-sud-vietnam/index.html",
+  "new_meta": {
+   "title": "Road trip moto Centre et Sud Vietnam : régions, saisons, routes",
+   "description": "Préparer un road trip à moto dans le Centre et le Sud du Vietnam : régions, saisons des pluies, autoroutes interdites et questions à poser avant de louer.",
+   "h1": "Road trip moto dans le Centre et le Sud du Vietnam (unchanged)"
+  },
+  "words": {
+   "words_qa_main": 3530,
+   "editorial_excluding_guide_list": 2822,
+   "guide_list": 708
+  },
+  "evidence": {
+   "FACTS": "Business identity limited to confirmed NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, near Bến xe Gia Lâm). No prices, deposits, delivery, insurance or fleet claims. Explicit statement that taking a Hanoi rental to the Centre/South, train shipping or other-city return is NOT confirmed, with a 6-point checklist to agree in writing. All distances, seasons, legal rule (expressway ban), tunnel rule, UNESCO and 2025 province mergers attributed inline to retrieved sources.",
+   "INTENT": "Primary intent: plan a motorbike trip in Central + Southern Vietnam (road trip moto vietnam centre sud). Owner URL /centre-sud-vietnam/. Distinct from /centre-sud-vietnam/centre/ and /sud/ (regional detail) and from child articles (single route/destination) because it covers the big picture: scale Hanoi–Saigon, 4 trip formulas, region comparison, both rainy regimes, road types, province renames, rental question, and the full guide index.",
+   "CONTENT": "Entire article replaced (old filler incl. 'futurs articles', 'hub', duplicated boilerplate). Removed the 2 duplicated 'Marge de sécurité supplémentaire' sections that sat between </article> and data-global-cta. New sections: L’essentiel (direct answer); Trois façons d’organiser (table of 4 formulas + rail transport note); Louer à Hanoi… à convenir (checklist); Régions en un coup d’œil (10-row table + source paragraph); Saisons (Centre Sept–Dec, South May–Nov, table); Routes (expressway ban Law 36/2024 art.25, QL1, HCM road west, Hải Vân tunnel, Mekong ferries); Noms de provinces 2025; Machine et équipement; Checklist; FAQ x6; Tous nos guides (40 children in 9 h3 groups, guide-list); Continuer. SEO_IMAGE block IMG-centre-sud-vietnam byte-identical at same position; breadcrumbs/global-cta/related hooks kept.",
+   "META": "Title 63 chars, description 154 chars, og:title/og:description synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required links present: /centre-sud-vietnam/centre/, /centre-sud-vietnam/sud/, /permis-securite/securite/, /types-motos/. All 40 child articles linked once in the guide list with natural anchors + 1-sentence descriptions. Also /contact/, /location-moto-hanoi/, /location-moto-hanoi/1-way-location-moto-hanoi/, /location-moto-hanoi/longue-duree/, /prix-location/, /permis-securite/, /permis-securite/permis/, /permis-securite/autoroute-moto-vietnam/, /permis-securite/casque-law-vietnam-moto-touriste/, /permis-securite/moto-pluie-securite-vietnam/, /types-motos/trail/, /nord-vietnam/. 56 unique internal links, 0 broken; 24 external citations with rel=noopener.",
+   "AEO_GEO": "Direct 4-sentence answer first; extractable tables (formulas, regions with sourced distances, seasonal risk); 6 FAQ with self-contained answers (one-way from Hanoi, best season, expressways, Hải Vân tunnel, days needed, licence); dated, attributed facts (Law 36/2024 in force 1 Jan 2025; Resolution 202/2025/QH15; Phú Quốc special zone 1 July 2025; Huế city 1 Jan 2025).",
+   "CHECK": "tools/seo_page_check.py: only the 2 expected 'differs from data/seo-cluster-matrix.json (sync required)' errors; no warnings; review = legal sentences only (all sourced expressway rule or conditional licence wording pointing to /permis-securite/); no duplicated paragraphs, no SEO-process language."
+  },
+  "sources": [
+   {
+    "url": "https://thuviennhadat.vn/phap-ly-nha-dat/danh-sach-cac-tuyen-duong-sat-o-mien-nam-684173.html",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Saigon railway 1,726 km (list based on Decision 1769/QĐ-TTg)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-quy-nhon-4119727.html",
+    "checked": "2026-10-29",
+    "used_for": "Quy Nhơn 1,065 km from Hanoi, 650 km from HCMC",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/nhung-dieu-chi-co-o-quy-nhon-2913103.html",
+    "checked": "2026-10-29",
+    "used_for": "Quy Nhơn nearly 300 km from Đà Nẵng",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vietnamcoracle.com/how-to-send-your-motorbike-on-the-train",
+    "checked": "2026-10-29",
+    "used_for": "Motorbike rail transport usually in a freight carriage on a separate train",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-hoi-an-4446174.html",
+    "checked": "2026-10-29",
+    "used_for": "Hội An >30 km from Đà Nẵng, 122 km from Huế",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://danangfantasticity.com/en/hai-van-pass",
+    "checked": "2026-10-29",
+    "used_for": "Hải Vân pass ~20–21 km, ~500 m altitude, climatic boundary (Đà Nẵng tourism portal)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-lam-dong-4807324.html",
+    "checked": "2026-10-29",
+    "used_for": "Đà Lạt ~1,500 m altitude, ~300 km from HCMC",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-mui-ne-3838646.html",
+    "checked": "2026-10-29",
+    "used_for": "Mũi Né ~230 km from HCMC via Cát Lái, Bà Rịa and coastal road",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/goi-y-36-gio-kham-pha-can-tho-dip-tet-4027978.html",
+    "checked": "2026-10-29",
+    "used_for": "Cần Thơ ~170 km from HCMC",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://www.sggp.org.vn/phu-quoc-chinh-thuc-tro-thanh-dac-khu-mo-canh-cua-van-hoi-moi-post802064.html",
+    "checked": "2026-10-29",
+    "used_for": "Phú Quốc special zone of An Giang from 1 July 2025, >589 km²",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://phongnhakebang.vn/history-of-formation",
+    "checked": "2026-10-29",
+    "used_for": "Phong Nha–Kẻ Bàng UNESCO inscription 2003 (geology), extension 2015 (ecosystems/biodiversity)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-29",
+    "used_for": "NCHMF 2021 outlook: 6–8 storms/tropical depressions mid-Sept–end of year; Central flood season Oct–Dec; heavy rain Oct–Nov",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://betaen.vietnamplus.vn/typhoons-heavy-rains-predicted-for-late-2022-post238700.vnp",
+    "checked": "2026-10-29",
+    "used_for": "NCHMF late-2022 outlook: 2–3 floods, flash floods/landslides upstream",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-29",
+    "used_for": "South rainy season starts after 5 May, most places 5–15 May (Southern regional hydro-met station)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://znews.vn/la-nina-xuat-hien-tphcm-co-the-lanh-duoi-20-do-dip-cuoi-nam-post1501220.html",
+    "checked": "2026-10-29",
+    "used_for": "2024 forecast: rainy season ends early Nov in HCMC; off-season showers Nov–Dec",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://news.laodong.vn/tu-van-phap-luat/quy-dinh-ve-giao-thong-tren-duong-cao-toc-theo-luat-moi-1398493.ldo",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 art. 25: motorcycles/mopeds not allowed on expressways",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-29",
+    "used_for": "English text of Law 36/2024/QH15 (in force 1 Jan 2025)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://plo.vn/tu-dong-truong-son-noi-tay-truong-son-post360464.html",
+    "checked": "2026-10-29",
+    "used_for": "Hồ Chí Minh road west branch: good surface but winding, repeated climbs/descents, sharp bends",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/mo-ham-hai-van-cho-doan-nguoi-ve-que-4368282.html",
+    "checked": "2026-10-29",
+    "used_for": "Hải Vân tunnel normally cars only; motorbikes shuttled by truck (2020)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/quoc-hoi-thong-qua-nghi-quyet-sap-xep-don-vi-hanh-chinh-cap-tinh-2291.html",
+    "checked": "2026-10-29",
+    "used_for": "Resolution 202/2025/QH15: 34 provincial-level units",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://hoatieu.vn/phap-luat/nghi-quyet-202-2025-qh15-233976",
+    "checked": "2026-10-29",
+    "used_for": "Resolution 202/2025/QH15 text: Quảng Nam+Đà Nẵng → Đà Nẵng city; Quảng Bình+Quảng Trị → Quảng Trị",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://tapchicongthuong.vn/lam-dong-cong-bo-nghi-quyet--quyet-dinh-ve-sap-nhap-don-vi-hanh-chinh-142281.htm",
+    "checked": "2026-10-29",
+    "used_for": "Lâm Đồng merged with Bình Thuận and Đắk Nông",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/tp-ho-chi-minh-tao-khong-gian-dong-luc-phat-trien-moi-cho-khu-vuc-ba-ria-vung-tau-182702.html",
+    "checked": "2026-10-29",
+    "used_for": "Bà Rịa–Vũng Tàu (and Bình Dương) merged into HCMC from 1 July 2025",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://tapchicongthuong.vn/cong-bo-nghi-quyet-thanh-pho-hue-la-thanh-pho-truc-thuoc-trung-uong-131779.htm",
+    "checked": "2026-10-29",
+    "used_for": "Huế centrally-run city from 1 Jan 2025",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   }
+  ],
+  "owner_gaps": [
+   "Whether a motorbike rented from Thuê xe máy Nguyễn Hà (Long Biên) may leave northern Vietnam, travel to the Centre/South, be shipped by train or boat, or be returned in another city — unconfirmed; pages present it as a question to agree in writing before booking.",
+   "Who to contact and what repairs are authorised for a breakdown/accident far from Hanoi — unconfirmed; listed as a question."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/centre/index.html",
+  "new_meta": {
+   "title": "Road trip moto Centre Vietnam : Huế, Hải Vân, Hội An, Phong Nha",
+   "description": "Huế, col de Hải Vân, Đà Nẵng, Hội An, Phong Nha et Quy Nhơn à moto : saison des pluies, tunnel fermé aux deux-roues, étapes, routes et sécurité.",
+   "h1": "Road trip moto dans le Centre du Vietnam (unchanged)"
+  },
+  "words": {
+   "words_qa_main": 2739,
+   "editorial_excluding_guide_list": 2472,
+   "guide_list": 267
+  },
+  "evidence": {
+   "FACTS": "No business claims beyond NAP location (Long Biên) and the unconfirmed-use-outside-North statement. Sourced: Huế UNESCO 11 Dec 1993 (Nhân Dân); Huế centrally-run city 1 Jan 2025; Hải Vân pass ~20 km / ~500 m (Đà Nẵng tourism portal); tunnel cars only, motorbikes by transfer truck (VnExpress 2020, Báo Pháp Luật); Hội An >30 km from Đà Nẵng / 122 km from Huế (VnExpress), UNESCO 4 Dec 1999; Quảng Nam merged into Đà Nẵng and Quảng Bình into Quảng Trị (2025); Phong Nha UNESCO 2003 + 2015 extension, oldest major karst area in Asia (park site, UNESCO doc); HCM road west branch conditions (PLO); Quy Nhơn ~300 km from Đà Nẵng; QL27C 121 km, Khánh Lê 33 km, landslides, Nov 2025 coach landslide, heavy-rain bans; NCHMF storm/flood outlooks 2021/2022.",
+   "INTENT": "Primary intent: road trip moto centre vietnam (Huế, Hải Vân, Đà Nẵng, Hội An, Phong Nha, Quy Nhơn). Owner URL /centre-sud-vietnam/centre/. Distinct from parent (whole Centre+South planning, all 40 guides) and from /sud/ (Saigon, Mekong, Đà Lạt, islands) and from children (single legs) by giving the regional sequence, per-stage constraints and Centre-specific weather-decision table.",
+   "CONTENT": "Entire article replaced; 3 duplicated 'Marge de sécurité supplémentaire' sections after </article> removed. Sections: Le Centre en bref (direct answer); Étapes et ce qu’elles demandent (7-row table); Huế; Col de Hải Vân (pass vs tunnel, descent technique); Đà Nẵng et Hội An; Phong Nha et route Hồ Chí Minh; Vers le sud (Quy Nhơn, Phú Yên, Nha Trang, QL27C/Khánh Lê); Quand rouler (NCHMF-sourced season + 5-row signal→decision table); Machine, équipement, règles (checklist); Partir de Hanoi (rental question); FAQ x6; Les guides du Centre (15 relevant children in 5 h3 groups); Continuer. SEO_IMAGE block IMG-centre-sud-vietnam-centre byte-identical.",
+   "META": "Title 63 chars, description 144 chars, og synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required: /centre-sud-vietnam/sud/, /permis-securite/securite/, /types-motos/ present. Parent /centre-sud-vietnam/ linked in body + context links; /nord-vietnam/, /contact/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/automatique-scooter-montagne-pass-vietnam/, /permis-securite/autoroute-moto-vietnam/. 15 Centre children in guide-list. 24 unique internal, 0 broken; 15 external citations.",
+   "AEO_GEO": "Direct answer first (season window, classic axis, pass not tunnel); stage table; weather signal→decision table; 6 FAQ (pass vs tunnel, season to avoid, Huế–Hội An distance, Hội An old town on foot, Phong Nha from Huế, Hanoi rental) with standalone answers; dated sourced facts.",
+   "CHECK": "seo_page_check: only the 2 expected sync errors; no warnings; review = 1 legal sentence (expressway ban attributed to Law 36/2024/QH15). 'précautions' wording replaced to avoid false deposit signal."
+  },
+  "sources": [
+   {
+    "url": "https://nhandan.vn/post-758221.html",
+    "checked": "2026-10-29",
+    "used_for": "Complex of Huế Monuments inscribed by UNESCO on 11 Dec 1993, Vietnam's first World Heritage site",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://tapchicongthuong.vn/cong-bo-nghi-quyet-thanh-pho-hue-la-thanh-pho-truc-thuoc-trung-uong-131779.htm",
+    "checked": "2026-10-29",
+    "used_for": "Huế centrally-run city from 1 Jan 2025",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://danangfantasticity.com/en/hai-van-pass",
+    "checked": "2026-10-29",
+    "used_for": "Hải Vân pass ~20–21 km, ~500 m altitude, climatic boundary (Đà Nẵng tourism portal)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/mo-ham-hai-van-cho-doan-nguoi-ve-que-4368282.html",
+    "checked": "2026-10-29",
+    "used_for": "Hải Vân tunnel normally cars only; motorbikes shuttled by truck (2020)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://baophapluat.vn/lan-dau-tien-ham-hai-van-mo-cho-ca-ngan-nguoi-hoi-huong-chay-xe-may-ve-que-post415980.html",
+    "checked": "2026-10-29",
+    "used_for": "2020 escorted motorbike passage through Hải Vân tunnel described as a first",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-hoi-an-4446174.html",
+    "checked": "2026-10-29",
+    "used_for": "Hội An >30 km from Đà Nẵng, 122 km from Huế",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://tapchicongthuong.vn/quang-nam--ky-niem-25-nam-do-thi-co-hoi-an-duoc-cong-nhan-di-san-van-hoa-the-gioi-130681.htm",
+    "checked": "2026-10-29",
+    "used_for": "Hội An Ancient Town inscribed 4 Dec 1999 (25th anniversary)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://hoatieu.vn/phap-luat/nghi-quyet-202-2025-qh15-233976",
+    "checked": "2026-10-29",
+    "used_for": "Resolution 202/2025/QH15 text: Quảng Nam+Đà Nẵng → Đà Nẵng city; Quảng Bình+Quảng Trị → Quảng Trị",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://phongnhakebang.vn/history-of-formation",
+    "checked": "2026-10-29",
+    "used_for": "Phong Nha–Kẻ Bàng UNESCO inscription 2003 (geology), extension 2015 (ecosystems/biodiversity)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://whc.unesco.org/document/217960",
+    "checked": "2026-10-29",
+    "used_for": "UNESCO property data: oldest major karst area in Asia",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://plo.vn/tu-dong-truong-son-noi-tay-truong-son-post360464.html",
+    "checked": "2026-10-29",
+    "used_for": "Hồ Chí Minh road west branch: good surface but winding, repeated climbs/descents, sharp bends",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/nhung-dieu-chi-co-o-quy-nhon-2913103.html",
+    "checked": "2026-10-29",
+    "used_for": "Quy Nhơn nearly 300 km from Đà Nẵng",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://www.vietnamplus.vn/khanh-hoa-khan-truong-khac-phuc-sat-lo-quoc-lo-27c-truoc-mua-mua-bao-post1136301.vnp",
+    "checked": "2026-10-29",
+    "used_for": "QL27C 121 km; Khánh Lê pass 33 km; frequent rainy-season landslides",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vietnamnet.vn/con-hai-thi-the-ket-trong-o-to-khach-bi-sat-lo-nui-de-tren-deo-o-khanh-hoa-2463411.html",
+    "checked": "2026-10-29",
+    "used_for": "Nov 2025 landslide hit a coach on the Khánh Hòa pass",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vov.vn/xa-hoi/khanh-hoa-nghiem-cam-phuong-tien-qua-deo-khanh-le-khi-co-mua-lon-post1143494.vov",
+    "checked": "2026-10-29",
+    "used_for": "Khánh Hòa banned vehicles on Khánh Lê pass during heavy rain",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-29",
+    "used_for": "NCHMF 2021 outlook: 6–8 storms/tropical depressions mid-Sept–end of year; Central flood season Oct–Dec; heavy rain Oct–Nov",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://betaen.vietnamplus.vn/typhoons-heavy-rains-predicted-for-late-2022-post238700.vnp",
+    "checked": "2026-10-29",
+    "used_for": "NCHMF late-2022 outlook: 2–3 floods, flash floods/landslides upstream",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   }
+  ],
+  "owner_gaps": [
+   "Whether a motorbike rented from Thuê xe máy Nguyễn Hà (Long Biên) may leave northern Vietnam, travel to the Centre/South, be shipped by train or boat, or be returned in another city — unconfirmed; pages present it as a question to agree in writing before booking."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/sud/index.html",
+  "new_meta": {
+   "title": "Road trip moto Sud Vietnam : Saigon, Mékong, Đà Lạt, Phú Quốc",
+   "description": "Saigon, delta du Mékong, Đà Lạt, Mũi Né et Phú Quốc à moto : saison des pluies de mai à novembre, trafic, ponts et bacs, autoroutes interdites.",
+   "h1": "Road trip moto dans le Sud du Vietnam (unchanged)"
+  },
+  "words": {
+   "words_qa_main": 2692,
+   "editorial_excluding_guide_list": 2332,
+   "guide_list": 360
+  },
+  "evidence": {
+   "FACTS": "No business claims beyond Long Biên location and unconfirmed-use statement. Sourced: South rainy season start 5–15 May (PLO/Southern hydro-met station), end ~early Nov with off-season showers Nov–Dec (Znews 2024); HCMC transition storms/sudden flooding (VOH); HCMC absorbed Bà Rịa–Vũng Tàu and Bình Dương (2025); Cần Thơ bridge ended Hậu river ferries; Mỹ Thuận–Cần Thơ expressway opened 24 Dec 2023 (closed to motorbikes under expressway rule); Cần Thơ ~170 km, Đà Lạt ~300 km / ~1,500 m, Mũi Né ~230 km via Cát Lái ferry and coast (VnExpress); Lâm Đồng merged with Bình Thuận and Đắk Nông; Khánh Lê heavy-rain bans (VOV); Phú Quốc >589 km², special zone of An Giang from 1 July 2025 (SGGP); vehicle ferries vs passenger fast boats (Mia.vn); Vũng Tàu–Côn Đảo boat reopened 26 Feb 2026, often suspended at year-end (Tiền Phong).",
+   "INTENT": "Primary intent: road trip moto sud vietnam (Saigon, Mekong, Phu Quoc scooter). Owner URL /centre-sud-vietnam/sud/. Distinct from parent (macro planning) and /centre/ (passes, Huế–Hội An, Phong Nha) by focusing on urban traffic, delta bridges/ferries, plateau, coast and islands, with a South-specific season table.",
+   "CONTENT": "Entire article replaced; 3 duplicated filler sections after </article> removed. Sections: Le Sud en bref; Destinations et contraintes (9-row table + sources); Saigon trafic; Delta du Mékong; Đà Lạt et plateaux; La côte (Vũng Tàu, Mũi Né); Phú Quốc et Côn Đảo; Saison des pluies mai–novembre (4-row table); Chaleur, fatigue, trafic (checklist); Venir de Hanoi; FAQ x6; Les guides du Sud (22 relevant children in 5 h3 groups); Continuer. SEO_IMAGE block IMG-centre-sud-vietnam-sud byte-identical.",
+   "META": "Title 61 chars, description 143 chars, og synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required: /centre-sud-vietnam/centre/, /permis-securite/securite/, /types-motos/ present. Parent /centre-sud-vietnam/ in body + context links; /types-motos/scooter-automatique/, /permis-securite/moto-heat-securite-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /permis-securite/permis/, /contact/. 31 unique internal, 0 broken; 14 external citations.",
+   "AEO_GEO": "Direct answer first (difficulty = heat/traffic/rain, season, expressway ban, star-shaped trips); destination table with sourced distances; season table; 6 FAQ (rainy season, Saigon for beginners, expressways to Cần Thơ/Mũi Né, HCMC–Đà Lạt distance, bringing a bike to Phú Quốc, Hanoi rental going south).",
+   "CHECK": "seo_page_check: only the 2 expected sync errors; no warnings; review = 1 legal hit (context-link anchor 'Permis moto au Vietnam'), no risk statements."
+  },
+  "sources": [
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-29",
+    "used_for": "South rainy season starts after 5 May, most places 5–15 May (Southern regional hydro-met station)",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://znews.vn/la-nina-xuat-hien-tphcm-co-the-lanh-duoi-20-do-dip-cuoi-nam-post1501220.html",
+    "checked": "2026-10-29",
+    "used_for": "2024 forecast: rainy season ends early Nov in HCMC; off-season showers Nov–Dec",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://voh.com.vn/doi-song/mua-chuyen-mua-tphcm-canh-bao-giong-set-va-ngap-bat-ngo-563848.html",
+    "checked": "2026-10-29",
+    "used_for": "HCMC transition-season storms, lightning and sudden street flooding",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/tp-ho-chi-minh-tao-khong-gian-dong-luc-phat-trien-moi-cho-khu-vuc-ba-ria-vung-tau-182702.html",
+    "checked": "2026-10-29",
+    "used_for": "Bà Rịa–Vũng Tàu (and Bình Dương) merged into HCMC from 1 July 2025",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://nguoiquansat.vn/sieu-cau-noi-2-vung-dbscl-ket-thuc-su-menh-nhung-ben-pha-hon-100-nam-tuoi-thong-xe-15-nam-van-nam-giu-ky-luc-dong-nam-a-top-the-gioi-194312.html",
+    "checked": "2026-10-29",
+    "used_for": "Cần Thơ bridge ended the long ferry crossings on the Hậu river",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://tapchicongthuong.vn/khanh-thanh-cao-toc-my-thuan-can-tho-va-cau-my-thuan-2--rut-ngan-thoi-gian-tu-tp-hcm-di-can-tho-115291.htm",
+    "checked": "2026-10-29",
+    "used_for": "Mỹ Thuận–Cần Thơ expressway and Mỹ Thuận 2 bridge inaugurated 24 Dec 2023",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/goi-y-36-gio-kham-pha-can-tho-dip-tet-4027978.html",
+    "checked": "2026-10-29",
+    "used_for": "Cần Thơ ~170 km from HCMC",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-lam-dong-4807324.html",
+    "checked": "2026-10-29",
+    "used_for": "Đà Lạt ~1,500 m altitude, ~300 km from HCMC",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-mui-ne-3838646.html",
+    "checked": "2026-10-29",
+    "used_for": "Mũi Né ~230 km from HCMC via Cát Lái, Bà Rịa and coastal road",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://tapchicongthuong.vn/lam-dong-cong-bo-nghi-quyet--quyet-dinh-ve-sap-nhap-don-vi-hanh-chinh-142281.htm",
+    "checked": "2026-10-29",
+    "used_for": "Lâm Đồng merged with Bình Thuận and Đắk Nông",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://vov.vn/xa-hoi/khanh-hoa-nghiem-cam-phuong-tien-qua-deo-khanh-le-khi-co-mua-lon-post1143494.vov",
+    "checked": "2026-10-29",
+    "used_for": "Khánh Hòa banned vehicles on Khánh Lê pass during heavy rain",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://www.sggp.org.vn/phu-quoc-chinh-thuc-tro-thanh-dac-khu-mo-canh-cua-van-hoi-moi-post802064.html",
+    "checked": "2026-10-29",
+    "used_for": "Phú Quốc special zone of An Giang from 1 July 2025, >589 km²",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://mia.vn/cam-nang-du-lich/huong-dan-di-du-lich-phu-quoc-bang-tau-22",
+    "checked": "2026-10-29",
+    "used_for": "Phú Quốc boats: vehicle ferries vs passenger-only fast boats",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   },
+   {
+    "url": "https://tienphong.vn/mo-lai-tuyen-duong-thuy-cao-toc-vung-tau-con-dao-post1820185.html",
+    "checked": "2026-10-29",
+    "used_for": "Vũng Tàu–Côn Đảo fast boat reopened 26 Feb 2026; often suspended at year-end due to weather",
+    "retrieval": "Seen in WebSearch result/snippet on 2026-10-29; direct page fetch was blocked in this session (WebFetch host not allowed by network policy, Firecrawl out of credits, TinyFish denied)."
+   }
+  ],
+  "owner_gaps": [
+   "Whether a motorbike rented from Thuê xe máy Nguyễn Hà (Long Biên) may leave northern Vietnam, travel to the Centre/South, be shipped by train or boat, or be returned in another city — unconfirmed; pages present it as a question to agree in writing before booking."
+  ]
+ },
+ {
+  "path": "blog/index.html",
+  "new_meta": {
+   "title": "Blog moto Vietnam : guides location, modèles et road trips",
+   "description": "Guides en français pour louer une moto à Hanoi et voyager au Vietnam : prix, scooters Honda et Yamaha, permis, sécurité et itinéraires du Nord au Sud.",
+   "h1": "Blog moto et scooter au Vietnam (unchanged)"
+  },
+  "words": {
+   "words_qa_main": 2372,
+   "editorial_excluding_featured_lists": 1683,
+   "featured_lists": 689
+  },
+  "evidence": {
+   "FACTS": "States that guides are informational and that prices, availability and conditions are confirmed by Thuê xe máy Nguyễn Hà (Long Biên) before booking; points to the owner indicative price table on /prix-location/ without quoting amounts; no deposit/passport/insurance/fleet claims; model presence ≠ availability; legal rules depend on nationality/licence/vehicle; illustrations are not shop photos. '~500 guides' matches the 500-article matrix.",
+   "INTENT": "Primary intent: blog moto vietnam / guide index for French speakers. Owner URL /blog/. Distinct from theme pages (each covers one topic exhaustively) and /faq/ (short answers): it explains the nine themes, routes questions to the right theme and features 5–6 strong guides per theme without listing all 500.",
+   "CONTENT": "Entire article replaced (old copy discussed silos, cannibalisation, 'futurs articles', référencement). Sections: Comment utiliser ce blog; Par où commencer (question→theme table, 9 rows); 9 theme sections (Location Hanoi, Prix et budget, Types de motos, Honda, Yamaha, Permis et sécurité, Hanoi, Nord, Centre et Sud) each with a descriptive paragraph + 5–6 featured guides (guide-list, 50 total, all existing in silo-children.json); Comment lire nos guides (reader checklist); FAQ x6; Explorer les thèmes (context links). SEO_IMAGE block IMG-blog byte-identical.",
+   "META": "Title 58 chars, description 150 chars, og synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required: /location-moto-hanoi/, /honda/, /yamaha/, /types-motos/, /nord-vietnam/ present; also all requested theme pages /prix-location/, /permis-securite/, /hanoi/, /centre-sud-vietnam/ and /faq/, /contact/. 62 unique internal links, 0 broken. Featured guides chosen to avoid risky titles (e.g. no '50cc sans permis' feature).",
+   "AEO_GEO": "Question→theme routing table, concise theme definitions, 6 FAQ with standalone answers (are guides offers, where are prices, is a model available, do licence rules apply to me, why Centre/South if renting in Hanoi, how to ask an unlisted question).",
+   "CHECK": "seo_page_check: only the 2 expected sync errors; no warnings; review = legal sentences (theme description / conditional licence wording, no blanket rule) and 1 insurance sentence ('règles … d’assurance évoluent : vérifiez-les…'), both deliberate and non-committal."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Model availability per featured Honda/Yamaha guide is not confirmed (blog states models are not an inventory)."
+  ]
+ }
+]

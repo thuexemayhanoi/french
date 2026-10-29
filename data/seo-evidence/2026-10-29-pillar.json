@@ -1,0 +1,26 @@
+[
+ {
+  "path": "location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Préparer une location de moto à Hanoi étape par étape (guide), distinct de la page d’accueil commerciale",
+  "new_meta": {
+   "title": "Location de moto à Hanoi : le guide étape par étape",
+   "description": "Durée, type de moto, permis, prix, réservation, retrait à Long Biên et inspection : les étapes pour bien préparer la location d’une moto à Hanoi.",
+   "h1": "Louer une moto à Hanoi : le guide étape par étape"
+  },
+  "evidence": {
+   "FACTS": "Template filler removed. Uses only confirmed NAP (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, near Bến xe Gia Lâm; 09:00–21:00 daily; 0334 699 969 / +84 334 699 969 tel/Zalo/WhatsApp) and owner price facts (150 000–200 000 VND/day semi-auto and scooter; own rows for 50cc, Vision, Air Blade; electric day rate 'selon le modèle'; weekly/monthly not derived from day rate) with the exact disclaimer. Deposit amount, passport retention, delivery, assistance, insurance, availability explicitly not promised (O01/O02/O05). General road facts limited to helmet obligation, zero alcohol, motorbikes not allowed on expressways (cao tốc) and licence category depending on vehicle/IDP convention — no thresholds or fines stated here; detailed rules deferred to /permis-securite/ (G13).",
+   "INTENT": "Primary intent: step-by-step guide to preparing a motorbike rental in Hanoi (keyword seed 'guide location moto hanoi'). The homepage owns the broad commercial query 'location moto hanoi' (rates + contact); this pillar covers process and choices and links to the homepage once. Distinct from /location-moto-hanoi/courte-duree/ and /longue-duree/ (duration-specific), /prix-location/ (rate comparison) and /types-motos/ (vehicle comparison), which it summarises and links.",
+   "CONTENT": "Rewritten 2026-10-29: 7-step overview (ordered list), duration table, vehicle-category comparison table, licence check, price coverage, booking request checklist, pickup at Long Biên, 8-point inspection checklist, breakdown/extension/return, Hanoi vs northern trips, common mistakes, 6 FAQ, full grouped index of the 59 rental guides (7 sub-topics). ~2,660 words (QA count) incl. guide list; no SEO-process language, no duplicated paragraph (tools/seo_page_check.py).",
+   "META": "Title changed from 'Location moto Hanoi | Scooter, 50cc & longue durée' (competed with homepage) to a guide-intent title (51 chars); meta 145 chars; H1 'Louer une moto à Hanoi : le guide étape par étape'; og:title/og:description identical; cluster matrix synced via tools/sync_foundation_meta.py.",
+   "LINKS": "Body links: homepage, courte-duree, longue-duree, quartiers, types-motos, honda, yamaha, permis-securite, prix-location, contact, nord-vietnam, hanoi + all 59 child articles of the rental silo (grouped guide-list) — fixes their missing editorial inlink; required links /location-moto-hanoi/courte-duree/, /longue-duree/, /quartiers/, /types-motos/, /prix-location/ present.",
+   "AEO_GEO": "Direct answer in the first section (7 steps in two sentences + ordered list); comparison tables (duration, vehicle category); checklists (request, inspection, mistakes); 6 concise FAQ answers; no FAQ rich-result promise; unstable legal facts deferred to the sourced permis hub."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "O01 deposit/passport",
+   "O02 delivery",
+   "O05 fleet/assistance/insurance"
+  ]
+ }
+]
