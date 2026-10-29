@@ -137,7 +137,8 @@
    "Figma MCP: Starter-plan tool-call limit reached (generate_image and get_screenshot refused).",
    "Canva generate-image: credit quota exceeded.",
    "Adobe MCP: server failed to connect; its tools only edit existing images, no text-to-image.",
-   "Container network cannot reach figma.com, base44.app or canva.com, so image URLs cannot be downloaded directly; only inline MCP responses work."
+   "Container network cannot reach figma.com, base44.app or canva.com, so image URLs cannot be downloaded directly; only inline MCP responses work.",
+   "16:35 UTC retry (SEO master G18): Figma MCP get_screenshot of pending node 21:2 refused again — Starter-plan tool-call limit. No further retry loop; vectors stay integrated; no paid plan requested."
   ]
  }
 }

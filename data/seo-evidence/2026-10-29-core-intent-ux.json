@@ -1,0 +1,41 @@
+[
+ {
+  "path": "index.html",
+  "checks": {
+   "INTENT": {
+    "status": "DONE",
+    "evidence": "Reviewed 2026-10-29 against data/seo-query-ownership.json and closest pages: Primary intent: broad commercial query « location moto hanoi » (rent a motorbike/scooter in Hanoi: reference rates, pickup address, contact). Owner URL for that query per data/seo-query-ownership.json. Distinct from /location-moto-hanoi/ (step-by-step guide, linked once from the homepage intro), /prix-location/ (full rate comparison and reading rules) and /contact/ (NAP only). No query ceded to another owned domain; the English site is only a language link (not a canonical/hreflang alternate)."
+   },
+   "UX_CRO": {
+    "status": "DONE",
+    "evidence": "Local lab render (node tools/seo_ux_audit.mjs: _site on 127.0.0.1, headless Chromium, 390x844 touch + 1366x900, light and dark colour schemes): no horizontal overflow, H1 visible, hero loaded, anchors resolve, tel:+84334699969 + Zalo + WhatsApp links present, footer address and 09:00–21:00 present, body text contrast ≥4.5:1 after the #1268DE/#4C8DF6 fix, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. Shared CTA now asks to confirm vehicle, dates and price before coming (no false walk-in promise)."
+   }
+  }
+ },
+ {
+  "path": "contact/index.html",
+  "checks": {
+   "INTENT": {
+    "status": "DONE",
+    "evidence": "Reviewed 2026-10-29 against data/seo-query-ownership.json and closest pages: Primary intent: navigational « contact Thuê xe máy Nguyễn Hà » — confirmed address, hours, phone/Zalo/WhatsApp and what to send in a first request. Owner for brand-contact queries; deliberately short (CONTACT_NO_WORD_TARGET). Distinct from homepage (commercial overview) and /a-propos/ (entity/editorial information)."
+   },
+   "UX_CRO": {
+    "status": "DONE",
+    "evidence": "Local lab render (node tools/seo_ux_audit.mjs: _site on 127.0.0.1, headless Chromium, 390x844 touch + 1366x900, light and dark colour schemes): no horizontal overflow, H1 visible, hero loaded, anchors resolve, tel:+84334699969 + Zalo + WhatsApp links present, footer address and 09:00–21:00 present, body text contrast ≥4.5:1 after the #1268DE/#4C8DF6 fix, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. Shared CTA now asks to confirm vehicle, dates and price before coming (no false walk-in promise)."
+   }
+  }
+ },
+ {
+  "path": "faq/index.html",
+  "checks": {
+   "INTENT": {
+    "status": "DONE",
+    "evidence": "Reviewed 2026-10-29 against data/seo-query-ownership.json and closest pages: Primary intent: « questions location moto hanoi » — 20 short practical answers before booking (prices, durations, address, hours, documents, deposit/delivery questions to confirm). Owner of the FAQ hub; topic pages keep their own detailed answers and the FAQ links to them (prix-location, types-motos, permis-securite, nord-vietnam). No FAQ rich-result promise (deprecated May 2026)."
+   },
+   "UX_CRO": {
+    "status": "DONE",
+    "evidence": "Local lab render (node tools/seo_ux_audit.mjs: _site on 127.0.0.1, headless Chromium, 390x844 touch + 1366x900, light and dark colour schemes): no horizontal overflow, H1 visible, hero loaded, anchors resolve, tel:+84334699969 + Zalo + WhatsApp links present, footer address and 09:00–21:00 present, body text contrast ≥4.5:1 after the #1268DE/#4C8DF6 fix, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. Shared CTA now asks to confirm vehicle, dates and price before coming (no false walk-in promise)."
+   }
+  }
+ }
+]

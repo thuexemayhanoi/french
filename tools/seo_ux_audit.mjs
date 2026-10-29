@@ -33,7 +33,8 @@ function listPages() {
   walk(site);
   return all.filter(p => !/data-page-type="redirect"/.test(fs.readFileSync(path.join(site, p), 'utf8'))).sort();
 }
-let pages = args.length ? args.map(a => a.replace(/^\.\//, '')) : listPages();
+const darkFlag = args.includes('--dark');
+let pages = args.filter(a => a !== '--dark').length ? args.filter(a => a !== '--dark').map(a => a.replace(/^\.\//, '')) : listPages();
 if (limit) pages = pages.slice(0, limit);
 
 const probe = (phone) => {
@@ -86,6 +87,7 @@ const viewports = {
   mobile: {viewport: {width: 390, height: 844}, deviceScaleFactor: 2, isMobile: true, hasTouch: true},
   desktop: {viewport: {width: 1366, height: 900}},
 };
+if (args.includes('--dark')) { args.splice(args.indexOf('--dark'), 1); for (const v of Object.values(viewports)) v.colorScheme = 'dark'; }
 const results = {};
 const contexts = {};
 for (const [name, cfg] of Object.entries(viewports)) {

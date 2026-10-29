@@ -1,0 +1,249 @@
+[
+ {
+  "path": "honda/index.html",
+  "words": {
+   "words_qa": 4410,
+   "prose_excluding_guide_lists": 2464,
+   "guide_lists": 1947
+  },
+  "new_meta": {
+   "title": "Location Honda à Hanoi : Vision, Air Blade, Wave, électrique",
+   "description": "Quelle Honda louer à Hanoi ? Vision, Air Blade, LEAD, SH, Wave, Future ou électrique : usages, duels avec Yamaha et tarifs indicatifs en VND.",
+   "h1": "Louer une Honda à Hanoi : quel modèle choisir ?"
+  },
+  "evidence": {
+   "FACTS": "Nguyễn Hà NAP/hours/phone channels exact; owner price rows Vision + Air Blade exact, category rows for automatic/semi-automatic/electric (electric day 'Selon le modèle, à confirmer') with the mandated disclaimer once next to the table; no deposit/delivery/insurance/stock claims; one availability statement (FAQ 1); legal handled by pointer to /permis-securite/ with no rule asserted; specs kept qualitative (LEAD 37 L only from the 2013 official Honda announcement, dated and qualified; Winner X six-speed attributed).",
+   "INTENT": "primary intent 'location honda hanoi' (which Honda to rent in Hanoi, commercial investigation); owner URL /honda/; distinct from /honda/scooters/, /honda/semi-automatiques/, /honda/electriques/ (family deep-dives) and /types-motos/ (brand-neutral) because it maps trips to Honda families, compares with Yamaha and indexes all 80 model guides.",
+   "CONTENT": "Full rewrite of template filler: direct answer; why Honda dominates (VTC 40-millionth Vision, 96 % localisation; Vario import history via Tuổi Trẻ); 4-family comparison table (scooter / semi-auto / clutch / electric); choice by programme (city, duo+bags, monthly expat Long Biên, Northern loop, day trip); price table + Air Blade 125/160 caveat + premium-model caveat (CT125/C125 retail >4x Wave Alpha per VTC price lists); Honda vs Yamaha duel table (11 pairs); handover checklist; 6 FAQ; all 80 children grouped under 3 H2 families / 16 H3 models (guide-list, actual H1 anchors).",
+   "META": "Title 60 chars, description 141 chars, og:title/og:description identical; H1 changed from 'Motos Honda à Hanoi' — matrix sync required (seo_title, meta_description, h1; breadcrumb name derives from H1).",
+   "LINKS": "Required /honda/scooters/, /honda/semi-automatiques/, /honda/electriques/, /yamaha/, /types-motos/ all present contextually; plus /prix-location/, /permis-securite/, /types-motos/trail/, /nord-vietnam/ha-giang/, tel/Zalo/WhatsApp; 80/80 children linked; checker: 0 broken links.",
+   "AEO_GEO": "Answer-first lead + 'réponse courte' section, entity-rich comparison tables (families, Honda↔Yamaha pairs, prices), 6 question-form FAQ, dated inline citations; Hanoi local context (Hoàn Kiếm, Tây Hồ, Long Biên, Red River bridges, Ha Giang/Cao Bang/Sapa)."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/40-trieu-xe-may-honda-xuat-xuong-tai-viet-nam-ty-le-noi-dia-hoa-dat-96-ar951945.html",
+    "checked": "2026-10-29",
+    "used_for": "40-millionth Honda VN motorcycle (a Vision) on 30 June 2025; 96% localisation",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://tuoitre.vn/xe-may-honda-vario-moi-ra-mat-giua-thang-12-dinh-vi-duoi-phan-khuc-sh-20221207112130988.htm",
+    "checked": "2026-10-29",
+    "used_for": "Honda VN own Vario launch mid-December 2022, positioned below SH",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://tuoitre.vn/honda-vario-giam-gia-ca-chuc-trieu-dong-truoc-tin-don-ban-chinh-hang-2022121516535265.htm",
+    "checked": "2026-10-29",
+    "used_for": "Vario previously imported from Indonesia by independent dealers",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://www.bikewale.com/news/yamaha-aerox-155-rivaling-honda-winner-x-sports-launched-in-vietnam/",
+    "checked": "2026-10-29",
+    "used_for": "Winner X: manual clutch, six-speed gearbox",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://global.honda/en/newsroom/news/2013/2130322eng.html",
+    "checked": "2026-10-29",
+    "used_for": "Official Honda: LEAD125 Vietnam launch 2013, 37 L under-seat storage, two full-face helmets (version-dated)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://vtcnews.vn/bang-gia-xe-may-honda-thang-8-2026-moi-nhat-ar1032741.html",
+    "checked": "2026-10-29",
+    "used_for": "Honda VN suggested retail prices Aug 2026: CT125/Super Cub C125 far above Wave Alpha/Blade/Future (qualitative ratio only, no prices quoted)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://vtcnews.vn/bang-gia-xe-may-honda-thang-9-2026-moi-nhat-ar1037804.html",
+    "checked": "2026-10-29",
+    "used_for": "Honda VN suggested retail prices Sep 2026: Wave Alpha level (ratio only)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   }
+  ],
+  "owner_gaps": [
+   "Which Honda models are actually in the Nguyễn Hà fleet (pages never imply availability)",
+   "Whether the owner 'Air Blade' row (200 000 / 900 000 / 1 500 000 VND) applies to both Air Blade 125 and 160",
+   "Model prices for LEAD, Vario 125/160, SH Mode 125, SH125i, Wave Alpha/RSX, Future 125, Super Cub C125, CT125 and Winner X (only category ranges or 'ask' shown)",
+   "Fuel level / return rule, helmet supply, which vehicle papers travel with the bike",
+   "Winner X / 150 cc rental policy relative to the renter's licence"
+  ]
+ },
+ {
+  "path": "honda/scooters/index.html",
+  "words": {
+   "words_qa": 3154,
+   "prose_excluding_guide_lists": 2250,
+   "guide_lists": 904
+  },
+  "new_meta": {
+   "title": "Scooters Honda à Hanoi : Vision, Air Blade, LEAD, Vario, SH",
+   "description": "Vision, Air Blade, LEAD, Vario ou SH : quel scooter Honda louer à Hanoi selon le gabarit, le coffre, le passager et vos trajets, avec tarifs indicatifs en VND.",
+   "h1": "Scooters Honda à Hanoi : Vision, Air Blade, LEAD, Vario ou SH ?"
+  },
+  "evidence": {
+   "FACTS": "Owner rows Vision/Air Blade + automatic category range with disclaimer; explicit note that each row is read as-is (Air Blade monthly lower than Vision, no derivation); LEAD/Vario/SH no own price → 'ask'; specs qualitative except dated official LEAD 37 L and press-attributed Air Blade 160 launch (May 2022, eSP+ 4 soupapes); no availability/deposit/delivery claims.",
+   "INTENT": "primary intent 'location scooter honda hanoi' (which Honda automatic scooter); owner URL /honda/scooters/; distinct from /honda/ (all families) and /types-motos/scooter-automatique/ (brand-neutral) because it compares Honda scooter models head-to-head.",
+   "CONTENT": "Direct answer; qualitative comparison table (Vision, Air Blade 125/160, LEAD, Vario 125/160, SH Mode 125, SH125i: size, storage, duo, use); one section per model family (Vision, Air Blade, LEAD, Vario import vs Honda VN versions, SH comfort vs gabarit + gửi xe parking); city/duo/excursion/mountain (CVT braking technique); price table; CVT/brake/ABS/CBS/smart-key/sidestand inspection checklist; 6 FAQ; 40 scooter children under 8 H3 with descriptions distinct from the main Honda page.",
+   "META": "Title 59 chars, description 159 chars, og synced; H1 changed — matrix sync required.",
+   "LINKS": "Required /honda/, /yamaha/scooters/, /types-motos/scooter-automatique/, /prix-location/ present; plus /honda/semi-automatiques/ and 5 contextual child links in body; 40/40 scooter children; 0 broken links.",
+   "AEO_GEO": "Answer-first lead/section, model comparison table, scenario paragraphs with bold labels, inspection checklist, 6 FAQ, dated inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/ra-mat-air-blade-dong-co-160cc-tai-viet-nam-gia-tu-55-99-trieu-dong-ar677969.html",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 160 launched in Vietnam 20 May 2022 with eSP+ 4-valve engine alongside updated 125",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://global.honda/en/newsroom/news/2013/2130322eng.html",
+    "checked": "2026-10-29",
+    "used_for": "Official Honda: LEAD125 Vietnam launch 2013, 37 L under-seat storage, two full-face helmets (version-dated)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://tuoitre.vn/xe-may-honda-vario-moi-ra-mat-giua-thang-12-dinh-vi-duoi-phan-khuc-sh-20221207112130988.htm",
+    "checked": "2026-10-29",
+    "used_for": "Honda VN own Vario launch mid-December 2022, positioned below SH",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://tuoitre.vn/honda-vario-giam-gia-ca-chuc-trieu-dong-truoc-tin-don-ban-chinh-hang-2022121516535265.htm",
+    "checked": "2026-10-29",
+    "used_for": "Vario previously imported from Indonesia by independent dealers",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   }
+  ],
+  "owner_gaps": [
+   "Which Honda models are actually in the Nguyễn Hà fleet (pages never imply availability)",
+   "Whether the owner 'Air Blade' row (200 000 / 900 000 / 1 500 000 VND) applies to both Air Blade 125 and 160",
+   "Model prices for LEAD, Vario 125/160, SH Mode 125, SH125i, Wave Alpha/RSX, Future 125, Super Cub C125, CT125 and Winner X (only category ranges or 'ask' shown)",
+   "Whether scooters are handed over with smart key versions / fuel rule"
+  ]
+ },
+ {
+  "path": "honda/semi-automatiques/index.html",
+  "words": {
+   "words_qa": 2737,
+   "prose_excluding_guide_lists": 2026,
+   "guide_lists": 711
+  },
+  "new_meta": {
+   "title": "Honda semi-automatique à Hanoi : Wave, Future, Super Cub",
+   "description": "Wave Alpha, Wave RSX, Future, Super Cub C125 ou CT125 : fonctionnement sans embrayage, ville ou montagne, contrôles et tarif indicatif à Hanoi.",
+   "h1": "Motos semi-automatiques Honda : Wave, Future et Cub"
+  },
+  "evidence": {
+   "FACTS": "Semi-automatic category row only (no model row exists) + disclaimer; factual comparison of published category ranges (monthly lower than automatic, daily identical); premium C125/CT125/Winner X flagged as possibly outside range; mechanism sourced to official Honda (C125 press release; American Honda Trail125 spec), Winner X six-speed attributed; licence: pointer only; no stock/deposit claims.",
+   "INTENT": "primary intent 'location moto semi automatique honda' (Wave/Future rental); owner URL /honda/semi-automatiques/; distinct from /types-motos/semi-automatique/ (brand-neutral) and /honda/scooters/ because it explains Honda underbones/Cub and their suitability for Northern loops.",
+   "CONTENT": "Direct answer; how a semi-automatic gearbox works (centrifugal clutch, heel-toe vs rotary pattern, beginner errors); why underbones dominate Vietnam (cheapest Honda xe số per VTC price lists, repairability, wheels); Wave Alpha/Blade/Wave RSX/Future table; Super Cub C125 & CT125 premium Cub section (official specs, price gap, not an off-road bike → /types-motos/trail/); mountains vs scooter (engine braking, load, chain); Winner X clutch contrast; price table; chain/sprocket/gear/clutch inspection checklist; 6 FAQ; 30 children (Wave Alpha, Wave RSX, Future, C125, CT125 + Winner X comparison group).",
+   "META": "Title 56 chars, description 143 chars, og synced; H1 changed — matrix sync required.",
+   "LINKS": "Required /yamaha/semi-automatiques/, /types-motos/semi-automatique/, /types-motos/trail/, /nord-vietnam/ present; plus parent /honda/, /honda/scooters/, /permis-securite/, /prix-location/; 30/30 relevant children; 0 broken links.",
+   "AEO_GEO": "Answer-first, step-by-step mechanism explanation, model table, question FAQ (stall, learning time, Wave vs Future, CT125 vs trail), official-source citations."
+  },
+  "sources": [
+   {
+    "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/133910/honda-super-cub-c12510",
+    "checked": "2026-10-29",
+    "used_for": "Official Honda Europe 2018: Super Cub C125 four-speed, automatic centrifugal clutch, no clutch lever",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-trail125-specifications",
+    "checked": "2026-10-29",
+    "used_for": "Official American Honda 2024 Trail125 (= CT125) spec: semi-automatic four-speed, chain final drive",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://vtcnews.vn/bang-gia-xe-may-honda-thang-8-2026-moi-nhat-ar1032741.html",
+    "checked": "2026-10-29",
+    "used_for": "Honda VN suggested retail prices Aug 2026: CT125/Super Cub C125 far above Wave Alpha/Blade/Future (qualitative ratio only, no prices quoted)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://vtcnews.vn/bang-gia-xe-may-honda-thang-9-2026-moi-nhat-ar1037804.html",
+    "checked": "2026-10-29",
+    "used_for": "Honda VN suggested retail prices Sep 2026: Wave Alpha level (ratio only)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://www.bikewale.com/news/yamaha-aerox-155-rivaling-honda-winner-x-sports-launched-in-vietnam/",
+    "checked": "2026-10-29",
+    "used_for": "Winner X: manual clutch, six-speed gearbox",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   }
+  ],
+  "owner_gaps": [
+   "Which semi-automatic Honda models are actually rented and at what model price (only category range shown)",
+   "Rental price / availability of Super Cub C125, CT125 and Winner X",
+   "Licence requirement the shop applies for Winner X"
+  ]
+ },
+ {
+  "path": "honda/electriques/index.html",
+  "words": {
+   "words_qa": 1969,
+   "prose_excluding_guide_lists": 1730,
+   "guide_lists": 239
+  },
+  "new_meta": {
+   "title": "Scooter électrique Honda au Vietnam : ICON e: et CUV e:",
+   "description": "ICON e: ou CUV e: à Hanoi : batteries amovibles, recharge, échange en station, autonomie à vérifier et questions à poser avant de louer un électrique Honda.",
+   "h1": "Scooters électriques Honda au Vietnam : ICON e: et CUV e:"
+  },
+  "evidence": {
+   "FACTS": "Electric owner row exact (day 'Selon le modèle, à confirmer', week/month ranges) + disclaimer, explicit no-derivation note; no battery-subscription VND amounts quoted (not owner prices); range given only as divergent press figures (VTC ~50 km vs Muaban ~70 km) to justify testing; no availability, assistance or included-charging claims; licence not discussed.",
+   "INTENT": "primary intent 'scooter électrique honda vietnam' (ICON e:/CUV e: and whether to rent one); owner URL /honda/electriques/; distinct from /types-motos/electrique/ (all brands) because it covers Honda's battery lease/swap model and its consequences for renters.",
+   "CONTENT": "Direct answer; Honda EV line-up in VN (ICON e: production March 2025, CUV e: on sale June 2026, UC3 announced for July); battery bought/leased/swapped (ICON e: monthly battery lease, CUV e: with/without battery, swap cabinets at HEAD dealers, network from 2026); why range figures vary + test method; electric vs petrol vs 50cc table; recharging in Hanoi (lodging permission, ~7.5 h ICON e: charge per VTC, swap stations, rainy season); 8-point renter question checklist; electric price table; 6 FAQ; 10 children (ICON e:, CUV e:).",
+   "META": "Title 55 chars, description 156 chars, og synced; H1 changed — matrix sync required.",
+   "LINKS": "Required /types-motos/electrique/, /types-motos/50cc/, /prix-location/, /honda/ present; plus /honda/scooters/; 10/10 children; 0 broken links.",
+   "AEO_GEO": "Answer-first, entity facts with dates (model names, launch months), comparison table, renter checklist, question FAQ, dated inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitrenews.vn/news/business/20250329/honda-vietnam-rolls-out-1st-electric-motorcycle/85588.html",
+    "checked": "2026-10-29",
+    "used_for": "ICON e: first Honda EV assembled/sold in VN, production from late March 2025 (Vinh Phuc); battery leased monthly, charge on bike or removed",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://tuoitre.vn/xe-may-dien-honda-cuv-e-va-uc3-mo-ban-o-viet-nam-gia-tu-45-trieu-co-tram-doi-pin-va-sac-nhanh-20260604113725176.htm",
+    "checked": "2026-10-29",
+    "used_for": "CUV e: on sale June 2026, two Honda Mobile Power Pack e: batteries, with/without battery packages, UC3 announced for July, swap + fast-charge stations",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://baodautu.vn/tu-doi-pin-xe-may-dien-cua-honda-viet-nam-duoc-dat-tai-cac-head-ban-xe-dien-d458433.html",
+    "checked": "2026-10-29",
+    "used_for": "Honda VN battery-swap cabinets placed at HEAD dealers selling EVs",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://news.tuoitre.vn/honda-to-debut-battery-swap-station-system-in-vietnam-next-year-103251220154806144.htm",
+    "checked": "2026-10-29",
+    "used_for": "Honda swap-station system announced (Dec 2025) to debut in Vietnam in 2026",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://vtcnews.vn/xe-dien-honda-icon-e-nho-gon-pin-thao-roi-phu-hop-nhu-cau-dao-pho-ar1008597.html",
+    "checked": "2026-10-29",
+    "used_for": "ICON e: compact urban scooter, ~50 km per charge, ~7.5 h full charge (cited as one press figure among divergent ones)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   },
+   {
+    "url": "https://muaban.net/blog/gia-xe-may-dien-honda-597993/",
+    "checked": "2026-10-29",
+    "used_for": "ICON e: ~70 km per charge (cited only to show divergence of press figures)",
+    "note": "seen in search result (WebSearch); page itself not fetched — WebFetch/Firecrawl unavailable in session"
+   }
+  ],
+  "owner_gaps": [
+   "Whether any Honda electric (ICON e:, CUV e:) is rented, and the daily price per model",
+   "Battery formula on rented units: number of batteries, charger supplied, swap-station access, whether charging/swap is included",
+   "Expected charge level at return; what the renter should do if the battery runs out"
+  ]
+ }
+]

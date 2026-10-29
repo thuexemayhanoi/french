@@ -1,0 +1,214 @@
+[
+ {
+  "path": "types-motos/index.html",
+  "new_meta": {
+   "title": "Types de motos à Hanoi : scooter, semi-auto, 50cc, électrique",
+   "description": "Scooter automatique, semi-automatique, 50cc, électrique ou trail : comparez usages, niveau requis, passager, montagne et tarifs indicatifs avant de louer à Hanoi.",
+   "h1": "Types de motos à louer à Hanoi"
+  },
+  "words": 3596,
+  "words_excluding_guide_list": 2380,
+  "evidence": {
+   "FACTS": "Owner category rows only (semi-auto, automatic, electric with day 'selon le modèle, à confirmer', 50cc) + trail row 'pas de tarif indicatif publié, à demander'; exact disclaimer next to table; Vision/Air Blade referred to /prix-location/; contact 0334 699 969 once for trail quotes; no deposit/fleet/assistance claims; observations derived from owner table (semi-auto lowest monthly range; 50cc monthly = top of automatic range).",
+   "INTENT": "primary intent commercial investigation 'types de motos à louer hanoi'; owner URL /types-motos/; distinct from the 5 type pages (which go deep on one family) because it compares all families and routes the reader; distinct from /prix-location/ because it shows category rows only.",
+   "CONTENT": "Full rewrite of template filler: direct answer + decision checklist, 7-column comparison table (conduite, ville, nationales, montagne, passager/bagages, compétences), one section per family (scooter/xe ga, semi-auto/xe số, 50cc/xe gắn máy, électrique, trail), price table, 'Choisir en cinq questions' incl. sourced licence-class paragraph (Law 36/2024/QH15, A1 ≤125 cm³/11 kW, A above, moped separate, foreigner depends on own licence/IDP -> /permis-securite/permis/), per-type inspection table, 6 FAQ, then all 60 child articles under 8 h3 groups (guide-list).",
+   "META": "Title 61 chars, meta 162 chars (consistent og:title/og:description); H1 unchanged; old meta promised 'selon usage et permis' only — new one matches delivered sections.",
+   "LINKS": "Required links kept: /types-motos/scooter-automatique/, /semi-automatique/, /50cc/, /electrique/, /trail/ (contextual, several times). Also /honda/, /yamaha/, /prix-location/, /permis-securite/permis/, /nord-vietnam/ha-giang/, /nord-vietnam/sapa/, /types-motos/trail-moto-ou-scooter-ha-giang/ + all 60 children listed exactly once (verified against silo-children.json). No broken links (seo_page_check).",
+   "AEO_GEO": "Question H2 with 4-sentence direct answer at top; comparison and inspection tables; FAQ with self-contained answers; local context (Long Biên, Vieux Quartier, Tây Hồ, Ha Giang, Sapa); Vietnamese terms xe ga / xe số / xe gắn máy for entity matching."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 in force 1 Jan 2025; licence class A1 = two-wheel motorcycles up to 125 cm3 or electric motor up to 11 kW, class A above (seen in search result; WebFetch/Firecrawl unavailable in session)"
+   }
+  ],
+  "owner_gaps": [
+   "Trail: no owner reference price and no confirmation that trail bikes are rented at all.",
+   "Actual availability of every model named (Vision, Janus, Mio, LEAD, Grande, Air Blade, Vario, NVX, NMAX, Wave, Sirius, Future, Jupiter Finn, Super Cub C125, WR155R, CT125, PG-1, ICON e:, CUV e:, NEO’S, VinFast) is unconfirmed; pages present them as market families only.",
+   "Deposit/caution, documents requested, delivery, breakdown procedure outside Hanoi, helmet/rack supply remain unconfirmed; pages tell readers to ask before booking (once per page)."
+  ]
+ },
+ {
+  "path": "types-motos/scooter-automatique/index.html",
+  "new_meta": {
+   "title": "Location scooter automatique Hanoi : choisir, vérifier, prix",
+   "description": "Louer un scooter automatique à Hanoi : 110–125 ou 150–160 cm³, gabarit, coffre, passager, limites en montagne, contrôles avant départ et tarifs indicatifs.",
+   "h1": "Location de scooter automatique à Hanoi"
+  },
+  "words": 2214,
+  "evidence": {
+   "FACTS": "Price table: automatic category row + Honda Vision and Honda Air Blade model rows (owner table) with exact disclaimer; model row precedence explained; no derived packages. Legal: A1 ≤125 cm³ / A >125 cm³ (Law 36/2024/QH15) + Decree 168/2024 IDP-without-national-licence sanction; foreigner case deferred to /permis-securite/permis/. Model families qualitative only (no specs; displacement to be read on registration certificate).",
+   "INTENT": "primary intent transactional 'location scooter automatique hanoi'; owner URL /types-motos/scooter-automatique/; distinct from /honda/scooters/ and /yamaha/scooters/ (brand line-ups) because it explains the transmission family, sizing and usage; distinct from child duels (Vision vs Janus etc.) which it links.",
+   "CONTENT": "Rewritten: key takeaways checklist; how a CVT scooter rides (levers, CBS/ABS, brake-to-start, side-stand cut-off, idle stop, weak engine braking); family table (petit urbain, grand coffre, polyvalent, maxi); 110–125 vs 150–160 cm³ decision; gabarit/passager/bagages; ville (Long Biên bridges, gửi xe parking)/route/montagne; prices; permis; 7-point inspection checklist (CVT slip/judder, SmartKey); 6 FAQ; 12 child guides.",
+   "META": "Title 60 chars, meta 155 chars; H1 unchanged; removed generic 'Guide complet'.",
+   "LINKS": "Required kept: /honda/scooters/, /yamaha/scooters/, /prix-location/, /permis-securite/permis/. Parent /types-motos/ and siblings /semi-automatique/, /trail/ linked; 17 relevant children linked (abs-ou-cbs, 125cc x2, léger, grand gabarit, smartkey, trail-ou-scooter-ha-giang, ninh-binh duel, rue-inondee + guide list).",
+   "AEO_GEO": "Direct answer lead; family table; FAQ answering 125 vs 160, Ninh Binh, coffre, price, flooded streets."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 in force 1 Jan 2025; licence class A1 = two-wheel motorcycles up to 125 cm3 or electric motor up to 11 kW, class A above (seen in search result; WebFetch/Firecrawl unavailable in session)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+    "checked": "2026-10-29",
+    "used_for": "Decree 168/2024/NĐ-CP sanctions riding with an IDP issued by a 1968 Convention country without carrying the matching national licence (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a luggage rack can be fitted to rented scooters; SmartKey loss procedure.",
+   "Actual availability of every model named (Vision, Janus, Mio, LEAD, Grande, Air Blade, Vario, NVX, NMAX, Wave, Sirius, Future, Jupiter Finn, Super Cub C125, WR155R, CT125, PG-1, ICON e:, CUV e:, NEO’S, VinFast) is unconfirmed; pages present them as market families only.",
+   "Deposit/caution, documents requested, delivery, breakdown procedure outside Hanoi, helmet/rack supply remain unconfirmed; pages tell readers to ask before booking (once per page)."
+  ]
+ },
+ {
+  "path": "types-motos/semi-automatique/index.html",
+  "new_meta": {
+   "title": "Location moto semi-automatique Hanoi : conduite, usages, prix",
+   "description": "Moto semi-automatique (xe số) à Hanoi : sélecteur sans embrayage, frein moteur en montagne, Wave ou Sirius, chaîne à contrôler et tarifs indicatifs.",
+   "h1": "Location de moto semi-automatique à Hanoi"
+  },
+  "words": 1966,
+  "evidence": {
+   "FACTS": "Semi-auto owner row with disclaimer; 'lowest monthly range among published categories' is derived directly from owner table (1 000 000–1 200 000 VND). Legal: A1/A threshold at 125 cm³ (Law 36/2024/QH15) sourced; popular models described 'en général 110 à 125 cm³' with instruction to read the registration certificate (no manufacturer spec claimed).",
+   "INTENT": "primary intent transactional 'location moto semi automatique hanoi'; owner URL /types-motos/semi-automatique/; distinct from /honda/semi-automatiques/ and /yamaha/semi-automatiques/ (brand ranges) and from /types-motos/trail/ (clutch bikes for tracks).",
+   "CONTENT": "Rewritten: who/which trips checklist; how centrifugal clutch + foot shifter work (N light, rotary box on some models, no stall when stopping in gear); learning plan before Hanoi traffic; engine braking technique for northern descents, repairability (sửa xe), limits; models (Wave, Sirius, Future, Jupiter Finn, Super Cub C125; Winner X/Exciter flagged as manual clutch); 7-row comparison table vs scooter and trail; price; licence; 7-point inspection (chain/sprockets/gears/brake pedal/tubes/oil/kick); 6 FAQ; 11 child guides.",
+   "META": "Title 61 chars, meta 148 chars; H1 unchanged.",
+   "LINKS": "Required kept: /honda/semi-automatiques/, /yamaha/semi-automatiques/, /types-motos/trail/, /nord-vietnam/ha-giang/. Parent /types-motos/, sibling /types-motos/scooter-automatique/, /prix-location/mois/, /permis-securite/permis/ and relevant children (wave-alpha-ou-sirius, future-ou-jupiter, super-cub, winner-x, auto-ou-semi x2, ninh-binh, sapa, manuelle, carburateur, disque/tambour, tubeless).",
+   "AEO_GEO": "Plain answer to 'faut-il embrayer ?', learning time, Ha Giang suitability, stall behaviour in FAQ; comparison table."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 in force 1 Jan 2025; licence class A1 = two-wheel motorcycles up to 125 cm3 or electric motor up to 11 kW, class A above (seen in search result; WebFetch/Firecrawl unavailable in session)"
+   }
+  ],
+  "owner_gaps": [
+   "Who handles oil changes during multi-week rentals; whether a rack/porte-bagages is fitted.",
+   "Actual availability of every model named (Vision, Janus, Mio, LEAD, Grande, Air Blade, Vario, NVX, NMAX, Wave, Sirius, Future, Jupiter Finn, Super Cub C125, WR155R, CT125, PG-1, ICON e:, CUV e:, NEO’S, VinFast) is unconfirmed; pages present them as market families only.",
+   "Deposit/caution, documents requested, delivery, breakdown procedure outside Hanoi, helmet/rack supply remain unconfirmed; pages tell readers to ask before booking (once per page)."
+  ]
+ },
+ {
+  "path": "types-motos/50cc/index.html",
+  "new_meta": {
+   "title": "Location 50cc à Hanoi : usages, limites, permis et tarifs",
+   "description": "Scooter 50cc à Hanoi : trajets adaptés, limites à deux ou en côte, règles vietnamiennes des cyclomoteurs à vérifier et tarifs indicatifs jour, semaine, mois.",
+   "h1": "Location de scooter 50cc à Hanoi"
+  },
+  "words": 1851,
+  "evidence": {
+   "FACTS": "50cc owner row (200 000 / 1 000 000 / 2 000 000 VND) with disclaimer; removed old title/meta promises of 'dépôt 4 000 000 VND ou passeport' (unconfirmed) — deposit now mentioned once as 'à faire préciser'. Legal statements sourced: xe gắn máy definition (≤50 km/h, ≤50 cm³, ≤4 kW), age 16, A1/A apply to xe mô tô, documents cited by the government article (registration + compulsory civil-liability insurance), 2026 consolidated text; no blanket 'sans permis' statement; reader told to verify vehicle category, insurance and current rule.",
+   "INTENT": "primary intent transactional + legal 'location scooter 50cc hanoi'; owner URL /types-motos/50cc/; distinct from /types-motos/scooter-automatique/ (110–160 cm³) and /permis-securite/permis/ (full licence reference).",
+   "CONTENT": "Rewritten: en bref checklist; what '50cc' means legally (sourced); where it fits (Hoàn Kiếm, Ba Đình, Tây Hồ); limits (speed, Red River bridge ramps, passenger, distance to Ninh Binh/Sapa/Ha Giang); practical riding tips in Hanoi (lane position, roundabouts, night, rain, fuel); comparison table 50cc vs 110–125 vs electric; price; permis & documents (official sources); 7-point inspection; 6 FAQ; 7 child guides.",
+   "META": "Title 57 chars (was 'Prix, dépôt & permis' — deposit promise removed), meta 157 chars without deposit/passport claims; H1 unchanged.",
+   "LINKS": "Required kept: /prix-location/jour/, /types-motos/scooter-automatique/, /permis-securite/permis/, /nord-vietnam/ninh-binh/. Parent /types-motos/, sibling /types-motos/electrique/, all 6 50cc children + 50cc-electrique + station-essence.",
+   "AEO_GEO": "Lead answers suitability + legal caveat; FAQ 'Faut-il un permis pour conduire un 50cc ?' answered with sourced, qualified wording; comparison table."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/cac-giay-to-can-thiet-phai-mang-theo-khi-tham-gia-giao-thong-bang-xe-gan-may-co-dung-tich-50-cm-119260122145136629.htm",
+    "checked": "2026-10-29",
+    "used_for": "Definition of xe gắn máy (design speed <=50 km/h, <=50 cm3 thermal or <=4 kW electric) and documents to carry for a 50 cm3 moped: registration certificate + compulsory civil-liability insurance (seen in search result, Jan 2026 article)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 in force 1 Jan 2025; licence class A1 = two-wheel motorcycles up to 125 cm3 or electric motor up to 11 kW, class A above (seen in search result; WebFetch/Firecrawl unavailable in session)"
+   },
+   {
+    "url": "https://baochinhphu.vn/do-tuoi-duoc-phep-dieu-khien-xe-gan-may-102260120152622709.htm",
+    "checked": "2026-10-29",
+    "used_for": "Minimum age 16 to ride a xe gắn máy (seen in search result)"
+   },
+   {
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/55-vbhn-vpqh.pdf",
+    "checked": "2026-10-29",
+    "used_for": "Existence of a 2026 consolidated text (55/VBHN-VPQH) of the road traffic order and safety law, used only to tell readers the rule may have evolved (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which 50cc models are rented (automatic vs cub-style) and their registered category (xe gắn máy?).",
+   "Whether registration certificate and insurance certificate stay on board rented vehicles.",
+   "Coordinator note: /permis-securite/50cc-scooter-license-vietnam/ and /permis-securite/electrique-scooter-license-vietnam/ H1s state blanket 'sans permis' / 'aucun permis n’est exigé' (conflicts with guide §2); not linked from these pages.",
+   "Actual availability of every model named (Vision, Janus, Mio, LEAD, Grande, Air Blade, Vario, NVX, NMAX, Wave, Sirius, Future, Jupiter Finn, Super Cub C125, WR155R, CT125, PG-1, ICON e:, CUV e:, NEO’S, VinFast) is unconfirmed; pages present them as market families only.",
+   "Deposit/caution, documents requested, delivery, breakdown procedure outside Hanoi, helmet/rack supply remain unconfirmed; pages tell readers to ask before booking (once per page)."
+  ]
+ },
+ {
+  "path": "types-motos/electrique/index.html",
+  "new_meta": {
+   "title": "Location scooter électrique Hanoi : recharge, usages et prix",
+   "description": "Scooter électrique à Hanoi : usage urbain, autonomie à faire confirmer pour le modèle loué, recharge, batterie amovible, règles selon la puissance et tarifs.",
+   "h1": "Location de moto et scooter électrique à Hanoi"
+  },
+  "words": 1910,
+  "evidence": {
+   "FACTS": "Electric owner row: day 'Selon le modèle, à confirmer', week 600 000–800 000, month 1 500 000–1 800 000 VND + disclaimer; explicit 'weekly/monthly cannot be used to compute a day rate'. No range or charging-time figures (no manufacturer page retrievable); range stated as model/battery-dependent and to be asked for the rented vehicle. Legal: ≤4 kW + ≤50 km/h = xe gắn máy, A1 up to 11 kW, A above (sourced).",
+   "INTENT": "primary intent commercial investigation 'location scooter électrique hanoi'; owner URL /types-motos/electrique/; distinct from /honda/electriques/ (brand models) and /types-motos/50cc/ (petrol moped).",
+   "CONTENT": "Rewritten: en bref checklist; riding (instant torque, silence, eco/park modes); range factors (qualitative) and 'ask measured range'; charging options (removable, integrated, swap) + charging safety; trip suitability (long stay, Ninh Binh with plan, no mountains, flooding); comparison table vs 50cc and petrol scooter incl. owner prices; price table; rules by motor power (sourced); brands (VinFast, Honda ICON e:/CUV e:, Yamaha NEO’S) qualitative; 8-point inspection; 6 FAQ; 9 child guides.",
+   "META": "Title 60 chars (old promised 'Autonomie' figures — removed), meta 157 chars stating range must be confirmed for the rented model; H1 unchanged.",
+   "LINKS": "Required kept: /honda/electriques/, /prix-location/, /location-moto-hanoi/longue-duree/, /types-motos/50cc/. Parent /types-motos/, /permis-securite/permis/, all 8 electric children + 50cc-electrique + rue-inondee.",
+   "AEO_GEO": "FAQ answers range, hotel charging, missing day rate, licence by power, Ninh Binh, rain."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/cac-giay-to-can-thiet-phai-mang-theo-khi-tham-gia-giao-thong-bang-xe-gan-may-co-dung-tich-50-cm-119260122145136629.htm",
+    "checked": "2026-10-29",
+    "used_for": "Definition of xe gắn máy (design speed <=50 km/h, <=50 cm3 thermal or <=4 kW electric) and documents to carry for a 50 cm3 moped: registration certificate + compulsory civil-liability insurance (seen in search result, Jan 2026 article)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 in force 1 Jan 2025; licence class A1 = two-wheel motorcycles up to 125 cm3 or electric motor up to 11 kW, class A above (seen in search result; WebFetch/Firecrawl unavailable in session)"
+   },
+   {
+    "url": "https://chinhsachonline.chinhphu.vn/phan-biet-giua-mo-to-dien-xe-may-dien-va-xe-dap-dien-19277.htm",
+    "checked": "2026-10-29",
+    "used_for": "Government Q&A note distinguishing mô tô điện / xe máy điện / xe đạp điện (title seen in search result; claim limited to 'the portal distinguishes these categories')"
+   }
+  ],
+  "owner_gaps": [
+   "Electric day rate per model; which electric models are rented; battery type (removable/integrated), charger supplied, swap compatibility, measured range per rented unit, registered motor power.",
+   "Actual availability of every model named (Vision, Janus, Mio, LEAD, Grande, Air Blade, Vario, NVX, NMAX, Wave, Sirius, Future, Jupiter Finn, Super Cub C125, WR155R, CT125, PG-1, ICON e:, CUV e:, NEO’S, VinFast) is unconfirmed; pages present them as market families only.",
+   "Deposit/caution, documents requested, delivery, breakdown procedure outside Hanoi, helmet/rack supply remain unconfirmed; pages tell readers to ask before booking (once per page)."
+  ]
+ },
+ {
+  "path": "types-motos/trail/index.html",
+  "new_meta": {
+   "title": "Location moto trail Hanoi : Ha Giang, Sapa et routes difficiles",
+   "description": "Moto trail au départ de Hanoi : quand elle s’impose, hauteur de selle, embrayage, pneus, bagages, Ha Giang et Sapa, contrôles avant départ. Tarif à demander.",
+   "h1": "Location de moto trail pour voyager au Vietnam"
+  },
+  "words": 1773,
+  "evidence": {
+   "FACTS": "No owner trail price: page says so explicitly and asks readers to request a total for model/dates/itinerary (contact 0334 699 969, Zalo, WhatsApp, 09:00–21:00); no extrapolation from other categories. Legal: A1 ≤125 cm³ / A >125 cm³ (Law 36/2024/QH15) + Decree 168/2024 IDP sanction, insurance check advice. WR155R/CT125/PG-1 described qualitatively; transmission to be verified on the bike offered.",
+   "INTENT": "primary intent commercial investigation 'location moto trail hanoi'; owner URL /types-motos/trail/; distinct from /yamaha/trail-aventure/ (Yamaha range) and /nord-vietnam/ha-giang/, /nord-vietnam/sapa/ (itineraries).",
+   "CONTENT": "Rewritten: 'faut-il vraiment une trail ?' decision checklist; what a trail is + model differences; seat height/weight tests; clutch, engine braking, gravel braking, fog/rain technique; tyres (mixed vs road, tube vs tubeless), luggage; 5-row situation table trail/semi/scooter for Ha Giang & Sapa; price-on-request section; licence; 8-point mountain inspection (clutch, chain, brakes, fork seals, tyres, horn, levers, papers); 6 FAQ; 9 child guides.",
+   "META": "Title 63 chars, meta 157 chars ('Tarif à demander' instead of implying a price); H1 unchanged.",
+   "LINKS": "Required kept: /yamaha/trail-aventure/, /nord-vietnam/ha-giang/, /nord-vietnam/sapa/, /nord-vietnam/. Parent /types-motos/, siblings /semi-automatique/, /scooter-automatique/, /prix-location/, /permis-securite/permis/, trail/mountain children (wr155r, ct125, pg1, duel, ha-giang, sapa, montagne, plus-de-125cc, manuelle, tubeless, frein).",
+   "AEO_GEO": "Lead gives when-to-choose answer; situation table; FAQ (beginner, WR155R vs CT125, semi-auto for Ha Giang, price, two-up, breakdown)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 in force 1 Jan 2025; licence class A1 = two-wheel motorcycles up to 125 cm3 or electric motor up to 11 kW, class A above (seen in search result; WebFetch/Firecrawl unavailable in session)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+    "checked": "2026-10-29",
+    "used_for": "Decree 168/2024/NĐ-CP sanctions riding with an IDP issued by a 1968 Convention country without carrying the matching national licence (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Trail: no owner reference price; whether WR155R/CT125/PG-1 or any trail is rented; breakdown procedure far from Hanoi; luggage rack availability.",
+   "Actual availability of every model named (Vision, Janus, Mio, LEAD, Grande, Air Blade, Vario, NVX, NMAX, Wave, Sirius, Future, Jupiter Finn, Super Cub C125, WR155R, CT125, PG-1, ICON e:, CUV e:, NEO’S, VinFast) is unconfirmed; pages present them as market families only.",
+   "Deposit/caution, documents requested, delivery, breakdown procedure outside Hanoi, helmet/rack supply remain unconfirmed; pages tell readers to ask before booking (once per page)."
+  ]
+ }
+]

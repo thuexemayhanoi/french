@@ -2681,11 +2681,11 @@
      "similarity": 0.12
     },
     {
-     "path": "types-motos/semi-automatique-ou-trail-moto-sapa/index.html",
-     "similarity": 0.11
+     "path": "types-motos/trail/index.html",
+     "similarity": 0.12
     },
     {
-     "path": "permis-securite/moto-vitesse-limits-vietnam/index.html",
+     "path": "types-motos/semi-automatique-ou-trail-moto-sapa/index.html",
      "similarity": 0.11
     }
    ]
@@ -4778,15 +4778,15 @@
    "closest_pages": [
     {
      "path": "honda/scooters/index.html",
-     "similarity": 0.57
+     "similarity": 0.4
     },
     {
      "path": "honda/honda-air-blade-160-location-hanoi/index.html",
-     "similarity": 0.33
+     "similarity": 0.27
     },
     {
      "path": "honda/honda-air-blade-125-location-hanoi/index.html",
-     "similarity": 0.3
+     "similarity": 0.25
     }
    ]
   },
@@ -4803,15 +4803,15 @@
    "closest_pages": [
     {
      "path": "honda/index.html",
-     "similarity": 0.57
+     "similarity": 0.4
     },
     {
      "path": "types-motos/air-blade-ou-vario-hanoi-location/index.html",
-     "similarity": 0.33
+     "similarity": 0.3
     },
     {
      "path": "honda/honda-air-blade-160-location-hanoi/index.html",
-     "similarity": 0.3
+     "similarity": 0.27
     }
    ]
   },
@@ -4828,15 +4828,15 @@
    "closest_pages": [
     {
      "path": "yamaha/yamaha-sirius-ou-honda-wave-alpha-location/index.html",
-     "similarity": 0.33
+     "similarity": 0.29
+    },
+    {
+     "path": "types-motos/super-cub-c125-location-vietnam/index.html",
+     "similarity": 0.27
     },
     {
      "path": "honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/index.html",
-     "similarity": 0.31
-    },
-    {
-     "path": "yamaha/semi-automatiques/index.html",
-     "similarity": 0.3
+     "similarity": 0.27
     }
    ]
   },
@@ -7174,7 +7174,7 @@
    "closest_pages": [
     {
      "path": "types-motos/trail/index.html",
-     "similarity": 0.3
+     "similarity": 0.27
     },
     {
      "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
@@ -8123,8 +8123,8 @@
      "similarity": 0.11
     },
     {
-     "path": "types-motos/50cc-scooter-deux-personnes-vietnam/index.html",
-     "similarity": 0.1
+     "path": "types-motos/50cc/index.html",
+     "similarity": 0.11
     }
    ]
   },
@@ -8794,11 +8794,11 @@
      "similarity": 0.1
     },
     {
-     "path": "yamaha/yamaha-pg-1-abs-hanoi-ville/index.html",
-     "similarity": 0.08
+     "path": "types-motos/semi-automatique/index.html",
+     "similarity": 0.09
     },
     {
-     "path": "permis-securite/passeport-location-moto-vietnam/index.html",
+     "path": "yamaha/yamaha-pg-1-abs-hanoi-ville/index.html",
      "similarity": 0.08
     }
    ]
@@ -10090,16 +10090,16 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
-     "path": "types-motos/index.html",
-     "similarity": 0.25
-    },
-    {
      "path": "types-motos/electrique-scooter-ou-essence-scooter-hanoi/index.html",
      "similarity": 0.25
     },
     {
      "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
      "similarity": 0.25
+    },
+    {
+     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -10191,7 +10191,7 @@
    "closest_pages": [
     {
      "path": "types-motos/trail/index.html",
-     "similarity": 0.27
+     "similarity": 0.25
     },
     {
      "path": "nord-vietnam/index.html",
@@ -10265,16 +10265,16 @@
    "parent_hub": "/",
    "closest_pages": [
     {
-     "path": "prix-location/50cc-location-scooter-hanoi-prix/index.html",
-     "similarity": 0.27
+     "path": "permis-securite/50cc-scooter-license-vietnam/index.html",
+     "similarity": 0.2
     },
     {
-     "path": "permis-securite/50cc-scooter-license-vietnam/index.html",
-     "similarity": 0.22
+     "path": "types-motos/50cc-moto-vietnam-debutant/index.html",
+     "similarity": 0.17
     },
     {
      "path": "permis-securite/index.html",
-     "similarity": 0.17
+     "similarity": 0.14
     }
    ]
   },
@@ -10515,15 +10515,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
-     "path": "types-motos/electrique/index.html",
-     "similarity": 0.25
-    },
-    {
      "path": "types-motos/electrique-scooter-hanoi-ninh-binh/index.html",
      "similarity": 0.18
     },
     {
      "path": "types-motos/50cc-electrique-scooter-vietnam/index.html",
+     "similarity": 0.18
+    },
+    {
+     "path": "permis-securite/electrique-scooter-license-vietnam/index.html",
      "similarity": 0.18
     }
    ]
@@ -10565,12 +10565,12 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
-     "path": "types-motos/electrique/index.html",
-     "similarity": 0.22
-    },
-    {
      "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
      "similarity": 0.21
+    },
+    {
+     "path": "types-motos/electrique/index.html",
+     "similarity": 0.2
     },
     {
      "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
@@ -10590,16 +10590,16 @@
    "parent_hub": "/",
    "closest_pages": [
     {
-     "path": "types-motos/electrique-scooter-hanoi-range/index.html",
-     "similarity": 0.25
+     "path": "types-motos/semi-automatique/index.html",
+     "similarity": 0.29
     },
     {
      "path": "types-motos/electrique-scooter-recharge-hanoi/index.html",
-     "similarity": 0.22
+     "similarity": 0.2
     },
     {
      "path": "types-motos/support-telephone-scooter-hanoi/index.html",
-     "similarity": 0.2
+     "similarity": 0.17
     }
    ]
   },
@@ -10791,15 +10791,15 @@
    "closest_pages": [
     {
      "path": "types-motos/50cc-electrique-scooter-vietnam/index.html",
-     "similarity": 0.25
+     "similarity": 0.22
     },
     {
-     "path": "types-motos/electrique/index.html",
-     "similarity": 0.17
+     "path": "nord-vietnam/meilleure-moto-pour-sapa/index.html",
+     "similarity": 0.2
     },
     {
-     "path": "yamaha/trail-aventure/index.html",
-     "similarity": 0.14
+     "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -11091,15 +11091,15 @@
    "closest_pages": [
     {
      "path": "types-motos/semi-automatique/index.html",
-     "similarity": 0.67
+     "similarity": 0.33
     },
     {
-     "path": "nord-vietnam/meilleure-moto-pour-ha-giang-boucle/index.html",
-     "similarity": 0.17
+     "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
+     "similarity": 0.22
     },
     {
-     "path": "honda/semi-automatiques/index.html",
-     "similarity": 0.14
+     "path": "prix-location/automatique-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.22
     }
    ]
   },
@@ -11291,14 +11291,14 @@
    "closest_pages": [
     {
      "path": "types-motos/scooter-automatique/index.html",
-     "similarity": 0.67
+     "similarity": 0.33
     },
     {
-     "path": "honda/semi-automatiques/index.html",
-     "similarity": 0.29
+     "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
+     "similarity": 0.3
     },
     {
-     "path": "hanoi/semi-automatique-moto-routes-hanoi/index.html",
+     "path": "types-motos/electrique/index.html",
      "similarity": 0.29
     }
    ]
@@ -11366,7 +11366,7 @@
    "closest_pages": [
     {
      "path": "types-motos/electrique/index.html",
-     "similarity": 0.2
+     "similarity": 0.17
     },
     {
      "path": "types-motos/electrique-scooter-recharge-hanoi/index.html",
@@ -11390,12 +11390,12 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
-     "path": "types-motos/trail/index.html",
-     "similarity": 0.25
-    },
-    {
      "path": "nord-vietnam/meilleure-moto-pour-ha-giang-boucle/index.html",
      "similarity": 0.24
+    },
+    {
+     "path": "types-motos/trail/index.html",
+     "similarity": 0.23
     },
     {
      "path": "types-motos/semi-automatique-ou-trail-moto-sapa/index.html",
@@ -11416,15 +11416,15 @@
    "closest_pages": [
     {
      "path": "nord-vietnam/index.html",
-     "similarity": 0.3
+     "similarity": 0.27
     },
     {
      "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
-     "similarity": 0.3
+     "similarity": 0.27
     },
     {
      "path": "types-motos/50cc-sapa-ha-giang/index.html",
-     "similarity": 0.27
+     "similarity": 0.25
     }
    ]
   },

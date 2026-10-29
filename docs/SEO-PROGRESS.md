@@ -13,20 +13,20 @@ This is a work plan, not a claim that SEO implementation is complete.
 
 | Scope | Status | Count |
 | --- | --- | ---: |
-| URL checkpoints | DONE | 1170 |
-| URL checkpoints | IN_PROGRESS | 6 |
-| URL checkpoints | TODO | 4797 |
-| Sitewide tasks | DONE | 6 |
+| URL checkpoints | DONE | 1727 |
+| URL checkpoints | TODO | 4246 |
+| Sitewide tasks | BLOCKED_TOOL | 1 |
+| Sitewide tasks | DONE | 8 |
 | Sitewide tasks | IN_PROGRESS | 10 |
-| Sitewide tasks | TODO | 12 |
+| Sitewide tasks | TODO | 9 |
 
 ## Findings to investigate and repair
 
 | Source audit signal | URLs |
 | --- | ---: |
-| NO_SOURCE_BODY_INLINK | 177 |
-| REPEATED_EDITORIAL_PARAGRAPHS | 44 |
-| SEO_PROCESS_LANGUAGE_IN_READER_COPY | 31 |
+| NO_SOURCE_BODY_INLINK | 104 |
+| REPEATED_EDITORIAL_PARAGRAPHS | 30 |
+| SEO_PROCESS_LANGUAGE_IN_READER_COPY | 21 |
 
 Signals are not verdicts: repeated paragraphs need editorial review; zero source-body inlinks does not prove a page is unreachable through built navigation.
 Title/meta lengths are editorial diagnostics, not Google limits. Source word counts are estimates and exclude navigation.
