@@ -9,11 +9,11 @@
    "h1": "Yamaha Grande en location à Hanoi : pour quel profil ?"
   },
   "words_before": 1607,
-  "words_after": 1617,
+  "words_after": 1620,
   "evidence": {
-   "FACTS": "Removed the mannered claims with no source (chrome, 'signature visuelle', vague gabarit remarks) and all contract/fleet generalities (kilométrage inclus, assistance, caution, franchise, top-case, 'disponibilité relève de chaque flotte'). Specs only from Yamaha Motor Vietnam pages seen in search results: coffre 27 L, Blue Core Hybrid with hybrid assist and Stop & Start (Grande page), poids environ 100 kg (launch article); seat 790 mm explicitly flagged as first-generation figure to confirm; 125 cm3 from the Blue Core Hybrid 125 scooter description (autocarpro snippet title and Yamaha page family). Janus 15.3 L and Latte 37 L from Yamaha pages. No Yamaha model has an owner price row: only the category range 150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND 'à titre de repère' with the exact disclaimer; deposit/documents/zone/breakdown phrased once as questions to ask and get in writing; availability stated as unconfirmed. NAP and hours exactly as SEO-FACTS. No first-hand story.",
+   "FACTS": "Removed the mannered claims with no source (chrome, 'signature visuelle', vague gabarit remarks) and all contract/fleet generalities (kilométrage inclus, assistance, caution, franchise, top-case, 'disponibilité relève de chaque flotte'). Specs only from Yamaha Motor Vietnam pages seen in search results: coffre 27 L, Blue Core Hybrid with hybrid assist and Stop & Start (Grande page), 124.9 cm3 and about 100 kg wet (Grande standard 2025 page); seat 790 mm explicitly flagged as first-generation figure to confirm; 125 cm3 from the Blue Core Hybrid 125 scooter description (autocarpro snippet title and Yamaha page family). Janus 15.3 L and Latte 37 L from Yamaha pages. No Yamaha model has an owner price row: only the category range 150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND 'à titre de repère' with the exact disclaimer; deposit/documents/zone/breakdown phrased once as questions to ask and get in writing; availability stated as unconfirmed. NAP and hours exactly as SEO-FACTS. No first-hand story.",
    "INTENT": "Main question: for which traveller profile is the Grande a good rental in Hanoi. OWNER of 'yamaha Grande en location à Hanoi' (group owner = itself). Differs from yamaha-grande-prix-location-hanoi (how to read the budget), yamaha-grande-hanoi-ville (riding/parking/rain) and the Lead comparison (owner honda/honda-lead-abs-ou-yamaha-grande-location) because it is about fit and what to ask/check at the counter.",
-   "CONTENT": "Full rewrite. New sections: data table with practical consequences, who it suits and who it does not (city visitor, Long Bien commuter, occasional duo), storage comparison table Janus/Grande/Latte (Yamaha figures), short traffic section pointing to the city guide, what to ask before booking (with NAP, hours, 4 questions), handover checklist, 5 distinct FAQ. Removed the three 'profils du style', the counter-contract paragraphs and the abstract decision rule. Words 1607 -> 1617.",
+   "CONTENT": "Full rewrite. New sections: data table with practical consequences, who it suits and who it does not (city visitor, Long Bien commuter, occasional duo), storage comparison table Janus/Grande/Latte (Yamaha figures), short traffic section pointing to the city guide, what to ask before booking (with NAP, hours, 4 questions), handover checklist, 5 distinct FAQ. Removed the three 'profils du style', the counter-contract paragraphs and the abstract decision rule. Words 1607 -> 1620.",
    "META": "Title kept in form and made plainer ('pour quel profil ?'); description rewritten with concrete facts (27 L, automatic, néo-rétro); H1 identical to title; og:title/og:description identical to title/description.",
    "LINKS": "7/7 unique internal links in <main>, parent hub present: /yamaha/, /types-motos/, /prix-location/, /yamaha/yamaha-grande-prix-location-hanoi/, /yamaha/yamaha-grande-hanoi-ville/, /yamaha/scooters/, /honda/honda-lead-abs-ou-yamaha-grande-location/. Removed /yamaha/yamaha-janus-125-location-hanoi/, /yamaha/yamaha-nvx-location-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/.",
    "AEO_GEO": "Direct answer in the lead (profile, limits, no price/stock claim). Two tables (Yamaha data; storage comparison), one handover checklist, 5 FAQ with short answers, three citations to yamaha-motor.com.vn pages in the body."
@@ -23,6 +23,11 @@
     "url": "https://yamaha-motor.com.vn/xe/loai-xe/grande/?CP=PR_Grande_Mass_Fe22-32_General",
     "checked": "2026-10-30",
     "used_for": "seen in search result: Grande Blue Core Hybrid, under-seat 27 L, hybrid assist and Stop & Start"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Grande standard 2025, 124.9 cc, 100 kg wet, 27 L"
    },
    {
     "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-grande-hoan-toan-moi-sieu-pham-cua-dinh-cao-thiet-ke-va-cong-nghe/",
@@ -607,6 +612,57 @@
   "owner_gaps": [
    "Whether a Latte is in the fleet and its own price",
    "Antitheft provided by the shop (question)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-latte-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel voyageur louer un Yamaha Latte à Hanoi, et que demander ou vérifier ?",
+  "new_meta": {
+   "title": "Louer un Yamaha Latte à Hanoi : pour quel voyageur ?",
+   "description": "Louer un Yamaha Latte à Hanoi : scooter automatique compact au coffre de 37 litres, selle à 790 mm. Profils adaptés, limites, questions à poser et contrôles.",
+   "h1": "Louer un Yamaha Latte à Hanoi : pour quel voyageur ?"
+  },
+  "words_before": 1819,
+  "words_after": 1525,
+  "evidence": {
+   "FACTS": "Removed the unsourced 'le Latte en deux mots' narrative, the 'documents et vérifications' generalities and the /location-moto-hanoi/ and /prix-location/jour/ links. Specs only from Yamaha Motor Vietnam Latte pages seen in search results: seat 790 mm, wet weight 100 kg, storage up to 37 L (A4 documents, 13-inch laptop), ground clearance 125 mm, wheelbase 1275 mm; Janus 15.3 L and Grande 27 L from their Yamaha pages; Honda Vision (785 mm, 97 kg, 175 mm, 4.8 L, standard version) from honda.com.vn with versions flagged. GEAR 125 Hybrid 750 mm and the 'compacts de 125 cm3' classification come from the sourced Yamaha scooters guide of this site. Latte engine size and Smart Key not asserted: key operation phrased as a question 'selon la version'. Price: no Latte row; only the automatic-scooter category range 'à titre de repère' with the exact disclaimer; the Vision noted as the only one of the two with its own row. Deposit/documents/zone/breakdown: questions; availability unconfirmed. A1 limit via luatvietnam.vn with the licence-recognition caveat. NAP/hours as SEO-FACTS.",
+   "INTENT": "Main question: for which traveller is a Latte rental sensible. OWNER of 'yamaha Latte en location à Hanoi'. Differs from yamaha-latte-hanoi-ville (urban use), yamaha-latte-prix-location-hanoi (budget) and yamaha-latte-ou-honda-vision-location (comparison, linked) by covering profile, seat-height test, what to ask and check.",
+   "CONTENT": "Full rewrite. New sections: data table with consequences, profiles (remote worker, Long Bien commuter, errands) and limits, Latte vs other Yamaha scooters, Latte vs Vision table, what to do if the seat is too high, price/availability with NAP, handover checklist, licence paragraph, 5 FAQ. Removed the narrative 'portrait', 'circulation' and 'décider en connaissance de cause' sections. Words 1819 -> 1525.",
+   "META": "Title/description/H1 rewritten (storage 37 L, seat 790 mm); og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-latte-hanoi-ville/, /yamaha/yamaha-latte-ou-honda-vision-location/, /yamaha/yamaha-latte-prix-location-hanoi/. Removed /location-moto-hanoi/, /permis-securite/permis/, /prix-location/jour/; added /yamaha/scooters/, /yamaha/yamaha-latte-hanoi-ville/, /yamaha/yamaha-latte-ou-honda-vision-location/, /yamaha/yamaha-latte-prix-location-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead; two tables, one checklist, 5 FAQ; citations to Yamaha Latte/Janus/Grande pages, honda.com.vn Vision page and luatvietnam.vn."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-b0r5/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Latte seat 790 mm, wet weight 100 kg, storage 37 L, ground clearance 125 mm, wheelbase 1275 mm"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/kham-pha-xe-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus 125 storage 15.3 L"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/grande/?CP=PR_Grande_Mass_Fe22-32_General",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Grande storage 27 L"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Vision seat 785 mm, 97 kg, ground clearance 175 mm, tank 4.8 L (standard version; other versions differ)"
+   },
+   {
+    "url": "https://luatvietnam.vn/giao-thong/luat-trat-tu-an-toan-giao-thong-duong-bo-2024-quy-dinh-nhu-the-nao-ve-giay-phep-lai-xe-hang-a1-863-100479-article.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: A1 up to 125 cm3 under law 36/2024/QH15"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Latte is in the fleet and its own price",
+   "Deposit, documents, zone and breakdown procedure (questions)"
   ]
  }
 ]

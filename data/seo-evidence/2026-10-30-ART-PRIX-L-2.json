@@ -261,5 +261,114 @@
   "owner_gaps": [
    "Who pays routine maintenance, workshop rules, breakdown procedure and replacement moto, and when a garantie may be used for maintenance/repair costs."
   ]
+ },
+ {
+  "path": "prix-location/moto-carburant-cout-hanoi-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Carburant en location à Hanoi : comment estimer sa dépense (distance x consommation x prix du litre), plein et règle de restitution",
+  "words_before": 1648,
+  "words_after": 1812,
+  "new_meta": {
+   "description": "Estimer le carburant d’une moto louée à Hanoi : distance, consommation et prix du litre, exemple chiffré avec le Honda Vision et réflexes pour le plein."
+  },
+  "evidence": {
+   "FACTS": "Fuel price from a dated source seen in a WebSearch result on 2026-10-30: Petrolimex zone 1, E5 RON 92 (Mức 2) about 25 060 VND/litre in force since 2026-10-22 15:00 (Báo Văn Hóa, 23 Oct 2026; a 28 Oct 2026 article says it was still in force); stated as changing at intervals, to check at the pump. Vision specs from the manufacturer's page honda.com.vn (seen in search result): tank 4.8 L and consumption 1.82 L/100 km; owner's manual: about 1.3 L left at the red mark (seen in search result summary). Worked arithmetic (50/100/140/300 km; 260 km week = 4.73 L = about 118 600 VND) is on those figures only, labelled order of magnitude with a warning that declared consumption is a test figure and real use is higher; no spec or consumption given for any other model; 140 km and 120 km/day figures are explicitly hypotheses. Vision rental rows (200 000/day, 1 000 000/week, 2 000 000/month) quoted with the exact disclaimer. Removed unsourced claims: « les stations jalonnent les axes principaux », « les bidons de bord de route… qualité et prix se négocient moins bien », « paiement espèces le plus souvent, applications locales », « les vieilles jauges mentent », « marge d’une à deux journées de trajet », and the route-type 'ordres de grandeur' passages. Fuel inclusion and restitution rule: stated unpublished for Thuê xe máy Nguyễn Hà. No € conversion.",
+   "INTENT": "Main question: how to estimate the fuel cost of a rental in Hanoi? Owner of « carburant en location à Hanoi ». Differs from /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/ (electric vs petrol energy cost) and /prix-location/vision-ou-janus-cout-location-hanoi/ (two-model usage cost, links here for the method) by being the generic method with a sourced worked example, refuelling habits and the restitution-level question.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« la ligne la plus vivante du budget », « une marge qui dort tranquille », « le prix de la tranquillité », « le hub ») and the 'règle de la plateforme' wording. New: formula + sourced example table, factors raising real consumption, how to measure one's own consumption, week example with declared hypotheses, plein/autonomy/reserve, restitution-level questions, budget by stay type, common errors, rental vs fuel. FAQ cut to 4 non-repeating Q&As. Words 1648→1812.",
+   "META": "Title and H1 kept (50 chars). Description rewritten (152 chars) to announce the formula and the Vision example; og:description synced.",
+   "LINKS": "6/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/, /prix-location/vision-ou-janus-cout-location-hanoi/, /prix-location/nord-vietnam-voyage-moto-budget-7-jours/. Three external links (honda.com.vn product page, Honda Vision manual PDF at cdn.honda.com.vn, baovanhoa.vn fuel-price article; rel=noopener; all seen in search results). TOC auto-synced with 10 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (formula and about 45 600 VND per 100 km for a Vision at the 22 Oct 2026 price; fuel not in the rental rate). 2 tables, 5 lists, FAQ of 4."
+  },
+  "sources": [
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-30",
+    "used_for": "Petrolimex zone 1 E5 RON 92 about 25 060 VND/litre from 2026-10-22 15:00 (seen in search result summary; still in force per a 28 Oct 2026 article)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vision tank 4.8 L and declared consumption 1.82 L/100 km (seen in search result)"
+   },
+   {
+    "url": "https://cdn.honda.com.vn/motorbike-manual/September2025/vax6VIxISbzWmEpEfkZX.pdf",
+    "checked": "2026-10-30",
+    "used_for": "Vision owner's manual: about 1.3 L remaining at the red fuel mark (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Is fuel included in the rental rate, what level is required at return, which fuel the rented models use, and is any help offered after a dry tank."
+  ]
+ },
+ {
+  "path": "prix-location/moto-livraison-frais-hanoi/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Frais éventuels d'une remise de la moto à l'hôtel à Hanoi, à demander avant de réserver, et comment les comparer au trajet vers la boutique",
+  "words_before": 1690,
+  "words_after": 1673,
+  "new_meta": {
+   "title": "Moto remise à l’hôtel à Hanoi : quels frais demander ?",
+   "description": "La boutique n’annonce pas de livraison : pour une remise à l’hôtel, voici les frais à faire préciser et comment les comparer au trajet vers Long Biên.",
+   "h1": "Moto remise à l’hôtel à Hanoi : quels frais demander avant de réserver ?"
+  },
+  "evidence": {
+   "FACTS": "Aligned with the owner page location-moto-hanoi/moto-livraison-hotel-hanoi/: delivery is not announced by Thuê xe máy Nguyễn Hà; fee, zone, minimum duration, time slot, handover/return pick-up and cancellation are listed as unpublished questions, never as a service or price. Removed all affirmations of the old copy: « de plus en plus courant à Hanoi », « le loueur mobilise une personne… et parfois un véhicule d’escorte », « chaque loueur écrit sa grille », « de nombreux loueurs proposent des créneaux calés sur les vols », « certains loueurs l’incluent dans un rayon réduit », the 'majoration comme les taxis' logic, and the convoy/group paragraph. No amount, no threshold, no price table (the page has no tariff figure). Long Biên described as across the Red River from the centre (geography only, no distance or time). Hours 09:00–21:00, address near Bến xe Gia Lâm, phone/WhatsApp/Zalo per SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: what fees may apply to a handover at the hotel and how to compare with fetching the bike? DISTINCT_ANGLE of location-moto-hanoi/moto-livraison-hotel-hanoi/ (group owner: when to ask for a handover, trottoir check, reprise); this article only treats the fee lines, the comparison with the trip to the shop, the written answer to obtain and alternatives if refused; links to the owner once for the handover itself.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« un service, donc une ligne », « le frais se paie en confort récupéré », « six lignes qui protègent les deux parties en dix minutes de lecture ») and SEO-process wording (« la règle de la plateforme », « le hub »). New: table of published/unpublished elements, fee lines to ask, how to read a reply, alternatives if refused, comparison table vs trip to the shop, four situations, precautions on the day, message to write. FAQ cut to 4 non-repeating Q&As. Words 1690→1673.",
+   "META": "Title « Livraison d’une moto de location à Hanoi : quand payer ? » changed to « Moto remise à l’hôtel à Hanoi : quels frais demander ? » (54 chars) because delivery is not announced and the page cannot say when to pay; H1 aligned; description rewritten (150 chars); og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /location-moto-hanoi/moto-livraison-hotel-hanoi/ (group owner, once), /location-moto-hanoi/quartiers/, /prix-location/location-moto-ou-taxi-hanoi-cout/, /prix-location/location-moto-retrait-retour-jour-charge-hanoi/. tel/WhatsApp/Zalo links. TOC auto-synced with 10 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (delivery not announced; ask fees and zone before booking; compare with the trip to the shop). 2 tables, 4 lists, FAQ of 4."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether a handover at the hotel/airport and a pick-up at the end are offered, fee (aller/retour), zone, minimum rental, time slots and cancellation rule."
+  ]
+ },
+ {
+  "path": "prix-location/nord-vietnam-voyage-moto-budget-7-jours/index.html",
+  "role": "OWNER",
+  "primary_intent": "Budget d'un voyage à moto de 7 jours dans le nord du Vietnam : postes, méthode, ce qui est publié et ce qui doit être demandé",
+  "words_before": 2439,
+  "words_after": 1810,
+  "new_meta": {
+   "title": "Budget d’un voyage à moto de 7 jours dans le nord du Vietnam",
+   "description": "Sept jours à moto dans le nord du Vietnam : location à la semaine, carburant, étapes et retour de la moto, avec une méthode pour chiffrer chaque poste.",
+   "h1": "Voyage à moto de 7 jours dans le nord du Vietnam : de quoi se compose le budget ?"
+  },
+  "evidence": {
+   "FACTS": "Rental: week column of the six owner rows with the exact disclaimer (7 days = week row, no multiplication); no price for trail/manual sport; models without row = category range to confirm. Leaving Hanoi, assistance on the road, one-way return, garantie, inclusions, late-return rule and insurance stated as unpublished/unconfirmed for Thuê xe máy Nguyễn Hà (asked, never affirmed). Licence: only « vérifiez que votre permis vous autorise à conduire ce type de véhicule au Vietnam ; la règle dépend de votre permis et du véhicule », no blanket statement. Fuel: the Vision example (about 45 600 VND/100 km from Honda's declared 1.82 L/100 km and the E5 RON 92 price of 25 060 VND/L, Petrolimex zone 1, 22 Oct 2026) is cross-referenced from the carburant article, flagged as one model's example; its sources are in that article's evidence. No hotel, meal, distance, driving-time or route-closure figure (explicitly none given, reader fills a table). Removed « le dépôt », « la grille s’aplatit avec la durée » as a fact, « presque toujours » (weekly formula), « Certains proposent une restitution sur place », and every statement about what 'les loueurs' do. NAP/hours per SEO-FACTS.",
+   "INTENT": "Main question: what makes up the budget of a 7-day motorbike trip in northern Vietnam? Owner of « voyage à moto de 7 jours dans le nord du Vietnam ». Differs from /prix-location/hanoi-ha-giang-voyage-moto-cout/ (one itinerary) and /prix-location/vietnam-location-moto-cout-30-jours/ (a month) by being the duration-based four-post method for a week with a fill-in stage table; links to the Ha Giang pages for destinations.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« la durée est la variable budgétaire la plus sous-estimée », « un instrument de pilotage », « la ligne oubliée surgit », « la structure plus durable que n’importe quel tarif ») and SEO-process wording (« cette page ne publiera aucun tarif », « les deux pages se lisent ensemble »). New: week-rate table, what to confirm in writing, fuel method, stage table template, return options, margin, four-column method, three trip shapes, out-of-table expenses. FAQ cut to 4 non-repeating Q&As. Words 2439→1810.",
+   "META": "Title kept (60 chars, typographic apostrophe; no price promise); H1 kept as the hub anchor question; description rewritten (151 chars) without « sans prix inventé »; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/meilleur-moto-montagne-routes-vietnam/ (kept), /nord-vietnam/ha-giang/ (kept), /prix-location/hanoi-ha-giang-voyage-moto-cout/ (kept), /prix-location/moto-carburant-cout-hanoi-location/. Dropped /prix-location/journaliere-ou-hebdomadaire-.../. tel/WhatsApp/Zalo links. TOC auto-synced with 10 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (four postes; only the rental is published as indicative rates). 2 tables, 4 lists, FAQ of 4."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Can the moto leave Hanoi and how far, assistance/who pays on the road, one-way return or restitution elsewhere, late-return rule, garantie."
+  ]
+ },
+ {
+  "path": "prix-location/prix-location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Prix location moto Hanoi : repères indicatifs et comment lire une offre de location",
+  "words_before": 1833,
+  "words_after": 1688,
+  "new_meta": {
+   "title": "Prix location moto Hanoi : repères et lecture d’une offre",
+   "description": "Prix de location d’une moto ou d’un scooter à Hanoi : repères indicatifs par jour, semaine et mois, et comment lire une offre ligne par ligne avant de réserver."
+  },
+  "evidence": {
+   "FACTS": "Full owner table (day/week/month, six rows) with the exact disclaimer; readings drawn only from comparing published rows (Vision week is not seven days, month not four weeks; Air Blade below Vision at week and month; widest range = automatic scooters; electric has no day price). No total computed for 2-3 days, 10 days, 5 weeks (reader told to ask). Removed unsourced/invented statements: « presque toujours »/« systématiquement » (fuel, deposit not included), « en tendance une machine à embrayage ou récente appelle une garantie plus lourde », « la tendance ne remplace jamais… », « haute saison pèse sur les offres », the 'price/cost/rate/tariff' English vocabulary section, « la plateforme ne publie que des prix vérifiés ». Garantie, fuel, equipment, insurance/assistance, handover elsewhere, late fee, leaving Hanoi: listed as questions in a table, none affirmed. Third-party prices mentioned only as non-comparable (no figures). No € conversion. Hours 09:00–21:00, address and phone/WhatsApp/Zalo per SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: how much does renting a motorbike in Hanoi cost and how to read an offer? Owner of « prix location moto Hanoi ». Differs from the rate hub /prix-location/ (complete table and navigation to every guide) by being the reading/comparison guide with seven questions to ask and three stay examples; differs from /prix-location/semaine/, /jour/, /mois/ (one column each) and from semi-automatique-location-moto-hanoi-prix (one category).",
+   "CONTENT": "Full rewrite. Removed mannered prose (« quatre mots, une même question », “ce guide refuse la réponse facile du chiffre unique », « les sommes qui circulent sans enrichir personne », « le devis : le document qui fait foi ») and SEO-process wording (« la règle de la plateforme reste entière », « le hub », « chacun répond à une intention distincte »). New: table, how to read it, lines to ask for (table), comparing two offers, vehicle choice from the table, three stay examples, prices read elsewhere, quote request. FAQ cut to 5 non-repeating Q&As. Words 1833→1688.",
+   "META": "Title « Prix location moto Hanoi : comment lire l’offre ? » replaced by « Prix location moto Hanoi : repères et lecture d’une offre » (57 chars, unique vs the hub title); H1 kept; description rewritten (160 chars) without « Prix, coût, tarif ou rate : quatre mots… »; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/jour/, /prix-location/semaine/, /prix-location/mois/, /prix-location/moto-carburant-cout-hanoi-location/. Dropped /permis-securite/. tel/WhatsApp/Zalo links. TOC auto-synced with 9 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (day ranges and flat rows; rent is not the whole cost). 2 tables, 3 lists, FAQ of 5."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Exact inclusions of the rental rate (fuel, equipment, insurance/assistance), garantie, handover elsewhere, leaving Hanoi, late fee."
+  ]
  }
 ]

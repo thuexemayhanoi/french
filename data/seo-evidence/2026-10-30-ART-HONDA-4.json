@@ -1,5 +1,43 @@
 [
  {
+  "path": "honda/honda-super-cub-c125-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Combien et sous quelle formule (jour, semaine, mois) louer une Honda Super Cub C125, et comment comparer les offres ?",
+  "new_meta": {
+   "description": "La Honda Super Cub C125 n’a pas de tarif propre chez Thuê xe máy Nguyễn Hà : repère de catégorie, pourquoi la budgéter à part et comment comparer les durées."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit/insurance_assistance/fleet_promise/delivery sentences of the old text (it asserted shop-side conditions, delivery and stock). The C125 has no owner row: only the semi-automatic category repère (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) with the mandatory disclaimer, stated as possibly not covering the C125 (consistent with honda/semi-automatiques hub). Vision and Air Blade rows quoted as their own owner rows only to give scale; C125 row shown as « À demander ». Purchase price context: Honda Vietnam recommended price roughly 86,5–87,5 M VND by version in VTC News's August 2026 table, explicitly « prix d’achat conseillé, pas un tarif de location » (seen in search result; the Standard/Special figures 86 488 363 and 87 470 182 VND were in the result summary). Technical: 4-speed gearbox with automatic centrifugal clutch, no clutch lever (Honda Europe press release 2018 and American Honda 2024 specifications, both seen in search results). Deposit, papers, fuel, delay, breakdown, leaving Hanoi appear only as questions. No delivery, insurance or stock claim. Contact data exactly as SEO-FACTS.",
+   "INTENT": "Main question: quel prix et quelle durée pour louer une Super Cub C125 ? Owner of « louer une Honda Super Cub C125 » (OWNER; closest wave-rsx / vision / vario-125 prix pages 0.50 are other models). Differs from honda-super-cub-c125-location-hanoi (profile and driving) by being about budgeting: why it is budgeted apart, duration table, quote comparison, conditions.",
+   "CONTENT": "Full rewrite (2022 -> see words_after); removed the mannered « pourquoi une Cub premium se budgète à part » prose and shop-side assertions. New: repère table, premium context (sourced purchase price), what you rent (semi-auto, sourced), duration table, 5-step comparison, 6 conditions as questions, other costs, scale table with Vision/Air Blade/semi-auto/C125, what a Cub premium pays for (hedged as general market logic), quote message, 4 FAQ.",
+   "META": "Title kept (61 chars, question form); H1 kept; description rewritten (157 chars) to state upfront that no own rate exists; og:description synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-super-cub-c125-location-hanoi/, /honda/semi-automatiques/, /prix-location/semaine/, /prix-location/mois/. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in lead (pas de tarif propre; repère semi-auto; peut ne pas couvrir). 4 FAQ items. 3 tables, numbered comparison list, 2 bulleted lists. Three external citations (VTC News, Honda Europe, American Honda)."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/bang-gia-xe-may-honda-thang-8-2026-moi-nhat-ar1032741.html",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vietnam recommended price table (August 2026) for the Super Cub C125, about 86,5–87,5 M VND by version; not a rental rate (seen in search result)"
+   },
+   {
+    "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/133910/honda-super-cub-c12510",
+    "checked": "2026-10-30",
+    "used_for": "Honda Europe 2018 release: Super Cub C125 four-speed gearbox with automatic centrifugal clutch, no clutch lever (seen in search result)"
+   },
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-super-cub-c125-specifications",
+    "checked": "2026-10-30",
+    "used_for": "American Honda 2024 specifications: semiautomatic, four speeds, automatic centrifugal clutch (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "No C125 row; whether the shop offers a C125 and under which conditions is unknown; deposit, papers, fuel and leaving-Hanoi rules are questions."
+  ],
+  "words_before": 2022,
+  "words_after": 1686
+ },
+ {
   "path": "honda/honda-vario-125-hanoi-ville/index.html",
   "role": "OWNER",
   "primary_intent": "Comment le Honda Vario 125 se comporte-t-il dans le trafic de Hanoi (atouts, limites, réflexes) ?",
@@ -123,6 +161,36 @@
   "words_after": 1626
  },
  {
+  "path": "honda/honda-vario-160-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit un Honda Vario 160 dans le trafic de Hanoi : ce que 160 cm³ changent, atouts et limites.",
+  "new_meta": {
+   "title": "Honda Vario 160 en ville à Hanoi : facilité et limites",
+   "description": "Ce que 160 cm³ changent dans le trafic de Hanoi : départs, insertion, freinage, passager, ponts et pluie. Les atouts du Vario 160 et ses limites en ville.",
+   "h1": "Conduire un Honda Vario 160 dans le trafic de Hanoi : atouts et limites"
+  },
+  "evidence": {
+   "FACTS": "Removed all flagged items of the old text (seo_process_language, fleet_promise, legal, deposit, insurance_assistance) including the « cette page… angle » framing and the legal sentence on licences. No licence/legal rule is stated; the only rule-like sentence is the generic « certaines voies rapides et certains ouvrages sont interdits aux deux-roues motorisés : suivez les panneaux » (no road named, no fine). No price except the category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND), mandatory disclaimer, « ne vaut pas devis », Vario 160 has no own row. ABS: launch version announced with ABS (Tuổi Trẻ, 22 Dec 2022, seen in search result); machine-level ABS phrased as « demandez, regardez le voyant ». No speed figures (an invented « 40 ou 50 km/h » was removed), no specs. Gabarit « proche de l’Air Blade » follows honda/scooters hub.",
+   "INTENT": "Main question: comment le Vario 160 se conduit-il dans le trafic de Hanoi ? Owner of « conduire un Honda Vario 160 dans le trafic de Hanoi » (OWNER; closest air-blade-125-hanoi-ville 0.44, ct125-hanoi-ville 0.41). Differs from vario-125-hanoi-ville by focusing on what 160 cm³ change (départs, insertion, ABS/braking, two-up, ponts) rather than the mid-size scooter basics; points to the 125 page for ruelles/parking.",
+   "CONTENT": "Full rewrite; removed « le bilan honnête », « décisions évitées », « architecture conçue pour la ville » prose. New: what 160 cm³ change/do not change, départs/insertion, braking and ABS, two-up, ponts/avenues/voies interdites, ruelles/parking, rain/night, 3-scooter comparison table, 3 concrete situations, 5 habits, budget repère, 4 FAQ. Words 1914 -> see words_after.",
+   "META": "Title shortened and aligned (« …en ville à Hanoi : facilité et limites », 54 chars; the old one was 66); H1 changed from « …: le bilan honnête » to « …: atouts et limites » (removes the mannered phrase; hub anchor text should be synced); description rewritten (154 chars); og tags synced. Matrix title/H1 sync required.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vario-160-location-hanoi/, /honda/honda-vario-125-hanoi-ville/, /permis-securite/securite/, /types-motos/meilleur-scooter-hanoi-circulation/. Replaced /permis-securite/ by the narrower /permis-securite/securite/.",
+   "AEO_GEO": "Direct answer in the lead. 4 FAQ items on distinct points (débutant, avantage du 160, Vieux Quartier, puissance). 2 tables, numbered list, 3 bulleted lists. One external citation (Tuổi Trẻ)."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitre.vn/honda-vario-160-ra-mat-viet-nam-gia-tu-51-7-trieu-dong-hang-khang-dinh-hon-hang-nhap-20221222093419862.htm",
+    "checked": "2026-10-30",
+    "used_for": "Vario 160 launched in December 2022 with an ABS version (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop's Vario 160 has ABS and its version/origin are unknown; kept as questions."
+  ],
+  "words_before": 1914,
+  "words_after": 1539
+ },
+ {
   "path": "honda/honda-vario-160-location-hanoi/index.html",
   "role": "OWNER",
   "primary_intent": "Pour quel conducteur louer un Honda Vario 160 à Hanoi convient-il (et en quoi diffère-t-il du 125) ?",
@@ -159,6 +227,68 @@
   ],
   "words_before": 1730,
   "words_after": 1557
+ },
+ {
+  "path": "honda/honda-vario-160-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda Vario 160 est-il adapté aux longues distances au départ de Hanoi, et jusqu’où ?",
+  "new_meta": {
+   "title": "Le Honda Vario 160 convient-il aux longues distances ?",
+   "description": "Le Vario 160 a plus de réserve qu’un 125 pour sortir de Hanoi : plaine et collines douces oui, grands cols non. Itinéraires, bagages, rythme et préparation."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit/insurance_assistance sentences. Roadside help, leaving Hanoi, papers, kilometre/zone limits are questions to ask (the breakdown guide is linked as preparation, no assistance promised). Licence: « la réponse dépend de votre permis, de son pays d’émission et du véhicule ; vérifiez auprès des sources officielles » only. Price: category repère « scooter automatique » with the mandatory disclaimer; the Vario 160 has no own row (stated); « ne vaut pas devis et peut ne pas couvrir un scooter récent ». No distances, driving times, speeds, tank/range or specs; itinerary table qualitative and consistent with honda/scooters hub (« Ninh Binh ou Ba Vi … en bon état » ; variator descents; semi-auto for the North). ABS: only « version annoncée avec ABS au lancement » (Tuổi Trẻ, 22 Dec 2022, seen in search result) and « demandez, vérifiez le voyant ». Mountain-descent tips are generic safety advice; the page explicitly advises against scooters for big loops.",
+   "INTENT": "Main question: le Vario 160 est-il adapté aux longues distances au départ de Hanoi ? Owner of « le Honda Vario 160 est-il adapté aux longues distances… » (OWNER; closest vision-longue-distance 0.50, air-blade-160-longue-distance 0.50, vario-125-longue-distance 0.47). Differs from vario-125-longue-distance by the 160's reserve (two-up with bags, multi-day, Mai Chau/Pu Luong « possible avec prudence »), a 3-day programme, a « quand renoncer » list and a « si vous partez quand même » section.",
+   "CONTENT": "Full rewrite; removed « né citadin / trois oui et un non » prose and the generic closing. New: itinerary table, what the 160 brings, what it does not change, rhythm, passenger/bagages, mountain rules if you insist, 3-day programme, when to turn back, preparation checklist, budget repère, 4 FAQ. Words 1716 -> see words_after.",
+   "META": "Title changed from « …pour la longue distance : jusqu’où quitter Hanoi ? » (66 chars) to a question-led 54-char title; H1 kept; description rewritten (156 chars); og tags synced; eyebrow simplified. Matrix title sync required.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vario-160-location-hanoi/, /nord-vietnam/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /permis-securite/moto-breakdown-vietnam-location/. Dropped /location-moto-hanoi/longue-duree/.",
+   "AEO_GEO": "Direct answer in the lead (oui plaine/collines douces, non grands cols). 4 FAQ items. 1 itinerary table, 5 lists. One external citation (Tuổi Trẻ)."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitre.vn/honda-vario-160-ra-mat-viet-nam-gia-tu-51-7-trieu-dong-hang-khang-dinh-hon-hang-nhap-20221222093419862.htm",
+    "checked": "2026-10-30",
+    "used_for": "Vario 160 launched by Honda Vietnam in December 2022 with an ABS version (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Rules on leaving Hanoi, zone/kilometre limits and breakdown handling are unconfirmed; kept as questions."
+  ],
+  "words_before": 1716,
+  "words_after": 1539
+ },
+ {
+  "path": "honda/honda-vario-160-ou-yamaha-nvx-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Vario 160 ou Yamaha NVX : quel scooter sportif louer à Hanoi ?",
+  "new_meta": {
+   "description": "Vario 160 ou NVX à Hanoi : deux scooters sportifs de 155 à 160 cm³ comparés sur la position, le passager, l’ABS et les tarifs indicatifs à confirmer."
+  },
+  "evidence": {
+   "FACTS": "Neither model has an owner row: category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and « ne fixe le prix d’aucun des deux ». No displacement/power/seat figures other than the 160 and 155 already in the model names; ABS only as « existe sur certaines versions / annoncé sur la version lancée en 2022, à vérifier ». Sourced (seen in search results): Vario 160 launched in December 2022, below the SH, ABS version (Tuổi Trẻ 22 Dec 2022); NVX ABS version already presented in 2018 (VietnamNet « Đón xuân 2018 cùng NVX ABS cam đen »); a more recent NVX generation « présentée selon la presse vietnamienne » (no date claimed in text). No deposit/insurance statement: caution/papiers/panne appear once, as « caution éventuelle… chaque loueur a ses règles » and as questions.",
+   "INTENT": "Main question: Vario 160 ou NVX, lequel louer à Hanoi ? Owner of « honda Vario 160 ou Yamaha NVX » (OWNER; closest yamaha-nvx-ou-honda-air-blade-160 0.60, air-blade-160-ou-yamaha-nvx-155 0.60, yamaha-lexi-ou-honda-vario-125 0.56). Keeps the general comparison on position, passenger, ABS, rangement and decision method; the Air Blade 160 duel is linked as the sibling page.",
+   "CONTENT": "Full rewrite; removed the « deux automatiques de catégorie affirmée / même tri, usage réel, gabarit, exemplaire du jour » prose. New: qualitative comparison table, the two scooters (sourced), sit test, braking/ABS, rangement/passager, city/route/mountain, profile table, why condition beats brand, questions to ask, repère price table, 5-step decision list, 4 FAQ. Words 1625 -> see words_after.",
+   "META": "Title and H1 kept (60 chars). Description was fine in intent but rewritten shorter and more factual (149 chars); og:description synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /yamaha/, /honda/honda-vario-160-location-hanoi/, /honda/honda-vario-125-ou-yamaha-freego-location/, /honda/honda-air-blade-160-ou-yamaha-nvx-155-location/.",
+   "AEO_GEO": "Direct answer in the lead (même classe, pas de gagnant sur le papier, choisir à l’essai; pas de tarif propre). 4 FAQ items (confort à deux, prix, ABS, boucle du Nord). 3 tables, numbered decision list, 2 bulleted lists. Two external citations (Tuổi Trẻ, VietnamNet)."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitre.vn/honda-vario-160-ra-mat-viet-nam-gia-tu-51-7-trieu-dong-hang-khang-dinh-hon-hang-nhap-20221222093419862.htm",
+    "checked": "2026-10-30",
+    "used_for": "Vario 160 launched in Vietnam in December 2022 with an ABS version (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/don-xuan-2018-cung-nvx-abs-cam-den-422379.html",
+    "checked": "2026-10-30",
+    "used_for": "NVX 155 ABS version already on sale in Vietnam in 2018 (title seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which Vario 160 / NVX versions (ABS, year) the shop offers is unknown; kept as questions."
+  ],
+  "words_before": 1625,
+  "words_after": 1593
  },
  {
   "path": "honda/honda-vario-160-prix-location-hanoi/index.html",

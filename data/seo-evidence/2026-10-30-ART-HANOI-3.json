@@ -308,5 +308,163 @@
   "owner_gaps": [
    "Whether a rental can be taken the evening before for a dawn start, and the return time rule, are unconfirmed at Thuê xe máy Nguyễn Hà (page tells readers to ask)."
   ]
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-solo/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment visiter Hanoi seul : où dormir, manger et rencontrer du monde, risques réels, déplacements dont le scooter.",
+  "words_before": 1831,
+  "words_after": 1563,
+  "new_meta": {
+   "title": "Hanoi en solo : où dormir, se déplacer, rester en sécurité",
+   "description": "Voyager seul à Hanoi : quartier où dormir, repas et rencontres, vols à l’arraché, taxis par application et conditions pour conduire un scooter sans passager.",
+   "h1": "Hanoi en solo : où dormir, se déplacer, rester en sécurité"
+  },
+  "evidence": {
+   "FACTS": "Removed vague or unsupported statements ('presque tout se règle au comptant', 'les chambres simples sont nombreuses', 'quartier des ambassades' as lodging area, 'le soir la circulation y reste modérée', 'les voyageurs seuls s’y déplacent couramment' stated flatly). Sourced: theft by motorbike snatching, pickpockets, scams, targeting tourists in tourist streets including Hanoi, helmet mandatory for two-wheelers (France Diplomatie conseils aux voyageurs, Vietnam security page, seen in search result; summary says the PDF updated 30 April 2026); taxi overcharging and street-crossing technique come from general guide advice found in search results (no figures). No price, no legal fine, no deposit/passport/delivery/insurance claim about the shop; the 'passport' review hit is the traveller keeping their own papers separate, and the 'assurance' hit is the traveller's own travel insurance (exclusions to read), both generic and qualified. Shop facts: only NAP, hours, and questions to ask (suitability for a first ride, contract in case of breakdown or fall). Licence: reader sent to official sources, no blanket statement.",
+   "INTENT": "Main question: how to visit Hanoi alone (stay, eat, meet people, stay safe, whether to ride). Role OWNER for 'hanoï en solo'. Closest pages during-tet (0.33), avec-kids (0.29), couples (0.21): they share generic wording only; this one is about solo logistics and safety, and links to the 1-2-3 days programme hub and the Old Quarter and French Quarter guides.",
+   "CONTENT": "Full rewrite. Removed mannered text ('la ville pardonne l’imprévu', 'ce confort coûte peu', 'bribes deviennent matière de récits'). New sections: base (where to stay), manger (eating and meeting), securite (traffic, snatching, checklist, taxis), preparatifs (insurance, money, phone, night), deplacements (walk, app, scooter, shop questions), programme (3-day table), FAQ 5, closing links. Words 1831 -> 1563.",
+   "META": "Title 'Hanoï en solo : les quartiers faciles à explorer seul' replaced by 'Hanoi en solo : où dormir, se déplacer, rester en sécurité' (58); description rewritten (157 chars) and no longer promises 'un séjour solo réussi'; H1 = title; eyebrow 'Hanoi · En solo'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/hanoi-quartier-francais-que-faire/. Added /hanoi/que-faire/ and /hanoi/red-river-hanoi-itineraire-moto/; dropped generic /permis-securite/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead answers in 3 sentences; 1 table (3-day programme), 1 checklist (réflexes), FAQ 5 distinct questions. 1 external citation (France Diplomatie, seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+    "checked": "2026-10-30",
+    "used_for": "snatch theft by motorbike, pickpockets, scams, helmet mandatory (seen in search result; content from search summary, page not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Suitability of the shop's vehicles for a first ride and contract terms for breakdown/fall are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-vieux-quartier/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment visiter le Vieux Quartier de Hanoi (à pied, où garer le scooter, quand éviter d’y rouler).",
+  "words_before": 2180,
+  "words_after": 1659,
+  "new_meta": {
+   "title": "Vieux Quartier de Hanoi : visiter à pied, garer, rouler",
+   "description": "Vieux Quartier de Hanoi : rues de métiers à parcourir à pied, où garer le scooter, rues piétonnes du week-end, marché Đồng Xuân, temple Bạch Mã et rue du train.",
+   "h1": "Vieux Quartier de Hanoi : visiter à pied, garer, rouler"
+  },
+  "evidence": {
+   "FACTS": "Removed mannered/unsourced claims (trajets 'vingt minutes depuis le lac de l’Ouest, quinze depuis la gare', 'trente-six rues se traversent en vingt minutes', the unsourced grille/lisière rhetoric, 'la rue du train a un accès ouvert aux visiteurs selon les règles'). Sourced facts: 'Hàng' streets and 36 corporations vs about 70-76 streets today (Local Vietnam and Things Asian, seen in search results, accounts differ so the page says 'selon les sources'); Đồng Xuân about 900 m north of the lake, 12-15 min on foot, hours 6:00-18:00/19:00 (Vietnam Tourism, seen in search result); Bạch Mã temple (76 Hàng Buồm) and Kim Ngân (42 Hàng Bạc) selling 20 000 VND tickets since December 2025, hours and closing day vary (Báo Nghệ An, seen in search result); Train Street: tours banned March 2025 (VTV, seen in search result) and trains to be reduced per Feb 2026 agreement (RailwayPro, seen in search result), no claim about café status; Hoàn Kiếm weekend closures, Old Quarter pedestrian streets Fri-Sun 19:00-24:00, March 2026 suspension and reopening on Fri 20 March, low-emission zone since 1 July 2026, Long Biên bridge reopened 28 May 2026 (all URLs taken from the rewritten hanoi hub); parking at festival evenings (Lao Động case taken from the hub, no number quoted); snatch theft by motorbike and pickpockets in tourist streets of central Hanoi (France Diplomatie, seen in search result). Shop facts: NAP and hours only; no price, deposit, delivery, insurance or fleet claim.",
+   "INTENT": "Main question: how to visit and move around the Old Quarter. Role OWNER for 'le vieux quartier de Hanoi'. Closest pages: hanoi-quartier-francais-que-faire (0.31), location-moto-vieux-quartier-hanoi (0.22): the former is the French Quarter architecture walk, the latter is a rental page; this page is the visiting and parking guide for the Old Quarter itself.",
+   "CONTENT": "Full rewrite. Removed the mannered 'mode d’emploi' text (grille, outil juste, la machine dort) and the SEO-process wording ('la présente page distingue les deux plans'). New sections: rues (what Hàng means), apied (walking table), week-end (pedestrian rules), parking, rouler (arrive, cross, Long Biên bridge, shop hours), manger/vigilance, journée type (checklist), FAQ 5, closing links. Words 2180 -> 1659.",
+   "META": "Title 'Vieux quartier de Hanoi à moto : quoi voir, à pied ou en scooter' (64) replaced by 'Vieux Quartier de Hanoi : visiter à pied, garer, rouler' (55); description rewritten (160 chars); H1 changed from 'Le vieux quartier de Hanoi : ce qui se visite à moto, ce qui se vit à pied' to match the title; eyebrow 'Hanoi · Vieux Quartier'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire/, /hanoi/hanoi-1-jour-itineraire/, /location-moto-hanoi/debutant-location-moto-hanoi/. Added /hanoi/hoan-kiem-lac-hanoi-que-faire/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead gives the direct answer in 3 sentences (walk, park at the edge, durations); 1 table (étapes à pied), 1 checklist (journée type), FAQ 5 distinct questions. 12 external citations, all from search results or the rewritten hub, each qualified."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/hanoi/hanoi-36-streets/",
+    "checked": "2026-10-30",
+    "used_for": "36 streets and Hàng names (seen in search result)"
+   },
+   {
+    "url": "https://www.thingsasian.com/node/374.html",
+    "checked": "2026-10-30",
+    "used_for": "36 streets background (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/dong-xuan-market-in-hanoi-the-complete-guide-to-the-old-quarter-s-landmark-bazaar",
+    "checked": "2026-10-30",
+    "used_for": "Đồng Xuân distance and hours (seen in search result)"
+   },
+   {
+    "url": "https://baonghean.vn/en/pho-co-ha-noi-huong-dan-tham-quan-4-di-tich-thu-phi-10313940.html",
+    "checked": "2026-10-30",
+    "used_for": "20 000 VND tickets at Bạch Mã and Kim Ngân (seen in search result)"
+   },
+   {
+    "url": "https://english.vtv.vn/news/hanoi-bans-tours-on-train-street-20250310095147632.htm",
+    "checked": "2026-10-30",
+    "used_for": "tours banned on Train Street March 2025 (title seen in search result)"
+   },
+   {
+    "url": "https://www.railwaypro.com/wp/hanoi-to-stop-trains-on-the-famous-street-where-tourists/",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026 agreement to reduce trains (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Hoàn Kiếm weekend closure (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+    "checked": "2026-10-30",
+    "used_for": "Old Quarter pedestrian streets Fri-Sun (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://baovanhoa.vn/doi-song/lich-tam-dung-pho-di-bo-ho-hoan-kiem-tu-ngay-133-den-203-249310.html",
+    "checked": "2026-10-30",
+    "used_for": "March 2026 pedestrian space suspension (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-30",
+    "used_for": "low-emission zone (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Biên bridge reopened 28 May 2026 (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+    "checked": "2026-10-30",
+    "used_for": "snatch theft and pickpocket warning (seen in search result; page not opened)"
+   }
+  ],
+  "owner_gaps": []
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-when-it-rains/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire à Hanoi quand il pleut, et comment rouler à scooter sous la pluie.",
+  "words_before": 1842,
+  "words_after": 1614,
+  "new_meta": {
+   "title": "Hanoi quand il pleut : musées, cafés, marchés et conduite",
+   "description": "Que faire à Hanoi sous la pluie : musées, marché couvert, marionnettes sur l’eau, cafés, et ce qu’il faut savoir pour rouler à scooter pendant l’averse.",
+   "h1": "Hanoi quand il pleut : musées, cafés, marchés et conduite"
+  },
+  "evidence": {
+   "FACTS": "Removed SEO-process wording ('le silo expose', 'la présente page', 'la page n'en fixe aucun, par discipline') and mannered/abstract text. Sourced: seasons (Local Vietnam, taken from rewritten hanoi hub); late-August 2026 flooding with about 0.4 m on Phạm Văn Bạch in about 30 min and stalled vehicles (Dân trí print article, seen in search result; figures from search summary); Thăng Long boulevard underpasses repeatedly flooded (VietNamNet, seen in search result); Museum of Ethnology 8:30-17:30, closed Monday (official site, seen in search result); Fine Arts Museum closed Monday per one guide, Hỏa Lò about 8:00-17:00 daily per most sources, Women's Museum hours conflicting (search results, all qualified as 'selon les sources'); Đồng Xuân about 6:00-18:00/19:00 (Vietnam Tourism, seen in search result); water puppet show about 50 min (Vietnam Tourism). No ticket prices quoted. Technical driving advice (brake earlier, painted lines, manhole covers, metal plates, test brakes after puddles, doubled following distance) is general safety advice, partly mirroring the hanoi hub statement, with no legal claim. Typhoon paragraph is general (season and 'suivez les avis'), no dates. Shop facts: NAP and hours only; poncho provision, rain-day return and cancellation/modification conditions are phrased as questions to ask, not as policies.",
+   "INTENT": "Main question: what to do in Hanoi when it rains and how to ride safely. Role OWNER for 'il pleut sur Hanoi'. Closest pages que-faire-hanoi-at-nuit (0.17), solo (0.16), during-tet (0.16): little overlap; it differs from hanoi-musees-jour-pluie (museum detail) by being the whole rain-day plan and riding guide, and links to that guide for museum detail and to the rain-driving safety guide.",
+   "CONTENT": "Full rewrite. New sections: pluie (seasons, flooding), abris (table of covered places), programme (checklist for the day), conduite (checklist), apres (after the shower, typhoon alerts), location (questions to ask), entre (West Lake and French Quarter), FAQ 6, closing links. Words 1842 -> 1614.",
+   "META": "Title 'Hanoi sous la pluie : l'itinéraire qui ne s'annule pas' (54) replaced by 'Hanoi quand il pleut : musées, cafés, marchés et conduite' (57); description rewritten (152 chars); H1 = title (old H1 'Il pleut sur Hanoi : l'itinéraire de pluie qui sauve la journée entière'); eyebrow 'Hanoi · Jour de pluie'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/west-lac-hanoi-moto/, /permis-securite/moto-pluie-securite-vietnam/. Added /hanoi/hanoi-musees-jour-pluie/; dropped /hanoi/que-faire/ to stay within 7. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead answers in 3 sentences; 1 table (lieux couverts), 2 checklists (programme, conduite), FAQ 6 distinct questions. 4 external citations seen in search results or the rewritten hub."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "seasons (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://dtinews.dantri.com.vn/print/20260827214204662.htm",
+    "checked": "2026-10-30",
+    "used_for": "late August 2026 flooding (seen in search result; details from search summary)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/hanoi-heavy-flooding-on-thang-long-boulevard-causes-severe-traffic-congestion-2304998.html",
+    "checked": "2026-10-30",
+    "used_for": "Thăng Long boulevard flooding (title seen in search result)"
+   },
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-30",
+    "used_for": "Museum of Ethnology hours and closing day (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a poncho is provided and the rain-day return, modification and cancellation conditions at Thuê xe máy Nguyễn Hà are unconfirmed (page tells readers to ask)."
+  ]
  }
 ]

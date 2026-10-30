@@ -286,5 +286,160 @@
   "owner_gaps": [
    "Which scooters in the shop's range have ABS (and on which wheel), and their rates."
   ]
+ },
+ {
+  "path": "types-motos/scooter-grand-rangement-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel scooter à grand coffre louer à Hanoi (LEAD, Grande ou autre) et comment tester le rangement avec ses vraies affaires.",
+  "words_before": 1597,
+  "words_after": 1549,
+  "new_meta": {
+   "title": "Scooter grand coffre à Hanoi : LEAD, Grande ou autre",
+   "description": "Quel scooter à grand coffre louer à Hanoi : LEAD, Grande ou autre. Casque, imperméable et sac : comment tester le rangement, quoi ranger et quoi éviter.",
+   "h1": "Scooter grand coffre à Hanoi : LEAD, Grande ou autre"
+  },
+  "evidence": {
+   "FACTS": "Removed 'Le coffre, ce critère invisible des comparatifs' abstractions, 'La grille du comptoir', 'Côté réglementation: vérifier avant de réserver' filler and any implied availability of LEAD/Grande. No coffre volume, no weight, no model spec stated (deferred to honda.com.vn / yamaha-motor.com.vn). LEAD and Grande presented as 'deux références du scooter à grand coffre' with links to the site's own model pages; availability 'à confirmer'. Prices: the LEAD and Grande have no owner row, so only the automatic-scooter category range (150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND) is given 'à titre de repère' with the mandatory disclaimer. Top case / accessory fitting is not claimed: 'se demande avant de réserver'. Legal: Law 36/2024/QH15, A1 up to 125 cm3 / A above, same portal source as the hub (reused, not re-opened); licence validity per personal situation. Caution/inclusions 'à confirmer'. NAP/hours once. Safety/valuables advice is generic (no theft statistics).",
+   "INTENT": "Main question: which large-storage scooter and how to check the storage fits my gear? OWNER of group CAT-SCOOTER-RANGEMENT. Closest pages are the model pages (honda-lead-abs-ou-yamaha-grande-location, yamaha-grande-ou-honda-lead-abs-location; sim 0.13-0.17): those compare two models; this page is the storage use-case: tests with real gear, what to store/keep on yourself, where to put what, luggage discipline.",
+   "CONTENT": "Full rewrite. New: why storage matters, LEAD/Grande family with caveat, 6-item fit test, store vs keep on you (heat, valuables), 4-location table, luggage discipline, rate/permis/availability section with NAP, 6 FAQ. Removed the link to the Ha Giang trail-or-scooter page and the abstract passages. See words_before/after.",
+   "META": "Title and H1 kept ('Scooter grand coffre à Hanoi : LEAD, Grande ou autre', 52 chars). Description rewritten (152 chars, factual; old one 'Lecture en tendance...'); og:title/og:description synced; eyebrow 'Types de motos : scooter grand coffre'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /honda/honda-lead-abs-location-hanoi/, /yamaha/yamaha-grande-location-hanoi/, /honda/honda-lead-abs-ou-yamaha-grande-location/, /permis-securite/permis/. Dropped /yamaha/yamaha-grande-ou-honda-lead-abs-location/ (duplicate of the Honda-side duel) and /types-motos/trail-moto-ou-scooter-ha-giang/. TOC synced (coffre, modeles, essai, quoi-ranger, emplacements, leger, conditions, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). 1 table (4 storage locations), 1 checklist, 6 FAQ. 1 external citation (government portal, as hub)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / A above (reused from the rewritten hub, not re-opened in this session)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop rents LEAD or Grande scooters, accessories such as a top case, and the rate rows for these models."
+  ]
+ },
+ {
+  "path": "types-motos/scooter-ou-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Scooter ou moto au Vietnam : quelle différence (vocabulaire xe ga / xe số / xe côn tay), quel usage, comment le permis dépend de la cylindrée, quoi demander au comptoir.",
+  "words_before": 1666,
+  "words_after": 1569,
+  "new_meta": {
+   "title": "Scooter ou moto au Vietnam : quelle différence, que choisir ?",
+   "description": "Scooter ou moto au Vietnam : vocabulaire à connaître (xe ga, xe số, xe côn tay), usages, permis lié à la cylindrée et tarifs indicatifs pour choisir.",
+   "h1": "Scooter ou moto au Vietnam : quelle différence, que choisir ?"
+  },
+  "evidence": {
+   "FACTS": "Removed 'La grille du comptoir', 'Côté réglementation: vérifier avant de réserver' filler, the 'deux philosophies' abstractions and any 'changement de famille en cours de location' promise (the FAQ now says it is not a given and must be asked). Vocabulary: xe máy generic, xe ga, xe số, xe côn tay are common Vietnamese rental terms; xe gắn máy (cyclomoteur, 50cc regime) and xe mô tô (A1/A categories) taken from the wording already used on /types-motos/50cc/ and the hub, not separately sourced. Legal: Law 36/2024/QH15, A1 up to 125 cm3 / 11 kW electric, A above — same portal source as the hub (reused, not re-opened); licence validity left to personal situation and insurance. Prices only from the owner table (semi-automatique and scooter automatique rows) with the exact disclaimer; the sentence that the monthly semi-auto range is lower follows from the table; no rate for clutch bikes or trails. NAP/hours once; caution and inclusions 'à confirmer'.",
+   "INTENT": "Main question: what is the difference between a scooter and a moto in Vietnam and which one to choose? OWNER. Closest pages (/prix-location/location-moto-ou-taxi-hanoi-cout/, /location-moto-hanoi/location-moto-hanoi-ou-grab/, circuit-moto; sim 0.25) are about rental versus taxi/Grab/tour: this page is only about the machine families (vocabulary, use, permis by cylindrée, counter phrases). The detailed gearbox comparison is left to /types-motos/automatique-ou-semi-automatique-moto-vietnam/ and the clutch bike to /types-motos/location-moto-manuelle-hanoi/.",
+   "CONTENT": "Full rewrite. New: vocabulary table (5 terms), two ways of riding, programme table, three decision questions, three myths, permis by cylindrée, owner rate table with disclaimer, counter phrases with NAP, 6 FAQ. Removed the abstract 'mots et machines' prose. See words_before/after.",
+   "META": "Title changed from 'Scooter ou moto au Vietnam : mots et machines' (mannered) to 'Scooter ou moto au Vietnam : quelle différence, que choisir ?' (61 chars); H1 identical; description 149 chars, factual; og:title/og:description synced; eyebrow 'Types de motos : scooter ou moto'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/location-moto-manuelle-hanoi/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /types-motos/scooter-ou-semi-automatique-ninh-binh/, /permis-securite/permis/. TOC synced (mots, machines, programme, trois-questions, idees-recues, permis, tarifs, comptoir, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). 3 tables (vocabulary, programme, owner rates), 1 numbered list, 1 myth checklist, 6 FAQ. 1 external citation (government portal, as hub)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 (11 kW electric) / A above under Law 36/2024/QH15 (reused from the rewritten hub, not re-opened in this session)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop allows exchanging the bike during a rental; availability of clutch bikes and trails and their rates."
+  ]
+ },
+ {
+  "path": "types-motos/scooter-ou-semi-automatique-ninh-binh/index.html",
+  "role": "OWNER",
+  "primary_intent": "Scooter automatique ou semi-automatique pour Ninh Binh au départ de Hanoi : que choisir selon le trajet, les sites, la météo et le profil.",
+  "words_before": 1692,
+  "words_after": 1574,
+  "new_meta": {
+   "title": "Scooter ou semi-automatique pour Ninh Binh : que choisir ?",
+   "description": "Scooter automatique ou semi-automatique pour Ninh Binh au départ de Hanoi : trajet, rangement, météo, tarifs indicatifs et choix selon votre profil.",
+   "h1": "Scooter ou semi-automatique pour Ninh Binh : que choisir ?"
+  },
+  "evidence": {
+   "FACTS": "Removed 'chemins de latérite', 'le programme avant la machine' abstractions, and uncorroborated statements about site parking. Sourced/qualified: (1) Hanoi-Ninh Binh about 90-100 km one way according to travel guides — vietnamtrips.com 'How far from Hanoi to Ninh Binh?' (seen in search result, snippet-level, figures vary between sources; no driving time given); (2) direct route follows national road 1 (QL1A) shared with trucks/buses, parallel expressway closed to motorbikes — several travel blogs in the same search, plus daibieunhandan.vn headline 'Hanoi traffic police fine many motorbike riders entering expressways' (seen in search result, title only); no fine amount; reader told to check the GPS route and sent to /permis-securite/autoroute-moto-vietnam/. Prices only from the owner table (semi-automatique and scooter automatique) with the exact disclaimer; no model rate. Seasonal remarks (hot/stormy summer, cool/misty winter) are general climate statements without figures. Rental logistics: 'zone autorisée', overnight parking, caution, inclusions all phrased as questions to confirm; no one-way, delivery or assistance promise. NAP/hours once.",
+   "INTENT": "Main question: scooter or semi-automatic for a Ninh Binh trip from Hanoi? OWNER. Closest pages (sim 0.40): /types-motos/automatique-ou-semi-automatique-moto-vietnam/ (generic transmission comparison, linked once), /types-motos/automatique-ou-semi-automatique-mensuelle-location-hanoi/ (monthly rental angle) and /nord-vietnam/meilleur-moto-ninh-binh/. This page keeps only what Ninh Binh changes: the Hanoi-to-Ninh Binh leg (distance, trucks, expressway ban), the flat local roads, a typical day, pre-departure checks and rent-in-Hanoi versus on-site; transmission details are delegated by one link and the table is limited to Ninh Binh criteria.",
+   "CONTENT": "Full rewrite. New: programme/overnight, route section with sourced distance and expressway rule, criteria table, profile checklist, 7 pre-departure checks, typical day on site, weather, owner rate table, logistics with NAP, 5 FAQ. Removed the abstract 'argument du scooter / du semi' prose. See words_before/after.",
+   "META": "Title changed from 'Scooter ou semi-automatique pour Ninh Binh : le duel' to 'Scooter ou semi-automatique pour Ninh Binh : que choisir ?' (58 chars); H1 identical; description 148 chars, factual (old: 'sans chiffre inventé'); og:title/og:description synced; eyebrow 'Types de motos : Ninh Binh'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/, /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/, /permis-securite/autoroute-moto-vietnam/. Dropped /permis-securite/moto-pluie-securite-vietnam/ (cap). TOC synced (programme, trajet, comparaison, profil, avant-depart, sur-place, meteo, tarifs, logistique, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). 2 tables (criteria; owner rates), 2 checklists, 5 FAQ. 2 external citations (travel-guide distance; press item on expressway enforcement), flagged snippet/headline-level."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamtrips.com/ha-noi/from-hanoi-to-ninh-binh",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi to Ninh Binh roughly 90-100 km (travel-guide figure, varies between sources; seen in search result, not opened)"
+   },
+   {
+    "url": "https://daibieunhandan.vn/canh-sat-giao-thong-ha-noi-xu-phat-nhieu-nguoi-dieu-khien-xe-may-di-vao-duong-cao-toc-10381692.html",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi traffic police fine motorbike riders entering expressways (headline-level, seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the permitted rental area covers Ninh Binh and overnight stays there; availability of scooters and semi-automatics for such trips."
+  ]
+ },
+ {
+  "path": "types-motos/scooter-pour-deux-personnes-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel scooter choisir pour rouler à deux à Hanoi : selle, freins, suspensions, cylindrée, essai à deux, poids total.",
+  "words_before": 1817,
+  "words_after": 1600,
+  "new_meta": {
+   "title": "Rouler à deux à Hanoi : selle, freins et suspensions",
+   "description": "Quel scooter choisir pour rouler à deux à Hanoi : selle, freins, suspensions et cylindrée à contrôler, essai à deux avant de signer et tarifs indicatifs.",
+   "h1": "Rouler à deux à Hanoi : selle, freins et suspensions"
+  },
+  "evidence": {
+   "FACTS": "Removed 'À deux, la machine change de nature' abstractions, 'La grille du comptoir', 'Côté réglementation et contrat' filler. Technical points are generic mechanics (stopping distance grows with mass, rear suspension sag raises headlight aim, bottoming-out test over a speed bump, preload adjustable on some models only), no figure, no model spec; maximum load deferred to the manufacturer sheet (honda.com.vn / yamaha-motor.com.vn). Legal: Law 36/2024/QH15 Article 33 - one passenger in principle, exceptions on the linked non-official reproduction (hethongphapluat.com, seen in search result summary, not opened in full); no fine, no children's age; helmet for rider and passenger as a general rule; travel insurance 'certains contrats'. Licence by cylindrée (A1 up to 125 cm3, A above) stated in the FAQ and table without a new source (same wording as hub). Prices: no model row; the automatic-scooter category range is quoted 'à titre de repère' with the mandatory disclaimer. Shop availability, caution, inclusions 'à confirmer'; NAP/hours once.",
+   "INTENT": "Main question: which scooter (seat, brakes, suspension, cylindrée) is right for two riders in Hanoi? OWNER ('rouler à deux à Hanoi'). Closest pages: /types-motos/50cc-scooter-deux-personnes-vietnam/ (sim 0.40: 50cc case, linked from the cylindrée table), /permis-securite/deux-personnes-moto-vietnam-law/ (0.33: rules, linked once) and /location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/ (0.31: rental conditions, not linked to stay within the cap). This page is the machine-choice and two-up test; the passenger's behaviour belongs to /types-motos/passager-scooter-vietnam/ (linked once).",
+   "CONTENT": "Full rewrite. New: effect of two riders, seat checklist, braking, suspension test, cylindrée table (50cc / 110-125 / 150-160), 6-step two-up test, weight/equipment section, when to prefer another transport, rules/insurance/rate paragraph with NAP, 5 FAQ. Removed 'La grille du comptoir' and abstract chapters. See words_before/after.",
+   "META": "Title and H1 kept ('Rouler à deux à Hanoi : selle, freins et suspensions', 52 chars). Description rewritten (153 chars, factual, no 'méthode ... sans promesse inventée'); og:title/og:description synced; eyebrow 'Types de motos : rouler à deux'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/passager-scooter-vietnam/, /types-motos/125cc-location-scooter-hanoi/, /types-motos/50cc-scooter-deux-personnes-vietnam/, /permis-securite/deux-personnes-moto-vietnam-law/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ (cap). TOC synced (poids, selle, freinage, suspensions, cylindree, essai, charge, alternative, regles, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). 1 table, 1 seat checklist, 1 numbered 6-step test, 5 FAQ. 1 external citation (Article 33 reproduction, flagged non-official)."
+  },
+  "sources": [
+   {
+    "url": "https://hethongphapluat.com/luat-trat-tu-an-toan-giao-thong-duong-bo-2024/dieu-33",
+    "checked": "2026-10-30",
+    "used_for": "Article 33 Law 36/2024/QH15: one passenger on a two-wheeler with exceptions (seen in search result; summary only; non-official reproduction)"
+   }
+  ],
+  "owner_gaps": [
+   "Which scooters the shop considers suitable for two adults and their maximum load; rental conditions for a passenger."
+  ]
+ },
+ {
+  "path": "types-motos/scooter-pour-grand-gabarit-conducteur-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel scooter ou deux-roues pour un conducteur grand ou lourd au Vietnam : position, selle, maxi-scooter NVX/NMAX, semi-automatique, trail, casque, charge maximale.",
+  "words_before": 1802,
+  "words_after": 1574,
+  "new_meta": {
+   "title": "Scooter pour grand gabarit : quel deux-roues au Vietnam ?",
+   "description": "Grand gabarit en scooter au Vietnam : position de conduite, selle, NVX, NMAX ou trail, casque de grande taille et charge à vérifier avant de louer à Hanoi.",
+   "h1": "Scooter pour grand gabarit : quel deux-roues au Vietnam ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported generalities ('le gabarit local est étroit' as fact, Yamaha dossier claim, 'casques de grande taille se trouvent facilement') and the 'conditions de location à Hanoi' paragraph. No seat height, weight, volume or power figure for any model; NVX/NMAX described as 'de 155 cm3 environ d'après leur désignation commerciale' (name-based, no spec), with seat/weight/storage details deferred to yamaha-motor.com.vn; statements such as 'généralement plus ample' are flagged as general tendencies in the table note and the page insists the seated test is the only reliable one. Licence: Law 36/2024/QH15 (A1 up to 125 cm3, A above) with the hub's portal source (reused, not re-opened); personal licence validity left to /permis-securite/permis/. Trail: no rate. Prices: automatic-scooter category range only 'à titre de repère' with the mandatory disclaimer; maximum load always 'à demander'. No fleet/availability claim; caution/inclusions 'à confirmer'. NAP/hours once.",
+   "INTENT": "Main question: which two-wheeler suits a tall or heavy rider? OWNER ('scooter pour grand gabarit'). Closest pages: hanoi/que-faire (sim 0.20, travel), /types-motos/50cc-ou-110cc-scooter-vietnam/ (0.17) and /types-motos/scooter-pour-deux-personnes-hanoi/ (0.15). This page owns the rider-size angle (knees, back, seat length, helmet size, load), the four-family table and the NVX/NMAX/trail options.",
+   "CONTENT": "Full rewrite. New: why small bikes tire tall riders, 8-point sitting test, maxi-scooter section, compact semi-automatics, trail, four-family table, riding adaptation, rates/booking with NAP, 6 FAQ. Removed the abstract 'compromis urbain / catégorie la plus étroite' prose. See words_before/after.",
+   "META": "Title and H1 kept ('Scooter pour grand gabarit : quel deux-roues au Vietnam ?', 57 chars, matches the hub anchor). Description rewritten (155 chars, factual); og:title/og:description synced; eyebrow 'Types de motos : grand gabarit'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/yamaha-nvx-ou-nmax-vietnam-voyage-moto/, /types-motos/plus-de-125cc-moto-vietnam/, /types-motos/trail/, /permis-securite/permis/. Dropped /yamaha/ and /types-motos/semi-automatique-ou-trail-moto-sapa/ (cap). TOC synced (fatigue, verifier, maxi, semi, trail, synthese, conduite, location, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). 1 table, 2 checklists, 6 FAQ. 1 external citation (government portal, as hub)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / A above (reused from the rewritten hub, not re-opened in this session)"
+   }
+  ],
+  "owner_gaps": [
+   "Which maxi-scooters and trails the shop rents, their rates, maximum load and helmet sizes available."
+  ]
  }
 ]
