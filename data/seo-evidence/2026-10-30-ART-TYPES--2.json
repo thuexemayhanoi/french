@@ -57,5 +57,27 @@
    "Which fuel the shop recommends for each rented model, last-service data and who pays maintenance on long rentals are unconfirmed."
   ],
   "words_after": 1766
+ },
+ {
+  "path": "types-motos/disc-frein-ou-drum-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Frein à disque ou à tambour sur une moto de location au Vietnam : lequel pour la ville, lequel pour la montagne, et comment contrôler les freins ?",
+  "words_before": 1799,
+  "new_meta": {
+   "title": "Frein à disque ou à tambour : ville ou montagne ?",
+   "description": "Disque ou tambour sur une moto de location au Vietnam : comportement en ville, en descente et sous la pluie, et comment contrôler les freins avant de partir.",
+   "h1": "Frein à disque ou à tambour : ville ou montagne ?"
+  },
+  "evidence": {
+   "FACTS": "Removed contract/policy statements: 'tarif, caution, état des lieux, assistance' as contract lines, 'le contrat prévoit-il une assistance en cas de défaillance du freinage', 'quel freinage le loueur conseille-t-il sur sa flotte du moment' (fleet), 'Pas de chiffres garantis'. Replaced by neutral questions to ask at handover (type de frein, dernière vérification, que faire si le freinage faiblit, to be specified before departure). No price, no deposit amount, no model specs or wear-limit numbers; brake behaviour is general mechanical knowledge (heat, wet, mud) phrased as tendencies. Combined braking (CBS) described only as 'levier gauche agit aussi sur l'avant'; scooter lever convention consistent with /types-motos/. No legal rule stated; permis page only linked.",
+   "INTENT": "Main question: disc or drum, city vs mountain, and how to check the brakes. OWNER of 'frein à disque ou à tambour'. Distinct from /permis-securite/moto-frein-controle-location/ (full brake inspection checklist) and /types-motos/abs-ou-cbs-scooter-vietnam-location/ (ABS/CBS): this page compares the two technologies by situation and gives only a short inspection list, then sends to those guides.",
+   "CONTENT": "Full rewrite: removed mannered prose ('comme un vieux secret de mécanique', 'le rituel du freinage', 'la fréquence tranche', 'honnêtement'), repetition between sections and the closing moralising paragraph. Added: situation comparison table, concrete descent technique list (rapport inférieur, freinages brefs, distance, what to do if the lever softens), wet/mud/heat section, ABS/CBS clarification, inspection checklist by technology, FAQ rewritten (5 Q&A: reconnaître disque/tambour added).",
+   "META": "Title and H1 kept (matches hub anchor, unique, 49 chars). Description rewritten (157 chars, removed 'lecture honnête'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /permis-securite/moto-frein-controle-location/, /types-motos/abs-ou-cbs-scooter-vietnam-location/. TOC synced.",
+   "AEO_GEO": "Direct answer in lead (3 sentences). 1 comparison table, 2 checklists (descente, contrôle), FAQ 5 Q&A. No external citation (general mechanics)."
+  },
+  "sources": [],
+  "owner_gaps": [],
+  "words_after": 1597
  }
 ]
