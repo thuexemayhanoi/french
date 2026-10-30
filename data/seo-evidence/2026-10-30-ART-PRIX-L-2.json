@@ -47,5 +47,219 @@
   "owner_gaps": [
    "Day-counting convention (24 h, calendar date or opening-hours day), grace period and late-return charge, early-return refund, and whether return/pickup outside 09:00–21:00 is possible."
   ]
+ },
+ {
+  "path": "prix-location/location-moto-oil-change-longue-duree-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quand faire la vidange et l'entretien pendant une longue location de moto au Vietnam, qui l'organise, quelles traces garder",
+  "words_before": 1575,
+  "words_after": 1543,
+  "new_meta": {
+   "description": "Quand faire la vidange d’une moto louée plusieurs semaines : repères Honda Vietnam, kilométrage, démarches et justificatifs à demander au loueur."
+  },
+  "evidence": {
+   "FACTS": "Added sourced intervals: Honda Vietnam FAQ (first oil change after 1 000 km, then about every 6 000 km under normal use, shorten the interval above 1 000 km/month, follow the model manual) and Honda Vietnam product sheet for 4T semi-automatic oil (first change 1 000 km, then every 2 000–2 500 km); the page says the two sources disagree and tells readers to ask for the model's own schedule. Both seen in a WebSearch result on 2026-10-30 (summary only, pages not opened). Removed unsourced claims: « l’entretien périodique relève du loueur en principe », « les loueurs ont presque toujours une habitude établie », « parfaitement maîtrisée partout au Vietnam », « la plupart du temps il n’en coûte rien au locataire », retenue on deposit for delayed maintenance. Who organises/pays the oil change stated as unconfirmed for Thuê xe máy Nguyễn Hà, with three generic arrangements to ask about. Kilometre table uses explicit example hypotheses (30/60/150 km per day x 30 days), no rental price multiplication. Month prices: owner month column only with the exact disclaimer (semi-auto 1 000 000–1 200 000; automatic 1 200 000–2 000 000; Vision 2 000 000; Air Blade 1 500 000 VND). No oil price, no workshop price. Address/hours/WhatsApp/Zalo per SEO-FACTS.",
+   "INTENT": "Main question: when does an oil change fall in a long rental and how to organise/trace it? Owner of « vidange et entretien pendant une longue location de moto ». Differs from /prix-location/mensuelle-location-moto-entretien-cout-hanoi/ (who pays maintenance: wear/damage/negligence) by being about oil-change timing in km and the practical organisation; differs from /prix-location/longue-duree-location-moto-hanoi-discount/ (price discussion) and from types-motos/injection-carburant-moto-vietnam-location/ (fuel injection).",
+   "CONTENT": "Full rewrite. Removed mannered prose (« le locataire devient le gardien provisoire de la mécanique », « contrat moral », « quand les kilomètres dépassent le calendrier »). New: Honda intervals with sources, km-per-month table, three things to note at pickup, three common arrangements (organiser/payer), maintenance watch list, city vs touring organisation, budget lines. FAQ cut to 4 non-repeating Q&As. Words 1575→1543.",
+   "META": "Title and H1 kept (56 chars, natural). Description rewritten (145 chars) to state the Honda Vietnam intervals angle and drop « qui la prend en charge » (unconfirmed); og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/30-jours-location-moto-hanoi-cout/, /prix-location/longue-duree-location-moto-hanoi-discount/ (kept from before), /prix-location/mensuelle-location-moto-entretien-cout-hanoi/, /prix-location/location-moto-crevaison-pneu-cout-vietnam/. Two external honda.com.vn links (rel=noopener) plus WhatsApp/Zalo. TOC auto-synced with 8 H2 ids incl. #questions-frequentes; « Pour aller plus loin » dropped.",
+   "AEO_GEO": "Direct answer in the lead (depends on kilometres; Honda Vietnam FAQ intervals; organiser/payer unpublished). 2 tables, 3 lists, FAQ of 4."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=dau-nhot&category_child=tu-van-su-dung-xe-may",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vietnam FAQ on engine oil: first change after 1 000 km then about 6 000 km, shorter above 1 000 km/month, follow the model manual (seen in search result)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/phu-tung/hoa-chat-detail?id_pt=7",
+    "checked": "2026-10-30",
+    "used_for": "Honda 4T SL 10W-30 MA oil sheet: first change 1 000 km then every 2 000–2 500 km (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Who organises and pays an oil change/maintenance during a long rental, accepted workshops, and whether a replacement moto is offered.",
+   "Date/km of last service and maintenance schedule of rental models."
+  ]
+ },
+ {
+  "path": "prix-location/location-moto-ou-grab-hanoi-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer une moto ou prendre des Grab pendant sept jours à Hanoi : comment comparer le budget",
+  "words_before": 1630,
+  "words_after": 1668,
+  "new_meta": {
+   "description": "Une semaine à Hanoi : comparer le tarif hebdomadaire d’une moto louée et le prix des courses Grab, avec une méthode simple pour trouver le point d’équilibre."
+  },
+  "evidence": {
+   "FACTS": "Rental figures: only the week column of the six owner rows, in a table with the exact disclaimer; no daily multiplication, no 7-day package computed; models without row = category range to confirm. Garantie, fuel, accessories stated once as unpublished for Thuê xe máy Nguyễn Hà. Grab figures (GrabBike « Tiếng Anh » Hanoi since 2026-06-18: 17 232 VND first 2 km, 5 489 VND/km after, 447 VND/min after 2 km, VAT 8 % included; Grab table dated 2026-07-08) come from a WebSearch result summary (page itself not opened) and are marked as to verify in the app; the 5 km distance-part example (17 232 + 3 x 5 489 = 33 699 VND) and the break-even counts (700 000 / 900 000 / 1 000 000 VND divided by 33 699 = about 21 / 27 / 30 rides) are arithmetic on those figures, labelled as order of magnitude excluding minutes and fuel. No € conversion; no taxi price. Removed « tarif … se négocie au devis », « assistance réactive », the claim that rain makes Grab rare, « dépôt ou passeport » as the shop's contract, and the 'duo-logistique' passage. Licence: no statement beyond « permis valable pour ce type de véhicule au Vietnam » with link to the permis-securite guide.",
+   "INTENT": "Main question: motorbike rental or Grab for 7 days, which budget? Owner of « louer une moto ou prendre des Grab ». Differs from /prix-location/location-moto-ou-taxi-hanoi-cout/ (traditional taxi, 3-day stay, airport arrival) by being the app/ride-hailing comparison over a week with a break-even in number of rides; differs from /prix-location/7-jours-location-moto-hanoi-cout/ (the rental-only week budget).",
+   "CONTENT": "Full rewrite. Removed mannered prose (« le duel structure les séjours », « le forfait contre la volumétrie », « protocole d’arbitrage », « duo-logistique ») and SEO-process wording (« la politique de la plateforme », « le hub »). New: fixed vs variable budget, week-column table, Grab fare structure with a sourced example, break-even table, four-step method, three week profiles, questions to ask. FAQ cut to 4 non-repeating Q&As. Words 1630→1668.",
+   "META": "Title and H1 kept (58 chars; natural, no price promise). Description rewritten (157 chars) to drop « ligne par ligne, devis et application en main »; og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/7-jours-location-moto-hanoi-cout/ and /prix-location/moto-carburant-cout-hanoi-location/ (kept), /prix-location/semaine/, /permis-securite/. One external link (grab.com/vn/en/blog/bang-thong-tin-cac-dich-vu-tren-ung-dung-grab/, rel=noopener, seen in search result) plus tel/WhatsApp/Zalo. TOC auto-synced with 9 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (week rate + fuel/parking vs number of rides x average fare). 3 tables, 2 lists (one numbered), FAQ of 4."
+  },
+  "sources": [
+   {
+    "url": "https://www.grab.com/vn/en/blog/bang-thong-tin-cac-dich-vu-tren-ung-dung-grab/",
+    "checked": "2026-10-30",
+    "used_for": "Grab Vietnam service/fare table dated 2026-07-08; GrabBike « Tiếng Anh » Hanoi fare structure from 2026-06-18 (seen in search result summary, not opened; to verify in the app)"
+   }
+  ],
+  "owner_gaps": [
+   "Garantie, fuel inclusion and accessories (helmets, rain gear) in the week rate; whether leaving Hanoi is allowed."
+  ]
+ },
+ {
+  "path": "prix-location/location-moto-ou-taxi-hanoi-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Location de moto ou taxi à Hanoi pour un séjour de trois jours : comment comparer les deux budgets",
+  "words_before": 1973,
+  "words_after": 1692,
+  "new_meta": {
+   "description": "Trois jours à Hanoi : comparer une moto louée et des taxis, ce que chaque budget comprend, comment demander le total de location et quand panacher les deux."
+  },
+  "evidence": {
+   "FACTS": "Prices: only the day column of the owner table (6 rows) with the exact disclaimer; the text says no 3-day row exists, no total is computed or multiplied, and tells the reader to ask for the total for their dates (break-even = quoted total / average taxi fare, formula only). No taxi fare given: a WebSearch for Hanoi taxi fares returned low-quality and contradictory pages, so only the method (compteur/price shown first, written address, tolls to ask about) is stated. External pointer to vietnamtourism.com/fr guide on taxis in Vietnam (Mai Linh, Vinasun, Xanh SM) used only for « how to spot a taxi company » (title/URL seen in search result). Garantie, fuel, accessories, insurance, leaving Hanoi: stated as unconfirmed for Thuê xe máy Nguyễn Hà (asked once each). Licence: only « permis valable pour la catégorie du véhicule au Vietnam » + link to permis-securite; removed « un permis valide … est nécessaire » absolutism beyond that, the claim that taxi long-distance « devient une ligne sérieuse » stays qualitative. Removed « les loueurs d’Hanoi pratiquent la location à la journée », « les locations sérieuses trouvent des arrangements », and the Têt paragraph. NAP/hours as in SEO-FACTS.",
+   "INTENT": "Main question: rent a motorbike or take taxis for 3 days in Hanoi? Owner of « location de moto ou taxi à Hanoi ». Differs from /prix-location/location-moto-ou-grab-hanoi-cout/ (app ride-hailing, 7 days, break-even in number of rides with a sourced Grab fare) by covering taxis/airport arrival, a 3-day stay without published package, and a poste-by-poste table; links to it once.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« Deux philosophies du déplacement », « régime à hautes courses », « la moto est à quai financièrement », « une location qui vire au stress coûte plus cher »). New: structure of each budget, day-column table + how to ask the 3-day total, taxi precautions, four decision criteria, poste-by-poste table, three stay profiles, hybrid option. FAQ cut to 4 non-repeating Q&As. Words 1973→1692.",
+   "META": "Title and H1 kept (60 chars). Description was 177 chars; rewritten to 156 and sync'd to og:description.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/location-moto-ou-grab-hanoi-cout/, /prix-location/location-moto-jour-24-horaires-hanoi/, /prix-location/moto-carburant-cout-hanoi-location/ (kept), /permis-securite/ (kept). Dropped /prix-location/7-jours-... and /location-moto-hanoi/location-moto-hanoi-tet/ (not needed). One external vietnamtourism.com link plus tel/WhatsApp/Zalo. TOC auto-synced with 9 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (when moto wins, when taxi, 3-day total to be asked). 3 tables, 1 list, FAQ of 4."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamtourism.com/fr/taxis-au-vietnam-mai-linh-vinasun-xanh-sm-et-comment-reperer",
+    "checked": "2026-10-30",
+    "used_for": "Pointer to a French guide on taxi companies in Vietnam and how to spot them (title/URL seen in search result; page not opened, no claim from its body)"
+   }
+  ],
+  "owner_gaps": [
+   "Total (or rule) for a 3-day rental, whether a one- or two-day rental is accepted, garantie and insurance, and whether leaving Hanoi is allowed."
+  ]
+ },
+ {
+  "path": "prix-location/location-moto-perdue-cle-frais-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Clé ou SmartKey perdue en location de moto : quels frais prévoir, qui contacter, quelles preuves garder",
+  "words_before": 1807,
+  "words_after": 1665,
+  "new_meta": {
+   "title": "Clé ou SmartKey perdue en location de moto : quels frais ?",
+   "description": "Clé ou SmartKey perdue en location : frais possibles, rôle du loueur et du concessionnaire Honda, réflexes sur place et questions à poser avant de partir.",
+   "h1": "Clé ou SmartKey perdue en location de moto : quels frais prévoir ?"
+  },
+  "evidence": {
+   "FACTS": "No amount, no forfait, no rule stated as Thuê xe máy Nguyễn Hà's: the lead, the contract section and the FAQ say once that cost and policy are unpublished and must be asked in writing. Table lists possible cost lines with a question for each, no figure. Sourced fact: Honda Vietnam Smart Key FAQ (up to 4 FOBs per bike; after a loss an extra FOB is ordered at an authorised HEAD dealer where a technician programs it; the bike's ID code must still be available; the FAQ concerns SH125i/SH150i, no procedure given for other models) seen in a WebSearch result on 2026-10-30, page not opened; the article states the scope limit. Removed unsourced claims: « presque toujours dans la liste des éléments remis », « dans la plupart des contrats, oui » (retenue on the deposit), « beaucoup de loueurs conservent un double », « le dépannage se règle presque toujours plus vite qu’on ne le craint », and the fictional-style generalisations about litigations. Deposit/retenue mentioned as conditional (« si une garantie a été laissée »). Hours 09:00–21:00 and WhatsApp/Zalo per SEO-FACTS.",
+   "INTENT": "Main question: lost key or SmartKey on a rental, which costs and what to do? Owner of « clé ou SmartKey perdue en location de moto ». Differs from types-motos/scooter-smartkey-location-vietnam-perdue-cle/ (SmartKey scooters: technology, immediate protocol) by being the cost-lines view (what lines may appear, what to ask, which proof to keep), and links to it once.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« une clé qui glisse dans une rivière », « le panier », « la règle de la place unique marche mieux que toute la technologie », « le litige le plus bête ») and invented details. New: cost-lines table, mechanical key vs SmartKey with the Honda FAQ, three things to have written, six on-site steps, prevention list, three concrete cases with their cost lines, dispute-avoidance list. FAQ cut to 5 non-repeating Q&As. Words 1807→1665.",
+   "META": "Title « …: qui paie quoi ? » changed to « …: quels frais ? » (58 chars) because the page cannot say who pays at Thuê xe máy Nguyễn Hà; H1 « …: quels frais prévoir ? » aligned; description rewritten (154 chars); og:title/og:description synced.",
+   "LINKS": "6/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/scooter-smartkey-location-vietnam-perdue-cle/ (sibling), /prix-location/location-moto-depot-hanoi-passeport/ (retenue effect on budget), /prix-location/mensuelle-location-moto-entretien-cout-hanoi/. Dropped the former link to /prix-location/moto-livraison-frais-hanoi/ (unrelated) and /permis-securite/. One external honda.com.vn link plus WhatsApp/Zalo. TOC auto-synced with 8 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (warn the loueur at once; cost depends on key type, immobilisation, agreed rules; nothing published). 1 table, 1 numbered list, 3 bullet lists, FAQ of 5."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=smart-key&category_child=phu-tung",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vietnam Smart Key FAQ: up to 4 FOBs, replacement ordered at an authorised HEAD dealer, ID code required; applies to SH125i/150i (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Policy on lost key / SmartKey (forfait or real cost), availability of spare keys, immobilisation days billing, replacement moto and procedure outside Hanoi."
+  ]
+ },
+ {
+  "path": "prix-location/location-moto-retrait-retour-jour-charge-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment comptent le jour du retrait et le jour du retour d'une moto louée à Hanoi, et que faire ces deux jours",
+  "words_before": 1713,
+  "words_after": 1650,
+  "new_meta": {
+   "title": "Jour de retrait et jour de retour d’une moto louée à Hanoi",
+   "description": "Comment comptent le jour de la remise et le jour de la restitution d’une moto louée à Hanoi : heures, état des lieux, horaires d’ouverture et questions à poser.",
+   "h1": "Le jour du retrait et le jour du retour : comment comptent-ils ?"
+  },
+  "evidence": {
+   "FACTS": "Day-counting rule, late-return rule, refund of unused days, restitution outside opening hours, payment form, garantie, fuel rule and delivery stated as unpublished/unconfirmed for Thuê xe máy Nguyễn Hà (asked, never affirmed). Removed « la politique de la plateforme », « le hub », « le dépôt se solde à ce moment », « un comptoir fermé à dix-huit heures », the delivery 'procès-verbal de livraison' assertions and the claim that early/late returns are handled by a grid. Prices: only the day column rows quoted in one sentence (150 000–200 000 VND semi-auto/automatic; 200 000 VND for 50cc, Vision, Air Blade) with the exact disclaimer; no total, no multiplication. Hours 09:00–21:00, address near Bến xe Gia Lâm, phone/WhatsApp/Zalo per SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: how do the pickup day and the return day count and what must be done on them? Owner of « le jour du retrait et le jour du retour ». Differs from /prix-location/location-moto-jour-24-horaires-hanoi/ (the general day-counting convention and worked day counts) by being the practical view of the two boundary days (state of the bike, documents, photos, closing the file, late arrival/early departure, extension) with a timeline; links to it once.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« deux bornes », « borne décalée », « les réflexes de bord », « astice de rythme », « un guide apprend à poser les bornes ») and SEO-process wording. New: pickup checklist, return checklist, the two questions to ask for the boundary days, four frequent situations, timeline table, frequent mistakes. FAQ cut to 4 non-repeating Q&As. Words 1713→1650.",
+   "META": "Title « Retrait et retour : comment comptent les jours de location à Hanoi ? » (68 chars) replaced by « Jour de retrait et jour de retour d’une moto louée à Hanoi » (58 chars); H1 kept as the hub anchor question; description rewritten (160 chars) without « bornes »; og tags synced.",
+   "LINKS": "6/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/location-moto-jour-24-horaires-hanoi/, /prix-location/location-moto-depot-hanoi-passeport/ (kept), /prix-location/moto-livraison-frais-hanoi/ (kept). tel/WhatsApp/Zalo links. TOC auto-synced with 8 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (counting depends on the rule; give exact hours and ask the number of billed days). 3 tables, 3 lists, FAQ of 4."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Day-counting rule at pickup and return, handling of late/early returns, restitution outside 09:00–21:00, fuel rule, documents required at handover, possibility and fees of a handover elsewhere."
+  ]
+ },
+ {
+  "path": "prix-location/longue-duree-location-moto-hanoi-discount/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Discuter le tarif d'une longue location à Hanoi sans remise ni forfait inventés : ce qui est publié, ce qu'on peut demander, comment comparer deux devis",
+  "words_before": 1905,
+  "words_after": 1651,
+  "new_meta": {
+   "description": "Location longue durée à Hanoi : ce qui est publié au mois, ce que vous pouvez demander sans compter sur une remise, et comment comparer deux devis."
+  },
+  "evidence": {
+   "FACTS": "Month column of the six owner rows in a table with the exact disclaimer; observation that the Air Blade month line (1 500 000 VND) is below Vision/50cc (2 000 000 VND) comes straight from the table. Durations without a row (3 weeks, 6 weeks, 2 months, 3 months+): table of framing rows + what to ask, no total computed or multiplied. Stated that no long-term discount is announced and none must be assumed. Removed unsourced/invented claims: « les grilles sont construites par paliers » as a fact about this shop, « le loueur reçoit des dizaines de demandes », « les loueurs consentent plus volontiers sur les services », « livraison incluse, second casque, révision prise en charge, dépôt allégé » as typical concessions, « restitution partielle progressive du dépôt », « assistance prioritaire », « changement de machine » as advantages, the Têt paragraph and « règle empirique des voyageurs (trois semaines) ». Garantie, payment schedule, acompte, entretien, extras, early return and leaving Hanoi: all as questions, not facts. Message template (FR and EN) contains no claim. NAP/hours per SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: should one negotiate a long rental and how? DISTINCT_ANGLE of location-moto-hanoi/longue-duree/ (group owner: how to rent by the month) and of location-moto-hanoi/longue-duree-location-moto-hanoi/ (which machine to choose) — this article only treats the tariff discussion (published rows, what may be asked, comparing quotes, message template); links to the owner once.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« la nature de l’échange », « le package », « bras de fer », « les deux parties repartent avec l’impression d’avoir gagné ») and the unsupported negotiation tactics. New: month table, durations-without-row table, discussable items (durée ferme, modèle, paiement, garantie, entretien, extras, sortie), 5-point quote comparison with FR/EN message model, common mistakes, in-rental file upkeep, duration choice. FAQ cut to 5 non-repeating Q&As. Words 1905→1651.",
+   "META": "Title and H1 kept (58 chars, natural, no promise of a discount). Description rewritten (147 chars) to drop « Leviers réels … payer le juste prix » (promises a result); og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /location-moto-hanoi/longue-duree/ (group owner, once), /prix-location/mois/, /prix-location/30-jours-location-moto-hanoi-cout/ (kept), /prix-location/location-moto-oil-change-longue-duree-vietnam/. Dropped /prix-location/7-jours-.../, /prix-location/moto-livraison-frais-hanoi/ and the Têt link. tel/WhatsApp/Zalo links. TOC auto-synced with 8 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (ask the total for the exact duration and its conditions rather than a discount; none announced). 2 tables, 3 lists, a copyable message template, FAQ of 5."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Any long-rental discount or rate for 3 weeks / 6 weeks / 2+ months, payment schedule and acompte, early-return and prolongation terms, garantie, maintenance responsibility."
+  ]
+ },
+ {
+  "path": "prix-location/mensuelle-location-moto-economies-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Location mensuelle de moto à Hanoi : quand le mois est intéressant, pour qui, avec quel budget annexe",
+  "words_before": 2086,
+  "words_after": 1739,
+  "new_meta": {
+   "title": "Location de moto au mois à Hanoi : quand est-ce rentable ?",
+   "description": "Louer une moto au mois à Hanoi : tarifs indicatifs jour, semaine et mois, profils pour qui le mois convient et lignes de budget à prévoir en plus du loyer.",
+   "h1": "Location mensuelle de moto à Hanoi : quand le mois devient-il rentable ?"
+  },
+  "evidence": {
+   "FACTS": "Full owner table (day/week/month, six rows) with the exact disclaimer. Observations taken only by comparing published rows: Vision and 50cc month row = same figure as twice the week row; Air Blade month 1 500 000 vs week 900 000; semi-automatic has the lowest month row; no total for a duration without row (3 weeks, 5 weeks) is computed, the reader is told to ask. Removed unsourced claims: « tout le monde le répète au comptoir », « remise de durée » as a general mechanism, « un mois de trente jours est presque imbattable », the profile stories (résident, nomade, lune de miel urbaine), « bascule chez les loueurs qui la proposent », « la formule mensuelle se paie pleine dans la plupart des cas », kilometre cap/assistance remarks. Garantie, fuel, parking, maintenance, payment schedule, week-to-month switch, leaving Hanoi, early return stated as unpublished/to ask. Only generic parking/electric-charging remarks, no figures. NAP/hours per SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: when does a monthly rental make sense in Hanoi? Owner of « location mensuelle de moto à Hanoi ». Differs from location-moto-hanoi/student-mensuelle-location-moto-hanoi/ (student profile) and prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/ (week vs month) by being the general monthly-rental decision with the full rate table, profiles, vehicle lines and budget; the maintenance question is left to /prix-location/mensuelle-location-moto-entretien-cout-hanoi/ and the preparation guide to location-moto-hanoi/1-mois-location-moto-hanoi/.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« prend la question à rebrousse-poil », « le mois-oreiller / mois-charge / mois-otage », « le mois aime les journées qui se ressemblent ») and SEO-process wording (« cette page », « pages de calcul », « la méthode de comparaison a déjà été posée par ailleurs »). New: full rate table, « le mois n’est pas quatre semaines », three situations, when day/week stays simpler, budget-lines table, month definition (calendar/30 days/date to date), vehicle lines (Vision/Air Blade, semi-auto, electric), contract checklist. FAQ cut to 4 non-repeating Q&As. Words 2086→1739.",
+   "META": "Title changed from « Louer une moto au mois à Hanoi : quand la formule gagne-t-elle ? » to « Location de moto au mois à Hanoi : quand est-ce rentable ? » (58 chars); H1 aligned on the owner query; description rewritten (155 chars), removed « sans aucun tarif inventé » (process talk); og tags synced (the old og:description used an &#39; entity).",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/mois/ (kept), /location-moto-hanoi/1-mois-location-moto-hanoi/ (kept), /prix-location/mensuelle-location-moto-entretien-cout-hanoi/, /prix-location/location-moto-jour-24-horaires-hanoi/. Dropped /prix-location/journaliere-ou-hebdomadaire-.../. tel/WhatsApp/Zalo links. TOC auto-synced with 9 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (rentable with near-daily use for several weeks; month has its own row). 3 tables, 3 lists, FAQ of 4."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Month definition (30 days, calendar month, date to date), payment schedule, week-to-month switch, garantie, maintenance responsibility, leaving Hanoi, early return."
+  ]
+ },
+ {
+  "path": "prix-location/mensuelle-location-moto-entretien-cout-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Entretien d'une moto louée au mois à Hanoi : usure, dommage, négligence, ce qu'il faut convenir par écrit",
+  "words_before": 1670,
+  "words_after": 1596,
+  "new_meta": {
+   "title": "Entretien d’une moto louée au mois : ce qu’il faut convenir",
+   "description": "Pneus, freins, vidange, crevaison : usure, dommage ou négligence sur un mois de location, et les points d’entretien à faire écrire avant de signer.",
+   "h1": "Location mensuelle de moto : qui paie l’entretien, et comment le convenir ?"
+  },
+  "evidence": {
+   "FACTS": "Who pays maintenance, workshop choice, breakdown procedure, replacement moto and retenue on a garantie are all stated as unpublished for Thuê xe máy Nguyễn Hà and turned into questions; the three categories (usure/dommage/négligence) are presented as a common way to read a discussion, not as the shop's rule. Removed « La plateforme n’intervient pas dans les litiges », « les procédures de médiation… disponibles localement », « le loueur fournit l’assistance prévue au contrat », and the assertion that a contract without maintenance clause 'le laisse au déséquilibre'. Qualitative mechanics only (chain on semi-automatics, belt on automatic scooters 'en général', oil interval per model manual); no intervals, no part prices, no figures. No rental price quoted (disclaimer sentence beside the link to /prix-location/mois/). Hours 09:00–21:00 and WhatsApp/Zalo per SEO-FACTS. No external source needed (the oil-change interval facts live in the oil-change article).",
+   "INTENT": "Main question: who pays/what to agree about maintenance on a monthly rental? Owner of the query « location mensuelle » registered for this URL; the actual intent kept is maintenance during a month. Differs from /prix-location/location-moto-oil-change-longue-duree-vietnam/ (oil change timing in km, Honda intervals) and /prix-location/mensuelle-location-moto-economies-hanoi/ (when the month is worth it) by being the maintenance-responsibility checklist (items table, four contract lines, weekly check, reporting message, dispute file).",
+   "CONTENT": "Full rewrite. Removed mannered prose (« le mois de location serein se joue au moment de signer », « la machine vit, le dossier aussi », « la rigueur se constate aussi », « la méthode », « le hub ») and SEO-process wording. New: usure/dommage/négligence cases, six-row maintenance items table with alert sign and question to ask, four contract lines, ten-minute weekly check list, usage profiles (city, touring, rarely used), reporting-message checklist, dispute file, budget by three columns. FAQ cut to 4 non-repeating Q&As. Words 1670→1596.",
+   "META": "Title changed from « Location mensuelle de moto : qui paie l’entretien à Hanoi ? » to « Entretien d’une moto louée au mois : ce qu’il faut convenir » (59 chars) because the page cannot say who pays at this shop; H1 reworded as « …qui paie l’entretien, et comment le convenir ? »; description rewritten (147 chars) without « voici la méthode »; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/location-moto-oil-change-longue-duree-vietnam/, /prix-location/location-moto-crevaison-pneu-cout-vietnam/, /prix-location/location-moto-perdue-cle-frais-vietnam/, /prix-location/mois/. Dropped /prix-location/location-moto-depot-hanoi-passeport/ and /prix-location/wave-ou-sirius-mensuelle-cout-location/. tel/WhatsApp/Zalo links. TOC auto-synced with 10 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (not published; usure/dommage/négligence; four questions). 2 tables (one is the items table), 3 lists, FAQ of 4."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Who pays routine maintenance, workshop rules, breakdown procedure and replacement moto, and when a garantie may be used for maintenance/repair costs."
+  ]
  }
 ]

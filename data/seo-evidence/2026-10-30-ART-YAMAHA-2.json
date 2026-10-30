@@ -169,6 +169,42 @@
   ]
  },
  {
+  "path": "yamaha/yamaha-janus-125-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut le Yamaha Janus 125 dans la circulation de Hanoi : maniabilité, stationnement, courses, pluie, limites ?",
+  "new_meta": {
+   "title": "Yamaha Janus 125 en ville à Hanoi : prise en main",
+   "description": "Le Yamaha Janus 125 dans Hanoi : 97 kg, selle à 770 mm, coffre de 15,3 litres. Ruelles, stationnement, courses, pluie et limites d’un compact en ville.",
+   "h1": "Janus 125 en ville : que vaut-il dans la circulation de Hanoi ?"
+  },
+  "words_before": 1509,
+  "words_after": 1586,
+  "evidence": {
+   "FACTS": "Removed vague claims ('flux continu', 'feux négociés du regard' as metaphor, generic quotidien tropes) and the 'sans fiche technique' stance. Specs only from Yamaha Motor Vietnam pages seen in search results: 97 kg standard, seat 770 mm, ground clearance 135 mm, storage about 15.3 L, tank 4.2 L, seat length 760 mm (+77 mm vs old Janus). Fuel consumption omitted (pages disagree). Traffic observations are generic and phrased as such; no route distances or durations (explicitly not promised); no first-hand anecdote. Rain/flood advice generic, pointing to the site guides. Parking fee phrased as 'peut être payant, renseignez-vous'. Shop closing at 21:00 and phone from SEO-FACTS; return outside hours phrased as a question. No price claim: only the pointer to the category guide with the exact disclaimer.",
+   "INTENT": "Main question: how does the Janus 125 behave in Hanoi city traffic. OWNER of 'janus 125 en ville'. Differs from yamaha-janus-125-location-hanoi (profile and what to ask) and from the Janus 125 voyage page (road trips) because it covers daily urban use: figures with urban effect, flow, first hour at the handlebar from Long Bien, parking, shopping, rain and flooded streets.",
+   "CONTENT": "Full rewrite. New sections: figures-to-urban-effect table, circulating in traffic, first hour at the handlebar (from Long Bien), parking and manoeuvring, shopping storage, rain/flooded streets, limits (bridges, duo, distance), 4-point checklist, 7 FAQ. Removed the mannered 'ressenti du quotidien' passages. Words 1509 -> 1586.",
+   "META": "Title, description and H1 rewritten with concrete figures; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/moto-pluie-securite-vietnam/, /prix-location/, /types-motos/, /types-motos/meilleur-scooter-hanoi-circulation/, /types-motos/rue-inondee-moto-hanoi/, /yamaha/, /yamaha/yamaha-janus-125-location-hanoi/. Removed /types-motos/honda-vision-ou-yamaha-janus-location/; added /types-motos/rue-inondee-moto-hanoi/, /permis-securite/moto-pluie-securite-vietnam/.",
+   "AEO_GEO": "Direct answer in lead (what suits, what limits); one table, one checklist, 7 FAQ; two Yamaha citations."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus standard, seat 770 mm, 97 kg, ground clearance 135 mm, tank 4.2 L"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/kham-pha-xe-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: storage 15.3 L, seat length 760 mm (+77 mm)"
+   }
+  ],
+  "owner_gaps": [
+   "Antitheft device and helmets supplied by the shop; out-of-hours return (left as questions)",
+   "Whether a Janus is in the fleet"
+  ]
+ },
+ {
   "path": "yamaha/yamaha-janus-125-location-hanoi/index.html",
   "role": "OWNER",
   "primary_intent": "Pour quel voyageur louer un Yamaha Janus 125 à Hanoi, et que demander ou vérifier ?",
@@ -217,6 +253,360 @@
   "owner_gaps": [
    "Whether a Janus is in the fleet (old or new generation) and its own price",
    "Deposit, documents, zone and breakdown procedure (left as questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-janus-125-ou-honda-vision-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Janus 125 ou Honda Vision pour sortir de Hanoi, à deux et avec des bagages : lequel supporte mieux la route ?",
+  "new_meta": {
+   "title": "Janus 125 ou Honda Vision pour sortir de Hanoi à deux",
+   "description": "Janus 125 ou Honda Vision pour une sortie hors de Hanoi à deux : cylindrée, réservoir, garde au sol, coffre et bagages. Ce que chaque compact permet sur route.",
+   "h1": "Yamaha Janus 125 ou Honda Vision : lequel pour une sortie à deux hors de Hanoi ?"
+  },
+  "words_before": 1572,
+  "words_after": 1525,
+  "evidence": {
+   "FACTS": "Removed the abstract duel prose and generic budget/contract method. Numbers only from manufacturer pages seen in search results: Janus 125 (124.9 cc, 97 kg, seat 770 mm, seat length 760 mm, 15.3 L, tank 4.2 L, ground clearance 135 mm; Yamaha pages) and Honda Vision (109.5 cc, 97 kg, seat 785 mm, tank 4.8 L, ground clearance 175 mm for the standard version; Honda page, other versions flagged as different: 761 mm / 93-94 kg / 152 mm). Vision storage and seat length not retained (not in snippet) and shown as such. Engine-size remark hedged ('en principe', to verify at the test). Prices: Vision owner row (200 000 / 1 000 000 / 2 000 000 VND) and automatic-scooter category range for Janus 'à titre de repère' with the exact disclaimer; no multiplication or claim about where the Janus sits. Zone, breakdown, deposit, documents: questions; availability unconfirmed. A1 (125 cm3) mention hedged with 'recognition depends on your situation'. NAP/hours from SEO-FACTS.",
+   "INTENT": "Main question: Janus 125 or Vision for leaving Hanoi two-up with bags. DISTINCT_ANGLE of group CMP-VISION-JANUS; owner honda/honda-vision-ou-yamaha-janus-location/ linked once at the top with a natural anchor (and in the pour-aller-plus-loin block). Differs from the owner (general urban comparison) and from types-motos/honda-vision-ou-yamaha-janus-location (prise en main) because it only covers engine margin two-up, tank, ground clearance, passenger, luggage and weather outside the city.",
+   "CONTENT": "Full rewrite. New sections: scope of the angle, manufacturer data table with 'for a two-up outing' column, passenger/engine/luggage, road (fuel, bumps, wind, descents), rain and end of day, trip-type verdict table, price and availability (Vision row vs category), day checklist, 4 FAQ. Removed the 'deux signatures proches', 'la ville tranche mieux que la marque' and budget-method sections. Words 1572 -> 1525.",
+   "META": "Title/description/H1 refocused on the documented angle (sortir de Hanoi à deux, bagages); og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-vision-longue-distance-vietnam/, /honda/honda-vision-ou-yamaha-janus-location/, /honda/honda-vision-prix-location-hanoi/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-janus-125-location-hanoi/. Removed /types-motos/honda-vision-ou-yamaha-janus-location/, /types-motos/meilleur-scooter-hanoi-circulation/, /honda/honda-vision-location-hanoi/; added /honda/honda-vision-longue-distance-vietnam/, /honda/honda-vision-prix-location-hanoi/, /yamaha/yamaha-janus-125-location-hanoi/; owner /honda/honda-vision-ou-yamaha-janus-location/ kept.",
+   "AEO_GEO": "Direct answer and the main differences in the lead; two tables, one checklist, 4 FAQ; two manufacturer citations (Yamaha Janus page, Honda Vision page)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus 125 seat 770 mm, 97 kg, tank 4.2 L, 124.9 cc, ground clearance 135 mm"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/kham-pha-xe-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: seat length 760 mm (+77 mm), storage 15.3 L"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Vision 109.5 cc, 6.59 kW, 97 kg, seat 785 mm, tank 4.8 L, ground clearance 175 mm (other versions differ)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Janus 125 and a Vision are in the fleet, and the Janus price",
+   "Whether the shop allows leaving Hanoi, breakdown procedure and deposit (questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-janus-125-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget prévoir pour louer un Yamaha Janus 125 à Hanoi et comment lire un prix ?",
+  "new_meta": {
+   "title": "Prix de location du Yamaha Janus 125 à Hanoi : repères",
+   "description": "Quel budget pour louer un Yamaha Janus 125 à Hanoi ? Repère de la catégorie scooter automatique, comparaison avec le Honda Vision, questions avant de réserver.",
+   "h1": "Prix de location du Yamaha Janus 125 : quel budget prévoir ?"
+  },
+  "words_before": 1504,
+  "words_after": 1552,
+  "evidence": {
+   "FACTS": "Removed the generic 'structure d'un tarif' and 'échelle des tarifs' filler. Prices: Janus has no owner row; only the automatic-scooter category range (150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND) 'à titre de repère' with the exact disclaimer near every table; the Vision row (200 000 / 1 000 000 / 2 000 000) shown in a table next to the category range and noted as the top of each range, with the explicit statement that nothing shows where the Janus sits. No multiplication, no package, no conversion; the 'around 200 km on paper' fuel figure is arithmetic from Yamaha 4.2 L and about 1.9 L/100 km (Yamaha pages say 1.88 or 1.98, flagged as an order of magnitude). Casques, antivol, deposit/ID document, early return, extension, breakdown: phrased as questions and as generic 'certains loueurs' observations, never as the shop's policy. Old vs new Janus distinction from the Yamaha comparison page. NAP/hours as SEO-FACTS.",
+   "INTENT": "Main question: what budget to expect for a Janus 125 rental and how to read the price. OWNER of 'prix de location du Yamaha Janus 125'. Differs from yamaha-janus-125-location-hanoi (profile) and yamaha-grande-prix-location-hanoi (other model; here the Vision-row comparison, stay-type table and fuel/small-tank angle).",
+   "CONTENT": "Full rewrite. New sections: category range table, Vision vs category table, stay-type/question table, old vs new Janus, what the total may include, small tank and fuel, very low/high price check, written-before-paying checklist, how to ask (NAP), 5 FAQ. Removed the three-step method framing and the 'leviers' section. Words 1504 -> 1552.",
+   "META": "Title 'Prix de location du Yamaha Janus 125 à Hanoi : repères' (no promise of an exact amount); description and H1 rewritten; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-vision-prix-location-hanoi/, /prix-location/, /prix-location/mois/, /prix-location/semaine/, /types-motos/, /yamaha/, /yamaha/yamaha-janus-125-location-hanoi/. Removed /prix-location/jour/, /prix-location/mensuelle-location-moto-economies-hanoi/; added /honda/honda-vision-prix-location-hanoi/, /yamaha/yamaha-janus-125-location-hanoi/; kept /prix-location/semaine/ and /prix-location/mois/.",
+   "AEO_GEO": "Direct answer and exact disclaimer in the lead; three tables, one checklist, 5 FAQ; one Yamaha citation."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/so-sanh-yamaha-janus-va-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha comparison of the old Janus and the new Janus 125; consumption 1.98 / 1.88 L/100 km on different pages"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: tank 4.2 L"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly price for a Janus 125, if the shop has one",
+   "Casques/lock included, deposit or ID document, early return and extension rules (questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-janus-125-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Un Yamaha Janus 125 peut-il faire un road trip au départ de Hanoi, et jusqu'où ?",
+  "new_meta": {
+   "title": "Road trip en Yamaha Janus 125 depuis Hanoi : jusqu’où ?",
+   "description": "Un Yamaha Janus 125 peut-il faire un road trip depuis Hanoi ? Réservoir de 4,2 litres, coffre de 15,3 litres, 97 kg : sorties réalistes, limites et préparation.",
+   "h1": "Road trip en Yamaha Janus 125 depuis Hanoi : jusqu’où aller ?"
+  },
+  "words_before": 1613,
+  "words_after": 1564,
+  "evidence": {
+   "FACTS": "Replaced the abstract 'programme d'un compact relu pour la route' prose with manufacturer data from Yamaha Motor Vietnam pages seen in search results: 124.9 cc, 97 kg, tank 4.2 L, storage about 15.3 L, ground clearance 135 mm, seat length 760 mm. Fuel consumption omitted (pages disagree) and no autonomy figure is given. Route verdicts are qualitative; no distance or driving time promised; place names only. A1 limit (125 cm3) cited to luatvietnam.vn (legal information site seen in search result, checked 2026-10-30) with the caveat that licence recognition depends on country, categories and status. Zone, kilometre limit, breakdown, deposit, documents phrased as questions; no model price (category repère only through the price hub with the exact disclaimer). NAP and hours from SEO-FACTS.",
+   "INTENT": "Main question: can a Janus 125 do a road trip from Hanoi. OWNER of 'road trip au Vietnam en Janus 125'. Differs from yamaha-grande-vietnam-voyage-moto (other model, other figures; here the verdict table by route first and the small-tank focus) and from yamaha-janus-125-hanoi-ville (urban use).",
+   "CONTENT": "Full rewrite. New sections: verdict table by itinerary type, Yamaha data table with consequences, small tank and refuelling, light compact on the road, season/weather, luggage and passenger, when to choose something else, licence and rental conditions, checklist, 5 FAQ. Removed the 'frontières qui ne se négocient pas' and contract-reading filler. Words 1613 -> 1564.",
+   "META": "Title/description/H1 rewritten around 'road trip en Yamaha Janus 125 depuis Hanoi'; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/, /prix-location/, /types-motos/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /yamaha/, /yamaha/semi-automatiques/. Removed /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /yamaha/yamaha-janus-125-hanoi-ville/; added /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/, /yamaha/semi-automatiques/, /types-motos/meilleur-moto-montagne-routes-vietnam/.",
+   "AEO_GEO": "Direct answer in the lead; two tables, one checklist, 5 FAQ; two Yamaha citations and luatvietnam.vn."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: 124.9 cc, 97 kg, tank 4.2 L, ground clearance 135 mm"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/kham-pha-xe-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: storage 15.3 L, seat length 760 mm"
+   },
+   {
+    "url": "https://luatvietnam.vn/giao-thong/luat-trat-tu-an-toan-giao-thong-duong-bo-2024-quy-dinh-nhu-the-nao-ve-giay-phep-lai-xe-hang-a1-863-100479-article.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: A1 up to 125 cm3 under law 36/2024/QH15"
+   }
+  ],
+  "owner_gaps": [
+   "Whether trips outside Hanoi are allowed, kilometre limit and breakdown procedure (questions)",
+   "Whether a Janus is in the fleet and its price"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-jupiter-finn-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit un Yamaha Jupiter Finn (semi-automatique) dans Hanoi : rapports, embouteillages, stationnement, pluie ?",
+  "new_meta": {
+   "title": "Conduire un Yamaha Jupiter Finn dans Hanoi : les vitesses",
+   "description": "Le Yamaha Jupiter Finn dans Hanoi : passer les rapports dans les embouteillages, garde au sol de 155 mm, stationnement, pluie et limites en ville.",
+   "h1": "Conduire un Jupiter Finn dans Hanoi : que change la boîte à vitesses ?"
+  },
+  "words_before": 1890,
+  "words_after": 1587,
+  "evidence": {
+   "FACTS": "Removed the mannered city narrative ('taillé pour la densité', 'codes de la rue', 'feux et intersections' generalities) and the /location-moto-hanoi/ link. Specs only from the Yamaha Motor Vietnam Jupiter Finn premium page seen in search results: seat 775 mm, ground clearance 155 mm, about 100 kg wet, tank 4.0 L, 1.64 L/100 km (stated as a manufacturer value, not a city measure); four-speed foot-shift gearbox and automatic clutch as described in the sourced semi-automatic guides of this site. Storage only qualitatively from a Vietnamese comparison snippet. Gear/rain technique stated in generic, cautious terms consistent with the site's shifting guide; no traffic-law claim, no distance or time. Price: only a pointer to the price hub and the exact disclaimer (semi-automatic category in the price guide). No fleet claim. NAP phone/hours from SEO-FACTS.",
+   "INTENT": "Main question: how does a Jupiter Finn ride in Hanoi traffic and what does the clutchless gearbox change. OWNER of 'conduire un Jupiter Finn dans Hanoi'. Differs from yamaha-jupiter-finn-location-hanoi (profile and what to ask), the Future comparison and the voyage page (mountains).",
+   "CONTENT": "Full rewrite. New sections: urban data table, which gear in the flow, stops and traffic jams, beginner-mistake table with fixes, parking, rain and flooded streets, storage, who it suits, checklist, 7 FAQ. Removed 'position de conduite et confort' prose, 'feux, intersections et codes de la rue' and the generic 'pour qui ce deux-roues'. Words 1890 -> 1587.",
+   "META": "Title/description/H1 rewritten around the gearbox question; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/semi-automatique-moto-shifting-vietnam/, /prix-location/, /types-motos/, /types-motos/rue-inondee-moto-hanoi/, /types-motos/semi-automatique/, /yamaha/, /yamaha/yamaha-jupiter-finn-location-hanoi/. Removed /location-moto-hanoi/, /types-motos/semi-automatique-ou-trail-moto-sapa/; added /permis-securite/semi-automatique-moto-shifting-vietnam/, /types-motos/semi-automatique/, /types-motos/rue-inondee-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead; two tables, one checklist, 7 FAQ; one Yamaha citation."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: seat 775 mm, ground clearance 155 mm, 100 kg wet, tank 4.0 L, 1.64 L/100 km"
+   },
+   {
+    "url": "https://xe.chotot.com/kinh-nghiem/so-sanh-jupiter-finn-va-future.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (snippet only): Finn under-seat storage smaller than the Future's, small front compartment; qualitative use"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Jupiter Finn is in the fleet; antitheft provided",
+   "Deposit, documents (questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-jupiter-finn-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel voyageur louer un Yamaha Jupiter Finn (semi-automatique) à Hanoi, et que demander ou vérifier ?",
+  "new_meta": {
+   "title": "Louer un Yamaha Jupiter Finn à Hanoi : pour quel voyageur ?",
+   "description": "Louer un Yamaha Jupiter Finn à Hanoi : semi-automatique de 113,7 cm³, 4 rapports sans levier d’embrayage, 100 kg. Profils, limites, questions, contrôles.",
+   "h1": "Louer un Yamaha Jupiter Finn à Hanoi : pour quel voyageur ?"
+  },
+  "words_before": 1824,
+  "words_after": 1587,
+  "evidence": {
+   "FACTS": "Removed the unsourced generic 'le Jupiter Finn en quelques mots' and the link to the Lexi page. Specs only from the Yamaha Motor Vietnam Jupiter Finn premium page seen in search results: 113.7 cm3 (other Yamaha pages say 115 cc, flagged), 6.6 kW (9.0 PS) at 7000 rpm, tank 4.0 L, 1.64 L/100 km (manufacturer value, not a measure), seat 775 mm, ground clearance 155 mm, 100 kg wet; four-speed foot-shift gearbox and automatic clutch as stated in the Yamaha semi-automatic guide of this site. Storage: only the qualitative statement from a Vietnamese comparison snippet (Finn under-seat smaller than the Future, small front compartment), labelled as seen in search results. Price: no Finn row; semi-automatic category range 150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND 'à titre de repère' with the exact disclaimer; automatic monthly range for comparison. Deposit, documents, zone, breakdown: questions only; availability unconfirmed. A1 (125 cm3) via luatvietnam.vn with the licence-recognition caveat. NAP/hours as SEO-FACTS.",
+   "INTENT": "Main question: for which traveller is a Jupiter Finn rental sensible. OWNER of 'yamaha Jupiter Finn en location à Hanoi'. Differs from yamaha-jupiter-finn-prix-location-hanoi (budget), yamaha-jupiter-finn-hanoi-ville (city riding) and the Future comparison (owner honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location) by covering profile, what a clutchless gearbox changes, what to ask and check.",
+   "CONTENT": "Full rewrite. New sections: data table with consequences, what a clutchless gearbox changes, first half hour, profiles and limits, Finn vs automatic scooter table, storage, price/availability with NAP, handover checklist (chain, gears, N light, clutch), licence paragraph, 5 FAQ. Removed the generic 'quelques mots', 'campagne et itinéraires mixtes' and 'face aux scooters' filler. Words 1824 -> 1587.",
+   "META": "Title/description/H1 rewritten with concrete data (113.7 cm3, 4 speeds, 100 kg); og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/semi-automatique-moto-shifting-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-jupiter-finn-hanoi-ville/, /yamaha/yamaha-jupiter-finn-prix-location-hanoi/. Removed /location-moto-hanoi/, /types-motos/semi-automatique-ou-trail-moto-sapa/, /yamaha/yamaha-lexi-location-hanoi/; added /yamaha/semi-automatiques/, /yamaha/yamaha-jupiter-finn-prix-location-hanoi/, /yamaha/yamaha-jupiter-finn-hanoi-ville/, /permis-securite/semi-automatique-moto-shifting-vietnam/.",
+   "AEO_GEO": "Direct answer in the lead; two tables, one checklist, 5 FAQ; citations: Yamaha Jupiter Finn page and luatvietnam.vn."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Jupiter Finn premium, 113.7 cm3, 6.6 kW (9.0 PS) at 7000 rpm, tank 4.0 L, 1.64 L/100 km, seat 775 mm, ground clearance 155 mm, 100 kg wet; other Yamaha pages say 115 cc"
+   },
+   {
+    "url": "https://xe.chotot.com/kinh-nghiem/so-sanh-jupiter-finn-va-future.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (snippet only): comparison stating the Finn under-seat storage is smaller than the Future's and that the Finn has a front compartment; used qualitatively only"
+   },
+   {
+    "url": "https://luatvietnam.vn/giao-thong/luat-trat-tu-an-toan-giao-thong-duong-bo-2024-quy-dinh-nhu-the-nao-ve-giay-phep-lai-xe-hang-a1-863-100479-article.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: A1 up to 125 cm3 under law 36/2024/QH15"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Jupiter Finn is in the fleet and its own price",
+   "Deposit, documents, zone and breakdown procedure (questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-jupiter-finn-ou-honda-future-125-fi-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Jupiter Finn ou Honda Future 125 FI pour sortir de Hanoi, à deux et avec des bagages : laquelle supporte mieux la route ?",
+  "new_meta": {
+   "title": "Jupiter Finn ou Honda Future 125 FI pour sortir de Hanoi",
+   "description": "Jupiter Finn ou Future 125 FI pour sortir de Hanoi à deux avec bagages : cylindrée, réservoir, garde au sol, coffre, descentes. Deux semi-automatiques.",
+   "h1": "Yamaha Jupiter Finn ou Honda Future 125 FI : lequel pour sortir de Hanoi à deux ?"
+  },
+  "words_before": 1781,
+  "words_after": 1544,
+  "evidence": {
+   "FACTS": "Removed the invented comparison prose ('deux écoles', 'fiabilité et réseau', 'ce que les agences proposent réellement') and every unsourced claim about agencies. Numbers only from manufacturer pages seen in search results: Jupiter Finn premium page (113.7 cc, 6.6 kW at 7000 rpm, ~100 kg wet, seat 775 mm, ground clearance 155 mm, tank 4.0 L; other Yamaha pages say 115 cc) and honda.com.vn Future 125 FI page (124.9 cc, 6.83 kW at 7500 rpm, 104 kg, seat 756 mm, ground clearance 133 mm, tank 4.6 L; an older Honda spec page differs and is flagged). Storage comparison only qualitative, from a Vietnamese comparison snippet (Finn under-seat smaller than Future, front compartment). Chain transmission stated 'comme sur la plupart des semi-automatiques'. Prices: only the semi-automatic category range 150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND 'à titre de repère' with the exact disclaimer; no model rows exist. Zone, breakdown, deposit, documents are questions; availability unconfirmed. A1 (125 cm3) mention hedged. NAP hours/phone from SEO-FACTS.",
+   "INTENT": "Main question: Jupiter Finn or Future 125 FI for leaving Hanoi two-up with bags. DISTINCT_ANGLE of group CMP-FUTURE-JUPITERFINN; owner honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/ linked once at the top (and in the further-reading block). Differs from the owner (urban comparison) and from types-motos/honda-future-ou-yamaha-jupiter-finn-location (prise en main) because it only covers engine margin, tank, ground clearance, storage, passenger, descents and day-length comfort.",
+   "CONTENT": "Full rewrite. New sections: scope of the angle, manufacturer data table with 'for a two-up outing' column, two-up/luggage, rough road/hills/descents/chain, comfort over a full day, rain/end of day/breakdown, trip-type verdict table, price and conditions, checklist, 4 FAQ. Removed the 'écoles', fiabilité/réseau, profile and agencies sections. Words 1781 -> 1544.",
+   "META": "Title/description/H1 refocused on the documented angle (sortir de Hanoi, à deux, bagages); og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-future-125-fi-longue-distance-vietnam/, /honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-jupiter-finn-location-hanoi/, /yamaha/yamaha-jupiter-finn-vietnam-voyage-moto/. Removed /location-moto-hanoi/, /types-motos/semi-automatique-ou-trail-moto-sapa/, /yamaha/yamaha-jupiter-finn-hanoi-ville/; added /honda/honda-future-125-fi-longue-distance-vietnam/, /yamaha/yamaha-jupiter-finn-vietnam-voyage-moto/; owner /honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/ linked.",
+   "AEO_GEO": "Direct answer and main differences in the lead; two tables, one checklist, 4 FAQ; two manufacturer citations (Yamaha Jupiter Finn, honda.com.vn Future 125 FI)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Jupiter Finn premium 113.7 cc, 6.6 kW at 7000 rpm, 100 kg wet, seat 775 mm, ground clearance 155 mm, tank 4.0 L"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Future 125 FI seat 756 mm, 104 kg, 124.9 cc, 6.83 kW at 7500 rpm, ground clearance 133 mm, tank 4.6 L (an older Honda spec page gives slightly different values)"
+   },
+   {
+    "url": "https://xe.chotot.com/kinh-nghiem/so-sanh-jupiter-finn-va-future.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (snippet only): Finn under-seat storage smaller than the Future's, Finn has a front compartment; qualitative use only"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Jupiter Finn or a Future 125 FI is in the fleet and their prices",
+   "Authorised zone, breakdown procedure, deposit (questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-jupiter-finn-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget prévoir pour louer un Yamaha Jupiter Finn à Hanoi et comment lire le prix ?",
+  "new_meta": {
+   "title": "Prix de location du Yamaha Jupiter Finn à Hanoi : repères",
+   "description": "Quel budget pour louer un Yamaha Jupiter Finn à Hanoi ? Repère de la catégorie semi-automatique par jour, semaine et mois, séjour long et questions à poser.",
+   "h1": "Prix de location du Yamaha Jupiter Finn : quel budget prévoir ?"
+  },
+  "words_before": 1799,
+  "words_after": 1559,
+  "evidence": {
+   "FACTS": "Removed the invented 'scénarios week-end / semaine / mois' (which implied computed totals), the 'grille d'un loueur' and 'négocier' sections, and the /location-moto-hanoi/ and /prix-location/jour/ links. Prices: the Jupiter Finn has no owner row; only the semi-automatic category range (150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND) 'à titre de repère' with the exact disclaimer, shown next to the automatic-scooter range to explain the monthly gap; no multiplication, no package, no conversion. The 'about 240 km on paper' figure is arithmetic from Yamaha's 4.0 L tank and 1.64 L/100 km, labelled as a calculation from manufacturer values. Maintenance, breakdown, early return, extension, deposit, documents, fines, late return: all phrased as questions to ask, never as shop policy; availability unconfirmed. NAP and hours as SEO-FACTS.",
+   "INTENT": "Main question: what budget to expect for a Jupiter Finn rental and how to read the price. OWNER of 'prix de location du Yamaha Jupiter Finn à Hanoi'. Differs from yamaha-jupiter-finn-location-hanoi (profile) and from the Janus/Grande price pages (semi-automatic category, monthly gap vs scooters, maintenance and long-stay questions, Northern-trip budget posts).",
+   "CONTENT": "Full rewrite. New sections: semi-automatic category range table, semi-automatic vs scooter table, month-or-longer questions (maintenance, breakdown, early return), fuel, Northern-trip budget posts, who pays for incidents checklist, out-of-range check, written-before-paying checklist, how to ask (NAP), 5 FAQ. Words 1799 -> 1559.",
+   "META": "Title 'Prix de location du Yamaha Jupiter Finn à Hanoi : repères' (no exact-amount promise); description/H1 rewritten; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-future-125-fi-prix-location-hanoi/, /prix-location/, /prix-location/mois/, /prix-location/nord-vietnam-voyage-moto-budget-7-jours/, /types-motos/, /yamaha/, /yamaha/yamaha-jupiter-finn-location-hanoi/. Removed /location-moto-hanoi/, /prix-location/jour/; added /prix-location/mois/, /prix-location/nord-vietnam-voyage-moto-budget-7-jours/, /honda/honda-future-125-fi-prix-location-hanoi/. 7/7.",
+   "AEO_GEO": "Direct answer and exact disclaimer in the lead; two tables, two checklists, 5 FAQ; one Yamaha citation."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: tank 4.0 L, 1.64 L/100 km"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly price for a Jupiter Finn",
+   "Maintenance during long rentals, breakdown, early return, extension, deposit and fines rules (questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-jupiter-finn-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que peut-on faire en montagne avec un Yamaha Jupiter Finn : routes du Nord, descentes, limites ?",
+  "new_meta": {
+   "title": "Yamaha Jupiter Finn et routes de montagne : jusqu’où aller ?",
+   "description": "Le Yamaha Jupiter Finn convient-il aux routes de montagne du Nord ? Frein moteur, garde au sol de 155 mm, réservoir de 4,0 litres : limites et préparation.",
+   "h1": "Road trip en Jupiter Finn : que peut-on faire en montagne ?"
+  },
+  "words_before": 1769,
+  "words_after": 1654,
+  "evidence": {
+   "FACTS": "Replaced the abstract 'ce qu'un semi-automatique change en montagne' prose with manufacturer data from the Yamaha Motor Vietnam Jupiter Finn premium page seen in search results: 113.7 cc (other Yamaha pages say 115 cc, flagged), 6.6 kW at 7000 rpm, ~100 kg wet, ground clearance 155 mm, tank 4.0 L, 1.64 L/100 km. The 'about 240 km on paper' value is arithmetic from 4.0 L and 1.64 L/100 km, labelled as a calculation from manufacturer figures. Storage only qualitative (Vietnamese comparison snippet). Verdicts per route type are qualitative and hedged ('possible pour un conducteur expérimenté, peu chargé'); no distance or driving time, no road-condition claim stated as fact. A1 limit (125 cm3) via luatvietnam.vn with the licence-recognition caveat. Zone, kilometre limit, breakdown, deposit, documents: questions; no model price (category repère only via price hub, exact disclaimer). Engine-braking and rain advice generic, consistent with the sourced shifting guide. NAP/hours from SEO-FACTS.",
+   "INTENT": "Main question: what can a Jupiter Finn do on mountain roads. OWNER of 'jupiter Finn et routes de montagne'. Differs from yamaha-jupiter-finn-location-hanoi (profile), yamaha-jupiter-finn-hanoi-ville (city) and the Future comparison (two-up, day outings) because it is about the semi-automatic's mountain use: engine braking, climbing margin, chain upkeep, weather.",
+   "CONTENT": "Full rewrite. New sections: itinerary verdict table, Yamaha data table with mountain consequences, descents (downshifting before the slope), climbs and engine margin, luggage/tank/range, chain/oil/brakes upkeep, rain/fog/night, licence and rental conditions with NAP, checklist, 5 FAQ. Removed the 'routes vietnamiennes hors des villes', 'fatigue, météo et nuit : les vrais facteurs' and 'partir ou changer de monture' passages. Words 1769 -> 1654.",
+   "META": "Title/description/H1 rewritten around 'routes de montagne'; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /permis-securite/moto-montagne-pass-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/. Removed /location-moto-hanoi/, /types-motos/semi-automatique-ou-trail-moto-sapa/, /yamaha/yamaha-jupiter-finn-hanoi-ville/, /yamaha/yamaha-jupiter-finn-location-hanoi/; added /yamaha/semi-automatiques/, /nord-vietnam/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /permis-securite/moto-montagne-pass-securite-vietnam/.",
+   "AEO_GEO": "Direct answer in the lead; two tables, one checklist, 5 FAQ; citations: Yamaha Jupiter Finn page and luatvietnam.vn."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: 113.7 cc, 6.6 kW at 7000 rpm, tank 4.0 L, 1.64 L/100 km, ground clearance 155 mm, 100 kg wet; other Yamaha pages say 115 cc"
+   },
+   {
+    "url": "https://xe.chotot.com/kinh-nghiem/so-sanh-jupiter-finn-va-future.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (snippet only): Finn storage smaller than the Future's, front compartment; qualitative use"
+   },
+   {
+    "url": "https://luatvietnam.vn/giao-thong/luat-trat-tu-an-toan-giao-thong-duong-bo-2024-quy-dinh-nhu-the-nao-ve-giay-phep-lai-xe-hang-a1-863-100479-article.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: A1 up to 125 cm3 under law 36/2024/QH15"
+   }
+  ],
+  "owner_gaps": [
+   "Whether mountain trips are allowed, kilometre limit and breakdown procedure in remote areas (questions)",
+   "Whether a Jupiter Finn is in the fleet and its price"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-latte-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut le Yamaha Latte dans la circulation de Hanoi : coffre, hauteur de selle, stationnement, pluie ?",
+  "new_meta": {
+   "title": "Yamaha Latte en ville à Hanoi : conduite, coffre, stationnement",
+   "description": "Le Yamaha Latte dans Hanoi : coffre de 37 litres, selle à 790 mm, 100 kg, garde au sol de 125 mm. Ruelles, stationnement, pluie, courses et limites en ville.",
+   "h1": "Conduire un Yamaha Latte dans Hanoi : ce que change son grand coffre"
+  },
+  "words_before": 1825,
+  "words_after": 1590,
+  "evidence": {
+   "FACTS": "Removed the mannered city narrative ('une évidence dès le premier tour de roue', 'le style comme détail du quotidien', 'praticité : le verdict honnête') and the /location-moto-hanoi/ and /prix-location/jour/ links. Specs only from Yamaha Motor Vietnam Latte pages seen in search results: seat 790 mm, wet weight 100 kg, storage 37 L (fits A4 documents and a 13-inch laptop), ground clearance 125 mm, wheelbase 1275 mm. Janus 125 (770 mm, 135 mm) and Grande (127 mm ground clearance) quoted from their Yamaha pages for comparison. 'Conduite douce, peu de réserve sur voie rapide' follows the Yamaha scooters guide of this site. The Latte engine size and Smart Key are not asserted (only third-party snippets). Traffic, rain and parking advice generic; parking fee 'peut être payant'. No price claim (pointer to the category repère in the price hub with the exact disclaimer); no fleet claim.",
+   "INTENT": "Main question: how does the Latte behave in Hanoi traffic and what does its big storage change. OWNER of 'conduire un Yamaha Latte dans Hanoi'. Differs from yamaha-latte-location-hanoi (profile, what to ask) and yamaha-latte-ou-honda-vision-location (comparison) because it covers urban use: selle at 790 mm, storage in practice, usage table, parking, rain, limits.",
+   "CONTENT": "Full rewrite. New sections: urban data table, seat-height test, storage in practice, four urban uses table, smooth ride and limits on fast roads, parking, rain and flooded streets, limits, checklist, 7 FAQ. Removed the 'densité', 'ruelles et trottoirs', 'pluie, chaleur et quotidien' and 'style' sections. Words 1825 -> 1590.",
+   "META": "Title, description and H1 rewritten around the storage and city use; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /types-motos/, /types-motos/rue-inondee-moto-hanoi/, /types-motos/scooter-grand-rangement-hanoi/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-latte-location-hanoi/. Removed /location-moto-hanoi/, /prix-location/jour/; added /yamaha/scooters/, /types-motos/scooter-grand-rangement-hanoi/, /types-motos/rue-inondee-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead; two tables, one checklist, 7 FAQ; two Yamaha citations."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-b0r5/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Latte seat 790 mm, wet weight 100 kg, storage 37 L (A4 documents and 13-inch laptop), ground clearance 125 mm, wheelbase 1275 mm"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Latte storage 37 L, 100 kg, seat 790 mm (consistent with the standard-version page)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus seat 770 mm, ground clearance 135 mm (comparison)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Grande ground clearance 127 mm (comparison)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Latte is in the fleet and its own price",
+   "Antitheft provided by the shop (question)"
   ]
  }
 ]

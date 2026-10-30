@@ -4,7 +4,7 @@
   "role": "OWNER",
   "primary_intent": "Location de moto manuelle à Hanoi : qu'est-ce qu'une moto à embrayage, pour qui, pour quel programme, quel permis, quoi contrôler à la remise.",
   "words_before": 1772,
-  "words_after": 1684,
+  "words_after": 1698,
   "new_meta": {
    "title": "Location de moto manuelle à Hanoi : quand la louer",
    "description": "Moto manuelle à Hanoi : levier d’embrayage au guidon, usage en ville ou en montagne, permis à vérifier et contrôles à la remise. Tarif à demander.",
@@ -34,7 +34,7 @@
   "role": "OWNER",
   "primary_intent": "Quelle moto (famille, état, critères à vérifier) pour les routes de montagne du Vietnam au départ de Hanoi ?",
   "words_before": 1815,
-  "words_after": 1630,
+  "words_after": 1648,
   "new_meta": {
    "title": "Quelle moto pour les routes de montagne au Vietnam ?",
    "description": "Moto pour la montagne au Vietnam : pneus, freins, frein moteur, garde au sol et poids. Quelle machine selon l’itinéraire et que vérifier avant de quitter Hanoi.",
@@ -57,6 +57,234 @@
   ],
   "owner_gaps": [
    "Permitted travel area and breakdown handling for rentals going to the northern mountains; deposit and insurance terms."
+  ]
+ },
+ {
+  "path": "types-motos/meilleur-scooter-hanoi-circulation/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto choisir pour rouler dans la circulation dense de Hanoi (critères, famille, réflexes, contrôles au retrait) ?",
+  "words_before": 1814,
+  "words_after": 1604,
+  "new_meta": {
+   "title": "Quelle moto choisir dans la circulation dense de Hanoi ?",
+   "description": "Circulation dense à Hanoi : poids, hauteur de selle, maniabilité et freins à vérifier, famille de moto adaptée et réflexes de conduite pour un premier séjour.",
+   "h1": "Quelle moto choisir dans la circulation dense de Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed the 'fleuve / cuirassés / péniche' imagery, 'la machine qui disparaît sous vous' and the generic 'durée, inclusions, dépôt' paragraph. No price, no model spec, no fine. Statements kept to general, observable traffic facts (two-wheelers dominate, one-way narrow streets in the Old Quarter, horn as presence signal, peak hours busiest at bridges and big junctions) phrased without figures. Casque obligatoire for rider and passenger stated as a general Vietnamese rule (no separate source; the permis-securite hub covers the rules). Shop NAP/hours used once; model availability, caution and inclusions explicitly 'à confirmer avant de réserver'. No claim about the shop's fleet, delivery or assistance.",
+   "INTENT": "Main question: which bike for dense Hanoi traffic? OWNER ('circulation dense à Hanoi'). Closest pages are Honda Vision / Yamaha NVX Hanoi-ville model pages and /location-moto-hanoi/location-moto-dong-da/ (sim 0.17): those present a model or a district, this page ranks the criteria and families and gives riding habits. Light/low criteria overlap with /types-motos/leger-scooter-hanoi/ (small riders), which is linked once instead of duplicated.",
+   "CONTENT": "Full rewrite. Replaced abstract chapters ('Le facteur conducteur', 'Au comptoir : l'état prime') by concrete ones: what Hanoi traffic demands, 5-criterion table with handover test, family comparison (automatic, semi-auto, 50cc, electric, trail), gabarit/experience/rhythm, 5 riding habits, parking/rain/night section, handover checks with NAP, 5 new FAQ (no body repetition). 1814 -> 1596 words.",
+   "META": "Title kept ('Quelle moto choisir dans la circulation dense de Hanoi ?', 56 chars). H1 aligned to the title (was 'Circulation dense à Hanoi : quelle machine choisir, et pourquoi'). Description rewritten (161 -> 158 chars, factual); og:title/og:description synced; eyebrow 'Types de motos : circulation en ville'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/scooter-automatique/, /types-motos/leger-scooter-hanoi/, /location-moto-hanoi/debutant-location-moto-hanoi/, /types-motos/rue-inondee-moto-hanoi/. Dropped /types-motos/semi-automatique/ and /types-motos/trail/ links (cap); families described in text. TOC synced (circonstance, criteres, categories, gabarit, conduite, stationner, comptoir, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). 1 criteria table with handover tests, 1 checklist of 5 riding habits, 5 FAQ. No external citation (no precise legal figure stated)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which light automatic scooters are actually available at pickup for the dates requested."
+  ]
+ },
+ {
+  "path": "types-motos/moins-de-125cc-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Moins de 125cc au Vietnam : quelles machines recouvre cette catégorie en location, ses atouts, ses limites, les tarifs indicatifs et la question du permis.",
+  "words_before": 1578,
+  "words_after": 1634,
+  "new_meta": {
+   "title": "Moins de 125cc au Vietnam : quelles motos et quelles limites",
+   "description": "Scooters, semi-automatiques et 50cc de 125 cm³ ou moins : ce qu’ils offrent en location à Hanoi, leurs limites, tarifs indicatifs et permis à vérifier.",
+   "h1": "Moins de 125cc au Vietnam : quelles motos et quelles limites"
+  },
+  "evidence": {
+   "FACTS": "Removed 'la méthode de la plateforme', 'le contrat complète ce cadre: zone autorisée, assistance, équipements, caution', 'réserver tôt', 'négocier des forfaits', 'cadeaux au voyageur / discrétion sociale' and the claim that the category is 'abondante chez plusieurs loueurs'. Prices only from the owner table (semi-automatique, scooter automatique, 50cc, Honda Vision rows) with the exact disclaimer 'Tarifs indicatifs, à confirmer avant toute réservation selon le véhicule et la durée.'; no Air Blade row (the owner entry does not state 125 vs 160) and no derived package. Remark that 50cc is not the cheapest follows from the owner rows (200 000 / 1 000 000 / 2 000 000). Legal: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above, same portal source as the hub (reused, not re-opened); 50cc cyclomoteur under a separate regime (as in /types-motos/50cc/), no fine or age rule restated; explicit that licence validity depends on national licence/country/IDP and insurance. Model names (Vision, Janus, Wave, Sirius) only as examples, no spec figure. Shop NAP/hours once; caution, inclusions and zone 'à confirmer'.",
+   "INTENT": "Main question: what do 125 cm3-and-under bikes offer a traveller, and where do they stop? OWNER. Closest page /permis-securite/moins-de-125cc-license-vietnam/ (sim 0.22) is the licence angle: here licence is one section with a link; the page's own weight is family table, fit for Hanoi/small roads, limits, indicative rates, profiles and a 5-minute test. /types-motos/scooter-ou-moto-vietnam/ (sim 0.14) is about vocabulary/choice between scooter and moto and is not repeated.",
+   "CONTENT": "Full rewrite. New: family table, why they fit Hanoi, 4-bullet limits list, owner rate table with disclaimer, profile checklist (5 items), 5-minute test paragraph, licence section, handover paragraph, 5 FAQ not repeating the body. Removed ~5 filler paragraphs and the three repeated 'vérification d'usage' passages. 1578 -> 1634 words.",
+   "META": "Title changed from 'Moins de 125cc au Vietnam : le guide du voyageur' to 'Moins de 125cc au Vietnam : quelles motos et quelles limites' (60 chars) and H1 identical (sync of matrix title needed if the coordinator tracks it). Description rewritten 177 -> 151 chars, factual; og:title/og:description synced; eyebrow 'Types de motos : 125 cm³ et moins'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /permis-securite/moins-de-125cc-license-vietnam/, /types-motos/50cc-ou-110cc-scooter-vietnam/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /types-motos/125cc-location-scooter-hanoi/. TOC synced (famille, pourquoi, limites, profils, essai, tarifs, reglementation, louer, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). 2 tables (families; owner rates), 2 checklists, 5 FAQ. 1 external citation (government portal)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / A above under Law 36/2024/QH15 (reused from the rewritten hub, not re-opened in this session)"
+   }
+  ],
+  "owner_gaps": [
+   "Exact cylindrée/model of the Vision and Air Blade rows (125 vs 160) to decide whether Air Blade belongs in the 125 cm3-and-under rate table."
+  ]
+ },
+ {
+  "path": "types-motos/passager-scooter-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment monter, tenir et voyager en passager sur un scooter au Vietnam (position, bagages, signaux, règle du nombre de passagers, équipement).",
+  "words_before": 1872,
+  "words_after": 1583,
+  "new_meta": {
+   "title": "Passager sur un scooter au Vietnam : position, bagages, règles",
+   "description": "Passager sur un scooter au Vietnam : monter et descendre, position des pieds et des mains, bagages, signaux avec le pilote et règle des deux personnes maximum.",
+   "h1": "Passager sur un scooter au Vietnam : position, bagages, règles"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported/mannered statements ('les Vietnamiens le prouvent à chaque carrefour', 'au quart du tour de poignée en moins', 'les consignes de sécurité locales s'appliquent' without content). Legal: one passenger maximum on a two-wheeler under Article 33 of Law 36/2024/QH15 (in force 1 Jan 2025), with exceptions (medical emergency, escort of an offender by authorities, children, elderly/disabled people) — taken from the search-result summary of hethongphapluat.com (non-official reproduction, not opened in full); the children's age limit is deliberately not stated because search results disagree (14 before 2025, 12 under the new law according to some sources): reader told to check the current rule. No fine amount stated. Helmet for rider and passenger stated as a general rule, with link to /permis-securite/casque-law-vietnam-moto-touriste/. Exhaust-burn tip and riding technique are generic safety advice, no figures. Travel insurance limits phrased as 'certains contrats'. NAP/hours used once; model availability 'se confirme avant de réserver'. No price, no deposit, no delivery statement.",
+   "INTENT": "Main question: how to ride as a passenger (or carry one) on a scooter in Vietnam? OWNER ('passager sur un scooter au Vietnam'). Closest pages: /types-motos/50cc-scooter-deux-personnes-vietnam/ (sim 0.10) and /types-motos/scooter-pour-deux-personnes-hanoi/ (the machine choice: seat, brakes, suspension) — this article deliberately covers the passenger's behaviour (mounting, position, signals, luggage, children, breaks, rule) and links to the machine guide once; no model choice here.",
+   "CONTENT": "Full rewrite. New: effect of a passenger, 4-step mount/dismount sequence, position checklist (feet, hands, legs/exhaust, gaze, balance), signals, luggage, long rides/children/fragile passengers, rules and equipment, first kilometres, 5 FAQ. Removed the 'choisir la machine' section (moved to the sibling guide) and repeated paragraphs. 1872 -> 1583 words.",
+   "META": "Title changed from 'Passager sur un scooter au Vietnam : monter à deux sans risque' (promised 'sans risque') to 'Passager sur un scooter au Vietnam : position, bagages, règles' (62 chars); H1 identical; description 159 chars, factual; og:title/og:description synced; eyebrow 'Types de motos : passager'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/scooter-pour-deux-personnes-hanoi/, /location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/, /permis-securite/deux-personnes-moto-vietnam-law/, /permis-securite/casque-law-vietnam-moto-touriste/. TOC synced (changement, monter, position, signaux, bagages, duree, regles, premiers-km, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). 1 numbered 4-step sequence, 1 position checklist, 5 FAQ. 1 external citation (hethongphapluat.com Article 33, flagged as non-official reproduction)."
+  },
+  "sources": [
+   {
+    "url": "https://hethongphapluat.com/luat-trat-tu-an-toan-giao-thong-duong-bo-2024/dieu-33",
+    "checked": "2026-10-30",
+    "used_for": "Article 33 Law 36/2024/QH15: one passenger on a two-wheeler with exceptions (seen in search result; summary only, page not opened; non-official reproduction)"
+   }
+  ],
+  "owner_gaps": [
+   "Which scooters the shop considers suitable for two adults, and any restriction on carrying children."
+  ]
+ },
+ {
+  "path": "types-motos/plus-de-125cc-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Motos de plus de 125 cm³ au Vietnam : ce que gagne et ce que coûte une cylindrée supérieure en location, avec la catégorie de permis A.",
+  "words_before": 1554,
+  "words_after": 1565,
+  "new_meta": {
+   "title": "Motos de plus de 125cc au Vietnam : ce qui change",
+   "description": "Au-dessus de 125 cm³ au Vietnam : ce que gagne et ce que coûte une cylindrée supérieure en location, catégorie de permis A, contrôles et tarif à demander.",
+   "h1": "Motos de plus de 125cc au Vietnam : ce qui change"
+  },
+  "evidence": {
+   "FACTS": "Removed the 'étage reine / catégorie reine', 'la règle de la plateforme', 'disponibilité en tendance : part spécifique des flottes' (fleet claim) and 'devis comparés' filler. Legal: Law 36/2024/QH15 (in force 1 Jan 2025): A1 up to 125 cm3, A above — same portal source as the rewritten hub; Decree 168/2024/ND-CP sentence copied from /types-motos/trail/ (sanction for driving with an IDP from a 1968-Convention country without the national licence suited to the vehicle), with its portal URL; sources reused from the hub/trail pages, not re-opened. Licence validity left to the reader's own check; insurance: 'selon les contrats'. Models used as families only (Air Blade 160, Vario 160, NVX, NMAX, Winner X, Exciter 155, WR155R), specs deferred to honda.com.vn / yamaha-motor.com.vn, no figure. ABS front-wheel-only mentioned as 'sur certains scooters' (seen in a search summary about the LEAD ABS version, not cited). Price: only the owner's Air Blade row (200 000 / 900 000 / 1 500 000 VND) with the mandatory disclaimer and the note that the row does not state the cylindrée; no rate for sport manuals/trails, explicit. NAP/hours once; caution, assurance, zone 'à confirmer'.",
+   "INTENT": "Main question: what changes above 125 cm3 for a renter (benefit, cost, permis)? OWNER. Closest: /permis-securite/125cc-plus-permis-moto-vietnam/ (licence angle, sim 0.20, linked once) and /types-motos/125cc-location-scooter-hanoi/ (sim 0.14: scooter 125 vs 150-160 duel, linked once). This article covers the whole étage (scooters, sport manuals, trails) and the permis threshold; it does not decide between two scooter classes.",
+   "CONTENT": "Full rewrite. New: three-family description + comparison table (125 vs above), licence threshold section with two government sources, programmes that justify it, handover checks for a heavier bike, what cylindrée does not change + alternative if licence does not cover category A, rate/availability section, 7 FAQ. Removed the 'rumeurs' and 'méthode' filler. 1554 -> 1565 words.",
+   "META": "Title and H1 kept ('Motos de plus de 125cc au Vietnam : ce qui change', 49 chars, matches hub anchor). Description rewritten 173 -> 154 chars, factual; og:title/og:description synced; eyebrow 'Types de motos : plus de 125 cm³'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /permis-securite/125cc-plus-permis-moto-vietnam/, /types-motos/125cc-location-scooter-hanoi/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /types-motos/trail/. TOC synced (categorie, permis, usages, controles, inchange, louer, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). 1 comparison table, 2 checklists, 7 FAQ. 2 external citations (government portal on licence categories; decree 168/2024 text)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / A above (reused from the rewritten hub, not re-opened in this session)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+    "checked": "2026-10-29",
+    "used_for": "Decree 168/2024/ND-CP sanction sentence on IDP without national licence (wording reused from /types-motos/trail/, not re-opened in this session)"
+   }
+  ],
+  "owner_gaps": [
+   "Cylindrée (125 vs 160) of the Air Blade rate row; which >125 cm3 models the shop actually rents and their indicative rates, deposit and insurance."
+  ]
+ },
+ {
+  "path": "types-motos/removable-batterie-scooter-vietnam-hotel-recharge/index.html",
+  "role": "OWNER",
+  "primary_intent": "Scooter électrique à batterie amovible au Vietnam : comment la porter et la recharger à l'hôtel, que demander à l'hébergement et au loueur, quelles précautions.",
+  "words_before": 1687,
+  "words_after": 1551,
+  "new_meta": {
+   "title": "Batterie amovible de scooter électrique : recharger à l’hôtel",
+   "description": "Scooter électrique à batterie amovible au Vietnam : porter et recharger la batterie à l’hôtel, accord de l’hébergement, sécurité et contrôles à la remise.",
+   "h1": "Batterie amovible de scooter électrique : recharger à l’hôtel"
+  },
+  "evidence": {
+   "FACTS": "Removed 'plus de veille en bas', 'une batterie dans la chambre se garde mieux que dans la rue', 'beaucoup d'hébergements l'acceptent comme un service évident', 'sans chiffre inventé / grille du comptoir' and the generic 'dossier location' paragraphs. New factual claims all qualified: (1) many Hanoi apartment buildings/guesthouses restrict or ban EV charging — seen in search results (diendandoanhnghiep.vn headline 'xe điện không gây cháy nổ vẫn bị các nhà trọ cấm sạc'; mekongasean.vn), page not opened; (2) Hanoi police advise not to charge overnight without being able to monitor the device — seen in search result (lsvn.vn), not opened; (3) Honda ICON e: described with a removable battery chargeable in the vehicle or separately — ascii.jp headline in search result (Japan), with the sentence that the Vietnamese version may differ; no Vietnam model claim and no spec figure (no weight, range or charging time). Prices: only the owner's electric row (weekly 600 000-800 000, monthly 1 500 000-1 800 000 VND, daily 'selon le modèle, à confirmer') with the mandatory disclaimer. Caution, inclusions, chargeur fourni, batterie perdue = questions to ask, none affirmed. Electric licence category depends on motor power (same as /types-motos/electrique/), linked not restated. NAP/hours once.",
+   "INTENT": "Main question: how does a removable battery work in a hotel stay and what must I ask? OWNER ('batterie amovible'). Differs from /types-motos/batterie-swap-ou-plug-a-electrique-scooter-vietnam/ (sim 0.19: swap network vs plug-in logic, linked once) and /types-motos/electrique-scooter-recharge-hanoi/ (where/how to recharge, cost; linked once) by being about carrying and charging the battery at the accommodation: permission, safety rules, three accommodation scenarios, handover checks.",
+   "CONTENT": "Full rewrite. New: principle (fixed vs removable vs swap), hotel permission section with 4 questions, 5-item safety checklist, weight/stairs, planning range/charge, 3-scenario table, when not to choose it, handover checks with owner electric rates and disclaimer, 5 FAQ. Removed ~8 abstract paragraphs. 1687 -> 1551 words.",
+   "META": "Title changed from 'Batterie amovible : la recharge à l'hôtel sans contrainte' (over-promised 'sans contrainte') to 'Batterie amovible de scooter électrique : recharger à l'hôtel' (61 chars); H1 identical; description 154 chars, factual (old 158 chars, 'sans chiffre inventé'); og:title/og:description synced; eyebrow 'Types de motos : scooter électrique'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/batterie-swap-ou-plug-a-electrique-scooter-vietnam/, /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/electrique/, /permis-securite/electrique-scooter-license-vietnam/. Dropped the old link to /types-motos/meilleur-scooter-hanoi-circulation/. TOC synced (principe, hotel, securite, poids, autonomie, scenarios, limites, remise, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). 1 scenario table, 3 checklists, 5 FAQ. 3 external citations (Honda ICON e: press item, Vietnamese press on charging bans, Hanoi police advice via lsvn.vn) flagged as press-level."
+  },
+  "sources": [
+   {
+    "url": "https://ascii.jp/elem/000/004/384/4384141/",
+    "checked": "2026-10-30",
+    "used_for": "Honda ICON e: with removable battery chargeable at home (Japan; seen in search result headline, page not opened)"
+   },
+   {
+    "url": "https://diendandoanhnghiep.vn/xe-dien-khong-gay-chay-no-van-bi-cac-nha-tro-cam-sac-251351.html",
+    "checked": "2026-10-30",
+    "used_for": "Many boarding houses ban EV charging (seen in search result headline, not opened)"
+   },
+   {
+    "url": "https://lsvn.vn/cong-an-ha-noi-khuyen-cao-bien-phap-phong-chong-chay-no-thoat-nan-khi-hoa-hoan-1716719621.html",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi police advice not to charge overnight without control (seen in search result summary, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop rents electric scooters with a removable battery, which models, charger supplied, deposit and responsibility for a lost or damaged battery."
+  ]
+ },
+ {
+  "path": "types-motos/rue-inondee-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rue inondée à moto à Hanoi : comment évaluer l'eau, quand renoncer, que faire si le moteur cale, quoi contrôler ensuite et comment détourner.",
+  "words_before": 2257,
+  "words_after": 1580,
+  "new_meta": {
+   "title": "Rue inondée à moto à Hanoi : quand s’arrêter et changer de route",
+   "description": "Rue inondée à Hanoi en saison des pluies : estimer la hauteur d’eau, quand renoncer, que faire si le moteur cale et quoi contrôler après la traversée.",
+   "h1": "Rue inondée à moto à Hanoi : quand s’arrêter et changer de route"
+  },
+  "evidence": {
+   "FACTS": "Removed vague 'sonar vivant', 'aucun chiffre absolu ne fait autorité' filler and unsupported statements about which streets drain faster. Sourced/qualified claims: (1) Hanoi rainy season roughly May to September/October with July-August peak — north-vietnam.com (seen in search result, snippet-level, approximate); (2) street flooding after heavy downpours is recurrent — en.sggp.org.vn headline 'Hanoi experiences severe flooding after first seasonal rainfall' and thesmartlocal.com 'Heavy rain drenches Hanoi during rush hours' (both seen in search results, not opened); (3) rule of thumb not to pass when water is above the wheel centre or reaches the exhaust — relayed by VOH article 'Bí kíp lái xe qua vùng ngập nước' (seen in search result; reader told it is not a manufacturer instruction and to read the model's manual). No depth in centimetres, no distance, no fine, no price. Engine-stall advice (do not restart repeatedly, push to a dry place) and post-flood checks (brakes, lights, engine, CVT, filter) are generic mechanical precautions stated without figures. Electric scooters: no waterproofing claim, reader told to rely only on the manufacturer's information. Insurance/contract: 'dépend du contrat', questions only; no assistance or fleet promise. NAP/hours used once.",
+   "INTENT": "Main question: when should I stop or turn back in a flooded Hanoi street on a motorbike, and what do I do if I cross? OWNER ('rue inondée à moto à Hanoi'). Closest pages (hanoi-photo-spots-moto, ha-long, sapa; sim <= 0.12) are travel pages, not overlapping. Related siblings: /types-motos/scooter-abs-vietnam-pluie/ (braking on wet roads) and /permis-securite/moto-pluie-securite-vietnam/ (rain riding) are linked once each; this page owns the flooded-street decision and aftermath.",
+   "CONTENT": "Full rewrite. New: why streets flood (season, low points), 5-point reading checklist, stop-signal table, 6-step crossing sequence, stall procedure, after-crossing checks and contract note, detour/wait, rainy-season rental prep with NAP, 6 FAQ. 7 abstract sections replaced by concrete ones; see words_before/words_after.",
+   "META": "Title and H1 kept (63-64 chars, clear and matches the matrix). Description rewritten (factual, 150 chars) replacing 'rue en miroir' wording; og:title/og:description synced; eyebrow 'Types de motos : pluie et rues inondées'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/scooter-abs-vietnam-pluie/, /permis-securite/moto-pluie-securite-vietnam/, /location-moto-hanoi/location-moto-hanoi-pluie-season/, /location-moto-hanoi/panne-scooter-hanoi/. TOC synced (mousson, lire, signaux, traverser, cale, apres, detour, preparer, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). 1 signal table, 1 numbered sequence, 2 checklists, 6 FAQ. 4 external citations (climate guide, 2 press items, VOH article), all flagged approximate/press-level."
+  },
+  "sources": [
+   {
+    "url": "https://north-vietnam.com/weather-temperatures-rainfalls-in-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi rainy season about May-September/October, peak July-August (seen in search result, approximate)"
+   },
+   {
+    "url": "https://en.sggp.org.vn/hanoi-experiences-severe-flooding-after-first-seasonal-rainfall-post117332.html",
+    "checked": "2026-10-30",
+    "used_for": "Street flooding after seasonal rainfall in Hanoi (headline-level, seen in search result)"
+   },
+   {
+    "url": "https://thesmartlocal.com/vietnam/hanoi-rain-floods/",
+    "checked": "2026-10-30",
+    "used_for": "Heavy rain during rush hours in Hanoi (headline-level, seen in search result)"
+   },
+   {
+    "url": "https://voh.com.vn/xa-hoi/bi-kip-lai-xe-qua-vung-ngap-nuoc-215221.html",
+    "checked": "2026-10-30",
+    "used_for": "Rule of thumb: do not cross when water exceeds wheel centre (snippet-level; not a manufacturer rule)"
+   }
+  ],
+  "owner_gaps": [
+   "What the shop does when a rented bike is immobilised by a flood (who is contacted, who bears repair), and whether electric models are rented in the rainy season."
+  ]
+ },
+ {
+  "path": "types-motos/scooter-abs-vietnam-pluie/index.html",
+  "role": "OWNER",
+  "primary_intent": "ABS sur un scooter sous la pluie au Vietnam : à quoi il sert, ce qu'il ne fait pas, comment freiner sur mouillé, comment trouver et vérifier un scooter à ABS en location.",
+  "words_before": 1776,
+  "words_after": 1584,
+  "new_meta": {
+   "title": "ABS sous la pluie au Vietnam : vraiment utile ?",
+   "description": "ABS sur un scooter sous la pluie au Vietnam : ce qu’il fait, ce qu’il ne fait pas, comment freiner sur chaussée mouillée et que contrôler sur la machine louée.",
+   "h1": "ABS sous la pluie au Vietnam : vraiment utile ?"
+  },
+  "evidence": {
+   "FACTS": "Removed 'La grille du comptoir', 'Côté réglementation et contrat' and the assertive list of contract lines. ABS/CBS explanations are general mechanics (wheel-lock prevention, no added grip, may lengthen stopping on loose surfaces, not for hard braking while leaned), no distance or percentage figure. 'Sur certains scooters de 125 cm3, l'ABS ne protège que la roue avant' is phrased as 'certains' and deferred to the loueur and the manufacturer's sheet (seen in a search summary about the LEAD ABS version; no URL cited, no model-year claim). The LEAD ABS is mentioned only as a family reference with a link to the site's model page, with 'vérifiez sur l'exemplaire loué'. No ABS price premium is stated (the owner table has no ABS row): 'aucun tarif indicatif propre à l'ABS n'est publié'. Availability, caution and inclusions 'à confirmer'. No legal claim. NAP/hours used once.",
+   "INTENT": "Main question: is ABS really useful on a rented scooter in Vietnamese rain? OWNER ('ABS sous la pluie au Vietnam'). Closest pages: /permis-securite/moto-pluie-securite-vietnam/ (sim 0.20: rain riding conduct, linked once), hanoi-musees-jour-pluie (sim 0.17, irrelevant), /location-moto-hanoi/location-moto-hanoi-pluie-season/ (0.15: rainy-season rental). This page owns the ABS question: function, limits, who benefits, braking technique with/without ABS, how to find and test it.",
+   "CONTENT": "Full rewrite. New: what ABS does and CBS difference, why rain changes braking, limits list, profile table (who benefits), non-ABS factors (tyres, visibility, clothing), 6-step braking sequence, finding an ABS scooter, pre-signing checks incl. warning light, 6 FAQ. Removed the 'grille du comptoir' and 'réglementation' filler. 1.4-1.6k words; see words_before/words_after.",
+   "META": "Title and H1 kept ('ABS sous la pluie au Vietnam : vraiment utile ?', 47 chars). Description rewritten (factual, 159 chars); og:title/og:description synced; eyebrow 'Types de motos : ABS et pluie'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /permis-securite/moto-pluie-securite-vietnam/, /types-motos/abs-ou-cbs-scooter-vietnam-location/, /honda/honda-lead-abs-location-hanoi/, /types-motos/rue-inondee-moto-hanoi/. Dropped /yamaha/yamaha-grande-ou-honda-lead-abs-location/. TOC synced (abs, pluie, limites, profils, equipement, technique, location, essai, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). 1 profile table, 3 lists (limits, equipment, checks) + 1 numbered sequence, 6 FAQ. No external citation (no precise legal or manufacturer figure stated)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which scooters in the shop's range have ABS (and on which wheel), and their rates."
   ]
  }
 ]

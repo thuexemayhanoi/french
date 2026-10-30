@@ -1,5 +1,216 @@
 [
  {
+  "path": "honda/honda-vario-125-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment le Honda Vario 125 se comporte-t-il dans le trafic de Hanoi (atouts, limites, réflexes) ?",
+  "new_meta": {
+   "description": "Le Honda Vario 125 en ville à Hanoi : ce qu’il apporte par rapport à un Vision, comment il passe dans les ruelles, les ponts et la pluie, et ses limites."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit/delivery sentences (the old text mentioned shop-side conditions and delivery). No price except the category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and the statement that the Vario 125 has no own row. Shop address/ngõ context used only as location colour (Ngõ 5 Nguyễn Văn Cừ, Long Biên) per SEO-FACTS. Comparison table Vision/Vario/Air Blade/SH Mode is qualitative and mirrors honda/scooters hub (gabarit Vario proche de l’Air Blade, SH Mode grandes roues). No specs, distances, fines. Parking: gửi xe described as « gardiennage payant », no amount.",
+   "INTENT": "Main question: comment le Vario 125 se conduit-il dans le trafic de Hanoi ? Owner of « honda Vario 125 dans le trafic de Hanoi » (OWNER; closest sh-mode-125-hanoi-ville 0.70, sh125i-hanoi-ville 0.67 are other models). Differs from honda-vision-hanoi-ville and the SH pages by focusing on what a mid-size sporty scooter changes (length/weight, ruelles/ngõ, bridges, parking, two-up) rather than the compact-scooter basics.",
+   "CONTENT": "Full rewrite; removed the « dessin actuel / se juge à l’essai / verdict en une phrase » prose and the repeated references to the portrait page. New: what changes vs a small scooter (4 bullets), 4-situation table, ruelles/ngõ, parking, two-up, rain/night, 6 numbered habits, 4-model comparison table, city-specific checks, limits, budget repère, 4 FAQ. Words 1620 -> see words_after.",
+   "META": "Title and H1 kept (59 chars). Description rewritten (153 chars) to name the concrete topics; og:description synced; eyebrow simplified.",
+   "LINKS": "6/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vario-125-location-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/, /types-motos/scooter-automatique/.",
+   "AEO_GEO": "Direct answer in lead. 4 FAQ items on distinct points (centre, Vieux Quartier, puissance, garage). 2 tables, numbered habits list, 2 checklists. No external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether an antivol/helmet is supplied is unconfirmed; phrased as supplied-if-the-shop-has-one."
+  ],
+  "words_before": 1620,
+  "words_after": 1559
+ },
+ {
+  "path": "honda/honda-vario-125-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel voyageur louer un Honda Vario 125 à Hanoi convient-il ?",
+  "new_meta": {
+   "title": "Honda Vario 125 en location à Hanoi : pour quel voyageur ?",
+   "description": "Le Honda Vario 125 se place entre le Vision et les SH : gabarit moyen, allure sportive. Pour qui, quelles limites, quel repère de tarif et quoi vérifier."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged insurance_assistance/deposit sentences and the vague « où vérifier la disponibilité » FAQ; the availability question now says it is asked with dates and confirmed in writing (shop phone/Zalo/WhatsApp and hours exactly as SEO-FACTS), no stock promise. No own owner row for the Vario: only the category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and « pas tarif du Vario 125 ». Contract conditions (caution éventuelle, papiers, panne, sortie de Hanoi) phrased as points to confirm. No specs; gabarit « proche de l’Air Blade » and coffre « taille moyenne, à vérifier » follow honda/scooters hub. Sourced claim: Vario circulated as an import from Indonesia and Honda Vietnam's own version is marketed against imported machines (Tuổi Trẻ, 22 Dec 2022, seen in search result).",
+   "INTENT": "Main question: pour qui le Vario 125 convient-il en location à Hanoi ? Owner of « honda Vario 125 en location à Hanoi » (OWNER; closest yamaha-lexi-ou-honda-vario-125 0.57, vario-125-ou-yamaha-freego 0.57). Differs from honda-vario-125-prix-location-hanoi (reading durations/quotes), -hanoi-ville (driving) and -longue-distance by being the suitability profile with 3 usage scenarios and alternatives.",
+   "CONTENT": "Full rewrite; removed the mannered « dessin actuel / vocation urbaine sans ostentation / se juge à l’essai » prose and the references to the SH Mode page. New: profile table, position in the Honda range, size/prise en main test, passenger/rangement, limits (descents, rough roads, ruelles, rain, load), 3 scenarios, alternatives, repère price table, 7-point checklist, 4 FAQ. Words 1635 -> see words_after.",
+   "META": "Title adjusted from « …: pour qui ? » to « …: pour quel voyageur ? » (58 chars); H1 kept; description rewritten (153 chars) factual; og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/scooters/, /honda/honda-vario-160-location-hanoi/, /honda/honda-vario-125-prix-location-hanoi/, /types-motos/scooter-automatique/. Dropped sh-mode-125-location and meilleur-scooter-hanoi-circulation links.",
+   "AEO_GEO": "Direct answer in lead (entre Vision et SH; ville et routes plates; pas de montagne; pas de tarif propre). 4 FAQ items on distinct points. 1 profile table, 1 repère price table, 3 lists. One external citation (Tuổi Trẻ)."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitre.vn/honda-vario-160-ra-mat-viet-nam-gia-tu-51-7-trieu-dong-hang-khang-dinh-hon-hang-nhap-20221222093419862.htm",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vietnam's Vario launch (22 Dec 2022) presented against imported machines; Vario previously imported from Indonesia (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which Vario version/origin/year the shop offers, and whether it has a Vario at all, is unknown; kept as questions."
+  ],
+  "words_before": 1635,
+  "words_after": 1581
+ },
+ {
+  "path": "honda/honda-vario-125-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Jusqu’où partir de Hanoi avec un Honda Vario 125 (excursions, week-ends) et où il atteint ses limites.",
+  "new_meta": {
+   "description": "Le Honda Vario 125 convient aux excursions d’une journée et aux week-ends sur routes de plaine, pas aux grands cols. Itinéraires, rythme, charge et préparation."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit sentence from the old text. Roadside help, leaving Hanoi and papers are phrased as questions to ask the shop; the incident section gives generic safe steps and explicitly asks who pays before a major repair (no assistance promised). Licence: « la réponse dépend de votre permis, de son pays d’émission et du véhicule ; vérifiez auprès des sources officielles » only. Price: category repère « scooter automatique » with the mandatory disclaimer; the Vario 125 has no own row (stated). No distances, driving times, tank/range figures or specs; itinerary table qualitative (Ninh Binh/Tam Coc/Trang An, Ha Long, Ba Vi, Mai Chau, Pu Luong, Ha Giang, Cao Bang, Mu Cang Chai, Sapa) consistent with honda/scooters hub (« scooter de 125 ou 160 cm³ en bon état … Ninh Binh ou Ba Vi »; variator descents). Seasonal remarks generic.",
+   "INTENT": "Main question: jusqu’où partir de Hanoi avec un Vario 125 ? Owner of « honda Vario 125 et longue distance » (OWNER; closest sh-mode-125-longue-distance 0.73 is another model, vario-160-longue-distance 0.47). Differs from honda-vision-longue-distance by the extra margin of a mid-size scooter (weekend of two days, hills), and from the Vario 160 page by the 125's lower reserve with passenger.",
+   "CONTENT": "Full rewrite; removed the « le cadre développé pour le SH Mode se transpose ici » and « se réconcilient à une condition » prose. New: itinerary table (5 rows), why mountains are a problem (variator, surfaces), rhythm/stages, load/passenger, 2-day Ninh Binh template, common mistakes, preparation checklist, breakdown steps, budget repère, 4 FAQ. Words 1656 -> see words_after.",
+   "META": "Title and H1 kept (63 chars); description rewritten (160 chars); og:description synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vario-125-location-hanoi/, /honda/honda-vario-160-longue-distance-vietnam/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /permis-securite/moto-breakdown-vietnam-location/. Dropped sh-mode-125-longue-distance and the journaliere-hebdomadaire link.",
+   "AEO_GEO": "Direct answer in the lead (plaine et collines douces oui, cols non). 4 FAQ items. 1 itinerary table, 4 lists incl. weekend template. No external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether a rental may leave Hanoi, zone/kilometre limits and breakdown handling are unconfirmed; kept as questions."
+  ],
+  "words_before": 1656,
+  "words_after": 1548
+ },
+ {
+  "path": "honda/honda-vario-125-ou-yamaha-freego-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Vario 125 ou Yamaha FreeGo : lequel louer à Hanoi (usage urbain, confort, rangement, équipements, tarifs indicatifs) ?",
+  "new_meta": {
+   "description": "Vario 125 ou FreeGo à Hanoi : usage urbain, confort, rangement, équipements à vérifier et tarifs indicatifs à confirmer, pour choisir la machine proposée."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit/insurance_assistance sentences; contract conditions now appear once, in the decision checklist, as « caution éventuelle… chaque loueur a ses règles ». Neither model has an owner row: category repère « scooter automatique » only, with the mandatory disclaimer and « ne fixe le prix d’aucun des deux ». No specs, no seat height/weight/displacement beyond the model name. FreeGo: presented by Yamaha Motor Vietnam in April 2019 (VTC News title/date seen in search result); versions with Stop & Start, smart key and ABS reported by Vietnamese press (search summary) and phrased as « selon la presse… ne le supposez pas, demandez la version ». Vario: Indonesian import before Honda Vietnam's own version (consistent with honda/scooters hub and Tuổi Trẻ item seen in search). Equipment explanations (smart key, Stop & Start, ABS light) are generic how-to-check advice.",
+   "INTENT": "Main question: Vario 125 ou FreeGo, lequel louer à Hanoi ? Owner of « honda vario 125 ou yamaha freego » (OWNER; angle: comparatif général usage urbain, confort, rangement, prise en main, tarifs indicatifs à confirmer). Closest page yamaha-lexi-ou-honda-vario-125-location (0.75) stays a separate URL; this page keeps the general FreeGo comparison and decision method.",
+   "CONTENT": "Full rewrite; removed the « deux modernes sous la loupe / comparer les usages avant les machines » prose and cross-references to other dossiers. New: qualitative comparison table, who they are (sourced FreeGo), equipment checklist, usage (city/plain/mountain), two-up, repère price table, profile-based first-look table, request photos of the exact machine, 5 common mistakes, 6-step decision list, 4 FAQ. Words 1607 -> see words_after.",
+   "META": "Title and H1 kept (57 chars); description rewritten (154 chars) to state the real criteria; og:description synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /yamaha/, /honda/honda-vario-125-location-hanoi/, /honda/honda-vario-160-ou-yamaha-nvx-location/, /types-motos/scooter-automatique/. Dropped sh-mode-125-ou-yamaha-grande.",
+   "AEO_GEO": "Direct answer in lead (même usage, choisir sur la machine proposée, équipements à vérifier, pas de tarif propre). 4 FAQ items (prix, clé intelligente, Stop & Start/ABS, petite taille). 3 tables, 3 lists. One external citation (VTC News 2019)."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/yamaha-freego-chinh-thuc-ra-mat-tai-viet-nam-chua-co-gia-ban-d468262.html",
+    "checked": "2026-10-30",
+    "used_for": "FreeGo presented in Vietnam in April 2019 (title and 10/04/2019 date seen in search result); equipment details kept as « selon la presse, à vérifier »"
+   }
+  ],
+  "owner_gaps": [
+   "Which FreeGo/Vario versions (smart key, Stop & Start, ABS, year) the shop offers is unknown; kept as questions."
+  ],
+  "words_before": 1607,
+  "words_after": 1537
+ },
+ {
+  "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel prix et quelle formule (jour, semaine, mois) pour louer un Honda Vario 125, et comment lire une offre ?",
+  "new_meta": {
+   "description": "Le Vario 125 n’a pas de tarif propre chez Thuê xe máy Nguyễn Hà : repère de catégorie, comparer jour, semaine et mois, questions à poser avant de réserver."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit/insurance_assistance/fleet_promise sentences and the invented-looking claim that « le prix du Vario 125 se construit boutique par boutique ». Vario 125 has no owner row: category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) and the Vision and Air Blade own rows shown only as scale, each with « ne déduisez pas le prix du Vario » and the mandatory disclaimer. Note: Air Blade is cheaper than Vision at week/month per owner rows (stated, no derived package); Vision rows sit at the top of the category range for week and month (FAQ). The derived per-day figure for the Vision was removed after the checker flagged it; the page now only says to compare the week rate with seven times the day rate. Market observations phrased as general (« chez les loueurs en général »); deposit, fuel, extension, leaving Hanoi appear only as questions. No exchange rate given; euro conversion left to the reader's bank rate. Contact data exactly as SEO-FACTS.",
+   "INTENT": "Main question: combien coûte et quelle durée choisir pour un Vario 125 ? Owner of « prix du Honda Vario 125 en location » (OWNER; closest wave-rsx/vision/vario-160 prix pages 0.60). Differs from the model pages by focusing on how to read, compare and confirm a quote (method, duration table, traps, questions, sample message), not on the model.",
+   "CONTENT": "Full rewrite; removed « le prix se construit durée par durée », « portrait tarifaire », hub/page-process wording and generic filler. New: repère table (3 rows), comparison method, duration table, factors that move a quote, 8 questions (ordered list), traps list, sample booking message, other costs, 4 FAQ (Vision comparison, week vs day, euros, fuel). Words 1632 -> see words_after.",
+   "META": "Title and H1 kept (61 chars, question form, no price promised); description rewritten (155 chars) to say upfront that no own rate exists; og:description synced; eyebrow simplified.",
+   "LINKS": "6/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vario-125-location-hanoi/, /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/, /prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/.",
+   "AEO_GEO": "Direct answer in lead (pas de tarif propre ; repère de catégorie; méthode). 4 FAQ items (Vision vs Vario, semaine vs jour, euros, carburant). 2 tables, 3 lists incl. ordered question list. No external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "No Vario 125 row, no rule on prolongation/fuel/deposit/leaving Hanoi: all phrased as questions to ask the shop."
+  ],
+  "words_before": 1632,
+  "words_after": 1626
+ },
+ {
+  "path": "honda/honda-vario-160-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel conducteur louer un Honda Vario 160 à Hanoi convient-il (et en quoi diffère-t-il du 125) ?",
+  "new_meta": {
+   "description": "Le Honda Vario 160 apporte plus de réserve qu’un 125 à deux et sur les grands axes. Profils, limites, tarif à confirmer et points à vérifier avant de louer."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit/insurance_assistance/legal/fleet_promise sentences (including the old « disponible chez tous les loueurs ? » FAQ). No owner row for the Vario 160: category repère « scooter automatique » only, with the mandatory disclaimer and « ne vaut pas devis ». The launch purchase price (51,7 millions de VND, Tuổi Trẻ) is explicitly flagged as not a rental rate. Sourced launch facts (seen in search results): Honda Vietnam presented the Vario 160 on 22 Dec 2022, price from 51,7 M VND, marketed against imported machines, version announced with ABS (Tuổi Trẻ 22/12/2022); positioned under the SH (Tuổi Trẻ 07/12/2022); aimed at young sporty riders (Báo Đầu tư); press describes a 160 cm³ engine close to the Air Blade 160's (no figures given). No specs, distances or fines. Shop contact data exactly as SEO-FACTS; availability phrased as « se demande avec vos dates ».",
+   "INTENT": "Main question: pour quel conducteur le Vario 160 convient-il en location ? Owner of « honda Vario 160 en location » (OWNER; closest vario-160-ou-yamaha-nvx 0.50, vario-125-location 0.50, air-blade-160-location 0.50). Differs from vario-125-location by the 125-vs-160 table and the two-up/grand-axe use; from the NVX and price pages by being the profile page.",
+   "CONTENT": "Full rewrite; removed the « le nom raconte / entre-deux assumé / examiner comme une proposition » prose. New: profile table, what the 160 is (sourced), 125-vs-160 table, size/ABS check, two-up, limits, 3 scenarios, alternatives, repère price table, 7-point checklist, 4 FAQ. Words 1730 -> see words_after.",
+   "META": "Title and H1 kept (60 chars); description rewritten (156 chars) to state the concrete benefit and caveats; og:description synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vario-125-location-hanoi/, /honda/honda-vario-160-prix-location-hanoi/, /honda/honda-vario-160-longue-distance-vietnam/, /honda/honda-vario-160-ou-yamaha-nvx-location/. Dropped air-blade-160-location, automatique-location-scooter-hanoi-prix and meilleur-moto-montagne links.",
+   "AEO_GEO": "Direct answer in the lead. 4 FAQ items (débutant, 125 vs 160, disponibilité, quitter Hanoi). 3 tables, 3 lists. Three external citations (Tuổi Trẻ ×2, Báo Đầu tư)."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitre.vn/honda-vario-160-ra-mat-viet-nam-gia-tu-51-7-trieu-dong-hang-khang-dinh-hon-hang-nhap-20221222093419862.htm",
+    "checked": "2026-10-30",
+    "used_for": "Vario 160 launch in Vietnam 22 Dec 2022, price from 51,7 M VND, ABS version, positioned against imports (seen in search result)"
+   },
+   {
+    "url": "https://tuoitre.vn/xe-may-honda-vario-moi-ra-mat-giua-thang-12-dinh-vi-duoi-phan-khuc-sh-20221207112130988.htm",
+    "checked": "2026-10-30",
+    "used_for": "Vario positioned below the SH segment (seen in search result)"
+   },
+   {
+    "url": "https://baodautu.vn/nham-vao-nam-gioi-gen-z-honda-viet-nam-tung-ra-vario-160cc-d180790.html",
+    "checked": "2026-10-30",
+    "used_for": "Vario 160 aimed at young, sporty riders (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop has a Vario 160, which version/origin, and its rental rate are unknown; kept as questions."
+  ],
+  "words_before": 1730,
+  "words_after": 1557
+ },
+ {
+  "path": "honda/honda-vario-160-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle formule (jour, semaine, mois) choisir pour louer un Honda Vario 160, et comment confirmer le tarif ?",
+  "new_meta": {
+   "description": "Pas de tarif propre pour le Vario 160 chez Thuê xe máy Nguyễn Hà : repère de catégorie, formule selon la durée du séjour et questions à poser avant de réserver."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit/insurance_assistance/delivery/legal sentences and the vague « louer, c’est d’abord choisir une durée » prose. The Vario 160 has no owner row: category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and the explicit statement that it may not cover a recent scooter. The 51,7 M VND figure is the launch purchase price (Tuổi Trẻ, 22 Dec 2022, seen in search result) and is flagged as not a rental rate. Vision and Air Blade rows are quoted as their own owner rows (Air Blade cheaper than Vision at month; Air Blade row does not state the displacement - ask), no derived package. Deposit, payment, refund on early return, papers, fuel, leaving Hanoi appear only as questions (« ne sont pas confirmés ici », « chaque loueur a ses règles »). Contact data exactly as SEO-FACTS.",
+   "INTENT": "Main question: jour, semaine ou mois pour un Vario 160, et quel prix ? Owner of « honda Vario 160 » (OWNER; closest vario-125-prix 0.60, air-blade-160-prix 0.58). Differs from vario-125-prix-location by organising the decision by stay type (3 days, 10 days, 1 month, 2 months), the 160-vs-125 price question and a comparison grid, and from vario-160-location-hanoi (profile) by being about quotes.",
+   "CONTENT": "Full rewrite; removed the abstract « durée change la conversation plus que le modèle », « la méthode du portrait tarifaire » wording. New: repère table with sourced purchase-price caveat, stay-type table, 3-step comparison, 160 vs 125 price question, Vision/Air Blade own-row table, fill-in comparison grid, conditions list, extend/early-return questions, other costs, 4 FAQ. Words 1722 -> see words_after.",
+   "META": "Title and H1 kept (61 chars); description rewritten (160 chars) to say no own rate exists; og:description synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vario-160-location-hanoi/, /honda/honda-vario-125-prix-location-hanoi/, /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/, /prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/. Dropped mensuelle-location-moto-economies-hanoi.",
+   "AEO_GEO": "Direct answer in the lead (pas de tarif propre; choisir selon la durée; total confirmé). 4 FAQ items (prix, mois vs semaines, paiement à l’avance, réservation). 3 tables + fill-in grid, 2 lists. One external citation (Tuổi Trẻ)."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitre.vn/honda-vario-160-ra-mat-viet-nam-gia-tu-51-7-trieu-dong-hang-khang-dinh-hon-hang-nhap-20221222093419862.htm",
+    "checked": "2026-10-30",
+    "used_for": "Vario 160 launch in Vietnam in December 2022 with a purchase price from 51,7 M VND (not a rental rate) (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "No Vario 160 row; deposit, payment, early-return refund, extension and leaving-Hanoi rules are unconfirmed and phrased as questions."
+  ],
+  "words_before": 1722,
+  "words_after": 1581
+ },
+ {
+  "path": "honda/honda-vision-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit un Honda Vision dans la circulation de Hanoi : avantages, limites, habitudes à prendre.",
+  "new_meta": {
+   "description": "Comment se comporte le Honda Vision dans le trafic de Hanoi : manœuvres, carrefours, stationnement, pluie, et les cas où sa petite taille devient une limite."
+  },
+  "evidence": {
+   "FACTS": "No price other than the owner Vision row (200 000 / 1 000 000 / 2 000 000 VND) with the mandatory disclaimer. Address/hours exactly as in SEO-FACTS (journée type section). No specs, no fines/rules, no distances or driving times. Parking: gửi xe described as « gardiennage payant » without any amount; « certains emplacements interdisent le stationnement » kept generic. Helmet: points to checking official sources, no rule asserted. Bridges (Long Biên, Chương Dương, Vĩnh Tuy, Nhật Tân) named as the Red River crossings from Long Biên, no claim on access rules for two-wheelers. Removed the unsupported blanket statements about the Vision (small wheels « filtrent mal » kept only as qualitative for urban scooters).",
+   "INTENT": "Main question: comment le Vision se comporte-t-il dans le trafic de Hanoi ? Owner of « conduire un Honda Vision dans la circulation de Hanoi » (OWNER; closest pages super-cub-c125-hanoi-ville 0.45, air-blade-125-hanoi-ville 0.40 are other models). Differs from honda-vision-location-hanoi (suitability profile) by being about riding situations: junctions, parking, bridges, rain, first-day habits.",
+   "CONTENT": "Full rewrite; removed the abstract « le terrain d’abord », « verdict en trois temps », « mission urbaine » framing and the sentence « cette page complète le hub ». New sections: what traffic asks of a scooter, 4 strengths, junction/angles-morts tips, parking, chaussée/ponts/pluie, journée type depuis Long Biên, limits, 5 habits (ordered list), budget line, 4 FAQ. Words 1728 -> see words_after.",
+   "META": "Title and H1 kept (64 chars, no promise). Description rewritten (157 chars) to name concrete topics; og:description synced. Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub, required), /types-motos/ and /prix-location/ (required), /honda/honda-vision-location-hanoi/, /honda/scooters/, /permis-securite/securite/, /types-motos/meilleur-scooter-hanoi-circulation/. Dropped /types-motos/scooter-automatique/.",
+   "AEO_GEO": "Direct answer in lead (facile en ville, limites à deux/bagages/rampes/pluie). 4 FAQ items (heures de pointe, stationnement, pluie, casque). 2 checklists (bullets + numbered habits), journée type list. No external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether the shop supplies an antivol and a helmet is unconfirmed; phrased as a question to ask."
+  ],
+  "words_before": 1728,
+  "words_after": 1722
+ },
+ {
   "path": "honda/honda-vision-location-hanoi/index.html",
   "role": "OWNER",
   "primary_intent": "Pour quel type de voyageur louer un Honda Vision à Hanoi convient-il (et pour qui non) ?",
@@ -20,5 +231,61 @@
   ],
   "words_before": 1629,
   "words_after": 1537
+ },
+ {
+  "path": "honda/honda-vision-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda Vision est-il adapté aux longues distances au départ de Hanoi, et pour quelles sorties ?",
+  "new_meta": {
+   "title": "Honda Vision et longues distances : peut-on quitter Hanoi ?",
+   "description": "Le Honda Vision peut faire une excursion d’une journée sur route plane, pas une boucle de montagne. Confort, freins, charge, itinéraires et préparation."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged deposit sentence (« formalités… dépôt ») and the unsupported claims about the shop's preparation of the exemplar. Roadside help, leaving Hanoi, papers and kilometre/zone limits are phrased as points to ask the shop before booking, never as policies; the breakdown guide link supports the conversation. Price: only owner Vision row + mandatory disclaimer. No distances, driving times, fuel-tank/range figures, fines or specs; itinerary table is qualitative (Ninh Binh, Ba Vi, Mai Chau, Pu Luong, Ha Giang, Cao Bang, Sapa named without distances). Weather: generic seasonal remarks only. Consistent with honda/index.html and honda/scooters hubs (variator descents; semi-auto for mountain loops).",
+   "INTENT": "Main question: le Vision convient-il aux longues distances depuis Hanoi ? Owner of « le Honda Vision est-il adapté aux longues distances » (OWNER; closest vario-160 / air-blade-160 longue-distance sim 0.50 are other models). Differs from honda-vision-location-hanoi (profile) and -hanoi-ville (urban riding) by giving an itinerary-by-itinerary verdict, descent/brake logic, in-trip checks and alternatives.",
+   "CONTENT": "Full rewrite; removed the abstract « une question d’usage, pas de marque », « cahier des charges », the three-questions rule and the closing « merveilleux outil urbain auquel il faut dire merci ». New: itinerary table (5 rows), saddle hours, variator/brakes/descents, load/passenger/roads, alternatives (4 options), one-day excursion checklist, in-trip checks, two-up rules, season/weather, budget, 3 FAQ. Words 1618 -> see words_after.",
+   "META": "Title shortened from 65 to 58 chars and made question-led (« peut-on quitter Hanoi ? »); description rewritten (152 chars, the old one had a typo « Règnant »); og:title/og:description synced. H1 kept. Eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub, required, in body), /types-motos/ and /prix-location/ (required), /honda/honda-vision-location-hanoi/, /types-motos/semi-automatique/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /permis-securite/moto-breakdown-vietnam-location/. Dropped /types-motos/trail/ and /honda/scooters/.",
+   "AEO_GEO": "Direct answer in lead (journée sur plaine oui, boucle de montagne non). 3 FAQ items (jusqu'où, entretien, Ha Giang). 1 itinerary table, 3 checklists. No external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether a rental may leave Hanoi, breakdown handling and kilometre/zone limits are unconfirmed; phrased as questions."
+  ],
+  "words_before": 1618,
+  "words_after": 1609
+ },
+ {
+  "path": "honda/honda-vision-ou-yamaha-janus-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Vision ou Yamaha Janus : lequel louer à Hanoi (usage urbain, confort, rangement, prise en main, tarifs indicatifs) ?",
+  "new_meta": {
+   "description": "Vision ou Janus à Hanoi : gabarit, rangement, confort du passager, Stop & Start, tarifs indicatifs à confirmer et critères pour choisir la machine proposée."
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged insurance/assistance and deposit lines. Remaining mentions of caution/papiers/procédure are explicitly « éventuelle / à demander / chaque loueur a ses règles », never shop policy. Prices: Vision owner row + category repère « scooter automatique » for the Janus (no own row) with the mandatory disclaimer and « ne vaut pas devis ». No displacement, power, weight or seat-height figures (no manufacturer spec seen). Janus facts: launched in Vietnam in 2016 as Yamaha's first model with Stop & Start (Yamaha Motor press release, seen in search result); newer generation launched late 2024 and Stop & Start only on some versions « selon la presse vietnamienne » (Báo Quốc tế result, details from search summary – phrased conditionally and presented as point to verify). Vision keyless/classic key stated only as « à vérifier selon la version » (versions with smart key seen in listings). Removed the unsupported claim that the Vision lacks Stop & Start.",
+   "INTENT": "Main question: Vision ou Janus, lequel louer à Hanoi ? Owner of « honda vision ou yamaha janus location » (OWNER, angle: comparatif général usage urbain, confort, rangement, prise en main, tarifs indicatifs). Closest pages are Yamaha-side duels (yamaha-latte-ou-honda-vision 0.71, yamaha-janus-125-ou-honda-vision 0.60, yamaha-mio-ou-honda-vision 0.62), which stay as separate URLs; this page keeps the general comparison and the decision criteria.",
+   "CONTENT": "Full rewrite. Removed the generic « il n’existe pas de meilleur » style paragraphs and the SEO-process wording. New: qualitative comparison table, the two scooters with sourced Janus facts, identical sit test for both, Stop & Start explained, rangement/passager, entretien, how to compare two quotes, common pre-departure checks, price table with repère, when to prefer which, 4 FAQ. Words 1561 -> see words_after.",
+   "META": "Title and H1 kept (59 chars, natural, no promise). Description rewritten (156 chars) to list the real criteria; og:description synced. Eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /yamaha/, /honda/honda-vision-location-hanoi/, /honda/honda-vision-hanoi-ville/, /types-motos/scooter-automatique/. External: Yamaha Motor press release (2016), Báo Quốc tế (2025 Janus).",
+   "AEO_GEO": "Direct answer in lead (écart mince, choisir selon la machine; Vision par défaut pour un premier séjour). 4 FAQ items on distinct points (tarif Janus, Stop & Start, fiabilité par marque, petite taille). 1 comparison table, 1 price table, 3 checklists. Two external citations."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.mynewsdesk.com/pressreleases/yamaha-motor-launches-janus-scooter-for-vietnam-new-model-features-ymcs-first-stop-and-start-system-1514521",
+    "checked": "2026-10-30",
+    "used_for": "Janus launched in Vietnam in 2016 with Yamaha's first Stop & Start system (seen in search result)"
+   },
+   {
+    "url": "https://baoquocte.vn/can-canh-yamaha-janus-125-2025-ra-mat-tai-viet-nam-gia-tu-27-trieu-dong-301749.html",
+    "checked": "2026-10-30",
+    "used_for": "Newer Janus 125 generation launched in Vietnam (late 2024/2025); version-dependent Stop & Start phrased as press report to verify (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which Vision/Janus versions (smart key, Stop & Start, year) the shop actually offers is unknown; kept as points to ask."
+  ],
+  "words_before": 1561,
+  "words_after": 1629
  }
 ]

@@ -3,7 +3,7 @@
   "path": "location-moto-hanoi/location-moto-hoan-kiem/index.html",
   "role": "OWNER",
   "words_before": 2128,
-  "words_after": 2196,
+  "words_after": 2042,
   "primary_intent": "Louer une moto pour séjourner ou rouler à Hoan Kiem (centre autour du lac) : où prendre la moto, quand rouler, où se garer.",
   "new_meta": {
    "description": "Louer une moto pour le centre de Hanoi : retrait à Long Biên, heures creuses, interdiction des motos autour du lac le soir du week-end, stationnement."
@@ -11,7 +11,7 @@
   "evidence": {
    "FACTS": "Removed 'règle du site / aucune adresse inventée' wording and the claim that the shop could deliver/hand over at the lisière (invented method). Shop located in Long Biên (Ngõ 5 Nguyễn Văn Cừ, near Bến xe Gia Lâm), 09:00-21:00; delivery stated as not announced, to be confirmed in writing (hotel handover, slot, fees). Day prices only from the owner table (scooter/semi 150 000-200 000, Vision 200 000, Air Blade 200 000, electric 'selon le modèle') with the mandatory disclaimer; no weekly/monthly derivation. Added the Hoàn Kiếm low-emission-zone pilot (from 1 July 2026; motorbikes and cars barred 19:00-midnight Fri-Sun in the lake / night-market pedestrian area; phase 1 to 31 Dec 2026; extension announced; checkpoints reported; no exception for rental bikes found) qualified as 'd'après la presse', check signs on site. Weekend-morning closure claim of the old text replaced (the old 'périmètre fermé aux moteurs en fin de semaine' was unsourced). Bridges (Long Biên two-wheelers/pedestrians only, Chương Dương) consistent with the quartiers sub-hub and flagged 'à vérifier'. No travel times, no parking prices. Parking via gửi xe described generically.",
    "INTENT": "Main question: how to rent a motorbike for Hoan Kiem and avoid the centre's traffic. Owner of 'location de moto à Hoan Kiem' (group_owner = itself). Differs from location-moto-vieux-quartier-hanoi (sim 0.31 for Long Biên neighbour) by focusing on the lake area, the LEZ evening ban, rush hours and exits; Vieux Quartier article covers retrait/retour/vehicle choice for the 36 streets and is linked once.",
-   "CONTENT": "Full rewrite of all sections (old prose 'se lit/se roule' removed). New H2: Hoan Kiem et la boutique : deux rives du fleuve; Se faire remettre la moto à l'hôtel (option à confirmer); Autour du lac (interdiction des motos le soir du week-end); Les heures qui évitent les bouchons (checklist); Sortir du centre sans rester coincé; Où garer la moto; Quelle machine (price table + disclaimer); FAQ 5 Q. Words 2128 -> 2196.",
+   "CONTENT": "Full rewrite of all sections (old prose 'se lit/se roule' removed). New H2: Hoan Kiem et la boutique : deux rives du fleuve; Se faire remettre la moto à l'hôtel (option à confirmer); Autour du lac (interdiction des motos le soir du week-end); Les heures qui évitent les bouchons (checklist); Sortir du centre sans rester coincé; Où garer la moto; Quelle machine (price table + disclaimer); FAQ 5 Q. Words 2128 -> 2042.",
    "META": "Title and H1 kept (natural, matches sub-hub anchor, promise delivered by hours/exits/parking sections). Description rewritten (169 -> 150 chars, removed 'sans adresse ni tarif inventés'); og:description synced; og:title unchanged.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-vieux-quartier-hanoi/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/moto-livraison-hotel-hanoi/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ to stay at 7. Contact links tel/Zalo/WhatsApp are not counted.",
    "AEO_GEO": "Direct answer in the lead (shop in Long Biên, off-peak start, LEZ evening ban). 1 checklist, 1 price table, FAQ 5 questions (no repetition of the body beyond 1-line answers). 3 external citations (VietnamPlus, VietNamNet, Dân trí) for the LEZ."
@@ -42,7 +42,7 @@
   "path": "location-moto-hanoi/location-moto-inspection-liste-controle/index.html",
   "role": "OWNER",
   "words_before": 1599,
-  "words_after": 2207,
+  "words_after": 2203,
   "primary_intent": "Inspecter sa moto de location à Hanoi avant de partir : quoi vérifier, dans quel ordre, quoi faire en cas de défaut.",
   "new_meta": {
    "description": "Pneus, freins, éclairage, klaxon, chaîne, papiers : les points à contrôler sur une moto de location à Hanoi avant de partir, et comment les noter en photos."
@@ -50,7 +50,7 @@
   "evidence": {
    "FACTS": "Removed the assumption of a deposit ('pour votre dépôt') and the unconfirmed 'assistance' among inclusions; guarantee/inclusions now explicitly 'à confirmer avant la réservation' with the shop's phone/Zalo/WhatsApp. Removed unsourced speculation ('un loueur qui a remplacé les ampoules a probablement surveillé les plaquettes', 'plusieurs fois par kilomètre'). Added only generic mechanical checks (TWI wear marks, DOT 4-digit week/year code, chain slack, brakes) without numbers; documents: asked to see registration certificate and compulsory civil-liability insurance certificate, legal statement kept generic ('les règles vietnamiennes prévoient que le conducteur présente les papiers du véhicule') and consistent with Law 36/2024/QH15 cited in the longue-duree sub-hub; no article number or fine stated. Price: only owner range 150 000-200 000 VND/day (scooter/semi-auto) with the mandatory disclaimer. No model specs, no fleet claims.",
    "INTENT": "Main question: what to check on a rental motorbike in Hanoi before leaving. Owner of 'inspecter sa moto de location à Hanoi'. Differs from location-moto-legal-liste-controle-vietnam (sim 0.33, legal/documents checklist) by being the mechanical inspection; documents appear only as one bullet. Links to retrait (full handover), what-is-included (equipment), panne (breakdown).",
-   "CONTENT": "Rewrote all prose in direct French (removed 'cette page complète… sans le répéter', 'ne se délègue pas', 'dépôt' framing). Sections: why inspect; papiers/casque/carburant (new checklist); pneus; freins (arrêt + essai); éclairage/clignotants/klaxon/rétroviseurs; chaîne/transmission/démarrage; electric scooter special case (new); photos et état des lieux (new); que faire si un point est défectueux (new); liste à cocher (12 items, previously a paragraph); ce que le contrôle ne remplace pas; FAQ 5 Q. Words 1599 -> 2207.",
+   "CONTENT": "Rewrote all prose in direct French (removed 'cette page complète… sans le répéter', 'ne se délègue pas', 'dépôt' framing). Sections: why inspect; papiers/casque/carburant (new checklist); pneus; freins (arrêt + essai); éclairage/clignotants/klaxon/rétroviseurs; chaîne/transmission/démarrage; electric scooter special case (new); photos et état des lieux (new); que faire si un point est défectueux (new); liste à cocher (12 items, previously a paragraph); ce que le contrôle ne remplace pas; FAQ 5 Q. Words 1599 -> 2203.",
    "META": "Title kept (60 chars, natural, unique). H1 kept (aligned with title, plain). Description rewritten 174 -> 156 chars (factual, lists the checked items); og:description synced.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/what-is-included-location-moto-hanoi/, /location-moto-hanoi/panne-scooter-hanoi/, /permis-securite/securite/. tel/Zalo/WhatsApp links not counted.",
    "AEO_GEO": "Direct answer in the lead (10-minute order of checks). 2 checklists (papiers/équipement and the final 12-item list), FAQ 5 Q without repetition, no external citation needed."
@@ -67,7 +67,7 @@
   "path": "location-moto-hanoi/location-moto-long-bien/index.html",
   "role": "OWNER",
   "words_before": 1539,
-  "words_after": 1863,
+  "words_after": 1724,
   "primary_intent": "Louer une moto à Long Biên : où est la boutique Thuê xe máy Nguyễn Hà, comment y venir depuis le centre, ce qui change par rapport au Vieux Quartier.",
   "new_meta": {
    "description": "Louer une moto à Long Biên, sur la rive est du fleuve Rouge : adresse de la boutique près de Bến xe Gia Lâm, ponts à franchir, tarifs indicatifs et sorties."
@@ -75,7 +75,7 @@
   "evidence": {
    "FACTS": "The old text (100% abstract, 'aucune adresse inventée', 'le dépôt qui s'écrit', 'certains loueurs livrent') replaced by confirmed NAP (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, gần Bến xe Gia Lâm; 09:00-21:00 every day; 0334 699 969 / Zalo / WhatsApp). Full owner price table (day/week/month, six rows) with the mandatory disclaimer and the 'ne se déduit pas du prix d'une journée' rule. Deposit/documents/inclusions/delivery/day counting stated as 'à confirmer'; delivery 'non annoncée'. Bridges consistent with the quartiers sub-hub: Long Biên bridge only for pedestrians, bicycles and two-wheelers, access previously interrupted (works, flood) so 'à vérifier'; Chương Dương carries cars and two-wheelers; Vĩnh Tuy to the south. No travel times, no GPS coordinates (site publishes none), no distances (Bát Tràng, Ecopark, Cổ Loa given only by direction). Expressway ban for two-wheelers kept from the pillar. No external source cited (claims already sourced in the quartiers sub-hub).",
    "INTENT": "Main question: renting a motorbike in Long Biên, where the shop is. Owner of 'location de moto à Long Biên'. Differs from location-moto-vieux-quartier-hanoi (sim 0.31) which covers the centre (retrait/retour from the Old Quarter); this one covers the east-bank pickup, access over the bridges, local riding and outings. Vieux Quartier guide linked once.",
-   "CONTENT": "Full rewrite. Sections: quartier + NAP checklist; comment venir (taxi, bridges); comparison table Long Biên vs Vieux Quartier; jour du retrait; quelle machine + price table; pour un mois ou plus; sorties au départ de Long Biên; rouler et stationner; FAQ 5 Q. Words 1539 -> 1863.",
+   "CONTENT": "Full rewrite. Sections: quartier + NAP checklist; comment venir (taxi, bridges); comparison table Long Biên vs Vieux Quartier; jour du retrait; quelle machine + price table; pour un mois ou plus; sorties au départ de Long Biên; rouler et stationner; FAQ 5 Q. Words 1539 -> 1724.",
    "META": "Title and H1 kept (natural, 59 chars, match the sub-hub anchor). Description rewritten 178 -> 156 chars (removed 'méthode du site, sans inventer d'adresse ni de tarif'); og:description synced.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/location-moto-vieux-quartier-hanoi/, /hanoi/long-bien-pont-hanoi/. Dropped /location-moto-hanoi/location-moto-inspection-liste-controle/ (inspection summarised in one paragraph, covered by the retrait guide).",
    "AEO_GEO": "Direct answer in the lead (shop address, hours, bridge to cross). NAP checklist, comparison table, price table; FAQ 5 Q. No external citation."
@@ -102,7 +102,7 @@
    "FACTS": "The old text had no concrete fact on Hanoi public transport. Added, all marked as seen in search results and 'à vérifier': bus tickets paid in cash on board, same fare for foreigners, HanoiBus/BusMap apps, fare of a few thousand VND, new fare structure reported for 2026 (no precise fare stated); metro line 2A Cát Linh-Hà Đông with hours around 05:30-22:00; line 3 elevated Nhổn-Cầu Giấy open since 8 Aug 2024, underground part to Hanoi Station announced for 2027; airport bus line 86 mentioned by guides. Statement that no metro line reaches the Old Quarter or Long Biên is dated 'à la date de cette révision'. Owner prices only: 150 000-200 000/day, 600 000-1 000 000/week (automatic scooter), 1 200 000-2 000 000/month with the mandatory disclaimer. Licence: no blanket statement, 'dépend de votre permis et nationalité, vérifiez'. Helmet obligatory (consistent with pillar). Hoàn Kiếm low-emission-zone evening ban (19:00-midnight Fri-Sun since 1 July 2026) mentioned with a pointer to the Hoan Kiem article which holds the sources. No taxi prices, no convert to EUR, no invented bus fare.",
    "INTENT": "Main question: public transport or rental motorbike in Hanoi. Owner of 'moto de location ou transports publics à Hanoi'. Differs from location-moto-ou-taxi-hanoi-cout (3-day taxi cost), location-moto-hanoi-ou-grab (ride-hailing) and location-moto-hanoi-ou-circuit-moto-hanoi (guided tour) by being about the public network (walking, bus, metro) and the trip-by-trip decision; Grab and taxi-cost pages linked once each, circuit named without link.",
    "CONTENT": "Full rewrite; old text was abstract comparison ('le cœur de la comparaison', 'asymétrie de liberté'). New sections: offre de transports (bus, métro, applications), limites, atouts/exigences de la moto, table by trip type, three profiles, reaching the Long Biên shop without a motorbike, five-question checklist, FAQ 5 Q. Words 1772 -> 1644.",
-   "META": "Title extended with 'que choisir ?' (48 -> 62 chars, a natural question matching the intent); H1 aligned; description rewritten (141 -> 154 chars) ; og:title/og:description synced. Coordinator should sync data/seo-master-matrix if it stores the title.",
+   "META": "Title extended with 'que choisir ?' (48 -> 62 chars, a natural question matching the intent); H1 aligned; description rewritten (141 -> 153 chars) ; og:title/og:description synced. Coordinator should sync data/seo-master-matrix if it stores the title.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/location-moto-hanoi-ou-grab/, /prix-location/location-moto-ou-taxi-hanoi-cout/, /location-moto-hanoi/location-moto-hoan-kiem/, /location-moto-hanoi/quartiers/. External: hanoitourism.org (bus guide, metro guide), Wikipedia (Buses in Hanoi, Hanoi Metro Line 3).",
    "AEO_GEO": "Direct answer in the lead (centre: walk/bus; moto for dispersed/excursion/long stays; metro does not serve the Old Quarter or Long Biên). Comparison table by trip, checklist of 5 questions, FAQ 5 Q, 4 external citations."
   },
@@ -143,7 +143,7 @@
    "FACTS": "Removed SEO-process wording ('hub', 'cette page se concentre sur la décision locale', 'logique de carte/de service'), and the generic claims that the shop's site 'documente un point de retrait… exemple concret'. Shop located at Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên (gần Bến xe Gia Lâm), 09:00-21:00; per-quarter reachability (bridge to cross) consistent with the quartiers sub-hub, no travel times. Caution/passport stated only as general market practice ('certains loueurs demandent une somme d'argent, d'autres conservent une pièce d'identité ; demandez la règle applicable'). Shop's own deposit, documents, delivery and assistance explicitly 'à confirmer par message'; delivery 'non annoncée'. Price: only owner range 150 000-200 000 VND/day for automatic/semi-automatic with the mandatory disclaimer. Licence: dependent on permit, category and nationality, to check before paying; no blanket statement.",
    "INTENT": "Main question: how to rent a motorbike 'near me' in Hanoi and whether the nearest renter is the right one. Owner of 'louer une moto près de chez vous à Hanoi'. Differs from location-moto-aeroport-noi-bai (airport pickup), location-moto-retrait-hanoi (the handover steps) and choisir-location-moto-hanoi (general criteria): this one is about distance from lodging, filtering map listings and the pickup trip. Each is linked once.",
    "CONTENT": "Rewrote all sections in direct French; deleted the 'checklist qui ne désigne pas le bon loueur' filler and the duplicate FAQ; added a per-sector reachability list, a map-filtering checklist and a standard question list for any renter. Sections: ce que signifie près de moi; la boutique est-elle près de chez vous; chercher sur une carte; questions à poser; proximité ou qualité; livraison; erreurs; préparer le trajet; FAQ 5 Q. Words 2240 -> 1801.",
-   "META": "Title kept (60 chars). H1 kept (matches the sub-hub anchor). Description rewritten (168 -> 154 chars); og:description synced.",
+   "META": "Title kept (60 chars). H1 kept (matches the sub-hub anchor). Description rewritten (168 -> 157 chars); og:description synced.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/choisir-location-moto-hanoi/, /location-moto-hanoi/moto-livraison-hotel-hanoi/, /location-moto-hanoi/location-moto-retrait-hanoi/.",
    "AEO_GEO": "Direct answer in the lead (3 moments where distance matters, shop in Long Biên). 3 checklists, 1 question list, FAQ 5 Q; no external citation."
   },
@@ -158,7 +158,7 @@
   "path": "location-moto-hanoi/location-moto-retrait-hanoi/index.html",
   "role": "OWNER",
   "words_before": 1968,
-  "words_after": 1963,
+  "words_after": 1803,
   "primary_intent": "Récupérer sa moto louée à Hanoi : étapes, vérifications et premiers kilomètres au point de retrait de Long Biên.",
   "new_meta": {
    "title": "Retrait de la moto louée à Hanoi : le déroulé étape par étape",
@@ -167,7 +167,7 @@
   "evidence": {
    "FACTS": "Removed unconfirmed policies stated as facts: 'si vous choisissez le dépôt en espèces', 'passeport valide, loyer et dépôt', 'remise du dépôt', 'délai de remboursement', and the claim the contract has four standard clauses. Now: deposit/guarantee, documents, payment method, day counting, delivery all 'à confirmer avant de vous déplacer' (stated once explicitly for Thuê xe máy Nguyễn Hà). NAP and hours confirmed (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, gần Bến xe Gia Lâm; 09:00-21:00). Prices: only owner range 150 000-200 000/day (scooter/semi) with the mandatory disclaimer and the list of other rows. Licence: dependent on permit/nationality, no blanket statement. Removed 'photo → règle la quasi-totalité des constats' (unsourced). Generic equipment advice (closed shoes, rain jacket) is common-sense, no numbers.",
    "INTENT": "Main question: what happens when you pick up a rental motorbike in Hanoi. Owner of 'récupérer sa moto louée à Hanoi'. Differs from prix-location/location-moto-retrait-retour-jour-charge-hanoi (how the pickup/return day is charged) and from location-moto-inspection-liste-controle (mechanical checks, linked once) by being the chronological sequence: before coming, travel, counter, photos, first kilometres.",
-   "CONTENT": "Full rewrite. Sections: avant de venir (what to confirm); créneau et trajet; ce qu'il faut avoir sur soi (new); au comptoir; si la moto ne vous convient pas (new); contrôle rapide (details moved to the inspection article); photos et constat; premiers kilomètres; checklist; FAQ 5 Q. Words 1968 -> 1963.",
+   "CONTENT": "Full rewrite. Sections: avant de venir (what to confirm); créneau et trajet; ce qu'il faut avoir sur soi (new); au comptoir; si la moto ne vous convient pas (new); contrôle rapide (details moved to the inspection article); photos et constat; premiers kilomètres; checklist; FAQ 5 Q. Words 1968 -> 1803.",
    "META": "Title changed from 'Retrait de la moto louée à Hanoi : organiser le bon moment' (not what the page delivers: the page is a step-by-step) to 'Retrait de la moto louée à Hanoi : le déroulé étape par étape' (61 chars). H1 kept. Description rewritten (166 -> 153 chars; removed 'contrat et dépôt'); og:title and og:description synced. Coordinator should sync the title in the matrix.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/moto-livraison-hotel-hanoi/, /location-moto-hanoi/rendre-scooter-location-hanoi/. Dropped /location-moto-hanoi/choisir-location-moto-hanoi/ to stay at 7.",
    "AEO_GEO": "Direct answer in the lead (sequence of the pickup). 4 checklists, FAQ 5 Q; no external citation."
@@ -184,7 +184,7 @@
   "path": "location-moto-hanoi/location-moto-tay-ho/index.html",
   "role": "OWNER",
   "words_before": 1690,
-  "words_after": 1794,
+  "words_after": 1642,
   "primary_intent": "Louer une moto quand on loge à Tay Ho (lac de l'Ouest) pour un long séjour : où prendre la moto, tarifs mensuels, points à régler.",
   "new_meta": {
    "description": "Vous logez à Tay Ho, près du lac de l’Ouest ? Louer une moto au mois, aller la chercher à Long Biên, tarifs indicatifs, machine du quotidien et points à régler."
@@ -192,7 +192,7 @@
   "evidence": {
    "FACTS": "Old text was entirely abstract ('aucune adresse inventée', 'les pêcheurs qui relèvent aux filets', 'ambassades qui s'y dispersent') - invented local colour removed. Shop stated in Long Biên (not Tay Ho), 09:00-21:00, route via Long Biên bridge (two-wheelers/pedestrians only, access previously interrupted) or Chương Dương; no travel time. Monthly and weekly prices only from the owner table (six rows monthly; weekly line list) with the disclaimer, 'pas de forfait pour 2-5 semaines', 'ne se déduit pas du prix d'une journée'. Maintenance, replacement machine, prolongation, documents, guarantee, delivery: asked in a checklist, none affirmed. Geography stated only at a general level (Hồ Tây largest lake of Hanoi, north-west of the old centre, Red River to the east, Xuân Diệu/Quảng An streets as dining streets); expressway ban for two-wheelers kept from the pillar. No ambassy/ expat statistics.",
    "INTENT": "Main question: renting a motorbike while staying in Tay Ho. Owner of 'location de moto à Tay Ho'. Differs from what-is-included-location-moto-hanoi and 1-way (closest pages) because it is district-specific and monthly-stay oriented; longue-duree sub-hub and 1-mois article linked once each for the general long-stay rules.",
-   "CONTENT": "Full rewrite. Sections: Tay Ho, le quartier du lac de l'Ouest; aller chercher la moto à Long Biên; louer au mois (price table + checklist of 5 points); deux ou trois semaines (new); ce que le loyer ne comprend pas (new); quelle machine; rouler et se garer autour du lac; FAQ 5 Q. Words 1690 -> 1794.",
+   "CONTENT": "Full rewrite. Sections: Tay Ho, le quartier du lac de l'Ouest; aller chercher la moto à Long Biên; louer au mois (price table + checklist of 5 points); deux ou trois semaines (new); ce que le loyer ne comprend pas (new); quelle machine; rouler et se garer autour du lac; FAQ 5 Q. Words 1690 -> 1642.",
    "META": "Title and H1 kept (56 chars, match the sub-hub anchor, plain enough). Description rewritten (170 -> 160 chars; removed 'sans adresse ni tarif inventés'); og:description synced.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/longue-duree/, /location-moto-hanoi/1-mois-location-moto-hanoi/, /hanoi/west-lac-hanoi-moto/. Dropped /prix-location/mensuelle-location-moto-economies-hanoi/ and the inspection link to keep within 7.",
    "AEO_GEO": "Direct answer in the lead (monthly logic, shop in Long Biên, monthly range). Price table + checklist, FAQ 5 Q; no external citation."
@@ -208,7 +208,7 @@
   "path": "location-moto-hanoi/location-moto-vieux-quartier-hanoi/index.html",
   "role": "OWNER",
   "words_before": 2136,
-  "words_after": 1901,
+  "words_after": 1763,
   "primary_intent": "Louer une moto quand on loge dans le Vieux Quartier : retrait à Long Biên, choix de la machine, stationnement, retour.",
   "new_meta": {
    "title": "Louer une moto dans le Vieux Quartier de Hanoi : retrait, retour",
@@ -217,7 +217,7 @@
   "evidence": {
    "FACTS": "Removed SEO-process wording ('silo', 'hub', 'cette page-ci') and statements asserted as shop policy: 'le dépôt ou le document laissé en caution vous est restitué', 'contrat… dépôt figurent par écrit', 'petites sommes pour les gardiennages' kept generic. Shop in Long Biên (Ngõ 5 Nguyễn Văn Cừ, gần Bến xe Gia Lâm), 09:00-21:00; bridges consistent with the quartiers sub-hub (Long Biên: two-wheelers and pedestrians only, to verify; Chương Dương cars and two-wheelers). Delivery 'non annoncée, à confirmer'. Prices: only the owner day range for scooter/semi-automatic and a pointer to the other rows, with the mandatory disclaimer. Parking: hotel/gửi xe generic, no amounts. The evening weekend ban near the lake is only pointed to the Hoan Kiem article (which holds the sources); no restatement of unsourced hours. No travel times.",
    "INTENT": "Main question: how to rent when lodging in the Old Quarter. Owner of 'louer une moto dans le Vieux Quartier de Hanoi'. Differs from location-moto-long-bien (sim 0.31, east-bank pickup) and location-moto-hoan-kiem (lake area, LEZ, rush hours) because it adds the 'do I need a moto here at all' decision table, a sample first day, hotel parking and return planning from the centre; both siblings are referenced (Hoan Kiem linked).",
-   "CONTENT": "Full rewrite. Sections: faut-il une moto (decision table); aller chercher la moto à Long Biên; une première journée type (new); quelle moto pour des rues étroites; se garer; sortir du Vieux Quartier; rendre la moto depuis le centre; la remise à l'hôtel à confirmer; checklist; FAQ 5 Q. Words 2136 -> 1901.",
+   "CONTENT": "Full rewrite. Sections: faut-il une moto (decision table); aller chercher la moto à Long Biên; une première journée type (new); quelle moto pour des rues étroites; se garer; sortir du Vieux Quartier; rendre la moto depuis le centre; la remise à l'hôtel à confirmer; checklist; FAQ 5 Q. Words 2136 -> 1763.",
    "META": "Title shortened from 68 to 64 chars and aligned to the intent query ('Louer une moto dans le Vieux Quartier de Hanoi : retrait, retour'); H1 kept; description rewritten (155 -> 154 chars); og:title/og:description synced. Coordinator should sync the title in the matrix.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-hoan-kiem/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/rendre-scooter-location-hanoi/. Dropped /location-moto-hanoi/courte-duree/ to stay at 7.",
    "AEO_GEO": "Direct answer in the lead (moto for leaving the quarter; shop in Long Biên; compact scooter). Decision table, checklist, FAQ 5 Q; no external citation."
@@ -236,14 +236,14 @@
   "primary_intent": "Choisir la machine pour une location longue durée à Hanoi (fiabilité, consommation, entretien), pas le guide général de la location longue.",
   "new_meta": {
    "title": "Location de moto longue durée à Hanoi : quelle machine choisir ?",
-   "description": "Quelle machine pour un long séjour à Hanoi ? Scooter automatique, semi-automatique, 50cc ou électrique : fiabilité, consommation, entretien et questions à poser.",
+   "description": "Quelle machine pour un long séjour à Hanoi ? Scooter automatique, semi-automatique, 50cc ou électrique : fiabilité, consommation, entretien, questions à poser.",
    "h1": "Location de moto longue durée à Hanoi : quelle machine choisir ?"
   },
   "evidence": {
    "FACTS": "Removed the invented reliability and economy statements ('la machine qui coûte moins', 'dépanne mieux', parts availability as fact beyond a general 'modèle répandu'), 'règle du site', and any implication of included assistance. Monthly prices taken only from the owner table (semi 1 000 000-1 200 000; automatic scooter 1 200 000-2 000 000; electric 1 500 000-1 800 000; 50cc 2 000 000; Vision 2 000 000; Air Blade 1 500 000), with the mandatory disclaimer. No model spec, no fuel-consumption figures (explicitly not published), no maintenance intervals: a search for Honda Vietnam intervals returned only third-party blogs that disagree (seen in search result), so the page defers to the maintenance book/authorised workshop. Maintenance sharing: 'selon les loueurs… la règle de Thuê xe máy Nguyễn Hà n'est pas publiée', questions only. Generic mechanical facts only (CVT belt and rollers are wear parts; chain and sprockets on semi-automatics; battery wear on electric).",
    "INTENT": "Main question: which machine to choose for a long rental. DISTINCT_ANGLE: group owner is /location-moto-hanoi/longue-duree/ (general long-stay guide), linked once with the anchor 'location de moto longue durée' in the lead; general rules on papers, prolongation, parking are no longer repeated here. Differs from the closest page prix-location/longue-duree-location-moto-hanoi-discount (sim 0.60, price/discount angle) by being a machine-choice guide with no discount talk; and from location-moto-oil-change-longue-duree-vietnam (oil change) by covering all categories.",
    "CONTENT": "Full rewrite from abstract prose. Sections: five selection criteria; category comparison table with monthly prices; scooter automatique; semi-automatique; 50cc and electric; consommation et carburant (method to estimate, no figure); entretien weekly checklist; qui paie l'entretien (questions); FAQ 5 Q. Words 1700 -> 1669.",
-   "META": "Title and H1 refocused on the angle ('quelle machine choisir ?', 64 chars; previous 'la machine qui coûte moins' promised a saving the page cannot prove). Description rewritten (165 -> 157 chars); og:title/og:description synced. Coordinator should sync the title in the matrix.",
+   "META": "Title and H1 refocused on the angle ('quelle machine choisir ?', 64 chars; previous 'la machine qui coûte moins' promised a saving the page cannot prove). Description rewritten (165 -> 159 chars); og:title/og:description synced. Coordinator should sync the title in the matrix.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/longue-duree/ (group owner), /location-moto-hanoi/1-mois-location-moto-hanoi/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/what-is-included-location-moto-hanoi/. Dropped /prix-location/mensuelle-location-moto-economies-hanoi/ to stay at 7 (price topic pointed to /prix-location/).",
    "AEO_GEO": "Direct answer in the lead (simple, widespread machine; automatic scooter / semi / electric). Comparison table, 2 checklists, FAQ 5 Q; no external citation."
   },
@@ -258,7 +258,7 @@
   "path": "location-moto-hanoi/louer-ou-buy-moto-hanoi/index.html",
   "role": "OWNER",
   "words_before": 1600,
-  "words_after": 1650,
+  "words_after": 1634,
   "primary_intent": "Décider entre louer et acheter une moto d'occasion pour un séjour de quelques mois à Hanoi.",
   "new_meta": {
    "description": "Louer ou acheter une moto à Hanoi pour quelques mois ? Calcul selon la durée, immatriculation pour un étranger, frais cachés et revente, pour trancher."
@@ -266,7 +266,7 @@
   "evidence": {
    "FACTS": "Removed generic market claims presented as facts ('le dépôt de garantie suit les conditions de la boutique', 'tire la facture vers le bas', 'certaines incluent l'entretien courant'); the shop's maintenance/deposit/prolongation rules are 'non publiées, à préciser par écrit'; no shop discount ('aucune remise publiée'). Owner monthly table (six rows) with the mandatory disclaimer; no purchase price, registration fee or resale value given. Legal: foreigner registration condition taken from the consolidated Circular 79/2024/TT-BCA (as amended, e.g. 51/2025/TT-BCA): foreigners living/working in Vietnam present a permanent or temporary residence card with at least 6 months of residence left (seen in search result on xaydungchinhsach.chinhphu.vn; flagged 'modifié depuis, autres sites autres conditions, à confirmer'); registration certificate validity tied to the stay (same source); informal practice of registering in a friend's name reported by commercial guides and flagged as a legal/practical risk; documents the driver must carry (registration certificate, compulsory civil-liability insurance certificate) cited from Law 36/2024/QH15 as in the longue-duree sub-hub, hedged 'ces règles évoluent'; licence entitlement dependent on permit/nationality, no blanket statement. Rule-of-thumb cases are explicitly 'ordres de grandeur de raisonnement, pas des règles'.",
    "INTENT": "Main question: rent or buy a motorbike for a stay of a few months. Owner of the query (group_owner = itself). Differs from prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout (week vs month price) and types-motos/scooter-ou-moto-vietnam (vehicle type) by being about ownership vs rental: papers, registration, resale, hidden costs. Related guides linked: 1-mois, economies, longue-duree and the machine-choice article.",
-   "CONTENT": "Full rewrite from generic prose. Sections: calcul de départ (formula + monthly table); louer (flexibility, prolongation); acheter d'occasion (checklist with residence card, registration, papers, transfer, insurance); frais cachés table (rent vs buy); cas types; questions à trancher; FAQ 4 Q. Removed the unsourced 'Wave Alpha ou Sirius' paragraph and the link to that duel. Words 1600 -> 1650.",
+   "CONTENT": "Full rewrite from generic prose. Sections: calcul de départ (formula + monthly table); louer (flexibility, prolongation); acheter d'occasion (checklist with residence card, registration, papers, transfer, insurance); frais cachés table (rent vs buy); cas types; questions à trancher; FAQ 4 Q. Removed the unsourced 'Wave Alpha ou Sirius' paragraph and the link to that duel. Words 1600 -> 1634.",
    "META": "Title and H1 kept (65 chars, natural, matches the intent). Description rewritten (164 -> 151 chars; 'sereinement' removed, adds the registration/residence angle); og:description synced.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/1-mois-location-moto-hanoi/, /prix-location/mensuelle-location-moto-economies-hanoi/, /location-moto-hanoi/longue-duree-location-moto-hanoi/, /location-moto-hanoi/longue-duree/. Dropped /types-motos/wave-alpha-ou-sirius-location-vietnam/. External: chinhphu.vn consolidated circular.",
    "AEO_GEO": "Direct answer in the lead (location en général; achat suppose titre de résidence). 1 price table, 1 comparison table, 3 checklists, FAQ 4 Q, 1 official citation."
@@ -287,16 +287,16 @@
   "path": "location-moto-hanoi/moto-hanoi-a-halong-baie/index.html",
   "role": "OWNER",
   "words_before": 1724,
-  "words_after": 1778,
+  "words_after": 1730,
   "primary_intent": "Louer une moto à Hanoi pour aller à la baie d'Ha Long : machine, durée de location, points à confirmer, préparation.",
   "new_meta": {
-   "description": "Louer une moto à Hanoi pour la baie d'Ha Long : distance indicative, routes sans autoroute, machine adaptée, durée de location, points à confirmer avant le départ."
+   "description": "Louer une moto à Hanoi pour la baie d'Ha Long : distance, routes sans autoroute, machine adaptée, durée de location et points à confirmer avant le départ."
   },
   "evidence": {
    "FACTS": "Removed assertions about shop practice and unsourced route/vehicle claims: 'certains loueurs échangent la machine sur place, d'autres orientent vers un garage partenaire', small-wheel claims about scooters, 'la famille des Wave et des Sirius', 'conditions d'assistance… se nichent dans le contrat', the sentence on 'dépôt de garantie'. Distance stated only as 'environ 130 à 170 km selon l'itinéraire et la source', consistent with prix-location/hanoi-halong-voyage-moto-cout (itself citing travel sites; routes 5, 1, 18 named as cited axes); no driving time. Expressway (cao tốc) ban for two-wheelers kept from the pillar. Owner prices only (day 150 000-200 000; week semi 700 000-800 000, automatic 600 000-1 000 000), with the mandatory disclaimer and 'aucun forfait pour 2-3 jours'. Sortie de Hanoi, panne/assistance, caution, documents: 'à confirmer', explicitly not published. Licence: dependent on permit/nationality, no blanket statement. Bay visited by boat from Tuần Châu or Bãi Cháy (general knowledge); storm closure phrased as 'peut être fermée'. No model specs.",
    "INTENT": "Main question: how to rent and prepare a motorbike for Hanoi to Ha Long Bay. Owner of the query. Differs from nord-vietnam/moto-de-hanoi-a-halong-baie (sim 0.38: the route, stages, timings) and prix-location/hanoi-halong-voyage-moto-cout (sim 0.33: trip budget) by being the rental side: machine, rental length, what to agree with the shop, preparation; both linked once.",
-   "CONTENT": "Full rewrite (old text abstract: 'les routes vivantes demandent une lecture honnête'). Sections: ce que représente le trajet; une, deux ou trois journées; quelle machine (table); à convenir avec la boutique (checklist); contrôle avant départ; bagages et équipement (new); préparer la route (checklist); sur place; le retour; si le trajet paraît trop long (new); FAQ 5 Q. Words 1724 -> 1778.",
-   "META": "Title and H1 kept (59 chars, match the sub-hub anchor). Description rewritten (161 -> 160 chars, removes 'aucun tarif ne s'invente' wording... new text factual); og:description synced.",
+   "CONTENT": "Full rewrite (old text abstract: 'les routes vivantes demandent une lecture honnête'). Sections: ce que représente le trajet; une, deux ou trois journées; quelle machine (table); à convenir avec la boutique (checklist); contrôle avant départ; bagages et équipement (new); préparer la route (checklist); sur place; le retour; si le trajet paraît trop long (new); FAQ 5 Q. Words 1724 -> 1730.",
+   "META": "Title and H1 kept (59 chars, match the sub-hub anchor). Description rewritten (161 -> 154 chars, removes 'aucun tarif ne s'invente' wording... new text factual); og:description synced.",
    "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/3-jours-location-moto-hanoi/, /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/, /nord-vietnam/moto-de-hanoi-a-halong-baie/, /prix-location/hanoi-halong-voyage-moto-cout/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ and /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/.",
    "AEO_GEO": "Direct answer in the lead (distance range, no expressway, 2-3 day loop, confirm leaving Hanoi). Table, 3 checklists, FAQ 5 Q; no external citation."
   },
@@ -305,6 +305,168 @@
    "Whether the shop allows the motorbike to leave Hanoi for the coast and under what conditions",
    "Breakdown procedure and assistance for trips outside Hanoi",
    "Which categories/models are available for a 2-3 day trip"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/moto-livraison-hotel-hanoi/index.html",
+  "role": "OWNER",
+  "words_before": 1898,
+  "words_after": 1635,
+  "primary_intent": "Savoir quand demander une remise de la moto à l'hôtel à Hanoi et comment la préparer et la contrôler.",
+  "new_meta": {
+   "title": "Livraison d'une moto à l'hôtel à Hanoi : quand la demander ?",
+   "description": "Moto livrée à l'hôtel à Hanoi : quand demander la remise, quoi confirmer par écrit, comment contrôler la moto sur le trottoir et organiser la reprise.",
+   "h1": "Livraison d'une moto à l'hôtel à Hanoi : quand la demander ?"
+  },
+  "evidence": {
+   "FACTS": "Old title/H1 'quand l'utiliser ?' and the text presupposed a delivery service ('la machine qui arrive à la porte', 'le loueur qui organise la livraison confirme', 'passeport qui se présente, caution qui se discute'). Now: no delivery, zone, slot, fee or minimum announced (stated first); everything is a question to ask before booking and to get in writing; passport/money retention only as a general precaution with 'conditions non publiées, à confirmer'. Hours 09:00-21:00 and Long Biên address from the confirmed facts. Prices: owner day range for scooter/semi with the mandatory disclaimer; no delivery fee given, none assumed free. Airport handover also 'non annoncée'. Generic advice on building access (guards, plate registration, parking) kept qualitative ('certains parkings…').",
+   "INTENT": "Main question: when to ask for a motorbike to be delivered to a hotel and how to handle the handover. Owner of 'livraison moto hôtel hanoi' (angle: propriétaire de la requête du groupe). Differs from prix-location/moto-livraison-frais-hanoi (sim 0.43, delivery fees/cost) by covering the decision, the request, the handover check and the return; cost is only pointed to that article.",
+   "CONTENT": "Full rewrite. Sections: ce que la boutique annonce et n'annonce pas; quand demander (table by situation); comment formuler la demande (checklist + sample message); contrôle sur le trottoir; hôtel/appartement/immeuble (new); pièges à éviter (new); reprise; trois points de départ (hôtel/aéroport/boutique); budget; checklist; FAQ 5 Q. Words 1898 -> 1635.",
+   "META": "Title and H1 changed from '…quand l'utiliser ?' to '…quand la demander ?' (60 chars) because delivery is not an announced service; description rewritten (167 -> 150 chars); og:title/og:description synced. Coordinator should sync the title in the matrix and sub-hub anchors.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/location-moto-aeroport-noi-bai/, /prix-location/moto-livraison-frais-hanoi/. Dropped /location-moto-hanoi/what-is-included-location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (no announced delivery; when it is worth asking; control on the pavement). Table, sample message, 3 checklists, FAQ 5 Q; no external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Delivery/handover: possible or not, zones, slots, fees, minimum duration",
+   "Collection/return at the hotel",
+   "Documents, payment form and guarantee at handover"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/panne-scooter-hanoi/index.html",
+  "role": "OWNER",
+  "words_before": 1883,
+  "words_after": 1606,
+  "primary_intent": "Que faire en cas de panne d'un scooter de location à Hanoi : réflexes, vérifications, appel du loueur, frais.",
+  "new_meta": {
+   "description": "Panne d’un scooter de location à Hanoi : sécuriser la moto, vérifier les causes simples, prévenir le loueur, garder des preuves et poser les bonnes questions."
+  },
+  "evidence": {
+   "FACTS": "Removed statements that presupposed shop assistance or procedures ('l'agence dispose d'un atelier, d'un réseau ou d'une procédure éprouvée', 'une machine de remplacement rejoint le lieu de panne', 'remorquage', 'section assistance du contrat'). Now: Thuê xe máy Nguyễn Hà publishes no assistance rule; assistance, towing, replacement, repair authorisation and cost sharing are questions to ask before leaving and keep in writing. Removed the false claim 'les feux de détresse n'existent pas sur un deux-roues'. Shop number/Zalo/WhatsApp and hours (09:00-21:00) from the confirmed facts. National emergency numbers 113/114/115 taken from the France Diplomatie 'contacts utiles' page (seen in search result). Simple checks (fuel, kill switch, side stand, brake to start, key, tyres) are generic mechanics, phrased as 'sur beaucoup de scooters / certaines machines'. No price, no model spec. Licence/insurance: dependent on permit, nationality and law; to check before leaving, no blanket statement.",
+   "INTENT": "Main question: what to do when a rented scooter breaks down in Hanoi. Owner of the query. Closest pages (google-maps-moto-hanoi 0.33, moto-pluie-securite-vietnam, crevaison-pneu-ha-giang-moto) are navigation/rain/tyre-in-Ha-Giang topics; this one is the general breakdown procedure with the rental-specific questions. Accident guide linked for injuries.",
+   "CONTENT": "Rewrote all sections in direct French, kept the useful order (sécuriser, vérifier, appeler, attendre, suite) and added: avant de partir (what to save and ask), crevaison (new), blessé ou moto touchée (new), nuit/loin de Hanoi/électrique checklist. Removed the 'prévenir plutôt que guérir' filler. Words 1883 -> 1606.",
+   "META": "Title and H1 kept (58 chars). Description rewritten (144 -> 158 chars, now factual); og:description synced.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/what-is-included-location-moto-hanoi/, /location-moto-hanoi/accident-scooter-location-vietnam/, /types-motos/station-essence-hanoi-moto/. External: France Diplomatie contacts utiles.",
+   "AEO_GEO": "Direct answer in the lead (ordered steps). 3 checklists, FAQ 5 Q, 1 official citation for emergency numbers."
+  },
+  "sources": [
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-contacts-utiles",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Vietnam emergency numbers police 113, fire 114, medical emergencies 115"
+   }
+  ],
+  "owner_gaps": [
+   "Breakdown procedure: who to call, hours, authorisation for repairs, who pays",
+   "Whether a replacement motorbike or transport of the motorbike is provided",
+   "Language of exchange with the shop"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/rendre-scooter-location-hanoi/index.html",
+  "role": "OWNER",
+  "words_before": 1840,
+  "words_after": 1557,
+  "primary_intent": "Rendre son scooter de location à Hanoi : préparation, carburant, matériel, horaire à Long Biên, état des lieux, preuves.",
+  "new_meta": {
+   "description": "Rendre une moto louée à Hanoi : préparer la veille, carburant, matériel, heure de retour à Long Biên, état des lieux final et preuves à garder."
+  },
+  "evidence": {
+   "FACTS": "Removed claims about unknown shop and market practice stated as facts: 'les loueurs gèrent des retards annoncés toute l'année', 'la plupart des agences préfèrent la franchise à la déduction', 'une caution en espèces se rend généralement à l'état des lieux final… virement…', 'rinçage apprécié / détailage', and the fuel conventions list as the shop's. Now: the shop's rules on fuel level, late fees, tolerance, early return refund, guarantee restitution are 'non publiées, à demander dès la réservation'; the guarantee paragraph is explicitly 'selon les loueurs' and conditional ('si une garantie a été convenue'). Address, hours (09:00-21:00), phone/Zalo/WhatsApp from the confirmed facts; bridges (Long Biên, Chương Dương) as in the quartiers sub-hub, no travel time. Prices: only a pointer to the prix-location page with the mandatory disclaimer.",
+   "INTENT": "Main question: how to return a rental scooter in Hanoi without a dispute. Owner of the query. Differs from location-moto-retrait-hanoi (0.17: the handover at the start) by covering the end: fuel, equipment, hours, final check, proofs; the pickup guide is linked once as the reference for the first-day photos.",
+   "CONTENT": "Full rewrite from mannered prose ('l'exercice n'a rien d'un inventaire de guerre', 'une panne de mémoire se règle en dix jours'). Sections: la veille; carburant; matériel et affaires; où et quand; retard/retour anticipé/prolongation (new); trois scénarios de retour (new); état des lieux final; si une garantie a été demandée; après le retour; checklist; FAQ 5 Q. Words 1840 -> 1557.",
+   "META": "Title and H1 kept (55 chars). Description rewritten (158 -> 143 chars; adds Long Biên hours); og:description synced.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/what-is-included-location-moto-hanoi/, /location-moto-hanoi/etat-des-lieux-moto-location-hanoi/, /types-motos/station-essence-hanoi-moto/. The panne guide is mentioned without a link to respect the cap.",
+   "AEO_GEO": "Direct answer in the lead (prepare the evening before, hours, check against departure photos). 2 checklists, FAQ 5 Q; no external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Fuel convention at return (full / same level / paid at the counter)",
+   "Late-return fees and tolerance",
+   "Early-return refund rule",
+   "Restitution time and form of any guarantee"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/student-mensuelle-location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "words_before": 1887,
+  "words_after": 1861,
+  "primary_intent": "Louer une moto au mois quand on est étudiant international à Hanoi : budget, machine, clauses, papiers.",
+  "new_meta": {
+   "description": "Étudiant à Hanoi : louer une moto au mois, tarifs mensuels indicatifs, budget d’un semestre, machine simple, papiers, clauses à fixer et retour à Long Biên."
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported claims about the market and the shop: 'Hanoi accueille des cohortes d'étudiants… les agences proches des campus connaissent ce public: formules adaptées', 'la caution se bloque au retrait et se rend à la restitution', 'certaines agences calibrent des formules à la bourse', 'sans tarif étudiant? certaines agences…', 'la conformité: pas de permis reconnu localement = pas de location'. Now: no student tariff and no multi-month discount published ('aucun tarif étudiant ni aucune remise'); guarantee, maintenance, breakdown procedure, suspension during holidays, additional driver, leaving Hanoi: asked in a checklist, none affirmed. Monthly price table with the owner's six rows and the mandatory disclaimer. Licence: dependent on permit, category and nationality, and 'les règles pour un résident peuvent différer de celles d'un visiteur de courte durée' (hedged, no blanket claim, no source needed). Helmet obligatory and alcohol ban from the pillar. Shop address/hours/phone from confirmed facts; bridges as in the quartiers sub-hub, no travel time.",
+   "INTENT": "Main question: monthly rental for an international student in Hanoi. Owner of the query. Closest pages (mensuelle-location-moto-entretien-cout-hanoi 0.36, mensuelle-location-moto-economies-hanoi 0.27, hebdomadaire-ou-mensuelle…-cout 0.25) are prix-location cost articles; this one is the student's situation (semester budget, campus areas, Long Biên pickup, contract clauses, term end). The 1-mois guide is linked once for the general month-one rules.",
+   "CONTENT": "Full rewrite. Sections: louer au mois quand on étudie; tarifs mensuels (table); budget d'un semestre au-delà du loyer (checklist); aller chercher la moto à Long Biên depuis le campus; machine; papiers et règles; clauses à fixer (8-item list); rouler au quotidien; fin de semestre; FAQ 5 Q. Words 1887 -> 1861.",
+   "META": "Title and H1 kept (64 chars, equal to the query). Description rewritten (142 -> 156 chars); og:description synced.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/1-mois-location-moto-hanoi/, /location-moto-hanoi/etat-des-lieux-moto-location-hanoi/, /location-moto-hanoi/location-moto-hanoi-expat/, /location-moto-hanoi/quartiers/.",
+   "AEO_GEO": "Direct answer in the lead (monthly rental, indicative range, extra costs, shop in Long Biên). 1 price table, 3 checklists, FAQ 5 Q; no external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Existence of a student rate or multi-month discount",
+   "Maintenance and breakdown responsibility on monthly rentals",
+   "Possibility to suspend the rental during holidays",
+   "Authorisation for a second driver"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/weekend-location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "words_before": 1892,
+  "words_after": 1589,
+  "primary_intent": "Louer une moto pour le week-end à Hanoi : réserver ou venir, jours comptés, prix, contraintes du week-end.",
+  "new_meta": {
+   "description": "Louer une moto pour le week-end à Hanoi : réserver ou venir à Long Biên, horaires 09:00–21:00, jours comptés, tarifs indicatifs et restrictions du soir."
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported market assertions presented as facts ('les agences voient passer en deux jours ce que la semaine étale sur cinq', 'certaines agences ajustent au retrait des conditions non écrites', 'une agence fermée le dimanche', 'se présenter tôt: les machines se prennent à l'ouverture'). Now: the shop is open 09:00-21:00 every day including the weekend (confirmed hours); no weekend package, deposit/booking/cancellation rule or day-counting rule is published ('à demander'). Prices: owner day rows (150 000-200 000 scooter/semi; 200 000 for 50cc, Vision, Air Blade; electric 'selon le modèle, à confirmer') with the mandatory disclaimer and 'ne multipliez pas'. Added the Hoàn Kiếm evening motorbike ban of the low-emission-zone pilot (19:00-midnight Fri-Sun since 1 July 2026, seen in search result, VietnamPlus) with 'peuvent changer, lisez les panneaux' and a pointer to the Hoan Kiem article for details and caveats. Vietnamese public holidays 30 Apr/1 May and 2 Sep named as examples of long weekends (general knowledge). Expressway ban from the pillar. No travel times, distances or model specs.",
+   "INTENT": "Main question: reserve or walk in for a weekend rental. Owner of 'location de moto le week-end à Hanoi'. Differs from 1-semaine-location-moto-hanoi (0.33, week rental), location-moto-hanoi-vietnam (0.30, general booking info) and book-location-moto-hanoi-online-ou-walk-a (0.29, online vs walk-in in general) by being weekend-specific: opening hours, Friday/Saturday pick-up and Sunday return, weekend traffic and the Hoan Kiem evening ban. The short-term sub-hub is linked once.",
+   "CONTENT": "Full rewrite. Sections: horaires et trajet; réserver ou se présenter (table); le message de réservation (checklist); prix d'un week-end; ce que le week-end change à Hanoi (Hoan Kiem evening ban, parking, outings); deux week-ends types (new); quelle machine; contrôle; FAQ 5 Q. Words 1892 -> 1589.",
+   "META": "Title and H1 kept (58 chars). Description rewritten (149 -> 152 chars; adds the real hours and the evening ban); og:description synced.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/courte-duree/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/location-moto-hoan-kiem/. External: VietnamPlus (LEZ).",
+   "AEO_GEO": "Direct answer in the lead (reserve by message, hours incl. weekend, confirm total and day counting). 1 table, 1 checklist, FAQ 5 Q, 1 citation."
+  },
+  "sources": [
+   {
+    "url": "https://en.vietnamplus.vn/hanoi-rolls-out-inner-city-traffic-plan-to-support-low-emission-zone-pilot-post347526.vnp",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: motorcycles and cars barred from the Hoan Kiem Lake pedestrian area 19:00-midnight Fri-Sun, pilot phase 1 July-31 December 2026"
+   }
+  ],
+  "owner_gaps": [
+   "Weekend availability and whether a category or a model is reserved",
+   "How the first and last day are counted",
+   "Deposit/payment at booking and cancellation rule",
+   "Late-return rule on Sunday evening"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/what-is-included-location-moto-hanoi/index.html",
+  "role": "OWNER",
+  "words_before": 1648,
+  "words_after": 1647,
+  "primary_intent": "Savoir ce que comprend une location de moto à Hanoi et ce qu'il faut demander avant de réserver et vérifier au retrait.",
+  "new_meta": {
+   "description": "Casque, antivol, imperméable, assistance, carburant : ce que peut comprendre une location de moto à Hanoi, ce qui reste à votre charge et les questions à poser."
+  },
+  "evidence": {
+   "FACTS": "Removed claims about unknown shop and market practice: 'le casque est inclus dans la grande majorité des formules', 'la plupart des loueurs gardent plusieurs tailles', 'la plupart des hôtels du pays accueillent la moto', 'le carburant généralement non', 'un loueur organisé répond sans hésiter', 'un tarif plus élevé inclut une vraie assistance'. Added a table 'publié / à demander' stating that for Thuê xe máy Nguyễn Hà only vehicle categories and indicative rates are published; helmet, lock, rain gear, assistance, insurance, guarantee, fuel and delivery are 'non publiés/non annoncés, à demander'. General rules phrased as such ('en règle générale', 'selon les loueurs'). Helmet obligation (pillar). Insurance: compulsory civil-liability certificate named among the vehicle papers (Law 36/2024/QH15, as cited in the longue-duree sub-hub), with the caution that it does not replace a travel/health policy, no coverage claims. Prices: only the owner day range pointer with the mandatory disclaimer. No fines amounts.",
+   "INTENT": "Main question: what a rental motorbike formula includes in Hanoi and what to check at pickup. Owner of 'location de moto à Hanoi' as listed in the ownership file (the homepage keeps the broad commercial query; this page keeps the 'que comprend la formule' angle documented in its title and H1). Closest pages (location-moto-tay-ho, cau-giay, aeroport-noi-bai, sim 0.23) are district pages and do not cover the inclusions checklist.",
+   "CONTENT": "Full rewrite. Sections: ce que recouvre le mot formule + publié/à demander table; casque; antivol et stationnement de nuit; outillage, crevaison, panne; confort (pluie, bagages, téléphone); ce qui n'est en règle générale pas compris; checklist de 8 questions; jour du retrait; FAQ 5 Q. Words 1648 -> 1647.",
+   "META": "Title and H1 kept (64 chars; H1 explains the second half 'que vérifier au retrait'). Description rewritten (172 -> 160 chars); og:description synced.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/panne-scooter-hanoi/, /permis-securite/securite/.",
+   "AEO_GEO": "Direct answer in the lead (what is published, what must be asked, what is generally excluded). 1 table, 2 checklists, FAQ 5 Q; no external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether helmet(s), lock, rain gear, tools are included",
+   "Assistance/insurance, if any",
+   "Fuel convention",
+   "Guarantee amount and form"
   ]
  }
 ]

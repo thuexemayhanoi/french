@@ -1,0 +1,312 @@
+[
+ {
+  "path": "hanoi/que-faire-hanoi-avec-kids/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire à Hanoi avec des enfants, et comment se déplacer (taxi, marche, moto ou non) ?",
+  "words_before": 1964,
+  "words_after": 2258,
+  "new_meta": {
+   "title": "Hanoi avec des enfants : sorties faciles et trajets courts",
+   "description": "Hanoi en famille : lac Hoàn Kiếm, marionnettes sur l’eau, Temple de la Littérature, Bát Tràng, et ce qu’il faut savoir avant de monter à moto avec des enfants.",
+   "h1": "Hanoi avec des enfants : sorties faciles et trajets courts"
+  },
+  "evidence": {
+   "FACTS": "Removed the old unsourced claims (trajet de 20 min vers Bat Trang, 10 min lac-temple, 'les restaurants connaissent les familles', 3-4 jours 'suffisent' stated as fact) and the sentence implying loueurs' own age/insurance conditions. Added sourced facts: climate seasons (Local Vietnam, as in the hanoi hub); Hoàn Kiếm weekend pedestrian rule (Vietnam Airlines guide, same URL as hanoi hub); water-puppet show about 50 min (Vietnam Tourism, seen in search result), 4+ age is attributed to 'un guide' only; Temple of Literature 8:00-17:00 and adult 70 000 VND, reduced student rate, sources disagree on children/last entry (Vietnam Airlines, seen in search result, qualified, 'posez la question à la caisse'); Museum of Ethnology 8:30-17:30, closed Monday and Tet, child rate distinct (official site vme-en.vass.gov.vn, seen in search result, 'confirmez'); Bát Tràng about 15 km (Vietnam Trips, same URL as excursions hub), kids' workshops for a small fee (Fodor's, seen in search result); helmet exemption for under-6 stated only as 'analyses juridiques citant le décret 168/2024/NĐ-CP' (LawNet, seen in search result) with 'le texte se vérifie à la source' and an explicit recommendation against motorbike for under-6. Shop facts limited to confirmed NAP/hours; no price, deposit, delivery, insurance or fleet claim; 'demandez par Zalo si des casques enfant sont disponibles' phrased as a question to ask.",
+   "INTENT": "Main question: how to visit Hanoi with children (what to do, rhythm, transport). Role OWNER for 'hanoï avec des enfants'. Closest pages (solo 0.29, during-tet 0.20, couples 0.19) differ because this one is about child pace, child-suited sites, puppets, ceramics workshop and child-on-motorbike caution, not solo or seasonal travel.",
+   "CONTENT": "Full rewrite. Removed filler ('Une ville plus familiale qu’on ne le croit', repeated 'rythme' paragraphs, 'mécanique paraît simple'). New sections: rythme (heat, lodging area, crossing the street with children), summary table of 6 kid-suited outings, lac Hoàn Kiếm/Vieux Quartier/marionnettes, Temple de la Littérature + Musée d’ethnologie, Bát Tràng workshop, déplacements (taxi, child seat, motorbike caution), meals/heat, checklist-style day plan, FAQ, closing links. Duplicate section/h2 ids removed (id kept on h2 only, TOC regenerated). Words 1964 -> 2258.",
+   "META": "Title changed from 'Hanoï avec des enfants : sorties faciles, trajets courts' to 'Hanoi avec des enfants : sorties faciles et trajets courts' (58 chars; spelling aligned with the rewritten hubs, 'et' added for natural French). Description rewritten (159 chars) to name concrete sites and the motorbike caution. H1 = title. Eyebrow 'Hanoi · En famille'. og:title/og:description identical to title/description.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/temple-de-literature-hanoi-itineraire/, /hanoi/hanoi-a-bat-trang-moto/. Added /hanoi/hanoi-musees-jour-pluie/ (rain alternative). 7/7 unique internal links, parent hub present. Fragment links only to TOC ids on the same page.",
+   "AEO_GEO": "Lead paragraph answers the H1 question in 3 sentences. One table (sorties), one checklist (journée type), FAQ with 5 non-repeating questions (stroller, motorbike with kids, rain, number of days, puppet age). 8 external citations, all URLs from search results or the rewritten hubs."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "seasons (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Hoàn Kiếm weekend pedestrian streets (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/thang-long-water-puppet-theatre-in-hanoi-showtimes-tickets-and-how-long-it-lasts",
+    "checked": "2026-10-30",
+    "used_for": "water puppet show about 50 min (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/en/useful-information/travel-guide/temple-of-literature",
+    "checked": "2026-10-30",
+    "used_for": "Temple of Literature 8:00-17:00, 70 000 VND adult (seen in search result)"
+   },
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-30",
+    "used_for": "Museum of Ethnology hours, closed Monday (seen in search result; details from search summary)"
+   },
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "Bát Tràng distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://fodors.fodors.com/world/asia/vietnam/hanoi/things-to-do/shopping/reviews/bat-trang-ceramic-village-590015",
+    "checked": "2026-10-30",
+    "used_for": "children can make pottery for a small fee (seen in search result)"
+   },
+   {
+    "url": "https://lawnet.vn/ngan-hang-phap-luat/en/tu-van-phap-luat/giao-thong--van-tai/what-is-the-age-at-which-children-must-wear-motorcycle-helmets-in-vietnam-1026653",
+    "checked": "2026-10-30",
+    "used_for": "secondary analysis of Decree 168/2024 helmet exemption under 6 (seen in search result, qualified)"
+   }
+  ],
+  "owner_gaps": [
+   "Child helmet availability and passenger rules for rentals at Thuê xe máy Nguyễn Hà are unconfirmed (page only tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-christmas/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment vivre Noël (soir du 24) à Hanoi à moto : où est la foule, routes fermées, parking, météo, location.",
+  "words_before": 2080,
+  "words_after": 1738,
+  "new_meta": {
+   "title": "Noël à Hanoi à moto : réveillon, cathédrale et lacs",
+   "description": "Noël à Hanoi : foule autour de la cathédrale Saint-Joseph, rues fermées, parking, météo de décembre et conseils pour circuler à moto ou à scooter le 24 au soir.",
+   "h1": "Noël à Hanoi à moto : réveillon, cathédrale et lacs"
+  },
+  "evidence": {
+   "FACTS": "Removed invented/atmospheric claims (guirlandes sur les rétroviseurs, la ville elle-même conseille..., 'la discipline du site', Hanoïens tournent à moto par groupes) and the vague rental sentence 'contrat lu, dépôt compris'. Added sourced facts only: crowds around the cathedral/Old Quarter/Hoàn Kiếm on 24 Dec (Hanoi Times, seen in search result); road closures to vehicles around the cathedral and lake in past years, 18:00 on 24th to 02:00 on 25th (Báo Pháp luật) and from the afternoon in 2021 (Tuổi Trẻ), both seen in search results and explicitly presented as past years, not 2026; Hoàn Kiếm low-emission zone since 1 July 2026 (VietNamNet, taken from rewritten hanoi hub); informal parking around the cathedral asking 50 000 VND per motorbike on a Christmas evening (Lao Động, seen in search result, year not stated, kept as an example); West Lake loop about 17 km, estimates 15-18 km (Lokalee seen in search result); December mean 15-22 C, drizzle, grey (TUI, seen in search result); drink-driving fines up to 8-10 million VND for the top band for motorbikes (Lao Động, seen in search result; Decree 168/2024/ND-CP; thresholds to verify, search results contradicted each other on 'zero tolerance' so no zero-tolerance claim was made). 25 December not a public holiday: general knowledge, stated without source. Midnight-mass time deliberately not given (a 22:30 time from a tour operator is mentioned only as unconfirmed). Rental: only confirmed NAP and hours; three questions to ask (hours on 24/25 Dec, return time, model availability); no price, deposit, delivery, insurance or stock claim.",
+   "INTENT": "Main question: how to enjoy Christmas Eve in Hanoi with a motorbike. Role OWNER for 'noël à Hanoi à moto'. Closest pages (early-morning 0.24, solo 0.21, during-tet 0.21) differ because this is about the 24 Dec evening, cathedral perimeter, December riding; Tet page linked as the next festival.",
+   "CONTENT": "Full rewrite. Removed mannered prose (the 'trois scènes' structure, 'la fête se vit à pied' loops, 'la machine dort', 'discipline du site'). New sections: fete (not a holiday), plan (table of the 24th), cathedrale (crowds, closures, mass), stationnement, lacs (West Lake, alcohol), froid (weather and night riding), checklist, location, FAQ, closing. Words 2080 -> 1738.",
+   "META": "Title 'Noël à Hanoi à moto : balade du réveillon, lacs et cathédrale' (61) replaced by 'Noël à Hanoi à moto : réveillon, cathédrale et lacs' (51); description rewritten (160 chars, factual, no promise); H1 aligned with title; eyebrow 'Hanoi · Saison de Noël'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-hiver-itineraire/, /hanoi/hanoi-food-itineraire-moto/, /permis-securite/moto-hanoi-nuit-securite/, /hanoi/que-faire-hanoi-during-tet/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead gives the direct answer in 2 sentences; table (déroulé du 24), checklist (à prévoir), FAQ of 5 distinct questions (férié, lieu, messe, météo, moto). 8 external citations, all from search results or the rewritten hubs, each qualified (past years, secondary sources)."
+  },
+  "sources": [
+   {
+    "url": "https://hanoitimes.vn/festive-crowds-mark-christmas-eve-across-hanoi-s-central-streets.946274.html",
+    "checked": "2026-10-30",
+    "used_for": "crowds on Christmas Eve (seen in search result)"
+   },
+   {
+    "url": "https://baophapluat.vn/ha-noi-tam-cam-duong-mot-so-tuyen-pho-trong-2-ngay-phuc-vu-noel-post535969.html",
+    "checked": "2026-10-30",
+    "used_for": "past road closures around cathedral (seen in search result; snippet from search summary)"
+   },
+   {
+    "url": "https://tuoitre.vn/ha-noi-cam-xe-ra-vao-khu-vuc-nha-tho-lon-tu-chieu-24-12-de-phuc-vu-le-giang-sinh-20211223111902594.htm",
+    "checked": "2026-10-30",
+    "used_for": "2021 ban on vehicles near cathedral from the afternoon (title seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-30",
+    "used_for": "low-emission zone Hoàn Kiếm (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/gui-xe-may-quanh-nha-tho-lon-toi-noel-nguoi-dan-bi-het-gia-50000-dong-1630679.ldo",
+    "checked": "2026-10-30",
+    "used_for": "50 000 VND parking charge around the cathedral (title seen in search result)"
+   },
+   {
+    "url": "https://lokalee.app/tours/half-day-west-lake-route-of-hanoi-on-motorbike",
+    "checked": "2026-10-30",
+    "used_for": "West Lake loop about 17 km (seen in search result)"
+   },
+   {
+    "url": "https://news.laodong.vn/xe/muc-phat-nong-do-con-voi-nguoi-di-xe-may-cao-nhat-len-toi-10-trieu-dong-1443865.ldo",
+    "checked": "2026-10-30",
+    "used_for": "alcohol fines for motorcyclists up to 10 million VND (title seen in search result)"
+   },
+   {
+    "url": "https://www.tui.co.uk/holidays/weather/asia/vietnam/vietnam/hanoi/december.html",
+    "checked": "2026-10-30",
+    "used_for": "December temperatures 15-21 C (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Opening hours and return-time rules on 24-25 December at Thuê xe máy Nguyễn Hà are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-couples/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser un tour romantique à deux à Hanoi à moto (coucher de soleil, cafés, soirée) et rouler à deux en sécurité.",
+  "words_before": 2033,
+  "words_after": 1657,
+  "new_meta": {
+   "title": "Hanoi en amoureux à moto : couchers de soleil et soirées",
+   "description": "Hanoi à deux : coucher de soleil au lac de l’Ouest, digue Thanh Niên, cafés, dîner dans le Vieux Quartier et points à vérifier pour rouler à deux en scooter.",
+   "h1": "Hanoi en amoureux à moto : couchers de soleil et soirées"
+  },
+  "evidence": {
+   "FACTS": "Removed abstract/unsourced passages (la période dorée, orangers profonds, café 'milliers', 'Hanoï se découvre comme nulle part ailleurs'), the 'dépôt/montant du dépôt' contract language and the stacked 'se vérifie' disclaimers. Added sourced facts: sunset about 17:20 mid-Dec and about 18:40 late June (timeanddate tables, seen in search results, approximate, figures from search summary); seasons (Local Vietnam, taken from rewritten hanoi hub); West Lake loop about 17 km, 15-18 km by source (Lokalee, seen in search result); Thanh Niên road is an early 17th-century dam between Trúc Bạch and West Lake (Hanoi Times, seen in search result); egg coffee born in Hanoi in 1946 with Nguyễn Văn Giảng at the Metropole, Café Giảng 39 Nguyễn Hữu Huân, accounts differ (Mental Floss, seen in search result); Hoàn Kiếm weekend pedestrian rules (Vietnam Airlines guide and Thời báo Tài chính Việt Nam, both taken from rewritten hanoi hub). Passenger rule phrased as 'en règle générale un deux-roues ne transporte qu’un passager ; vérifiez la règle applicable' (no fine amount, no unsourced article citation). Alcohol: only 'sanctionné au Vietnam', no figure. Shop facts limited to NAP/hours and three questions to ask (passenger allowed by contract, two helmets, what the contract says in case of fall or breakdown, return time); no price, deposit, delivery, insurance or fleet claim.",
+   "INTENT": "Main question: how to do a romantic ride for two in Hanoi. Role OWNER for 'hanoi en amoureux à moto'. Closest page hanoi-quartier-francais-que-faire (0.27, architecture walk) differs: this page is about sunset timing, cafés, evening street food and two-up riding; links to the sunset and lakes guides for route detail.",
+   "CONTENT": "Full rewrite. Removed mannered lyrical prose and generic rental check lists. New sections: lumiere (sunset times, seasons), coucher (West Lake, Thanh Niên, Hoàn Kiếm), cafes (egg coffee, parking), soiree (Old Quarter evening, pedestrian streets, alcohol), itineraire (table calibrated on sunset time, no driving times), deux (checklist two-up riding), location (questions to ask), FAQ 4, closing links. Words 2033 -> 1657.",
+   "META": "Title 'Hanoi en amoureux à moto : couchers de soleil, cafés et soirées' (63) replaced by 'Hanoi en amoureux à moto : couchers de soleil et soirées' (56); description rewritten to 160 chars or less and factual; H1 aligned with title; eyebrow 'Hanoi · À deux'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /permis-securite/moto-hanoi-nuit-securite/. Added /hanoi/hanoi-sunset-itineraire-moto/ and /hanoi/hanoi-cafes-itineraire-moto/ (more relevant than the generic rain link); removed /hanoi/hanoi-musees-jour-pluie/ to stay within 7. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead answers in 2 sentences; table (itinéraire calé sur le coucher du soleil), checklist (rouler à deux), FAQ 4 distinct questions. 7 external citations from search results or the rewritten hanoi hub."
+  },
+  "sources": [
+   {
+    "url": "https://timeanddate.com/astronomy/vietnam/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "sunset time ranges (listed in search results; values from search summary, approximate)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "seasons (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://lokalee.app/tours/half-day-west-lake-route-of-hanoi-on-motorbike",
+    "checked": "2026-10-30",
+    "used_for": "West Lake loop about 17 km (seen in search result)"
+   },
+   {
+    "url": "https://hanoitimes.vn/tales-of-hanoi-streets-thanh-nien-the-ancient-road-connecting-two-great-lakes-322252.html",
+    "checked": "2026-10-30",
+    "used_for": "Thanh Niên road history (seen in search result)"
+   },
+   {
+    "url": "https://www.mentalfloss.com/food/coffee/vietnamese-egg-coffee-origin",
+    "checked": "2026-10-30",
+    "used_for": "egg coffee origin 1946 (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Hoàn Kiếm weekend closure (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+    "checked": "2026-10-30",
+    "used_for": "Old Quarter pedestrian streets Fri-Sun 19:00-24:00 (taken from rewritten hanoi hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop's contract allows a passenger, provides two helmets, and what it says on falls/breakdowns is unconfirmed (page only lists questions to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-during-tet/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se passe le Têt (Nouvel An lunaire) à Hanoi pour un voyageur à moto : dates, fermetures, lieux bondés, location.",
+  "words_before": 1889,
+  "words_after": 1782,
+  "new_meta": {
+   "title": "Têt à Hanoi : ce qui ferme, ce qui reste ouvert, rouler à moto",
+   "description": "Hanoi pendant le Têt 2027 : dates, marchés aux fleurs, commerces fermés, pagodes bondées, jours calmes pour rouler et questions à poser au loueur.",
+   "h1": "Têt à Hanoi : ce qui ferme, ce qui reste ouvert, rouler à moto"
+  },
+  "evidence": {
+   "FACTS": "Removed abstract and unsourced passages (exode 'centaines de milliers', 'les stations fonctionnent au ralenti', 'agences fonctionnent avec équipes réduites' stated as fact, 'la moto reste le meilleur instrument pour lire cette période'). Sourced facts: Tet 2027 on Saturday 6 Feb and seven-day official break 4-10 Feb (VnExpress, seen in search result; reader told to confirm the official calendar); closures extending beyond the official break and some Old Quarter restaurants closed until day 3-4 (Vietnam Tourism closures guide, seen in search result); Hàng Lược flower market from the 23rd day of the last lunar month to New Year's Eve (Hanoi Times, seen in search result); Quảng An market for Nhật Tân peach branches (VietnamPlus, seen in search result); Quảng Bá wholesale hours stated as inconsistent between guides; Museum of Ethnology closed during Lunar New Year holidays (official site, seen in search result); Temple of Literature opening later on some holidays and around Tet (one guide, seen in search result, qualified); Grab as most reliable transport (one guide, qualified 'selon un guide'); closed pedestrian spaces in 2024 (Tuổi Trẻ News, seen in search result, explicitly 2024); alcohol checks (LawNet title seen in search result, Decree 168/2024/ND-CP, no fine amount stated). Tradition paragraph (bánh chưng, cây quất, đào, enveloppes rouges, mứt) is general knowledge, unsourced and neutral. Crowded temples named (Trấn Quốc, Phủ Tây Hồ) as general knowledge, phrased as 'les plus fréquentés'. Shop: only NAP, hours 09:00-21:00 'tous les jours' with a request to confirm whether they apply 4-10 Feb 2027; no policy, price, deposit, delivery, insurance or stock claim.",
+   "INTENT": "Main question: what is Hanoi like during Têt and how to ride then. Role OWNER for 'tet à Hanoï'. Closest page solo (0.33), couples/christmas (0.21): they overlap only through generic words; this page is about the lunar-new-year calendar, closures, flower markets and rental planning; Christmas page remains the Dec event page.",
+   "CONTENT": "Full rewrite, kept the useful structure (before / during / after, crowds, rental) but replaced lyrical text with dates, a closures table, a checklist, a traditions section and concrete rental questions. Words 1889 -> 1782.",
+   "META": "Title 'Tet à Hanoï : quartiers animés, quartiers à éviter à moto' replaced by 'Têt à Hanoi : ce qui ferme, ce qui reste ouvert, rouler à moto' (62); description rewritten (146 chars); H1 = title; eyebrow 'Hanoi · Nouvel An lunaire'; og tags identical. Spelling Têt as in the rewritten hubs.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/. Added /hanoi/hanoi-hiver-itineraire/ and /hanoi/hoan-kiem-lac-hanoi-que-faire/. 6/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead states the 2027 dates and the practical answer in 3 sentences; one table (ouvert/fermé), one checklist (à prévoir), FAQ 5 distinct questions. 7 external citations, all seen in search results."
+  },
+  "sources": [
+   {
+    "url": "https://e.vnexpress.net/news/news/vietnam-picks-7-day-tet-break-for-2027-over-10-day-option-5127825.html",
+    "checked": "2026-10-30",
+    "used_for": "Tet 2027 seven-day break 4-10 Feb (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/traveling-in-vietnam-during-tet-a-survival-guide-to-closures-transport-and-food",
+    "checked": "2026-10-30",
+    "used_for": "closures beyond official holiday (seen in search result)"
+   },
+   {
+    "url": "https://hanoitimes.vn/hang-luoc-flower-market-preserving-the-soul-of-tet-in-modern-hanoi.984642.html",
+    "checked": "2026-10-30",
+    "used_for": "Hàng Lược flower market (seen in search result)"
+   },
+   {
+    "url": "https://en.vietnamplus.vn/hanois-quang-an-flower-market-busier-ahead-of-tet/204347.vnp",
+    "checked": "2026-10-30",
+    "used_for": "Quảng An flower market (seen in search result)"
+   },
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-30",
+    "used_for": "Museum of Ethnology closed during Lunar New Year (seen in search result)"
+   },
+   {
+    "url": "https://tuoitrenews.vn/news/society/20240126/hanoi-to-close-some-pedestrian-spaces-for-smoother-traffic-flow-during-tet/78027.html",
+    "checked": "2026-10-30",
+    "used_for": "pedestrian spaces closed during Tet 2024 (title seen in search result)"
+   },
+   {
+    "url": "https://lawnet.vn/judgment/en/tin-tuc/compilation-of-alcohol-concentration-penalties-during-lunar-new-year-in-2025-according-to-decree-168-in-vietnam-13411",
+    "checked": "2026-10-30",
+    "used_for": "alcohol penalties during Tet under Decree 168/2024 (title seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether Thuê xe máy Nguyễn Hà opens and hands over/receives vehicles between 4 and 10 February 2027, and its late-return rules, are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-early-morning/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire à Hanoi tôt le matin (lac, marchés, petit déjeuner) et peut-on rouler à moto à l’aube ?",
+  "words_before": 2188,
+  "words_after": 1685,
+  "new_meta": {
+   "title": "Hanoi tôt le matin : lac, marchés et petit déjeuner de rue",
+   "description": "Hanoi à l’aube : tour du lac Hoàn Kiếm, marchés Đồng Xuân et Long Biên, phở et bánh cuốn, et ce qu’il faut savoir avant de rouler tôt le matin à moto.",
+   "h1": "Hanoi tôt le matin : lac, marchés et petit déjeuner de rue"
+  },
+  "evidence": {
+   "FACTS": "Fixed a real contradiction in the old text: it called the morning 'le meilleur moment pour louer et rouler' while the confirmed pickup hours are 09:00-21:00; the page now states that dawn riding requires having the scooter the day before and tells the reader to ask (Zalo/WhatsApp) whether overnight keeping is possible. Removed unsourced claims ('prévenez votre hôtel... permet de régler les formalités la veille', 'la file est le meilleur indicateur' kept only as 'en général bon signe', safety generalities). Sourced facts: sunrise about 5:12-5:15 early June and 6:34-6:37 mid-January (timeanddate, listed in search results, approximate); Hoàn Kiếm weekend closure (Vietnam Airlines guide, taken from rewritten hanoi hub); Đồng Xuân about 900 m north of the lake, hours about 6:00-18:00/19:00 depending on guides (Vietnam Tourism, seen in search result); Long Biên wholesale market mostly midnight to about 6:00, peak 2:00-5:00 per one guide (Local Vietnam, seen in search result, hours vary by source); West Lake loop about 17 km (Lokalee, seen in search result); Temple of Literature 8:00, adult 70 000 VND (Vietnam Airlines, seen in search result, 'à vérifier à la caisse'); Museum of Ethnology 8:30, closed Monday (official site, seen in search result). Dish table is general knowledge. Shop facts: NAP and 09:00-21:00 only; no price, deposit, delivery, insurance or fleet claim.",
+   "INTENT": "Main question: what to do in Hanoi early in the morning and whether to ride then. Role OWNER for 'hanoï tôt le matin'. Closest pages: christmas (0.24), solo (0.18); differs because it is built around dawn timing, market hours and the 09:00 pickup constraint.",
+   "CONTENT": "Full rewrite. Removed mannered prose ('Hanoï appartient à ceux qui se lèvent tôt', 'la magie du matin se capture'). New sections: heures, lac, marchés, petit-dej (table of dishes), moto (09:00 constraint, dawn hazards, two outings), matinées (table of three formats, plus onward Temple/Museum), équipement (checklist), FAQ 4, closing. Words 2188 -> 1685.",
+   "META": "Title 'Hanoï tôt le matin : lacs, marchés et petits déjeuners de rue' (61) replaced by 'Hanoi tôt le matin : lac, marchés et petit déjeuner de rue' (58); description rewritten (150 chars) with concrete places, the old text 'pho fumant' removed; H1 = title; eyebrow 'Hanoi · Matinée'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-street-food-itineraire-moto/. Added /hanoi/long-bien-pont-hanoi/ and /hanoi/west-lac-hanoi-moto/. Dropped the generic /permis-securite/ hub link. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead answers the H1 question and flags the 09:00 pickup constraint in 3 sentences; 2 tables (dishes, three morning formats), 1 checklist, FAQ 4 distinct questions. 7 external citations all seen in search results or the rewritten hub."
+  },
+  "sources": [
+   {
+    "url": "https://www.timeanddate.com/astronomy/vietnam/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "sunrise times (listed in search results; values from search summary, approximate)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Hoàn Kiếm weekend closure (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/dong-xuan-market-in-hanoi-the-complete-guide-to-the-old-quarter-s-landmark-bazaar",
+    "checked": "2026-10-30",
+    "used_for": "Đồng Xuân hours (seen in search result)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/long-bien-market/",
+    "checked": "2026-10-30",
+    "used_for": "Long Biên wholesale market hours (seen in search result)"
+   },
+   {
+    "url": "https://lokalee.app/tours/half-day-west-lake-route-of-hanoi-on-motorbike",
+    "checked": "2026-10-30",
+    "used_for": "West Lake loop about 17 km (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/en/useful-information/travel-guide/temple-of-literature",
+    "checked": "2026-10-30",
+    "used_for": "Temple of Literature hours and 70 000 VND (seen in search result)"
+   },
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-30",
+    "used_for": "Museum of Ethnology hours/closing day (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a rental can be taken the evening before for a dawn start, and the return time rule, are unconfirmed at Thuê xe máy Nguyễn Hà (page tells readers to ask)."
+  ]
+ }
+]
