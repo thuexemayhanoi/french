@@ -1,0 +1,79 @@
+[
+ {
+  "path": "honda/honda-vision-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle durée de location (jour, semaine, mois) choisir pour un Honda Vision à Hanoi, avec les tarifs de référence du Vision",
+  "words_before": 1722,
+  "words_after": 1728,
+  "new_meta": {
+   "title": "Louer un Honda Vision à Hanoi : jour, semaine ou mois ?",
+   "description": "Honda Vision à Hanoi : tarifs indicatifs de Thuê xe máy Nguyễn Hà au jour, à la semaine et au mois, et comment choisir la durée la plus avantageuse.",
+   "h1": "Louer un Honda Vision à Hanoi : payer au jour, à la semaine ou au mois ?"
+  },
+  "evidence": {
+   "FACTS": "Prix: uniquement la ligne propriétaire Honda Vision 200 000 / 1 000 000 / 2 000 000 VND (jour/semaine/mois) et, dans le tableau comparatif, Air Blade 200 000 / 900 000 / 1 500 000 et fourchette scooter automatique 150-200k / 600k-1M / 1,2-2M comme repère de catégorie; disclaimer exact placé sous chaque tableau de prix. Seuils (5 jours = semaine, 10 jours = mois, 2 semaines = mois) présentés comme comparaison des trois tarifs entre eux, avec mention explicite qu'ils ne chiffrent pas 3, 8 ou 14 jours. Illustration 143 000 / 67 000 VND par jour marquée 'illustration arithmétique' et conditionnée à la définition semaine = 7 jours, mois = 30 jours (à confirmer). Pas de conversion en euros (aucun taux daté). Horaires 09:00-21:00 et téléphone/Zalo/WhatsApp 0334 699 969 conformes à SEO-FACTS. Politiques non confirmées (caution, assurance, casques, kilométrage, paiement, prolongation, remboursement, livraison) reformulées en questions à poser, caution présentée comme pratique générale de 'certains loueurs'. Supprimé: affirmations génériques sur la livraison, l'assurance incluse ou non, 'agence', 'périmètre' abstrait. Aucun spec modèle.",
+   "INTENT": "Question principale: payer au jour, à la semaine ou au mois pour un Vision? Owner de 'louer un Honda Vision à Hanoi' (prix). Se distingue de honda-vision-location-hanoi (profil du voyageur) et de honda-wave-alpha-110-prix / honda-wave-rsx-prix (autres modèles, sans ligne propriétaire) par la ligne tarifaire propre au Vision et les seuils de durée.",
+   "CONTENT": "Réécriture complète: ancien texte abstrait (trois logiques de facturation, 'comparer à périmètre égal', oranges et citrons, 'cette page s'inscrit dans un ensemble', 'hub') remplacé par: tarifs de référence (tableau), seuils de durée (tableau + checklist), définition jour/semaine/mois, facteurs de variation, points à faire préciser (checklist), Vision vs Air Blade vs autre scooter (tableau), FAQ 4 questions nouvelles, pour aller plus loin. Mots 1722 -> 1728.",
+   "META": "Titre raccourci de 68 à 55 caractères et recentré sur la requête 'louer un Honda Vision à Hanoi' (ancien 'Prix de location ... ?' promettait un prix); description 148 caractères factuelle; og:title/og:description identiques; H1 conservé (aligné).",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (cibles obligatoires), /honda/scooters/, /honda/honda-vision-location-hanoi/, /honda/honda-vision-longue-distance-vietnam/, /location-moto-hanoi/what-is-included-location-moto-hanoi/ (conservé). Retiré: /types-motos/scooter-automatique/ (remplacé par /honda/scooters/).",
+   "AEO_GEO": "Réponse directe dans le lead (3 phrases: tarifs du Vision + seuils 5 jours/2 semaines). 3 tableaux (tarifs, durée vs formule, Vision/Air Blade/catégorie), 3 checklists, FAQ 4 questions courtes sans répétition du corps. Aucune citation externe nécessaire."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Définition d'un jour/semaine/mois dans la grille (24 h, jour calendaire, 7/30 jours)",
+   "Contenu inclus (casques, kilométrage), caution, assurance, politique de prolongation/retour anticipé, moyens de paiement",
+   "Année/version du Vision loué"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-alpha-110-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut la Honda Wave Alpha 110 dans la circulation de Hanoi (usage urbain), face à un scooter automatique ?",
+  "words_before": 1597,
+  "words_after": 1663,
+  "new_meta": {
+   "title": "Honda Wave Alpha 110 en ville à Hanoi : atouts et limites",
+   "description": "La Honda Wave Alpha 110 dans les rues de Hanoi : maniabilité, sélecteur au pied, rangement, pluie et contrôles avant de rouler, face à un scooter automatique.",
+   "h1": "Honda Wave Alpha 110 dans la circulation de Hanoi : que vaut-elle en ville ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun prix de modèle: budget limité à la fourchette de catégorie semi-automatique (150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND) 'à titre de repère' avec le disclaimer exact. Principe embrayage centrifuge automatique repris de la source Honda Europe déjà citée par honda/semi-automatiques (Super Cub C125), étendu aux Wave 'sur la même logique' comme sur le hub; aucune spec chiffrée (poids, selle, réservoir: recherche web sans source constructeur, donc volontairement omis et signalé au lecteur). Supprimé: 'sans promettre stock ni tarif', 'sans dramatique', affirmations génériques du FAQ sur assistance/dépôt ('périmètre habituel: casques, couverture, assistance, kilométrage, dépôt'). Aucune politique boutique affirmée. Rangement et protection des jambes décrits qualitativement avec renvoi à l'exemplaire loué.",
+   "INTENT": "Question: la Wave Alpha est-elle à l'aise dans la circulation de Hanoi? Owner de 'honda Wave Alpha 110 dans la circulation de Hanoi'. Distinct de honda-wave-alpha-110-location-hanoi (profil du voyageur), honda-winner-x-hanoi-ville (moto à embrayage manuel) et honda-ct125-hanoi-ville par le seul usage urbain d'une semi-automatique d'entrée de gamme.",
+   "CONTENT": "Réécriture complète du texte mannéré ('Hanoi ne se traverse pas, elle se négocie', 'rembourse le mieux son apprentissage', 'professeur patient'). Nouvelles sections: terrain, atouts (checklist), limites (rapports, confort, rangement, duo), habitudes, apprentissage du sélecteur (étapes numérotées), tableau Wave Alpha vs scooter automatique, contrôles avant de rouler, budget, FAQ 4 questions nouvelles. Mots 1597 -> 1663.",
+   "META": "Titre 57 caractères (ancien 64, 'aisance' vague) ; description 158 caractères ; H1 conservé ; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/scooters/, /honda/honda-wave-alpha-110-location-hanoi/, /permis-securite/securite/. Retirés: /hanoi/excursions-moto/ et /honda/honda-wave-alpha-110-prix-location-hanoi/ (le budget est résumé dans la section dédiée avec renvoi à /prix-location/).",
+   "AEO_GEO": "Lead de 3 phrases qui répond à la question (oui, à condition d'accepter le sélecteur). 1 tableau comparatif, 3 checklists dont une liste numérotée, FAQ 4 questions courtes sans répétition du corps."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Années/versions de Wave Alpha réellement louées (rangement, tablier, boîte)",
+   "Tarif propre de la Wave Alpha"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-alpha-110-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel voyageur la Honda Wave Alpha 110 est-elle un bon choix de location à Hanoi ?",
+  "words_before": 1519,
+  "words_after": 1652,
+  "new_meta": {
+   "title": "Louer une Honda Wave Alpha 110 à Hanoi : pour quel voyageur ?",
+   "description": "La Honda Wave Alpha 110 en location à Hanoi : à qui elle convient ou non, ce qu’il faut vérifier sur la moto, premier trajet et repère de tarif à confirmer.",
+   "h1": "Honda Wave Alpha 110 en location à Hanoi : pour quel type de voyageur ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun prix propre à la Wave Alpha: repère de catégorie semi-automatique (150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND) et scooter automatique (150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000) en tableau avec disclaimer exact et mention 'pas le prix de cette moto'. Fonctionnement de l'embrayage automatique renvoyé à honda/semi-automatiques (source Honda Europe citée là). Pas de spec chiffrée (aucune source constructeur trouvée en recherche web). Permis: aucune affirmation, renvoi à /permis-securite/ avec mention que les règles dépendent de nationalité/catégorie/cylindrée. Caution, assurance, casques, paiement: formulés comme questions à poser, caution présentée comme pratique de 'certains loueurs'. Adresse (Ngõ 5 Nguyễn Văn Cừ, Long Biên, près de Bến xe Gia Lâm), horaires 09:00-21:00 et 0334 699 969 conformes à SEO-FACTS. Supprimé: 'ne promet ni stock ni tarif', 'périmètre suit les règles communes ... dépôt - montant, forme, délais de restitution', 'excellent rapport de la route vietnamienne'.",
+   "INTENT": "Question: la Wave Alpha convient-elle à mon profil de voyageur? Owner de 'honda Wave Alpha 110 en location à Hanoi'. Distinct de honda-wave-alpha-110-hanoi-ville (conduite en ville, gestes du sélecteur), honda-wave-alpha-110-prix-location-hanoi (durée/budget) et honda-wave-alpha-110-ou-yamaha-sirius-location (comparatif avec la Sirius) par le tri des profils et la première heure avec la moto.",
+   "CONTENT": "Réécriture complète du texte abstrait ('contrat clair', 'troc', 'fil conducteur de ces profils'). Nouvelles sections: place dans la famille Honda, tableau des profils (qui choisir/éviter), ce que change un sélecteur, alternatives, contrôles, première heure avec la moto (étapes), une semaine ou un mois, équipement et bagages, repère de tarif et questions, FAQ 4 questions. Mots 1519 -> 1652.",
+   "META": "Titre 61 caractères (ancien 54, 'profil type' vague) recentré sur la requête; description 156 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-wave-alpha-110-hanoi-ville/, /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/, /permis-securite/. Retirés: /hanoi/excursions-moto/, /permis-securite/securite/, /types-motos/semi-automatique/.",
+   "AEO_GEO": "Lead de 3 phrases (qui, pour quoi, alternative). 3 tableaux (profils, repères de catégorie), 3 checklists + 1 liste numérotée, FAQ 4 questions courtes. Aucune citation externe."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Tarif propre de la Wave Alpha",
+   "Version/année des Wave Alpha louées",
+   "Caution, assurance, casques fournis, moyens de paiement"
+  ]
+ }
+]

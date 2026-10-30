@@ -1,5 +1,45 @@
 [
  {
+  "path": "honda/honda-super-cub-c125-ou-yamaha-pg-1-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Super Cub C125 ou Yamaha PG-1 : laquelle louer à Hanoi ?",
+  "new_meta": {
+   "title": "Honda Super Cub C125 ou Yamaha PG-1 : laquelle louer à Hanoi ?",
+   "description": "Super Cub C125 ou PG-1 à Hanoi : deux petites semi-automatiques néo-rétro comparées sur le style, la prise en main, le stationnement et les tarifs à confirmer.",
+   "h1": "Honda Super Cub C125 ou Yamaha PG-1 : laquelle louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced claims of the old text: PG-1 « sérénité » on dirt tracks, shortcuts and village paths, « la Super Cub ne prétend pas offrir », « arbitrage » and desirability/parking assertions presented as fact; the PG-1's scrambler look is now explicitly said not to prove off-road ability. Neither model has an owner row: semi-automatic category repère (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) with the mandatory disclaimer, stated as describing the category and possibly not covering the dearer machine; purchase prices (C125 about 86,5–87,5 M VND, VTC News Aug 2026; PG-1 ABS about 34 M VND, Viettimes) are labelled « prix d’achat, pas un tarif de location » and the text says a purchase gap does not imply the same rental gap. C125 drivetrain: 4-speed with automatic centrifugal clutch, no clutch lever (Honda Europe 2018, seen in search result). PG-1: compared by the press to the Wave RSX with an ABS version announced (Viettimes title seen in search result); seat height stated only as « en général plus haute / à comparer sur les machines ». Deposit/papers/fuel/panne/leaving Hanoi only as questions. No delivery, insurance or stock claim.",
+   "INTENT": "Main question: C125 ou PG-1, laquelle louer à Hanoi ? Owner of « honda Super Cub C125 ou Yamaha PG-1 » (OWNER; closest yamaha-pg-1-abs-ou-honda-super-cub-c125 0.62 stays a separate URL). Keeps the general comparison (style, prise en main, stationnement/rayures, confort, route, budget) and links the PG-1 profile page rather than duplicating it.",
+   "CONTENT": "Full rewrite; removed the « néo-rétro qui regarde vers la piste / deux silos du site / choix selon votre voyage » prose and every reference to site structure. New: qualitative comparison table with sourced purchase price context, the two machines, same sit/shift test, style/parking/scratches, confort/bagages, ville/route/chemins, stay-based criteria table, chain/selector attention point, repère price table, 5-step decision list, 4 FAQ. Words 1795 -> see words_after.",
+   "META": "Title changed from « …: que louer ? » to « …: laquelle louer à Hanoi ? » (62 chars) and H1 from « …: le duel des néo-rétro pour votre location » (mannered) to the same question; description rewritten (159 chars); og tags synced. Matrix title/H1 sync required; hub anchor text on honda/semi-automatiques should follow the new H1.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-super-cub-c125-location-hanoi/, /honda/honda-super-cub-c125-prix-location-hanoi/, /honda/semi-automatiques/, /yamaha/yamaha-pg-1-abs-location-hanoi/. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (deux semi-automatiques néo-rétro pour la ville; choisir assis; pas de tarif propre). 4 FAQ items (débutant, prix, ABS, boucle du Nord). 3 tables, numbered decision list, 2 bulleted lists. Three external citations (Honda Europe, VTC News, Viettimes)."
+  },
+  "sources": [
+   {
+    "url": "https://hondanews.eu/eu/en/cars/media/pressreleases/133910/honda-super-cub-c12510",
+    "checked": "2026-10-30",
+    "used_for": "Super Cub C125: four-speed gearbox with automatic centrifugal clutch, no clutch lever (seen in search result)"
+   },
+   {
+    "url": "https://vtcnews.vn/bang-gia-xe-may-honda-thang-8-2026-moi-nhat-ar1032741.html",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vietnam recommended price table (Aug 2026): Super Cub C125 about 86,5–87,5 M VND by version; not a rental rate (seen in search result)"
+   },
+   {
+    "url": "https://viettimes.vn/yamaha-pg-1-them-abs-gia-34-trieu-lieu-co-du-thuyet-phuc-truoc-honda-wave-rsx-post189477.html",
+    "checked": "2026-10-30",
+    "used_for": "Yamaha PG-1 ABS version announced at about 34 M VND and compared by the press to the Honda Wave RSX (title seen in search result); purchase price only"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop offers a C125 or a PG-1, which versions (ABS), and their rental rates are unknown; kept as questions."
+  ],
+  "words_before": 1795,
+  "words_after": 1673
+ },
+ {
   "path": "honda/honda-super-cub-c125-prix-location-hanoi/index.html",
   "role": "OWNER",
   "primary_intent": "Combien et sous quelle formule (jour, semaine, mois) louer une Honda Super Cub C125, et comment comparer les offres ?",
@@ -35,7 +75,7 @@
    "No C125 row; whether the shop offers a C125 and under which conditions is unknown; deposit, papers, fuel and leaving-Hanoi rules are questions."
   ],
   "words_before": 2022,
-  "words_after": 1686
+  "words_after": 1683
  },
  {
   "path": "honda/honda-vario-125-hanoi-ville/index.html",
@@ -86,7 +126,7 @@
    "Which Vario version/origin/year the shop offers, and whether it has a Vario at all, is unknown; kept as questions."
   ],
   "words_before": 1635,
-  "words_after": 1581
+  "words_after": 1582
  },
  {
   "path": "honda/honda-vario-125-longue-distance-vietnam/index.html",
@@ -158,7 +198,7 @@
    "No Vario 125 row, no rule on prolongation/fuel/deposit/leaving Hanoi: all phrased as questions to ask the shop."
   ],
   "words_before": 1632,
-  "words_after": 1626
+  "words_after": 1624
  },
  {
   "path": "honda/honda-vario-160-hanoi-ville/index.html",
@@ -288,7 +328,7 @@
    "Which Vario 160 / NVX versions (ABS, year) the shop offers is unknown; kept as questions."
   ],
   "words_before": 1625,
-  "words_after": 1593
+  "words_after": 1591
  },
  {
   "path": "honda/honda-vario-160-prix-location-hanoi/index.html",
@@ -316,7 +356,7 @@
    "No Vario 160 row; deposit, payment, early-return refund, extension and leaving-Hanoi rules are unconfirmed and phrased as questions."
   ],
   "words_before": 1722,
-  "words_after": 1581
+  "words_after": 1579
  },
  {
   "path": "honda/honda-vision-hanoi-ville/index.html",

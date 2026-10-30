@@ -1,0 +1,84 @@
+[
+ {
+  "path": "yamaha/yamaha-latte-ou-honda-vision-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Choisir entre un Yamaha Latte et un Honda Vision pour une location à Hanoi (coffre, selle, circulation, entretien, budget).",
+  "words_before": 1827,
+  "words_after": 1941,
+  "new_meta": {
+   "title": "Yamaha Latte ou Honda Vision : lequel louer à Hanoi ?",
+   "description": "Yamaha Latte ou Honda Vision en location à Hanoi : coffre, hauteur de selle, circulation, entretien et budget indicatif, pour choisir sans vous tromper.",
+   "h1": "Yamaha Latte ou Honda Vision : quel scooter louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed generic claims (« retour d’expérience des conducteurs », « sérénité en cas de pépin », douceur de commande, discrétion, « grilles dégressives ») and the stacked contract list (caution, franchise, assistance). Added only sourced specs: Latte 125 cm3, selle 790 mm, réservoir 5,0 L, coffre jusqu’à 37 L fond plat, poids en ordre de marche 100 kg, conso annoncée 1,8 L/100 km (Yamaha Motor Vietnam, seen in search result); Vision selle 761 mm (785 mm sur une page de comparaison), réservoir 4,8 L, coffre/vide-poche avant avec couvercle et port USB-C sans volume chiffré (honda.com.vn, seen in search result). Prices: Vision own row 200 000 / 1 000 000 / 2 000 000 VND; Latte has no owner row, only the automatic-scooter category range 150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 « à titre de repère », with the mandatory disclaimer; no multiplication, no claim that Latte is cheaper or dearer. Policies: assistance/dépannage phrased as a question to ask the loueur (numéro, atelier), not as a shop policy; passenger acceptance phrased as a question. Permit: Law 36/2024/QH15, A1 up to 125 cm3 / A above, cited to xaydungchinhsach.chinhphu.vn (consulté 2026-10-29, seen in search result), with the caveat that validity of a foreign licence depends on the issuing country; link to /permis-securite/permis/. Vision availability/stock not claimed.",
+   "INTENT": "Main question: Latte ou Vision, lequel louer à Hanoi ? Owner of « yamaha Latte ou Honda Vision ». Differs from honda/honda-vision-ou-yamaha-janus-location (Vision vs Janus, 0.71) because the decision axis here is the Latte’s 37 L trunk and 790 mm saddle versus the Vision’s lower saddle and ubiquity; a pointer to the Janus duel is kept in the « choisir » section. Differs from types-motos/yamaha-mio-ou-honda-vision-location (Mio) and from the boîte-125-hybride duel by model.",
+   "CONTENT": "Full rewrite. Sections: Latte et Vision côte à côte (spec table with sources), Le coffre, Selle/gabarit/prise en main (3-gesture checklist), En circulation à Hanoi (incl. Long Biên bridge commute), Entretien/pièces/dépannage, Budget (price table + disclaimer), Comment choisir (checklist), Permis et catégorie, FAQ (5), Pour aller plus loin. Removed mannered passages (« slow life », « compagnon de balade », « sans émotion apparente », « la méthode »), the note that the page has no technical data, and repeated rain/egal paragraphs. Words 1827 → 1941.",
+   "META": "Title changed from « Yamaha Latte ou Honda Vision : que louer à Hanoi ? » to « …lequel louer à Hanoi ? » (53 chars); description rewritten to name concrete criteria (152 chars; removed « comparatif honnête »); H1 kept; eyebrow changed to « Yamaha ou Honda »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent hub), /types-motos/, /prix-location/ (all three required internal_link_targets), /yamaha/yamaha-latte-location-hanoi/, /honda/honda-vision-location-hanoi/, /honda/honda-vision-ou-yamaha-janus-location/, /permis-securite/permis/. Dropped /honda/ and /location-moto-hanoi/ to stay within the cap. External: 4 rel=noopener citations (Yamaha Latte page, Honda Vision page, Honda Vision 2025 press release, chinhphu.vn licence categories).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences) naming the deciding criterion per scooter; comparison table of manufacturer-published figures with sources and caveat that a rental machine may be a different version; price table with disclaimer; two checklists; 5 FAQ items (grandeur, consommation, disponibilité chez Nguyễn Hà, réparation, permis) that add points not in the body."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "Latte: selle 790 mm, réservoir 5,0 L, coffre 37 L fond plat, 125 cm3, poids, conso annoncée (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-b0r5/",
+    "checked": "2026-10-30",
+    "used_for": "Latte standard version page, same figures (seen in search results)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=104&changeVersionFlag=1",
+    "checked": "2026-10-30",
+    "used_for": "Vision: selle 761 mm (785 mm on a comparison page), réservoir 4,8 L (seen in search result summary)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/khuyen-mai/honda-viet-nam-gioi-thieu-phien-ban-moi-mau-xe-vision-2025-ruc-ro-nhung-dau-tien-khang-dinh-phong-cach-rieng",
+    "checked": "2026-10-30",
+    "used_for": "Vision 2025: grand coffre, vide-poche avant avec couvercle, port Type-C, no litre figure (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 in force 1 Jan 2025 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Availability of a Yamaha Latte in the shop fleet and its own day/week/month rates.",
+   "Whether passengers, breakdown assistance and deposit are covered by the shop’s contract (not stated in the article)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-latte-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget prévoir pour louer un Yamaha Latte à Hanoi, et comment obtenir un devis comparable.",
+  "words_before": 1925,
+  "words_after": 1681,
+  "new_meta": {
+   "title": "Louer un Yamaha Latte à Hanoi : repères de prix et devis",
+   "description": "Yamaha Latte en location à Hanoi : fourchette de la catégorie scooter automatique par jour, semaine et mois, points à faire préciser dans le devis.",
+   "h1": "Yamaha Latte : quel budget prévoir pour la location à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "The Latte has no owner row. The article states this once and uses only the category range « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) « à titre de repère », with the mandatory disclaimer next to the price table and in the FAQ; table also shows semi-automatic, electric (day « selon le modèle, à confirmer ») and the Honda Vision own row (200 000 / 1 000 000 / 2 000 000). No multiplication of day rates, no euro conversion (FAQ says none is offered), no claim that the Latte is cheaper/dearer. Removed the old text asserting a dégressif semaine (« la décote entre en scène »), the claims about « dépôt de garantie, assurance et franchise » as bill lines, and the closing remarks on rayon d’action. Deposit, casques, carburant, hours counting, assistance, payment mode and currency are written only as questions to ask the loueur (one dedicated checklist), each stated as unconfirmed. Market observations are phrased « certains loueurs ajustent… (Têt) ». Specs only qualitative or manufacturer-sourced: 125 cm3, coffre jusqu’à 37 L, réservoir 5,0 L, conso annoncée 1,8 L/100 km (Yamaha Motor Vietnam, seen in search result); the « plus de 250 km en théorie » is derived from those two figures and flagged as theoretical. NAP/hours as in SEO-FACTS (0334 699 969, Zalo/WhatsApp, 09:00–21:00, Ngõ 5 Nguyễn Văn Cừ, près du Bến xe Gia Lâm).",
+   "INTENT": "Main question: combien coûte / quel budget pour louer un Yamaha Latte à Hanoi ? Owner of « yamaha Latte » (prix). Closest pages: yamaha-xmax-prix, yamaha-pg-1-abs-prix, yamaha-neo-s-prix (different models). Complements yamaha-latte-location-hanoi (usage) and prix-location/automatique-location-scooter-hanoi-prix (category), linked once each.",
+   "CONTENT": "Full rewrite of a padded, abstract text (« L’arithmétique du quotidien », « Décider selon le budget du séjour », « la décote entre en scène »). New structure: repères publiés (table), ce qui fait varier le prix (4-item checklist), jour/semaine/mois, ce que le devis doit préciser (9 questions), dépenses hors loyer (fuel, parking, rain gear, fines), comparer deux offres (3 steps), message à envoyer (copy-ready template with the confirmed contact), FAQ (5), pour aller plus loin. Words 1925 → 1681.",
+   "META": "Title and description rewritten (56 / 147 chars; no « prix exact » promise; the old one announced « méthode pour comparer » only); H1 changed to « Yamaha Latte : quel budget prévoir pour la location à Hanoi ? »; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /prix-location/automatique-location-scooter-hanoi-prix/, /prix-location/semaine/, /location-moto-hanoi/longue-duree/, /yamaha/yamaha-latte-location-hanoi/. Removed /location-moto-hanoi/, /prix-location/jour/ to stay at the cap. No external links.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences with the three category ranges). Price table with disclaimer; one checklist of variables, one of quote questions, one of costs; ordered list of 3 comparison steps; copy-ready message; 5 FAQ items (cost, semaine vs jour, semi-automatique au mois, casque, paiement en euros)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "Latte 125 cm3, coffre jusqu’à 37 L, réservoir 5,0 L, conso annoncée 1,8 L/100 km (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Own day/week/month rate for a Yamaha Latte (if it is offered).",
+   "Deposit, casques included, fuel rule, late-return counting, breakdown procedure, payment methods/currency (all written as questions)."
+  ]
+ }
+]

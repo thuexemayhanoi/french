@@ -370,5 +370,173 @@
   "owner_gaps": [
    "Exact inclusions of the rental rate (fuel, equipment, insurance/assistance), garantie, handover elsewhere, leaving Hanoi, late fee."
   ]
+ },
+ {
+  "path": "prix-location/semi-automatique-location-moto-hanoi-prix/index.html",
+  "role": "OWNER",
+  "primary_intent": "Prix d'une semi-automatique en location à Hanoi : repères indicatifs, comparaison avec le scooter automatique, essai et points à faire confirmer",
+  "words_before": 1662,
+  "words_after": 1614,
+  "new_meta": {
+   "description": "Moto semi-automatique à Hanoi : repères indicatifs par jour, semaine et mois, comparaison avec le scooter automatique et points à vérifier avant de réserver."
+  },
+  "evidence": {
+   "FACTS": "Prices: semi-automatic and automatic-scooter rows (day/week/month) from the owner table with the exact disclaimer; comparison drawn only from those rows (identical day ranges, overlapping week ranges 700–800k vs 600k–1M, lowest month row 1.0–1.2M vs 1.2–2.0M). No model-specific price for Wave/Sirius or any semi-automatic (category range only, to confirm); no specs (displacement, tank, intervals) — reader sent to the manufacturer's sheets/manual. Removed unsourced claims: « machine d’apprentissage la plus répandue du pays », « générations de conducteurs vietnamiens », « les loueurs la confient volontiers aux voyageurs », « ces modèles se fabriquent localement à grande échelle », « la famille reste très demandée », the fuel-consumption difference between families, « en tendance les grilles s’assouplissent avec la durée ». Licence: only « la règle dépend de votre permis et de la cylindrée ; vérifiez-la » (no blanket statement). Garantie, inclusions, fuel rule, panne, leaving Hanoi stated as unpublished questions. Mechanics description (foot selector, no hand clutch lever; automatic scooter without gears) is general and non-model-specific. NAP/hours per SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: how much does a semi-automatic cost to rent in Hanoi? Owner of « prix d’une semi-automatique en location à Hanoi ». Differs from /prix-location/automatique-location-scooter-hanoi-prix/ (automatic scooters) by reading the semi-automatic row against the automatic row, with a test checklist and wear points; differs from /prix-location/prix-location-moto-hanoi/ (all categories) and types-motos/automatique-ou-semi-automatique-moto-vietnam/ (mechanics/usage).",
+   "CONTENT": "Full rewrite. Removed mannered prose (« une place singulière dans les rues du Vietnam », « sa mécanique simple ne rattrape jamais un exemplaire fatigué », « mérite un comptoir de confiance ») and SEO-process wording (« la règle de la plateforme », « le hub », « celui-ci a traité »). New: two-row comparison table, reading of ranges, semi-auto vs scooter differences, which stays suit it, seven-point test list, three decision examples, wear points, what the loueur must state. FAQ cut to 5 non-repeating Q&As. Words 1662→1614.",
+   "META": "Title and H1 kept (57 chars, natural). Description rewritten (157 chars) to announce the indicative ranges and comparison, dropping « sans se tromper »; og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/automatique-ou-semi-automatique-moto-vietnam/ (kept), /prix-location/mois/, /prix-location/wave-ou-sirius-mensuelle-cout-location/, /prix-location/automatique-location-scooter-hanoi-prix/. tel/WhatsApp/Zalo links. TOC auto-synced with 9 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (day/week/month ranges and the lowest monthly row). 1 table, 3 lists (one numbered 7-point test), FAQ of 5."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which semi-automatic models are in the rental line-up and their own rates, garantie, fuel rule and leaving-Hanoi rule."
+  ]
+ },
+ {
+  "path": "prix-location/trail-location-moto-vietnam-prix/index.html",
+  "role": "OWNER",
+  "primary_intent": "Trail en location au Vietnam : quand la choisir, quoi demander, sans tarif publié",
+  "words_before": 1622,
+  "words_after": 1629,
+  "new_meta": {
+   "title": "Trail en location au Vietnam : quand la choisir et que demander",
+   "description": "Trail en location au Vietnam : en quoi elle diffère d’un scooter, quand elle se justifie, essai à faire et questions à poser, sans tarif publié ici.",
+   "h1": "Trail en location au Vietnam : quand la choisir et que demander"
+  },
+  "evidence": {
+   "FACTS": "No rate, range or € figure for trail anywhere (owner table has no trail row; the text says neither the semi-automatic nor the automatic range applies and tells the reader to ask). Availability of trails at Thuê xe máy Nguyễn Hà stated as unconfirmed; garantie, inclusions, panne/chute rules, leaving Hanoi as questions. No spec (displacement, weight, seat height, tank) is given: all deferred to the manufacturer's sheet of the exact model. Licence: only « le permis exigé dépend de la catégorie de véhicule ; vérifiez-le » + link to permis-securite, no blanket statement. Removed the unsourced old claims: the title's « tarif plus élevé », « une trail coûte plus cher à l’achat/à entretenir », « préparation avant chaque grande boucle prend du temps d’atelier », « flotte réduite, usure rapide », « la saison concentre la demande », « les grandes boucles du nord attirent vers cette famille », and the 'groupes' paragraph; the page no longer claims or implies a fleet of trails. No external source needed.",
+   "INTENT": "Main question: when to choose a trail for a rental in Vietnam and what to ask? Owner of « trail en location au Vietnam ». Differs from types-motos/trail-moto-ou-scooter-ha-giang/ (trail vs scooter on the Ha Giang terrain) by being the price-side guide (no price published, lines to ask, test, equipment); links to it once.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« un tarif plus élevé, des raisons concrètes », « la machine ordinaire la subit par excès d’optimisme », « la trail assume cette usure par conception ») and SEO-process wording (« la règle de la plateforme », « le hub »). New: what a trail changes vs a scooter, what is known and unknown on price, programme table, seven-point test, permit/safety, vocabulary caution, cost lines table, rider equipment, what the quote must state. FAQ cut to 5 non-repeating Q&As. Words 1622→1629.",
+   "META": "Title « Trail en location au Vietnam : pourquoi ce tarif plus élevé ? » replaced by « …: quand la choisir et que demander » (63 chars) because no trail tariff is published and the page cannot claim it is higher; H1 aligned; description rewritten (148 chars); og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/trail-moto-ou-scooter-ha-giang/ (kept), /permis-securite/, /prix-location/nord-vietnam-voyage-moto-budget-7-jours/, /prix-location/semi-automatique-location-moto-hanoi-prix/. tel/WhatsApp/Zalo links. TOC auto-synced with 10 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (what a trail is, when it is justified, no tariff published, availability unconfirmed). 2 tables, 3 lists (one numbered 7-point test), FAQ of 5."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Are trails (or manual sport bikes) in the rental line-up, their models/rates, licence category required, garantie and rules for leaving Hanoi."
+  ]
+ },
+ {
+  "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
+  "role": "OWNER",
+  "primary_intent": "Budget d'un mois de location de moto au Vietnam (un mois de route) : postes, repères publiés, ce qui doit être demandé",
+  "words_before": 2006,
+  "words_after": 1720,
+  "new_meta": {
+   "description": "Un mois de moto au Vietnam : repères indicatifs du loyer mensuel, carburant, nuits, garantie et retour de la moto, avec une méthode pour chiffrer chaque poste."
+  },
+  "evidence": {
+   "FACTS": "Rent: month column of the six owner rows with the exact disclaimer; no daily multiplication, no 30-day package; no trail/manual-sport figure. Fuel: Vision example from Honda Vietnam's declared 1.82 L/100 km and 4.8 L tank (honda.com.vn product page, seen in search result) and E5 RON 92 at 25 060 VND/L (Petrolimex zone 1, in force since 2026-10-22; Báo Văn Hóa article of 2026-10-23, seen in search result); worked lines for 1 000 km (18.2 L, about 456 100 VND) and 3 000 km (54.6 L, about 1 368 300 VND) are arithmetic on those figures with declared hypothetical distances and a warning that real use is higher. Oil-change remark: Honda Vietnam FAQ says to shorten the interval above 1 000 km per month (seen in search result). Leaving Hanoi, restitution elsewhere, assistance, garantie, payment, insurance and permit statements: unconfirmed for Thuê xe máy Nguyễn Hà or generic « vérifiez » (no blanket legal claim). Removed: « le forfait mensuel est avantageux en tendance », « les loueurs sérieux préfèrent les dossiers clairs », « la logique du forfait long séjour », seasonal/monsoon pricing claims, the caution forms (espèces, empreinte, virement) as the shop's, and « les périodes de forte demande raidissent les fourchettes ». No € conversion. NAP/hours per SEO-FACTS.",
+   "INTENT": "Main question: what budget for 30 days of motorbike rental in Vietnam? Owner of « location de moto au Vietnam ». Differs from /prix-location/30-jours-location-moto-hanoi-cout/ (30-day rental in Hanoi, rent-line composition) by treating a month of road across the country: five postes with the leaving-Hanoi / one-way return question, a fuel example over month-long distances and a budget table to complete; differs from /prix-location/nord-vietnam-voyage-moto-budget-7-jours/ (one week, north).",
+   "CONTENT": "Full rewrite. Removed mannered prose (« la règle reste entière », « un budget honnête », « la marge honnête ne cherche pas à tout chiffrer », « un contrat clair est la meilleure ligne d’un budget ») and SEO-process wording (« ce dossier », « les pages du dossier suivent la même règle »). New: month-rate table, fuel example table, nights/meals method, return of the moto, garantie/entretien/imprévus, permit and conditions, three month shapes, budget table to complete, in-trip budget control. FAQ cut to 4 non-repeating Q&As. Words 2006→1720.",
+   "META": "Title and H1 kept (50 chars). Description rewritten (159 chars) to drop « ce qui se négocie » and « pièges à lire avant de signer »; og:description synced (old one used an &#39; entity).",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/30-jours-location-moto-hanoi-cout/, /prix-location/moto-carburant-cout-hanoi-location/, /centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/, /permis-securite/. Dropped /types-motos/location-moto-manuelle-hanoi/. Three external links (honda.com.vn product page and FAQ, baovanhoa.vn), rel=noopener, seen in search results. tel/WhatsApp/Zalo links. TOC auto-synced with 11 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (five postes, only the rent is published, leaving Hanoi unconfirmed). 4 tables, 3 lists, FAQ of 4."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vision declared consumption 1.82 L/100 km and tank 4.8 L (seen in search result)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-30",
+    "used_for": "E5 RON 92 about 25 060 VND/L, Petrolimex zone 1, from 2026-10-22 15:00 (seen in search result summary)"
+   },
+   {
+    "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=dau-nhot&category_child=tu-van-su-dung-xe-may",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vietnam FAQ: oil-change interval to shorten above 1 000 km/month (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Can the moto leave Hanoi for a month-long trip, one-way restitution or transport, assistance outside Hanoi, garantie, payment schedule."
+  ]
+ },
+ {
+  "path": "prix-location/vision-ou-janus-cout-location-hanoi/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Honda Vision ou Yamaha Janus : coût à l'usage (loyer publié, carburant annoncé, budget) à Hanoi",
+  "words_before": 1724,
+  "words_after": 1559,
+  "new_meta": {
+   "title": "Honda Vision ou Yamaha Janus : quel coût à l’usage à Hanoi ?",
+   "description": "Vision ou Janus à Hanoi : loyer indicatif publié, carburant annoncé par les constructeurs, exemple d’une semaine et questions à poser avant de réserver."
+  },
+  "evidence": {
+   "FACTS": "Rent: Vision uses its own owner row (200 000/day, 1 000 000/week, 2 000 000/month); Janus has no row, so only the automatic-scooter category range (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) is shown as a repère to confirm, in one table with the exact disclaimer; no Janus price, no duration without row computed; Janus availability stated as unconfirmed. Fuel: Honda Vision 1.82 L/100 km and 4.8 L tank (honda.com.vn product page); Yamaha Janus 125 current spec pages 1.98 L/100 km and 4.2 L tank, older Yamaha articles citing 1.87–1.88 L (yamaha-motor.com.vn, seen in search results 2026-10-30; the text says the model year to be confirmed); E5 RON 92 at 25 060 VND/L (Petrolimex zone 1 since 2026-10-22, Báo Văn Hóa 23 Oct 2026, seen in search result). Arithmetic (100/300/1 000 km: 45 600/136 800/456 100 VND vs 49 600/148 900/496 200 VND; gap about 4 000/12 000/40 100 VND; 150 km week 68 400 vs 74 400 VND; theoretical range 260 vs 210 km) is on declared figures and labelled as order of magnitude. Removed unsourced claims: « les deux-roues les plus croisés dans le trafic vietnamien », « cylindrées voisines », « la différence de consommation se creuse sur Ninh Binh, Ha Long », the ergonomic/underseat-storage claims about specific models, « réserver la veille en haute saison ». Garantie, equipment, maintenance, parking, fuel rule and leaving Hanoi stated as unpublished. No € conversion. NAP/hours per SEO-FACTS.",
+   "INTENT": "Main question: which of Vision or Janus costs less to use (rent, fuel, budget)? DISTINCT_ANGLE of honda/honda-vision-ou-yamaha-janus-location/ (group owner: which scooter to rent — usage, comfort, size); this article treats only the usage cost with published/declared figures and no invented package; links to the owner once, and to the Vision and Janus price pages.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« deux scooters stars de la rue hanoienne », « le coût invisible se paie en fatigue », « le budget honnête intègre ce plaisir d’usage ») and SEO-process wording (« la politique de la plateforme encadre le propos », « le hub »). New: rent table (Vision row + category range), declared-fuel table Vision/Janus with sources, one-week example, which line weighs by stay type, what the quote does not price, five-step choice, how to ask for the two totals. FAQ cut to 4 non-repeating Q&As. Words 1724→1559.",
+   "META": "Title changed from « …: quel coût d’usage à Hanoi ? » to « …: quel coût à l’usage à Hanoi ? » (60 chars) with a natural spelling; H1 kept as the hub anchor; description rewritten (152 chars) without « comparer … se fait ligne par ligne, au devis du moment »; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /honda/honda-vision-ou-yamaha-janus-location/ (group owner, once), /honda/honda-vision-prix-location-hanoi/, /yamaha/yamaha-janus-125-prix-location-hanoi/, /prix-location/moto-carburant-cout-hanoi-location/ (kept). Dropped /types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam/. Three external links (honda.com.vn, yamaha-motor.com.vn, baovanhoa.vn; rel=noopener; seen in search results). tel/WhatsApp/Zalo links. TOC auto-synced with 9 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (fuel gap about 4 000 VND/100 km, rent decides; only the Vision has a published line). 2 tables, 3 lists (one numbered), FAQ of 4."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+    "checked": "2026-10-30",
+    "used_for": "Honda Vision declared consumption 1.82 L/100 km, tank 4.8 L (seen in search result)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "Yamaha Janus 125 spec page: 1.98 L/100 km and 4.2 L tank; older Yamaha articles 1.87–1.88 L (seen in search result summary)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-30",
+    "used_for": "E5 RON 92 about 25 060 VND/L, Petrolimex zone 1, from 2026-10-22 15:00 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Are Yamaha Janus models in the rental line-up and their rate; model year of the Vision/Janus remis; garantie, fuel rule, leaving Hanoi."
+  ]
+ },
+ {
+  "path": "prix-location/wave-ou-sirius-mensuelle-cout-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Honda Wave ou Yamaha Sirius : coût à l'usage sur un mois de location à Hanoi (loyer de catégorie, carburant annoncé, entretien)",
+  "words_before": 1671,
+  "words_after": 1588,
+  "new_meta": {
+   "title": "Honda Wave ou Yamaha Sirius : quel coût sur un mois ?",
+   "description": "Wave ou Sirius sur un mois à Hanoi : loyer indicatif des semi-automatiques, carburant annoncé par Honda et Yamaha, entretien et questions à poser.",
+   "h1": "Wave ou Sirius : quel coût à l’usage sur un mois de location ?"
+  },
+  "evidence": {
+   "FACTS": "Rent: neither Wave nor Sirius has an owner row, so only the semi-automatic category row (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) is shown as a repère to confirm, with the exact disclaimer; no model price, no 30-day multiplication; availability of both models stated as unconfirmed. Fuel: Honda Wave Alpha 110 1.72 L/100 km, tank 3.7 L (honda.com.vn product page); manual: about 1.02 L left in the red zone, RON 91 or higher recommended (manual PDF at cdn.honda.com.vn, seen in search result summary); Yamaha Sirius FI 1.65 L/100 km, tank 4.0 L on the current alloy-wheel version page (older Yamaha documents give other values: 1.57 L/100 km in 2020 data, 3.8 L tank in 2017) (yamaha-motor.com.vn, seen in search results 2026-10-30); E5 RON 92 at 25 060 VND/L (Petrolimex zone 1 since 2026-10-22, Báo Văn Hóa 23 Oct 2026, seen in search result). Arithmetic (100/900/1 500 km: about 43 100/387 900/646 500 VND for Wave vs 41 300/372 100/620 200 VND for Sirius; 1 000 km gap about 17 500 VND; theoretical range 215 vs 240 km; a 900 km month = category month row + fuel = about 1 370 000–1 590 000 VND before garantie/maintenance) is on those figures only, with distances declared hypotheses and the warning that declared consumption is a test value. Oil-change interval: Honda Vietnam FAQ (first change 1 000 km then about 6 000 km, shorten above 1 000 km/month), cross-referenced to the oil-change article's sources. Removed unsourced claims: « des millions de foyers », « réparables partout », « la Wave, c’est increvable », « les récits de voyageurs les créditent de comportements voisins », « les loueurs pratiquent des grilles dégressives », « les offres mensuelles englobent l’entretien » as general facts. Who pays maintenance, garantie, fuel rule, leaving Hanoi: unpublished questions. No € conversion. NAP/hours per SEO-FACTS.",
+   "INTENT": "Main question: Wave or Sirius, which costs less to use over a month? DISTINCT_ANGLE of honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (group owner: which semi-automatic to rent); this article only treats usage cost with published/declared figures and no invented package; links to the owner once, and to the semi-automatic price article and the oil-change article.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« deux routières de la série économique », « la décision se prend en selle », « le mois change la grille de lecture », « le hub ») and SEO-process wording (« la politique de la plateforme ne négocie pas sur ce point »). New: category rent table, declared-fuel table Wave/Sirius with sources, tank/reserve/range, a 900 km month order of magnitude and table of what is/isn't known, oil-change and maintenance questions, seven-point condition checklist, five-step choice, how to request totals. FAQ cut to 4 non-repeating Q&As. Words 1671→1588.",
+   "META": "Title « Honda Wave ou Yamaha Sirius : quelle économie sur un mois ? » changed to « …: quel coût sur un mois ? » (53 chars) because the page shows a small fuel gap, not an economy; H1 aligned (« quel coût à l’usage sur un mois de location ? »); description rewritten (146 chars); og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (group owner, once), /prix-location/semi-automatique-location-moto-hanoi-prix/ (kept), /prix-location/moto-carburant-cout-hanoi-location/ (kept), /prix-location/location-moto-oil-change-longue-duree-vietnam/. Four external links (honda.com.vn, yamaha-motor.com.vn, Wave manual PDF, baovanhoa.vn; rel=noopener; seen in search results). tel/WhatsApp/Zalo links. TOC auto-synced with 10 H2 ids incl. #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (fuel gap about 17 500 VND per 1 000 km, rent decides, no model row, availability unconfirmed). 4 tables, 2 lists, FAQ of 4."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+    "checked": "2026-10-30",
+    "used_for": "Honda Wave Alpha 110 declared consumption 1.72 L/100 km and tank 3.7 L (seen in search result)"
+   },
+   {
+    "url": "https://cdn.honda.com.vn/motorbike-manual/September2025/PIcp8XLSxQmsi5X5Twsy.pdf",
+    "checked": "2026-10-30",
+    "used_for": "Wave manual: about 1.02 L left in the red zone; RON 91 or higher recommended (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-vanh-duc-mau-hoan-toan-moi-bsac/",
+    "checked": "2026-10-30",
+    "used_for": "Yamaha Sirius FI declared consumption 1.65 L/100 km and tank 4.0 L; older documents give other values (seen in search result summary)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-30",
+    "used_for": "E5 RON 92 about 25 060 VND/L, Petrolimex zone 1, from 2026-10-22 15:00 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Are Honda Wave and Yamaha Sirius in the rental line-up and their rates; maintenance responsibility, garantie, fuel rule and leaving-Hanoi rule."
+  ]
  }
 ]

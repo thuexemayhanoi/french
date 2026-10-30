@@ -466,5 +466,255 @@
   "owner_gaps": [
    "Whether a poncho is provided and the rain-day return, modification and cancellation conditions at Thuê xe máy Nguyễn Hà are unconfirmed (page tells readers to ask)."
   ]
+ },
+ {
+  "path": "hanoi/red-river-hanoi-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment faire une boucle à moto le long du fleuve Rouge (pont Long Biên, digue, bancs de sable, Bát Tràng) depuis Hanoi.",
+  "words_before": 1933,
+  "words_after": 1693,
+  "new_meta": {
+   "title": "Rivière Rouge à moto : pont Long Biên, digue et Bát Tràng",
+   "description": "Itinéraire à moto le long du fleuve Rouge depuis Long Biên : pont, digue, bancs de sable cultivés, village de céramique de Bát Tràng et précautions de route.",
+   "h1": "Rivière Rouge à moto : pont Long Biên, digue et Bát Tràng"
+  },
+  "evidence": {
+   "FACTS": "Corrected the route logic: the old text started 'du vieux quartier vers sept heures' and gave 'une vingtaine de minutes de conduite' and 'quatre à cinq heures' (unsourced, impossible with a 09:00 pickup); the page now starts from the Long Biên pickup (09:00-21:00) and gives no driving durations. Removed the unsourced statements about bamboo cafés on the sandbanks, parkings 'tenus par les habitants', the 'pont Chương Dương réservé à la circulation dense', 'les sens de circulation selon règles locales'. Sourced facts: Long Biên bridge built 1899-1902 by Daydé & Pillé, first called Paul Doumer (Hanoi Times, seen in search result); bridge closed after Typhoon Yagi in September 2024 (Hanoi Capital, seen in search result); 60-day closure from end March 2026 and reopening on 28 May 2026 (Viet Nam News, taken from rewritten hanoi hub); bridge reserved to motorbikes, bicycles and pedestrians next to the railway (hanoi hub); tourists endangering themselves in front of trains (CNN title, seen in search result); sandbank access not easy, narrow paths (Hanoi Times, seen in search result), 2025 unauthorised construction on an islet reported by the press (Tuổi Trẻ May 2025 per search summary, no URL cited), stronger current and alluvial-ground dangers reported (search results, phrased as 'des reportages signalent'); Bát Tràng 13-15 km from centre (Vietnam Trips, taken from excursions hub); motorbikes banned on expressways, 11 foreign bikers fined in Feb 2026 (VOV, taken from hanoi hub); sunset about 17:20 mid-December and 18:40 late June (timeanddate, approximate). Shop facts limited to NAP/hours and questions to ask (precise pickup point, contract coverage on dike roads, return time). No price, deposit, delivery or insurance claim.",
+   "INTENT": "Main question: how to ride a half-day loop along the Red River from Hanoi. Role OWNER for 'rivière Rouge à moto'. Closest pages: nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto (0.21), hanoi-a-bat-trang-moto (0.19), quang-ninh (0.18): this page is the river/dike/bridge loop that ends at Bát Tràng; the Bát Tràng page remains the village guide and long-distance pages are unrelated.",
+   "CONTENT": "Full rewrite. New sections: fleuve (river and lodging side), pont (history, closures, behaviour), bancs (access, safety, no promises), batrang, boucle (6-step table), digues (road, expressway ban, weather, sunset), sac (checklist), location (questions), FAQ 5, closing links. Words 1933 -> 1693.",
+   "META": "Title 'Rivière Rouge à moto : Long Bien, Bat Trang et les îles' (55) replaced by 'Rivière Rouge à moto : pont Long Biên, digue et Bát Tràng' (57); description rewritten (157 chars) and no longer promises 'une boucle réussie'; H1 = title; eyebrow 'Hanoi · Fleuve Rouge'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-bat-trang-moto/. Added /hanoi/long-bien-pont-hanoi/ and /hanoi/hanoi-ecopark-moto/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead gives the answer in 3 sentences; 1 table (boucle en 6 étapes), 1 checklist (sac), FAQ 5 distinct questions. 8 external citations seen in search results or the rewritten hubs."
+  },
+  "sources": [
+   {
+    "url": "https://hanoitimes.vn/long-bien-bridge-the-iconic-french-construction-in-the-heart-of-hanoi-315688.html",
+    "checked": "2026-10-30",
+    "used_for": "bridge construction 1899-1902, Daydé & Pillé, Doumer (seen in search result)"
+   },
+   {
+    "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-shuts-down-long-bien-bridge-110240911121254222.htm",
+    "checked": "2026-10-30",
+    "used_for": "bridge closure after Typhoon Yagi, Sept 2024 (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "bridge reopened 28 May 2026 (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://amp.cnn.com/cnn/travel/article/long-bien-bridge-selfies-hanoi-vietnam-intl-hnk",
+    "checked": "2026-10-30",
+    "used_for": "tourists endangering themselves near trains (seen in search result)"
+   },
+   {
+    "url": "https://m.hanoitimes.vn/high-time-for-red-river-to-emerge-as-hanois-new-development-symbol-experts-327850.html",
+    "checked": "2026-10-30",
+    "used_for": "sandbank access via bridge and narrow paths (seen in search result)"
+   },
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "Bát Tràng distance 13-15 km (taken from excursions hub)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban enforcement (taken from hanoi hub)"
+   },
+   {
+    "url": "https://timeanddate.com/astronomy/vietnam/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "sunset time range (listed in search results, approximate)"
+   }
+  ],
+  "owner_gaps": [
+   "Contract terms on breakdown/fall on dike roads and the exact pickup point at Long Biên are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/scooter-jour-voyages-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelles sont les plus belles routes en scooter autour de Hanoi, et pour quel niveau de conducteur ?",
+  "words_before": 1898,
+  "words_after": 1613,
+  "new_meta": {
+   "title": "Routes en scooter autour de Hanoi : les plus belles sorties",
+   "description": "Les plus belles routes en scooter autour de Hanoi : digue du fleuve Rouge, Bát Tràng, Đường Lâm, Ba Vì, Tam Đảo. Distances indicatives et réflexes de conduite.",
+   "h1": "Routes en scooter autour de Hanoi : les plus belles sorties"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced numbers and claims: 'soixante à cent-vingt kilomètres pour une journée', 'moins d’une heure de la ville', 'trois ou quatre heures' for the dike loop, 'à Thai Binh ou Nam Dinh', 'écoles de conduite informelles', 'en basse saison les loueurs conservent de la disponibilité' (stock claim), 'les gargotes n’acceptent pas toujours le paiement sans contact'. Distances now taken only from the sourced distances table of the rewritten excursions hub (Bát Tràng 13-15 km Vietnam Trips; Đường Lâm 40-44 km Hanoi Times/VietNamNet; Ba Vì about 60 km Lonely Planet; Tam Đảo 70-85 km Vietnam Tourism; Ninh Binh 86-104 km Oxalis Adventure), with the same wording that no travel time is given. Thăng Long avenue central lanes closed to two-wheelers and 2026 police checks (Đại biểu Nhân dân, from the excursions hub). Expressway ban and the 11 foreign bikers fined in Feb 2026 (VOV, from the hub). Seasons (Local Vietnam, from the hanoi hub). Driving advice on automatic scooters (no engine braking, two brakes, slippery after rain, wind) is general safety guidance with no legal claim. The 09:00 pickup is noted for dawn departures. Shop facts limited to NAP, hours and questions to ask (is the outing outside Hanoi accepted, breakdown procedure, return time). No price, deposit, delivery, insurance or stock claim.",
+   "INTENT": "Main question: which scooter routes around Hanoi are the most attractive and suitable. Role OWNER for 'les plus belles routes en scooter autour de Hanoï'. Closest pages: semi-automatique-moto-routes-hanoi (0.22), easy-moto-routes-hanoi-debutant (0.18), 2-jours-moto-voyages-de-hanoi (0.18): this page ranks routes by scooter suitability with a difficulty table, whereas the semi-automatic page is about gearshift bikes and the easy page about beginner itineraries.",
+   "CONTENT": "Full rewrite. Removed mannered prose and the vague 'familles de routes'. New sections: criteres, sorties (table with direction, distance, road type, level), est, ouest, montagne, sud, journées types (checklist), conduite (checklist), location (questions and packing list), FAQ 5, closing links. Words 1898 -> 1613.",
+   "META": "Title 'Les plus belles routes en scooter autour de Hanoï' (49) replaced by 'Routes en scooter autour de Hanoi : les plus belles sorties' (59); description rewritten (159 chars) with places and no 'journée réussie' promise; H1 = title; eyebrow 'Hanoi · Sorties en scooter'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-duong-lam-moto/, /hanoi/red-river-hanoi-itineraire-moto/. Added /hanoi/hanoi-a-bat-trang-moto/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead gives the answer in 3 sentences; 1 table (6 sorties with distance and level), 2 checklists (journées types, conduite), FAQ 5 distinct questions. 9 external citations all taken from the rewritten hubs (same URLs, same claims)."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "Bát Tràng distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://hanoitimes.vn/exploring-a-typical-ancient-village-in-northern-vietnam-315155.html",
+    "checked": "2026-10-30",
+    "used_for": "Đường Lâm distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/duong-lam-first-vietnamese-ancient-village-to-become-national-relic-712606.html",
+    "checked": "2026-10-30",
+    "used_for": "Đường Lâm distance and village (taken from excursions hub)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/vietnam/attractions/ba-vi-national-park/a/poi-sig/1142333/1316122",
+    "checked": "2026-10-30",
+    "used_for": "Ba Vì distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/fr/parc-national-de-tam-dao-le-guide-complet-pour-s-echapper-a",
+    "checked": "2026-10-30",
+    "used_for": "Tam Đảo distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-30",
+    "used_for": "Ninh Binh distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://daibieunhandan.vn/ha-noi-lieu-linh-di-xe-may-vao-cao-toc-dai-lo-thang-long-hang-loat-tai-xe-bi-xu-ly-10413612.html",
+    "checked": "2026-10-30",
+    "used_for": "Thăng Long avenue rule (taken from excursions hub)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban enforcement (taken from hanoi and excursions hubs)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "seasons (taken from rewritten hanoi hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop accepts outings outside Hanoi, its breakdown procedure and return-time rules are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/semi-automatique-moto-routes-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelles routes autour de Hanoi se font avec une moto semi-automatique, et quand la boîte apporte quelque chose par rapport à un scooter.",
+  "words_before": 1840,
+  "words_after": 1595,
+  "new_meta": {
+   "title": "Moto semi-automatique : routes à faire autour de Hanoi",
+   "description": "Quelles routes autour de Hanoi pour une moto semi-automatique : Ba Vì, Tam Đảo, pagode du Parfum, Đường Lâm. Quand la boîte aide, quand un scooter suffit.",
+   "h1": "Moto semi-automatique : routes à faire autour de Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Corrected a technical error: the old text said 'on débraye au pied gauche' and 'embrayage au pied'; a xe số has a foot shifter and a centrifugal clutch without clutch lever, so the page now says the clutch disengages by itself and that the loueur should show the shift pattern and neutral position (pattern not stated, avoided an unverified claim). Removed unsourced route facts (Mai Chau/Hoa Binh valleys described, 'hébergements de village', 'collines de thé et manioc', 'nuages de fin de matinée', 'Huong Son province'), Ba Vì wrongly placed 'au nord-ouest', and the claim that the scooter cannot do these roads. Distances only from the sourced table of the rewritten excursions hub (Vietnam Trips, Hanoi Times, VietNamNet, Lonely Planet, Vietnam Tourism). Owner reference prices for the semi-automatic category used exactly: 150 000-200 000 per day, 700 000-800 000 per week, 1 000 000-1 200 000 per month, with the mandatory disclaimer 'Tarifs indicatifs, à confirmer avant toute réservation selon le véhicule et la durée.'; no price for other models, no multiplied packages, no conversion. Licence: only 'la catégorie exigée dépend du véhicule, et la reconnaissance d’un permis étranger dépend du pays' (from the hanoi hub wording), no blanket statement. Driving technique advice is general. Shop facts: NAP and hours plus questions to ask (model available, state of brakes/chain/tyres, mountain use accepted, breakdown). No deposit, delivery, insurance or stock claim.",
+   "INTENT": "Main question: which routes around Hanoi suit a semi-automatic motorbike. Role OWNER for 'routes pour moto semi-automatique autour de Hanoï'. Closest pages: types-motos/automatique-ou-semi-automatique-moto-vietnam (0.44), prix-location/semi-automatique-location-moto-hanoi-prix (0.40), permis-securite/semi-automatique-moto-shifting-vietnam (0.38). The general comparison, the pricing guide and the shifting technique stay on those pages and are linked once each; this page keeps the route-by-route view (table of terrain and benefit of the gearbox) and the pre-departure check.",
+   "CONTENT": "Full rewrite. New sections: boite (what changes), routes (table with terrain and gearbox benefit), montagne (Ba Vì/Tam Đảo), sudouest (Perfume Pagoda), technique (checklist), choisir (checklist vs scooter), depart (10-minute check), location (price table with disclaimer and questions), FAQ 5, closing links. Words 1840 -> 1595.",
+   "META": "Title 'Routes pour moto semi-automatique autour de Hanoï' (49) replaced by 'Moto semi-automatique : routes à faire autour de Hanoi' (54); description rewritten (154 chars) and no longer promises 'technique et conseils de sécurité'; H1 = title; eyebrow 'Hanoi · Semi-automatique'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-perfume-pagoda-moto/. Added the owners /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /prix-location/semi-automatique-location-moto-hanoi-prix/ and /permis-securite/semi-automatique-moto-shifting-vietnam/ (one natural mention each). Dropped /hanoi/2-jours-moto-voyages-de-hanoi/ to stay within 7. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead states when a semi-automatic helps and when a scooter is enough in 3 sentences; 2 tables (routes, indicative prices with disclaimer), 2 checklists (technique, choisir), FAQ 5 distinct questions. 5 external citations from the rewritten excursions hub."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "Bát Tràng distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://hanoitimes.vn/exploring-a-typical-ancient-village-in-northern-vietnam-315155.html",
+    "checked": "2026-10-30",
+    "used_for": "Đường Lâm distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/duong-lam-first-vietnamese-ancient-village-to-become-national-relic-712606.html",
+    "checked": "2026-10-30",
+    "used_for": "Đường Lâm distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/vietnam/attractions/ba-vi-national-park/a/poi-sig/1142333/1316122",
+    "checked": "2026-10-30",
+    "used_for": "Ba Vì distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/fr/parc-national-de-tam-dao-le-guide-complet-pour-s-echapper-a",
+    "checked": "2026-10-30",
+    "used_for": "Tam Đảo distance (taken from excursions hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Which semi-automatic models are available, the state of their brakes/chain/tyres, whether mountain use is accepted and the breakdown procedure at Thuê xe máy Nguyễn Hà are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/temple-de-literature-hanoi-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment visiter le Temple de la Littérature à Hanoi (histoire, parcours, horaires et billet, accès et stationnement en deux-roues).",
+  "words_before": 1666,
+  "words_after": 1578,
+  "new_meta": {
+   "title": "Temple de la Littérature à Hanoi : visite et accès en deux-roues",
+   "description": "Temple de la Littérature (Văn Miếu) à Hanoi : histoire, cours, stèles des docteurs, horaires et billet selon les guides, accès et stationnement en deux-roues.",
+   "h1": "Temple de la Littérature à Hanoi : visite et accès en deux-roues"
+  },
+  "evidence": {
+   "FACTS": "Corrected a factual error: the old text said students and families 'viennent toucher les stèles'; touching the stone turtles is now prohibited (Hanoi Times, seen in search result). Removed the unsourced 'le comptoir de la location renseigne sur les parkings' and 'les parkings des entrées sont connus de tous les loueurs', 'la prière de la grand-mère', and 'le plus combinable de la ville'. Sourced facts: founded 1070 under Lý Thánh Tông, Quốc Tử Giám 1076-1779 with dates varying by source (Wikipedia, seen in search result); 82 stelae naming 1 306 doctors from 82 exams 1442-1779, UNESCO Memory of the World (Vietnam Tourism news, seen in search result); five courtyards (Local Vietnam, seen in search result); Khuê Văn Các dated 1805 by one source (qualified); hours 8:00-17:00 with last entry 16:30 per one guide, adult ticket 70 000 VND and students 35 000 VND, payment by cash or QR differing by source, opening later on some holidays and around Tet (Vietnam Airlines guide and other guides from search results; all qualified 'selon un guide', 'à confirmer'); exam-season crowds (Hanoi Times, seen in search result); mausoleum closure 4 Sept-2 Nov 2026 with reopening announced 3 Nov (VietnamPlus, taken from rewritten que-faire hub); Museum of Ethnology closed Monday (official site, seen in search result); Ba Đình + temple + West Lake in one morning (taken from rewritten hanoi hub). The 70 000 VND is the temple's entry fee reported by a third party, not a shop price. Shop facts: NAP, hours 09:00-21:00 and the consequence for an 8:00 temple opening; no price, deposit, delivery, insurance, fleet claim.",
+   "INTENT": "Main question: how to visit the Temple of Literature and reach it with a two-wheeler. Role OWNER for 'temple de la Littérature à Hanoi'. Closest pages (nord-vietnam/hanoi-ba-be-itineraire-moto 0.08, hanoi-hiver-itineraire 0.08, hanoi-5-jours-itineraire 0.08) have negligible overlap; the page links to the Ba Đình, 1-day and 2-day itineraries and the Old Quarter guide for combinations.",
+   "CONTENT": "Full rewrite. Removed mannered phrases ('parcours initiatique', 'la mémoire continue', 'le site le plus combinable de la ville'). New sections: histoire, cours, details (checklist of what to look at), pratique (table of hours, ticket, turtle rule, crowds), combiner, acces, machine, avant (practical points), FAQ 5, closing links. Words 1666 -> 1578.",
+   "META": "Title 'Temple de la Littérature à Hanoi : visites à combiner en moto' (61) replaced by 'Temple de la Littérature à Hanoi : visite et accès en deux-roues' (64); description rewritten (158 chars) and no longer implies a fixed schedule; H1 = title; eyebrow 'Hanoi · Temple de la Littérature'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-1-jour-itineraire/, /hanoi/hanoi-2-jours-itineraire/, /hanoi/que-faire-hanoi-vieux-quartier/. Added /hanoi/ba-dinh-hanoi-itineraire/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead gives the answer in 3 sentences; 1 table (hours, ticket, turtles, crowds, all qualified), 1 checklist (what to look at), FAQ 5 distinct questions. 8 external citations from search results or the rewritten hubs."
+  },
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi",
+    "checked": "2026-10-30",
+    "used_for": "founding dates and Quốc Tử Giám (seen in search result)"
+   },
+   {
+    "url": "https://vietnamtourism.vn/en/index.php/news/items/2745",
+    "checked": "2026-10-30",
+    "used_for": "stelae UNESCO Memory of the World (seen in search result)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/temple-of-literature/",
+    "checked": "2026-10-30",
+    "used_for": "five courtyards (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/en/useful-information/travel-guide/temple-of-literature",
+    "checked": "2026-10-30",
+    "used_for": "hours and ticket price (seen in search result)"
+   },
+   {
+    "url": "https://hanoitimes.vn/van-mieu-strengthens-forces-to-protect-stone-turtles-40586.html",
+    "checked": "2026-10-30",
+    "used_for": "touching turtles prohibited (seen in search result)"
+   },
+   {
+    "url": "https://hanoitimes.vn/students-go-to-temple-of-literature-for-luck-before-exams.569334.html",
+    "checked": "2026-10-30",
+    "used_for": "exam-season crowds (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamplus.vn/tu-bo-dinh-ky-lang-chu-tich-ho-chi-minh-tu-49-den-211-post1133954.amp",
+    "checked": "2026-10-30",
+    "used_for": "mausoleum closure 2026 (taken from rewritten que-faire hub)"
+   },
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-30",
+    "used_for": "Museum of Ethnology closed Monday (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Parking conditions at the Temple of Literature and the temple's current hours/ticket should be reconfirmed on site (page says so)."
+  ]
  }
 ]
