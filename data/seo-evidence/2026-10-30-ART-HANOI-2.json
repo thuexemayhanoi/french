@@ -1,0 +1,280 @@
+[
+ {
+  "path": "hanoi/hanoi-ete-itineraire-heat/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser une journée à moto à Hanoi sous la chaleur (mai–septembre) : horaires, programme, équipement, préparation du deux-roues.",
+  "new_meta": {
+   "title": "Hanoi sous la chaleur à moto : programme pour les jours chauds",
+   "description": "Aube sur les lacs, musées climatisés à midi, route du soir : comment organiser une journée à moto à Hanoi en été, avec l’équipement et les précautions utiles.",
+   "h1": "Hanoi sous la chaleur à moto : programme pour les jours chauds"
+  },
+  "evidence": {
+   "FACTS": "Removed mannered claims and unsupported statements ('dépôt compris' in the old logistics paragraph, 'aucune température promise', 'la discipline du site'). Climate: May–Sept hot/humid with storms (Local Vietnam, reused from hanoi/index.html); June–July maxima 33–38 °C, humidity ~80 %, felt temp up to ~40 °C given as an order of magnitude, 'les chiffres varient' (seen in search result: vinpearl.com/en/hanoi-weather-by-month). Sunrise ~5:20 / sunset ~18:40 early July 2026 (seen in search result: sunrise-sunset.net/vietnam/hanoi/2026/07: 5:18 / 18:42). Vietnam Museum of Ethnology 8:30–17:30, closed Monday (official site vme-en.vass.gov.vn, seen in search result and reused from que-faire hub). Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused from hub). Weekend pedestrian streets around Hoan Kiem (Vietnam Airlines guide, Thoi bao Tai chinh Viet Nam, reused from hub), phrased 'en principe', 'peuvent changer'. Price: only owner range for automatic scooter 150 000–200 000 VND/day with the mandatory disclaimer. Shop: opening 09:00–21:00 and phone/Zalo/WhatsApp only; evening pickup the day before is explicitly 'une question à poser', nothing confirmed. No deposit, delivery, insurance, assistance, fleet or fine statement. Helmet obligation stated generically; heat-illness advice is generic first-aid advice, no emergency number or medical claim.",
+   "INTENT": "Main question: comment rouler et visiter Hanoi quand il fait très chaud ? Owner of « hanoi sous la chaleur à moto » (OWNER). Closest pages permis-securite/moto-heat-securite-vietnam (generic Vietnam heat-safety dossier: hydration, pauses), location-moto-hanoi-ete (rental in summer). Differs because it is a Hanoi day plan (aube/midi/soir, sites, pedestrian streets, museums, bridge) and links to the heat-safety dossier for the physiological detail instead of repeating it.",
+   "CONTENT": "Full rewrite (all mannered 'qui se…' prose, 'parenthèse des intérieurs', 'hachage horaire', metaphors removed). New structure: season facts, 3-slot table, aube, midi, equipment checklist + heat-illness signs, soir, vehicle/rental checks (3-point checklist), FAQ rewritten to 5 non-repeating questions, short outro. Concrete additions: sunrise/sunset, museum hours, weekend barriers, Long Bien bridge exposure, under-seat storage heat, helmet on handlebar. Words 1768 → 2165.",
+   "META": "Title kept the owner query but dropped 'siester' wordplay (62 chars); description rewritten, 158 chars, factual; H1 = title; eyebrow shortened to 'Hanoi · Saison chaude'; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-early-morning/, /hanoi/hanoi-musees-jour-pluie/, /hanoi/hanoi-sunset-itineraire-moto/, /permis-securite/moto-heat-securite-vietnam/. TOC in sync with 8 H2 ids (saison, trois-temps, aube, midi, equipement, soir, location, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Lead answers directly (couper la journée en trois, tôt/midi intérieurs/soir). One table (3 time slots), two checklists, FAQ 5 questions. Citations inline with rel=noopener (Local Vietnam, Vinpearl, sunrise-sunset.net, VME, Viet Nam News, Vietnam Airlines, Thoi bao Tai chinh)."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi hot/humid season May–Sept (reused from hanoi/index.html)"
+   },
+   {
+    "url": "https://vinpearl.com/en/hanoi-weather-by-month",
+    "checked": "2026-10-30",
+    "used_for": "Order of magnitude of June–July heat (seen in search result; sources disagree)"
+   },
+   {
+    "url": "https://www.sunrise-sunset.net/vietnam/hanoi/2026/07",
+    "checked": "2026-10-30",
+    "used_for": "Sunrise/sunset early July (seen in search result)"
+   },
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-30",
+    "used_for": "Museum of Ethnology hours, closed Monday (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Bien bridge reopening 28 May 2026 (reused from hub)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure around Hoan Kiem (reused from hub)"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+    "checked": "2026-10-30",
+    "used_for": "Old Quarter evening pedestrian streets 19:00–24:00 (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether an evening pickup the day before is possible (asked as a question in the text)."
+  ],
+  "words_before": 1768,
+  "words_after": 2165
+ },
+ {
+  "path": "hanoi/hanoi-food-itineraire-moto/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Un circuit street food court de trois heures, en soirée, à Hanoi à moto (étapes, horaires indicatifs, stationnement, règles du soir).",
+  "new_meta": {
+   "title": "Street food à Hanoi en soirée : un circuit de 3 heures à moto",
+   "description": "Trois heures, quatre étapes dans le Vieux Quartier : bún đậu, grillades, dessert, café à l’œuf. Où garer la moto, rues piétonnes du week-end, alcool.",
+   "h1": "Street food à Hanoi en soirée : un circuit de 3 heures à moto"
+  },
+  "evidence": {
+   "FACTS": "Removed the old claims that were mannered or unsupported: 08:30 morning start and 'rayon de quelques pâtés de maisons', 'la foule est le meilleur guide gastronomique', 'les étals n'acceptent ni carte ni virement' (now 'beaucoup d'échoppes ne prennent que les espèces', generic), 'les restes de banh mi attirent les chats'. Sourced facts: egg coffee attributed to Nguyễn Văn Giảng, Metropole bartender, 1946 (seen in search result: vietnamnet.vn/en/wake-up-and-smell-the-egg-coffee-647728.html; sources disagree on the first address and the text says so); one bún đậu address on Hàng Khay open 10:00–22:00, cash only (seen in search result: tablejourney.com Cô Tuyến page; hours differ by source, text says check); bia hơi corner Tạ Hiện/Lương Ngọc Quyên (seen in search result: tablejourney.com bia-hoi-corner page); weekend pedestrian streets and Hoan Kiem closures (Thời báo Tài chính Việt Nam and Vietnam Airlines, reused from hanoi/index.html); festival parking surcharge (Lao Động, reused from hub). Alcohol: Decree 168/2024/ND-CP still in force in 2026 per Traffic Police statement (seen in search result: vietnamnet.vn/en/traffic-police-refute-claims-of-increased-dui-fines-in-2026-2486574.html); no fine amount quoted because sources disagree on tiers. Price: only owner range for automatic scooter 150 000–200 000 VND/day with the mandatory disclaimer. Shop facts: closes 21:00; same-evening return/late arrangement phrased as a question, not confirmed. No deposit, delivery, insurance or assistance statement.",
+   "INTENT": "Main question: comment organiser un circuit street food de trois heures en soirée à moto à Hanoi ? Role DISTINCT_ANGLE; owner hanoi/hanoi-street-food-itineraire-moto/ (linked once from the FAQ with the anchor « guide complet de la street food à Hanoi à moto »). Differs from the owner because it is a timed evening loop (18:00–21:00, four stops, parking, weekend barriers, alcohol rule) and leaves the dish glossary, morning/lunch dishes and market visits to the owner guide.",
+   "CONTENT": "Full rewrite: refocused from a morning-to-dessert wander to an evening circuit. New sections: circuit table with indicative times, why the evening + weekend pedestrian-street traps, three steps (hot meal, grills/chả cá, dessert + egg coffee), moto/parking/alcohol, street-eating checklist, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« la marmite est bonne », « sagement », « à Hanoï on mange mieux à pied qu'au guidon »). Words 1895 → 1830.",
+   "META": "Title changed from « Street food à Hanoï à moto : parcours gourmand en 3 heures » to the evening angle (61 chars); description rewritten (≤160 chars, factual); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-street-food-itineraire-moto/ (owner, once, FAQ), /hanoi/hanoi-nuit-market-scooter-stationnement/, /hanoi/que-faire-hanoi-at-nuit/, /permis-securite/moto-hanoi-nuit-securite/. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Lead answers directly (3 h suffisent: garer, 3–4 étapes à pied, rentrer). One timed table, one checklist, FAQ 5 questions. Inline citations rel=noopener: Thời báo Tài chính, Vietnam Airlines, Table Journey (2), VietNamNet (2), Lao Động."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnet.vn/en/wake-up-and-smell-the-egg-coffee-647728.html",
+    "checked": "2026-10-30",
+    "used_for": "Egg coffee origin, Nguyễn Văn Giảng, 1946 (seen in search result)"
+   },
+   {
+    "url": "https://tablejourney.com/vietnam/hanoi/budget-eating/bun-dau-budget/",
+    "checked": "2026-10-30",
+    "used_for": "Bún đậu mắm tôm address on Hàng Khay, hours, cash only (seen in search result)"
+   },
+   {
+    "url": "https://tablejourney.com/vietnam/hanoi/late-night/bia-hoi-corner-late-night/",
+    "checked": "2026-10-30",
+    "used_for": "Tạ Hiện bia hơi corner (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/traffic-police-refute-claims-of-increased-dui-fines-in-2026-2486574.html",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024/ND-CP still in effect in 2026 (seen in search result)"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+    "checked": "2026-10-30",
+    "used_for": "Old Quarter evening pedestrian streets (reused from hub)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure around Hoan Kiem (reused from hub)"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo",
+    "checked": "2026-10-30",
+    "used_for": "Festival-night parking surcharges (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a late return after 21:00 is possible for a same-evening rental (asked as a question in the text)."
+  ],
+  "words_before": 1895,
+  "words_after": 1830
+ },
+ {
+  "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quels bâtiments coloniaux français voir à Hanoi et dans quel ordre les relier à moto, avec accès, horaires à vérifier et stationnement.",
+  "new_meta": {
+   "title": "Architecture française à Hanoi : un itinéraire à moto",
+   "description": "Opéra, Metropole, cathédrale Saint-Joseph, palais de Ba Đình, pont Long Biên : un itinéraire à moto dans le Hanoi colonial, avec accès et stationnement.",
+   "h1": "Architecture française à Hanoi : un itinéraire à moto"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced and invented material from the old text: '3 km de centre', 'une dizaine de kilomètres', 'une quinzaine de minutes de conduite', 'départ à 8 h 30', 'fourrières', 'cathédrale construite sur l’emplacement d’une pagode', exact opening claims for the palace. Now: Opera inspired by Paris Opera, opened ~1911; Metropole opened 1901; Hoa Lo built by the French, later held American POWs (all seen in search results from travel guides/tour operators, phrased 'd’après les guides' and 'varient selon les sources'); Saint-Joseph neo-Gothic, completed at the end of the 19th c. (1886 in one source); Presidential Palace (former Governor-General's palace): interior closed, grounds and stilt house open with hours that differ by source (seen in search result: mixed travel sites; no official schedule found, so the text says to check the same day); Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused from hub); mausoleum yearly maintenance 4 Sep–2 Nov 2026 (VietnamPlus, reused from que-faire hub); weekend closure of Hoan Kiem streets (Vietnam Airlines, reused) and low-emission zone since 1 July 2026 (VietNamNet, reused). The Musée national d’histoire = former École française d’Extrême-Orient at Tràng Tiền is stated from general knowledge, not source-checked; flagged 'horaires à vérifier'. Price: only owner range for automatic scooter 150 000–200 000 VND/day with disclaimer. Pickup opening 09:00 only. No deposit, delivery, insurance, assistance or fleet statement.",
+   "INTENT": "Main question: quelle architecture coloniale française voir à Hanoi et comment s’y rendre à moto ? Owner of « architecture française à Hanoï » (OWNER). Closest pages (nord-vietnam road-trip guides, similarity ≤0.27) are different topics; internal sibling hanoi/hanoi-quartier-francais-que-faire (le quartier français) is linked once for the neighbourhood walk and cafés — this article stays on buildings, style recognition, access status and the Ba Đình/Long Biên links.",
+   "CONTENT": "Full rewrite: new site table (6 sites with district, what to look at, access), style-recognition section (persiennes, galeries, style indochinois), 6-step itinerary (Long Biên, Opera area, Hỏa Lò, Saint-Joseph, Ba Đình, lakes), 'ce qui est ouvert' section, riding/parking section with weekend closure and low-emission zone, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« musée à ciel ouvert », « la moto sert à relier les tableaux, pas à les peindre »). Words 1841 → 1673.",
+   "META": "Title changed from « Architecture française à Hanoï : itinéraire moto du centre » to a natural form (53 chars); description rewritten (≤160 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/long-bien-pont-hanoi/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-photo-spots-moto/. TOC synced with 7 H2 ids.",
+   "AEO_GEO": "Lead answers directly (quartier central à pied, moto pour Ba Đình et Long Biên). One table (6 sites), one ordered itinerary, FAQ 5 questions. Inline citations rel=noopener: Viet Nam News, VietnamPlus, Vietnam Airlines, VietNamNet."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Bien bridge reopened 28 May 2026 (reused from hub)"
+   },
+   {
+    "url": "https://www.vietnamplus.vn/tu-bo-dinh-ky-lang-chu-tich-ho-chi-minh-tu-49-den-211-post1133954.amp",
+    "checked": "2026-10-30",
+    "used_for": "Mausoleum 2026 maintenance closure (reused from que-faire hub)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure of streets around Hoan Kiem (reused from hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-30",
+    "used_for": "Low-emission zone around Hoan Kiem since 1 July 2026 (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Official opening hours of the Presidential Palace grounds / stilt house, Opera visits and Saint-Joseph cathedral were not found in an official source; the text says to verify the same day."
+  ],
+  "words_before": 1841,
+  "words_after": 1673
+ },
+ {
+  "path": "hanoi/hanoi-hiver-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment visiter Hanoi à moto de décembre à février : météo à attendre, équipement, sorties adaptées, conduite par temps frais et incidence du Têt 2027.",
+  "new_meta": {
+   "title": "Hanoi en hiver à moto : météo, équipement et idées de sorties",
+   "description": "Décembre à février à Hanoi : températures, brume et crachin, équipement pour rouler à moto, lacs, cafés et plats chauds, puis le Têt 2027 et ses fermetures.",
+   "h1": "Hanoi en hiver à moto : météo, équipement et idées de sorties"
+  },
+  "evidence": {
+   "FACTS": "Removed all mannered/poetic weather claims and the unsupported statement that the 'calendrier des loueurs' changes around Tet (now explicitly 'demandez' / 'rien ne garantit'), 'la discipline du site', 'brumes … fusain'. Climate: winter cool, grey and drizzly, no snow (Local Vietnam, reused from hub); averages ~15–18 °C Dec–Feb, January ~17 °C and coldest nights ~10 °C (seen in search result: climatestotravel.com/climate/vietnam/hanoi); cold spells can go below 10 °C but are brief (seen in search result: vietnamnews.vn weatherdude article); drizzle mainly late February–March (seen in search result: vinpearl.com hanoi-vietnam-winter-guide); December generally least rainy month (several guides; no link). Sunrise/sunset mid-December 6:25 / 17:17 (seen in search result: alpenglowapp.com/times/hanoi). Têt 2027 = Saturday 6 February 2027; 7-day public-employee break 4–10 Feb 2027 (seen in search result: e.vnexpress.net 'Vietnam picks 7-day Tet break for 2027'); text says the break concerns public employees and imposes nothing on shops. Weekend closure around Hoan Kiem (Vietnam Airlines, reused from hub). Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00 and contact channels only; Tet-period hours explicitly 'rien ne garantit', no closure date invented. Helmet obligation stated generically. No deposit, delivery, insurance or assistance statement.",
+   "INTENT": "Main question: faut-il et comment visiter Hanoi à moto en hiver ? Owner of « hanoi en hiver à moto » (OWNER). Closest pages: location-moto-hanoi/location-moto-hanoi-hiver (rental in winter: cold, drizzle, early dusk), hanoi-ba-be, temple-de-literature (low similarity). Differs because this is the city-visit angle (weather facts, kit, day plan, food/cafés, lakes, Têt 2027) and leaves the rental conditions to the location-hiver guide and the main rental guide.",
+   "CONTENT": "Full rewrite. New sections: climate with sourced ranges and day length, equipment checklist, lakes/morning, day-plan table, cafés and hot dishes, riding adjustments (3-point checklist), Têt 2027 dates and impact, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« lumière de gravure », « fusain », « la discipline du site », « c’est bien fait pour elle ») and the repeated hub paragraph. Words 1868 → 1721.",
+   "META": "Title changed from « …brume, cafés et tables chaudes » to an informative form (61 chars); description rewritten (156 chars, factual); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/hanoi-street-food-itineraire-moto/, /hanoi/que-faire-hanoi-christmas/, /hanoi/que-faire-hanoi-during-tet/. The previous link to hanoi-food-itineraire-moto was replaced by the street-food owner page. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Lead answers directly (oui, avec couches/coupe-vent/gants; jour tombe vers 17 h 15; Têt 6 février 2027). One day-plan table, two checklists, FAQ 5 questions. Inline citations rel=noopener: Local Vietnam, Climates to Travel, Viet Nam News, Vinpearl, Alpenglow, VnExpress International, Vietnam Airlines."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Winter cool, grey, drizzly (reused from hub)"
+   },
+   {
+    "url": "https://climatestotravel.com/climate/vietnam/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "January average ~17 °C, coldest nights ~10 °C (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnews.vn/life-style/1690037/winter-is-here-a-word-with-ha-noi-s-weatherdude.html",
+    "checked": "2026-10-30",
+    "used_for": "Cold spells below 10 °C possible but brief (seen in search result)"
+   },
+   {
+    "url": "https://vinpearl.com/en/hanoi-vietnam-winter-guide-to-unveil-the-beauty",
+    "checked": "2026-10-30",
+    "used_for": "Drizzle mainly late Feb–March (seen in search result)"
+   },
+   {
+    "url": "https://www.alpenglowapp.com/times/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "Mid-December sunrise/sunset (seen in search result)"
+   },
+   {
+    "url": "https://e.vnexpress.net/news/news/vietnam-picks-7-day-tet-break-for-2027-over-10-day-option-5127825.html",
+    "checked": "2026-10-30",
+    "used_for": "Têt 2027 break 4–10 Feb 2027 for public employees (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure around Hoan Kiem (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Shop hours and availability during the Têt 2027 period (text only says to ask in advance)."
+  ],
+  "words_before": 1868,
+  "words_after": 1721
+ },
+ {
+  "path": "hanoi/hanoi-lakes-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment relier Hoàn Kiếm, Trúc Bạch et le lac de l’Ouest à moto : ordre des étapes, haltes, stationnement et règles locales.",
+  "new_meta": {
+   "title": "Les lacs de Hanoi à moto : Hoàn Kiếm, Trúc Bạch, lac de l’Ouest",
+   "description": "Hoàn Kiếm à pied, Trúc Bạch, digue Thanh Niên et tour du lac de l’Ouest (environ 17 km) : un circuit à moto avec haltes, stationnement et conseils de conduite.",
+   "h1": "Les lacs de Hanoi à moto : Hoàn Kiếm, Trúc Bạch, lac de l’Ouest"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced figures and claims from the old text: 'un quart d’heure du centre', 'trente minutes' for the temple visit, 'une trentaine de minutes de trafic', 'départ à 6 h 30', 'une heure à moto' for the West Lake tour, 'fourrières municipales ne pardonnent pas', 'ambassades' as a certainty. Now: West Lake ~500 ha and ~17 km circumference (seen in search result: vietnamtourism.vn/en/index.php/news/items/8466; other sources differ slightly, text says so); Trấn Quốc pagoda on a small peninsula, often described as the oldest in Hanoi (hoangthanhthanglong.vn, reused from que-faire hub); weekend closure around Hoan Kiem (Vietnam Airlines, reused from hub); low-emission zone since 1 July 2026 in two sectors of Hoan Kiem (VietNamNet, reused from hub); Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused); festival-night parking surcharges (Lao Động, reused). Flower villages Quảng An/Nhật Tân on the north shore and lotus in summer are stated from general knowledge, phrased 'surtout animés avant le Têt', 'période courte et variable' — not source-checked. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00 pickup only. No deposit, delivery, insurance or assistance statement.",
+   "INTENT": "Main question: comment faire le circuit des lacs de Hanoi à moto ? Owner of « les lacs de Hanoï à moto » (OWNER). Closest pages: hanoi-cafes-itineraire-moto (cafés route, 0.24), location-moto-hoan-kiem (rental near Hoan Kiem, 0.23), sapa-voyage-moto (0.2). Differs because it is the 3-lake loop with ordering, access rules and parking; cafés go to hanoi-cafes-itineraire-moto, Hoàn Kiếm detail to hoan-kiem-lac-hanoi-que-faire and West Lake detail to west-lac-hanoi-moto.",
+   "CONTENT": "Full rewrite: new loop table, Hoàn Kiếm (on foot, parking, weekend closure, low-emission zone), Trúc Bạch and Thanh Niên dike (two points of attention), West Lake (size, stops checklist), two possible orders depending on pickup time, riding/parking section, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« alphabet », « lire la capitale par ses pages les plus ouvertes », « chaque saison réécrit le lac », « salle de conduite en plein air »). Words 1985 → 1636.",
+   "META": "Title kept the owner query, diacritics normalised to Hoàn Kiếm / Trúc Bạch (63 chars); description rewritten (159 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/west-lac-hanoi-moto/, /hanoi/hanoi-sunset-itineraire-moto/, /hanoi/hanoi-cafes-itineraire-moto/. The old link to jour-voyages-de-hanoi-by-moto was dropped to stay within the cap. TOC synced with 7 H2 ids.",
+   "AEO_GEO": "Lead answers directly (3 lacs, moto utile surtout pour Hồ Tây ~17 km). One table (4 steps), two checklists, FAQ 5 questions. Inline citations rel=noopener: Vietnam Airlines, VietNamNet, Hoàng thành Thăng Long, Vietnam Tourism, Viet Nam News, Lao Động."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamtourism.vn/en/index.php/news/items/8466",
+    "checked": "2026-10-30",
+    "used_for": "West Lake circumference about 17 km (seen in search result)"
+   },
+   {
+    "url": "https://hoangthanhthanglong.vn/en/?p=372",
+    "checked": "2026-10-30",
+    "used_for": "Trấn Quốc pagoda on the peninsula, often presented as the oldest (reused from hub)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure around Hoan Kiem (reused from hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-30",
+    "used_for": "Low-emission zone since 1 July 2026 (reused from hub)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Bien bridge reopening (reused from hub)"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo",
+    "checked": "2026-10-30",
+    "used_for": "Festival-night parking surcharges (reused from hub)"
+   }
+  ],
+  "owner_gaps": [],
+  "words_before": 1985,
+  "words_after": 1636
+ }
+]

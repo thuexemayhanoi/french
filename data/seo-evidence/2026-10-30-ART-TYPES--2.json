@@ -79,5 +79,260 @@
   "sources": [],
   "owner_gaps": [],
   "words_after": 1597
+ },
+ {
+  "path": "types-motos/electrique-scooter-hanoi-ninh-binh/index.html",
+  "role": "OWNER",
+  "primary_intent": "Peut-on aller de Hanoi à Ninh Binh en scooter électrique, à quelles conditions d'autonomie et de recharge ?",
+  "words_before": 2066,
+  "new_meta": {
+   "title": "Scooter électrique Hanoi–Ninh Binh : le bon choix ?",
+   "description": "Hanoi–Ninh Binh en scooter électrique : environ 100 km à prévoir, autonomie réelle, recharge sur place, vitesse, sécurité et cas où l’essence reste plus simple.",
+   "h1": "Scooter électrique Hanoi–Ninh Binh : le bon choix ?"
+  },
+  "evidence": {
+   "FACTS": "Distance: 'quelque 90 à 100 km par la route' cited to Rome2rio (94.5 km Hanoi - Bai Dinh area; 86.5 km from a Ninh Binh homestay; a vietnamtrips guide gives 97 km via NH1A; all seen in a WebSearch result 2026-10-30); stated as order of magnitude, no driving time promised. Expressway: 'en principe' two-wheelers may not enter Vietnamese expressways, citing the daibieunhandan.vn headline (Hanoi traffic police fining motorbike riders who enter the expressway, seen in search result; fine amounts deliberately not stated because Decree 168/2024/ND-CP was reported as amended; 'à vérifier dans les textes en vigueur'). Removed: contract line list 'tarif, caution, état des lieux, zone autorisée, assistance', 'conditions d'assistance', 'tendance: les voyageurs qui reviennent soulignent', claim that electric costs less on this route (cost comparison dropped), 'majorité des voyageurs'. Autonomy numbers only as arithmetic from the sourced distance (>200 km for a no-recharge round trip), no model range invented. Electric scooter speed cap mentioned only qualitatively ('demandez la vitesse maximale réelle'); permis category linked to motor power, no category/legal rule restated beyond pointing to /permis-securite/. No rate quoted. Shop phone only for contact; electric availability and breakdown help flagged as to confirm.",
+   "INTENT": "Main question: is Hanoi-Ninh Binh realistic on an electric scooter. OWNER of 'scooter électrique Hanoi–Ninh Binh'. Differs from /nord-vietnam/ninh-binh/ (destination) and /types-motos/50cc-hanoi-a-ninh-binh/ (50cc feasibility) and from /types-motos/electrique-scooter-hanoi-range/ (generic range method): this page applies the range question to one specific 90-100 km route (scenario table, overnight charging, expressway pitfall) and links to the range guide for the method.",
+   "CONTENT": "Full rewrite. Removed 'cette page / ce guide refuse les deux caricatures', 'honnête', mannered triads (endurance, sérénité, souplesse), 'l'électricité voyage mieux dans la batterie que dans les doigts', anecdotal 'voyageurs qui reviennent de Ninh Binh'. Added: sourced distance section, expressway warning, scenario table (4 cases), charging checklist (hébergement, matériel, batterie, plan B), electric vs essence table, 4 questions to ask in writing, FAQ rewritten (5 Q&A, new expressway Q). 2066 -> see words_after.",
+   "META": "Title and H1 kept (hub anchor, unique, 51 chars). Description rewritten (160 chars, factual, no 'lecture honnête'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/, /types-motos/electrique-scooter-hanoi-range/, /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/. Two external citations (rome2rio.com, daibieunhandan.vn), rel=noopener. TOC synced.",
+   "AEO_GEO": "Direct answer in lead (3 sentences). 2 tables (scenarios, électrique/essence), 1 checklist + 1 numbered list, FAQ 5 Q&A, 2 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://www.rome2rio.com/s/Hanoi/Bai-Dinh-Riverside-Resort-Spa-Ninh-Binh",
+    "checked": "2026-10-30",
+    "used_for": "Road distance Hanoi to Ninh Binh area about 94.5 km by car (seen in search result)"
+   },
+   {
+    "url": "https://daibieunhandan.vn/canh-sat-giao-thong-ha-noi-xu-phat-nhieu-nguoi-dieu-khien-xe-may-di-vao-duong-cao-toc-10381692.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: Hanoi traffic police fine motorbike riders entering the expressway (seen in search result; text not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop rents electric scooters, which models and real measured range, charger supplied and help in case of flat battery are unconfirmed."
+  ],
+  "words_after": 1664
+ },
+ {
+  "path": "types-motos/electrique-scooter-hanoi-range/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment estimer l'autonomie réelle d'un scooter électrique de location et calculer une sortie sûre autour de Hanoi ?",
+  "words_before": 1704,
+  "new_meta": {
+   "title": "Scooter électrique et autonomie : calculer une sortie sûre",
+   "description": "Autonomie d’un scooter électrique de location autour de Hanoi : méthode de calcul avec marge, facteurs qui la réduisent, recharge en route et questions à poser.",
+   "h1": "Scooter électrique et autonomie : calculer une sortie sûre"
+  },
+  "evidence": {
+   "FACTS": "Removed 'règle de la plateforme', 'zone autorisée, assistance en cas de panne — batterie comprise —' and 'grille du comptoir : tarif, caution, équipements, zone, assistance' as contract lines; now only questions to ask and 'à demander par écrit avant de réserver' (zone, caution éventuelle, responsabilité not described). No range figure for any model: the only numbers are an explicitly fictitious worked example (70 km constaté, marge d'un tiers = 47 km utilisables, 42 km de sortie passe, 60 km ne passe pas; arithmetic checked) labelled « sans lien avec un modèle loué ». Effects of weight, speed, relief, temperature, battery age, tyre pressure and eco mode stated qualitatively and consistently with /types-motos/electrique/. Permis: only 'la catégorie dépend de la puissance du moteur, non de la cylindrée' (consistent with the hub) plus links; no category rule restated. No prices.",
+   "INTENT": "Main question: how to compute a safe outing from the real range. OWNER of 'scooter électrique et autonomie'. Differs from /types-motos/electrique-scooter-hanoi-ninh-binh/ (one 90-100 km route) and /permis-securite/electrique-scooter-license-vietnam/ (licence) because it gives the generic margin method, the factors table and the handover questions, and sends to those pages with one link each.",
+   "CONTENT": "Full rewrite. Removed abstract/mannered prose ('l'autonomie se négocie avec le terrain', 'la méthode honnête', 'rogner large... seuls les seconds s'ennuient', 'le hasard fait mal les devis', 'sans fierté blessée'), repetitions across sections and the 'grille du comptoir' section. Added: why catalogue figure fails, factors table with action column, 5-step margin method with a labelled fictitious worked example, terrain near Hanoi (bridge ramps from Long Biên), energy-saving checklist, charging plan B, handover question list, 5 new FAQ (no repetition). 1704 -> see words_after.",
+   "META": "Title and H1 kept (hub anchor, unique, 58 chars). Description rewritten (160 chars, factual, removed 'lecture honnête' and 'sans chiffre inventé'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /permis-securite/electrique-scooter-license-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/electrique-scooter-hanoi-ninh-binh/. Dropped the former /types-motos/meilleur-scooter-hanoi-circulation/ link to stay within 7. TOC synced.",
+   "AEO_GEO": "Direct answer in lead (3 sentences). 1 table (facteurs), 2 numbered/bulleted checklists + 1 numbered method, FAQ 5 Q&A. No external citation (generic EV behaviour, no figures)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Real measured range and battery age of the electric models offered, charger supplied and breakdown help are unconfirmed."
+  ],
+  "words_after": 1666
+ },
+ {
+  "path": "types-motos/electrique-scooter-ou-essence-scooter-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Scooter électrique ou à essence à louer à Hanoi : lequel choisir selon le séjour, le ravitaillement, le coût et le confort ?",
+  "words_before": 1827,
+  "new_meta": {
+   "title": "Scooter électrique ou à essence à Hanoi : coût et commodité",
+   "description": "Scooter électrique ou à essence pour louer à Hanoi : ravitaillement, coûts à comparer, confort et entretien selon votre séjour. Tarifs indicatifs à confirmer.",
+   "h1": "Scooter électrique ou à essence à Hanoi : coût et commodité"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table: scooter automatique (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000) and électrique (jour selon le modèle, à confirmer / 600 000–800 000 / 1 500 000–1 800 000), with the mandatory disclaimer and the statement that the ranges overlap (no claim that one family is cheaper; no daily electric price derived; Vision/Air Blade rows left to /prix-location/). Removed: 'recharge garantie', 'point de recharge du loueur', 'la flotte est entretenue par son propriétaire' (fleet/maintenance policy), 'assistance, dépôt' as contract lines; now only generic items 'caution éventuelle, responsabilité, durée minimale' to request in writing, plus availability/conditions to confirm with the shop. General statements kept in qualified form: electricity is 'en général' cheaper than petrol per distance, gap modest over a few days (no figures). Permis: category depends on cylindrée (essence) vs motor power (électrique), consistent with /types-motos/electrique/; no rule restated.",
+   "INTENT": "Main question: electric or petrol scooter for a rental in Hanoi (ravitaillement, coût, confort, entretien, selon séjour). OWNER of 'scooter électrique ou essence hanoi'. Differs from /prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/ and /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/ (cost-focused price pages) and /types-motos/50cc-electrique-scooter-vietnam/ (50cc) because this page is the general decision guide by type of stay with a price-range table; detailed cost angle left to the price pages.",
+   "CONTENT": "Full rewrite. Removed 'le match', 'recette', 'ligne éternelle', 'discipline du comparatif honnête', 'grille de lecture honnête', 'la méthode du comptoir', aphorisms ('le meilleur scooter est celui qui se fait oublier sous vous') and repetition. Added: decision table by stay type, ravitaillement section, cost lines list + price table, confort section, entretien/état section, three concrete situations (Long Biên commuter, 5-day visit, remote worker), questions-to-ask list, permis section, 5 new FAQ. 1827 -> see words_after.",
+   "META": "Title kept (59 chars, unique). H1 aligned with title (was 'le match du coût et du confort', which differed from the title): /types-motos/ hub still anchors the old H1 text, coordinator to sync the hub anchor to 'Scooter électrique ou à essence à Hanoi : coût et commodité'. Description rewritten (158 chars, removed 'sans chiffres inventés'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/electrique/, /types-motos/scooter-automatique/, /prix-location/, /types-motos/50cc-electrique-scooter-vietnam/. TOC synced.",
+   "AEO_GEO": "Direct answer in lead (3 sentences). 2 tables (profil, repères indicatifs), 2 lists, FAQ 5 Q&A. No external citation (no external rule stated)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether the shop rents electric scooters and which models, who pays energy/maintenance on long rentals, and electric daily rate are unconfirmed (page says to confirm)."
+  ],
+  "words_after": 1691
+ },
+ {
+  "path": "types-motos/electrique-scooter-recharge-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment recharger un scooter électrique de location à Hanoi (hébergement, batterie amovible, chargeur) et planifier ses trajets en boucle ?",
+  "words_before": 2086,
+  "new_meta": {
+   "title": "Scooter électrique à Hanoi : recharge et trajets à planifier",
+   "description": "Scooter électrique de location à Hanoi : recharge à l’hébergement, batterie amovible, chargeur, trajets en boucle et questions à poser avant de réserver.",
+   "h1": "Scooter électrique à Hanoi : bien gérer la recharge et planifier ses trajets"
+  },
+  "evidence": {
+   "FACTS": "Removed 'certains loueurs proposent une assistance ou un échange', 'le loueur sérieux répond / prouve qu'il connaît sa flotte et assume son entretien', 'formules de location longue durée', contract lines 'kilométrage, assistance, dépôt', 'dans une ville où les deux-roues dorment... l'accueil est généralement simple' softened to 'souvent simple'. Charging statements are generic and qualified (duration 'en heures plutôt qu'en minutes', ask the observed duration; no kWh, price or time figures). Fire-safety advice is generic (use supplied charger, ventilated place, not in stairwell/exit, damaged cable) and not attributed to a rule. Availability, electric conditions and help in case of empty battery flagged as to confirm with Thuê xe máy Nguyễn Hà (0334 699 969). No prices quoted; no model specs. Place names (Hoàn Kiếm, Tây Hồ, Temple de la Littérature, Long Biên bridges) are descriptive only, no distances.",
+   "INTENT": "Main question: how to organise charging and daily trips with a rental electric scooter in Hanoi. OWNER of 'scooter électrique à Hanoi'. Differs from /types-motos/electrique/ (family overview), /types-motos/electrique-scooter-hanoi-range/ (margin calculation, linked once), /prix-location/electrique-location-scooter-hanoi-prix/ and /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/ (price/cost pages) because it covers the practical charging routine: scenarios table, preparing the accommodation (message to host, building types), charger check, loop planning, charging safety.",
+   "CONTENT": "Full rewrite. Removed 'un budget, pas une pompe' metaphor chain, 'jeu d'arithmétique douce', 'le chargeur est à la clé ce que la serrure', 'boucle... ennemie', anthropomorphic and abstract sentences, SEO phrasing ('cette page pose la méthode complète') and the pitch-like closing. Added: charging scenarios table, host message template, accommodation situations list, battery types, charger checklist, 3-rule loop planning with Hanoi districts, charging-safety list, questions-to-confirm list, 5 new FAQ. 2086 -> see words_after.",
+   "META": "Title shortened from 66 to 60 chars ('Scooter électrique à Hanoi : recharge et trajets à planifier') to fit 45-65. H1 kept (matches hub anchor). Description rewritten (153 chars, removed 'la méthode complète pour rouler sereinement'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/electrique/, /types-motos/electrique-scooter-hanoi-range/, /types-motos/removable-batterie-scooter-vietnam-hotel-recharge/, /types-motos/batterie-swap-ou-plug-a-electrique-scooter-vietnam/. Dropped former /prix-location/, /types-motos/50cc-electrique-scooter-vietnam/ and /types-motos/electrique-scooter-ou-essence-scooter-hanoi/ links to stay within 7 and favour direct siblings on charging. TOC synced.",
+   "AEO_GEO": "Direct answer in lead (3 sentences). 1 table (scénarios), 3 checklists + 1 numbered list, FAQ 5 Q&A, host message template. No external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether the shop rents electric scooters, which battery type, charger supplied, and who helps with an empty battery are unconfirmed."
+  ],
+  "words_after": 1657
+ },
+ {
+  "path": "types-motos/google-maps-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment utiliser Google Maps à moto à Hanoi : réglages, lecture de l'itinéraire, support de téléphone, pièges ?",
+  "words_before": 2046,
+  "new_meta": {
+   "title": "Google Maps à moto à Hanoi : itinéraires et bons réflexes",
+   "description": "Utiliser Google Maps à moto à Hanoi : réglages avant de partir, mode deux-roues, carte hors ligne à tester, support de téléphone et pièges des ruelles.",
+   "h1": "Google Maps à moto à Hanoi : itinéraires et bons réflexes"
+  },
+  "evidence": {
+   "FACTS": "Corrected the former claim that the offline map guarantees navigation: search results say offline Google Maps navigation is generally limited to driving and nothing confirms motorbike mode offline, so the page now says 'téléchargez la zone, testez en mode avion avant de compter dessus'. Motorbike mode in Vietnam since July 2018 cited to Tuoi Tre News (headline/snippet seen in search result 2026-10-30). Phone use: stated only that using a phone while driving is sanctioned under decree 168/2024/ND-CP per Báo Lào Cai article (headline seen in search result), that the decree was reported as amended in another source and that the legal treatment of a phone on a mount is debated; no fine amount quoted (sources not consistent); 'vérifiez les règles en vigueur'. Earphones: advice to use one earpiece removed because their use while driving may be sanctioned; now 'évitez les écouteurs... (à vérifier)'. Expressway: 'en principe' no access for two-wheelers, daibieunhandan.vn headline (Hanoi traffic police fining riders on the expressway; seen in search result). Removed unsourced 'sauf mention contraire the bridge/ramp rule: suivez les deux-roues qui vous précèdent' (unsafe advice replaced by 'vérifiez aux panneaux'). Shop NAP used once with hours 09:00–21:00 for saving the pickup address. No prices, no distances, no times.",
+   "INTENT": "Main question: how to set up and use Google Maps on a rented motorbike in Hanoi. OWNER of 'google maps à moto à Hanoi'. Differs from /location-moto-hanoi/panne-scooter-hanoi/ (breakdown reflexes, linked once), /types-motos/support-telephone-scooter-hanoi/ (phone mount and charging, linked once) and /types-motos/rue-inondee-moto-hanoi/ because this page covers navigation settings, itinerary reading, typical trips and map pitfalls.",
+   "CONTENT": "Full rewrite. Removed mannered prose ('fleuve que suivent des nageurs', 'viande vivante', 'carte au bon endroit : sur le guidon, pas dans la tête', 'hygiène urbaine', 'un navigateur éteint... pas dangereux'), the unsafe 'follow the scooters ahead' advice and repetition. Added: settings checklist (mode, offline test, avoid expressways, voice, saved places, battery), phone-mount section with legal caveat, itinerary reading, four typical trips (Long Biên to Vieux Quartier with shop address, Vieux Quartier, cross-city, outside Hanoi), pitfalls list incl. flooded streets, terrain/paper backup, 5 new FAQ. 2046 -> see words_after.",
+   "META": "Title and H1 kept (hub anchor, unique, 57 chars). Description rewritten (<=160 chars, factual, removed 'sans stress'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/support-telephone-scooter-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/, /types-motos/rue-inondee-moto-hanoi/, /location-moto-hanoi/panne-scooter-hanoi/. Dropped former /types-motos/leger-scooter-hanoi/ link to stay within 7. Three external citations (tuoitrenews.vn, baolaocai.vn, daibieunhandan.vn) rel=noopener. TOC synced.",
+   "AEO_GEO": "Direct answer in lead (3 sentences). 2 checklists (réglages, pièges), FAQ 5 Q&A, 3 inline citations with 'titre vu dans un résultat de recherche' qualifiers."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitrenews.vn/news/business/20180719/google-maps-debuts-motorcycle-mode-in-vietnam/46741.html",
+    "checked": "2026-10-30",
+    "used_for": "Google Maps motorcycle mode launched in Vietnam in July 2018 (seen in search result)"
+   },
+   {
+    "url": "https://baolaocai.vn/muc-phat-hanh-vi-su-dung-dien-thoai-khi-dieu-khien-o-to-xe-may-post905641.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: penalty for using a phone while driving a car or motorbike under decree 168/2024/ND-CP (seen in search result; text not opened; amount not quoted)"
+   },
+   {
+    "url": "https://daibieunhandan.vn/canh-sat-giao-thong-ha-noi-xu-phat-nhieu-nguoi-dieu-khien-xe-may-di-vao-duong-cao-toc-10381692.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: Hanoi traffic police fine motorbike riders entering expressways (seen in search result)"
+   }
+  ],
+  "owner_gaps": [],
+  "words_after": 1571
+ },
+ {
+  "path": "types-motos/honda-ct125-vietnam-voyage/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut la Honda CT125 en voyage au Vietnam (routes de village, pistes, bagages, niveau requis) ?",
+  "words_before": 1978,
+  "new_meta": {
+   "title": "Honda CT125 au Vietnam : que vaut-elle en voyage ?",
+   "description": "La Honda CT125 en voyage au Vietnam : routes de village, pistes, bagages, réservoir, niveau requis et points à vérifier avant de la louer.",
+   "h1": "Honda CT125 au Vietnam : que vaut-elle en voyage ?"
+  },
+  "evidence": {
+   "FACTS": "Removed all unsourced spec 'tendances' presented as facts (garde au sol généreuse, consommation frugale, 'cub utilitaire', 'dérivé du cub avec pneus capables...') and the contract/assistance lines ('couverture assistance en cas de panne', 'zone autorisée' as contract lines, 'numéro joignable'). Specs now only from American Honda Trail125 MY2024 page (124 cm3 air-cooled, 4-speed, seat about 800 mm / 31.5 in, 116 kg / 256 lb curb weight, fuel 1.4 US gal = a little over 5 L), explicitly labelled as the US model and 'à vérifier sur honda.com.vn' for the Vietnamese version (hondanews.com URL seen in search result 2026-10-30). Centrifugal clutch / no clutch lever stated 'd'après des tests de presse' (seen in search summary). Vietnam market: imported Thai units first (baoquocte.vn headline) then official launch (znews.vn headline), both seen in search result; no purchase prices quoted. Rental: no CT125 rate is published, consistent with /honda/honda-ct125-prix-location-hanoi/ and /honda/honda-ct125-location-hanoi/; availability/price to ask for the dates; zone and breakdown procedure 'à demander par écrit'. Permis: 124 cm3 vs the 125 cm3 A1/A threshold only referenced to the types-motos hub (law 36/2024/QH15), with 'vérifiez votre situation'.",
+   "INTENT": "Main question: how good is the CT125 for a trip on village roads from Hanoi. OWNER of 'honda CT125 au Vietnam'. Differs from /honda/honda-ct125-location-hanoi/ (rental profiles, essai), /honda/honda-ct125-prix-location-hanoi/ (price) and /types-motos/wr155r-ou-ct125-vietnam-voyage/ (duel with a real trail) because this page is about travel use: what village roads demand, strengths/limits, tank and loading, driver level, trip preparation, choice table; the other pages are linked once each.",
+   "CONTENT": "Full rewrite. Removed the mannered intro ('silhouette qui revient sans cesse', 'la règle du dossier reste la même'), 'assurance informelle', 'lente mais sans fatigue, modeste mais sans panne de style', repeated 'en tendance' hedging, and the closing logistics prose. Added: sourced spec paragraph, requirement list for village roads, strengths/limits lists with tank-range advice, driver-level questions, choice table by project, trip preparation (3 steps), handover checklist, 5 new FAQ. 1978 -> see words_after.",
+   "META": "Title changed from 'Honda CT125 au Vietnam : la reine des routes de village ?' to 'Honda CT125 au Vietnam : que vaut-elle en voyage ?' (removes the hype formula); H1 aligned with the title. The /types-motos/ hub still anchors the old H1: coordinator to sync it to the new H1. Description rewritten (138 chars, factual, removed 'lecture honnête'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /honda/honda-ct125-location-hanoi/, /honda/honda-ct125-prix-location-hanoi/, /types-motos/wr155r-ou-ct125-vietnam-voyage/, /types-motos/trail-moto-ou-scooter-ha-giang/. Dropped /types-motos/location-moto-manuelle-hanoi/ link (gearbox explained inline). Three external citations rel=noopener (hondanews.com, baoquocte.vn, znews.vn). TOC synced.",
+   "AEO_GEO": "Direct answer in lead (4 sentences). 1 choice table, 2 bullet lists + 1 numbered list, FAQ 5 Q&A, 3 inline citations with qualifiers."
+  },
+  "sources": [
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-trail125-specifications",
+    "checked": "2026-10-30",
+    "used_for": "US-model Trail125 (CT125) MY2024: 124 cm3 air-cooled single, 4-speed, seat 31.5 in, curb weight 256 lb, fuel 1.4 gal (seen in search result)"
+   },
+   {
+    "url": "https://baoquocte.vn/can-canh-honda-ct125-vua-ve-viet-nam-gia-tu-150-trieu-dong-248306.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: imported Honda CT125 arriving in Vietnam (seen in search result; price not quoted)"
+   },
+   {
+    "url": "https://znews.vn/honda-ct125-ra-mat-viet-nam-co-abs-dat-hon-gap-doi-yamaha-pg-1-post1596813.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: Honda CT125 launched in Vietnam (seen in search result; price not quoted)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop rents a CT125, the exact version/year, its rate and the authorised zone are unconfirmed (no CT125 rate in the owner table)."
+  ],
+  "words_after": 1720
+ },
+ {
+  "path": "types-motos/honda-cuv-e-ou-yamaha-neos-vietnam/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "CUV e: ou NEO'S : recharge et routine quotidienne (batterie amovible, hébergement, stationnement, trajets) pour un locataire à Hanoi.",
+  "words_before": 1927,
+  "new_meta": {
+   "title": "Honda CUV e: ou Yamaha NEO’S : recharge et vie quotidienne",
+   "description": "CUV e: ou NEO’S au quotidien à Hanoi : batteries amovibles, recharge à l’hébergement, stationnement et routine d’une semaine type, avec les points à vérifier.",
+   "h1": "Honda CUV e: ou Yamaha NEO’S : recharge et vie quotidienne"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced model characterisation ('tablier protecteur, plancher plat', 'NEO'S réputé pour sa compacité', 'répondant', 'visibilité haute') and the contract-line list ('assistance en cas de panne, frais de recharge éventuels, état des lieux'). New battery facts come only from Vietnamese press seen in a WebSearch result on 2026-10-30, kept to headline/snippet level and flagged 'à vérifier sur le véhicule loué': CUV e: removable batteries, two Honda Mobile Power Pack e: under the seat, about ten kilos each, several hours per battery on a household socket, swap stations announced for Hanoi (znews.vn and vnreview.vn headlines); NEO'S removable battery, about ten kilos, a second slot per a press guide, swap programme announced (baohatinh.vn headline). Range, charging-hour and price figures deliberately not quoted because the search results contradict each other and no honda.com.vn / yamaha-motor.com.vn page was seen. Whether swap points can be used with a rental vehicle stated as not established. No price quoted: the electric day rate is not in the owner table (stated, not derived). Shop availability, conditions and phone only 'à confirmer'. Safety advice on charging is generic.",
+   "INTENT": "Main question: how does daily life with a CUV e: or a NEO'S work (recharge, battery handling, parking, trips). DISTINCT_ANGLE of owner /honda/honda-cuv-e-ou-yamaha-neo-s-location/ (general comparison): this page drops the temperament/comfort comparison and covers only recharge and routine; the owner is linked once with the anchor 'CUV e: ou NEO'S à louer à Hanoi' for the general comparison. Differs also from /types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam/ (prise en main).",
+   "CONTENT": "Full rewrite around the documented angle. Removed the whole 'deux tempéraments / profil flâneur vs vif / suspension / filtrage' comparison (duplicate of the owner), abstract passages ('une machine du quotidien se choisit comme un vêtement', 'un navigateur...'), and the generic socle sécurité. Added: battery table with sourced press facts, weekly charging routine table, host message template and accommodation situations, parking/locking/storage points, trip planning with reserve, 'sur un mois' section, questions for the lender, 5 new FAQ. 1927 -> see words_after.",
+   "META": "Title and H1 changed to the documented angle ('recharge et vie quotidienne', 58 chars); the /types-motos/ hub still anchors 'Honda CUV e: ou Yamaha NEO’S : l’électrique du quotidien' so the coordinator should sync it. Description rewritten (158 chars, removed 'comparaison honnête'); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /honda/honda-cuv-e-ou-yamaha-neo-s-location/ (owner), /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/removable-batterie-scooter-vietnam-hotel-recharge/, /types-motos/batterie-swap-ou-plug-a-electrique-scooter-vietnam/. Dropped /honda/honda-cuv-e-location-hanoi/ and /yamaha/yamaha-neo-s-location-hanoi/ links (models named in text). Three external citations rel=noopener (znews.vn, vnreview.vn, baohatinh.vn). TOC synced.",
+   "AEO_GEO": "Direct answer in lead (4 sentences). 2 tables (batteries, routine), 3 bullet lists, host message template, FAQ 5 Q&A, 3 inline citations with 'titres vus dans des résultats de recherche' qualifier."
+  },
+  "sources": [
+   {
+    "url": "https://znews.vn/can-canh-xe-may-dien-honda-cuv-e-cho-thue-khong-ban-pin-thao-roi-post1506524.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: Honda CUV e: with removable battery (seen in search result; text not opened)"
+   },
+   {
+    "url": "https://vnreview.vn/threads/honda-mo-ban-xe-may-dien-cuv-e-va-uc3-tai-viet-nam-gia-kha-cang-se-phu-tram-doi-pin-khap-ha-noi.84169/",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: battery swap stations planned across Hanoi for Honda electric two-wheelers (seen in search result)"
+   },
+   {
+    "url": "https://baohatinh.vn/tv/yamaha-neos-trien-khai-doi-pin-tai-viet-nam-cuoc-dua-tram-sac-xe-may-dien-tang-nhiet-35947.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: Yamaha NEO'S battery swap rolled out in Vietnam (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop rents CUV e: or NEO'S, battery count/state, chargers supplied, use of swap points on rentals, and rates are unconfirmed. Official honda.com.vn / yamaha-motor.com.vn spec pages were not reachable; press figures conflict."
+  ],
+  "words_after": 1712
+ },
+ {
+  "path": "types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "ICON e: ou NEO'S : prise en main selon le profil du conducteur (débutant, gabarit, passager, habitué des scooters), essai avant de signer.",
+  "words_before": 1821,
+  "new_meta": {
+   "title": "Honda ICON e: ou Yamaha NEO’S : prise en main selon votre profil",
+   "description": "ICON e: ou NEO’S en location : prise en main selon votre profil (débutant, gabarit, passager), essai de dix minutes et points à vérifier avant de partir.",
+   "h1": "Honda ICON e: ou Yamaha NEO’S : prise en main selon votre profil"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced model portraits ('conçue pour la navette urbaine dans les grandes villes d'Asie du Sud-Est', 'tempérament calme assumé', 'centre de gravité abaissé par la batterie') and contract lines ('zone de circulation autorisée, caution, couverture d'assurance', 'assistance prévue couvre-t-elle les pannes électriques'). No spec numbers except a qualified press point: a speed limit below 50 km/h mentioned for the ICON e: in Vietnamese press (seen in a search-result summary, not attributable to one article, so phrased 'à vérifier' with no link); removable battery for the ICON e: cited to the VTC News headline (seen in search result). Seat height, weight, range and charge-time figures from the same results were NOT used (non-manufacturer, inconsistent). Legal: category depends on motor power and, for small models, maximum speed; explicitly warns not to assume no permit is needed and sends to /permis-securite/; the press mention of 'no licence required' in a search summary was not repeated. No prices; electric day rate stated as not in the owner table; shop availability and help in case of empty battery to confirm.",
+   "INTENT": "Main question: how easy is it to handle an ICON e: or a NEO'S depending on who rides (débutant, gabarit, passager, habitué). DISTINCT_ANGLE of owner /honda/honda-icon-e-ou-yamaha-neo-s-location/ (general comparison): this page drops the comparison of models and autonomy and builds the profile table, beginner protocol, pitfalls (silent 'ready' state, instant torque, modes), 10-minute test; owner linked once with an explicit anchor. Distinct from /types-motos/honda-cuv-e-ou-yamaha-neos-vietnam/ (recharge routine), which is linked once.",
+   "CONTENT": "Full rewrite around the documented angle. Removed 'la règle de la plateforme', 'la question reine', 'la grille du comptoir', mannered passages ('la ville arrive entière dans le casque' kept only in a plainer form), the long autonomy and contract sections that duplicate the owner. Added: common points, profile table (6 profiles), beginner 6-step protocol, silence section, pitfalls list (6 items), recharge pointer, permis/speed section, 10-minute test checklist, 5 new FAQ. 1821 -> see words_after.",
+   "META": "Title and H1 changed to the documented angle ('prise en main selon votre profil', 64 chars); the /types-motos/ hub still anchors 'ICON e: ou NEO’S : quel deux-roues électrique louer ?' so the coordinator should sync it. Title previously used a straight apostrophe in NEO'S; now NEO’S as elsewhere. Description rewritten (153 chars); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /honda/honda-icon-e-ou-yamaha-neo-s-location/ (owner), /types-motos/leger-scooter-hanoi/, /types-motos/honda-cuv-e-ou-yamaha-neos-vietnam/, /types-motos/electrique-scooter-recharge-hanoi/. Dropped former /types-motos/automatique-ou-semi-automatique-moto-vietnam/ and /permis-securite/moto-pluie-securite-vietnam/ links. One external citation (vtcnews.vn, rel=noopener). TOC synced.",
+   "AEO_GEO": "Direct answer in lead (5 sentences). 1 profile table, 3 lists (protocol numbered, pitfalls, test), FAQ 5 Q&A, 1 inline citation."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/xe-dien-honda-icon-e-nho-gon-pin-thao-roi-phu-hop-nhu-cau-dao-pho-ar1008597.html",
+    "checked": "2026-10-30",
+    "used_for": "Headline-level: Honda ICON e: compact with removable battery (seen in search result; text not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop rents ICON e: or NEO'S, versions, seat height/weight, maximum speed and passenger allowance are unconfirmed (no manufacturer spec page was reachable)."
+  ],
+  "words_after": 1692
  }
 ]

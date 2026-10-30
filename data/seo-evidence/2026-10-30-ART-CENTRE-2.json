@@ -112,5 +112,434 @@
   "owner_gaps": [
    "Whether a moto rented in Long Biên can be used/returned in Saigon (zone, one-way)."
   ]
+ },
+ {
+  "path": "centre-sud-vietnam/moto-hue-a-da-nang/index.html",
+  "role": "OWNER",
+  "primary_intent": "À moto de Huế à Đà Nẵng : col de Hải Vân ou tunnel, et comment rouler le col.",
+  "words_before": 1633,
+  "words_after": 1700,
+  "new_meta": {
+   "title": "De Huế à Đà Nẵng à moto : col de Hải Vân ou tunnel ?",
+   "description": "Huế–Đà Nẵng à moto : pourquoi les deux-roues prennent le col de Hải Vân et non le tunnel, comment le rouler, météo, machine et vérifications avant la descente.",
+   "h1": "De Huế à Đà Nẵng à moto : col de Hải Vân ou tunnel ?"
+  },
+  "evidence": {
+   "FACTS": "Whole page was unreadable abstract prose (‘le choix se lit…’, ‘la règle du site’); replaced with hub-verified facts: tunnel reserved for cars, motos only on a transfer truck (VnExpress 2020), escorted 2020 passage presented as a first (Báo Pháp Luật), col ≈20 km / ≈500 m with Hải Vân Quan gate (Đà Nẵng tourism office), Hội An 122 km from Huế and ~30 km from Đà Nẵng (VnExpress), autumn storm/flood season (Thanh Tra), Huế UNESCO 11/12/1993 (Nhân Dân), Huế central city 1/1/2025 and Quảng Nam+Đà Nẵng merger (resolution 202/2025/QH15). WebSearch (standard) for Huế–Đà Nẵng distance returned 95–120 km depending on source: stated only as ‘une centaine de kilomètres selon les guides, à vérifier sur la carte’ (seen in search result, no URL cited). Search snippets also claimed motorbikes may use the tunnel at 40 km/h – contradicts hub/VnExpress and was NOT used; the page tells readers rules may change and to read signs at the tunnel entrance. No price, no shop policy beyond ‘nothing confirms a Long Biên rental may go to Huế’. Gear-ratio and travel-time claims avoided.",
+   "INTENT": "Main question: col or tunnel between Huế and Đà Nẵng on a motorbike. OWNER of ‘Huế à Đà Nẵng à moto’. Closest pages hue-a-hoi-an-moto (0.5) and da-nang-voyage-moto (0.5): this page is the col-versus-tunnel decision and the pass itself; the full-day route to Hội An and the city guide are linked for the rest.",
+   "CONTENT": "Fully rewritten: col vs tunnel table, step list for the crossing, weather decision table, machine/equipment checklist, Hanoi-rental caveat, new section before/after the pass. Words 1633→1700.",
+   "META": "Title kept (52 chars); description rewritten (159); H1 aligned; eyebrow plain; og:title/og:description identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added: centre/ (regional hub), permis-securite/moto-montagne-pass-securite-vietnam, hue-a-hoi-an-moto, da-nang-voyage-moto. 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers the H1 question directly (col; tunnel reserved for cars; ~20 km/~500 m; morning start). 3 tables, 2 lists, FAQ 5 questions. 7 inline citations to hub-verified sources."
+  },
+  "sources": [
+   {
+    "url": "https://vnexpress.net/mo-ham-hai-van-cho-doan-nguoi-ve-que-4368282.html",
+    "checked": "2026-10-30",
+    "used_for": "tunnel reserved for cars; motos on transfer truck (as in hub centre/; also seen in search result list)"
+   },
+   {
+    "url": "https://baophapluat.vn/lan-dau-tien-ham-hai-van-mo-cho-ca-ngan-nguoi-hoi-huong-chay-xe-may-ve-que-post415980.html",
+    "checked": "2026-10-30",
+    "used_for": "2020 escorted passage presented as a first (as in hub)"
+   },
+   {
+    "url": "https://danangfantasticity.com/en/hai-van-pass",
+    "checked": "2026-10-30",
+    "used_for": "pass ≈20 km, ≈500 m, Hải Vân Quan (as in hub)"
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-hoi-an-4446174.html",
+    "checked": "2026-10-30",
+    "used_for": "Hội An 122 km from Huế, >30 km from Đà Nẵng (as in hub)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Sept–Dec storm/flood season in the Centre (as in hub)"
+   },
+   {
+    "url": "https://nhandan.vn/post-758221.html",
+    "checked": "2026-10-30",
+    "used_for": "Huế monuments UNESCO 11/12/1993 (as in hub centre/)"
+   },
+   {
+    "url": "https://tapchicongthuong.vn/cong-bo-nghi-quyet-thanh-pho-hue-la-thanh-pho-truc-thuoc-trung-uong-131779.htm",
+    "checked": "2026-10-30",
+    "used_for": "Huế central city from 1/1/2025 (as in hub)"
+   },
+   {
+    "url": "https://hoatieu.vn/phap-luat/nghi-quyet-202-2025-qh15-233976",
+    "checked": "2026-10-30",
+    "used_for": "resolution 202/2025/QH15: Quảng Nam + Đà Nẵng merger (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a moto rented at Long Biên may go to Huế/Đà Nẵng or be returned there."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/moto-luggage-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quels bagages emporter et comment les charger sur une moto pour un voyage au Vietnam.",
+  "words_before": 2393,
+  "words_after": 1683,
+  "new_meta": {
+   "description": "Quels bagages emporter à moto au Vietnam : sacoches ou sac à dos, répartition du poids, arrimage, protection contre la pluie, papiers et argent en sécurité.",
+   "h1": "Bagages à moto au Vietnam : emporter peu, charger bas et au sec"
+  },
+  "evidence": {
+   "FACTS": "Removed unconfirmed rental statement (‘certaines agences fournissent sacoches et coffre… d’autres les facturent’ presented as fact) and replaced by a question to ask, stating nothing published confirms what Thuê xe máy Nguyễn Hà provides for long trips. Removed ‘attestation d’assurance’ from the papers list (insurance unconfirmed) and unsourced ‘presque tout se lave en route… à prix modique’ (now ‘on peut en général laver’). Passport advice rewritten after review flag (no ‘leave passport at hotel’; check what must be carried). Only external fact: Sept–Dec storm/flood season in the Centre (Thanh Tra, as in hub). No price, no weight figures, no legal rule beyond ‘vérifiez’.",
+   "INTENT": "Main question: how to pack and load a motorbike for a Vietnam trip. OWNER ‘bagages à moto au Vietnam’. Closest pages moto-entretien (0.25, mechanical checks – linked, not duplicated), yamaha lexi/freego pages (0.18, models).",
+   "CONTENT": "Rewritten without abstract metaphors (‘hiérarchie d’accès’, ‘rituel… invisible’). New: lead answer, systems table, category checklist, weight-distribution rules, fixing/rain protection, papers/money, evening/morning routine, FAQ. Words 2393→1683.",
+   "META": "Title kept (53); description rewritten (156); H1 rewritten to a concrete phrase; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept meilleur-moto-vietnam-nord-sud and vietnam-coastal-itineraire-moto; added moto-entretien-liste-controle-vietnam-voyage-moto and permis-securite/moto-pluie-securite-vietnam. 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead states the rules in 3 sentences. 1 table, 2 checklists, FAQ 5 questions. 1 external citation (Thanh Tra)."
+  },
+  "sources": [
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Sept–Dec storm/flood season in the Centre (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Which luggage equipment (sacoches, top case, porte-bagages) Thuê xe máy Nguyễn Hà can supply for long trips."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/moto-nha-trang-a-dalat/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment monter de Nha Trang à Đà Lạt à moto : routes, col de Khánh Lê, météo, machine.",
+  "words_before": 1724,
+  "words_after": 1700,
+  "new_meta": {
+   "title": "De Nha Trang à Đà Lạt à moto : routes, col de Khánh Lê, météo",
+   "description": "De Nha Trang à Đà Lạt à moto : la nationale 27C et le col de Khánh Lê, l’itinéraire plus long, le risque d’éboulement en saison des pluies, machine et étapes.",
+   "h1": "De Nha Trang à Đà Lạt à moto : choisir sa route de montagne"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced ‘environ 135 km’ and ‘environ 210 km’ routes and the invented description of a ‘route de la côte’ (salines, collines…); the page no longer speaks of ‘règle du site’ or ‘aucun tarif inventé’. Now uses hub-verified facts: QL27C 121 km with 33 km Khánh Lê pass (VietnamPlus), Nov 2025 landslide hitting a bus (VietNamNet), Khánh Hòa closure of the pass in heavy rain (VOV), Đà Lạt ≈1,500 m and ≈300 km from HCMC (VnExpress), Lâm Đồng merger with Bình Thuận/Đắk Nông (Tạp chí Công Thương), Centre Sept–Dec storm season (Thanh Tra), Southern rainy season May–Nov. WebSearch (standard): snippets gave QL27C figures of 134–140 km (inconsistent with hub’s 121 km, so hub figure kept and the text says guides differ) and an alternative via QL1A + QL27B of about 179 km (Google Maps figure quoted by the snippet, ‘présenté comme plus facile’): stated as ‘environ 180 km selon un calculateur d’itinéraire, à vérifier’ (seen in search result; no URL cited, QL27/Ngoạn Mục pass not covered). Expressway ban cited as law 36/2024/QH15. Hanoi-rental caveat; no prices.",
+   "INTENT": "Main question: how to ride from Nha Trang up to Đà Lạt. OWNER ‘de Nha Trang à Đà Lạt à moto’. Closest pages were unrelated northern articles (≤0.25); the page is the only Nha Trang–Đà Lạt route and delegates the plateau to da-lat-voyage-moto and the bike choice to meilleur-moto-dalat.",
+   "CONTENT": "Fully rewritten (original was non-informative ‘lecture’ prose). New: routes table, Khánh Lê risk checklist, day organisation, clothing/altitude, onward to Saigon, weather decision table, machine, rental caveat, FAQ. Words 1724→1700.",
+   "META": "Title rewritten (61 chars), description rewritten (158), H1 rewritten; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added: da-lat-voyage-moto, meilleur-moto-dalat, nha-trang-itineraire-moto, permis-securite/moto-montagne-pass-securite-vietnam (replaced hue-a-hoi-an, sud/). 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (QL27C, 121 km, 33 km pass, landslide risk, plan B). 2 tables, 3 lists, FAQ 5 questions. 5 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamplus.vn/khanh-hoa-khan-truong-khac-phuc-sat-lo-quoc-lo-27c-truoc-mua-mua-bao-post1136301.vnp",
+    "checked": "2026-10-30",
+    "used_for": "QL27C 121 km, Khánh Lê pass 33 km, rainy-season landslides (as in hub centre/)"
+   },
+   {
+    "url": "https://vietnamnet.vn/con-hai-thi-the-ket-trong-o-to-khach-bi-sat-lo-nui-de-tren-deo-o-khanh-hoa-2463411.html",
+    "checked": "2026-10-30",
+    "used_for": "Nov 2025 landslide on Khánh Lê (as in hub)"
+   },
+   {
+    "url": "https://vov.vn/xa-hoi/khanh-hoa-nghiem-cam-phuong-tien-qua-deo-khanh-le-khi-co-mua-lon-post1143494.vov",
+    "checked": "2026-10-30",
+    "used_for": "closure of the pass in heavy rain (as in hub)"
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-lam-dong-4807324.html",
+    "checked": "2026-10-30",
+    "used_for": "Đà Lạt ≈1,500 m and ≈300 km from HCMC (as in hub)"
+   },
+   {
+    "url": "https://tapchicongthuong.vn/lam-dong-cong-bo-nghi-quyet--quyet-dinh-ve-sap-nhap-don-vi-hanh-chinh-142281.htm",
+    "checked": "2026-10-30",
+    "used_for": "Lâm Đồng merger (as in hub)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may reach Nha Trang/Đà Lạt; second Nha Trang–Đà Lạt route (via Phan Rang / QL27 Ngoạn Mục pass) not verified – only QL1+QL27B figure from a search snippet."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/mui-ne-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment visiter Mũi Né à moto : accès depuis Saigon, dunes, port, vent et sable.",
+  "words_before": 1768,
+  "words_after": 1650,
+  "new_meta": {
+   "title": "Mũi Né à moto : dunes, port de pêche, vent et route côtière",
+   "description": "Mũi Né à moto : rejoindre la côte depuis Saigon sans autoroute, dunes au lever du soleil, port de pêche, vent latéral et sable sur la chaussée.",
+   "h1": "Mũi Né à moto : dunes, port de pêche et route du littoral"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced claims about the local rental fleet (‘beaucoup de scooters automatiques, quelques semi-automatiques, peu de trails’), rental ‘tarifs se vérifient à la signature’, directions to Phan Thiet/north-south descriptions presented as fact, and ‘les distances se comptent en dizaines de minutes’. Kept hub-verified facts: ≈230 km from HCMC via Cát Lái ferry, Bà Rịa and the coast road (VnExpress mui-ne guide), Dầu Giây–Phan Thiết expressway closed to motorcycles (law 36/2024/QH15), lateral wind and sand on the road near the dunes (hub sud/), Lâm Đồng–Bình Thuận merger so Mũi Né and Đà Lạt are in the same province (Tạp chí Công Thương), Southern rainy season after 5 May to ~November (Pháp Luật TP.HCM). Dunes/port descriptions are qualitative; no distance for Nha Trang (marked ‘à mesurer’). Hanoi-rental caveat; licence statement generic; no price.",
+   "INTENT": "Main question: how to ride to and around Mũi Né. OWNER ‘Mũi Né à moto’. Closest pages (nord-vietnam hanoi-lang-son, halong, bac-kan ≤0.17) are unrelated; the page is the only Mũi Né guide and hands the HCMC and Nha Trang legs to sibling pages.",
+   "CONTENT": "Rewritten: access table + expressway ban, dunes checklist, one-to-two-day programme table, port, wind/sand driving, coastal equipment, season, rental checks (chain, rear brake, mirrors), onward coast. Removed the ‘paradoxe… désert rencontre la mer’ rhetoric and the page-meta sentence ‘Cette page fait partie du parcours plus large’. Words 1768→1650.",
+   "META": "Title, description (143), H1 rewritten with the correct ‘Mũi Né’ spelling used in the hub; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added: sud/ (regional hub), moto-ho-chi-minh-ville, nha-trang-itineraire-moto, vietnam-coastal-itineraire-moto (replaces hanoi-a-ho-chi-minh). 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (1–2 days, ≈230 km from Saigon, expressway closed, wind and sand). 2 tables, 2 checklists, FAQ 5 questions. 4 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-mui-ne-3838646.html",
+    "checked": "2026-10-30",
+    "used_for": "≈230 km from HCMC via Cát Lái ferry, Bà Rịa and coast road (as in hub sud/)"
+   },
+   {
+    "url": "https://tapchicongthuong.vn/lam-dong-cong-bo-nghi-quyet--quyet-dinh-ve-sap-nhap-don-vi-hanh-chinh-142281.htm",
+    "checked": "2026-10-30",
+    "used_for": "Lâm Đồng merger (as in hub)"
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-30",
+    "used_for": "Southern rainy season start (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may reach Mũi Né or be returned in Saigon."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/nha-trang-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment explorer Nha Trang et ses environs à moto (boucles, trafic, location, saison).",
+  "words_before": 2377,
+  "words_after": 1669,
+  "new_meta": {
+   "title": "Nha Trang à moto : côte nord, port du sud et arrière-pays",
+   "description": "Nha Trang à moto : boucles côtières vers le nord et le sud, arrière-pays de rizières, trafic urbain, saison des pluies et vérifications avant de louer.",
+   "h1": "Nha Trang à moto : boucles côtières et arrière-pays"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced/unconfirmed items: ‘le parc de location de Nha Trang est abondant’, ‘casque homologué’, ‘Une assurance même basique vaut mieux qu’aucune’, ‘on roule entre 30 et 40 km/h’, ‘à moins d’une heure de route… une vingtaine de minutes’, ‘les rétroviseurs souvent retirés des motos de location’, and invented place-level claims about north/south routes. Added distances only from hub-verified or search sources: QL27C 121 km (VietnamPlus, hub), Quy Nhơn ≈300 km from Đà Nẵng (VnExpress, hub), Sept–Dec storm/flood season (Thanh Tra, hub). WebSearch (standard) gave Pô Nagar ≈2 km north of centre, Hòn Chồng ≈3–4 km NE (sources differ: 3 vs 4 km) and Bãi Dài ≈25–30 km (Cam Ranh) – used as ‘ordres de grandeur issus de guides de voyage, à vérifier’ (seen in search result, no URL cited); Dốc Lết/Ninh Vân distances not available, so left unquantified. Hanoi-rental caveat; insurance only as ‘ce que couvre l’assurance éventuelle, sans la supposer incluse’; licence generic.",
+   "INTENT": "Main question: how to explore Nha Trang and surroundings by moto. OWNER ‘Nha Trang à moto’. Closest pages phong-nha (0.23), vung-tau (0.21), moto-nha-trang-a-dalat (0.21): this page is the local base (north coast, south, hinterland); the climb to Đà Lạt is delegated to moto-nha-trang-a-dalat.",
+   "CONTENT": "Rewritten: exits table with caveated distances, north coast, south, hinterland checklist, city driving/parking, Nha Trang as a coastal stage (hub facts), season, rental checklist. Removed padding and mannered passages (‘le virus du grand touring’, ‘ralentir sans perdre de terrain’). Words 2377→1669.",
+   "META": "Title, description (151), H1 rewritten; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added: centre/, moto-nha-trang-a-dalat (kept), phu-yen-voyage-moto, mui-ne-voyage-moto (replace vietnam-nord-a-sud). 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (3 loops, trafic, QL27C 121 km). 1 table, 3 lists, FAQ 5 questions. 3 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamplus.vn/khanh-hoa-khan-truong-khac-phuc-sat-lo-quoc-lo-27c-truoc-mua-mua-bao-post1136301.vnp",
+    "checked": "2026-10-30",
+    "used_for": "QL27C 121 km, Khánh Lê 33 km (as in hub centre/)"
+   },
+   {
+    "url": "https://vnexpress.net/nhung-dieu-chi-co-o-quy-nhon-2913103.html",
+    "checked": "2026-10-30",
+    "used_for": "Quy Nhơn ≈300 km from Đà Nẵng (as in hub centre/)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may reach Nha Trang or be returned there. Local distances (Pô Nagar, Hòn Chồng, Bãi Dài) are search-snippet approximations without a cited page."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/phong-nha-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller à Phong Nha et s’y déplacer à moto (routes, grottes, saison).",
+  "words_before": 1855,
+  "words_after": 1600,
+  "new_meta": {
+   "title": "Phong Nha à moto : grottes, routes de montagne, accès depuis Huế",
+   "description": "Phong Nha à moto : parc national et grottes, nationale 1 ou route Hồ Chí Minh depuis Huế, ravitaillement, pluies d’automne, machine et sécurité en montagne.",
+   "h1": "Phong Nha à moto : grottes, routes de montagne et accès depuis Huế"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced/embellished content: ‘des centaines de kilomètres de galeries’, ‘plus grande grotte du monde… sur devis’, ‘expéditions sur devis du moment’, specific cave names/tickets/formulas, ‘Son Trach’ homestay descriptions, ‘les machines se louent plutôt dans les villes de départ’, ‘les homestays prêtent le nécessaire’, ‘les enfants saluent’. Kept hub-verified facts: UNESCO documentation (oldest large karst area in Asia), World Heritage 2003 geology / 2015 extension (park site), Quảng Bình+Quảng Trị merger (resolution 202/2025/QH15), two routes from Huế (QL1 vs HCM route), west branch ‘en bon état mais sinueuse… virages serrés’ and sparse services (Pháp Luật TP.HCM), Sept–Dec storm/flood season (Thanh Tra). Cave tours described only generically (boat or foot; booking/fees to check on site). Hanoi-rental caveat; licence statement generic; no price.",
+   "INTENT": "Main question: how to reach and ride around Phong Nha. OWNER ‘Phong Nha à moto’. Closest pages (prix-location/hanoi-sapa…, nord-vietnam/sapa, halong; ≤0.25) are northern; this page hands the Huế leg to hue-a-phong-nha-moto and the road level to ho-chi-minh-route-moto-vietnam.",
+   "CONTENT": "Rewritten: overview with 3 citations, activities table, two-route table, local loop checklist, 2–3 day table, season/decision table, machine & caveats, FAQ. Removed lyrical filler and the repetitive ‘se vérifie au moment du voyage’. Words 1855→1600.",
+   "META": "Title (64), description (156), H1 rewritten; eyebrow plain; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept hue-voyage-moto; added centre/, hue-a-phong-nha-moto, ho-chi-minh-route-moto-vietnam. 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (two routes from Huế, two days, caves by boat/foot). 3 tables, 1 checklist, FAQ 5 questions. 5 inline citations (UNESCO doc, park, resolution, Pháp Luật TP.HCM, Thanh Tra)."
+  },
+  "sources": [
+   {
+    "url": "https://whc.unesco.org/document/217960",
+    "checked": "2026-10-30",
+    "used_for": "oldest large karst area in Asia (as in hub centre/)"
+   },
+   {
+    "url": "https://phongnhakebang.vn/history-of-formation",
+    "checked": "2026-10-30",
+    "used_for": "UNESCO 2003 inscription and 2015 extension (as in hub)"
+   },
+   {
+    "url": "https://hoatieu.vn/phap-luat/nghi-quyet-202-2025-qh15-233976",
+    "checked": "2026-10-30",
+    "used_for": "resolution 202/2025/QH15 – Quảng Bình + Quảng Trị merger (as in hub)"
+   },
+   {
+    "url": "https://plo.vn/tu-dong-truong-son-noi-tay-truong-son-post360464.html",
+    "checked": "2026-10-30",
+    "used_for": "west branch of Hồ Chí Minh route: sinuous, good condition (as in hub)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may go to Phong Nha or be returned in the Centre. Cave ticket/boat/expedition conditions not verified (left as ‘vérifiez sur place’)."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/phu-quoc-moto-1-jour-route/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle boucle faire à moto à Phú Quốc quand on n’a qu’une journée.",
+  "words_before": 1808,
+  "words_after": 1581,
+  "new_meta": {
+   "title": "Phú Quốc à moto en 1 jour : boucle est, sud et ouest",
+   "description": "Une journée à Phú Quốc à moto : côte est le matin, plages du sud à midi, couchant à l’ouest, avec préparation, carburant, chaleur et retour avant la nuit.",
+   "h1": "Phú Quốc à moto en une journée : la boucle est, sud et ouest"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced details: network coverage claims (‘le réseau passe correctement autour de Duong Dong…’), ‘les stations-service se concentrent autour de Duong Dong’, ‘les prix de l’essence’ phrasing, ‘les litiges de caution’ (deposit), ‘antivol fourni’, specific cages d’élevage/frangipaniers/hévéas, ‘certains établissements installent transats et musique’. Kept: island >589 km² and special zone (Sài Gòn Giải Phóng, hub), access by plane or boat from Rạch Giá/Hà Tiên, ferries carrying vehicles vs passenger fast boats (Mia.vn, hub), south/east roads easy and north tracks harder after rain (hub sud/). WebSearch (standard): Hàm Ninh 14–25 km from Dương Đông depending on source, Bãi Sao ≈25–28 km (SE of Dương Đông), island ≈50 km north–south (page Vietnamtourism seen in results) – used as ‘ordres de grandeur tirés de guides de voyage, à vérifier’ (seen in search result; only the Vietnamtourism URL cited, for the 50 km claim). Rental: moto rented elsewhere may only be shipped with the lessor’s written agreement; nothing confirms Thuê xe máy Nguyễn Hà allows it. No price; licence generic.",
+   "INTENT": "Main question: what to do in one day by moto on Phú Quốc. OWNER ‘Phú Quốc à moto en 1 jour’. Closest pages sapa-itineraire-moto-1-jour (0.33), phu-quoc-moto (0.33), da-lat-moto-1-jour (0.33): this page is the one-day loop; phu-quoc-moto is the bike choice, phu-quoc-moto-3-jours the longer programme.",
+   "CONTENT": "Rewritten: plan table, preparation checklist, morning east / midday south / sunset west sections, adapt-the-loop table (new), fuel/water, rental on the island, FAQ. Removed padding and mannered phrasing. Words 1808→1581.",
+   "META": "Title (52), description (154), H1 rewritten with the hub spelling ‘Phú Quốc’; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added: phu-quoc-moto, phu-quoc-moto-3-jours-itineraire, sud/. 6/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (east morning, south noon, west sunset, departure early, north needs another day). 2 tables, 1 checklist, FAQ 5 questions. 3 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://www.sggp.org.vn/phu-quoc-chinh-thuc-tro-thanh-dac-khu-mo-canh-cua-van-hoi-moi-post802064.html",
+    "checked": "2026-10-30",
+    "used_for": "island >589 km², special zone (as in hub sud/)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/vi/ban-do/phu-quoc",
+    "checked": "2026-10-30",
+    "used_for": "island described as ≈50 km north–south (seen in search result snippet)"
+   },
+   {
+    "url": "https://mia.vn/cam-nang-du-lich/huong-dan-di-du-lich-phu-quoc-bang-tau-22",
+    "checked": "2026-10-30",
+    "used_for": "ferries with vehicles vs passenger fast boats (as in hub sud/)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may be shipped to Phú Quốc (written agreement). Local distances from search snippets only."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/phu-quoc-moto-3-jours-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment répartir trois jours à moto à Phú Quốc (sud, est, nord).",
+  "words_before": 2134,
+  "words_after": 1680,
+  "new_meta": {
+   "title": "Phú Quốc à moto en 3 jours : sud, est et nord de l’île",
+   "description": "Phú Quốc à moto en trois jours : une zone par jour (sud, est, nord), pistes du nord après la pluie, saison, location sur l’île et vérifications utiles.",
+   "h1": "Phú Quốc à moto en trois jours : le sud, l’est et le nord de l’île"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced or invented details: ‘une soixantaine de kilomètres’ (replaced by ≈50 km from Vietnamtourism, seen in search result), telepherique/cable car, ‘marché nocturne… oursins, crabes’, fabriques de nuoc mam visits ‘vieux de plusieurs siècles’, ‘cascades’, ‘parc national… ne se fait qu’avec un guide’, ‘police vérifie volontiers les machines des visiteurs’, monsoon calendar (SW/NE monsoons), ‘essence se vend en bidonnette’, ‘de nombreuses adresses louent… depuis les hôtels’, ‘les petits garages réparent tout’. Kept hub-verified facts: >589 km² and special zone of An Giang since 1 July 2025 (Sài Gòn Giải Phóng), access by plane or boat from Rạch Giá/Hà Tiên and vehicle ferries vs passenger boats (Mia.vn), south/east roads easy and north tracks harder after rain, Southern rainy season after 5 May to ~November (Pháp Luật TP.HCM). Hàm Ninh 14–25 km from the centre: WebSearch snippet, marked ‘selon les sources’ (seen in search result). Hanoi-rental caveat; licence generic; no price.",
+   "INTENT": "Main question: how to plan three days on Phú Quốc by moto. OWNER ‘Phú Quốc à moto sur 3 jours’. Closest pages phu-quoc-moto (0.44, bike choice), phu-quoc-moto-1-jour-route (0.31, one-day loop): this page is the zone-by-day programme; linked to both.",
+   "CONTENT": "Rewritten: zones table, arrival/rental, one section per day, equipment + spare day (new), season, driving/papers, FAQ. Removed marketing-style description and long unsourced local colour. Words 2134→1680.",
+   "META": "Title (54), description (151), H1 rewritten; eyebrow plain; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept phu-quoc-moto-1-jour-route, phu-quoc-moto, mekong-delta-voyage-moto; added sud/. 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (one zone per day; roads easy in south/east; north harder after rain). 1 table, 1 checklist, FAQ 5 questions. 4 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://www.sggp.org.vn/phu-quoc-chinh-thuc-tro-thanh-dac-khu-mo-canh-cua-van-hoi-moi-post802064.html",
+    "checked": "2026-10-30",
+    "used_for": "island >589 km², special zone of An Giang 1/7/2025 (as in hub sud/)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/vi/ban-do/phu-quoc",
+    "checked": "2026-10-30",
+    "used_for": "island ≈50 km north–south (seen in search result snippet)"
+   },
+   {
+    "url": "https://mia.vn/cam-nang-du-lich/huong-dan-di-du-lich-phu-quoc-bang-tau-22",
+    "checked": "2026-10-30",
+    "used_for": "vehicle ferries vs passenger fast boats (as in hub sud/)"
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-30",
+    "used_for": "Southern rainy season start (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may be shipped to Phú Quốc. Producer visit conditions (pepper, fish sauce) not verified: left as ‘confirm on site’."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/phu-quoc-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto louer à Phú Quốc (scooter, semi-automatique, trail) et comment la contrôler.",
+  "words_before": 2047,
+  "words_after": 1685,
+  "new_meta": {
+   "title": "Quelle moto louer à Phú Quốc : scooter, semi-auto ou trail ?",
+   "description": "Scooter automatique, semi-automatique ou trail à Phú Quốc : quelle machine selon le programme, les pistes du nord, contrôles avant de payer, permis et prudence.",
+   "h1": "Phú Quốc à moto : quelle moto louer sur l’île ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced local-market claims (‘location omniprésente… applications locales’, ‘la livraison est très courante sur l’île’, ‘une minorité d’agences propose des trails… tarifs sur devis’, ‘la semi-automatique reste la monture la plus répandue de tout le Vietnam’, disc/drum brake description, ‘une part importante des accidents survient après le coucher du soleil’) and the statement that a caution ‘est souvent demandée’. Kept hub-verified facts: island >589 km² (Sài Gòn Giải Phóng), access by plane or boat from Rạch Giá/Hà Tiên, vehicle ferries vs passenger fast boats (Mia.vn), roads of south/east easy and north tracks harder after rain. Deposit sentence rewritten as a generic ‘si une caution est demandée, faites préciser par écrit’ (review flag accepted: qualified, no amount). Delivery FAQ states some lessors offer it, nothing confirmed for Nguyễn Hà. Fleet: trail availability explicitly not guaranteed. No price for trail or any model; models not named; licence generic.",
+   "INTENT": "Main question: which bike to rent on Phú Quốc. OWNER ‘Phú Quốc à moto’. Closest pages phu-quoc-moto-3-jours (0.44) and phu-quoc-moto-1-jour (0.33): this page is the machine choice and pre-rental checks; routes/programmes are delegated to those two.",
+   "CONTENT": "Rewritten: choice-by-programme table, island roads, scooter/semi-auto/trail sections, rent-on-island vs bring bike, pre-payment checklist, equipment & passenger (new), permits/safety, FAQ. Removed padding. Words 2047→1685.",
+   "META": "Title shortened to 60 chars (‘semi-auto’), description 160, H1 kept close to original; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept mekong-delta-voyage-moto (replacing ho-chi-minh-a-can-tho); added phu-quoc-moto-1-jour-route, phu-quoc-moto-3-jours-itineraire, sud/. 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers the H1 question directly (scooter suffices; semi-auto for sand/descents; trail only for northern tracks). 1 table, 3 lists, FAQ 5 questions. 2 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://www.sggp.org.vn/phu-quoc-chinh-thuc-tro-thanh-dac-khu-mo-canh-cua-van-hoi-moi-post802064.html",
+    "checked": "2026-10-30",
+    "used_for": "island >589 km² (as in hub sud/)"
+   },
+   {
+    "url": "https://mia.vn/cam-nang-du-lich/huong-dan-di-du-lich-phu-quoc-bang-tau-22",
+    "checked": "2026-10-30",
+    "used_for": "vehicle ferries vs passenger fast boats (as in hub sud/)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may be shipped to Phú Quốc; whether Thuê xe máy Nguyễn Hà offers delivery or trail bikes (none claimed)."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/phu-yen-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que voir et comment rouler à moto dans la province de Phú Yên (Gành Đá Đĩa, cap, plages).",
+  "words_before": 2049,
+  "words_after": 1668,
+  "new_meta": {
+   "title": "Phú Yên à moto : Gành Đá Đĩa, phare du cap et côte sauvage",
+   "description": "Phú Yên à moto entre Quy Nhơn et Nha Trang : basalte de Gành Đá Đĩa, cap et phare de Mũi Điện, plages, nationale 1, saison des crues et conseils de prudence.",
+   "h1": "Phú Yên à moto : basalte de Gành Đá Đĩa, cap oriental et plages"
+  },
+  "evidence": {
+   "FACTS": "Removed the page-meta/ideology sentence (‘la règle du site reste la même’), unsourced film reference, ‘université’, ‘sauveteurs des plages restent rares hors des stations’ (now ‘ne comptez pas sur des sauveteurs’), ‘site mémoire de la guerre’, ‘des années-lumière des stations du sud’, ‘les familles descendent des hauts plateaux’, etc. Sourced/hub-verified: Phú Yên between Quy Nhơn and Nha Trang, Gành Đá Đĩa basalt littoral (hub), Sept–Dec storm/flood season (Thanh Tra, hub). WebSearch (standard): Gành Đá Đĩa ≈35 km from Tuy Hòa centre per one guide (another source gives ≈20 km from QL1 – not used), Tuy Hòa–Quy Nhơn ≈90–100 km (two sources), access to Mũi Điện via Vũng Rô bay and Nha Trang route by Đèo Cả pass, and a snippet naming Đắk Lắk province for the area after the 2025 reform – stated as ‘d’après des guides récents… à vérifier’ (seen in search result; no URL cited since pages were not opened). Phare/cap described qualitatively without ‘easternmost point’ claim. Hanoi-rental caveat; no price; licence generic.",
+   "INTENT": "Main question: what to do and how to ride in Phú Yên. OWNER ‘Phú Yên à moto’. Closest page quy-nhon-voyage-moto (0.21) differs: neighbouring province; page links both neighbours and the coastal route guide.",
+   "CONTENT": "Rewritten: sites table with caveated distances, Gành Đá Đĩa safety, cap/phare checklist, beaches/villages, access via QL1, 1–2 day programme table (new), weather decision table, machine/rental, FAQ. Words 2049→1668.",
+   "META": "Title (58), description (157), H1 rewritten; eyebrow plain; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added centre/, quy-nhon-voyage-moto, nha-trang-itineraire-moto, central-vietnam-coastal-itineraire-moto (kept). 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (1–2 days from Tuy Hòa; sites; access; season). 3 tables, 1 checklist, FAQ 5 questions. 1 inline citation (Thanh Tra) + hedged search-derived distances."
+  },
+  "sources": [
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may reach Phú Yên. Distances (Gành Đá Đĩa ≈35 km, Tuy Hòa–Quy Nhơn 90–100 km) and the Đắk Lắk attachment come from search snippets and should be checked on an official map/source."
+  ]
  }
 ]

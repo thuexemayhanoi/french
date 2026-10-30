@@ -1,0 +1,204 @@
+[
+ {
+  "path": "honda/honda-lead-abs-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Un Honda Lead ABS convient-il à un road trip de plusieurs jours depuis Hanoi, et sur quels trajets ?",
+  "new_meta": {
+   "title": "Honda Lead ABS en longue distance : quels trajets depuis Hanoi ?",
+   "description": "Le Honda Lead ABS convient aux étapes courtes sur routes de plaine depuis Hanoi, pas aux grands cols. Confort, freinage, bagages, rythme et budget.",
+   "h1": "Honda Lead ABS en longue distance : quels trajets depuis Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed the abstract « mission / disponibilité boutique par boutique » framing and the line « le conducteur qui la considère comme une assurance tous risques a mal lu le contrat » (flagged insurance_assistance). No own owner price for the Lead: category repère « scooter automatique » only (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and an explicit « pas un devis pour le Lead ». Trunk 37 L stated only as Honda's 2013 launch claim (global.honda release, seen in search result) with « ouvrez le coffre pour vérifier ». ABS stated qualitatively (« sur de nombreux scooters de cette catégorie l'ABS ne concerne que la roue avant ; certaines versions n'en ont pas ») - consistent with press snippets seen in search (ABS on front wheel for the Lead ABS version), no spec figure given. No distances, speeds, fines or fleet/policy claims; roadside help, leaving Hanoi and papers are phrased as points to ask the shop. Licence: only a pointer to /permis-securite/.",
+   "INTENT": "Main question: can the Lead ABS do a multi-day trip from Hanoi and where does it stop being suitable. Owner of « honda Lead ABS et longue distance » (OWNER). Differs from honda-vario-125 / wave-rsx longue-distance (other models, different closest pages at similarity ≤0.36) because it is centred on the Lead's trunk, flat floor, front ABS and the scooter-vs-mountain limit; mountain loops are redirected to the comparison guide rather than duplicated.",
+   "CONTENT": "Full rewrite in plain concrete French. Sections: points forts (flat floor, trunk, calm ride), limites (wind, hills with passenger, variator descents, rough roads), ABS (what it does / does not do, voyant check), itinéraire table (Ninh Binh, Ha Long, Mai Chau/Pu Luong, Ha Giang/Cao Bang/Mu Cang Chai/Sapa) without distances, preparation checklist, budget table with category repère, FAQ 4 non-redundant Qs. Words 1697 -> 1693.",
+   "META": "Title/H1 changed from « …: le bilan pour rouler loin » to a question-led title (64 chars); description rewritten (147 chars), factual, no promised price or availability; og:title/og:description identical to title/description. Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (all required internal_link_targets), /honda/honda-lead-abs-location-hanoi/, /honda/honda-lead-abs-prix-location-hanoi/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /permis-securite/. Dropped the Ha Long article link to stay within the 7 cap.",
+   "AEO_GEO": "Direct answer in the lead (oui sur plaine / non pour les cols). 4 FAQ items on different practical points. 1 itinerary table, 1 price-repère table, 2 checklists. One external citation (Honda global newsroom, 2013 LEAD125 launch)."
+  },
+  "sources": [
+   {
+    "url": "https://global.honda/en/newsroom/news/2013/2130322eng.html",
+    "checked": "2026-10-30",
+    "used_for": "Honda release for the LEAD125 launch in Vietnam (seen in search result; 37 L trunk claim reported by the hub already and by search summaries; qualified as launch-era figure)"
+   }
+  ],
+  "owner_gaps": [
+   "Which Lead versions (with/without ABS, which model year) are in the rental fleet; ABS availability must not be promised until confirmed",
+   "Whether rentals may leave Hanoi and what breakdown support exists (not stated in the article)"
+  ],
+  "words_before": 1697,
+  "words_after": 1693
+ },
+ {
+  "path": "honda/honda-lead-abs-ou-yamaha-grande-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Lead ABS ou Yamaha Grande : lequel louer à Hanoi (usage urbain, rangement, passager, maniabilité, freinage, repère tarifaire) ?",
+  "new_meta": {
+   "title": "Honda Lead ABS ou Yamaha Grande : lequel louer à Hanoi ?",
+   "description": "Lead ABS ou Yamaha Grande pour louer à Hanoi : rangement, passager, maniabilité, freinage et repère tarifaire de catégorie, avec un test simple au comptoir.",
+   "h1": "Honda Lead ABS ou Yamaha Grande : lequel louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed mannered/abstract paragraphs (« deux philosophies », « la pluie écrit le dernier paragraphe », « disponibilités qui varient selon la saison », « l'assistance ne dispense ni… ») and the flagged insurance_assistance wording. Neither Lead nor Grande has an owner price row: only the automatic-scooter category repère (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and an explicit « pas un devis ». FAQ states presence of both models in the fleet is not confirmed. Lead trunk: 37 L only as Honda's launch claim (global.honda 2013 release, seen in search result) with « ouvrez le coffre ». Grande: purely qualitative (néo-rétro, compact, coffre généralement plus modeste, to test) - no spec figures. ABS: qualitative (version-dependent, often front wheel only on this category), voyant check. Shop policies (échange de scooter) phrased as a point to confirm.",
+   "INTENT": "Main question: which of Lead ABS or Grande to rent for Hanoi. Role OWNER of group CMP-LEAD-GRANDE (general comparison: urban use, comfort, storage, handling, indicative prices to confirm). Closest pages: yamaha/yamaha-grande-ou-honda-lead-abs-location (0.78, Yamaha-side style-vs-utility duel with test-ride method) and types-motos/honda-lead-ou-yamaha-grande-location (0.6, big-trunk duel). This page is the decision table + counter checklist; the Yamaha-side duel is linked once with a natural anchor instead of duplicating its argument.",
+   "CONTENT": "Full rewrite. New sections: criteria table (style, gabarit, rangement, duo, freinage, longue route, tarif), traffic and parking (push test), storage and passenger, ABS meaning for a rental, week/month stay criteria (Long Biên bridge commute), price repère table, counter decision checklist, FAQ 4 non-redundant Qs. Words 1611 -> 1566.",
+   "META": "Title/H1 changed from « …: quel scooter pour votre location ? » to « …: lequel louer à Hanoi ? » (56 chars); description rewritten (156 chars), no price or availability promise; og tags identical.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /types-motos/meilleur-scooter-hanoi-circulation/, /honda/honda-lead-abs-longue-distance-vietnam/, /yamaha/yamaha-grande-ou-honda-lead-abs-location/, /yamaha/yamaha-grande-location-hanoi/. Removed /honda/honda-lead-abs-location-hanoi/ and the generic automatic-scooter price link to respect the cap.",
+   "AEO_GEO": "Direct answer in the lead (Lead if rangement/duo, Grande if solo/compact/style). 1 comparison table, 1 price-repère table, 1 checklist. FAQ 4 Qs (débutant, présence en parc, prix, Lead sans ABS). One external citation (Honda 2013 release)."
+  },
+  "sources": [
+   {
+    "url": "https://global.honda/en/newsroom/news/2013/2130322eng.html",
+    "checked": "2026-10-30",
+    "used_for": "Honda LEAD125 Vietnam launch release (seen in search result); trunk figure given as launch-era claim only"
+   }
+  ],
+  "owner_gaps": [
+   "Is the Yamaha Grande / Honda Lead ABS in the rental fleet and which versions (ABS or not)?",
+   "Own daily/weekly/monthly rates for Lead and Grande if they differ from the automatic-scooter category range"
+  ],
+  "words_before": 1611,
+  "words_after": 1566
+ },
+ {
+  "path": "honda/honda-lead-abs-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Combien et sur quelle durée louer un Honda Lead ABS à Hanoi (jour, semaine, mois) ; que demander pour comparer deux offres.",
+  "new_meta": {
+   "title": "Location du Honda Lead ABS à Hanoi : jour, semaine ou mois ?",
+   "description": "Honda Lead ABS à louer à Hanoi : quelle durée choisir, quel repère tarifaire de catégorie et quelles questions poser au loueur avant de comparer deux offres.",
+   "h1": "Location du Honda Lead ABS à Hanoi : jour, semaine ou mois ?"
+  },
+  "evidence": {
+   "FACTS": "Lead has no owner row: category repère « scooter automatique » only (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer next to each table and an explicit « pas le prix du Lead ». Vision (200 000/1 000 000/2 000 000) and Air Blade (200 000/900 000/1 500 000) rows quoted verbatim from SEO-FACTS with the disclaimer and the Air Blade displacement caveat. No multiplication of a day rate: the page says explicitly not to compute week/month prices; the only derived remark is a comparison (category week range does not exceed seven days at the lowest day rate). Removed unconfirmed claims: « conditions de kilométrage », « assistance en cas de panne », « modalités du dépôt », « remplacement garanti », « dépôt allégé », season-driven tariff tension, fleet language. Caution/ID phrased as generic market practice (« certains loueurs… demandez la règle applicable »); breakdown, leaving Hanoi, inclusions listed as questions to ask. Contact facts (0334 699 969 Zalo/WhatsApp, 09:00–21:00, Ngõ 5 Nguyễn Văn Cừ near Bến xe Gia Lâm) from SEO-FACTS. Lead availability explicitly not assumed.",
+   "INTENT": "Main question: what does renting a Lead ABS cost over day/week/month and how to choose the duration. OWNER of « location du Honda Lead ABS ». Closest pages: honda-sh125i-prix-location-hanoi (0.62), honda-icon-e-prix-location-hanoi (0.62) - same template; this one is anchored on the Lead (ABS version question, no own price row, Vision/Air Blade as budget comparison, three concrete stay scenarios).",
+   "CONTENT": "Full rewrite replacing the abstract « trois grilles / calendrier » prose. New: category repère table, duration table, what to ask to compare two offers (checklist), Vision/Air Blade reference table, three concrete situations, how to get a quote, FAQ 4 Qs. Words 1627 -> 1554.",
+   "META": "Title changed to « Location du Honda Lead ABS à Hanoi : jour, semaine ou mois ? » (60 chars, no price promise); description rewritten (157 chars); H1 aligned; og tags identical.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-lead-abs-location-hanoi/, /honda/honda-lead-abs-longue-distance-vietnam/, /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/, /prix-location/mensuelle-location-moto-economies-hanoi/. Dropped the Air Blade price article link to meet the cap.",
+   "AEO_GEO": "Direct answer in the lead with the category repère and the choice rule. 3 tables (repère, durée, Vision/Air Blade), 2 lists, FAQ 4 Qs without repeating the body. No external citation needed."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Own Lead ABS day/week/month rates (none in the owner table)",
+   "Whether the Lead ABS is in the fleet and which version",
+   "What the price includes (casque, antivol, top case), kilometre limits, caution/ID policy, breakdown handling, permission to leave Hanoi"
+  ],
+  "words_before": 1627,
+  "words_after": 1535
+ },
+ {
+  "path": "honda/honda-sh-mode-125-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le SH Mode 125 est-il un bon scooter pour rouler dans le trafic de Hanoi, avec quels atouts et limites ?",
+  "evidence": {
+   "FACTS": "Removed the abstract prose (« un texte permanent », « le prix d'une silhouette qui plaît ») and the sentences on « conditions de location, tarif, dépôt, exigences contractuelles » (flagged deposit/delivery) and « antivol fourni ou non, consignes de restitution ». No price quoted: the SH Mode 125 has no owner row, the page says so and sends to the price article. Qualitative statements only (bigger wheels absorb potholes, plus large/lourd que le Vision, plus compact que le SH125i) consistent with the rewritten /honda/scooters/ hub; no spec figures, no distances. Antivol, papers to keep with the bike, availability in the fleet phrased as questions to ask; fleet presence explicitly not confirmed in the FAQ. Road rules/casque/permis: only a pointer to official sources, no rule stated.",
+   "INTENT": "Main question: how does the SH Mode 125 behave in Hanoi traffic and for which urban driver. OWNER of « honda SH Mode 125 dans le trafic de Hanoi ». Closest pages: honda-vario-125-hanoi-ville (0.70), honda-future-125-fi-hanoi-ville (0.58), honda-sh125i-hanoi-ville (0.50). This page is specific to the SH Mode: big-wheel comfort vs weight/width, parking in gửi xe, situation table, SH Mode vs Vision/Air Blade for city use.",
+   "CONTENT": "Full rewrite. Sections: traffic criteria, atouts, limites, urban situations table, five driving habits, SH Mode vs Vision/Air Blade, pre-departure checklist, budget pointer, FAQ 4 Qs. Duplicate-paragraph flag removed. Words 1932 -> 1644.",
+   "META": "Title and H1 kept (« Honda SH Mode 125 dans le trafic de Hanoi : atouts et limites », natural and aligned with the query, 61 chars). Description rewritten because the old one was 168 chars (limit 160): now 160 chars and factual; og tags identical to title/description. Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /types-motos/meilleur-scooter-hanoi-circulation/, /honda/honda-sh-mode-125-location-hanoi/, /honda/honda-sh-mode-125-prix-location-hanoi/, /honda/honda-sh-mode-125-longue-distance-vietnam/. SH125i article mentioned in text without link to respect the cap.",
+   "AEO_GEO": "Direct answer in the lead (à l'aise en ville, gabarit et poids à accepter, Vision pour un premier scooter). 1 table, 2 checklists, 1 numbered list, FAQ 4 Qs on distinct points (taille, premier séjour, sortie à la journée, présence en parc)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Is the SH Mode 125 in the rental fleet, which year/version, and what is its own rate",
+   "Whether an antivol/lock is supplied with rentals"
+  ],
+  "words_before": 1932,
+  "words_after": 1644,
+  "new_meta": {
+   "description": "Le Honda SH Mode 125 en ville à Hanoi : confort, maniabilité dans les files, stationnement, pluie et points à contrôler avant de le louer pour un séjour urbain."
+  }
+ },
+ {
+  "path": "honda/honda-sh-mode-125-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le SH Mode 125 convient-il à ma location à Hanoi : pour quel conducteur, quelles alternatives, que demander ?",
+  "evidence": {
+   "FACTS": "Removed the mannered passages (« strate de gamme se paie en perceptions », « contrat implicite des machines affirmées », « conclusion de cette section tient en une règle ») and the unconfirmed claims on tarif/contrat/exigences. No price quoted: SH Mode 125 has no owner row, said explicitly; only Vision/Air Blade named as the models with own rows (no figures). Qualitative statements consistent with /honda/scooters/ hub (bigger wheels, plus compact que le SH125i, plus imposant qu'un Vision, coffre à vérifier); no spec figures. Caution/ID phrased as generic practice (« certains loueurs… demandez la règle applicable »); antivol, papiers, panne, restitution rules listed as questions to confirm. Fleet presence not confirmed (lead + FAQ). Contact channel (Zalo/WhatsApp 0334 699 969) from SEO-FACTS.",
+   "INTENT": "Main question: for which driver is the SH Mode 125 a good rental in Hanoi and what to choose otherwise. OWNER of « honda SH Mode 125 en location à Hanoi ». Closest: sh-mode-125-ou-yamaha-grande-location (0.56, comparison), sh-mode-125-prix-location-hanoi (0.50, pricing), future-125-fi-location-hanoi (0.50). This page = profile + alternatives table + counter test + three-week stay; traffic behaviour and pricing are delegated to their own articles by link.",
+   "CONTENT": "Full rewrite. Sections: en bref (qualitative table), profils servis, alternatives table (Vision, Air Blade, SH125i, Lead, semi-auto/trail), pointer to city article, price pointer, three-week stay scenario with SH Mode vs SH125i, questions to ask, 10-minute test, take-back/restitution documentation, FAQ 4 Qs. Words 1615 -> see words_after.",
+   "META": "Title and H1 kept (« Honda SH Mode 125 en location à Hanoi : pour quel conducteur ? », natural, 62 chars). Description rewritten (157 chars) because old one was 166 (>160); og tags identical. Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-vision-location-hanoi/, /honda/honda-sh-mode-125-hanoi-ville/, /honda/honda-sh-mode-125-prix-location-hanoi/, /honda/honda-sh-mode-125-longue-distance-vietnam/.",
+   "AEO_GEO": "Direct answer in the lead (who it suits / does not suit / no own price). 2 tables, 2 checklists, 1 numbered test, FAQ 4 Qs (débutant, sortie de Hanoi, présence en parc, court séjour)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "SH Mode 125 presence in fleet, version/year and own rate",
+   "Rental conditions: caution/ID, what is included (casque, antivol), breakdown handling, return condition rules"
+  ],
+  "words_before": 1615,
+  "words_after": 1569
+ },
+ {
+  "path": "honda/honda-sh-mode-125-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Jusqu'où partir de Hanoi avec un SH Mode 125 de location : sorties à la journée, confort, limites en montagne, alternatives.",
+  "new_meta": {
+   "description": "Jusqu’où partir de Hanoi avec un Honda SH Mode 125 en location ? Sorties à la journée, confort, limites en montagne et alternatives pour un vrai road trip."
+  },
+  "evidence": {
+   "FACTS": "Removed the abstract « rayon / strate de gamme / citadine face à l'appel de la route » prose and the flagged claims on « dépôt de garantie éventuel, équipement éventuel » and fleet wording (fleet_promise). No price quoted (SH Mode has no owner row; said explicitly). No distances, travel times, speeds or fines: itinerary table is qualitative (Bat Trang, Duong Lam/Ba Vi, Ninh Binh/Tam Coc, Ha Long, Mai Chau/Pu Luong, Ha Giang/Cao Bang/Mu Cang Chai/Sapa). Season statement kept general (« en général »). Leaving Hanoi, breakdown help, papers to keep, fixations are questions to confirm with the shop; breakdown help explicitly « pas confirmée ici ». Licence: pointer to official sources, no rule stated. Contact channel from SEO-FACTS.",
+   "INTENT": "Main question: how far from Hanoi can a SH Mode 125 go. OWNER of « honda SH Mode 125 et longue distance ». Closest: honda-vario-125-longue-distance (0.73), wave-rsx (0.43), future-125-fi (0.38). Distinct angle: SH Mode comfort (big wheels, seat) vs wind/no engine braking, day-trip and two-day Ninh Binh scenario, season; the Lead sibling is only mentioned in plain text, not linked.",
+   "CONTENT": "Full rewrite. Sections: rayon table by destination, confort/endurance, limites, preparation numbered list, two-day Ninh Binh weekend, season, alternatives (semi-automatiques, montagne guide, Vision), budget pointer, FAQ 4 Qs. Duplicated-paragraph flag removed. Words 1791 -> see words_after.",
+   "META": "Title and H1 kept (65 chars, natural). Description rewritten (155 chars; old one 165 > 160); og tags identical. Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-sh-mode-125-location-hanoi/, /honda/honda-sh-mode-125-prix-location-hanoi/, /honda/semi-automatiques/, /types-motos/meilleur-moto-montagne-routes-vietnam/. Removed the journaliere-hebdomadaire and Lead longue-distance links to respect the cap.",
+   "AEO_GEO": "Direct answer in the lead (sorties à la journée / 1–2 nuits oui, grandes boucles du Nord non). 1 destination table, 1 checklist, 1 numbered list, FAQ 4 Qs (quitter Hanoi, distance par jour, passager, panne)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether rentals may leave Hanoi and what breakdown support exists",
+   "SH Mode 125 availability/version and own rate"
+  ],
+  "words_before": 1791,
+  "words_after": 1588
+ },
+ {
+  "path": "honda/honda-sh-mode-125-ou-yamaha-grande-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda SH Mode 125 ou Yamaha Grande : lequel louer à Hanoi (gabarit, confort, rangement, passager, sorties, repère tarifaire) ?",
+  "new_meta": {
+   "description": "SH Mode 125 ou Yamaha Grande à louer à Hanoi : gabarit, confort, rangement, passager et sorties hors ville, avec un repère tarifaire de catégorie à confirmer."
+  },
+  "evidence": {
+   "FACTS": "Removed the abstract duel prose (« deux écoles rivales », « le contrat tranche ce que le style laisse ouvert ») and the flagged claims on « dépôt, conditions d'assurance et de restitution » and « contrat qui prévoit l'assistance en cas de panne » (insurance_assistance, deposit). Neither model has an owner row: category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and « pas un devis », plus a caution that a premium scooter may be quoted outside the range (as in the Honda hub). Qualitative only: SH wide wheels/weight/seat (consistent with /honda/scooters/ hub); Grande lighter, néo-rétro, coffre généralement plus modeste, roues généralement plus petites flagged « à essayer / à tester ». No spec figures. Fleet presence of both models explicitly not confirmed; test-ride possibility not confirmed.",
+   "INTENT": "Main question: SH Mode 125 or Yamaha Grande for a Hanoi rental. OWNER of « honda SH Mode 125 ou Yamaha Grande ». Closest: honda-sh-mode-125-location-hanoi (0.56, profile page), yamaha-lexi-ou-honda-vario-125 and yamaha-freego-ou-honda-vario-125 (0.50, other Yamaha duels). This page is the criteria table + push test + state checklist; the Lead-vs-Grande duel (group owner CMP-LEAD-GRANDE) is linked once for the storage angle and the Grande profile page once.",
+   "CONTENT": "Full rewrite. Sections: comparison table, gabarit/maniabilité, confort (chaussée, duo, pluie), rangement, sorties hors de Hanoi, budget repère table, état de la machine checklist, comment trancher by profile, FAQ 5 Qs. Words 1656 -> see words_after.",
+   "META": "Title and H1 kept (59 chars). Description rewritten (158 chars; old one 161 > 160); og tags identical. Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-sh-mode-125-location-hanoi/, /honda/honda-sh-mode-125-longue-distance-vietnam/, /honda/honda-lead-abs-ou-yamaha-grande-location/, /yamaha/yamaha-grande-location-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (SH Mode for volume/duo/chaussées, Grande for solo/léger/stationnement serré). 2 tables, 2 checklists, FAQ 5 Qs (débutant, présence en parc, prix, surcoût SH, essai)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Presence of SH Mode 125 and Yamaha Grande in the fleet, versions and own rates",
+   "Whether test rides of several machines are allowed"
+  ],
+  "words_before": 1656,
+  "words_after": 1554
+ },
+ {
+  "path": "honda/honda-sh-mode-125-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel tarif prévoir et comment comparer deux devis pour louer un Honda SH Mode 125 à Hanoi (jour, semaine, mois).",
+  "new_meta": {
+   "title": "Prix de location du Honda SH Mode 125 : comment le comparer ?",
+   "description": "Honda SH Mode 125 à louer à Hanoi : pas de tarif propre dans les prix de référence, repère de catégorie, durée à choisir et questions à poser avant de comparer.",
+   "h1": "Prix de location du Honda SH Mode 125 : comment le comparer ?"
+  },
+  "evidence": {
+   "FACTS": "Removed the flagged unconfirmed statements: « le tarif journalier inclut-il l'assurance », « dépôt de garantie selon la formule », « frais de livraison », « dépôt plus conséquent… livraison, remplacement en cas de panne » and fleet wording. No own owner price for the SH Mode: table shows verbatim owner rows Vision (200 000/1 000 000/2 000 000) and Air Blade (200 000/900 000/1 500 000) plus the automatic-scooter category repère (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND), with the mandatory disclaimer, the Air Blade displacement caveat and an explicit « le tableau ne donne pas le prix du SH Mode 125 ». The only derived remark is a comparison (category week range does not exceed seven days at the lowest day rate); the page tells the reader not to multiply a day rate. A premium SH may exceed the category range (stated as possibility, in line with the Honda hub). Caution/ID as generic practice (« certains loueurs… demandez la règle applicable »); inclusions, incident handling, return rules, formula changes listed as questions. Fleet presence not confirmed. Contact data from SEO-FACTS.",
+   "INTENT": "Main question: what tariff to expect for a SH Mode 125 rental and how to compare offers. OWNER of « prix de location du Honda SH Mode 125 ». Closest: honda-vario-125-prix-location-hanoi (0.70), wave-rsx (0.55), vision (0.55) - same template family. Distinct: SH Mode specific « coûte-t-il plus cher qu'un Vision », Vision/Air Blade owner rows as comparison, when the SH premium is worth it, other expense items, three scenarios.",
+   "CONTENT": "Full rewrite replacing the abstract « grille / grammaire / strate » prose. Sections: tariff repères table, SH vs Vision, duration table, comparing quotes checklist, when worth it, other expenses, three scenarios, quote contact, FAQ 4 Qs. Duplicated-paragraph flag removed. Words 1631 -> see words_after.",
+   "META": "Title/H1 changed to « Prix de location du Honda SH Mode 125 : comment le comparer ? » (61 chars; does not promise an amount); description rewritten (160 chars); og tags identical. Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-sh-mode-125-location-hanoi/, /honda/honda-vision-prix-location-hanoi/, /prix-location/semaine/, /prix-location/mois/.",
+   "AEO_GEO": "Direct answer in the lead (no own price, category repère, ask a nominal quote). 2 tables (repères, durée), 1 checklist, 2 lists, FAQ 4 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Own SH Mode 125 rates (none in the owner table) and whether a premium over the scooter category applies",
+   "Inclusions, caution/ID rule, incident handling, formula changes, fleet presence"
+  ],
+  "words_before": 1631,
+  "words_after": 1567
+ }
+]

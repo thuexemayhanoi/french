@@ -11,7 +11,7 @@
   "evidence": {
    "FACTS": "Supprimé/qualifié : « dépôt écrit », « assistance comprise », « contrat signé » (état de politique non confirmé) remplacés par une liste de questions à poser au loueur (sortie de Hanoi, total, panne, documents, garantie, carburant), une seule fois. Prix : uniquement les lignes semi-automatique et scooter automatique du tableau propriétaire (jour/semaine) avec le disclaimer exact et rappel de ne pas multiplier ; aucun tarif pour trail/50cc/électrique. Distance : « environ trois cents kilomètres » (non sourcé) remplacé par « 360 à 390 km environ selon l'itinéraire, dont 35 à 40 km Lào Cai–Sapa » (résumé de plusieurs guides de voyage vus dans un résultat WebSearch du 2026-10-30, sans URL unique attribuable : non cité en ligne, présenté comme variable à vérifier sur carte). Interdiction des motos sur autoroute (CT05) : art. 25 de la loi 36/2024/QH15 (en vigueur 01/01/2025), citée via la page hethongphapluat.com vue dans les résultats de recherche. Permis/casque/nuit : France-Diplomatie sécurité (page vue dans un résultat de recherche : permis international avec permis français adapté à la cylindrée, casque obligatoire, qualité inégale des casques vendus sur place, éviter de rouler de nuit) ; « vérifiez votre situation » ajouté. Frein moteur faible des scooters CVT / efficace en rétrogradant sur semi-automatique : connaissance générale mécanique, formulée « en général ». Aucune durée de trajet chiffrée.",
    "INTENT": "Question : que louer à Hanoi pour aller à Sapa, et la moto de Hanoi doit-elle faire le voyage ? Propriétaire de « partir à Sapa depuis Hanoi » côté location ; se distingue de /nord-vietnam/sapa/ (itinéraire, météo, étapes) et de /nord-vietnam/meilleure-moto-pour-sapa/ (comparatif scooter/semi-auto/trail) par l'angle location à Hanoi : décision louer à Hanoi vs sur place, conditions à confirmer avec le loueur, budget indicatif, contrôle de départ ; les deux pages voisines sont liées une fois.",
-   "CONTENT": "Réécriture complète. Supprimé : prose abstraite (« la vraie question derrière… », « fausse évidence », « cette page défend une idée simple »), répétitions de la checklist. Ajouté : tableau programme→machine, section route/alternatives (train/bus + location sur place), questions à poser au loueur, descente scooter vs semi-auto (technique de freinage), section 50cc/électrique/trail, tableau de prix indicatifs, checklist de contrôle. FAQ 4 questions non redondantes. Mots 1781→2201.",
+   "CONTENT": "Réécriture complète. Supprimé : prose abstraite (« la vraie question derrière… », « fausse évidence », « cette page défend une idée simple »), répétitions de la checklist. Ajouté : tableau programme→machine, section route/alternatives (train/bus + location sur place), questions à poser au loueur, descente scooter vs semi-auto (technique de freinage), section 50cc/électrique/trail, tableau de prix indicatifs, checklist de contrôle. FAQ 4 questions non redondantes. Mots 1781→2200.",
    "META": "Title « Louer une moto à Hanoi pour Sapa : scooter ou semi-automatique ? » (64 car.), description 152 car., H1 aligné ; og:title/og:description identiques. Eyebrow « Départ de Hanoi pour Sapa ». À synchroniser dans data/seo-cluster-matrix.json si exigé.",
    "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /nord-vietnam/sapa/, /nord-vietnam/meilleure-moto-pour-sapa/, /permis-securite/autoroute-moto-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/. Tous existent (check sans erreur).",
    "AEO_GEO": "Réponse directe dans le lead (3 phrases) ; 2 tableaux (choix selon programme, tarifs indicatifs), 2 listes (questions au loueur, contrôle avant départ), FAQ 4 questions. 2 citations externes (hethongphapluat.com art. 25 ; France-Diplomatie sécurité)."
@@ -80,7 +80,7 @@
   "evidence": {
    "FACTS": "Article entièrement mannéré (« l'ouvert large », « au jour qui se lit ») : toutes les phrases abstraites supprimées. Faits business : adresse, horaires 09:00-21:00, contacts Zalo/WhatsApp/tél conformes à SEO-FACTS ; remise à l'hôtel présentée comme non annoncée à demander/confirmer par écrit ; aucune caution/passeport/assurance/assistance affirmée. Prix : fourchette jour 150 000-200 000 VND semi-auto/auto, lignes 50cc/Vision/Air Blade citées sans montant, disclaimer exact. Réorganisation administrative du 1er juillet 2025 : reprise du guide quartiers (source portail de la ville de Hanoi citée là-bas). Pont Long Biên/Chương Dương : renvoi au guide quartiers (sources déjà citées par le hub), formulation « vérifiez avant de partir ». Avenues Điện Biên Phủ, Hùng Vương, Phan Đình Phùng : toponymes courants de Ba Đình (connaissance générale, pas de chiffre). Restrictions d'arrêt aux abords des sites officiels : formulées « peuvent être restreints », cohérent avec le hub quartiers. Casque obligatoire (rappel général). Aucune durée de trajet ni distance chiffrée.",
    "INTENT": "Question : peut-on louer une moto à Ba Đình et comment faire concrètement en logeant là ? Propriétaire de « location de moto à Ba Dinh » ; se distingue de /location-moto-hanoi/location-moto-hai-ba-trung/ (autre quartier, scooter ou semi-auto) et de /hanoi/ba-dinh-hanoi-itineraire/ (visite de Ba Đình à pied, lié une fois) par l'angle : aller chercher la moto à Long Biên depuis ce quartier, rouler/stationner autour des sites officiels, sorties à moto.",
-   "CONTENT": "Réécriture complète. Sections : aller chercher la moto depuis Ba Đình ; rouler à Ba Đình ; où garer (liste) ; organiser le premier jour (liste) ; sorties faciles (tableau) ; quelle moto + prix ; avant de quitter la boutique (checklist) ; FAQ 5 ; pour aller plus loin. Mots 1987→1633.",
+   "CONTENT": "Réécriture complète. Sections : aller chercher la moto depuis Ba Đình ; rouler à Ba Đình ; où garer (liste) ; organiser le premier jour (liste) ; sorties faciles (tableau) ; quelle moto + prix ; avant de quitter la boutique (checklist) ; FAQ 5 ; pour aller plus loin. Mots 1987→1630.",
    "META": "Title 60 car. et H1 recentrés sur « location de moto à Ba Đình : retrait à Long Biên » (sans promesse), description 153 car., og alignés. Eyebrow « Quartier de Ba Đình ».",
    "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-retrait-hanoi/, /hanoi/ba-dinh-hanoi-itineraire/, /hanoi/west-lac-hanoi-moto/. Supprimés par rapport à l'original : /hanoi/hanoi-a-ba-vi-moto/ et /hanoi/easy-moto-routes-hanoi-debutant/ (plafond 7 ; Ba Vì reste cité en texte).",
    "AEO_GEO": "Réponse directe dans le lead (3 phrases) ; 1 tableau (sorties), 3 listes (stationnement, premier jour, contrôle), FAQ 5 questions ; aucune citation externe nécessaire."
@@ -106,7 +106,7 @@
   "evidence": {
    "FACTS": "Supprimé comme politique non confirmée : « l'assistance et l'entretien courant font souvent partie de l'équation », « un loueur qui répond le soir, garde une machine de remplacement », « certaines agences livrent / proposent des électriques », « caution négociable en espèces, dépôt, retenue », « agences de proximité tenues par des équipes… », « les meilleures machines partent en premier ». Remplacé par un tableau de questions à poser (entretien, panne, remplacement, prolongation, retour anticipé, sortie de Hanoi, garantie/documents) avec mention que les règles de Thuê xe máy Nguyễn Hà ne sont pas publiées. Prix : tableau mensuel complet du propriétaire (semi-auto 1 000 000-1 200 000 ; auto 1 200 000-2 000 000 ; électrique 1 500 000-1 800 000 ; 50cc 2 000 000 ; Vision 2 000 000 ; Air Blade 1 500 000) avec le disclaimer exact, rappel de ne pas multiplier un jour, aucune remise promise. Adresse/horaires/contacts conformes. Trajet vers Long Biên et ponts : renvoi au guide quartiers (sources du hub), aucune durée. Boulevards Phạm Hùng, Hồ Tùng Mậu, Duy Tân, rue Xuân Thủy (universités) et Musée d'ethnographie : toponymes connus du quartier (connaissance générale, pas de chiffre).",
    "INTENT": "Question : comment louer une moto quand on est à Cầu Giấy et pour un long séjour ? Propriétaire de « location de moto à Cầu Giấy » ; se distingue de /location-moto-hanoi/location-moto-long-bien/ (louer sur la rive du retrait) et de /location-moto-hanoi/longue-duree/ (guide général du long séjour, lié) par l'angle quartier : trajet ouest→est, parking en immeuble, circulation sur les grands axes de Cầu Giấy.",
-   "CONTENT": "Réécriture complète (prose mannérée « la durée transforme le comptoir en relation… » supprimée). Sections : le quartier, rejoindre Long Biên, tarifs mensuels (tableau), machine du quotidien, tableau de points à régler par écrit, stationnement (liste), état des lieux, FAQ 5. Mots 1935→1617.",
+   "CONTENT": "Réécriture complète (prose mannérée « la durée transforme le comptoir en relation… » supprimée). Sections : le quartier, rejoindre Long Biên, tarifs mensuels (tableau), machine du quotidien, tableau de points à régler par écrit, stationnement (liste), état des lieux, FAQ 5. Mots 1935→1609.",
    "META": "Title 62 car., description 159 car., H1 alignés sur « séjour long, retrait à Long Biên » (sans promesse de boutique à Cầu Giấy) ; og alignés. Eyebrow « Quartier de Cầu Giấy ».",
    "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /location-moto-hanoi/quartiers/, /location-moto-hanoi/longue-duree/, /location-moto-hanoi/1-mois-location-moto-hanoi/, /location-moto-hanoi/etat-des-lieux-moto-location-hanoi/. Retiré : /location-moto-hanoi/location-moto-hanoi-expat/ (plafond 7).",
    "AEO_GEO": "Réponse directe dans le lead (3 phrases) ; 2 tableaux (tarifs mensuels, points à régler), 1 liste de stationnement, FAQ 5 questions courtes ; aucune citation externe."
@@ -405,7 +405,7 @@
   "evidence": {
    "FACTS": "Article entièrement mannéré (« la mousson qui déluge », « la cape qui se garde ») : réécrit. Supprimé : « certaines enseignes fournissent l'équipement, d'autres le louent », « le dépôt qui se rend se rend au contrat qui s'écrit », prose sur la « flotte qui subit la mousson ». Aucune politique affirmée : imperméable, panne, retard dû à la météo, documents, garantie « non publiés, à demander ». Météo : normales 1991-2020 (juillet ≈ 255 mm sur ≈ 16 jours, période la plus arrosée juin-septembre) citées via climatestotravel.com, typhons du golfe du Tonkin août-septembre via partir.com, tous deux vus dans un résultat WebSearch du 2026-10-30, formulés « certaines sources » ; bruine hivernale : synthèse de plusieurs guides, non citée en ligne. Conseils de contrôle/conduite : généraux, aucun chiffre sauf la formulation qualitative. Casque obligatoire. Prix : fourchette jour 150 000-200 000 VND semi-auto/auto + lignes 50cc/Vision/Air Blade avec le disclaimer exact. Adresse, horaires, contacts conformes.",
    "INTENT": "Question : peut-on louer une moto à Hanoi sous la pluie et que contrôler/adapter ? Propriétaire de « location de moto à Hanoi sous la pluie » ; se distingue de /permis-securite/moto-pluie-securite-vietnam/ (technique de conduite, liée), de /location-moto-hanoi/location-moto-hanoi-ete/ (chaleur, liée) et de /location-moto-hanoi/2-semaines-location-moto-hanoi/ par l'angle location : contrôle au retrait (tableau), équipement, machine, questions au loueur.",
-   "CONTENT": "Réécriture complète. Sections : quand il pleut (sources) ; contrôle pneus/freins/feux (tableau) ; machine ; équipement (liste) ; conduite (liste) ; averses et inondations ; planifier une journée ; après la pluie (liste) ; à demander et prix ; FAQ 5. Mots 1683→1535 (voir words_after).",
+   "CONTENT": "Réécriture complète. Sections : quand il pleut (sources) ; contrôle pneus/freins/feux (tableau) ; machine ; équipement (liste) ; conduite (liste) ; averses et inondations ; planifier une journée ; après la pluie (liste) ; à demander et prix ; FAQ 5. Mots 1683→1569.",
    "META": "Title 64 car., description 160 car., H1 alignés ; promesse tenue ; og alignés. Eyebrow « Location sous la pluie ».",
    "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /permis-securite/moto-pluie-securite-vietnam/, /permis-securite/moto-frein-controle-location/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/location-moto-hanoi-ete/. Retiré : /types-motos/meilleur-scooter-hanoi-circulation/.",
    "AEO_GEO": "Réponse directe dans le lead (3 phrases) ; 1 tableau (contrôle), 3 listes (équipement, conduite, après la pluie), FAQ 5 questions ; 2 citations externes (Climates to Travel, Partir.com)."
@@ -429,5 +429,153 @@
   ],
   "words_before": 1683,
   "words_after": 1569
+ },
+ {
+  "path": "location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer une moto à Hanoi pour deux personnes : règle du passager, quelle machine, deux casques, essai à deux, une ou deux motos, budget indicatif.",
+  "new_meta": {
+   "title": "Louer une moto à Hanoi pour deux personnes : machine et casques",
+   "description": "Rouler à deux sur une moto louée à Hanoi : règle du passager, scooter ou semi-automatique, casques, essai à deux, une ou deux motos et tarifs indicatifs.",
+   "h1": "Louer une moto à Hanoi pour deux personnes : machine et casques"
+  },
+  "evidence": {
+   "FACTS": "Article entièrement mannéré (« le duo qui roule », « la machine qui porte deux ») : réécrit. Supprimé : « la plupart des loueurs gardent un casque supplémentaire » (politique non confirmée), « la formule partagée coûte souvent moins cher » comparaison non étayée, « les lignes sur la casse, le vol, le dépôt », « top case qui se négocie ». Règle des passagers : art. 33 al. 1 de la loi 36/2024/QH15 (en vigueur 01/01/2025), un passager derrière le conducteur, un second passager seulement pour quatre cas listés (urgence médicale, escorte, enfant de moins de 12 ans, personne âgée ou en situation de handicap), citée via xaydungchinhsach.chinhphu.vn (portail gouvernemental, vu dans un résultat de recherche du 2026-10-30) ; l'amende citée par un seul média n'est pas reprise ; règles pour enfants renvoyées à une vérification officielle et au guide du site. Autoroutes : art. 25 de la même loi via hethongphapluat.com (vu dans un résultat de recherche). Casque obligatoire, qualité inégale des casques locaux, éviter de rouler de nuit : France-Diplomatie sécurité (vu dans un résultat de recherche). Casques remis, panne, sortie de Hanoi, garantie : « non publiés, à demander ». Prix : tableau jour/semaine du propriétaire (semi-auto, auto, Vision, Air Blade) avec le disclaimer exact ; « deux motos = deux loyers », aucun forfait duo, aucune multiplication. Adresse/horaires conformes.",
+   "INTENT": "Question : comment louer une moto à Hanoi quand on voyage à deux ? Propriétaire de « location de moto à Hanoi pour deux personnes » ; se distingue de /types-motos/scooter-pour-deux-personnes-hanoi/ (selle, freins, suspension de la machine, lié) et de /permis-securite/deux-personnes-moto-vietnam-law/ (règles de base, lié) par l'angle location : machine à confirmer, essai à deux au retrait, casques, une ou deux motos, budget.",
+   "CONTENT": "Réécriture complète. Sections : la règle ; quelle machine (tableau) ; essai à deux (liste) ; deux casques ; gestes à deux (liste) ; sorties longues à deux ; une ou deux motos (tableau) ; budget (tableau) ; FAQ 5. Mots 2107→1621.",
+   "META": "Title 63 car., description 153 car., H1 alignés ; promesse tenue ; og alignés. Eyebrow « Rouler à deux ».",
+   "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /types-motos/scooter-pour-deux-personnes-hanoi/, /permis-securite/deux-personnes-moto-vietnam-law/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /location-moto-hanoi/debutant-location-moto-hanoi/. Retirés : /location-moto-hanoi/location-moto-inspection-liste-controle/, /prix-location/jour/.",
+   "AEO_GEO": "Réponse directe dans le lead (4 phrases) ; 3 tableaux (machines, une ou deux motos, tarifs), 2 listes (essai, gestes), FAQ 5 questions ; 3 citations externes (chinhphu.vn, hethongphapluat.com, France-Diplomatie)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/truong-hop-nao-nguoi-lai-xe-may-duoc-cho-toi-da-2-nguoi-xe-11924081616002775.htm",
+    "checked": "2026-10-30",
+    "used_for": "Art. 33 al. 1 loi 36/2024/QH15 : un passager, deuxième passager dans quatre cas (seen in search result summary ; à recouper avec le texte officiel)"
+   },
+   {
+    "url": "https://hethongphapluat.com/luat-trat-tu-an-toan-giao-thong-duong-bo-2024/dieu-25",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25 loi 36/2024/QH15 : interdiction des motos sur autoroute (seen in search result)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+    "checked": "2026-10-30",
+    "used_for": "Casque obligatoire (qualité inégale), éviter de rouler de nuit (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Nombre de casques remis et tailles disponibles (dont enfant).",
+   "Machines adaptées à deux proposées pour les dates.",
+   "Sortie de Hanoi et règles de panne."
+  ],
+  "words_before": 2107,
+  "words_after": 1621
+ },
+ {
+  "path": "location-moto-hanoi/location-moto-hanoi-pour-tourists/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer une moto à Hanoi en tant que touriste : droit de conduire et assurance à vérifier, préparation avant l'arrivée, retrait à Long Biên, premier scooter, tarifs indicatifs, réflexes de conduite.",
+  "new_meta": {
+   "title": "Louer une moto à Hanoi en touriste : permis, retrait, conduite",
+   "description": "Touriste à Hanoi : permis et assurance à vérifier, retrait à Long Biên, premier scooter, tarifs indicatifs et réflexes pour rouler dans un trafic dense.",
+   "h1": "Louer une moto à Hanoi en touriste : permis, retrait, conduite"
+  },
+  "evidence": {
+   "FACTS": "Supprimé comme politique non confirmée : « vous serez probablement identifié par votre passeport… c'est le document que le loueur retient ou copie, et parfois l'alternative au dépôt en espèces », « préférez le dépôt en espèces », trois options espèces/passeport/négociation, « montants documentés sur ce site » pour le dépôt, « si on vous répond qu'aucun contrat n'est nécessaire… signal d'alerte ». Remplacé par : documents et garantie « non publiés, à demander » et une observation de marché formulée « certains loueurs gardent une pièce d'identité ou demandent une somme en garantie ; demandez la règle applicable » (une seule fois), avec conseil de copie numérique. Droit de conduire : France-Diplomatie sécurité (vu dans un résultat de recherche du 2026-10-30) : permis international requis avec le permis français, permis adapté à la cylindrée, casque obligatoire, conduite de nuit déconseillée ; contradiction des guides sur les petites cylindrées signalée sans trancher ; « vérifiez votre situation, notez la date ». Autoroutes : art. 25 loi 36/2024/QH15 via hethongphapluat.com. Interdiction de conduire après alcool : rappel général repris du hub. Assurance voyage : conseil de vérification sans affirmation. Prix : tableau complet jour/semaine du propriétaire (électrique « selon le modèle, à confirmer », semaine 600 000-800 000) avec le disclaimer exact et le rappel de ne pas multiplier. Adresse/horaires/contacts conformes ; aucune remise à l'aéroport affirmée.",
+   "INTENT": "Question : que doit savoir un touriste pour louer une moto à Hanoi ? Propriétaire de « louer une moto à Hanoi en tant que touriste » ; se distingue de /location-moto-hanoi/location-moto-hanoi-tet/ (période du Tết), de /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/ (voyage dans le Nord) et de /location-moto-hanoi/location-moto-hanoi-vietnam/ (questions à poser avant de réserver, lié) par l'angle statut de touriste : permis/assurance, arrivée et retrait à Long Biên, premier séjour.",
+   "CONTENT": "Réécriture complète. Sections : ce que change le statut ; droit de conduire et assurance ; préparer avant l'arrivée (liste) ; quelle moto (tableau) ; tarifs (tableau) ; documents et garantie ; conduire quand on découvre (liste) ; erreurs fréquentes (liste) ; checklist ; FAQ 5. Mots 2016→1628.",
+   "META": "Title 62 car., description 152 car., H1 alignés ; promesse tenue ; og alignés. Eyebrow « Voyageurs étrangers » conservé.",
+   "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /location-moto-hanoi/quartiers/, /permis-securite/permis/, /location-moto-hanoi/debutant-location-moto-hanoi/, /location-moto-hanoi/location-moto-hanoi-vietnam/. Retiré : /location-moto-hanoi/location-moto-depot-hanoi/ ; /permis-securite/ remplacé par /permis-securite/permis/.",
+   "AEO_GEO": "Réponse directe dans le lead (4 phrases) ; 2 tableaux (machines, tarifs), 4 listes (message, conduite, erreurs, checklist), FAQ 5 questions ; 2 citations externes (France-Diplomatie, hethongphapluat.com)."
+  },
+  "sources": [
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+    "checked": "2026-10-30",
+    "used_for": "Permis international requis avec permis français adapté à la cylindrée, casque obligatoire, éviter de rouler de nuit (seen in search result summary)"
+   },
+   {
+    "url": "https://hethongphapluat.com/luat-trat-tu-an-toan-giao-thong-duong-bo-2024/dieu-25",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25 loi 36/2024/QH15 : interdiction des motos sur autoroute (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Documents demandés à un touriste et forme de la garantie éventuelle (aucune politique passeport/caution publiée).",
+   "Casque remis, remise à l'hôtel/aéroport, conduite à tenir en cas de panne.",
+   "Sortie de Hanoi pour un touriste."
+  ],
+  "words_before": 2016,
+  "words_after": 1628
+ },
+ {
+  "path": "location-moto-hanoi/location-moto-hanoi-tet/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer une moto à Hanoi pendant le Tết 2027 : dates, ce qu'il faut confirmer avec la boutique (ouverture, retrait, retour), précautions avant, pendant et après les fêtes.",
+  "new_meta": {
+   "title": "Louer une moto à Hanoi pendant le Tết : dates et précautions",
+   "description": "Tết 2027 le 6 février : louer une moto à Hanoi, quoi confirmer avec la boutique (ouverture, retrait, retour) et précautions avant, pendant et après les fêtes.",
+   "h1": "Louer une moto à Hanoi pendant le Tết : dates et précautions"
+  },
+  "evidence": {
+   "FACTS": "Article entièrement mannéré et sans date : réécrit autour des dates 2027. Supprimé comme non confirmé : « l'équipe qui rentre au village diminue le service », « les stations ajustent leur rythme », « la demande monte, la flotte se resserre » (présenté comme fait), « certaines enseignes maintiennent leur service, d'autres ferment », « le dépôt fonctionne pareil pendant les fêtes ». Dates : premier jour du Tết 2027 = samedi 6 février 2027, veille le vendredi 5 (calendrier vu dans un résultat WebSearch du 2026-10-30, CellphoneS ; jours de la semaine recoupés par le calcul) ; congé de sept jours des agents de l'État du jeudi 4 au mercredi 10 février 2027 d'après le ministère de l'Intérieur, cité via Dân trí (vu dans un résultat de recherche) ; les entreprises organisent leurs fermetures (non précisé). Horaires 09:00-21:00 tous les jours = SEO-FACTS ; aucune règle Tết publiée, formulé « confirmez par écrit ». Aucun tarif Tết : fourchette jour 150 000-200 000 VND semi-auto/auto + lignes 50cc/Vision/Air Blade, disclaimer exact, « aucune majoration publiée, demandez ». Autoroutes : art. 25 loi 36/2024/QH15 via hethongphapluat.com. Alcool au volant interdit : rappel général du hub. Observations générales sur le Tết (marchés aux fleurs/kumquats, commerces fermés, flux de retour) formulées avec prudence (« peuvent », « beaucoup »), sans chiffre ni durée de trajet.",
+   "INTENT": "Question : que changer à sa location de moto à Hanoi pendant le Tết ? Propriétaire de « louer une moto à Hanoi pendant le Tết » ; se distingue de /hanoi/que-faire-hanoi-during-tet/ (visite et quartiers pendant le Tết, lié) et de /location-moto-hanoi/location-moto-hanoi-opening-horaires/ (horaires, lié) par l'angle location : calendrier, questions à poser à la boutique, trois façons de planifier, précautions.",
+   "CONTENT": "Réécriture complète. Sections : dates du Tết 2027 (tableau) ; la boutique pendant les fêtes (liste de questions) ; avant (ville pressée) ; pendant (liste de précautions) ; après (flux de retour) ; trois façons de planifier (liste) ; ce qui ne change pas ; machine et tarifs ; FAQ 5. Mots 1688→1588.",
+   "META": "Title 60 car., description 158 car., H1 alignés ; promesse tenue ; og alignés. Eyebrow « Nouvel An lunaire ».",
+   "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /location-moto-hanoi/location-moto-hanoi-opening-horaires/, /hanoi/que-faire-hanoi-during-tet/, /location-moto-hanoi/1-jour-location-moto-hanoi/, /location-moto-hanoi/quartiers/. Retirés : /location-moto-hanoi/location-moto-pres-de-moi/, /location-moto-hanoi/moto-livraison-hotel-hanoi/, /permis-securite/.",
+   "AEO_GEO": "Réponse directe dans le lead (4 phrases avec la date du Tết 2027) ; 1 tableau (calendrier), 3 listes (questions, précautions, planification), FAQ 5 questions ; 2 citations externes (Dân trí, hethongphapluat.com)."
+  },
+  "sources": [
+   {
+    "url": "https://dantri.com.vn/noi-vu/chinh-thuc-chot-nghi-tet-nguyen-dan-2027-keo-dai-7-ngay-lien-tiep-20260919232245866.htm",
+    "checked": "2026-10-30",
+    "used_for": "Congé de 7 jours des agents de l'État du 4 au 10 février 2027 selon le ministère de l'Intérieur (seen in search result summary)"
+   },
+   {
+    "url": "https://hethongphapluat.com/luat-trat-tu-an-toan-giao-thong-duong-bo-2024/dieu-25",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25 loi 36/2024/QH15 : interdiction des motos sur autoroute (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Ouverture, horaires et dates de fermeture pendant le Tết 2027.",
+   "Tarifs ou règles de réservation spécifiques à la période.",
+   "Retour hors ouverture et conduite à tenir en cas de panne pendant les fêtes."
+  ],
+  "words_before": 1688,
+  "words_after": 1588
+ },
+ {
+  "path": "location-moto-hanoi/location-moto-hanoi-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer une moto à Hanoi, au Vietnam : ce qui est confirmé chez Thuê xe máy Nguyễn Hà, ce qu'il faut demander avant de réserver, tarifs indicatifs, droit de conduire, retrait et retour.",
+  "new_meta": {
+   "title": "Louer une moto à Hanoi : les questions à poser avant de réserver",
+   "description": "Réserver une moto à Hanoi : ce qui est confirmé (adresse, horaires, tarifs indicatifs), ce qui reste à demander (documents, garantie, panne) et le permis.",
+   "h1": "Louer une moto à Hanoi : les questions à poser avant de réserver"
+  },
+  "evidence": {
+   "FACTS": "Supprimé comme politique non confirmée : « prévoyez votre passeport… certains loueurs l'utilisent comme alternative à une caution en espèces », « un dépôt en espèces repart généralement dans votre poche au retour », « le montant exact, la forme de dépôt acceptée », « remise du casque et des équipements éventuels », « les loueurs habitués aux visiteurs internationaux », « une caution élevée pour un véhicule d'entrée de gamme… méritent une question ». Remplacé par un tableau « publié / à demander » : confirmé = adresse, horaires 09:00-21:00, contact 0334 699 969 (tel/Zalo/WhatsApp), tarifs indicatifs ; non publié = disponibilité, documents, garantie, remise hors Long Biên, sortie de Hanoi, casque et accessoires, paiement. Prix : tableau complet jour/semaine/mois du propriétaire (semi-auto, auto, électrique « selon le modèle, à confirmer », 50cc, Vision, Air Blade) avec le disclaimer exact, rappel de ne pas multiplier, « aucune remise publiée ». Droit de conduire : France-Diplomatie sécurité (page vue dans un résultat de recherche du 2026-10-30 : permis international avec permis français adapté à la cylindrée, casque obligatoire) ; contradiction des guides signalée ; « vérifiez votre situation, notez la date ». Aucune durée de trajet, aucune distance.",
+   "INTENT": "Question : que faut-il savoir et demander avant de réserver une moto à Hanoi ? Propriétaire de « louer une moto à Hanoi, au Vietnam » ; se distingue de /location-moto-hanoi/book-location-moto-hanoi-online-ou-walk-a/ (réserver en ligne ou se présenter, lié) et de /location-moto-hanoi/location-moto-hanoi-pour-tourists/ (statut de touriste) par l'angle checklist de réservation : tableau publié/à demander, premier message, durée, retrait, retour.",
+   "CONTENT": "Réécriture complète. Sections : confirmé/à demander (tableau) ; premier message (liste) ; véhicule et tarifs (tableau) ; durée ; droit de conduire ; retrait (liste) ; retour ; erreurs (liste) ; FAQ 5. Mots 1978→1651.",
+   "META": "Title 64 car., description 154 car., H1 alignés sur « les questions à poser avant de réserver » ; promesse tenue ; og alignés. Eyebrow « Avant de réserver » conservé.",
+   "LINKS": "7/7 : /location-moto-hanoi/ (parent), /prix-location/, /types-motos/ (requis) + /location-moto-hanoi/book-location-moto-hanoi-online-ou-walk-a/, /permis-securite/permis/, /location-moto-hanoi/etat-des-lieux-moto-location-hanoi/, /location-moto-hanoi/quartiers/. Retirés : /location-moto-hanoi/longue-duree/ ; /permis-securite/ remplacé par /permis-securite/permis/.",
+   "AEO_GEO": "Réponse directe dans le lead (2 phrases denses) ; 2 tableaux (publié/à demander, tarifs), 3 listes (premier message, contrôle au retrait, erreurs), FAQ 5 questions ; 1 citation externe (France-Diplomatie)."
+  },
+  "sources": [
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-securite",
+    "checked": "2026-10-30",
+    "used_for": "Permis international requis avec permis français adapté à la cylindrée, casque obligatoire (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Documents demandés, garantie éventuelle et moyens de paiement.",
+   "Disponibilité, remise hors Long Biên, sortie de Hanoi.",
+   "Casque et accessoires remis ; conduite à tenir en cas de panne ; règle de décompte d'une journée."
+  ],
+  "words_before": 1978,
+  "words_after": 1651
  }
 ]
