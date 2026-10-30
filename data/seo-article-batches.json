@@ -12,12 +12,13 @@
     "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
     "location-moto-hanoi/same-jour-location-moto-hanoi/index.html",
     "location-moto-hanoi/solo-voyage-hanoi-location-moto/index.html"
-   ]
+   ],
+   "done": 6
   },
   {
    "id": "ART-LOCATI-1",
    "silo": "location-moto-hanoi",
-   "status": "RUNNING",
+   "status": "DONE",
    "paths": [
     "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
     "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
@@ -37,7 +38,8 @@
     "location-moto-hanoi/etat-des-lieux-moto-location-hanoi/index.html",
     "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
     "location-moto-hanoi/hanoi-location-moto-pour-ha-giang/index.html"
-   ]
+   ],
+   "done": 18
   },
   {
    "id": "ART-LOCATI-2",
@@ -62,7 +64,8 @@
     "location-moto-hanoi/location-moto-hanoi-pour-tourists/index.html",
     "location-moto-hanoi/location-moto-hanoi-tet/index.html",
     "location-moto-hanoi/location-moto-hanoi-vietnam/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-LOCATI-3",
@@ -86,12 +89,13 @@
     "location-moto-hanoi/student-mensuelle-location-moto-hanoi/index.html",
     "location-moto-hanoi/weekend-location-moto-hanoi/index.html",
     "location-moto-hanoi/what-is-included-location-moto-hanoi/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-PRIX-L-1",
    "silo": "prix-location",
-   "status": "RUNNING",
+   "status": "DONE",
    "paths": [
     "prix-location/14-jours-location-moto-hanoi-cout/index.html",
     "prix-location/3-jours-location-moto-hanoi-prix/index.html",
@@ -113,7 +117,8 @@
     "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
     "prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/index.html",
     "prix-location/location-moto-crevaison-pneu-cout-vietnam/index.html"
-   ]
+   ],
+   "done": 20
   },
   {
    "id": "ART-PRIX-L-2",
@@ -139,12 +144,13 @@
     "prix-location/vietnam-location-moto-cout-30-jours/index.html",
     "prix-location/vision-ou-janus-cout-location-hanoi/index.html",
     "prix-location/wave-ou-sirius-mensuelle-cout-location/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-CENTRE-1",
    "silo": "centre-sud-vietnam",
-   "status": "RUNNING",
+   "status": "PARTIAL",
    "paths": [
     "centre-sud-vietnam/can-tho-voyage-moto/index.html",
     "centre-sud-vietnam/central-vietnam-coastal-itineraire-moto/index.html",
@@ -166,7 +172,8 @@
     "centre-sud-vietnam/hue-voyage-moto/index.html",
     "centre-sud-vietnam/meilleur-moto-dalat/index.html",
     "centre-sud-vietnam/meilleur-moto-vietnam-nord-sud/index.html"
-   ]
+   ],
+   "done": 13
   },
   {
    "id": "ART-CENTRE-2",
@@ -193,12 +200,13 @@
     "centre-sud-vietnam/vietnam-nord-a-sud-voyage-moto/index.html",
     "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
     "centre-sud-vietnam/vung-tau-itineraire-moto/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-HONDA-1",
    "silo": "honda",
-   "status": "RUNNING",
+   "status": "DONE",
    "paths": [
     "honda/honda-air-blade-125-hanoi-ville/index.html",
     "honda/honda-air-blade-125-location-hanoi/index.html",
@@ -216,12 +224,13 @@
     "honda/honda-ct125-ou-yamaha-wr155r-location/index.html",
     "honda/honda-ct125-prix-location-hanoi/index.html",
     "honda/honda-cuv-e-hanoi-ville/index.html"
-   ]
+   ],
+   "done": 16
   },
   {
    "id": "ART-HONDA-2",
    "silo": "honda",
-   "status": "PENDING",
+   "status": "PARTIAL",
    "paths": [
     "honda/honda-cuv-e-location-hanoi/index.html",
     "honda/honda-cuv-e-longue-distance-vietnam/index.html",
@@ -239,7 +248,8 @@
     "honda/honda-icon-e-prix-location-hanoi/index.html",
     "honda/honda-lead-abs-hanoi-ville/index.html",
     "honda/honda-lead-abs-location-hanoi/index.html"
-   ]
+   ],
+   "done": 4
   },
   {
    "id": "ART-HONDA-3",
@@ -262,7 +272,8 @@
     "honda/honda-super-cub-c125-hanoi-ville/index.html",
     "honda/honda-super-cub-c125-location-hanoi/index.html",
     "honda/honda-super-cub-c125-longue-distance-vietnam/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-HONDA-4",
@@ -285,7 +296,8 @@
     "honda/honda-vision-location-hanoi/index.html",
     "honda/honda-vision-longue-distance-vietnam/index.html",
     "honda/honda-vision-ou-yamaha-janus-location/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-HONDA-5",
@@ -308,7 +320,8 @@
     "honda/honda-winner-x-longue-distance-vietnam/index.html",
     "honda/honda-winner-x-ou-yamaha-exciter-155-location/index.html",
     "honda/honda-winner-x-prix-location-hanoi/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-YAMAHA-1",
@@ -331,7 +344,8 @@
     "yamaha/yamaha-freego-prix-location-hanoi/index.html",
     "yamaha/yamaha-freego-vietnam-voyage-moto/index.html",
     "yamaha/yamaha-grande-hanoi-ville/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-YAMAHA-2",
@@ -354,7 +368,8 @@
     "yamaha/yamaha-jupiter-finn-vietnam-voyage-moto/index.html",
     "yamaha/yamaha-latte-hanoi-ville/index.html",
     "yamaha/yamaha-latte-location-hanoi/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-YAMAHA-3",
@@ -377,7 +392,8 @@
     "yamaha/yamaha-nmax-hanoi-ville/index.html",
     "yamaha/yamaha-nmax-location-hanoi/index.html",
     "yamaha/yamaha-nmax-ou-honda-sh125i-location/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-YAMAHA-4",
@@ -400,7 +416,8 @@
     "yamaha/yamaha-sirius-fi-location-hanoi/index.html",
     "yamaha/yamaha-sirius-fi-ou-honda-wave-rsx-location/index.html",
     "yamaha/yamaha-sirius-fi-prix-location-hanoi/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-YAMAHA-5",
@@ -423,12 +440,13 @@
     "yamaha/yamaha-xmax-ou-honda-adv350-location/index.html",
     "yamaha/yamaha-xmax-prix-location-hanoi/index.html",
     "yamaha/yamaha-xmax-vietnam-voyage-moto/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-TYPES--1",
    "silo": "types-motos",
-   "status": "PENDING",
+   "status": "PARTIAL",
    "paths": [
     "types-motos/125cc-location-scooter-hanoi/index.html",
     "types-motos/125cc-ou-160cc-scooter-vietnam/index.html",
@@ -445,7 +463,8 @@
     "types-motos/automatique-ou-semi-automatique-mensuelle-location-hanoi/index.html",
     "types-motos/automatique-ou-semi-automatique-moto-vietnam/index.html",
     "types-motos/batterie-swap-ou-plug-a-electrique-scooter-vietnam/index.html"
-   ]
+   ],
+   "done": 6
   },
   {
    "id": "ART-TYPES--2",
@@ -467,7 +486,8 @@
     "types-motos/honda-vision-ou-yamaha-janus-location/index.html",
     "types-motos/injection-carburant-moto-vietnam-location/index.html",
     "types-motos/leger-scooter-hanoi/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-TYPES--3",
@@ -489,7 +509,8 @@
     "types-motos/scooter-pour-deux-personnes-hanoi/index.html",
     "types-motos/scooter-pour-grand-gabarit-conducteur-vietnam/index.html",
     "types-motos/scooter-smartkey-location-vietnam-perdue-cle/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-TYPES--4",
@@ -511,12 +532,13 @@
     "types-motos/yamaha-nvx-ou-nmax-vietnam-voyage-moto/index.html",
     "types-motos/yamaha-pg1-vietnam-voyage-moto/index.html",
     "types-motos/yamaha-wr155r-vietnam-tout-terrain/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-HANOI-1",
    "silo": "hanoi",
-   "status": "PENDING",
+   "status": "PARTIAL",
    "paths": [
     "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
     "hanoi/ba-dinh-hanoi-itineraire/index.html",
@@ -535,7 +557,8 @@
     "hanoi/hanoi-cafes-quartiers-scooter/index.html",
     "hanoi/hanoi-co-loa-moto/index.html",
     "hanoi/hanoi-ecopark-moto/index.html"
-   ]
+   ],
+   "done": 4
   },
   {
    "id": "ART-HANOI-2",
@@ -559,7 +582,8 @@
     "hanoi/jour-voyages-de-hanoi-by-moto/index.html",
     "hanoi/long-bien-pont-hanoi/index.html",
     "hanoi/que-faire-hanoi-at-nuit/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-HANOI-3",
@@ -581,7 +605,8 @@
     "hanoi/trail-moto-routes-de-hanoi/index.html",
     "hanoi/unique-que-faire-hanoi/index.html",
     "hanoi/west-lac-hanoi-moto/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-PERMIS-1",
@@ -603,7 +628,8 @@
     "permis-securite/limite-vitesse-moto-vietnam/index.html",
     "permis-securite/location-moto-accident-vietnam/index.html",
     "permis-securite/location-moto-contrat-vietnam/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-PERMIS-2",
@@ -625,7 +651,8 @@
     "permis-securite/moto-montagne-pass-securite-vietnam/index.html",
     "permis-securite/moto-oil-controle-location-vietnam/index.html",
     "permis-securite/moto-pluie-securite-vietnam/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-PERMIS-3",
@@ -646,7 +673,8 @@
     "permis-securite/touriste-conversion-permis-conduire-vietnam/index.html",
     "permis-securite/vietnam-emergency-numbers-moto-touriste/index.html",
     "permis-securite/vietnam-permis-moto-a1-a/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-NORD-V-1",
@@ -670,7 +698,8 @@
     "nord-vietnam/hanoi-a-mai-chau-moto/index.html",
     "nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/index.html",
     "nord-vietnam/hanoi-a-pu-luong-moto/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-NORD-V-2",
@@ -694,7 +723,8 @@
     "nord-vietnam/meilleur-moto-tam-dao/index.html",
     "nord-vietnam/meilleure-moto-pour-ha-giang-boucle/index.html",
     "nord-vietnam/meilleure-moto-pour-sapa/index.html"
-   ]
+   ],
+   "done": 0
   },
   {
    "id": "ART-NORD-V-3",
@@ -716,7 +746,8 @@
     "nord-vietnam/tam-dao-voyage-moto-hanoi/index.html",
     "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
     "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html"
-   ]
+   ],
+   "done": 0
   }
  ]
 }
