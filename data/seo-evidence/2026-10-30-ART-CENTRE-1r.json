@@ -1,0 +1,345 @@
+[
+ {
+  "path": "centre-sud-vietnam/ho-chi-minh-route-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "La route Ho Chi Minh à moto : à qui elle convient, quels tronçons, quel niveau, quelle machine, quel ravitaillement et quelles saisons.",
+  "new_meta": {
+   "title": "La route Ho Chi Minh à moto : tronçons, niveau et saisons",
+   "description": "La route Ho Chi Minh à moto : 3 183 km de Pác Bó à Đất Mũi, branche ouest isolée, niveau de conduite, carburant, saisons et machine à choisir avant de partir.",
+   "h1": "La route Ho Chi Minh à moto : tronçons, niveau et saisons"
+  },
+  "evidence": {
+   "FACTS": "Supprimé : formulations vagues et fautives (« la route se choisie », « s'espace »), affirmation « les formules one-way allègent l'itinéraire au prix de frais qui se négocient » (politique de loueur non confirmée), « freiner avec l'arrière », trail « coûte plus cher à la location », « disponibilités à vérifier auprès des agences » généralisées. Ajouté et sourcé : longueur 3 183 km / 28 provinces / Pác Bó–Đất Mũi (propos du ministre Nguyễn Văn Thể à l'inauguration du pont de Bình Ca, vietnamfinance.vn, seen in search result) ; branche ouest sinueuse, trafic et services rares (Pháp Luật TP.HCM, déjà cité dans le hub Centre-Sud) ; travaux d'élargissement Pác Bó–Cao Bằng (titre VietnamPlus, seen in search result) ; carburant rare entre Khe Sanh et Phong Nha, sources divergentes sur le nombre de stations, donc formulé comme point à vérifier (nomadasaurus.com, seen in search result) ; A Lưới isolé, tronçons dégradés au sud (récits de voyageurs vus en résultats de recherche, non cités en lien, présentés comme à vérifier) ; saison des crues octobre–décembre dans le Centre (Thanh Tra, déjà cité dans le hub Centre). Tronçons du Nord et des hauts plateaux volontairement non détaillés faute de source (dit au lecteur). Location : Nguyễn Hà est à Long Biên ; zone d'usage, transport, entretien en route et restitution présentés comme non confirmés, à faire confirmer par écrit ; aucun prix, aucune caution, assurance ni assistance affirmés. Assurance voyage : conseil générique de vérifier la couverture deux-roues et évacuation. Permis : renvoi vers /permis-securite/permis/ sans affirmation de validité.",
+   "INTENT": "Question : « La route Ho Chi Minh à moto : pour qui, quels tronçons, quel niveau, quelles précautions ? ». Owner (group_owner = lui-même). Différent de ho-chi-minh-a-can-tho-moto, moto-ho-chi-minh-ville (Saigon/delta) et hanoi-a-ho-chi-minh-moto (traversée complète par la côte) : cet article traite de l'axe de montagne à l'ouest, pas de la ville de Hô-Chi-Minh-Ville ni de la nationale 1.",
+   "CONTENT": "Réécriture complète des 9 sections : en bref (chiffres sourcés), tableau des profils, tableau tronçons connus/à vérifier avec distinction sourcé/non sourcé, checklist de réflexes en montagne, machine + location à Hanoi (non confirmé), carburant/réparations/santé, saisons avec checklist de décision, FAQ de 5 questions non répétitives, liens. Supprimé : comparaison avec « un vin qui respire », « la route se parcourt comme… », paragraphes sur les « trois visages », prose abstraite. 1818 → 1982 mots.",
+   "META": "Titre « La route Ho Chi Minh à moto : tronçons, niveau et saisons » (57 car.) à la place de « …pour quel voyageur ? » ; description 158 caractères, factuelle ; H1 = titre ; og:title/og:description identiques ; eyebrow raccourci.",
+   "LINKS": "Parent /centre-sud-vietnam/ ; requis /types-motos/ et /permis-securite/securite/ ; ajoutés /centre-sud-vietnam/hue-a-phong-nha-moto/, /centre-sud-vietnam/phong-nha-voyage-moto/, /centre-sud-vietnam/meilleur-moto-vietnam-nord-sud/, /permis-securite/permis/ ; retiré vietnam-nord-a-sud-voyage-moto (remplacé par des liens plus utiles pour le sujet) : 7/7, parent présent.",
+   "AEO_GEO": "Réponse directe dans le chapeau (2–3 phrases) ; 2 tableaux (profils, tronçons), 2 checklists (réflexes, décisions météo) ; FAQ 5 questions ; 5 citations externes inline."
+  },
+  "words_before": 1818,
+  "words_after": 1982,
+  "sources": [
+   {
+    "url": "https://vietnamfinance.vn/khanh-thanh-cau-binh-ca-gan-mach-tuyen-duong-ho-chi-minh-lich-su-d31826.html",
+    "checked": "2026-10-30",
+    "used_for": "3 183 km, 28 provinces, Pác Bó–Đất Mũi (seen in search result)"
+   },
+   {
+    "url": "https://plo.vn/tu-dong-truong-son-noi-tay-truong-son-post360464.html",
+    "checked": "2026-10-30",
+    "used_for": "branche ouest sinueuse, services rares (source déjà utilisée dans le hub Centre-Sud)"
+   },
+   {
+    "url": "https://www.vietnamplus.vn/hon-3200-ty-dong-nang-cap-mo-rong-duong-ho-chi-minh-doan-pac-bo-cao-bang-post1136313.amp",
+    "checked": "2026-10-30",
+    "used_for": "travaux d'élargissement de la section Pác Bó–Cao Bằng (titre vu en résultat de recherche)"
+   },
+   {
+    "url": "https://www.nomadasaurus.com/riding-motorbikes-ho-chi-minh-highway-west/",
+    "checked": "2026-10-30",
+    "used_for": "carburant rare sur la route Hồ Chí Minh Ouest ; guides divergents (seen in search result)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "saison des crues octobre–décembre dans le Centre (déjà cité dans le hub Centre)"
+   }
+  ],
+  "owner_gaps": [
+   "Zone d'utilisation autorisée d'une moto louée à Long Biên (hors du Nord), transport, restitution ailleurs, entretien en route : à confirmer par le loueur."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/hoi-an-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Hội An à moto : que faire à moto autour d'une vieille ville qui se visite à pied, comment rouler, stationner et quand venir.",
+  "new_meta": {
+   "title": "Hội An à moto : vieille ville, plages et campagne",
+   "description": "Hội An à moto : vieille ville à pied, plage d’An Bàng, village de Trà Quế, Mỹ Sơn, accès depuis Huế et Đà Nẵng, stationnement et saisons à prévoir.",
+   "h1": "Hội An à moto : vieille ville, plages et campagne"
+  },
+  "evidence": {
+   "FACTS": "Supprimé : « les commandes se règlent en espèces… » (tailleurs, moyens de paiement), « la ville vit de tickets de parking que de contraventions », « les hébergements prêtent souvent des vélos gratuits », « les flottes dominées par scooters et semi-automatiques » (parc de loueurs non vérifié), « une quinzaine de minutes » (durée exacte), « billet d'entrée commun » (non vérifié, remplacé par « un billet est en général demandé pour certains monuments, à vérifier »). Sourcé : Hội An 122 km de Huế et un peu plus de 30 km de Đà Nẵng (VnExpress, déjà cité dans les hubs) ; inscription au patrimoine mondial le 4/12/1999 (Tạp chí Công Thương, déjà cité dans le hub Centre) ; rattachement à Đà Nẵng en 2025 (hubs) ; An Bàng ~4 km, Cửa Đại ~5 km (guides touristiques vus en résultats de recherche, dont vietnamtourism.com), Trà Quế 2–3 km avec sources divergentes, Mỹ Sơn ~40 km (office national du tourisme, vu en résultat de recherche) ; restrictions de circulation motorisée dans la vieille ville : VietnamPlus 2019 (interdictions horaires pour véhicules motorisés dans les rues piétonnes, extension annoncée pour les motos rue Phan Chu Trinh), présentées comme datées et variables, horaires actuels à demander à l'hébergement ; crues octobre–décembre du Centre (Thanh Tra, déjà cité dans le hub Centre). Location : Nguyễn Hà à Long Biên ; usage à Hội An non confirmé, à faire confirmer par écrit ; aucun prix, caution, assurance, livraison affirmés. Permis : phrase générique.",
+   "INTENT": "Question : « Que faire à Hội An à moto et comment s'organiser ? ». Owner. Différent de hue-a-hoi-an-moto (la route et le col, lié une fois), da-nang-a-hoi-an-moto (liaison, liée) et location-moto-long-bien (proche à 0,27 par le vocabulaire seulement) : cet article reste sur la ville, ses sorties et son stationnement.",
+   "CONTENT": "Réécriture complète : en bref avec distances, venir/louer, vieille ville et horaires, tableau des sorties (Trà Quế, An Bàng, Cửa Đại, Mỹ Sơn, Đà Nẵng), programme de trois jours, checklist de conduite/stationnement, hébergement et soirées de lanternes, saisons et crues, FAQ de 5 questions. Supprimé : sections descriptives génériques (ateliers de couture, cuisine, barques à panier, villages de menuiserie) non sourcées et prose imagée. 1827 → 1755 mots.",
+   "META": "Titre « Hội An à moto : vieille ville, plages et campagne » (49 car., avec diacritiques comme les hubs) ; description 150 caractères, factuelle ; H1 = titre ; og:title/og:description identiques ; eyebrow court.",
+   "LINKS": "Parent /centre-sud-vietnam/ ; requis /types-motos/ et /permis-securite/securite/ ; conservé hue-a-hoi-an-moto ; ajoutés centre/ et da-nang-a-hoi-an-moto ; retiré hue-voyage-moto (doublon de route) : 6/7, parent présent.",
+   "AEO_GEO": "Réponse directe dans le chapeau et dans « en bref » ; 1 tableau des sorties avec distances ; 2 checklists (programme, conduite) ; FAQ 5 questions (réponse dupliquée avec le hub Centre réécrite) ; 3 citations externes inline."
+  },
+  "words_before": 1827,
+  "words_after": 1755,
+  "sources": [
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-hoi-an-4446174.html",
+    "checked": "2026-10-30",
+    "used_for": "122 km depuis Huế, un peu plus de 30 km depuis Đà Nẵng (déjà cité dans les hubs)"
+   },
+   {
+    "url": "https://tapchicongthuong.vn/quang-nam--ky-niem-25-nam-do-thi-co-hoi-an-duoc-cong-nhan-di-san-van-hoa-the-gioi-130681.htm",
+    "checked": "2026-10-30",
+    "used_for": "inscription UNESCO le 4 décembre 1999 (déjà cité dans le hub Centre)"
+   },
+   {
+    "url": "https://en.vietnamplus.vn/ancient-city-limits-cars-traffic-in-old-quarter-area-post242864.vnp",
+    "checked": "2026-10-30",
+    "used_for": "restrictions horaires de circulation motorisée dans la vieille ville, 2019 (seen in search result, daté)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "saison des crues octobre–décembre dans le Centre (déjà cité dans le hub Centre)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/vi/nhung-ieu-nen-lam-o-hoi-an-ngoai-nhung-chiec-en-long-pho-co",
+    "checked": "2026-10-30",
+    "used_for": "ordres de grandeur An Bàng/Cửa Đại/Trà Quế/Mỹ Sơn, seen in search result (page non citée en lien, chiffres présentés comme indicatifs)"
+   }
+  ],
+  "owner_gaps": [
+   "Possibilité d'utiliser une moto louée à Long Biên à Hội An et de la rendre dans le Centre : à confirmer par le loueur."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/hue-a-hoi-an-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment faire Huế–Hội An à moto en une journée : distance, col de Hải Vân, étapes, météo, machine.",
+  "new_meta": {
+   "title": "De Huế à Hội An à moto : col de Hải Vân et étapes du jour",
+   "description": "De Huế à Hội An à moto : environ 122 km par le col de Hải Vân, tunnel réservé aux automobiles, étapes de la journée, météo, machine et précautions.",
+   "h1": "De Huế à Hội An à moto : col de Hải Vân et étapes du jour"
+  },
+  "evidence": {
+   "FACTS": "Supprimé toute la prose abstraite (« la route qui se regarde », « la règle du site — aucun tarif inventé, aucun horaire promis… », « la méthode du site »). Faits sourcés : Hội An à 122 km de Huế et un peu plus de 30 km de Đà Nẵng (VnExpress, déjà cité dans les hubs) ; autres guides 120–150 km selon l'itinéraire (résultats de recherche, formulé comme fourchette) ; col de Hải Vân ~20 km, ~500 m, porte Hải Vân Quan, vues sur Lăng Cô et la baie de Đà Nẵng (office du tourisme de Đà Nẵng, hub Centre) ; tunnel réservé aux automobiles, deux-roues sur camion de transfert en 2020 (VnExpress 2020, hub Centre) ; autoroutes interdites aux motos par la loi 36/2024/QH15 (LuatVietnam, hub) ; saison des tempêtes/crues (Thanh Tra, hub Centre) ; Huế ville relevant du pouvoir central depuis le 1/1/2025 (hubs). Location : Nguyễn Hà à Long Biên, usage dans le Centre/restitution à Hội An non confirmés, conseil de faire confirmer par écrit ; si location sur place, question à poser (aller simple) sans l'affirmer comme offre. Aucun prix, caution, assurance ni assistance affirmés. Aucune durée de conduite exacte donnée.",
+   "INTENT": "Question : « Comment aller de Huế à Hội An à moto, en combien de temps et avec quelles précautions ? ». Owner. Différent de moto-hue-a-da-nang (le col et le tunnel jusqu'à Đà Nẵng, lié une fois) : cet article traite la journée complète jusqu'à Hội An, l'option de découper en deux jours et l'arrivée ; il ne reprend pas la comparaison col/tunnel détaillée.",
+   "CONTENT": "Réécriture complète : liaison en bref, col de Hải Vân avec checklist, tableau des étapes, une journée ou deux (critères + checklist de départ), arrivée à Hội An, machine/bagages/papiers, météo avec checklist de décision, FAQ de 5 questions non répétitives. 1696 → 1722 mots.",
+   "META": "Titre « De Huế à Hội An à moto : col de Hải Vân et étapes du jour » (57 car.) à la place de « …la route du col de Hải Vân » ; description 146 caractères factuelle, sans promesse ; H1 = titre ; og:title/og:description identiques ; eyebrow simplifié.",
+   "LINKS": "Parent /centre-sud-vietnam/ ; requis /types-motos/ et /permis-securite/securite/ ; conservé /permis-securite/moto-montagne-pass-securite-vietnam/ ; ajoutés /centre-sud-vietnam/moto-hue-a-da-nang/, /centre-sud-vietnam/hoi-an-voyage-moto/, /centre-sud-vietnam/da-nang-a-hoi-an-moto/ ; retirés /centre/ et /sud/ (pas utiles ici) : 7/7, parent présent.",
+   "AEO_GEO": "Réponse directe dans le chapeau (3 phrases) et dans « La liaison en bref » ; 1 tableau d'étapes ; 3 checklists (col, critères de découpage et départ, météo) ; FAQ 5 questions ; 5 citations externes inline."
+  },
+  "words_before": 1696,
+  "words_after": 1722,
+  "sources": [
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-hoi-an-4446174.html",
+    "checked": "2026-10-30",
+    "used_for": "122 km depuis Huế, un peu plus de 30 km depuis Đà Nẵng (déjà cité dans les hubs)"
+   },
+   {
+    "url": "https://danangfantasticity.com/en/hai-van-pass",
+    "checked": "2026-10-30",
+    "used_for": "col de Hải Vân ~20 km, ~500 m, porte Hải Vân Quan (déjà cité dans les hubs)"
+   },
+   {
+    "url": "https://vnexpress.net/mo-ham-hai-van-cho-doan-nguoi-ve-que-4368282.html",
+    "checked": "2026-10-30",
+    "used_for": "tunnel réservé aux automobiles, deux-roues sur camion de transfert (2020, déjà cité dans les hubs)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "loi 36/2024/QH15, autoroutes interdites aux motos (déjà cité dans les hubs)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "tempêtes mi-septembre–fin d'année, crues octobre–décembre (déjà cité dans le hub Centre)"
+   }
+  ],
+  "owner_gaps": [
+   "Possibilité d'emmener une moto louée à Long Biên jusqu'à Hội An et de l'y rendre ; offre éventuelle d'aller simple : à confirmer par le loueur."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/hue-a-phong-nha-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller de Huế à Phong Nha à moto : deux routes (côte ou intérieur), itinéraire sur deux jours, grottes, saison, machine.",
+  "new_meta": {
+   "title": "De Huế à Phong Nha à moto : deux routes, deux jours",
+   "description": "De Huế à Phong Nha à moto : environ 200 km par la nationale 1 ou la route Hồ Chí Minh, sites de l’ancienne DMZ, grottes en barque, saisons et précautions.",
+   "h1": "De Huế à Phong Nha à moto : deux routes, deux jours"
+  },
+  "evidence": {
+   "FACTS": "Supprimé : « les tarifs se règlent au comptoir », « les vélos et motos se garent aux parkings », « le matériel se prête sur place » (lampe frontale prêtée), « les riders couvrent bien… », prose abstraite et faute (« la repli »), « la zone démilitarisé » ; supprimé aussi toute promesse horaire. Sourcé : ~200 km, écarts 187–210 km selon les guides (résultats de recherche : vietnamtourism.com, junglebosstours.com, sites de réservation de bus ; formulé « environ 200 km, 190–210 selon l'itinéraire ») ; Phong Nha à ~45–50 km de Đồng Hới (guides vus en résultats) ; escales DMZ citées par des guides : pont de Hiền Lương (rivière Bến Hải) et tunnels de Vịnh Mốc (résultats de recherche, tours Huế–Phong Nha) ; embarquement à Sơn Trạch, ~30 min sur la rivière Sơn, ~1,5 km dans la grotte (localvietnam.com et Lonely Planet, seen in search result) ; grotte du Paradis ~14 km de Sơn Trạch (Lonely Planet, seen in search result) ; UNESCO 2003 + extension 2015 (parc, déjà cité dans les hubs) ; province de Quảng Trị depuis 2025 (hub) ; branche ouest sinueuse (Pháp Luật TP.HCM, hub) ; carburant rare Khe Sanh–Phong Nha, avis divergents (nomadasaurus.com et autres guides, seen in search result) ; location aller simple Phong Nha–Huế annoncée par un loueur local (lokalee.app, seen in search result, présentée comme annonce à vérifier) ; saison des crues (Thanh Tra, hub Centre). Location Nguyễn Hà : Long Biên ; zone d'usage/restitution non confirmées. Aucun prix de billet, de barque ou de chambre donné.",
+   "INTENT": "Question : « Comment aller de Huế à Phong Nha à moto, par quelle route, en combien de jours ? ». Owner. Différent de phong-nha-voyage-moto (séjour sur place, lié) et ho-chi-minh-route-moto-vietnam (la route de montagne en général, liée) : cet article traite la liaison depuis Huế et le choix côte/intérieur.",
+   "CONTENT": "Réécriture complète : tableau comparatif côte/intérieur, jour 1 par la côte, jour 2 grottes, option de l'intérieur avec checklist, dormir, machine/location/sécurité, saisons, retour vers Huế, FAQ de 5 questions. Remplace des paragraphes entiers de prose abstraite (« la rivière lisse, le karst dans la brume… ») par des repères et conseils concrets. 1882 → 1713 mots.",
+   "META": "Titre « De Huế à Phong Nha à moto : deux routes, deux jours » (51 car.) ; description 151 caractères factuelle ; H1 = titre ; og:title/og:description identiques ; eyebrow court.",
+   "LINKS": "Parent /centre-sud-vietnam/ ; requis /types-motos/ et /permis-securite/securite/ ; conservés hue-voyage-moto et phong-nha-voyage-moto ; ajoutés /centre-sud-vietnam/centre/ et /centre-sud-vietnam/ho-chi-minh-route-moto-vietnam/ : 7/7, parent présent.",
+   "AEO_GEO": "Réponse directe dans le chapeau ; 1 tableau comparatif ; 1 checklist (intérieur) ; FAQ 5 questions ; 4 citations externes inline."
+  },
+  "words_before": 1882,
+  "words_after": 1713,
+  "sources": [
+   {
+    "url": "https://www.vietnamtourism.com/vi/cach-di-chuyen-en-phong-nha-huong-dan-giao-thong-ay-u-cho-na",
+    "checked": "2026-10-30",
+    "used_for": "deux routes (QL1A / route Hồ Chí Minh), ~200–210 km Huế–Phong Nha (seen in search result, chiffres présentés comme indicatifs)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/vietnam/attractions/paradise-cave/a/poi-sig/1390928/357846",
+    "checked": "2026-10-30",
+    "used_for": "grotte du Paradis à environ 14 km de Sơn Trạch (seen in search result)"
+   },
+   {
+    "url": "https://localvietnam.com/?p=30374",
+    "checked": "2026-10-30",
+    "used_for": "barque de Phong Nha : ~30 min depuis Sơn Trạch, ~1,5 km dans la grotte (seen in search result, non cité en lien)"
+   },
+   {
+    "url": "https://www.lokalee.app/tours/one-way-motorbike-rental-phong-nha-hue-via-ho-chi-minh-trails",
+    "checked": "2026-10-30",
+    "used_for": "annonce de location aller simple Phong Nha–Huế (seen in search result, annonce commerciale)"
+   },
+   {
+    "url": "https://plo.vn/tu-dong-truong-son-noi-tay-truong-son-post360464.html",
+    "checked": "2026-10-30",
+    "used_for": "branche ouest sinueuse (déjà cité dans les hubs)"
+   },
+   {
+    "url": "https://phongnhakebang.vn/history-of-formation",
+    "checked": "2026-10-30",
+    "used_for": "UNESCO 2003 et extension 2015 (déjà cité dans les hubs)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "saison des crues octobre–décembre (déjà cité dans le hub Centre)"
+   }
+  ],
+  "owner_gaps": [
+   "Possibilité d'emmener une moto louée à Long Biên jusqu'à Phong Nha et de la rendre dans le Centre : à confirmer par le loueur."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/hue-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Huế à moto : que faire à Huế à moto (citadelle à pied, tombeaux et environs à moto), comment s'organiser, rouler, stationner et quand venir.",
+  "new_meta": {
+   "title": "Huế à moto : citadelle, tombeaux royaux et environs",
+   "description": "Huế à moto : citadelle, tombeaux de Tự Đức, Khải Định et Minh Mạng, lagune de Tam Giang, col de Hải Vân, saisons, stationnement et conseils de conduite.",
+   "h1": "Huế à moto : citadelle, tombeaux royaux et environs"
+  },
+  "evidence": {
+   "FACTS": "Supprimé : « les achats se paient en espèces », « le marché central se visite mieux tôt… café de la rue », prix/horaires implicites, « la circulation y reste plus douce que dans les grandes villes » (non sourcé), « plages à une courte demi-heure » (durée), « machines se louent en ville » comme offre, « le numéro du loueur rejoint le téléphone », « les contrôles existent sur les axes touristiques », cuisine et croisières (non sourcées). Sourcé : complexe de monuments de Huế, premier site du Vietnam au patrimoine mondial, 11/12/1993 (Nhân Dân, déjà cité dans le hub Centre) ; Huế ville relevant du pouvoir central depuis le 1/1/2025 (hubs) ; distances des tombeaux : Tự Đức ~6–7 km, Khải Định ~10 km, Minh Mạng ~12–13 km, et ~2,5 km entre Minh Mạng et Khải Định (guides touristiques vus en résultats de recherche, sources divergentes au km près, présentées comme ordres de grandeur sans lien externe) ; crues d'automne sur les rives et rues basses inondables, sites fermant en fin de journée (hub Centre) ; saison des tempêtes et crues (Thanh Tra, hub Centre). Location : Nguyễn Hà à Long Biên ; usage à Huế non confirmé ; aucune offre de location locale affirmée, uniquement « option à étudier ». Aucun prix de billet ni de location.",
+   "INTENT": "Question : « Que faire à Huế à moto et comment s'organiser ? ». Owner. Différent de hue-a-hoi-an-moto, moto-hue-a-da-nang et hue-a-phong-nha-moto (liaisons au départ de Huế, liées une fois chacune) : cet article reste centré sur la ville, ses tombeaux, la lagune et le stationnement.",
+   "CONTENT": "Réécriture complète : en bref, citadelle et tableau des tombeaux, organisation de la journée des tombeaux (checklist), sorties à moto, rouler à Huế (checklist), louer et choisir sa machine, saisons, programme sur trois jours, FAQ de 5 questions. Supprimé : sections sur la cuisine, les croisières, les marchés, prose imagée. 1816 → 1733 mots.",
+   "META": "Titre « Huế à moto : citadelle, tombeaux royaux et environs » (50 car., diacritiques comme les hubs) ; description 150 caractères factuelle ; H1 = titre ; og:title/og:description identiques.",
+   "LINKS": "Parent /centre-sud-vietnam/ ; requis /types-motos/ et /permis-securite/securite/ ; conservés hue-a-hoi-an-moto et moto-hue-a-da-nang ; ajoutés /centre-sud-vietnam/centre/ et /centre-sud-vietnam/hue-a-phong-nha-moto/ : 7/7, parent présent.",
+   "AEO_GEO": "Réponse directe dans le chapeau et dans « Huế à moto en bref » ; 1 tableau des tombeaux ; 3 checklists (journée des tombeaux, stationnement/prudence, programme) ; FAQ 5 questions ; 2 citations externes inline."
+  },
+  "words_before": 1816,
+  "words_after": 1733,
+  "sources": [
+   {
+    "url": "https://nhandan.vn/post-758221.html",
+    "checked": "2026-10-30",
+    "used_for": "monuments de Huế premier site UNESCO du Vietnam le 11/12/1993 (déjà cité dans le hub Centre)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "saison des tempêtes et crues (déjà cité dans le hub Centre)"
+   },
+   {
+    "url": "https://www.nomads-travel-guide.com/places/minh-mang-tomb-mausoleum-of-minh-mang/",
+    "checked": "2026-10-30",
+    "used_for": "distances indicatives des tombeaux Minh Mạng/Khải Định/Tự Đức (seen in search result, chiffres divergents entre guides ; non cité en lien)"
+   }
+  ],
+  "owner_gaps": [
+   "Possibilité d'utiliser une moto louée à Long Biên à Huế et de la rendre dans le Centre : à confirmer par le loueur."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/meilleur-moto-dalat/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto choisir pour Đà Lạt : scooter automatique, semi-automatique ou trail selon le programme, les cols, la météo et le niveau du conducteur.",
+  "new_meta": {
+   "title": "Quelle moto pour Đà Lạt : automatique, semi-auto ou trail ?",
+   "description": "Quelle moto pour Đà Lạt ? Scooter automatique, semi-automatique ou trail selon les cols, la brume et votre niveau, avec les contrôles à faire avant de signer.",
+   "h1": "Quelle moto pour Đà Lạt : automatique, semi-auto ou trail ?"
+  },
+  "evidence": {
+   "FACTS": "Supprimé / corrigé : « les moteurs y respirent un air plus dense » (faux : l'air est moins dense en altitude), « la semi-auto, plus haute… roue avant plus large » (spécifications non sourcées), « les livreurs, les fermiers et les habitants y roulent presque tous en semi-auto » (non sourcé), « un loueur sérieux accepte cet essai » généralisé, « le contrat se lit : caution, franchise, assistance » (remplacé par une formule générique), « conduire sans permis… refus d'indemnisation » (affirmation juridique/assurance non sourcée) et « évite l'amende ». Sourcé : Đà Lạt ~1 500 m et ~300 km de Hô-Chi-Minh-Ville (VnExpress, déjà cité dans le hub Sud) ; col de Prenn ~7 km et Ngoạn Mục ~18 km (VnExpress, seen in search result), col de Mimosa ~11 km (VnExpress, seen in search result) ; éboulements signalés sur Prenn, Ngoạn Mục et Mimosa (titres VnExpress vus en résultats de recherche, formulé « ces dernières années ») ; fermeture du col de Khánh Lê par fortes pluies (VOV, déjà cité dans les hubs) ; saison des pluies du Sud mai–novembre / sèche décembre–avril (hubs). Aucun prix, aucune spécification de modèle, aucun modèle cité. Location : Nguyễn Hà à Long Biên ; usage à Đà Lạt non confirmé, à faire confirmer par écrit ; recommandation de comparer des loueurs sur place sans citer d'offre. Permis et assurance : formulation générique (nationalité, permis, cylindrée ; vérifier la couverture de l'assurance voyage), pas d'amende chiffrée.",
+   "INTENT": "Question : « Quelle moto louer pour Đà Lạt selon mon programme ? ». Owner. Différent de da-lat-voyage-moto (le plateau, liée), da-lat-moto-1-jour/2-jours (itinéraires) et types-motos/automatique-ou-semi-automatique-moto-vietnam (comparaison générale, liée) : cet article traite le choix de la machine propre au relief de Đà Lạt.",
+   "CONTENT": "Réécriture complète : choix en bref (tableau programme/catégorie), ce que le relief change (cols et saisons), scooter automatique, semi-automatique, trail, contrôles avant de signer (checklist), louer à Hanoi ou sur place, permis et conduite en altitude, FAQ de 5 questions. Les sections sur les moteurs, la fatigue du poignet et les anecdotes ont été remplacées par des critères concrets. 1827 → 1738 mots.",
+   "META": "Titre « Quelle moto pour Đà Lạt : automatique, semi-auto ou trail ? » (58 car., avec diacritiques) ; description 158 caractères factuelle ; H1 = titre ; og:title/og:description identiques ; eyebrow raccourci.",
+   "LINKS": "Parent /centre-sud-vietnam/ ; requis /types-motos/ et /permis-securite/securite/ ; conservés da-lat-voyage-moto et moto-nha-trang-a-dalat ; ajoutés /types-motos/trail/ et /types-motos/automatique-ou-semi-automatique-moto-vietnam/ : 7/7, parent présent.",
+   "AEO_GEO": "Réponse directe dans le chapeau et dans le tableau « Le choix en bref » ; 1 tableau, 1 checklist (contrôles) ; FAQ 5 questions ; 4 citations externes inline."
+  },
+  "words_before": 1827,
+  "words_after": 1738,
+  "sources": [
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-lam-dong-4807324.html",
+    "checked": "2026-10-30",
+    "used_for": "Đà Lạt ~1 500 m, ~300 km de Hô-Chi-Minh-Ville (déjà cité dans le hub Sud)"
+   },
+   {
+    "url": "https://vnexpress.net/sat-lo-deo-prenn-4964821.html",
+    "checked": "2026-10-30",
+    "used_for": "col de Prenn ~7 km, col de Ngoạn Mục ~18 km, éboulements signalés (seen in search result)"
+   },
+   {
+    "url": "https://vnexpress.net/sat-lo-deo-mimosa-da-lat-4965999.html",
+    "checked": "2026-10-30",
+    "used_for": "col de Mimosa ~11 km, éboulement signalé (seen in search result)"
+   },
+   {
+    "url": "https://vov.vn/xa-hoi/khanh-hoa-nghiem-cam-phuong-tien-qua-deo-khanh-le-khi-co-mua-lon-post1143494.vov",
+    "checked": "2026-10-30",
+    "used_for": "fermeture du col de Khánh Lê par fortes pluies (déjà cité dans les hubs)"
+   }
+  ],
+  "owner_gaps": [
+   "Possibilité d'utiliser une moto louée à Long Biên à Đà Lạt et de la rendre dans le Sud : à confirmer par le loueur."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/meilleur-moto-vietnam-nord-sud/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto choisir pour traverser le Vietnam du Nord au Sud : comparaison scooter automatique, semi-automatique, trail ; entretien, bagages, relief et règles.",
+  "new_meta": {
+   "description": "Quelle moto pour traverser le Vietnam du Nord au Sud ? Scooter automatique, semi-automatique ou trail : fiabilité, entretien, bagages, relief et règles."
+  },
+  "evidence": {
+   "FACTS": "Supprimé : tout le jargon (« la méthode du site », « la flotte du jour se lit chez le loueur du jour », « le semi-automatique à boîte se conduit aux pieds qui changent… ») et la phrase signalée par la revue (« dépannages qui se improvisent »). Sourcé : ligne ferroviaire Hanoi–Saigon 1 726 km (thuviennhadat.vn, déjà cité dans le hub Centre-Sud) ; Quy Nhơn à 1 065 km de Hanoi (VnExpress, hub) ; autoroutes interdites aux motos par la loi 36/2024/QH15, en vigueur depuis le 1/1/2025 (Lao Động, hub) ; tunnel de Hải Vân réservé aux automobiles, deux-roues sur camion de transfert en 2020 (VnExpress, hub) ; envoi d'une moto par le train, autorisation du propriétaire nécessaire (Vietnam Coracle, hub) ; sollicitations par zone issues des hubs (camions sur la NH1, brume du col, éboulements de Khánh Lê, vent et sable à Mũi Né, trafic dense à Saigon) ; saisons (hubs). Aucun modèle, aucune spécification, aucun prix, aucune disponibilité de flotte cités. Location : Nguyễn Hà à Long Biên ; zone d'usage, transport, restitution, entretien, remplacement et assistance présentés comme questions à poser et à faire confirmer par écrit, jamais comme offres. Achat d'une moto : seulement mentionné comme hors cadre, dépendant de la situation et des papiers. Permis et assurance : formules génériques.",
+   "INTENT": "Question : « Quelle moto pour traverser le Vietnam du Nord au Sud ? ». Owner. Plus proche : vietnam-nord-a-sud-voyage-moto (itinéraire et grandes régions, lié une fois) et vietnam-voyage-moto-budget-nord-sud (budget) : cet article ne traite que du choix de la machine, de l'entretien et de la location, sans refaire l'itinéraire ni le budget.",
+   "CONTENT": "Réécriture complète : tableau des trois familles, tableau zone/sollicitation, choix selon le profil (tableau), confort et rythme, règles de route (autoroutes, tunnel), endurance : entretien et bagages (checklist), louer pour une traversée (questions à poser), FAQ de 5 questions. 1582 → 1746 mots.",
+   "META": "Titre conservé (« Quelle moto pour traverser le Vietnam du Nord au Sud ? », 54 car., conforme à la requête) ; description réécrite (152 car.) sans « méthode du site » ; H1 = titre ; og:title/og:description identiques ; eyebrow court.",
+   "LINKS": "Parent /centre-sud-vietnam/ ; requis /types-motos/ et /permis-securite/securite/ ; conservés vietnam-nord-a-sud-voyage-moto, types-motos/automatique-ou-semi-automatique-moto-vietnam, types-motos/trail ; ajouté moto-entretien-liste-controle-vietnam-voyage-moto ; retiré types-motos/meilleur-moto-montagne-routes-vietnam (limite de 7 liens) : 7/7, parent présent.",
+   "AEO_GEO": "Réponse directe dans le chapeau ; 3 tableaux (familles, zones, profils) ; 2 checklists (entretien/bagages, questions au loueur) ; FAQ 5 questions ; 4 citations externes inline."
+  },
+  "words_before": 1582,
+  "words_after": 1746,
+  "sources": [
+   {
+    "url": "https://thuviennhadat.vn/phap-ly-nha-dat/danh-sach-cac-tuyen-duong-sat-o-mien-nam-684173.html",
+    "checked": "2026-10-30",
+    "used_for": "ligne Hanoi–Saigon 1 726 km (déjà cité dans le hub Centre-Sud)"
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-quy-nhon-4119727.html",
+    "checked": "2026-10-30",
+    "used_for": "Quy Nhơn à 1 065 km de Hanoi (déjà cité dans le hub)"
+   },
+   {
+    "url": "https://news.laodong.vn/tu-van-phap-luat/quy-dinh-ve-giao-thong-tren-duong-cao-toc-theo-luat-moi-1398493.ldo",
+    "checked": "2026-10-30",
+    "used_for": "loi 36/2024/QH15, autoroutes interdites aux motos (déjà cité dans le hub)"
+   },
+   {
+    "url": "https://vnexpress.net/mo-ham-hai-van-cho-doan-nguoi-ve-que-4368282.html",
+    "checked": "2026-10-30",
+    "used_for": "tunnel de Hải Vân réservé aux automobiles (déjà cité dans le hub)"
+   },
+   {
+    "url": "https://vietnamcoracle.com/how-to-send-your-motorbike-on-the-train",
+    "checked": "2026-10-30",
+    "used_for": "envoi d'une moto par le train (déjà cité dans le hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Zone d'utilisation, transport, restitution ailleurs, entretien en route, remplacement de moto et assistance pour une moto louée à Long Biên lors d'une traversée vers le Sud : à confirmer par le loueur."
+  ]
+ }
+]

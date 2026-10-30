@@ -1,0 +1,211 @@
+[
+ {
+  "path": "hanoi/hanoi-1-jour-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment voir Hanoi en une journée à moto ou en scooter, dans quel ordre, avec quels parkings et quelles contraintes (retrait 09:00, restitution avant 21:00).",
+  "words_before": 2250,
+  "words_after": 2031,
+  "new_meta": {
+   "title": "Hanoi en 1 jour à moto : itinéraire du pont Long Biên au soir",
+   "description": "Un jour à Hanoi à moto : pont Long Biên, Vieux Quartier et lac Hoàn Kiếm à pied, Temple de la Littérature, lac de l’Ouest au couchant, retour avant 21 h.",
+   "h1": "Une journée à Hanoi à moto : l’itinéraire du matin au soir"
+  },
+  "evidence": {
+   "FACTS": "Removed the mannered/invented prose (« trente-six rues se laissent lire », « la grille qui se lit », distances/durées « dix minutes de scooter », « une bonne dizaine de km ») and the unsourced « rue du train » rules. Facts now match the rewritten hubs hanoi/ and hanoi/que-faire/: Long Biên bridge reserved to motorbikes/bicycles/pedestrians, closed ~2 months in spring 2026, reopened 28 May 2026 (Viet Nam News, seen in search result in hub review); Chương Dương as alternative; Hoàn Kiếm weekend pedestrian rules (Fri 19:00–Sun 24:00 lake perimeter, Old Quarter Fri–Sun 19:00–24:00, suspension 13–20 March 2026); low-emission zone pilot from 1 July 2026 (VietNamNet); mausoleum mornings only, annual closure 4 Sept–2 Nov 2026, reopening announced 3 Nov; Văn Miếu hours/fees left to check (sources conflict); Museum of Ethnology 8:30–17:30 closed Monday (official site, per hub); West Lake loop 15–18 km « selon les sources »; holiday parking surcharges (Lao Động, per hub). Train Street: Tuổi Trẻ News Aug 2026 describes it still busy; a Jan 2026 Tuổi Trẻ headline reports a proposal to halt trains (seen in search result, no URL used) — phrased as « vérifiez la règle du jour ». Egg coffee: café Giảng « souvent cité comme l'origine » and café Phố Cổ rooftop on the lake, flagged « à vérifier » (seen in search result: Vietnam News, localvietnam). Shop facts only: NAP, Zalo/WhatsApp, 09:00–21:00 daily. Price: owner reference 150 000–200 000 VND/day (semi-auto and automatic) with the mandatory disclaimer; no package computed. Deposit/insurance/breakdown/early or late pick-up phrased as points to confirm, no policy stated. Licence: generic qualified sentence only.",
+   "INTENT": "Main question: can you see Hanoi in one day by motorbike and how. Owner (OWNER) = /hanoi/hanoi-1-jour-itineraire/. Differs from /hanoi/hanoi-7-jours-itineraire/ (week plan) and /hanoi/que-faire/ (1/2/3-day tables without a rider's logistics) by giving one rider's loop with pickup/return hours, parking and closures.",
+   "CONTENT": "Entire article rewritten (lead + 9 H2 sections:itinéraire table, pont Long Biên, Vieux Quartier + 3-rule checklist, Temple de la Littérature/Ba Đình choice, lac de l'Ouest, soirée et restitution, moto et budget, FAQ, aller plus loin). Removed template filler (« la page du silo », « la méthode de toute la journée », « machine rendue ou gardée selon le contrat », « règle des sens »). 2250→2031 words.",
+   "META": "Title, description and H1 rewritten (old description 175 chars, « logistique réelle »); og:title/og:description synced; eyebrow shortened.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (all required internal_link_targets), plus /hanoi/que-faire/, /hanoi/hanoi-2-jours-itineraire/, /hanoi/long-bien-pont-hanoi/, /hanoi/west-lac-hanoi-moto/. Removed /hanoi/excursions-moto/ and /location-moto-hanoi/debutant-location-moto-hanoi/ to stay within the cap.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). Programme table (moment/étape/comment/à vérifier), 3-item checklist of centre rules, 5 FAQ with short answers not repeating the body. Inline citations: Viet Nam News, VietNamNet, Tuổi Trẻ News."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Biên bridge reopened 28 May 2026 (seen in search result, same source as hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-30",
+    "used_for": "Low-emission zone pilot around Hoàn Kiếm from 1 July 2026 (seen in search result, same source as hub)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/hanois-trackside-coffee-street-remains-bustling-after-foreign-tourists-phone-knocked-away-by-train-103260811185725616.htm",
+    "checked": "2026-10-30",
+    "used_for": "Train street still busy in Aug 2026 (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Early pick-up / overnight return policy, deposit, insurance and breakdown procedure remain unconfirmed (phrased as questions to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-2-jours-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser deux jours à Hanoi à moto : centre à pied le premier jour, ouest et lacs à moto le second, avec jours de fermeture et rues piétonnes.",
+  "words_before": 1916,
+  "words_after": 1673,
+  "new_meta": {
+   "title": "Hanoi en 2 jours à moto : le centre à pied, puis l’ouest",
+   "description": "Deux jours à Hanoi à moto : Vieux Quartier, lac Hoàn Kiếm et quartier français le premier jour ; Temple de la Littérature, Ba Đình et lac de l’Ouest le second.",
+   "h1": "Deux jours à Hanoi à moto : le centre d’abord, l’ouest ensuite"
+  },
+  "evidence": {
+   "FACTS": "Removed invented/mannered claims (« trente-six rues », « dix minutes » transfers, « une demi-heure » lake tour, « cape de pluie sport local », hotel/hammam filler, « pagode au parfum d'encens du secteur »). Facts aligned with hubs hanoi/ and hanoi/que-faire/: Long Biên bridge reopened 28 May 2026 (Chương Dương alternative); weekend pedestrian rules and 13–20 March 2026 suspension; LEZ pilot since 1 July 2026 (restrictions by vehicle type/time in two Hoàn Kiếm sectors); mausoleum mornings only, certain days, annual closure 4 Sept–2 Nov 2026 with 3 Nov reopening announced; Museum of Ethnology 8:30–17:30 closed Mondays and Tết (official site, per hub); Văn Miếu hours/fees left to check; West Lake loop 15–18 km « selon les sources »; seasons (rainy/hot ~May–Sept, cool drizzly winter) from localvietnam (seen in search result in hub review). Shop facts only: 09:00–21:00 daily, pickup in Long Biên. Price: owner reference 150 000–200 000 VND/day (automatic and semi-automatic) with mandatory disclaimer; explicitly no two-day package. Deposit/insurance, hotel parking for the bike, licence phrased as points to confirm. Review flag « delivery » is a false positive (question to ask the hotel).",
+   "INTENT": "Main question: how to spend two days in Hanoi by motorbike. Owner = /hanoi/hanoi-2-jours-itineraire/. Differs from /hanoi/hanoi-1-jour-itineraire/ (single loop with pickup/return logistics), /hanoi/hanoi-4-jours-itineraire/ (adds villages) and /hanoi/que-faire/ (sightseeing tables, no rider logistics) by splitting centre on foot vs west by moto and covering overnight parking and weekday/closing-day choices.",
+   "CONTENT": "Entire article rewritten: programme table (2 columns), jour 1, nuit/parking, five riding reflexes (checklist), jour 2, pluie/chaleur, moto/budget, 4-question FAQ. Removed filler and repeated « silo »/« dossier » references. 1916→1673 words.",
+   "META": "Title shortened and made concrete (old description 173 chars); description 159 chars; H1 aligned; og:title/og:description synced.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire/, /hanoi/ba-dinh-hanoi-itineraire/, /hanoi/hanoi-3-jours-itineraire/, /permis-securite/moto-pluie-securite-vietnam/. Dropped /hanoi/excursions-moto/ and debutant-location to respect the cap.",
+   "AEO_GEO": "Direct answer in lead; programme table; riding checklist; 4 FAQ. No external citations beyond facts already used in hubs (stated as such)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Hotel/overnight parking for the rental bike, deposit and insurance remain unconfirmed (phrased as questions)."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-3-jours-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser trois jours à Hanoi à moto : deux jours en ville plus une sortie au choix (Bát Tràng, Ecopark, Cổ Loa, Đường Lâm).",
+  "words_before": 1813,
+  "words_after": 1667,
+  "new_meta": {
+   "title": "Hanoi en 3 jours à moto : deux jours en ville, un jour dehors",
+   "description": "Trois jours à Hanoi à moto : centre et ouest en deux jours, puis une sortie au choix (Bát Tràng, Cổ Loa, Ecopark ou Đường Lâm), avec distances à vérifier.",
+   "h1": "Trois jours à Hanoi à moto : deux jours en ville, une sortie au choix"
+  },
+  "evidence": {
+   "FACTS": "Removed the mannered « méthode de l'autonome », « le voyageur autonome comprend avant de cocher », invented « une heure de guidon du centre », « hammam de quartier », « procédure d'assistance du contrat », « dépôt, papiers, assistance » claims. Distances only as ranges from sourced guides, consistent with hanoi/excursions-moto/: Bát Tràng 13–15 km (vietnamtrips, seen in search result 2026-10-30 and in hub), Đường Lâm 40–44 km (Hanoi Times/VietNamNet via hub), Cổ Loa 16–20 km north (seen in search result 2026-10-30: kupi, audiala, vietnamtrips listings; sources vary), Ecopark 14–17 km by road, ~500 ha (seen in search result: Smart Local, vneconomy). No travel times. Expressway ban + 11 foreign riders fined Feb 2026 (VOV, link from hub evidence); Thăng Long avenue central lanes (Đại biểu Nhân dân, per hub). Mausoleum annual closure 4 Sept–2 Nov 2026, Museum of Ethnology hours, LEZ pilot, bridge reopening: same as hubs. Bát Tràng village entry free / museum and class prices varying: described qualitatively (seen in search result: vietnamtourism.com Bát Tràng guide). Price: owner reference 150 000–200 000 VND/day with disclaimer; no 3-day package. Deposit, insurance, out-of-Hanoi use, breakdown procedure and model availability phrased as points to confirm.",
+   "INTENT": "Main question: what to do in three days in Hanoi by motorbike. Owner = /hanoi/hanoi-3-jours-itineraire/. Differs from /hanoi/hanoi-2-jours-itineraire/ (city only) and /hanoi/hanoi-7-jours-itineraire/ (week with several excursions) by focusing on how to choose and prepare one day-trip as the third day.",
+   "CONTENT": "Entire article rewritten: plan table, jours 1–2 summary pointing to the 2-day guide, excursion comparison table (distance/format/for whom), rules outside the city (checklist), two ways to build day 3, fatigue and weather, moto and budget, 4 FAQ. 1813→1667 words.",
+   "META": "Title/description/H1 rewritten (old description 165 chars); og tags synced.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-2-jours-itineraire/, /hanoi/hanoi-a-bat-trang-moto/, /hanoi/hanoi-a-duong-lam-moto/. Cổ Loa and Ecopark mentioned without link to stay within the cap.",
+   "AEO_GEO": "Direct answer in lead; 2 tables; 5-item rules checklist; 4 FAQ; inline citation VOV with link."
+  },
+  "sources": [
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Expressway ban enforced against foreign riders, Feb 2026 (seen in hub evidence, same figure as hanoi/excursions-moto/)"
+   },
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "Bát Tràng 13–15 km (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Out-of-Hanoi use of the rented bike, deposit, insurance and breakdown procedure remain unconfirmed (phrased as questions)."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-4-jours-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser quatre jours à Hanoi à moto : deux jours de ville, une demi-journée à l'est (Bát Tràng, Ecopark) et une journée à l'ouest (Đường Lâm ou Ba Vì), dernier jour en réserve.",
+  "words_before": 1828,
+  "words_after": 1618,
+  "new_meta": {
+   "title": "Hanoi en 4 jours à moto : ville, puis deux sorties à la journée",
+   "description": "Quatre jours à Hanoi à moto : deux jours en ville, puis Bát Tràng en demi-journée et Đường Lâm ou Ba Vì en journée, avec distances, règles et jour de réserve.",
+   "h1": "Hanoi en 4 jours à moto : deux jours en ville, deux jours dehors"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced/mannered claims (« une demi-heure de bus en quinze minutes », « une balade d'une demi-heure selon l'axe choisi », « garde / villages artisans », trail-bike advice for digues, essence/stationnement filler, « conditions qui se négocient »). Distances: Bát Tràng 13–15 km (vietnamtrips), Ecopark 14–17 km by road and ~500 ha (seen in search result 2026-10-30: Smart Local, vneconomy), Đường Lâm 40–44 km, Ba Vì ~60 km per most guides, Cổ Loa 16–20 km (seen in search result: kupi/audiala/vietnamtrips), consistent with hanoi/excursions-moto/. Ba Vì: Tản Viên peak 1,226–1,227 m (seen in search result: vietnamtravel.com, vinpearl); temple steps given as a wide range « 500 à plus de 1 200 » because sources conflict (Lonely Planet >1,200 vs others ~500, seen in search result); entrance fee 15 000–60 000 VND adult with 60 000 VND (Ministry of Finance circular 2016, lawnet.vn, also Vietnam Airlines) best documented — seen in search result, flagged « confirmez le tarif à l'entrée »; ancient French church mentioned « selon des guides » (seen in search result). Bát Tràng: free village entry, paid ceramics museum, variable workshop prices, cash-only shops (seen in search result: vietnamtourism.com, local guides) described qualitatively. Rules: expressway ban, Thăng Long avenue central lanes, LEZ pilot, weekend pedestrian streets, Museum of Ethnology hours: same as hubs. Price: owner reference 150 000–200 000 VND/day with disclaimer, no 4-day package. Deposit, insurance, out-of-Hanoi use, breakdown phrased as points to confirm. Review flags refund_payment/money_not_in_owner_table concern third-party fees clearly attributed to guides.",
+   "INTENT": "Main question: how to spend four days in Hanoi by motorbike. Owner = /hanoi/hanoi-4-jours-itineraire/. Differs from /hanoi/hanoi-3-jours-itineraire/ (one outing as day 3), /hanoi/hanoi-5-jours-itineraire/ (food angle) and /hanoi/hanoi-7-jours-itineraire/ (week, rest day, several outings) by pairing a half-day east and a full day west, with day 4 as weather reserve.",
+   "CONTENT": "Entire article rewritten: plan table, jours 1–2 pointing to the 2-day guide, jour 3 (Bát Tràng + Ecopark), jour 4 comparison table Đường Lâm vs Ba Vì, rules checklist, soirées et jour de réserve, moto/budget, 4 FAQ. 1828→1618 words.",
+   "META": "Title/description/H1 rewritten (old description 166 chars); og tags synced.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-2-jours-itineraire/, /hanoi/hanoi-a-bat-trang-moto/, /hanoi/hanoi-a-duong-lam-moto/, /hanoi/hanoi-a-ba-vi-moto/. Excursions hub not linked here (cap).",
+   "AEO_GEO": "Direct answer in lead; plan table + comparison table; 5-item rules checklist; 4 FAQ with short answers."
+  },
+  "sources": [
+   {
+    "url": "https://lawnet.vn/thong-tin-phap-luat/en/chinh-sach-moi/from-2017-the-entrance-fee-for-ba-vi-national-park-reaches-a-maximum-of-60-000-vnd-164522.html",
+    "checked": "2026-10-30",
+    "used_for": "Ba Vì entrance fee up to 60 000 VND per 2016 circular (seen in search result; other guides give 15 000–30 000)"
+   },
+   {
+    "url": "https://vietnamtravel.com/ba-vi-national-park",
+    "checked": "2026-10-30",
+    "used_for": "Tản Viên 1,226 m (seen in search result)"
+   },
+   {
+    "url": "https://thesmartlocal.com/vietnam/ecopark-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Ecopark ~500 ha, 17 km from centre (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Out-of-Hanoi use, deposit, insurance, breakdown procedure and exact model availability unconfirmed (phrased as questions)."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-5-jours-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser cinq jours à Hanoi à moto en suivant la cuisine : visites, repas à prévoir, sorties (Bát Tràng, Đường Lâm, Ba Vì) et un jour de ralentissement.",
+  "words_before": 1949,
+  "words_after": 1606,
+  "new_meta": {
+   "title": "Hanoi en 5 jours à moto : un programme rythmé par les repas",
+   "description": "Cinq jours à Hanoi à moto en suivant la cuisine : phở, bún chả et café à l’œuf dans le centre, puis Bát Tràng, Đường Lâm ou Ba Vì, avec parkings et fermetures.",
+   "h1": "Hanoi en 5 jours à moto : un séjour rythmé par les repas"
+  },
+  "evidence": {
+   "FACTS": "Removed mannered/vague claims (« la semaine parfaite pour qui veut manger la ville », « une balade d'une demi-heure selon l'axe choisi », « conditions de durée qui se négocient sur devis du moment », trail-bike advice, street-food hand-waving). Dishes described from general culinary knowledge (phở, bún chả, bánh cuốn, chả cá, bún đậu mắm tôm); no restaurant names, no dish prices. Egg coffee: invention attributed to bartender Nguyễn Văn Giảng in 1946 with the caveat that contemporaneous records are missing (seen in search result 2026-10-30: Vietnam News, vietnamnet, seasia). Distances: Bát Tràng 13–15 km, Ecopark 14–17 km/~500 ha/Phố Trúc (seen in search result: Smart Local, vneconomy, travelpal), Đường Lâm 40–44 km, Ba Vì ~60 km; Đường Lâm sites (Mông Phụ gate and communal house, Mía pagoda, Phùng Hưng temple, Ngô Quyền mausoleum) and 50 000 VND entry cited by one operator, flagged unofficial (seen in search result: Wikipedia, tour listing). Weekend pedestrian rules, mausoleum closure (4 Sept–2 Nov 2026), Museum of Ethnology hours (8:30–17:30, closed Monday), expressway ban: same as hubs. Seasons: rainy ~May–Sept, cool drizzly winter (localvietnam, per hub). Price: owner reference 150 000–200 000 VND/day with disclaimer; no 5-day package. Deposit/insurance/permit phrased as points to confirm.",
+   "INTENT": "Main question: how to spend five days in Hanoi by motorbike (food-led). Owner = /hanoi/hanoi-5-jours-itineraire/. Differs from /hanoi/hanoi-7-jours-itineraire/ (week with rest day and several outings) and /hanoi/hanoi-4-jours-itineraire/ (no food thread) by organising each day around meals and adding a slow fifth day; the dedicated street-food circuit stays at /hanoi/hanoi-street-food-itineraire-moto/.",
+   "CONTENT": "Entire article rewritten: programme table with meals, five dishes checklist, street-eating checklist (7 items), jours 1–4 with practical rules, jour 5, moto/budget, 4 FAQ. 1949→1606 words.",
+   "META": "Title/description/H1 rewritten (old description 171 chars); og tags synced.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-4-jours-itineraire/, /hanoi/hanoi-a-bat-trang-moto/, /hanoi/hanoi-street-food-itineraire-moto/, /hanoi/hanoi-cafes-itineraire-moto/. Removed /hanoi/excursions-moto/ (cap).",
+   "AEO_GEO": "Direct answer in lead; programme table; two checklists; 4 FAQ."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/life-style/717886/wake-up-and-smell-the-egg-coffee.html",
+    "checked": "2026-10-30",
+    "used_for": "Egg coffee origin attributed to Nguyễn Văn Giảng, 1946 (seen in search result; records contested)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m_Ancient_Village",
+    "checked": "2026-10-30",
+    "used_for": "Đường Lâm sites: Mía pagoda, Mông Phụ communal house, Phùng Hưng temple, Ngô Quyền mausoleum (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Deposit, insurance, permit handling and 5-day rate not confirmed (phrased as questions)."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-7-jours-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser une semaine à Hanoi à moto en base fixe : ville, trois sorties, un jour de repos, variantes de deux jours hors de Hanoi, tarif hebdomadaire indicatif.",
+  "words_before": 1633,
+  "words_after": 1609,
+  "new_meta": {
+   "title": "Hanoi en 7 jours à moto : ville, trois sorties, un jour de repos",
+   "description": "Une semaine à Hanoi à moto : deux jours en ville, trois sorties (Bát Tràng, Đường Lâm, Ba Vì), un jour de repos et le tarif hebdomadaire indicatif.",
+   "h1": "Hanoi en 7 jours à moto : un séjour en base fixe, avec trois sorties"
+  },
+  "evidence": {
+   "FACTS": "Removed mannered/unsourced text (« camp de base », « conditions de durée qui se négocient sur devis du moment, garanties et usages », « boucles de digue en position haute », trail-bike claims). Distances aligned with hanoi/excursions-moto/: Bát Tràng 13–15 km, Ecopark 14–17 km/~500 ha (seen in search result), Cổ Loa 16–20 km with entrance 10 000–30 000 VND per guides (seen in search result: kupi/audiala listings, sources conflict), Đường Lâm 40–44 km (first village recognised as national relic, VietNamNet), Ba Vì ~60 km, Perfume Pagoda 60–70 km with boat from Đục wharf on Yến stream and festival 6th day of 1st lunar month to end of 3rd month (Vietnam Tourism/Vietnam Airlines, per hub), Tam Đảo 70–85 km in Phú Thọ province since July 2025 merger (per hub), Ninh Binh 86–104 km via QL1A (per hub). Expressway ban with Feb 2026 VOV case; Thăng Long avenue central lanes; LEZ pilot and planned 2027 extension; weekend pedestrian rules; Museum of Ethnology closed Monday/Tết; mausoleum closure 4 Sept–2 Nov 2026; holiday parking surcharges (Lao Động): all per hubs. Prices: owner weekly reference only (semi-auto 700 000–800 000, automatic 600 000–1 000 000 VND) in a table with the mandatory disclaimer and an explicit « ne multipliez pas ». Deposit, insurance, out-of-Hanoi use, breakdown, hotel luggage and permit category phrased as points to confirm. Review flag money_not_in_owner_table = third-party Cổ Loa admission range, attributed to guides.",
+   "INTENT": "Main question: how to plan seven days in Hanoi by motorbike. Owner = /hanoi/hanoi-7-jours-itineraire/. Differs from /hanoi/hanoi-5-jours-itineraire/ (food thread, one excursion fewer) and /hanoi/hanoi-4-jours-itineraire/ (two outings) by being a week-long base-camp plan with three outings, a rest day, overnight variants and a weekly rate.",
+   "CONTENT": "Entire article rewritten: day-by-day table, base fixe/parking, three outings (checklist with distances), overnight variant, calendar checklist, rest day and bike check, bike/weekly table, 4 FAQ. 1633→1609 words.",
+   "META": "Title/description/H1 rewritten; og tags synced; description 147 chars.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-bat-trang-moto/, /hanoi/hanoi-a-duong-lam-moto/, /hanoi/hanoi-a-ba-vi-moto/. Sibling itineraries mentioned in plain text only (cap).",
+   "AEO_GEO": "Direct answer in lead; day table; weekly-rate table with disclaimer; two checklists; 4 FAQ; VOV link."
+  },
+  "sources": [
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Expressway ban enforced against foreign riders Feb 2026 (seen in hub evidence)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/duong-lam-first-vietnamese-ancient-village-to-become-national-relic-712606.html",
+    "checked": "2026-10-30",
+    "used_for": "Đường Lâm first village recognised as national relic (seen in hub evidence)"
+   }
+  ],
+  "owner_gaps": [
+   "Weekly price for the exact model, deposit, insurance, breakdown and overnight/out-of-Hanoi use unconfirmed."
+  ]
+ }
+]
