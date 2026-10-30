@@ -1,0 +1,335 @@
+[
+ {
+  "path": "a-propos/index.html",
+  "words": 1487,
+  "words_qa": 1486,
+  "new_meta": {
+   "title": "À propos de Thuê xe máy Nguyễn Hà, location moto à Long Biên",
+   "description": "Qui est Thuê xe máy Nguyễn Hà, loueur de motos à Long Biên (Hanoi) : adresse, horaires 09:00–21:00, Zalo, WhatsApp et ce que le site garantit ou non.",
+   "h1": "À propos de Thuê xe máy Nguyễn Hà à Hanoi (unchanged)"
+  },
+  "evidence": {
+   "FACTS": "Only docs/SEO-FACTS.md facts: official name Thuê xe máy Nguyễn Hà, exact address Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 09:00–21:00 daily Hanoi time, 0334 699 969 / +84 334 699 969, tel/Zalo/WhatsApp links; owner price categories named without amounts (link to /prix-location/ + exact disclaimer); prices described as supplied in the October 2026 update. Removed old filler incl. « expérience » claim in meta, « La page Contact centralise … l’email » (no email exists). No founder story, years, team, reviews, awards, fleet list, deposit/delivery/insurance/payment promise. Images stated as illustrations (verified all 547 alts start « Illustration : » or « Image d’illustration »).",
+   "INTENT": "Navigational/trust for « Thuê xe máy Nguyễn Hà Hanoi », « loueur moto long bien »; owner URL /a-propos/; distinct from /contact/ (concise NAP + channels) because it explains who operates the rental, provenance of site information, what is not stated and how to prepare a request/report errors.",
+   "CONTENT": "All 9 template sections + SEO-process filler replaced. New H2s: Qui exploite la location (identity table th/td in table-scroll); Ce que vous pouvez louer et ce qui reste à confirmer; À quoi sert ce site en français; D’où viennent les informations publiées (h3: coordonnées, tarifs, guides, règles/permis/routes, images, assistant); Ce que le site n’affirme pas (checklist of unconfirmed items); Préparer votre demande (checklist, no ID copies upfront, consistent with CTA confirm vehicle/dates/price); Signaler une erreur; FAQ ×6; Pour aller plus loin. No external citation needed (no legal claim stated).",
+   "META": "Title 60 chars, meta 149 chars, og:title/og:description identical; H1 kept. Matrix sync required for seo_title + meta_description (data/seo-cluster-matrix.json FND-002 and data/seo-foundation-matrix.json).",
+   "LINKS": "Required /contact/, /faq/, /location-moto-hanoi/, /permis-securite/ present; added /prix-location/, /conditions/, /confidentialite/; all targets exist (seo_page_check no broken links).",
+   "AEO_GEO": "Lead answers who/where/hours in 2 sentences; identity table; explicit negative list (what the site does not claim); 6 direct FAQ answers (location, hours, illustrations, prices, reviews, booking). Built JSON-LD AboutPage name = H1 (verified via in-memory renderPage)."
+  },
+  "checks": "seo_page_check: only 'seo_title/meta_description differs … (sync required)'; review hits read: all deposit/passport/delivery/insurance/payment/legal sentences are negative or « à confirmer » questions; no seo_process/mannered/money/duplicate-paragraph signals. HTML tag balance OK; SEO_IMAGE_META, SEO_IMAGE block, canonical, og:url, og:image*, scripts, body attrs, breadcrumbs hook and closing hooks byte-identical to HEAD.",
+  "sources": [],
+  "owner_gaps": [
+   "O09: real operator identity/biography, history, photos of the shop/fleet — none published; supply if the owner wants them shown",
+   "O05: actual fleet/available models, inclusions (helmets etc.), payment methods",
+   "O01/O02: deposit/documents/delivery rules — page only says to confirm them",
+   "Preferred reply languages (French/English/Vietnamese) — page tells visitors to state their preference",
+   "O04: business email — none published; footer/schema keep email null",
+   "O03: Maps/GBP identity — the « Carte » button only searches the text address"
+  ],
+  "code_audit": [
+   {
+    "flow": "Theme preference stored in browser",
+    "evidence": "assets/js/app.js:1 — localStorage.getItem(\"theme\") at load; localStorage.setItem(\"theme\", \"light\"|\"dark\") only on click of [data-theme-toggle] (button rendered by assets/js/components.js:6, aria-label \"Changer le thème\", label ◐)",
+    "data": "one value light/dark, stays on device, never sent"
+   },
+   {
+    "flow": "Open/closed indicator",
+    "evidence": "assets/js/app.js:1 — now()/st() use Intl.DateTimeFormat with SITE_CONFIG.hours.timezone (Asia/Ho_Chi_Minh), setInterval 60 s",
+    "data": "computed locally, no network"
+   },
+   {
+    "flow": "Assistant + quick-contact injected at runtime",
+    "evidence": "assets/js/components.js:41 — appends same-origin /assets/js/assistant.js when featureFlags.quickContact/localChatbot (assets/js/site-config.js:22) are true and not at build time",
+    "data": "none"
+   },
+   {
+    "flow": "Assistant index download",
+    "evidence": "assets/js/assistant.js:38 — fetch(\"/assets/chat/search-index.json?v=20261007-fr1\",{cache:\"no-cache\"}); triggered when the panel opens (assistant.js:89 setChat→search.load()) and before a non-fixed answer (assistant.js:75)",
+    "data": "same-origin GET with constant URL; the typed question is not part of the request; logged by host like any request"
+   },
+   {
+    "flow": "Assistant question processing",
+    "evidence": "assets/js/assistant.js:46-61 fixedAnswer (regex on SITE_CONFIG hours/address/phone/prices; safe text for disponibilité, dépôt/caution/passeport, livraison), 39-43 local scoring against downloaded index, 72-76 legal disclaimer prefix, 90-95 messages appended to DOM, form submit preventDefault",
+    "data": "text stays in page memory/DOM only; no storage, no network call, lost on reload"
+   },
+   {
+    "flow": "Quick-contact links (bottom-left)",
+    "evidence": "assets/js/assistant.js:22-26 — tel:+84334699969; https://zalo.me/84334699969 and https://wa.me/84334699969 (target _blank rel noopener); Google Maps search URL from assets/js/site-config.js:14 contacts.maps (label « Carte »)",
+    "data": "plain links; third party receives data only after click; no referrer-policy meta anywhere so browser default applies"
+   },
+   {
+    "flow": "Assistant map link in answers",
+    "evidence": "assets/js/assistant.js:50 — link(C.contacts.maps,\"Ouvrir la carte\",true)",
+    "data": "opens Google Maps in new tab"
+   },
+   {
+    "flow": "Footer and CTA contact links",
+    "evidence": "assets/js/components.js:7 footer tel/Zalo/WhatsApp, mailto only if C.email (null at assets/js/site-config.js:10); components.js:10 global CTA tel: + /contact/",
+    "data": "plain links"
+   },
+   {
+    "flow": "Structured data",
+    "evidence": "assets/js/components.js:30-40 (runtime fallback) and tools/shared-site.mjs:17-47 (build) generate JSON-LD in page; \"https://schema.org\" is a context string, not a request",
+    "data": "none"
+   },
+   {
+    "flow": "Build/hosting",
+    "evidence": "tools/build-site.mjs copies public files to _site and injects shared header/footer via tools/shared-site.mjs; site/templates/layout.html is a bare shell; site/slots/*.html are empty; .github/workflows/pages.yml deploys _site with actions/deploy-pages (GitHub Pages); CNAME fr.rentbikehanoi.com",
+    "data": "host logs visitor IP for security (GitHub Pages docs)"
+   },
+   {
+    "flow": "Search Console token",
+    "evidence": "index.html — <meta name=\"google-site-verification\" content=\"4Q_Sglv…\">",
+    "data": "static text, loads nothing"
+   },
+   {
+    "flow": "Redirect pages",
+    "evidence": "4 files with data-page-type=\"redirect\" (e.g. location-moto-hanoi/motorbike-rental-in-hanoi-vietnam/index.html) contain inline location.replace(target+location.search+location.hash)",
+    "data": "none"
+   },
+   {
+    "flow": "Absence checks (negative evidence)",
+    "evidence": "grep over *.html/*.js/*.css/*.mjs (excl. .git/_site): no gtag, googletagmanager, google-analytics, fbq, facebook.net, pixel, hotjar, clarity, plausible (only French word « plausibles » in location-moto-hanoi/panne-scooter-hanoi/index.html:72), matomo, umami, cloudflareinsights, doubleclick, adsbygoogle, tiktok, yandex; no <iframe>; no external <script src>, <link href> (other than canonical) or <img src>; assets/css/site.css has no @import/@font-face/url() and uses a system font stack; assets/js has no document.cookie, sessionStorage, indexedDB, XMLHttpRequest, sendBeacon, WebSocket, serviceWorker, geolocation; no <form>/<input>/mailto in source HTML (the only form is the assistant input created by assistant.js:30, never submitted)",
+    "data": "no analytics, no cookies set by site code, no third-party loads"
+   }
+  ],
+  "code_issues": [
+   "assets/js/app.js:1 — localStorage.getItem/setItem(\"theme\") without try/catch: where storage access throws (blocked site data, some privacy modes) the whole app.js IIFE aborts, breaking mobile nav toggle, theme toggle and the Ouvert/Fermé status. Not changed (out of scope).",
+   "assets/js/assistant.js:38 — index URL carries a stale fixed version ?v=20261007-fr1 (cache:'no-cache' still revalidates; cosmetic).",
+   "Derived data drift after these edits: node tools/build-chat-index.mjs --check → 'chat search-index drift: 543 pages'; node tools/build-content-index.mjs --check → 'content-index drift' (may also include other agents' edits). Coordinator must regenerate.",
+   "scripts/qa.mjs reports for these 3 pages only 'title/meta differs from foundation matrix' → sync data/seo-foundation-matrix.json and data/seo-cluster-matrix.json with new_meta values.",
+   "No leftover old identity (Nguyễn Tú / 0942 467 674 / 112 Nguyễn Văn Cừ / 21:30) found in assets/js, assets/chat, assets/css or these pages; no tracking code found anywhere in source."
+  ]
+ },
+ {
+  "path": "conditions/index.html",
+  "words": 1383,
+  "words_qa": 1383,
+  "new_meta": {
+   "title": "Conditions d’utilisation du site | Thuê xe máy Nguyễn Hà",
+   "description": "Conditions d’utilisation de fr.rentbikehanoi.com : guides informatifs, tarifs indicatifs, location à convenir avec le loueur, liens externes et assistant.",
+   "h1": "Conditions d’utilisation du site (unchanged)"
+  },
+  "evidence": {
+   "FACTS": "Publisher identity limited to confirmed name/address/phone/Zalo/WhatsApp/hours; « aucune adresse e-mail n’est publiée »; exact price disclaimer; no fixed deposit/delivery/insurance terms; no jurisdiction, governing-law clause or liability waiver — only plain informational statements (guides ≠ legal advice/mechanical diagnosis/promise a road is open; reader checks own licence/vehicle/road). Assistant behaviour described from assets/js/assistant.js (fixed answers from SITE_CONFIG, local index search with source link, « à confirmer » for caution/livraison/disponibilité, general-information warning for permis/loi, no booking/availability). Quick-contact « Carte » = Google Maps search (assistant.js:26). English site link copies homepage target https://app.rentbikehanoi.com/ (hreflang en) with « ses propres contenus » — not asserted as same operator.",
+   "INTENT": "Website terms (navigational/trust) also answering « conditions location moto hanoi » truthfully: explains rental terms are agreed directly with the shop and lists the 8 points to have confirmed before booking, without stating any shop policy. Owner URL /conditions/; distinct from /faq/ and /prix-location/ (no Q&A hub, no price table).",
+   "CONTENT": "All template sections + SEO-process filler replaced. H2s: Éditeur et objet du site; Des guides d’information, pas des garanties; Tarifs indicatifs; Les conditions de location se fixent avec le loueur (checklist); Images d’illustration; Liens vers d’autres services; L’assistant intégré aux pages; Textes, illustrations et marques (neutral IP: personal use/printing/sharing links; other reuse ask permission; Honda/Yamaha marks belong to owners, no partnership implied); Erreurs et corrections; Modification de ces conditions (« Dernière mise à jour : 29 octobre 2026 », also in lead); FAQ ×4; Pour aller plus loin.",
+   "META": "Title 56 chars, meta 154 chars, og:* identical; H1 kept. Matrix sync required for seo_title + meta_description (FND-007 in data/seo-cluster-matrix.json and data/seo-foundation-matrix.json).",
+   "LINKS": "Required /confidentialite/, /contact/, /faq/ present; added /permis-securite/, /prix-location/, /a-propos/; external https://app.rentbikehanoi.com/ (rel noopener, hreflang en). All internal targets exist.",
+   "AEO_GEO": "Lead states scope in 3 sentences + date; checklist of rental points to confirm; 4 FAQ with direct « Non » answers (booking/payment, price guarantee, caution, assistant availability)."
+  },
+  "checks": "seo_page_check: only sync-required errors; reworded « l’assurance qu’une route… » to avoid insurance ambiguity; remaining review hits (caution/paiement/livraison/permis/garanti) are negative statements or questions to ask. Invariants byte-identical to HEAD; tag balance OK; in-memory render OK (WebPage JSON-LD).",
+  "sources": [],
+  "owner_gaps": [
+   "O04/O09: legal identity of the publisher (registered business/household-business name and number, legal representative) — terms name only Thuê xe máy Nguyễn Hà + confirmed NAP",
+   "O04: whether https://app.rentbikehanoi.com/ is operated by the same business (currently described only as an English site linked from the homepage)",
+   "Content reuse/licensing preference (currently « demandez l’accord de l’établissement »)",
+   "Whether the owner wants a governing-law/jurisdiction statement — none invented",
+   "O01/O02/O05: actual rental conditions (deposit, documents retained, delivery, insurance, breakdown procedure, payment, extension/early return) — page only lists them as points to confirm",
+   "O04: business email — none published; footer/schema keep email null",
+   "O03: Maps/GBP identity — the « Carte » button only searches the text address"
+  ],
+  "code_audit": [
+   {
+    "flow": "Theme preference stored in browser",
+    "evidence": "assets/js/app.js:1 — localStorage.getItem(\"theme\") at load; localStorage.setItem(\"theme\", \"light\"|\"dark\") only on click of [data-theme-toggle] (button rendered by assets/js/components.js:6, aria-label \"Changer le thème\", label ◐)",
+    "data": "one value light/dark, stays on device, never sent"
+   },
+   {
+    "flow": "Open/closed indicator",
+    "evidence": "assets/js/app.js:1 — now()/st() use Intl.DateTimeFormat with SITE_CONFIG.hours.timezone (Asia/Ho_Chi_Minh), setInterval 60 s",
+    "data": "computed locally, no network"
+   },
+   {
+    "flow": "Assistant + quick-contact injected at runtime",
+    "evidence": "assets/js/components.js:41 — appends same-origin /assets/js/assistant.js when featureFlags.quickContact/localChatbot (assets/js/site-config.js:22) are true and not at build time",
+    "data": "none"
+   },
+   {
+    "flow": "Assistant index download",
+    "evidence": "assets/js/assistant.js:38 — fetch(\"/assets/chat/search-index.json?v=20261007-fr1\",{cache:\"no-cache\"}); triggered when the panel opens (assistant.js:89 setChat→search.load()) and before a non-fixed answer (assistant.js:75)",
+    "data": "same-origin GET with constant URL; the typed question is not part of the request; logged by host like any request"
+   },
+   {
+    "flow": "Assistant question processing",
+    "evidence": "assets/js/assistant.js:46-61 fixedAnswer (regex on SITE_CONFIG hours/address/phone/prices; safe text for disponibilité, dépôt/caution/passeport, livraison), 39-43 local scoring against downloaded index, 72-76 legal disclaimer prefix, 90-95 messages appended to DOM, form submit preventDefault",
+    "data": "text stays in page memory/DOM only; no storage, no network call, lost on reload"
+   },
+   {
+    "flow": "Quick-contact links (bottom-left)",
+    "evidence": "assets/js/assistant.js:22-26 — tel:+84334699969; https://zalo.me/84334699969 and https://wa.me/84334699969 (target _blank rel noopener); Google Maps search URL from assets/js/site-config.js:14 contacts.maps (label « Carte »)",
+    "data": "plain links; third party receives data only after click; no referrer-policy meta anywhere so browser default applies"
+   },
+   {
+    "flow": "Assistant map link in answers",
+    "evidence": "assets/js/assistant.js:50 — link(C.contacts.maps,\"Ouvrir la carte\",true)",
+    "data": "opens Google Maps in new tab"
+   },
+   {
+    "flow": "Footer and CTA contact links",
+    "evidence": "assets/js/components.js:7 footer tel/Zalo/WhatsApp, mailto only if C.email (null at assets/js/site-config.js:10); components.js:10 global CTA tel: + /contact/",
+    "data": "plain links"
+   },
+   {
+    "flow": "Structured data",
+    "evidence": "assets/js/components.js:30-40 (runtime fallback) and tools/shared-site.mjs:17-47 (build) generate JSON-LD in page; \"https://schema.org\" is a context string, not a request",
+    "data": "none"
+   },
+   {
+    "flow": "Build/hosting",
+    "evidence": "tools/build-site.mjs copies public files to _site and injects shared header/footer via tools/shared-site.mjs; site/templates/layout.html is a bare shell; site/slots/*.html are empty; .github/workflows/pages.yml deploys _site with actions/deploy-pages (GitHub Pages); CNAME fr.rentbikehanoi.com",
+    "data": "host logs visitor IP for security (GitHub Pages docs)"
+   },
+   {
+    "flow": "Search Console token",
+    "evidence": "index.html — <meta name=\"google-site-verification\" content=\"4Q_Sglv…\">",
+    "data": "static text, loads nothing"
+   },
+   {
+    "flow": "Redirect pages",
+    "evidence": "4 files with data-page-type=\"redirect\" (e.g. location-moto-hanoi/motorbike-rental-in-hanoi-vietnam/index.html) contain inline location.replace(target+location.search+location.hash)",
+    "data": "none"
+   },
+   {
+    "flow": "Absence checks (negative evidence)",
+    "evidence": "grep over *.html/*.js/*.css/*.mjs (excl. .git/_site): no gtag, googletagmanager, google-analytics, fbq, facebook.net, pixel, hotjar, clarity, plausible (only French word « plausibles » in location-moto-hanoi/panne-scooter-hanoi/index.html:72), matomo, umami, cloudflareinsights, doubleclick, adsbygoogle, tiktok, yandex; no <iframe>; no external <script src>, <link href> (other than canonical) or <img src>; assets/css/site.css has no @import/@font-face/url() and uses a system font stack; assets/js has no document.cookie, sessionStorage, indexedDB, XMLHttpRequest, sendBeacon, WebSocket, serviceWorker, geolocation; no <form>/<input>/mailto in source HTML (the only form is the assistant input created by assistant.js:30, never submitted)",
+    "data": "no analytics, no cookies set by site code, no third-party loads"
+   }
+  ],
+  "code_issues": [
+   "assets/js/app.js:1 — localStorage.getItem/setItem(\"theme\") without try/catch: where storage access throws (blocked site data, some privacy modes) the whole app.js IIFE aborts, breaking mobile nav toggle, theme toggle and the Ouvert/Fermé status. Not changed (out of scope).",
+   "assets/js/assistant.js:38 — index URL carries a stale fixed version ?v=20261007-fr1 (cache:'no-cache' still revalidates; cosmetic).",
+   "Derived data drift after these edits: node tools/build-chat-index.mjs --check → 'chat search-index drift: 543 pages'; node tools/build-content-index.mjs --check → 'content-index drift' (may also include other agents' edits). Coordinator must regenerate.",
+   "scripts/qa.mjs reports for these 3 pages only 'title/meta differs from foundation matrix' → sync data/seo-foundation-matrix.json and data/seo-cluster-matrix.json with new_meta values.",
+   "No leftover old identity (Nguyễn Tú / 0942 467 674 / 112 Nguyễn Văn Cừ / 21:30) found in assets/js, assets/chat, assets/css or these pages; no tracking code found anywhere in source."
+  ]
+ },
+ {
+  "path": "confidentialite/index.html",
+  "words": 1307,
+  "words_qa": 1307,
+  "new_meta": {
+   "title": "Politique de confidentialité | Thuê xe máy Nguyễn Hà (unchanged)",
+   "description": "Ce que fr.rentbikehanoi.com traite vraiment : ni formulaire ni outil d’analyse, assistant local, choix du thème, hébergeur GitHub Pages, liens Zalo et WhatsApp.",
+   "h1": "Politique de confidentialité (unchanged)"
+  },
+  "evidence": {
+   "FACTS": "Every statement maps to code_audit: no account/form/newsletter; no analytics/ad/tracking tag and no cookie written by site code; all assets same-origin; only localStorage key « theme » (light/dark) on toggle use; open/closed computed locally; assistant downloads constant-URL same-origin index on open and processes text locally, nothing sent/stored; tel/Zalo/WhatsApp/Google Maps are plain links (no embed), browser may send origin as referrer (no referrer-policy set); GitHub Pages IP logging quoted from GitHub docs; GSC verification meta described as static text. Unknown practices (retention, access, response delay) explicitly stated as not yet published → ask the shop. No legal regime, DPO, retention period or rights catalogue invented.",
+   "INTENT": "Navigational/trust « politique de confidentialité »; owner URL /confidentialite/; distinct from /conditions/ (scope of information) — this page covers data flows only.",
+   "CONTENT": "All template sections + filler replaced (old copy wrongly said the site offers an email address). H2s: En bref (7-point summary); Qui est responsable du site; Ce que le site enregistre dans votre navigateur; Hébergement du site par GitHub Pages; L’assistant : ce que deviennent vos questions; Quand vous contactez Thuê xe máy Nguyễn Hà (tel, Zalo, WhatsApp, Google Maps + advice not to send ID copies unless required); Vos demandes sur vos informations; Mises à jour de cette politique (« Dernière mise à jour : 29 octobre 2026 », also in lead); FAQ ×4 (cookies, Analytics/pixel, assistant storage, deleting messages); Pour aller plus loin.",
+   "META": "Title unchanged (52 chars); meta 160 chars, og:description identical. Matrix sync required for meta_description only (FND-006 in data/seo-cluster-matrix.json and data/seo-foundation-matrix.json).",
+   "LINKS": "Required /contact/, /conditions/, /a-propos/ present. External citations (rel noopener) to the 5 retrieved policy URLs below.",
+   "AEO_GEO": "« En bref » bullet summary answers the main privacy questions immediately; 4 FAQ with yes/no answers grounded in code; GitHub statement attributed and dated."
+  },
+  "checks": "seo_page_check: only meta sync error; review hits = passport/legal advice sentence (advice only). Invariants byte-identical to HEAD; tag balance OK; in-memory render OK.",
+  "sources": [
+   {
+    "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+    "checked": "2026-10-29",
+    "used_for": "« Data collection »: visitor IP logged and stored for security purposes regardless of GitHub sign-in (requested /about-github-pages, redirected here); retrieved with TinyFish fetch_content (WebFetch/Firecrawl unavailable)"
+   },
+   {
+    "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "checked": "2026-10-29",
+    "used_for": "GitHub Privacy Statement, « Effective date: April 27, 2026 »; host's own processing; retrieved with TinyFish fetch_content"
+   },
+   {
+    "url": "https://zalo.me/zalo/policy/",
+    "checked": "2026-10-29",
+    "used_for": "Zalo privacy information page (title « Privacy Information ») linked for Zalo processing; retrieved with TinyFish fetch_content"
+   },
+   {
+    "url": "https://www.whatsapp.com/legal/privacy-policy",
+    "checked": "2026-10-29",
+    "used_for": "WhatsApp Privacy Policy linked for WhatsApp processing (page as served showed « Effective January 4, 2021 »; no date quoted on site); retrieved with TinyFish fetch_content"
+   },
+   {
+    "url": "https://policies.google.com/privacy?hl=fr",
+    "checked": "2026-10-29",
+    "used_for": "Règles de confidentialité Google, linked for the « Carte » Google Maps link; retrieved with TinyFish fetch_content"
+   }
+  ],
+  "owner_gaps": [
+   "O06: how long phone/Zalo/WhatsApp messages, call logs and any received photos of passports/licences are kept, where (phones, cloud backups, paper register, spreadsheet) and who can access them",
+   "O06: whether any rental/customer data is passed to third parties, and on what basis",
+   "O06: channel, language and response time for access/correction/deletion requests; whether a named privacy contact should be published",
+   "O06/O08: any plan to add analytics (GA4), forms, embedded maps or chat services — the policy must be updated before activation",
+   "O04: business email (none published)",
+   "O07: who controls the GitHub account/Pages site and Search Console property (token present on homepage); GitHub Pages IP logs are GitHub's processing"
+  ],
+  "code_audit": [
+   {
+    "flow": "Theme preference stored in browser",
+    "evidence": "assets/js/app.js:1 — localStorage.getItem(\"theme\") at load; localStorage.setItem(\"theme\", \"light\"|\"dark\") only on click of [data-theme-toggle] (button rendered by assets/js/components.js:6, aria-label \"Changer le thème\", label ◐)",
+    "data": "one value light/dark, stays on device, never sent"
+   },
+   {
+    "flow": "Open/closed indicator",
+    "evidence": "assets/js/app.js:1 — now()/st() use Intl.DateTimeFormat with SITE_CONFIG.hours.timezone (Asia/Ho_Chi_Minh), setInterval 60 s",
+    "data": "computed locally, no network"
+   },
+   {
+    "flow": "Assistant + quick-contact injected at runtime",
+    "evidence": "assets/js/components.js:41 — appends same-origin /assets/js/assistant.js when featureFlags.quickContact/localChatbot (assets/js/site-config.js:22) are true and not at build time",
+    "data": "none"
+   },
+   {
+    "flow": "Assistant index download",
+    "evidence": "assets/js/assistant.js:38 — fetch(\"/assets/chat/search-index.json?v=20261007-fr1\",{cache:\"no-cache\"}); triggered when the panel opens (assistant.js:89 setChat→search.load()) and before a non-fixed answer (assistant.js:75)",
+    "data": "same-origin GET with constant URL; the typed question is not part of the request; logged by host like any request"
+   },
+   {
+    "flow": "Assistant question processing",
+    "evidence": "assets/js/assistant.js:46-61 fixedAnswer (regex on SITE_CONFIG hours/address/phone/prices; safe text for disponibilité, dépôt/caution/passeport, livraison), 39-43 local scoring against downloaded index, 72-76 legal disclaimer prefix, 90-95 messages appended to DOM, form submit preventDefault",
+    "data": "text stays in page memory/DOM only; no storage, no network call, lost on reload"
+   },
+   {
+    "flow": "Quick-contact links (bottom-left)",
+    "evidence": "assets/js/assistant.js:22-26 — tel:+84334699969; https://zalo.me/84334699969 and https://wa.me/84334699969 (target _blank rel noopener); Google Maps search URL from assets/js/site-config.js:14 contacts.maps (label « Carte »)",
+    "data": "plain links; third party receives data only after click; no referrer-policy meta anywhere so browser default applies"
+   },
+   {
+    "flow": "Assistant map link in answers",
+    "evidence": "assets/js/assistant.js:50 — link(C.contacts.maps,\"Ouvrir la carte\",true)",
+    "data": "opens Google Maps in new tab"
+   },
+   {
+    "flow": "Footer and CTA contact links",
+    "evidence": "assets/js/components.js:7 footer tel/Zalo/WhatsApp, mailto only if C.email (null at assets/js/site-config.js:10); components.js:10 global CTA tel: + /contact/",
+    "data": "plain links"
+   },
+   {
+    "flow": "Structured data",
+    "evidence": "assets/js/components.js:30-40 (runtime fallback) and tools/shared-site.mjs:17-47 (build) generate JSON-LD in page; \"https://schema.org\" is a context string, not a request",
+    "data": "none"
+   },
+   {
+    "flow": "Build/hosting",
+    "evidence": "tools/build-site.mjs copies public files to _site and injects shared header/footer via tools/shared-site.mjs; site/templates/layout.html is a bare shell; site/slots/*.html are empty; .github/workflows/pages.yml deploys _site with actions/deploy-pages (GitHub Pages); CNAME fr.rentbikehanoi.com",
+    "data": "host logs visitor IP for security (GitHub Pages docs)"
+   },
+   {
+    "flow": "Search Console token",
+    "evidence": "index.html — <meta name=\"google-site-verification\" content=\"4Q_Sglv…\">",
+    "data": "static text, loads nothing"
+   },
+   {
+    "flow": "Redirect pages",
+    "evidence": "4 files with data-page-type=\"redirect\" (e.g. location-moto-hanoi/motorbike-rental-in-hanoi-vietnam/index.html) contain inline location.replace(target+location.search+location.hash)",
+    "data": "none"
+   },
+   {
+    "flow": "Absence checks (negative evidence)",
+    "evidence": "grep over *.html/*.js/*.css/*.mjs (excl. .git/_site): no gtag, googletagmanager, google-analytics, fbq, facebook.net, pixel, hotjar, clarity, plausible (only French word « plausibles » in location-moto-hanoi/panne-scooter-hanoi/index.html:72), matomo, umami, cloudflareinsights, doubleclick, adsbygoogle, tiktok, yandex; no <iframe>; no external <script src>, <link href> (other than canonical) or <img src>; assets/css/site.css has no @import/@font-face/url() and uses a system font stack; assets/js has no document.cookie, sessionStorage, indexedDB, XMLHttpRequest, sendBeacon, WebSocket, serviceWorker, geolocation; no <form>/<input>/mailto in source HTML (the only form is the assistant input created by assistant.js:30, never submitted)",
+    "data": "no analytics, no cookies set by site code, no third-party loads"
+   }
+  ],
+  "code_issues": [
+   "assets/js/app.js:1 — localStorage.getItem/setItem(\"theme\") without try/catch: where storage access throws (blocked site data, some privacy modes) the whole app.js IIFE aborts, breaking mobile nav toggle, theme toggle and the Ouvert/Fermé status. Not changed (out of scope).",
+   "assets/js/assistant.js:38 — index URL carries a stale fixed version ?v=20261007-fr1 (cache:'no-cache' still revalidates; cosmetic).",
+   "Derived data drift after these edits: node tools/build-chat-index.mjs --check → 'chat search-index drift: 543 pages'; node tools/build-content-index.mjs --check → 'content-index drift' (may also include other agents' edits). Coordinator must regenerate.",
+   "scripts/qa.mjs reports for these 3 pages only 'title/meta differs from foundation matrix' → sync data/seo-foundation-matrix.json and data/seo-cluster-matrix.json with new_meta values.",
+   "No leftover old identity (Nguyễn Tú / 0942 467 674 / 112 Nguyễn Văn Cừ / 21:30) found in assets/js, assets/chat, assets/css or these pages; no tracking code found anywhere in source."
+  ]
+ }
+]

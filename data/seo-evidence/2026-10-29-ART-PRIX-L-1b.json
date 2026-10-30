@@ -1,0 +1,401 @@
+[
+ {
+  "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un scooter électrique à Hanoi : combien, ce que recouvre le loyer, comment se passe la recharge, quoi demander",
+  "words_before": 1818,
+  "words_after": 1860,
+  "new_meta": {
+   "title": "Louer un scooter électrique à Hanoi : tarifs et recharge",
+   "description": "Deux-roues électrique à Hanoi : tarifs indicatifs à la semaine et au mois, recharge, batterie, permis et questions à poser avant de réserver.",
+   "h1": "Louer un scooter électrique à Hanoi : tarifs, recharge et questions à poser"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table: electric row (day « selon le modèle, à confirmer », week 600 000–800 000, month 1 500 000–1 800 000) plus automatic and semi-automatic rows for comparison, exact disclaimer next to the table. States that no electric model has its own row (category repère, to confirm), no daily price deduced from week/month, no 3/10/14-day package, ranges overlap with automatic scooter so no claim that electric is cheaper/dearer. Removed the unsourced battery-condition generalities presented as facts and the « le loueur ou l’hébergement assume la recharge » scenarios as shop policy: now generic market cases + « conditions non publiées pour la boutique, à demander ». Recharge at the pickup point, battery replacement, deposit/garantie, charger supplied: all phrased as questions to confirm. Licence: A1 = two-wheelers up to 125 cm³ or electric motor up to 11 kW (Law 36/2024/QH15, in force 1 Jan 2025) cited with the LuatVietnam URL seen in search results, with the explicit caveat that the answer depends on nationality, licence and vehicle (no blanket statement). Distance Hanoi–Ninh Binh 90–100 km attributed to travel sites (seen in search results), used only to frame autonomy. No model specs, no electricity/fuel price (pointed to the energy-cost article), no € conversion.",
+   "INTENT": "Main question: how much and how do you rent an electric scooter in Hanoi (rent line + charging line). OWNER of « louer un scooter électrique à Hanoi ». Differs from /prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/ (monthly total budget electric vs petrol) and from /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/ (energy cost only), the energy-cost one is linked once; the monthly one links to this page; and from types-motos/electrique-scooter-recharge-hanoi/ (practical charging guide) and types-motos/electrique-scooter-ou-essence-scooter-hanoi/ (owner of the electric-vs-petrol comparison).",
+   "CONTENT": "Full rewrite: removed the mannered « deux lignes / la grille / la méthode du site » prose and the repeated « cette page ne publiera aucun chiffre ». New sections: owner price table with comparison rows, what the rent covers (battery, charger, licence), charging (where / how long / who pays), which programmes suit an electric, checklist of 8 questions with contact line. FAQ rewritten (4 non-repeating Q&As: price, licence, hotel-room charging, electric vs petrol). Words 1818→1860.",
+   "META": "Title, meta description and H1 rewritten (title 56 chars, description 141 chars, plain and without exact-price promise); og:title/og:description identical to title/description. Eyebrow shortened to « Prix · scooter électrique ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/electrique-scooter-ou-essence-scooter-hanoi/, /types-motos/electrique-scooter-recharge-hanoi/, /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/, /permis-securite/electrique-scooter-license-vietnam/ (licence detail, natural anchor). The monthly-budget sibling is linked from the other direction (it links here). External: LuatVietnam (rel=noopener) and tel/Zalo/WhatsApp. TOC synced with 7 H2 ids (tarifs, loyer, recharge, programme, questions-a-poser, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (week/month ranges, day price depends on the model, recharge question). 1 price table, 1 checklist, FAQ of 4 questions, dated legal citation with caveat."
+  },
+  "sources": [
+   {
+    "url": "https://luatvietnam.vn/giao-thong/luat-trat-tu-an-toan-giao-thong-duong-bo-2024-quy-dinh-nhu-the-nao-ve-giay-phep-lai-xe-hang-a1-863-100479-article.html",
+    "checked": "2026-10-29",
+    "used_for": "A1 category up to 125 cm³ or electric motor up to 11 kW under Law 36/2024/QH15 (seen in search result; primary text to be checked by the reader)"
+   },
+   {
+    "url": "https://vinpearl.com/en/how-far-is-ninh-binh-from-hanoi",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ninh Binh about 90–100 km (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which electric models are actually in the fleet, their rated power and announced range",
+   "Who pays the electricity and whether charging at the pickup point is possible",
+   "What happens if the battery fades or fails during the rental",
+   "Deposit/garantie and whether a daily electric rate exists"
+  ]
+ },
+ {
+  "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Budget total d’un mois de location : scooter électrique ou essence, quelles lignes additionner",
+  "words_before": 2329,
+  "words_after": 1913,
+  "new_meta": {
+   "title": "Scooter électrique ou essence : budget d’un mois de location",
+   "description": "Un mois de scooter électrique ou à essence à Hanoi : tarifs mensuels indicatifs, énergie, entretien et recharge à additionner avant de choisir.",
+   "h1": "Scooter électrique ou essence : quel budget pour un mois de location à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Monthly prices only from the owner table (electric 1 500 000–1 800 000; automatic 1 200 000–2 000 000; Honda Vision 2 000 000; Honda Air Blade 1 500 000) with the exact disclaimer. States that ranges overlap, model rows prevail, other scooters = category range as repère to confirm, month is not 30 × day, no 5/6-week package. Removed unconfirmed assertions presented as general rules: « une motorisation récente peut exiger un dépôt différent », « le contrat doit préciser… l’assistance », « stations d’échange de batterie », « la grille du loueur… ». Deposit, maintenance split, assistance, replacement machine, month-counting convention and zones are now questions to confirm (table column « État de l’information » + checklist). Building rules on e-scooter charging phrased as a check with the landlord (no claim of a rule). No energy price (delegated to the energy-cost article), no model specs, no € conversion.",
+   "INTENT": "Main question: what does one month cost with an electric vs a petrol scooter, line by line. DISTINCT_ANGLE of group TOPIC-ELEC-ESSENCE; owner is types-motos/electrique-scooter-ou-essence-scooter-hanoi/ (linked once, natural anchor). Differs from /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/ (closest, 0.58: energy cost only) because it covers the whole monthly budget (rent, logistics, maintenance, contract, profiles) and only points to the energy article for tariffs; differs from the owner by being a budget page, not a machine comparison.",
+   "CONTENT": "Full rewrite. Removed the « quatre lignes / la méthode / la discipline de cette page » prose, the « le coût total se paie en argent et en temps » abstractions and the repeated « aucun chiffre ». New: monthly table from owner rows, line-by-line budget table (electric vs petrol vs what is known), energy measured on one real week, recharge/fill-up logistics tied to housing, maintenance/battery/incidents, three profiles, 8-item checklist with contact. FAQ rewritten (4 Q&As: 30×day, electric cheaper?, battery swap, 5–6 weeks). Words 2329→1913.",
+   "META": "Title (60 chars), description (143 chars) and H1 rewritten around the monthly-budget angle; og:title/og:description synced. Eyebrow « Prix · budget d’un mois ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/mois/, /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/, /prix-location/electrique-location-scooter-hanoi-prix/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/ (group owner). Dropped /prix-location/mensuelle-location-moto-economies-hanoi/ and /types-motos/electrique-scooter-recharge-hanoi/ to stay within the cap. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (overlapping monthly ranges; energy/recharge/maintenance/contract decide). 2 tables, 1 checklist, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Month-counting convention, early return and extension rules",
+   "Maintenance, puncture and breakdown split; replacement machine",
+   "Deposit/garantie",
+   "Which electric models exist and whether charging at the shop is possible"
+  ]
+ },
+ {
+  "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Coût de l’énergie seul d’un scooter loué à Hanoi : recharge électrique ou plein d’essence, avec tarifs datés et méthode de calcul",
+  "words_before": 1694,
+  "words_after": 1768,
+  "new_meta": {
+   "title": "Électrique ou essence : coût de la recharge et du plein",
+   "description": "Combien coûtent un kWh et un litre d’essence pour un scooter à Hanoi ? Tarifs datés, calcul aux 100 km et pièges à éviter avant de choisir.",
+   "h1": "Électrique ou essence : combien coûte l’énergie d’un scooter loué à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "No rental price quoted as a shop rate except one sentence recalling the owner week ranges (automatic 600 000–1 000 000, electric 600 000–800 000) with the exact disclaimer. Energy prices only from dated sources seen in search results: electricity average retail price 2 204 VND/kWh excl. VAT from 10 May 2025 (EVN announcement relayed by baophapluat.vn; flagged « à vérifier s’il a été révisé depuis »), residential first tier 1 984 VND/kWh (Decision 1279/QĐ-BCT of 9 May 2025, luatvietnam.vn; later tiers not quoted because search results disagree on a later 5-tier revision), petrol E5 RON 92 zone 1 = 25 060 VND/litre applicable from 15:00 on 22 Oct 2026 (baovanhoa.vn 23.10.2026; a 26.10.2026 article of the same outlet still gave it as the latest adjustment). « 100 000 VND buys ≈ 45 kWh / 50 kWh / 4 litres » are plain divisions. No consumption or battery capacity invented (formulas + measurement steps only), no tank size, no € conversion. Zone 1 stated as the Hanoi zone. Distances (Ninh Binh 90–100, Ha Long 130–170, Sapa 300–320, Ha Giang 280–320 km) attributed to travel sites seen in search results. Who pays electricity, charging at pickup, leaving Hanoi with an electric: all left as questions to confirm for the shop; the three payment cases are phrased as market cases.",
+   "INTENT": "Main question: how much does the energy of an electric vs petrol scooter cost. DISTINCT_ANGLE of group TOPIC-ELEC-ESSENCE (owner types-motos/electrique-scooter-ou-essence-scooter-hanoi/, linked once). Differs from /prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/ (closest, 0.58: monthly total budget) by staying on the energy line alone (tariffs, 100-km formula, measurement, who pays, autonomy vs distance) and linking to it for the full month; differs from the owner by not comparing machines.",
+   "CONTENT": "Full rewrite. Removed « deux logiques / logique de flux / logique d’ancrage », « la règle de la plateforme », « la marge clôt les deux chaînes » and other mannered passages, plus the repeated no-number disclaimers. New: dated tariff table, formula per 100 km, measurement steps on the real scooter, who pays, four comparison errors, distances/autonomy table, place of energy in the rental budget, checklist of 4 questions with contact line. FAQ rewritten (4 Q&As). Words 1694→1768.",
+   "META": "Title (55 chars), description (139 chars) and H1 rewritten; og:title/og:description synced. Eyebrow « Prix · recharge et carburant ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/electrique-scooter-ou-essence-scooter-hanoi/ (group owner), /prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/, /prix-location/electrique-location-scooter-hanoi-prix/, /prix-location/moto-carburant-cout-hanoi-location/. External: baophapluat.vn, luatvietnam.vn, baovanhoa.vn (rel=noopener) and tel/Zalo/WhatsApp. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (dated prices per kWh and per litre, need for consumption). 2 tables, 1 formula list, 1 numbered measurement list, 1 checklist, FAQ of 4 questions, 3 dated citations."
+  },
+  "sources": [
+   {
+    "url": "https://baophapluat.vn/gia-dien-ban-le-binh-quan-tang-48-len-hon-2204-dongkwh-tu-ngay-105-post547893.html",
+    "checked": "2026-10-29",
+    "used_for": "Average retail electricity price 2 204 VND/kWh from 10 May 2025 (seen in search result; not opened)"
+   },
+   {
+    "url": "https://luatvietnam.vn/dien-luc/quyet-dinh-1279-qd-bct-cua-bo-cong-thuong-quy-dinh-ve-gia-ban-dien-399752-d1.html",
+    "checked": "2026-10-29",
+    "used_for": "Decision 1279/QĐ-BCT, residential first tier 1 984 VND/kWh (figure from search-result summary; later tiers disputed, not quoted)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-29",
+    "used_for": "E5 RON 92 zone 1 at 25 060 VND/litre from 22 Oct 2026 15:00 (seen in search result)"
+   },
+   {
+    "url": "https://vinpearl.com/en/how-far-is-ninh-binh-from-hanoi",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ninh Binh 90–100 km (seen in search result)"
+   },
+   {
+    "url": "https://vinwonders.com/en/wonderpedia/news/hanoi-to-ha-long-bay-distance",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ha Long 130–170 km depending on route (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Who pays electricity and whether charging at pickup is possible",
+   "Which electric models exist, battery capacity and announced range",
+   "Fuel type and tank level expected at return for petrol scooters"
+  ]
+ },
+ {
+  "path": "prix-location/hanoi-ha-giang-voyage-moto-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rejoindre Hà Giang en moto louée depuis Hanoi : route, durée, tarifs repères, budget et retour de la moto",
+  "words_before": 2139,
+  "words_after": 1746,
+  "new_meta": {
+   "title": "Hanoi–Hà Giang en moto louée : budget, étapes et retour",
+   "description": "Hanoi–Hà Giang en moto louée : environ 300 km, tarifs indicatifs à la semaine, carburant, étapes, retour de la moto et points à vérifier avant de partir.",
+   "h1": "Rejoindre Hà Giang en moto louée : budget, étapes et retour de la moto"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table (semi-automatic, automatic, Vision, Air Blade; day and week columns) with the exact disclaimer; explicit that no trail/sport-bike price exists, no 5/6-day package, week row as repère for 7 days only; no € conversion. Fuel: E5 RON 92 zone 1 = 25 060 VND/L from 22 Oct 2026 (baovanhoa.vn, seen in search results). Distances: Hanoi–Hà Giang city 280–320 km, Tuyên Quang–Hà Giang ≈152 km, loop at most 350 km and usually 3–4 days with tour operators, riding-time ranges 6–10 h judged too wide to rely on (sources disagree; seen in search results). Law: motorbikes/mopeds banned on expressways under art. 25 of Law 36/2024/QH15 (in force 1 Jan 2025), sanctions under Decree 168/2024/NĐ-CP, via luatminhkhue.vn summary seen in search results; no fine amount quoted. Removed unconfirmed shop statements: restitution elsewhere/« reprise » by some renters, assistance, deposit « immobilise la trésorerie », kilometre caps, « loueurs qui proposent un aller simple ». Now questions to confirm: can the bike leave Hanoi/enter Hà Giang, one-way return, assistance, deposit, licence category. Licence: no blanket « permis international suffit » statement. Border-area formalities phrased as a point to check.",
+   "INTENT": "Main question: how to reach Hà Giang on a rented motorbike from Hanoi and what the trip costs. OWNER of « rejoindre Hà Giang en moto louée ». Differs from the other three route pages (Ninh Binh, Ha Long, Sapa; closest 0.36–0.40) by being the multi-day mountain trip (week row, loop, return logistics, licence/insurance points) and from /nord-vietnam/ha-giang/ (itinerary guide) and /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/ (rental prep) by being the budget/conditions page; both are linked once.",
+   "CONTENT": "Full rewrite. Removed the « quatre blocs » abstraction, « le bloc route/étapes/retour », « la méthode des quatre colonnes », and the generic carburant « première journée » prose. New sections: route and duration (sourced distances, calendar of 6–7 days, weather note, expressway ban), moto and tarifs table, permis/assurance/formalités to check, budget lines table, three return scenarios, checklist with contact. FAQ rewritten (4 Q&As: distance, days for the loop, expressway, 5-day rental). Words 2139→1746.",
+   "META": "Title (55 chars), description (153 chars) and H1 rewritten (concrete: route, budget, return); og:title/og:description synced. Eyebrow « Prix · voyage au nord ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /nord-vietnam/ha-giang/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/. External: luatminhkhue.vn (rel=noopener) and tel/Zalo/WhatsApp. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (distance, week-row repère, no trail price, other lines). 2 tables, 1 checklist, FAQ of 4 questions, one dated legal citation."
+  },
+  "sources": [
+   {
+    "url": "https://luatminhkhue.vn/nhung-quy-dinh-moi-ve-duong-cao-toc-theo-luat-duong-bo.aspx",
+    "checked": "2026-10-29",
+    "used_for": "Motorbikes not allowed on expressways (Law 36/2024/QH15 art. 25; seen in search result, primary text to be checked)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-29",
+    "used_for": "E5 RON 92 zone 1 25 060 VND/L from 22 Oct 2026 (seen in search result)"
+   },
+   {
+    "url": "https://frontiertravelvietnam.com/blog/ha-giang-loop-motorbike-tour-from-hanoi-mountains-villages-hidden-gems-b510.html",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ha Giang about 300 km and loop distance/duration context (seen in search result; sources disagree 280–320 km)"
+   }
+  ],
+  "owner_gaps": [
+   "Can rented motorbikes leave Hanoi province and enter Hà Giang; one-way drop-off conditions",
+   "Assistance, deposit and insurance terms",
+   "Which mountain-capable models exist and whether a price exists for them"
+  ]
+ },
+ {
+  "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Hanoi–Ha Long à moto : route, distance, tarifs repères et budget du voyage",
+  "words_before": 1860,
+  "words_after": 1671,
+  "new_meta": {
+   "title": "Hanoi–Ha Long à moto : budget, route et sortie en baie",
+   "description": "Hanoi–Ha Long à moto : 130 à 170 km selon l’itinéraire, tarifs indicatifs, carburant, stationnement et sortie en baie à prévoir dans le budget.",
+   "h1": "Hanoi–Ha Long à moto : quel budget pour le voyage ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table (semi-auto, automatic, Vision, Air Blade; day and week) with the exact disclaimer; no 2/3-day package, week row as repère for 7 days, no trail price. Fuel E5 RON 92 zone 1 = 25 060 VND/L from 22 Oct 2026 (baovanhoa.vn, seen in search results). Distances 130–170 km (≈155 km via QL5/QL1/QL18, ≈165 km via the old QL18; expressway route cited as shorter) and the vietnamtourism.com warning about truck traffic and experienced riders: seen in search results, attributed to travel sites. Expressway ban for motorbikes: art. 25 Law 36/2024/QH15 via luatminhkhue.vn summary seen in search results, plus link to the site guide /permis-securite/autoroute-moto-vietnam/. REMOVED the old claims that fast axes charge tolls to motorbikes (péages d’axe rapide), « dépôt de garantie ou passeport », « assistance du loueur », « procès-verbal », « tarif dégressif », and invented Ha Long specifics (parking fees « modeste », cruise prices). Return time vs 09:00–21:00 hours phrased from the owner-confirmed hours. Cruise prices not quoted (operator, date). Leaving Hanoi, fuel level at return, assistance, deposit left as questions to confirm.",
+   "INTENT": "Main question: how to ride a rented motorbike from Hanoi to Ha Long and what it costs. OWNER of « hanoi–Ha Long à moto ». Differs from Sapa (closest, 0.50), Ha Giang (0.40) and Ninh Binh (0.38) by being the coastal 130–170 km trip with a boat excursion line (cruise day vs overnight, return time vs shop hours), and from /nord-vietnam/halong-voyage-moto/ (itinerary guide, linked) by being the budget/conditions page.",
+   "CONTENT": "Full rewrite. Removed « le budget se construit avant la route », « deux familles de dépenses », « la politique de la plateforme », the toll-based axe arbitrage and generic carburant prose. New: route/distances/expressway rule/hours, moto and tariffs table, budget lines table, boat excursion questions, moto vs bus/car/local rental comparison, rain note, checklist with contact. FAQ rewritten (4 Q&As). Words 1860→1671.",
+   "META": "Title (54 chars), description (143 chars) rewritten; H1 kept (natural, matches the owner query); og:title/og:description synced. Eyebrow « Prix · Hanoi–Ha Long ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /permis-securite/autoroute-moto-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /prix-location/7-jours-location-moto-hanoi-cout/, /nord-vietnam/halong-voyage-moto/. Dropped /prix-location/moto-carburant-cout-hanoi-location/ (fuel formula is in the table). External: luatminhkhue.vn (rel=noopener) and tel/Zalo/WhatsApp. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (distance, motorway ban, day rate, extra lines). 2 tables, 1 checklist, FAQ of 4 questions, one dated legal citation."
+  },
+  "sources": [
+   {
+    "url": "https://luatminhkhue.vn/nhung-quy-dinh-moi-ve-duong-cao-toc-theo-luat-duong-bo.aspx",
+    "checked": "2026-10-29",
+    "used_for": "Motorbikes not allowed on expressways (Law 36/2024/QH15 art. 25; seen in search result)"
+   },
+   {
+    "url": "https://sunparadiseland.com/en/tin-tuc/how-many-km-is-it-from-hanoi-to-ha-long-and-what-is-the-fastest-route-12507",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ha Long ≈155 km via QL5/QL1/QL18 and ≈165 km via old QL18 (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/getting-to-ha-long-bay-from-hanoi-by-bus-car-and-high-speed-boat",
+    "checked": "2026-10-29",
+    "used_for": "Motorbike trip possible but for experienced riders, heavy truck traffic (seen in search result)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-29",
+    "used_for": "E5 RON 92 zone 1 25 060 VND/L from 22 Oct 2026 (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Can rented motorbikes leave Hanoi; return time after 21:00; fuel level at return",
+   "Assistance, deposit and puncture split",
+   "Whether a 2-day price exists"
+  ]
+ },
+ {
+  "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Hanoi–Ninh Binh à moto : route, distance, tarifs repères et budget d’une sortie à la journée ou avec une nuit",
+  "words_before": 1989,
+  "words_after": 1613,
+  "new_meta": {
+   "title": "Hanoi–Ninh Binh à moto : budget, route et sites à prévoir",
+   "description": "Hanoi–Ninh Binh à moto : environ 90 à 100 km par la route nationale 1, tarifs indicatifs, carburant, stationnement et entrées de sites à prévoir.",
+   "h1": "Hanoi–Ninh Binh à moto : quel budget pour le voyage ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table (semi-auto, automatic, Vision, Air Blade; day and week) with the exact disclaimer; no 2/3-day package; no trail price; leaving Hanoi, fuel level, assistance, deposit are questions to confirm. Fuel E5 RON 92 zone 1 = 25 060 VND/L from 22 Oct 2026 (baovanhoa.vn, seen in search results). Distance ≈90–95 km centre-to-city, 100+ km to attractions, about 2–3 h by QL1A (travel sites vinpearl.com, bhayacruises, gecko routes; seen in search results, attributed, sources vary). Expressway Cầu Giẽ–Ninh Bình is the car/bus route; motorbikes banned on expressways (art. 25 Law 36/2024/QH15, luatminhkhue.vn seen in search results) and linked to /permis-securite/autoroute-moto-vietnam/. Removed: « dépôt de garantie ou passeport », « frais de livraison », « procès-verbal », « les montants des péages sur axes rapides », « tour en barque = plus grosse dépense », « tarif dégressif », « numéro d’assistance du loueur ». Shop hours 09:00–21:00 used for the day-trip timing. Helmet obligation stated as general Vietnamese rule (no figure).",
+   "INTENT": "Main question: how to ride a rented motorbike from Hanoi to Ninh Binh and what the trip costs. OWNER of « hanoi–Ninh Binh à moto ». Differs from Sapa (closest, 0.45), Ha Long (0.38) and Ha Giang (0.36) by being the short 90–100 km day-trip/one-night case with site entries and parking, and from /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/ (itinerary guide, linked) by being the budget/conditions page.",
+   "CONTENT": "Full rewrite. Removed « quatre lignes pour un budget complet », « la méthode plutôt que le chiffre », « la politique de la plateforme », the toll-based axe arbitrage and the old generic carburant paragraphs. New: route/rule on the expressway, moto and tariffs table, budget lines table, day vs one night timed on shop hours, on-site visit organisation, bike check and puncture reflex, checklist with contact. FAQ rewritten (4 Q&As). Words 1989→1613.",
+   "META": "Title (57 chars) and description (145 chars) rewritten; H1 kept (natural, matches the owner query); og:title/og:description synced. Eyebrow « Prix · Hanoi–Ninh Binh ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /permis-securite/autoroute-moto-vietnam/, /prix-location/3-jours-location-moto-hanoi-prix/, /prix-location/location-moto-crevaison-pneu-cout-vietnam/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/. Dropped /prix-location/moto-carburant-cout-hanoi-location/ (formula in the table). External: luatminhkhue.vn (rel=noopener) and tel/Zalo/WhatsApp. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (distance, motorway ban, day rate, extra lines). 2 tables, 1 checklist, FAQ of 4 questions, one dated legal citation."
+  },
+  "sources": [
+   {
+    "url": "https://luatminhkhue.vn/nhung-quy-dinh-moi-ve-duong-cao-toc-theo-luat-duong-bo.aspx",
+    "checked": "2026-10-29",
+    "used_for": "Motorbikes not allowed on expressways (Law 36/2024/QH15 art. 25; seen in search result)"
+   },
+   {
+    "url": "https://vinpearl.com/en/how-far-is-ninh-binh-from-hanoi",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ninh Binh about 90–100 km; QL1A open to motorbikes (seen in search result)"
+   },
+   {
+    "url": "https://bhayacruises.com/blog/hanoi-to-ninh-binh/",
+    "checked": "2026-10-29",
+    "used_for": "Cầu Giẽ–Ninh Bình expressway is the faster standard bus/car route (seen in search result)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-29",
+    "used_for": "E5 RON 92 zone 1 25 060 VND/L from 22 Oct 2026 (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Can rented motorbikes leave Hanoi; late-return rule after 21:00",
+   "Fuel level at return; assistance and deposit",
+   "Whether a 2-day price exists"
+  ]
+ },
+ {
+  "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Hanoi–Sapa à moto : route, durée, tarifs repères, budget et alternatives (train/bus + location sur place)",
+  "words_before": 1947,
+  "words_after": 1737,
+  "new_meta": {
+   "title": "Hanoi–Sapa à moto : budget, route et alternatives",
+   "description": "Hanoi–Sapa à moto : 300 à 320 km environ par les routes nationales, tarifs indicatifs à la semaine, carburant, étapes et alternatives train ou bus.",
+   "h1": "Hanoi–Sapa à moto : quel budget pour le voyage ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table (semi-auto, automatic, Vision, Air Blade; day and week) with the exact disclaimer; explicit that no trail/sport-bike price and no 3–5-day package exist; 5–6 days case reasoned from the number of riding days (2 out + 2 back + 1–2 on site), total to be asked, week row = repère for 7 days. Fuel E5 RON 92 zone 1 = 25 060 VND/L from 22 Oct 2026 (baovanhoa.vn). Distances/times (300–320 km; 376 km via Lào Cai; 420 km via Lai Châu; 8–10 h riding excl. breaks, 9–12 h incl.; QL70/QL279 then QL4D; halfway stop Yên Bái) taken from travel sites seen in search results (sunparadiseland.com, seniworld.com, vietnamairlines.com), attributed and flagged as wide estimates. Expressway CT05 banned for motorbikes: art. 25 Law 36/2024/QH15 via luatminhkhue.vn (search result) + travel guides, linked to /permis-securite/autoroute-moto-vietnam/. Removed: « droits d’axe sur certaines sections montagnardes », « un trail se facture autrement qu’un scooter » (no trail price), « formule que certains loueurs acceptent » (mixed return), the assistance/dépôt promises, « location à Sapa se loue directement » presented as fact → generic, to check on site. Return elsewhere, leaving Hanoi, assistance, deposit, licence category: questions to confirm; no blanket licence statement.",
+   "INTENT": "Main question: how to ride a rented motorbike from Hanoi to Sapa and what the trip costs. OWNER of « hanoi–Sapa à moto ». Differs from Ha Long (closest, 0.50), Ninh Binh (0.45), Ha Giang (0.36) by being the 300–320 km mountain trip with two-day split, motorway ban on CT05, and the train/bus + local rental alternative; differs from /nord-vietnam/hanoi-a-sapa-moto/ (itinerary guide, linked) by being the budget/conditions page.",
+   "CONTENT": "Full rewrite. Removed « un budget de voyage long, pas une sortie », « le bloc… », « la montagne choisit pour vous », « trois structures de budget » abstractions and the repeated « la plateforme ». New: route/motorway rule/mountain weather, splitting into stages and what it means for the rental length, moto and tariffs table, budget lines table, three ways to do it, on-site notes, checklist with contact. FAQ rewritten (4 Q&As). Words 1947→1737.",
+   "META": "Title (49 chars) and description (147 chars) rewritten; H1 kept (natural, matches the owner query); og:title/og:description synced. Eyebrow « Prix · Hanoi–Sapa ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /permis-securite/autoroute-moto-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /types-motos/trail-moto-ou-scooter-ha-giang/, /nord-vietnam/hanoi-a-sapa-moto/. Dropped /prix-location/trail-location-moto-vietnam-prix/ (no trail price). External: luatminhkhue.vn (rel=noopener) and tel/Zalo/WhatsApp. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (distance, motorway ban, two days, week-row repère, no trail price). 2 tables, 1 checklist, FAQ of 4 questions, one dated legal citation."
+  },
+  "sources": [
+   {
+    "url": "https://luatminhkhue.vn/nhung-quy-dinh-moi-ve-duong-cao-toc-theo-luat-duong-bo.aspx",
+    "checked": "2026-10-29",
+    "used_for": "Motorbikes not allowed on expressways (Law 36/2024/QH15 art. 25; seen in search result)"
+   },
+   {
+    "url": "https://sunparadiseland.com/en/SunParadiseLandSaPa/tin-tuc/hanoi-to-sapa-complete-travel-guide-for-first-time-visitors-18226",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Sapa 300–320 km; QL70/QL279/QL4D for motorbikes; CT05 closed to motorbikes (seen in search result)"
+   },
+   {
+    "url": "https://seniworld.com/sapa-to-hanoi",
+    "checked": "2026-10-29",
+    "used_for": "Sapa–Hanoi ≈315 km; Yên Bái halfway; 8–12 h riding estimates (seen in search result)"
+   },
+   {
+    "url": "https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
+    "checked": "2026-10-29",
+    "used_for": "E5 RON 92 zone 1 25 060 VND/L from 22 Oct 2026 (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Can rented motorbikes go to Sapa and be returned elsewhere",
+   "Which mountain-capable models exist and whether a price exists",
+   "Assistance, deposit and puncture split"
+  ]
+ },
+ {
+  "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Choisir entre la formule à la semaine et au mois pour louer une moto à Hanoi, et savoir quoi demander pour les durées intermédiaires",
+  "words_before": 2244,
+  "words_after": 1665,
+  "new_meta": {
+   "title": "Louer une moto à Hanoi : semaine ou mois, que choisir ?",
+   "description": "Semaine ou mois pour louer une moto à Hanoi : tarifs indicatifs des deux formules, durées intermédiaires, engagement et questions à poser avant de signer.",
+   "h1": "Louer une moto à Hanoi : faut-il choisir la semaine ou le mois ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table: all six rows, week and month columns, with the exact disclaimer next to the table (semi 700 000–800 000 / 1 000 000–1 200 000; automatic 600 000–1 000 000 / 1 200 000–2 000 000; electric 600 000–800 000 / 1 500 000–1 800 000; 50cc 1 000 000 / 2 000 000; Vision 1 000 000 / 2 000 000; Air Blade 900 000 / 1 500 000). Only comparisons between published rows are made (Vision month = two weekly rows; Air Blade month < two weekly rows; month ≪ four weekly rows for the three own-row models) and explicitly not presented as a 2/3-week package; no day-rate multiplication, no 14/21/30-day total computed. Removed the old « multiplier le tarif hebdomadaire par le nombre de semaines », « diviser le tarif mensuel par le tarif journalier » seuils method, the « remise de durée » assumptions, deposit « plus lourd sur les formules longues », « loueurs qui convertissent une semaine en mois », « kilométrage plafonné », « assistance étendue ». Now questions to confirm: month counting convention, early return/refund, extension, maintenance split, deposit, mileage, leaving Hanoi. Distances Ninh Binh 90–100 km / Ha Long 130–170 km attributed to travel sites. Licence: generic check only (no blanket statement). No fuel price, no € conversion.",
+   "INTENT": "Main question: week or month when renting a motorbike in Hanoi. role OWNER (shared query « louer une moto à Hanoi » with the day-vs-week sibling, closest 0.44): this page owns the week-versus-month decision and the in-between durations (10 days, 2, 3, 5–6 weeks); the day-versus-week decision stays on /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/ (not linked here to stay within the cap; it links to this page). Neighbours linked for exact durations: 14-day and 1-month guides.",
+   "CONTENT": "Full rewrite. Removed « deux engagements de natures différentes », « l’adoption », « les seuils de bascule : où le mois prend l’avantage », « le prix de l’engagement : ce que le calcul ne montre pas » and the repeated no-number disclaimers. New: six-row week/month table, row-to-row comparison and 4-step method, table of intermediate durations, what changes with a month (checklist), week vs month life, which profile for which stay, checklist with contact. FAQ rewritten (4 Q&As). Words 2244→1665.",
+   "META": "Title (55 chars), description (154 chars) and H1 rewritten (plain question); og:title/og:description synced. Eyebrow « Prix · semaine ou mois ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/semaine/, /prix-location/mois/, /prix-location/14-jours-location-moto-hanoi-cout/, /location-moto-hanoi/1-mois-location-moto-hanoi/. Dropped /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/ to stay within the cap. External: tel/Zalo/WhatsApp. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (week and month ranges, which stay for which formula, intermediate durations = ask for a total). 2 tables, 1 numbered method, 2 checklists, FAQ of 4 questions."
+  },
+  "sources": [
+   {
+    "url": "https://vinpearl.com/en/how-far-is-ninh-binh-from-hanoi",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ninh Binh about 90–100 km (seen in search result)"
+   },
+   {
+    "url": "https://vinwonders.com/en/wonderpedia/news/hanoi-to-ha-long-bay-distance",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ha Long 130–170 km depending on route (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Does the shop apply the monthly line to 2–4 weeks, and how is a month counted",
+   "Early return, extension and conversion week to month",
+   "Deposit, maintenance split, mileage limit"
+  ]
+ },
+ {
+  "path": "prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/index.html",
+  "role": "OWNER",
+  "primary_intent": "Choisir entre le tarif au jour et à la semaine pour louer une moto à Hanoi, et savoir quoi demander pour 2 à 6 jours",
+  "words_before": 2017,
+  "words_after": 1617,
+  "new_meta": {
+   "title": "Louer une moto à Hanoi : au jour ou à la semaine ?",
+   "description": "Jour ou semaine pour louer une moto à Hanoi : tarifs indicatifs, à partir de quand demander la semaine, heures de retrait et questions à poser.",
+   "h1": "Louer une moto à Hanoi : faut-il payer au jour ou à la semaine ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table: all six rows, day and week columns (electric day = « selon le modèle, à confirmer »), exact disclaimer next to the table. Only comparisons between published rows for the three own-row models (Vision and 50cc: week = five daily lines; Air Blade: a little under five), stated as not being a 5-day price; no 2/3/4-day total, no multiplication of the day rate into a package, electric daily rate not deduced. Removed the old four-gesture method « multiplier le tarif journalier par le nombre de jours… », « le loueur garantit la machine… propose en général un prix plus doux », « certains loueurs convertissent un journalier en hebdomadaire », « kilométrage inclus ou plafonné », « dépôt qui varie selon la formule », « avantages assortis à la formule longue ». Now questions to confirm: day counting (24 h vs calendar), early return, extension, garantie, fuel level, equipment, late-return rule, leaving Hanoi. Hours 09:00–21:00 from SEO-FACTS. Ha Long 130–170 km and Ninh Binh 90–100 km attributed to travel sites. No fuel price, no € conversion.",
+   "INTENT": "Main question: day or week when renting a motorbike in Hanoi. role OWNER (shared query « louer une moto à Hanoi » with the week-vs-month sibling, closest 0.44): this page owns the day-versus-week decision and short durations (1–7 days); the week-versus-month decision is on /prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/ (linked once). Differs from /prix-location/jour/ (day-rate hub, linked) by comparing the two formulas and the 2–6 day gap rather than explaining the day table.",
+   "CONTENT": "Full rewrite. Removed « le tarif au jour vit de la flexibilité / la semaine vit de l’engagement », « le jour reste roi », « le contrat fait partie du tarif », the four-gesture calculation and the repeated no-number disclaimers. New: six-row day/week table, threshold reading on the published rows, table of what to ask by duration, how days are counted (24 h / calendar, shop hours), what matters as much as the rate (checklist), three scenarios, uncertain programme, message to send with contact. FAQ rewritten (4 Q&As). Words 2017→1617.",
+   "META": "Title (50 chars), description (143 chars) and H1 rewritten (plain question); og:title/og:description synced. Eyebrow « Prix · jour ou semaine ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/jour/, /prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/, /prix-location/location-moto-jour-24-horaires-hanoi/, /prix-location/hanoi-halong-voyage-moto-cout/. Dropped /prix-location/mois/ (the month question is delegated to the week-vs-month sibling). External: tel/Zalo/WhatsApp. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (day and week ranges, five-day threshold for own-row models, no 2–4-day package). 2 tables, 2 checklists, FAQ of 4 questions."
+  },
+  "sources": [
+   {
+    "url": "https://vinwonders.com/en/wonderpedia/news/hanoi-to-ha-long-bay-distance",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ha Long 130–170 km depending on route (seen in search result)"
+   },
+   {
+    "url": "https://vinpearl.com/en/how-far-is-ninh-binh-from-hanoi",
+    "checked": "2026-10-29",
+    "used_for": "Hanoi–Ninh Binh about 90–100 km (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "How days are counted (24 h or calendar) and the late-return rule",
+   "Early return and prolongation terms; conversion day to week",
+   "Deposit, fuel level at return, equipment included"
+  ]
+ },
+ {
+  "path": "prix-location/location-moto-crevaison-pneu-cout-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pneu crevé en location de moto au Vietnam : qui paie, que faire sur la route, comment faire réparer et documenter",
+  "words_before": 1796,
+  "words_after": 1645,
+  "new_meta": {
+   "description": "Crevaison pendant une location de moto au Vietnam : qui paie selon le contrat, quels réflexes avoir sur la route, comment faire réparer et l’éviter.",
+   "h1": "Pneu crevé en location de moto au Vietnam : qui paie quoi ?"
+  },
+  "evidence": {
+   "FACTS": "No price or amount quoted (repair and tyre prices are not published; the page says to ask the workshop for the price before the work). Removed or qualified: « le dépôt de garantie sert d’assiette de résolution », « la plupart des loueurs traitent la crevaison comme un incident mineur… aux frais du locataire », « un geste de quelques pièces au mécanicien », « la flotte de location roule sur pneus fins », « un kit de rustines… proposé par le loueur », « les ateliers pullulent ». The shop-versus-renter split (wear = renter’s lessor, damage = renter) is now explicitly a market practice (« pratique courante du marché, pas la règle de la boutique ») in a table captioned « à confirmer avec le contrat »; shop rule, assistance, kit/pump, deposit deduction and immobilisation far from Hanoi are all left as questions to ask (checklist). Tyre technology: « selon le modèle, chambre à air ou tubeless » without model spec. No legal claim, no external source needed.",
+   "INTENT": "Main question: who pays for a punctured tyre on a rental motorbike in Vietnam and what to do. OWNER of « pneu crevé en location de moto au Vietnam ». Differs from /prix-location/mensuelle-location-moto-entretien-cout-hanoi/ (closest, 0.33: who pays maintenance over a month) and /prix-location/location-moto-perdue-cle-frais-vietnam/ (lost key) by being about one incident type (puncture): cause-by-cause cost table, roadside steps, message template, repair and documentation; and from /permis-securite/crevaison-pneu-ha-giang-moto/ and /permis-securite/moto-pneu-controle-voyage-moto-vietnam/ (safety guides, linked) by the cost/contract angle.",
+   "CONTENT": "Full rewrite. Removed the « sinistre le plus courant » opening, « zone grise » repetitions, « le triangle de la prudence vaut mieux que le record de vitesse », « le dépôt de garantie… caution n’est pas une punition », and the unsourced loueur-practice generalities. New: situation/who-pays table, 4-step roadside list, message template, repair and agreement before replacing a tyre, when it is more than a puncture, documentation for the return, prevention, checklist with contact. FAQ rewritten (4 Q&As). Words 1796→1645.",
+   "META": "Title kept (59 chars, natural, matches the owner query, no promise of an amount). Meta description rewritten (148 chars, factual); H1 kept; og:description synced. Eyebrow shortened to « Prix · crevaison ».",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/location-moto-perdue-cle-frais-vietnam/, /prix-location/mensuelle-location-moto-entretien-cout-hanoi/, /permis-securite/crevaison-pneu-ha-giang-moto/, /permis-securite/moto-pneu-controle-voyage-moto-vietnam/. Dropped /permis-securite/ (generic hub) and /prix-location/moto-carburant-cout-hanoi-location/. External: tel/Zalo/WhatsApp only. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Direct answer in the lead (depends on the contract, market practice, four immediate actions). 1 table, 1 numbered list, 1 message template, 1 checklist, FAQ of 4 questions."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Who pays a puncture and in which cases",
+   "Assistance, kit/pump, immobilisation far from Hanoi",
+   "How a deposit/garantie, if any, is deducted"
+  ]
+ }
+]

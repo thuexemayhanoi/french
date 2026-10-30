@@ -1,0 +1,147 @@
+[
+ {
+  "path": "honda/honda-cuv-e-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Honda CUV e: à Hanoi : pour quel voyageur ce scooter électrique convient-il et que vérifier avant de réserver ?",
+  "words_before": 1538,
+  "words_after": 1677,
+  "new_meta": {
+   "title": "Honda CUV e: en location à Hanoi : profil et points à vérifier",
+   "description": "Le Honda CUV e: est un scooter électrique à deux batteries amovibles. Pour quel séjour à Hanoi le louer, quelle recharge prévoir et quelles questions poser ?"
+  },
+  "evidence": {
+   "FACTS": "No shop policy affirmed. Price only as the electric category row (week 600 000-800 000, month 1 500 000-1 800 000, day « selon le modèle, à confirmer ») with the mandatory disclaimer; no CUV e: own rate, no purchase/battery-lease prices quoted. CUV e: facts (two removable Mobile Power Pack e: batteries, on sale 4 June 2026 in Hanoi/HCMC/Da Nang dealers, first e:Swap station in Hanoi) seen in search results; range « 70 à 80 km » presented as press figures that vary, with no spec claimed; battery weight (~10 kg) and ~6 h charge attributed to press/dealer sheet; swap access via subscription attributed to xetv.vn. Availability left to confirm; permis rule not stated, readers told to check. Removed: « conversation au comptoir », assistance procedure promise, contract-note claims.",
+   "INTENT": "Main question: who should rent a CUV e: in Hanoi and what to check. OWNER of « honda CUV e: en location à Hanoi ». Differs from honda-icon-e-location-hanoi (0.67 similar: small single-battery machine) by focusing on the larger two-battery model, swap stations and profile table; price detail left to honda-cuv-e-prix-location-hanoi, comparison to honda-cuv-e-ou-yamaha-neo-s-location.",
+   "CONTENT": "Full rewrite of mannered prose (« second visage », « pierre angulaire », « conversation au comptoir », « cette page calibre le projet »). New sections: machine, profile table, batteries/swap, daily use, budget with category row, two checklists (questions, handover), 5 FAQ. Words 1538 -> see words_after.",
+   "META": "Title rewritten (no « pour quel voyageur » vagueness, 55-65 chars); description rewritten factual; H1 kept (matches hub anchor); og:title/og:description identical to title/description.",
+   "LINKS": "/honda/ (parent), /types-motos/, /prix-location/ (required) + /honda/electriques/, /honda/honda-cuv-e-prix-location-hanoi/, /honda/honda-icon-e-location-hanoi/, /honda/honda-cuv-e-hanoi-ville/ ; 7/7 unique internal links; the recharge guide link was left out to respect the cap. TOC synced with all H2 ids incl. #questions-frequentes and #pour-aller-plus-loin.",
+   "AEO_GEO": "Lead answers the H1 in 3 sentences; one profile table, one price table, two checklists, 5 non-repeating FAQ; 4 external citations (honda.com.vn, bnews, xetv, dantri) in-sentence."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+    "checked": "2026-10-29",
+    "used_for": "CUV e: on sale in Hanoi, HCMC, Da Nang dealers (seen in search result; manufacturer page, snippet only)"
+   },
+   {
+    "url": "https://bnews.vn/honda-viet-nam-mo-ban-cuv-e-va-uc3-trien-khai-mang-luoi-doi-pin-sac-pin/423732.html",
+    "checked": "2026-10-29",
+    "used_for": "two batteries; first e:Swap station in Hanoi from 4 June 2026 (seen in search result)"
+   },
+   {
+    "url": "https://xetv.vn/threads/tram-doi-pin-va-tram-sac-pin-honda-nguoi-dung-can-biet-gi-truoc-khi-mua-cuv-e-va-uc3.7046/",
+    "checked": "2026-10-29",
+    "used_for": "swap stations need a subscription package via MyHonda+ and card (seen in search result summary)"
+   },
+   {
+    "url": "https://dantri.com.vn/o-to-xe-may/xe-may-honda-cuv-e-chay-boc-nhung-sac-pin-bat-tien-20260606160625479.htm",
+    "checked": "2026-10-29",
+    "used_for": "headline of road test: lively but charging inconvenient (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Is the CUV e: actually in the shop fleet, with how many batteries, which charger, and is swap-station access available? Rate for the CUV e: itself (only the electric category range is published)."
+  ]
+ },
+ {
+  "path": "honda/honda-cuv-e-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda CUV e: est-il adapté aux longues distances au départ de Hanoi ?",
+  "words_before": 1603,
+  "words_after": 1582,
+  "new_meta": {
+   "title": "Honda CUV e: jusqu’où aller au départ de Hanoi ?",
+   "description": "Le Honda CUV e: tient-il une longue route depuis Hanoi ? Autonomie annoncée, recharge hors de la ville, sorties possibles à la journée et solutions de rechange."
+  },
+  "evidence": {
+   "FACTS": "Range stated only as press-relayed (~73 km test cycle, higher values cited elsewhere; Whatcar headline seen in search result), flagged as ceiling not a promise; top speed « de l’ordre de 80 km/h » attributed to dealer sheets, to verify on Honda Vietnam; no manufacturer spec asserted. Distances to Bát Tràng/Ba Vì/Chùa Hương/Tam Đảo/Ninh Bình taken from /hanoi/excursions-moto/ (13-15, 40-44, 60-70, 70-85, 86-104 km) and doubled for the return (labelled as simple calculation, no driving times). Swap-station access via subscription attributed to xetv.vn. No stock, assistance, price, deposit or policy claim; no CUV e: own rate quoted; electric category row only referenced via /prix-location/. Removed: « conversation au comptoir », assistance promises.",
+   "INTENT": "Main question: is the CUV e: suited to long distances from Hanoi (answer: no beyond short day trips). OWNER of « le Honda CUV e: est-il fait pour les longues distances ». Differs from honda-icon-e-longue-distance-vietnam (0.80 similar) by: larger two-battery machine, higher speed with its battery cost, destination-by-destination range table, swap stations limited to Hanoi.",
+   "CONTENT": "Full rewrite: removed mannered abstractions and the repeated « dossier / logistique » formulas. New sections: autonomie, excursions table vs range, recharge outside Hanoi, speed/routes, machine by programme table, checklist if you insist, 5 FAQ. Words 1603 -> see words_after.",
+   "META": "Title rewritten shorter (47 chars) ; description rewritten factual ; H1 kept (hub anchor) ; og:title/og:description identical to title/description.",
+   "LINKS": "/honda/ (parent), /types-motos/, /prix-location/ (required) + /honda/honda-cuv-e-location-hanoi/, /hanoi/excursions-moto/, /honda/semi-automatiques/, /types-motos/electrique-scooter-hanoi-ninh-binh/ = 7/7 unique internal links. TOC synced.",
+   "AEO_GEO": "Lead answers « non, pas pour plusieurs jours » in 3 sentences; 2 tables (excursions vs range, machine by programme), 1 checklist, 5 FAQ; 2 external citations seen in results."
+  },
+  "sources": [
+   {
+    "url": "https://whatcar.vn/posts/tu-45-trieu-dong-xe-dien-honda-cuv-e-chay-73kmlan-sac-co-25-tram-doi-pin-tai-ha-noi",
+    "checked": "2026-10-29",
+    "used_for": "headline figure ~73 km per charge (press, test cycle) (seen in search result)"
+   },
+   {
+    "url": "https://xetv.vn/threads/tram-doi-pin-va-tram-sac-pin-honda-nguoi-dung-can-biet-gi-truoc-khi-mua-cuv-e-va-uc3.7046/",
+    "checked": "2026-10-29",
+    "used_for": "swap stations tied to a subscription package (seen in search result summary)"
+   },
+   {
+    "url": "https://fr.rentbikehanoi.com/hanoi/excursions-moto/",
+    "checked": "2026-10-29",
+    "used_for": "approximate distances from the centre (internal page, already sourced there)"
+   }
+  ],
+  "owner_gaps": [
+   "Real range of the CUV e: in the shop fleet (seul/à deux) and how its two batteries are used; whether swap-station access is available for the rented machine."
+  ]
+ },
+ {
+  "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda CUV e: ou Yamaha NEO’S : lequel louer à Hanoi (comparatif général : usage urbain, confort, rangement, prise en main, tarifs indicatifs) ?",
+  "words_before": 1543,
+  "words_after": 1636,
+  "new_meta": {
+   "title": "Honda CUV e: ou Yamaha NEO’S : quel scooter électrique louer ?",
+   "description": "CUV e: ou NEO’S à Hanoi : gabarit, batteries amovibles, recharge, conduite et budget comparés pour choisir un scooter électrique de location sans surprise."
+  },
+  "evidence": {
+   "FACTS": "Comparison kept qualitative. Range figures (CUV e: ~70-80 km, NEO’S ~70 km) and the NEO’S top-speed conflict (40 vs 48 km/h) are presented as press figures that diverge and are explicitly not tied to the rented machine; battery weight (~10 kg), charge times 6-9 h attributed to press/dealer sheets; NEO’S removable battery from the Yamaha Vietnam page (seen in search result); « option second battery » from press. Price: only the electric category row with the mandatory disclaimer; no model rate and no purchase prices. No deposit/delivery/insurance/fleet claims; permis rule not stated, reader told to check.",
+   "INTENT": "Main question: CUV e: or NEO’S, which electric scooter to rent in Hanoi (general comparison). OWNER of « honda cuv e ou yamaha neo’s » (group CMP-CUVE-NEOS). Differs from the angle page types-motos/honda-cuv-e-ou-yamaha-neos-vietnam (charging routine) which is linked once, and from honda-icon-e-ou-yamaha-neo-s-location (small machine, 0.67 similar).",
+   "CONTENT": "Full rewrite. Removed mannered prose and the repeated cross-page paragraph flagged as duplicated. New: side-by-side table, size/seat/storage, batteries and charging, riding, one category price table, profile table, checklist, 5 FAQ. Words 1543 -> see words_after.",
+   "META": "Title rewritten (no « quel choix de location » vagueness); description rewritten factual; H1 kept (hub anchor); og tags identical to title/description.",
+   "LINKS": "/honda/ (parent), /types-motos/, /prix-location/ (required) + /honda/honda-cuv-e-location-hanoi/, /yamaha/yamaha-neo-s-location-hanoi/, /types-motos/honda-cuv-e-ou-yamaha-neos-vietnam/, /types-motos/electrique-scooter-recharge-hanoi/ = 7/7. TOC synced.",
+   "AEO_GEO": "Lead gives the choice rule in 3 sentences; 3 tables (comparison, category price, profile choice), 1 checklist, 5 FAQ; external citations to Honda Vietnam, Yamaha Vietnam and xetv seen in results."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+    "checked": "2026-10-29",
+    "used_for": "NEO’S has a removable lithium-ion battery (Yamaha Vietnam page seen in search result; snippet only, no figure asserted)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+    "checked": "2026-10-29",
+    "used_for": "CUV e: launch page (seen in search result)"
+   },
+   {
+    "url": "https://xetv.vn/threads/tram-doi-pin-va-tram-sac-pin-honda-nguoi-dung-can-biet-gi-truoc-khi-mua-cuv-e-va-uc3.7046/",
+    "checked": "2026-10-29",
+    "used_for": "swap stations tied to a subscription (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Which of CUV e: / NEO’S the shop actually has, with how many batteries and what charger; rate for either model (only the electric category range exists)."
+  ]
+ },
+ {
+  "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Location du Honda CUV e: : combien prévoir et faut-il payer au jour, à la semaine ou au mois ?",
+  "words_before": 1734,
+  "words_after": 1562,
+  "new_meta": {
+   "title": "Honda CUV e: en location : quelle durée et quel budget ?",
+   "description": "Aucun tarif propre n’est publié pour le Honda CUV e: : repères de la catégorie électrique à la semaine et au mois, durée à choisir et ce que le prix ne dit pas."
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table: electric category row (day « selon le modèle, à confirmer », week 600 000-800 000, month 1 500 000-1 800 000) plus Vision 200 000/1 000 000/2 000 000 and Air Blade 200 000/900 000/1 500 000 and the automatic category range 150 000-200 000/600 000-1 000 000/1 200 000-2 000 000, each with the mandatory disclaimer. No CUV e: rate, no purchase price or Honda battery-lease amount, no derived day or multi-day package; table of « formule à demander » states what to ask, not what to pay. Removed the unsourced claims on deposit, delivery, fleet and insurance flagged by the checker. Phone/hours from the facts sheet.",
+   "INTENT": "Main question: how much to budget for a CUV e: rental and whether to take day, week or month. OWNER of « location du Honda CUV e: ». Differs from honda-cuv-e-location-hanoi (who should rent) and honda-icon-e-prix-location-hanoi (small machine) by the CUV e: availability caveat and the two-battery/recharge items to compare.",
+   "CONTENT": "Full rewrite: removed deposit/delivery/fleet/insurance statements and mannered prose. New: category row and unknowns, duration table (what to ask), what the price does not include, comparison table with Vision/Air Blade rows, 8-point offer checklist, 5 FAQ. Words 1734 -> see words_after.",
+   "META": "Title rewritten (54 chars) without « jour, semaine ou mois » repetition of the H1; description factual; H1 kept (hub anchor); og tags identical.",
+   "LINKS": "/honda/ (parent), /types-motos/, /prix-location/ (required) + /honda/honda-cuv-e-location-hanoi/, /location-moto-hanoi/longue-duree/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/, /honda/scooters/ = 7/7; recharge guide link dropped to respect the cap. TOC synced.",
+   "AEO_GEO": "Lead gives the answer (no own rate, category repère, disclaimer) in 3 sentences; 3 tables, 1 checklist, 5 FAQ; no external citations needed."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Daily and weekly/monthly rate for the CUV e: itself, what it includes (battery charge, charger, helmet) and the minimum duration; today only the electric category range is published."
+  ]
+ }
+]

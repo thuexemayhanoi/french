@@ -235,8 +235,8 @@
      "similarity": 0.56
     },
     {
-     "path": "index.html",
-     "similarity": 0.22
+     "path": "conditions/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -286,7 +286,7 @@
     },
     {
      "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
-     "similarity": 0.21
+     "similarity": 0.19
     }
    ]
   },
@@ -294,7 +294,7 @@
    "path": "centre-sud-vietnam/central-vietnam-coastal-itineraire-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/central-vietnam-coastal-itineraire-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "route côtière du Centre Vietnam en moto",
+   "primary_query_fr": "route côtière du Centre Vietnam à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/central-vietnam-coastal-itineraire-moto/index.html",
@@ -303,15 +303,15 @@
    "closest_pages": [
     {
      "path": "centre-sud-vietnam/vietnam-coastal-itineraire-moto/index.html",
-     "similarity": 0.36
+     "similarity": 0.33
+    },
+    {
+     "path": "nord-vietnam/hanoi-a-pu-luong-moto/index.html",
+     "similarity": 0.23
     },
     {
      "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
-     "similarity": 0.25
-    },
-    {
-     "path": "location-moto-hanoi/location-moto-ba-dinh/index.html",
-     "similarity": 0.17
+     "similarity": 0.23
     }
    ]
   },
@@ -352,16 +352,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/hanoi-lang-son-voyage-moto/index.html",
-     "similarity": 0.25
+     "path": "nord-vietnam/pu-luong-voyage-moto/index.html",
+     "similarity": 0.2
     },
     {
      "path": "nord-vietnam/moc-chau-voyage-moto/index.html",
-     "similarity": 0.21
+     "similarity": 0.2
     },
     {
      "path": "nord-vietnam/mai-chau-voyage-moto/index.html",
-     "similarity": 0.21
+     "similarity": 0.2
     }
    ]
   },
@@ -378,15 +378,15 @@
    "closest_pages": [
     {
      "path": "nord-vietnam/tam-dao-voyage-moto-hanoi/index.html",
-     "similarity": 0.31
+     "similarity": 0.29
     },
     {
      "path": "centre-sud-vietnam/da-nang-voyage-moto/index.html",
-     "similarity": 0.2
+     "similarity": 0.19
     },
     {
      "path": "nord-vietnam/hanoi-lang-son-voyage-moto/index.html",
-     "similarity": 0.15
+     "similarity": 0.14
     }
    ]
   },
@@ -394,7 +394,7 @@
    "path": "centre-sud-vietnam/da-lat-moto-1-jour/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/da-lat-moto-1-jour/",
    "type": "ARTICLE",
-   "primary_query_fr": "da Lat à moto en 1 jour",
+   "primary_query_fr": "đà Lạt à moto en 1 jour",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/da-lat-moto-1-jour/index.html",
@@ -402,16 +402,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "hanoi/hanoi-soc-son-moto-jour-voyage/index.html",
-     "similarity": 0.29
-    },
-    {
-     "path": "centre-sud-vietnam/da-lat-voyage-moto/index.html",
-     "similarity": 0.23
-    },
-    {
      "path": "centre-sud-vietnam/phu-quoc-moto-1-jour-route/index.html",
-     "similarity": 0.21
+     "similarity": 0.33
+    },
+    {
+     "path": "nord-vietnam/hanoi-ba-be-itineraire-moto/index.html",
+     "similarity": 0.25
+    },
+    {
+     "path": "nord-vietnam/sapa-itineraire-moto-1-jour/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -419,7 +419,7 @@
    "path": "centre-sud-vietnam/da-lat-moto-2-jours/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/da-lat-moto-2-jours/",
    "type": "ARTICLE",
-   "primary_query_fr": "da Lat à moto en 2 jours",
+   "primary_query_fr": "đà Lạt à moto en 2 jours",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/da-lat-moto-2-jours/index.html",
@@ -428,15 +428,15 @@
    "closest_pages": [
     {
      "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
-     "similarity": 0.25
+     "similarity": 0.23
     },
     {
      "path": "nord-vietnam/hanoi-moc-chau-moto-2-jours/index.html",
-     "similarity": 0.25
+     "similarity": 0.23
     },
     {
-     "path": "centre-sud-vietnam/da-lat-voyage-moto/index.html",
-     "similarity": 0.25
+     "path": "nord-vietnam/sapa-moto-2-jours/index.html",
+     "similarity": 0.21
     }
    ]
   },
@@ -452,16 +452,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/moc-chau-voyage-moto/index.html",
-     "similarity": 0.36
-    },
-    {
      "path": "nord-vietnam/bac-kan-voyage-moto/index.html",
-     "similarity": 0.27
+     "similarity": 0.21
     },
     {
      "path": "nord-vietnam/ninh-binh-voyage-moto/index.html",
-     "similarity": 0.25
+     "similarity": 0.2
+    },
+    {
+     "path": "nord-vietnam/moc-chau-voyage-moto/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -469,7 +469,7 @@
    "path": "centre-sud-vietnam/da-nang-a-hoi-an-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/da-nang-a-hoi-an-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "da Nang à Hoi An en moto",
+   "primary_query_fr": "de Đà Nẵng à Hội An à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/da-nang-a-hoi-an-moto/index.html",
@@ -477,16 +477,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/moto-hue-a-da-nang/index.html",
-     "similarity": 0.29
-    },
-    {
      "path": "centre-sud-vietnam/hue-a-hoi-an-moto/index.html",
-     "similarity": 0.29
+     "similarity": 0.33
     },
     {
-     "path": "hanoi/hanoi-co-loa-moto/index.html",
-     "similarity": 0.23
+     "path": "centre-sud-vietnam/moto-hue-a-da-nang/index.html",
+     "similarity": 0.25
+    },
+    {
+     "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
+     "similarity": 0.22
     }
    ]
   },
@@ -494,7 +494,7 @@
    "path": "centre-sud-vietnam/da-nang-voyage-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/da-nang-voyage-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "da Nang à moto",
+   "primary_query_fr": "đà Nẵng à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/da-nang-voyage-moto/index.html",
@@ -510,8 +510,8 @@
      "similarity": 0.29
     },
     {
-     "path": "centre-sud-vietnam/da-lat-voyage-moto/index.html",
-     "similarity": 0.23
+     "path": "nord-vietnam/mu-cang-chai-voyage-moto/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -527,16 +527,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
-     "similarity": 0.55
-    },
-    {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
-     "similarity": 0.5
-    },
-    {
      "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
-     "similarity": 0.46
+     "similarity": 0.43
+    },
+    {
+     "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
+     "similarity": 0.43
+    },
+    {
+     "path": "centre-sud-vietnam/moto-ho-chi-minh-ville/index.html",
+     "similarity": 0.42
     }
    ]
   },
@@ -544,7 +544,7 @@
    "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "de Ho Chi Minh Ville à Can Tho en moto",
+   "primary_query_fr": "de Hô-Chi-Minh-Ville à Cần Thơ à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
@@ -552,16 +552,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
-     "similarity": 0.6
-    },
-    {
      "path": "centre-sud-vietnam/hanoi-a-ho-chi-minh-moto/index.html",
-     "similarity": 0.55
+     "similarity": 0.43
     },
     {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
-     "similarity": 0.54
+     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
+     "similarity": 0.41
+    },
+    {
+     "path": "centre-sud-vietnam/ho-chi-minh-route-moto-vietnam/index.html",
+     "similarity": 0.38
     }
    ]
   },
@@ -569,7 +569,7 @@
    "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "ho Chi Minh à Hanoi en moto",
+   "primary_query_fr": "de Hô-Chi-Minh-Ville à Hanoi à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
@@ -578,15 +578,15 @@
    "closest_pages": [
     {
      "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
-     "similarity": 0.6
-    },
-    {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
-     "similarity": 0.5
+     "similarity": 0.41
     },
     {
      "path": "centre-sud-vietnam/hanoi-a-ho-chi-minh-moto/index.html",
-     "similarity": 0.5
+     "similarity": 0.38
+    },
+    {
+     "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -594,7 +594,7 @@
    "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "de Ho Chi Minh Ville à Vung Tau en moto",
+   "primary_query_fr": "de Hô-Chi-Minh-Ville à Vũng Tàu à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
@@ -602,16 +602,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
-     "similarity": 0.54
-    },
-    {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
-     "similarity": 0.5
-    },
-    {
      "path": "centre-sud-vietnam/hanoi-a-ho-chi-minh-moto/index.html",
-     "similarity": 0.46
+     "similarity": 0.43
+    },
+    {
+     "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
+     "similarity": 0.38
+    },
+    {
+     "path": "centre-sud-vietnam/moto-ho-chi-minh-ville/index.html",
+     "similarity": 0.36
     }
    ]
   },
@@ -627,8 +627,8 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
-     "similarity": 0.4
+     "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
+     "similarity": 0.38
     },
     {
      "path": "centre-sud-vietnam/moto-ho-chi-minh-ville/index.html",
@@ -636,7 +636,7 @@
     },
     {
      "path": "centre-sud-vietnam/hanoi-a-ho-chi-minh-moto/index.html",
-     "similarity": 0.36
+     "similarity": 0.33
     }
    ]
   },
@@ -660,8 +660,8 @@
      "similarity": 0.21
     },
     {
-     "path": "centre-sud-vietnam/da-nang-a-hoi-an-moto/index.html",
-     "similarity": 0.21
+     "path": "location-moto-hanoi/location-moto-vieux-quartier-hanoi/index.html",
+     "similarity": 0.19
     }
    ]
   },
@@ -681,12 +681,12 @@
      "similarity": 0.5
     },
     {
-     "path": "centre-sud-vietnam/centre/index.html",
+     "path": "centre-sud-vietnam/da-nang-a-hoi-an-moto/index.html",
      "similarity": 0.33
     },
     {
-     "path": "centre-sud-vietnam/da-nang-voyage-moto/index.html",
-     "similarity": 0.29
+     "path": "centre-sud-vietnam/centre/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -735,8 +735,8 @@
      "similarity": 0.18
     },
     {
-     "path": "nord-vietnam/bac-kan-voyage-moto/index.html",
-     "similarity": 0.17
+     "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
+     "similarity": 0.18
     }
    ]
   },
@@ -835,8 +835,8 @@
      "similarity": 0.33
     },
     {
-     "path": "centre-sud-vietnam/da-lat-voyage-moto/index.html",
-     "similarity": 0.23
+     "path": "nord-vietnam/moc-chau-voyage-moto/index.html",
+     "similarity": 0.21
     }
    ]
   },
@@ -878,14 +878,14 @@
    "closest_pages": [
     {
      "path": "centre-sud-vietnam/hanoi-a-ho-chi-minh-moto/index.html",
-     "similarity": 0.45
-    },
-    {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-can-tho-moto/index.html",
      "similarity": 0.42
     },
     {
      "path": "centre-sud-vietnam/ho-chi-minh-route-moto-vietnam/index.html",
+     "similarity": 0.36
+    },
+    {
+     "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
      "similarity": 0.36
     }
    ]
@@ -911,7 +911,7 @@
     },
     {
      "path": "centre-sud-vietnam/da-nang-a-hoi-an-moto/index.html",
-     "similarity": 0.29
+     "similarity": 0.25
     }
    ]
   },
@@ -960,8 +960,8 @@
      "similarity": 0.25
     },
     {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
-     "similarity": 0.25
+     "path": "nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -1027,15 +1027,15 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
+     "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
+     "similarity": 0.25
+    },
+    {
      "path": "nord-vietnam/sapa-voyage-moto/index.html",
      "similarity": 0.25
     },
     {
      "path": "nord-vietnam/halong-voyage-moto-2-jours/index.html",
-     "similarity": 0.25
-    },
-    {
-     "path": "nord-vietnam/cao-bang-voyage-moto/index.html",
      "similarity": 0.25
     }
    ]
@@ -1060,8 +1060,8 @@
      "similarity": 0.33
     },
     {
-     "path": "centre-sud-vietnam/phu-quoc-moto-3-jours-itineraire/index.html",
-     "similarity": 0.31
+     "path": "centre-sud-vietnam/da-lat-moto-1-jour/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -1182,7 +1182,7 @@
     },
     {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
-     "similarity": 0.21
+     "similarity": 0.23
     },
     {
      "path": "nord-vietnam/sapa-itineraire-moto-1-jour/index.html",
@@ -1253,7 +1253,7 @@
    "closest_pages": [
     {
      "path": "centre-sud-vietnam/central-vietnam-coastal-itineraire-moto/index.html",
-     "similarity": 0.36
+     "similarity": 0.33
     },
     {
      "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
@@ -1352,16 +1352,16 @@
    "parent_hub": "/",
    "closest_pages": [
     {
-     "path": "faq/index.html",
-     "similarity": 0.14
+     "path": "contact/index.html",
+     "similarity": 0.5
     },
     {
-     "path": "types-motos/50cc-scooter-long-distance-vietnam/index.html",
-     "similarity": 0.11
+     "path": "confidentialite/index.html",
+     "similarity": 0.5
     },
     {
-     "path": "prix-location/50cc-location-scooter-hanoi-prix/index.html",
-     "similarity": 0.11
+     "path": "a-propos/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -1385,8 +1385,8 @@
      "similarity": 0.56
     },
     {
-     "path": "index.html",
-     "similarity": 0.22
+     "path": "conditions/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -1410,8 +1410,8 @@
      "similarity": 0.56
     },
     {
-     "path": "index.html",
-     "similarity": 0.38
+     "path": "conditions/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -1431,12 +1431,12 @@
      "similarity": 0.43
     },
     {
-     "path": "index.html",
-     "similarity": 0.29
+     "path": "conditions/index.html",
+     "similarity": 0.3
     },
     {
-     "path": "prix-location/50cc-location-scooter-hanoi-prix/index.html",
-     "similarity": 0.2
+     "path": "index.html",
+     "similarity": 0.29
     }
    ]
   },
@@ -1453,14 +1453,14 @@
    "closest_pages": [
     {
      "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
-     "similarity": 0.31
+     "similarity": 0.33
     },
     {
      "path": "hanoi/jour-voyages-de-hanoi-by-moto/index.html",
-     "similarity": 0.29
+     "similarity": 0.31
     },
     {
-     "path": "hanoi/que-faire/index.html",
+     "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
      "similarity": 0.27
     }
    ]
@@ -1469,7 +1469,7 @@
    "path": "hanoi/ba-dinh-hanoi-itineraire/index.html",
    "url": "https://fr.rentbikehanoi.com/hanoi/ba-dinh-hanoi-itineraire/",
    "type": "ARTICLE",
-   "primary_query_fr": "ba Dinh à Hanoi",
+   "primary_query_fr": "ba Đình à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "hanoi/ba-dinh-hanoi-itineraire/index.html",
@@ -1478,15 +1478,15 @@
    "closest_pages": [
     {
      "path": "location-moto-hanoi/location-moto-ba-dinh/index.html",
-     "similarity": 0.18
+     "similarity": 0.15
     },
     {
      "path": "nord-vietnam/hanoi-ba-be-itineraire-moto/index.html",
-     "similarity": 0.17
+     "similarity": 0.14
     },
     {
      "path": "hanoi/hanoi-co-loa-moto/index.html",
-     "similarity": 0.17
+     "similarity": 0.14
     }
    ]
   },
@@ -1494,7 +1494,7 @@
    "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
    "url": "https://fr.rentbikehanoi.com/hanoi/easy-moto-routes-hanoi-debutant/",
    "type": "ARTICLE",
-   "primary_query_fr": "routes faciles autour de Hanoi",
+   "primary_query_fr": "routes faciles autour de Hanoi à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
@@ -1503,15 +1503,15 @@
    "closest_pages": [
     {
      "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
-     "similarity": 0.29
+     "similarity": 0.33
     },
     {
      "path": "hanoi/semi-automatique-moto-routes-hanoi/index.html",
-     "similarity": 0.21
+     "similarity": 0.27
     },
     {
-     "path": "types-motos/50cc-ou-110cc-scooter-vietnam/index.html",
-     "similarity": 0.2
+     "path": "nord-vietnam/moc-chau-voyage-moto/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -1552,16 +1552,16 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
-     "path": "hanoi/que-faire-hanoi-early-morning/index.html",
-     "similarity": 0.33
-    },
-    {
-     "path": "hanoi/que-faire-hanoi-christmas/index.html",
-     "similarity": 0.31
-    },
-    {
      "path": "hanoi/que-faire-hanoi-solo/index.html",
-     "similarity": 0.23
+     "similarity": 0.2
+    },
+    {
+     "path": "hanoi/que-faire-hanoi-during-tet/index.html",
+     "similarity": 0.2
+    },
+    {
+     "path": "hanoi/que-faire-hanoi-couples/index.html",
+     "similarity": 0.19
     }
    ]
   },
@@ -2035,8 +2035,8 @@
      "similarity": 0.17
     },
     {
-     "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
-     "similarity": 0.13
+     "path": "permis-securite/moto-pluie-securite-vietnam/index.html",
+     "similarity": 0.11
     }
    ]
   },
@@ -2110,8 +2110,8 @@
      "similarity": 0.15
     },
     {
-     "path": "centre-sud-vietnam/da-lat-moto-1-jour/index.html",
-     "similarity": 0.15
+     "path": "hanoi/hanoi-lakes-itineraire-moto/index.html",
+     "similarity": 0.14
     }
    ]
   },
@@ -2152,15 +2152,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/da-lat-moto-1-jour/index.html",
-     "similarity": 0.29
-    },
-    {
      "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
      "similarity": 0.21
     },
     {
      "path": "nord-vietnam/cao-bang-voyage-moto/index.html",
+     "similarity": 0.21
+    },
+    {
+     "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
      "similarity": 0.21
     }
    ]
@@ -2235,7 +2235,7 @@
      "similarity": 0.21
     },
     {
-     "path": "hanoi/free-que-faire-hanoi/index.html",
+     "path": "hanoi/que-faire-hanoi-at-nuit/index.html",
      "similarity": 0.21
     }
    ]
@@ -2278,7 +2278,7 @@
    "closest_pages": [
     {
      "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
-     "similarity": 0.29
+     "similarity": 0.31
     },
     {
      "path": "nord-vietnam/sapa-itineraire-moto-1-jour/index.html",
@@ -2360,8 +2360,8 @@
      "similarity": 0.2
     },
     {
-     "path": "hanoi/free-que-faire-hanoi/index.html",
-     "similarity": 0.2
+     "path": "hanoi/que-faire-hanoi-couples/index.html",
+     "similarity": 0.19
     }
    ]
   },
@@ -2377,15 +2377,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
-     "path": "hanoi/free-que-faire-hanoi/index.html",
-     "similarity": 0.31
-    },
-    {
      "path": "hanoi/que-faire-hanoi-early-morning/index.html",
      "similarity": 0.24
     },
     {
      "path": "hanoi/que-faire-hanoi-solo/index.html",
+     "similarity": 0.21
+    },
+    {
+     "path": "hanoi/que-faire-hanoi-during-tet/index.html",
      "similarity": 0.21
     }
    ]
@@ -2431,11 +2431,11 @@
      "similarity": 0.33
     },
     {
-     "path": "hanoi/free-que-faire-hanoi/index.html",
-     "similarity": 0.23
+     "path": "hanoi/que-faire-hanoi-couples/index.html",
+     "similarity": 0.21
     },
     {
-     "path": "hanoi/que-faire-hanoi-couples/index.html",
+     "path": "hanoi/que-faire-hanoi-christmas/index.html",
      "similarity": 0.21
     }
    ]
@@ -2452,15 +2452,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
-     "path": "hanoi/free-que-faire-hanoi/index.html",
-     "similarity": 0.33
-    },
-    {
      "path": "hanoi/que-faire-hanoi-christmas/index.html",
      "similarity": 0.24
     },
     {
      "path": "hanoi/que-faire-hanoi-solo/index.html",
+     "similarity": 0.18
+    },
+    {
+     "path": "hanoi/que-faire-hanoi-during-tet/index.html",
      "similarity": 0.18
     }
    ]
@@ -2485,8 +2485,8 @@
      "similarity": 0.29
     },
     {
-     "path": "hanoi/free-que-faire-hanoi/index.html",
-     "similarity": 0.23
+     "path": "hanoi/que-faire-hanoi-couples/index.html",
+     "similarity": 0.21
     }
    ]
   },
@@ -2552,16 +2552,16 @@
    "parent_hub": "/",
    "closest_pages": [
     {
-     "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
-     "similarity": 0.27
-    },
-    {
      "path": "hanoi/hanoi-3-jours-itineraire/index.html",
      "similarity": 0.25
     },
     {
      "path": "hanoi/hanoi-2-jours-itineraire/index.html",
      "similarity": 0.21
+    },
+    {
+     "path": "types-motos/scooter-pour-grand-gabarit-conducteur-vietnam/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -2606,12 +2606,12 @@
      "similarity": 0.22
     },
     {
-     "path": "yamaha/yamaha-sirius-vietnam-voyage-moto/index.html",
-     "similarity": 0.17
+     "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
+     "similarity": 0.18
     },
     {
-     "path": "hanoi/jour-voyages-de-hanoi-by-moto/index.html",
-     "similarity": 0.17
+     "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
+     "similarity": 0.18
     }
    ]
   },
@@ -2756,11 +2756,11 @@
      "similarity": 0.33
     },
     {
-     "path": "yamaha/yamaha-neo-s-ou-honda-icon-e-location/index.html",
-     "similarity": 0.3
+     "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
+     "similarity": 0.33
     },
     {
-     "path": "types-motos/honda-cuv-e-ou-yamaha-neos-vietnam/index.html",
+     "path": "yamaha/yamaha-neo-s-ou-honda-icon-e-location/index.html",
      "similarity": 0.3
     }
    ]
@@ -2778,15 +2778,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-ct125-hanoi-ville/index.html",
-     "similarity": 0.56
+     "similarity": 0.6
+    },
+    {
+     "path": "honda/honda-air-blade-160-hanoi-ville/index.html",
+     "similarity": 0.6
     },
     {
      "path": "honda/honda-future-125-fi-hanoi-ville/index.html",
-     "similarity": 0.53
-    },
-    {
-     "path": "honda/honda-vario-160-hanoi-ville/index.html",
-     "similarity": 0.5
+     "similarity": 0.47
     }
    ]
   },
@@ -2802,16 +2802,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
+     "path": "honda/honda-air-blade-160-location-hanoi/index.html",
+     "similarity": 0.67
+    },
+    {
      "path": "honda/honda-future-125-fi-location-hanoi/index.html",
      "similarity": 0.5
     },
     {
-     "path": "honda/honda-air-blade-160-location-hanoi/index.html",
-     "similarity": 0.5
-    },
-    {
-     "path": "honda/honda-ct125-location-hanoi/index.html",
-     "similarity": 0.44
+     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
+     "similarity": 0.45
     }
    ]
   },
@@ -2827,15 +2827,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
+     "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
+     "similarity": 0.69
+    },
+    {
      "path": "honda/honda-icon-e-longue-distance-vietnam/index.html",
-     "similarity": 0.57
+     "similarity": 0.67
     },
     {
      "path": "honda/honda-cuv-e-longue-distance-vietnam/index.html",
-     "similarity": 0.57
-    },
-    {
-     "path": "honda/honda-vision-longue-distance-vietnam/index.html",
      "similarity": 0.5
     }
    ]
@@ -2853,15 +2853,15 @@
    "closest_pages": [
     {
      "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
-     "similarity": 0.64
+     "similarity": 0.7
     },
     {
      "path": "honda/honda-air-blade-160-ou-yamaha-nvx-155-location/index.html",
-     "similarity": 0.64
+     "similarity": 0.7
     },
     {
      "path": "types-motos/yamaha-nvx-ou-honda-air-blade-location-vietnam/index.html",
-     "similarity": 0.54
+     "similarity": 0.58
     }
    ]
   },
@@ -2882,11 +2882,11 @@
     },
     {
      "path": "honda/honda-vision-prix-location-hanoi/index.html",
-     "similarity": 0.64
+     "similarity": 0.55
     },
     {
      "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
-     "similarity": 0.64
+     "similarity": 0.55
     }
    ]
   },
@@ -2903,15 +2903,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
-     "similarity": 0.47
-    },
-    {
-     "path": "honda/honda-vision-hanoi-ville/index.html",
-     "similarity": 0.36
+     "similarity": 0.6
     },
     {
      "path": "honda/honda-vario-160-hanoi-ville/index.html",
-     "similarity": 0.33
+     "similarity": 0.41
+    },
+    {
+     "path": "honda/honda-ct125-hanoi-ville/index.html",
+     "similarity": 0.38
     }
    ]
   },
@@ -2927,11 +2927,11 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-vario-160-location-hanoi/index.html",
-     "similarity": 0.5
+     "path": "honda/honda-air-blade-125-location-hanoi/index.html",
+     "similarity": 0.67
     },
     {
-     "path": "honda/honda-air-blade-125-location-hanoi/index.html",
+     "path": "honda/honda-vario-160-location-hanoi/index.html",
      "similarity": 0.5
     },
     {
@@ -2952,15 +2952,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-vario-160-longue-distance-vietnam/index.html",
-     "similarity": 0.6
-    },
-    {
-     "path": "honda/honda-vision-longue-distance-vietnam/index.html",
-     "similarity": 0.57
-    },
-    {
      "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
+     "similarity": 0.69
+    },
+    {
+     "path": "honda/honda-icon-e-longue-distance-vietnam/index.html",
+     "similarity": 0.54
+    },
+    {
+     "path": "honda/honda-vario-160-longue-distance-vietnam/index.html",
      "similarity": 0.5
     }
    ]
@@ -2982,7 +2982,7 @@
     },
     {
      "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
-     "similarity": 0.64
+     "similarity": 0.7
     },
     {
      "path": "honda/honda-vario-160-ou-yamaha-nvx-location/index.html",
@@ -3002,16 +3002,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
+     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
      "similarity": 0.67
     },
     {
-     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
-     "similarity": 0.58
+     "path": "honda/honda-icon-e-prix-location-hanoi/index.html",
+     "similarity": 0.67
     },
     {
-     "path": "honda/honda-icon-e-prix-location-hanoi/index.html",
-     "similarity": 0.58
+     "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
+     "similarity": 0.67
     }
    ]
   },
@@ -3028,7 +3028,7 @@
    "closest_pages": [
     {
      "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
-     "similarity": 0.56
+     "similarity": 0.6
     },
     {
      "path": "honda/honda-future-125-fi-hanoi-ville/index.html",
@@ -3077,16 +3077,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-winner-x-longue-distance-vietnam/index.html",
-     "similarity": 0.58
-    },
-    {
      "path": "honda/honda-icon-e-longue-distance-vietnam/index.html",
-     "similarity": 0.46
+     "similarity": 0.5
     },
     {
-     "path": "honda/honda-cuv-e-longue-distance-vietnam/index.html",
-     "similarity": 0.46
+     "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
+     "similarity": 0.44
+    },
+    {
+     "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
+     "similarity": 0.44
     }
    ]
   },
@@ -3128,15 +3128,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
-     "similarity": 0.55
+     "similarity": 0.5
     },
     {
      "path": "honda/honda-vision-prix-location-hanoi/index.html",
-     "similarity": 0.55
+     "similarity": 0.5
     },
     {
      "path": "honda/honda-vario-160-prix-location-hanoi/index.html",
-     "similarity": 0.55
+     "similarity": 0.5
     }
    ]
   },
@@ -3153,15 +3153,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-icon-e-hanoi-ville/index.html",
-     "similarity": 0.45
+     "similarity": 0.5
     },
     {
      "path": "honda/honda-winner-x-hanoi-ville/index.html",
-     "similarity": 0.42
+     "similarity": 0.45
     },
     {
      "path": "honda/honda-ct125-hanoi-ville/index.html",
-     "similarity": 0.38
+     "similarity": 0.42
     }
    ]
   },
@@ -3177,15 +3177,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-icon-e-location-hanoi/index.html",
-     "similarity": 0.67
-    },
-    {
-     "path": "honda/honda-vision-location-hanoi/index.html",
-     "similarity": 0.57
-    },
-    {
      "path": "honda/honda-wave-alpha-110-location-hanoi/index.html",
+     "similarity": 0.45
+    },
+    {
+     "path": "honda/honda-sh125i-location-hanoi/index.html",
+     "similarity": 0.44
+    },
+    {
+     "path": "honda/honda-icon-e-location-hanoi/index.html",
      "similarity": 0.44
     }
    ]
@@ -3203,15 +3203,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-icon-e-longue-distance-vietnam/index.html",
-     "similarity": 0.8
+     "similarity": 0.58
     },
     {
      "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
-     "similarity": 0.57
+     "similarity": 0.5
     },
     {
      "path": "honda/honda-winner-x-longue-distance-vietnam/index.html",
-     "similarity": 0.5
+     "similarity": 0.46
     }
    ]
   },
@@ -3228,15 +3228,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-icon-e-ou-yamaha-neo-s-location/index.html",
-     "similarity": 0.67
+     "similarity": 0.75
     },
     {
      "path": "types-motos/honda-cuv-e-ou-yamaha-neos-vietnam/index.html",
-     "similarity": 0.6
+     "similarity": 0.67
     },
     {
      "path": "types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam/index.html",
-     "similarity": 0.5
+     "similarity": 0.55
     }
    ]
   },
@@ -3253,15 +3253,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-vision-prix-location-hanoi/index.html",
-     "similarity": 0.67
-    },
-    {
-     "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
-     "similarity": 0.62
+     "similarity": 0.55
     },
     {
      "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
-     "similarity": 0.6
+     "similarity": 0.5
+    },
+    {
+     "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -3281,12 +3281,12 @@
      "similarity": 0.54
     },
     {
-     "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
-     "similarity": 0.53
-    },
-    {
      "path": "honda/honda-sh-mode-125-hanoi-ville/index.html",
      "similarity": 0.5
+    },
+    {
+     "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
+     "similarity": 0.47
     }
    ]
   },
@@ -3331,12 +3331,12 @@
      "similarity": 0.47
     },
     {
-     "path": "honda/honda-ct125-longue-distance-vietnam/index.html",
-     "similarity": 0.44
+     "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
+     "similarity": 0.41
     },
     {
-     "path": "honda/honda-icon-e-longue-distance-vietnam/index.html",
-     "similarity": 0.38
+     "path": "honda/honda-ct125-longue-distance-vietnam/index.html",
+     "similarity": 0.39
     }
    ]
   },
@@ -3410,8 +3410,8 @@
      "similarity": 0.5
     },
     {
-     "path": "honda/honda-wave-alpha-110-hanoi-ville/index.html",
-     "similarity": 0.47
+     "path": "honda/honda-cuv-e-hanoi-ville/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -3427,15 +3427,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-cuv-e-location-hanoi/index.html",
-     "similarity": 0.67
-    },
-    {
      "path": "honda/honda-vision-location-hanoi/index.html",
      "similarity": 0.57
     },
     {
      "path": "honda/honda-wave-alpha-110-location-hanoi/index.html",
+     "similarity": 0.44
+    },
+    {
+     "path": "honda/honda-cuv-e-location-hanoi/index.html",
      "similarity": 0.44
     }
    ]
@@ -3452,16 +3452,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-cuv-e-longue-distance-vietnam/index.html",
-     "similarity": 0.8
-    },
-    {
      "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
-     "similarity": 0.57
+     "similarity": 0.67
     },
     {
-     "path": "honda/honda-winner-x-longue-distance-vietnam/index.html",
-     "similarity": 0.5
+     "path": "honda/honda-cuv-e-longue-distance-vietnam/index.html",
+     "similarity": 0.58
+    },
+    {
+     "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
+     "similarity": 0.54
     }
    ]
   },
@@ -3477,15 +3477,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
+     "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
+     "similarity": 0.75
+    },
+    {
      "path": "types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam/index.html",
      "similarity": 0.7
     },
     {
      "path": "yamaha/yamaha-neo-s-ou-honda-icon-e-location/index.html",
-     "similarity": 0.67
-    },
-    {
-     "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
      "similarity": 0.67
     }
    ]
@@ -3506,12 +3506,12 @@
      "similarity": 0.8
     },
     {
-     "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
-     "similarity": 0.6
+     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
+     "similarity": 0.67
     },
     {
-     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
-     "similarity": 0.58
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
+     "similarity": 0.55
     }
    ]
   },
@@ -3631,11 +3631,11 @@
      "similarity": 0.62
     },
     {
-     "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
-     "similarity": 0.56
+     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "similarity": 0.5
     },
     {
-     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
      "similarity": 0.5
     }
    ]
@@ -3756,11 +3756,11 @@
      "similarity": 0.7
     },
     {
-     "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
-     "similarity": 0.58
+     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "similarity": 0.55
     },
     {
-     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
      "similarity": 0.55
     }
    ]
@@ -3806,11 +3806,11 @@
      "similarity": 0.44
     },
     {
-     "path": "honda/honda-lead-abs-location-hanoi/index.html",
-     "similarity": 0.43
+     "path": "honda/honda-cuv-e-location-hanoi/index.html",
+     "similarity": 0.44
     },
     {
-     "path": "honda/honda-icon-e-location-hanoi/index.html",
+     "path": "honda/honda-lead-abs-location-hanoi/index.html",
      "similarity": 0.43
     }
    ]
@@ -3827,16 +3827,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
-     "similarity": 0.4
-    },
-    {
      "path": "honda/honda-vision-longue-distance-vietnam/index.html",
      "similarity": 0.36
     },
     {
      "path": "honda/honda-super-cub-c125-longue-distance-vietnam/index.html",
      "similarity": 0.36
+    },
+    {
+     "path": "honda/honda-ct125-longue-distance-vietnam/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -3856,11 +3856,11 @@
      "similarity": 0.6
     },
     {
-     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
-     "similarity": 0.42
+     "path": "yamaha/yamaha-latte-ou-honda-vision-location/index.html",
+     "similarity": 0.4
     },
     {
-     "path": "yamaha/yamaha-latte-ou-honda-vision-location/index.html",
+     "path": "honda/honda-vision-ou-yamaha-janus-location/index.html",
      "similarity": 0.4
     }
    ]
@@ -3881,11 +3881,11 @@
      "similarity": 0.62
     },
     {
-     "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
-     "similarity": 0.62
+     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "similarity": 0.56
     },
     {
-     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
      "similarity": 0.56
     }
    ]
@@ -4131,11 +4131,11 @@
      "similarity": 0.7
     },
     {
-     "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
-     "similarity": 0.64
+     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "similarity": 0.6
     },
     {
-     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
      "similarity": 0.6
     }
    ]
@@ -4153,15 +4153,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
-     "similarity": 0.5
+     "similarity": 0.44
     },
     {
      "path": "honda/honda-ct125-hanoi-ville/index.html",
      "similarity": 0.41
     },
     {
-     "path": "honda/honda-vario-125-hanoi-ville/index.html",
-     "similarity": 0.4
+     "path": "honda/honda-air-blade-160-hanoi-ville/index.html",
+     "similarity": 0.41
     }
    ]
   },
@@ -4202,11 +4202,11 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
-     "similarity": 0.6
+     "path": "honda/honda-vision-longue-distance-vietnam/index.html",
+     "similarity": 0.5
     },
     {
-     "path": "honda/honda-vision-longue-distance-vietnam/index.html",
+     "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
      "similarity": 0.5
     },
     {
@@ -4256,12 +4256,12 @@
      "similarity": 0.6
     },
     {
-     "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
-     "similarity": 0.56
+     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
+     "similarity": 0.58
     },
     {
-     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
-     "similarity": 0.55
+     "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
+     "similarity": 0.56
     }
    ]
   },
@@ -4277,11 +4277,11 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-wave-rsx-hanoi-ville/index.html",
-     "similarity": 0.38
+     "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
+     "similarity": 0.4
     },
     {
-     "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
+     "path": "honda/honda-wave-rsx-hanoi-ville/index.html",
      "similarity": 0.38
     },
     {
@@ -4306,11 +4306,11 @@
      "similarity": 0.57
     },
     {
-     "path": "honda/honda-cuv-e-location-hanoi/index.html",
-     "similarity": 0.57
+     "path": "honda/honda-wave-alpha-110-location-hanoi/index.html",
+     "similarity": 0.4
     },
     {
-     "path": "honda/honda-wave-alpha-110-location-hanoi/index.html",
+     "path": "honda/honda-cuv-e-location-hanoi/index.html",
      "similarity": 0.4
     }
    ]
@@ -4327,16 +4327,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
-     "similarity": 0.57
-    },
-    {
      "path": "honda/honda-vario-160-longue-distance-vietnam/index.html",
      "similarity": 0.5
     },
     {
-     "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
-     "similarity": 0.5
+     "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
+     "similarity": 0.47
+    },
+    {
+     "path": "honda/honda-winner-x-longue-distance-vietnam/index.html",
+     "similarity": 0.43
     }
    ]
   },
@@ -4377,16 +4377,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
-     "similarity": 0.67
-    },
-    {
      "path": "honda/honda-wave-alpha-110-prix-location-hanoi/index.html",
      "similarity": 0.64
     },
     {
-     "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
-     "similarity": 0.64
+     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+     "similarity": 0.6
+    },
+    {
+     "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
+     "similarity": 0.6
     }
    ]
   },
@@ -4427,15 +4427,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
+     "path": "honda/honda-cuv-e-location-hanoi/index.html",
+     "similarity": 0.45
+    },
+    {
      "path": "honda/honda-sh125i-location-hanoi/index.html",
      "similarity": 0.44
     },
     {
      "path": "honda/honda-icon-e-location-hanoi/index.html",
-     "similarity": 0.44
-    },
-    {
-     "path": "honda/honda-cuv-e-location-hanoi/index.html",
      "similarity": 0.44
     }
    ]
@@ -4510,8 +4510,8 @@
      "similarity": 0.64
     },
     {
-     "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
-     "similarity": 0.55
+     "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -4681,12 +4681,12 @@
      "similarity": 0.43
     },
     {
-     "path": "honda/honda-cuv-e-location-hanoi/index.html",
+     "path": "honda/honda-ct125-location-hanoi/index.html",
      "similarity": 0.43
     },
     {
-     "path": "honda/honda-ct125-location-hanoi/index.html",
-     "similarity": 0.43
+     "path": "honda/honda-vision-location-hanoi/index.html",
+     "similarity": 0.38
     }
    ]
   },
@@ -4702,16 +4702,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-ct125-longue-distance-vietnam/index.html",
-     "similarity": 0.58
-    },
-    {
      "path": "honda/honda-icon-e-longue-distance-vietnam/index.html",
      "similarity": 0.5
     },
     {
+     "path": "honda/honda-future-125-fi-longue-distance-vietnam/index.html",
+     "similarity": 0.47
+    },
+    {
      "path": "honda/honda-cuv-e-longue-distance-vietnam/index.html",
-     "similarity": 0.5
+     "similarity": 0.46
     }
    ]
   },
@@ -4756,12 +4756,12 @@
      "similarity": 0.8
     },
     {
-     "path": "honda/honda-cuv-e-prix-location-hanoi/index.html",
-     "similarity": 0.6
+     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
+     "similarity": 0.67
     },
     {
-     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
-     "similarity": 0.58
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
+     "similarity": 0.55
     }
    ]
   },
@@ -4785,7 +4785,7 @@
      "similarity": 0.27
     },
     {
-     "path": "honda/honda-air-blade-125-location-hanoi/index.html",
+     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
      "similarity": 0.25
     }
    ]
@@ -4877,15 +4877,15 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
+     "similarity": 0.43
+    },
+    {
+     "path": "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
+     "similarity": 0.43
+    },
+    {
      "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.38
-    },
-    {
-     "path": "prix-location/3-jours-location-moto-hanoi-prix/index.html",
-     "similarity": 0.38
-    },
-    {
-     "path": "location-moto-hanoi/same-jour-location-moto-hanoi/index.html",
      "similarity": 0.38
     }
    ]
@@ -4894,7 +4894,7 @@
    "path": "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
    "url": "https://fr.rentbikehanoi.com/location-moto-hanoi/1-mois-location-moto-hanoi/",
    "type": "ARTICLE",
-   "primary_query_fr": "louer une moto pour un mois à Hanoi",
+   "primary_query_fr": "louer une moto un mois à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
@@ -4903,15 +4903,15 @@
    "closest_pages": [
     {
      "path": "location-moto-hanoi/3-mois-location-moto-hanoi/index.html",
-     "similarity": 0.29
+     "similarity": 0.4
     },
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.27
+     "path": "prix-location/30-jours-location-moto-hanoi-cout/index.html",
+     "similarity": 0.31
     },
     {
-     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
-     "similarity": 0.26
+     "path": "location-moto-hanoi/1-semaine-location-moto-hanoi/index.html",
+     "similarity": 0.3
     }
    ]
   },
@@ -4931,12 +4931,12 @@
      "similarity": 0.33
     },
     {
-     "path": "location-moto-hanoi/1-way-location-moto-hanoi/index.html",
+     "path": "prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/index.html",
      "similarity": 0.3
     },
     {
-     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
-     "similarity": 0.29
+     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
+     "similarity": 0.3
     }
    ]
   },
@@ -4956,12 +4956,12 @@
      "similarity": 0.3
     },
     {
-     "path": "location-moto-hanoi/backpacker-location-moto-hanoi/index.html",
-     "similarity": 0.27
-    },
-    {
      "path": "location-moto-hanoi/location-moto-tay-ho/index.html",
      "similarity": 0.25
+    },
+    {
+     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
+     "similarity": 0.24
     }
    ]
   },
@@ -4977,16 +4977,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
+     "similarity": 0.5
+    },
+    {
      "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.4
+     "similarity": 0.44
     },
     {
      "path": "prix-location/3-jours-location-moto-hanoi-prix/index.html",
-     "similarity": 0.4
-    },
-    {
-     "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
-     "similarity": 0.4
+     "similarity": 0.44
     }
    ]
   },
@@ -5027,16 +5027,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
+     "similarity": 0.5
+    },
+    {
      "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.4
+     "similarity": 0.44
     },
     {
      "path": "prix-location/3-jours-location-moto-hanoi-prix/index.html",
-     "similarity": 0.4
-    },
-    {
-     "path": "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
-     "similarity": 0.4
+     "similarity": 0.44
     }
    ]
   },
@@ -5052,16 +5052,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
+     "similarity": 0.4
+    },
+    {
      "path": "permis-securite/location-moto-contrat-vietnam/index.html",
      "similarity": 0.33
     },
     {
      "path": "permis-securite/moto-chain-slack-location-vietnam/index.html",
      "similarity": 0.3
-    },
-    {
-     "path": "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
-     "similarity": 0.29
     }
    ]
   },
@@ -5094,7 +5094,7 @@
    "path": "location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "de l'aéroport de Noi Bai à Hanoi",
+   "primary_query_fr": "de l’aéroport de Noi Bai à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html",
@@ -5103,15 +5103,15 @@
    "closest_pages": [
     {
      "path": "location-moto-hanoi/location-moto-aeroport-noi-bai/index.html",
-     "similarity": 0.55
+     "similarity": 0.6
     },
     {
      "path": "types-motos/location-moto-manuelle-hanoi/index.html",
-     "similarity": 0.22
+     "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
-     "similarity": 0.22
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -5127,16 +5127,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "location-moto-hanoi/1-way-location-moto-hanoi/index.html",
+     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
+     "similarity": 0.3
+    },
+    {
+     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
+     "similarity": 0.3
+    },
+    {
+     "path": "prix-location/14-jours-location-moto-hanoi-cout/index.html",
      "similarity": 0.27
-    },
-    {
-     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
-     "similarity": 0.25
-    },
-    {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
-     "similarity": 0.25
     }
    ]
   },
@@ -5194,7 +5194,7 @@
    "path": "location-moto-hanoi/choisir-location-moto-hanoi/index.html",
    "url": "https://fr.rentbikehanoi.com/location-moto-hanoi/choisir-location-moto-hanoi/",
    "type": "ARTICLE",
-   "primary_query_fr": "comment choisir la meilleure location de moto à Hanoi",
+   "primary_query_fr": "choisir la meilleure location de moto à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "location-moto-hanoi/choisir-location-moto-hanoi/index.html",
@@ -5202,16 +5202,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "types-motos/meilleur-moto-montagne-routes-vietnam/index.html",
+     "similarity": 0.33
+    },
+    {
      "path": "types-motos/location-moto-manuelle-hanoi/index.html",
      "similarity": 0.29
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.29
-    },
-    {
-     "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
-     "similarity": 0.25
     }
    ]
   },
@@ -5269,7 +5269,7 @@
    "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
    "url": "https://fr.rentbikehanoi.com/location-moto-hanoi/debutant-location-moto-hanoi/",
    "type": "ARTICLE",
-   "primary_query_fr": "débutant à moto",
+   "primary_query_fr": "débutant à moto à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
@@ -5277,16 +5277,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+     "similarity": 0.33
+    },
+    {
      "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
-     "similarity": 0.38
+     "similarity": 0.33
     },
     {
      "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
-     "similarity": 0.29
-    },
-    {
-     "path": "location-moto-hanoi/location-moto-hanoi-ete/index.html",
-     "similarity": 0.27
+     "similarity": 0.33
     }
    ]
   },
@@ -5294,7 +5294,7 @@
    "path": "location-moto-hanoi/etat-des-lieux-moto-location-hanoi/index.html",
    "url": "https://fr.rentbikehanoi.com/location-moto-hanoi/etat-des-lieux-moto-location-hanoi/",
    "type": "ARTICLE",
-   "primary_query_fr": "état des lieux d’une location",
+   "primary_query_fr": "état des lieux d’une moto de location",
    "role": "OWNER",
    "group": null,
    "group_owner": "location-moto-hanoi/etat-des-lieux-moto-location-hanoi/index.html",
@@ -5303,15 +5303,15 @@
    "closest_pages": [
     {
      "path": "hanoi/hanoi-sunset-itineraire-moto/index.html",
-     "similarity": 0.1
+     "similarity": 0.11
     },
     {
-     "path": "location-moto-hanoi/hanoi-location-moto-pour-sapa/index.html",
+     "path": "centre-sud-vietnam/con-dao-voyage-moto/index.html",
      "similarity": 0.08
     },
     {
-     "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
-     "similarity": 0.08
+     "path": "hanoi/hanoi-quartier-francais-que-faire/index.html",
+     "similarity": 0.07
     }
    ]
   },
@@ -5319,7 +5319,7 @@
    "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/location-moto-hanoi/hanoi-a-ninh-binh-location-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "louer une moto à Hanoi avant de partir à Ninh Binh",
+   "primary_query_fr": "louer une moto à Hanoi pour Ninh Binh",
    "role": "OWNER",
    "group": null,
    "group_owner": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
@@ -5328,15 +5328,15 @@
    "closest_pages": [
     {
      "path": "nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/index.html",
-     "similarity": 0.33
+     "similarity": 0.4
     },
     {
      "path": "types-motos/50cc-hanoi-a-ninh-binh/index.html",
-     "similarity": 0.27
+     "similarity": 0.33
     },
     {
      "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
-     "similarity": 0.25
+     "similarity": 0.3
     }
    ]
   },
@@ -5344,7 +5344,7 @@
    "path": "location-moto-hanoi/hanoi-location-moto-pour-ha-giang/index.html",
    "url": "https://fr.rentbikehanoi.com/location-moto-hanoi/hanoi-location-moto-pour-ha-giang/",
    "type": "ARTICLE",
-   "primary_query_fr": "louer sa moto à Hanoi avant de partir pour Ha Giang",
+   "primary_query_fr": "louer une moto à Hanoi pour Ha Giang",
    "role": "OWNER",
    "group": null,
    "group_owner": "location-moto-hanoi/hanoi-location-moto-pour-ha-giang/index.html",
@@ -5352,16 +5352,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "location-moto-hanoi/hanoi-location-moto-pour-sapa/index.html",
-     "similarity": 0.31
-    },
-    {
-     "path": "prix-location/hanoi-ha-giang-voyage-moto-cout/index.html",
-     "similarity": 0.25
+     "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
+     "similarity": 0.3
     },
     {
      "path": "nord-vietnam/meilleure-moto-pour-ha-giang-boucle/index.html",
-     "similarity": 0.24
+     "similarity": 0.29
+    },
+    {
+     "path": "nord-vietnam/hanoi-cao-bang-ha-giang-moto-boucle/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -5424,11 +5424,11 @@
    "closest_pages": [
     {
      "path": "location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html",
-     "similarity": 0.55
+     "similarity": 0.6
     },
     {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
-     "similarity": 0.21
+     "similarity": 0.23
     },
     {
      "path": "location-moto-hanoi/location-moto-dong-da/index.html",
@@ -5456,7 +5456,7 @@
      "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.25
     }
    ]
@@ -5477,11 +5477,11 @@
      "similarity": 0.33
     },
     {
-     "path": "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
-     "similarity": 0.3
+     "path": "prix-location/longue-duree-location-moto-hanoi-discount/index.html",
+     "similarity": 0.27
     },
     {
-     "path": "prix-location/longue-duree-location-moto-hanoi-discount/index.html",
+     "path": "location-moto-hanoi/longue-duree-location-moto-hanoi/index.html",
      "similarity": 0.27
     }
    ]
@@ -5523,15 +5523,15 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/backpacker-location-moto-hanoi/index.html",
+     "similarity": 0.27
+    },
+    {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
-     "similarity": 0.25
+     "similarity": 0.27
     },
     {
      "path": "location-moto-hanoi/longue-duree-location-moto-hanoi/index.html",
-     "similarity": 0.23
-    },
-    {
-     "path": "location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/index.html",
      "similarity": 0.23
     }
    ]
@@ -5602,12 +5602,12 @@
      "similarity": 0.29
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.29
     },
     {
-     "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
-     "similarity": 0.25
+     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "similarity": 0.29
     }
    ]
   },
@@ -5631,8 +5631,8 @@
      "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
-     "similarity": 0.25
+     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -5652,12 +5652,12 @@
      "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.25
     },
     {
-     "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
-     "similarity": 0.22
+     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -5802,11 +5802,11 @@
      "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/index.html",
-     "similarity": 0.2
+     "path": "location-moto-hanoi/hanoi-location-moto-pour-ha-giang/index.html",
+     "similarity": 0.23
     },
     {
-     "path": "location-moto-hanoi/hanoi-location-moto-pour-sapa/index.html",
+     "path": "location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/index.html",
      "similarity": 0.2
     }
    ]
@@ -5831,7 +5831,7 @@
      "similarity": 0.29
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.29
     }
    ]
@@ -5877,12 +5877,12 @@
      "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.25
     },
     {
-     "path": "hanoi/hanoi-lakes-itineraire-moto/index.html",
-     "similarity": 0.23
+     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -5973,16 +5973,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "location-moto-hanoi/choisir-location-moto-hanoi/index.html",
-     "similarity": 0.23
-    },
-    {
      "path": "location-moto-hanoi/location-moto-aeroport-noi-bai/index.html",
      "similarity": 0.17
     },
     {
      "path": "location-moto-hanoi/location-moto-retrait-hanoi/index.html",
      "similarity": 0.16
+    },
+    {
+     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+     "similarity": 0.15
     }
    ]
   },
@@ -6002,11 +6002,11 @@
      "similarity": 0.22
     },
     {
-     "path": "location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html",
-     "similarity": 0.2
+     "path": "location-moto-hanoi/what-is-included-location-moto-hanoi/index.html",
+     "similarity": 0.18
     },
     {
-     "path": "location-moto-hanoi/what-is-included-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/courte-duree-location-moto-hanoi/index.html",
      "similarity": 0.18
     }
    ]
@@ -6023,16 +6023,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
-     "similarity": 0.27
-    },
-    {
      "path": "location-moto-hanoi/1-way-location-moto-hanoi/index.html",
      "similarity": 0.25
     },
     {
      "path": "location-moto-hanoi/what-is-included-location-moto-hanoi/index.html",
      "similarity": 0.23
+    },
+    {
+     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+     "similarity": 0.22
     }
    ]
   },
@@ -6123,15 +6123,15 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
+     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
+     "similarity": 0.23
+    },
+    {
      "path": "types-motos/scooter-ou-moto-vietnam/index.html",
      "similarity": 0.2
     },
     {
      "path": "location-moto-hanoi/location-moto-hanoi-ou-grab/index.html",
-     "similarity": 0.18
-    },
-    {
-     "path": "location-moto-hanoi/location-moto-hanoi-ou-circuit-moto-hanoi/index.html",
      "similarity": 0.18
     }
    ]
@@ -6152,12 +6152,12 @@
      "similarity": 0.38
     },
     {
-     "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
+     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
      "similarity": 0.33
     },
     {
-     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
-     "similarity": 0.27
+     "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -6331,8 +6331,8 @@
      "similarity": 0.3
     },
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.27
+     "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
+     "similarity": 0.3
     }
    ]
   },
@@ -6352,12 +6352,12 @@
      "similarity": 0.2
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.2
     },
     {
-     "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
-     "similarity": 0.18
+     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -6381,8 +6381,8 @@
      "similarity": 0.27
     },
     {
-     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
-     "similarity": 0.22
+     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -6431,8 +6431,8 @@
      "similarity": 0.21
     },
     {
-     "path": "types-motos/tubeless-ou-tube-pneu-location-moto-vietnam/index.html",
-     "similarity": 0.2
+     "path": "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
+     "similarity": 0.21
     }
    ]
   },
@@ -6477,11 +6477,11 @@
      "similarity": 0.33
     },
     {
-     "path": "centre-sud-vietnam/da-lat-voyage-moto/index.html",
-     "similarity": 0.27
+     "path": "nord-vietnam/ninh-binh-voyage-moto/index.html",
+     "similarity": 0.25
     },
     {
-     "path": "nord-vietnam/ninh-binh-voyage-moto/index.html",
+     "path": "nord-vietnam/moc-chau-voyage-moto/index.html",
      "similarity": 0.25
     }
    ]
@@ -6552,12 +6552,12 @@
      "similarity": 0.5
     },
     {
-     "path": "nord-vietnam/halong-voyage-moto/index.html",
-     "similarity": 0.23
+     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "similarity": 0.24
     },
     {
-     "path": "centre-sud-vietnam/quy-nhon-voyage-moto/index.html",
-     "similarity": 0.2
+     "path": "nord-vietnam/halong-voyage-moto/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -6702,12 +6702,12 @@
      "similarity": 0.33
     },
     {
-     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "path": "nord-vietnam/quang-ninh-itineraire-moto/index.html",
      "similarity": 0.25
     },
     {
-     "path": "nord-vietnam/quang-ninh-itineraire-moto/index.html",
-     "similarity": 0.25
+     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -6748,16 +6748,16 @@
    "parent_hub": "/nord-vietnam/",
    "closest_pages": [
     {
+     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "similarity": 0.31
+    },
+    {
      "path": "nord-vietnam/halong-voyage-moto-2-jours/index.html",
      "similarity": 0.27
     },
     {
      "path": "centre-sud-vietnam/quy-nhon-voyage-moto/index.html",
      "similarity": 0.27
-    },
-    {
-     "path": "nord-vietnam/moto-de-hanoi-a-halong-baie/index.html",
-     "similarity": 0.25
     }
    ]
   },
@@ -6827,11 +6827,11 @@
      "similarity": 0.36
     },
     {
-     "path": "nord-vietnam/index.html",
-     "similarity": 0.25
+     "path": "location-moto-hanoi/hanoi-location-moto-pour-ha-giang/index.html",
+     "similarity": 0.27
     },
     {
-     "path": "nord-vietnam/hanoi-a-pu-luong-moto/index.html",
+     "path": "nord-vietnam/index.html",
      "similarity": 0.25
     }
    ]
@@ -6873,11 +6873,11 @@
    "parent_hub": "/nord-vietnam/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/hanoi-ninh-binh-pu-luong-itineraire-moto/index.html",
-     "similarity": 0.33
+     "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
+     "similarity": 0.4
     },
     {
-     "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
+     "path": "nord-vietnam/hanoi-ninh-binh-pu-luong-itineraire-moto/index.html",
      "similarity": 0.33
     },
     {
@@ -7027,12 +7027,12 @@
      "similarity": 0.27
     },
     {
-     "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
-     "similarity": 0.27
-    },
-    {
      "path": "centre-sud-vietnam/vietnam-nord-a-sud-voyage-moto/index.html",
      "similarity": 0.25
+    },
+    {
+     "path": "prix-location/nord-vietnam-voyage-moto-budget-7-jours/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -7131,8 +7131,8 @@
      "similarity": 0.33
     },
     {
-     "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
-     "similarity": 0.25
+     "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
+     "similarity": 0.29
     }
    ]
   },
@@ -7377,12 +7377,12 @@
      "similarity": 0.36
     },
     {
-     "path": "centre-sud-vietnam/da-lat-voyage-moto/index.html",
-     "similarity": 0.36
-    },
-    {
      "path": "nord-vietnam/bac-kan-voyage-moto/index.html",
      "similarity": 0.25
+    },
+    {
+     "path": "nord-vietnam/ninh-binh-voyage-moto/index.html",
+     "similarity": 0.23
     }
    ]
   },
@@ -7406,7 +7406,7 @@
      "similarity": 0.33
     },
     {
-     "path": "nord-vietnam/halong-voyage-moto/index.html",
+     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
      "similarity": 0.25
     }
    ]
@@ -7431,8 +7431,8 @@
      "similarity": 0.23
     },
     {
-     "path": "centre-sud-vietnam/da-lat-voyage-moto/index.html",
-     "similarity": 0.23
+     "path": "nord-vietnam/pu-luong-voyage-moto/index.html",
+     "similarity": 0.21
     }
    ]
   },
@@ -7448,12 +7448,12 @@
    "parent_hub": "/nord-vietnam/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
-     "similarity": 0.2
+     "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
+     "similarity": 0.21
     },
     {
-     "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
-     "similarity": 0.19
+     "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
+     "similarity": 0.2
     },
     {
      "path": "nord-vietnam/ninh-binh-voyage-moto/index.html",
@@ -7503,11 +7503,11 @@
     },
     {
      "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
-     "similarity": 0.33
+     "similarity": 0.29
     },
     {
-     "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
-     "similarity": 0.25
+     "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -7602,12 +7602,12 @@
      "similarity": 0.31
     },
     {
-     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "path": "nord-vietnam/ha-long/index.html",
      "similarity": 0.25
     },
     {
-     "path": "nord-vietnam/ha-long/index.html",
-     "similarity": 0.25
+     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "similarity": 0.24
     }
    ]
   },
@@ -7673,16 +7673,16 @@
    "parent_hub": "/nord-vietnam/",
    "closest_pages": [
     {
+     "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
+     "similarity": 0.33
+    },
+    {
      "path": "nord-vietnam/cao-bang-voyage-moto/index.html",
      "similarity": 0.33
     },
     {
      "path": "nord-vietnam/sapa/index.html",
      "similarity": 0.27
-    },
-    {
-     "path": "nord-vietnam/index.html",
-     "similarity": 0.25
     }
    ]
   },
@@ -7724,7 +7724,7 @@
    "closest_pages": [
     {
      "path": "centre-sud-vietnam/con-dao-voyage-moto/index.html",
-     "similarity": 0.31
+     "similarity": 0.29
     },
     {
      "path": "nord-vietnam/meilleur-moto-tam-dao/index.html",
@@ -7778,7 +7778,7 @@
     },
     {
      "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
-     "similarity": 0.31
+     "similarity": 0.33
     },
     {
      "path": "nord-vietnam/hanoi-moc-chau-moto-2-jours/index.html",
@@ -8040,11 +8040,11 @@
    "parent_hub": "/permis-securite/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/hanoi-a-sapa-moto/index.html",
-     "similarity": 0.18
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
+     "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
+     "path": "nord-vietnam/hanoi-a-sapa-moto/index.html",
      "similarity": 0.18
     },
     {
@@ -8144,12 +8144,12 @@
      "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.25
     },
     {
-     "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
-     "similarity": 0.22
+     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -8240,16 +8240,16 @@
    "parent_hub": "/permis-securite/",
    "closest_pages": [
     {
+     "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.27
+    },
+    {
      "path": "types-motos/location-moto-manuelle-hanoi/index.html",
      "similarity": 0.25
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.25
-    },
-    {
-     "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
-     "similarity": 0.22
     }
    ]
   },
@@ -8265,15 +8265,15 @@
    "parent_hub": "/permis-securite/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/backpacker-location-moto-hanoi/index.html",
+     "similarity": 0.25
+    },
+    {
      "path": "location-moto-hanoi/longue-duree-location-moto-hanoi/index.html",
      "similarity": 0.21
     },
     {
      "path": "location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/index.html",
-     "similarity": 0.21
-    },
-    {
-     "path": "location-moto-hanoi/location-moto-dong-da/index.html",
      "similarity": 0.21
     }
    ]
@@ -8340,16 +8340,16 @@
    "parent_hub": "/permis-securite/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/backpacker-location-moto-hanoi/index.html",
+     "similarity": 0.27
+    },
+    {
      "path": "location-moto-hanoi/longue-duree-location-moto-hanoi/index.html",
      "similarity": 0.24
     },
     {
      "path": "location-moto-hanoi/location-moto-depot-hanoi/index.html",
      "similarity": 0.21
-    },
-    {
-     "path": "location-moto-hanoi/location-moto-long-bien/index.html",
-     "similarity": 0.19
     }
    ]
   },
@@ -8419,12 +8419,12 @@
      "similarity": 0.29
     },
     {
-     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.29
     },
     {
-     "path": "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
-     "similarity": 0.25
+     "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
+     "similarity": 0.29
     }
    ]
   },
@@ -8624,7 +8624,7 @@
     },
     {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
-     "similarity": 0.15
+     "similarity": 0.17
     }
    ]
   },
@@ -8990,15 +8990,15 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.4
-    },
-    {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
-     "similarity": 0.4
+     "similarity": 0.44
     },
     {
      "path": "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
+     "similarity": 0.44
+    },
+    {
+     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
      "similarity": 0.4
     }
    ]
@@ -9140,15 +9140,15 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
+     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
+     "similarity": 0.5
+    },
+    {
      "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
      "similarity": 0.45
     },
     {
      "path": "honda/honda-air-blade-160-ou-yamaha-nvx-155-location/index.html",
-     "similarity": 0.45
-    },
-    {
-     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
      "similarity": 0.45
     }
    ]
@@ -9215,16 +9215,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
-     "similarity": 0.24
+     "path": "permis-securite/moto-assurance-vietnam-location/index.html",
+     "similarity": 0.27
     },
     {
-     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
-     "similarity": 0.2
+     "path": "yamaha/yamaha-janus-125-prix-location-hanoi/index.html",
+     "similarity": 0.23
     },
     {
      "path": "types-motos/electrique-scooter-recharge-hanoi/index.html",
-     "similarity": 0.19
+     "similarity": 0.23
     }
    ]
   },
@@ -9240,16 +9240,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
-     "similarity": 0.58
-    },
-    {
      "path": "types-motos/electrique-scooter-ou-essence-scooter-hanoi/index.html",
-     "similarity": 0.46
+     "similarity": 0.38
     },
     {
-     "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
-     "similarity": 0.24
+     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
+     "similarity": 0.35
+    },
+    {
+     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
+     "similarity": 0.31
     }
    ]
   },
@@ -9265,16 +9265,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
-     "similarity": 0.58
-    },
-    {
      "path": "types-motos/electrique-scooter-ou-essence-scooter-hanoi/index.html",
-     "similarity": 0.5
+     "similarity": 0.35
     },
     {
-     "path": "types-motos/50cc-electrique-scooter-vietnam/index.html",
-     "similarity": 0.25
+     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
+     "similarity": 0.35
+    },
+    {
+     "path": "types-motos/electrique-scooter-recharge-hanoi/index.html",
+     "similarity": 0.22
     }
    ]
   },
@@ -9291,15 +9291,15 @@
    "closest_pages": [
     {
      "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
-     "similarity": 0.4
+     "similarity": 0.31
     },
     {
      "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
-     "similarity": 0.36
+     "similarity": 0.29
     },
     {
-     "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
-     "similarity": 0.36
+     "path": "nord-vietnam/ha-giang-boucle-voyage-moto/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -9316,15 +9316,15 @@
    "closest_pages": [
     {
      "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
-     "similarity": 0.5
-    },
-    {
-     "path": "prix-location/hanoi-ha-giang-voyage-moto-cout/index.html",
-     "similarity": 0.4
+     "similarity": 0.46
     },
     {
      "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
-     "similarity": 0.38
+     "similarity": 0.4
+    },
+    {
+     "path": "location-moto-hanoi/moto-hanoi-a-halong-baie/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -9341,15 +9341,15 @@
    "closest_pages": [
     {
      "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
-     "similarity": 0.45
+     "similarity": 0.5
     },
     {
      "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
-     "similarity": 0.38
+     "similarity": 0.4
     },
     {
-     "path": "prix-location/hanoi-ha-giang-voyage-moto-cout/index.html",
-     "similarity": 0.36
+     "path": "prix-location/14-jours-location-moto-hanoi-cout/index.html",
+     "similarity": 0.29
     }
    ]
   },
@@ -9365,16 +9365,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
      "similarity": 0.5
     },
     {
-     "path": "prix-location/hanoi-ninh-binh-voyage-moto-cout/index.html",
-     "similarity": 0.45
+     "path": "prix-location/hanoi-halong-voyage-moto-cout/index.html",
+     "similarity": 0.46
     },
     {
-     "path": "prix-location/hanoi-ha-giang-voyage-moto-cout/index.html",
-     "similarity": 0.36
+     "path": "nord-vietnam/sapa-voyage-moto/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -9391,15 +9391,15 @@
    "closest_pages": [
     {
      "path": "prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/index.html",
-     "similarity": 0.44
+     "similarity": 0.6
     },
     {
      "path": "prix-location/location-moto-ou-taxi-hanoi-cout/index.html",
-     "similarity": 0.29
+     "similarity": 0.4
     },
     {
      "path": "types-motos/automatique-ou-semi-automatique-mensuelle-location-hanoi/index.html",
-     "similarity": 0.27
+     "similarity": 0.36
     }
    ]
   },
@@ -9466,15 +9466,15 @@
    "closest_pages": [
     {
      "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
-     "similarity": 0.44
+     "similarity": 0.6
     },
     {
      "path": "prix-location/location-moto-ou-taxi-hanoi-cout/index.html",
-     "similarity": 0.31
+     "similarity": 0.4
     },
     {
      "path": "prix-location/location-moto-ou-grab-hanoi-cout/index.html",
-     "similarity": 0.25
+     "similarity": 0.31
     }
    ]
   },
@@ -9548,8 +9548,8 @@
      "similarity": 0.29
     },
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.23
+     "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -9665,15 +9665,15 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
-     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
-     "similarity": 0.29
-    },
-    {
-     "path": "prix-location/3-jours-location-moto-hanoi-prix/index.html",
-     "similarity": 0.29
-    },
-    {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
+     "similarity": 0.31
+    },
+    {
+     "path": "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
+     "similarity": 0.31
+    },
+    {
+     "path": "prix-location/7-jours-location-moto-hanoi-cout/index.html",
      "similarity": 0.29
     }
    ]
@@ -9719,11 +9719,11 @@
      "similarity": 0.27
     },
     {
-     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
-     "similarity": 0.26
+     "path": "prix-location/mensuelle-location-moto-entretien-cout-hanoi/index.html",
+     "similarity": 0.25
     },
     {
-     "path": "prix-location/mensuelle-location-moto-entretien-cout-hanoi/index.html",
+     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
      "similarity": 0.25
     }
    ]
@@ -9748,8 +9748,8 @@
      "similarity": 0.33
     },
     {
-     "path": "prix-location/location-moto-ou-taxi-hanoi-cout/index.html",
-     "similarity": 0.27
+     "path": "prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/index.html",
+     "similarity": 0.33
     }
    ]
   },
@@ -9819,12 +9819,12 @@
      "similarity": 0.43
     },
     {
-     "path": "prix-location/location-moto-perdue-cle-frais-vietnam/index.html",
-     "similarity": 0.17
+     "path": "prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/index.html",
+     "similarity": 0.18
     },
     {
-     "path": "prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/index.html",
-     "similarity": 0.14
+     "path": "prix-location/location-moto-perdue-cle-frais-vietnam/index.html",
+     "similarity": 0.17
     }
    ]
   },
@@ -9844,11 +9844,11 @@
      "similarity": 0.36
     },
     {
-     "path": "prix-location/hanoi-ha-giang-voyage-moto-cout/index.html",
+     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
      "similarity": 0.31
     },
     {
-     "path": "prix-location/vietnam-location-moto-cout-30-jours/index.html",
+     "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
      "similarity": 0.31
     }
    ]
@@ -10094,12 +10094,12 @@
      "similarity": 0.25
     },
     {
-     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
+     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
      "similarity": 0.25
     },
     {
-     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
-     "similarity": 0.23
+     "path": "types-motos/index.html",
+     "similarity": 0.22
     }
    ]
   },
@@ -10115,15 +10115,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
+     "similarity": 0.33
+    },
+    {
      "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
      "similarity": 0.3
     },
     {
      "path": "nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/index.html",
-     "similarity": 0.27
-    },
-    {
-     "path": "location-moto-hanoi/hanoi-a-ninh-binh-location-moto/index.html",
      "similarity": 0.27
     }
    ]
@@ -10141,7 +10141,7 @@
    "closest_pages": [
     {
      "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
-     "similarity": 0.23
+     "similarity": 0.3
     },
     {
      "path": "honda/honda-vision-hanoi-ville/index.html",
@@ -10149,7 +10149,7 @@
     },
     {
      "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
-     "similarity": 0.18
+     "similarity": 0.21
     }
    ]
   },
@@ -10173,8 +10173,8 @@
      "similarity": 0.2
     },
     {
-     "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
-     "similarity": 0.2
+     "path": "types-motos/50cc-scooter-deux-personnes-vietnam/index.html",
+     "similarity": 0.18
     }
    ]
   },
@@ -10319,11 +10319,11 @@
      "similarity": 0.44
     },
     {
-     "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
-     "similarity": 0.36
+     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
+     "similarity": 0.4
     },
     {
-     "path": "honda/honda-air-blade-160-ou-yamaha-nvx-155-location/index.html",
+     "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
      "similarity": 0.36
     }
    ]
@@ -10345,7 +10345,7 @@
     },
     {
      "path": "prix-location/hanoi-ha-giang-voyage-moto-cout/index.html",
-     "similarity": 0.07
+     "similarity": 0.08
     },
     {
      "path": "location-moto-hanoi/location-moto-retrait-hanoi/index.html",
@@ -10419,11 +10419,11 @@
      "similarity": 0.19
     },
     {
-     "path": "types-motos/electrique-scooter-recharge-hanoi/index.html",
-     "similarity": 0.12
+     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
+     "similarity": 0.14
     },
     {
-     "path": "types-motos/electrique-scooter-ou-essence-scooter-hanoi/index.html",
+     "path": "types-motos/electrique-scooter-recharge-hanoi/index.html",
      "similarity": 0.12
     }
    ]
@@ -10540,12 +10540,12 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
-     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
-     "similarity": 0.5
+     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
+     "similarity": 0.38
     },
     {
-     "path": "prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/index.html",
-     "similarity": 0.46
+     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
+     "similarity": 0.35
     },
     {
      "path": "types-motos/50cc-electrique-scooter-vietnam/index.html",
@@ -10565,16 +10565,16 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.23
+    },
+    {
      "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
-     "similarity": 0.21
+     "similarity": 0.22
     },
     {
      "path": "types-motos/electrique/index.html",
      "similarity": 0.2
-    },
-    {
-     "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
-     "similarity": 0.19
     }
    ]
   },
@@ -10598,8 +10598,8 @@
      "similarity": 0.2
     },
     {
-     "path": "types-motos/support-telephone-scooter-hanoi/index.html",
-     "similarity": 0.17
+     "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -10666,7 +10666,7 @@
    "closest_pages": [
     {
      "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
-     "similarity": 0.6
+     "similarity": 0.67
     },
     {
      "path": "types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam/index.html",
@@ -10719,11 +10719,11 @@
      "similarity": 0.7
     },
     {
-     "path": "yamaha/yamaha-neo-s-ou-honda-icon-e-location/index.html",
-     "similarity": 0.5
+     "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
+     "similarity": 0.55
     },
     {
-     "path": "types-motos/honda-cuv-e-ou-yamaha-neos-vietnam/index.html",
+     "path": "yamaha/yamaha-neo-s-ou-honda-icon-e-location/index.html",
      "similarity": 0.5
     }
    ]
@@ -10865,15 +10865,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
+     "similarity": 0.33
+    },
+    {
      "path": "location-moto-hanoi/1-jour-location-moto-hanoi/index.html",
      "similarity": 0.33
     },
     {
      "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
-     "similarity": 0.29
-    },
-    {
-     "path": "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
      "similarity": 0.29
     }
    ]
@@ -10890,15 +10890,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "location-moto-hanoi/choisir-location-moto-hanoi/index.html",
+     "similarity": 0.33
+    },
+    {
      "path": "permis-securite/moto-fog-montagne-vietnam/index.html",
      "similarity": 0.27
     },
     {
      "path": "permis-securite/moto-montagne-pass-securite-vietnam/index.html",
-     "similarity": 0.2
-    },
-    {
-     "path": "location-moto-hanoi/choisir-location-moto-hanoi/index.html",
      "similarity": 0.2
     }
    ]
@@ -11023,8 +11023,8 @@
      "similarity": 0.13
     },
     {
-     "path": "types-motos/support-telephone-scooter-hanoi/index.html",
-     "similarity": 0.09
+     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
+     "similarity": 0.1
     }
    ]
   },
@@ -11315,15 +11315,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/index.html",
+     "similarity": 0.12
+    },
+    {
      "path": "types-motos/50cc-electrique-scooter-vietnam/index.html",
      "similarity": 0.1
     },
     {
      "path": "nord-vietnam/tam-dao-voyage-moto-hanoi/index.html",
-     "similarity": 0.08
-    },
-    {
-     "path": "types-motos/electrique-scooter-ou-essence-scooter-hanoi/index.html",
      "similarity": 0.08
     }
    ]
@@ -11373,8 +11373,8 @@
      "similarity": 0.1
     },
     {
-     "path": "types-motos/removable-batterie-scooter-vietnam-hotel-recharge/index.html",
-     "similarity": 0.09
+     "path": "prix-location/electrique-location-scooter-hanoi-prix/index.html",
+     "similarity": 0.1
     }
    ]
   },
@@ -11590,15 +11590,15 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
+     "similarity": 0.58
+    },
+    {
      "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
      "similarity": 0.54
     },
     {
      "path": "honda/honda-air-blade-160-ou-yamaha-nvx-155-location/index.html",
-     "similarity": 0.54
-    },
-    {
-     "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
      "similarity": 0.54
     }
    ]
@@ -12848,8 +12848,8 @@
      "similarity": 0.5
     },
     {
-     "path": "honda/honda-super-cub-c125-ou-yamaha-pg-1-location/index.html",
-     "similarity": 0.46
+     "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
+     "similarity": 0.5
     }
    ]
   },
@@ -13095,7 +13095,7 @@
     },
     {
      "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
-     "similarity": 0.64
+     "similarity": 0.7
     },
     {
      "path": "honda/honda-vario-160-ou-yamaha-nvx-location/index.html",
@@ -13598,8 +13598,8 @@
      "similarity": 0.42
     },
     {
-     "path": "honda/honda-cuv-e-ou-yamaha-neo-s-location/index.html",
-     "similarity": 0.42
+     "path": "types-motos/wr155r-ou-ct125-vietnam-voyage/index.html",
+     "similarity": 0.38
     }
    ]
   },

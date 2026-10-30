@@ -1,0 +1,511 @@
+[
+ {
+  "path": "honda/honda-air-blade-125-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Conduire un Honda Air Blade 125 dans la circulation de Hanoi : facile ou non, atouts et limites en ville",
+  "words_before": 1789,
+  "words_after": 1771,
+  "new_meta": {
+   "title": "Honda Air Blade 125 en ville à Hanoi : atouts et limites",
+   "description": "Conduire un Air Blade 125 dans le trafic de Hanoi : automatique, gabarit, ruelles, pluie et stationnement. Ce qui est facile, ce qui l’est moins.",
+   "h1": "Conduire un Honda Air Blade 125 dans la circulation de Hanoi : le bilan honnête"
+  },
+  "evidence": {
+   "FACTS": "Only owner row used: Air Blade 200 000 / 900 000 / 1 500 000 VND (day/week/month) and Vision 200 000 / 1 000 000 / 2 000 000, with the mandatory disclaimer; the page notes the owner line does not state 125 vs 160 (same wording as the Honda hub). Removed unsourced/abstract claims; no deposit, insurance, delivery, passport, fleet claim. No model specs stated (no manufacturer source); gabarit comparison with Vision kept qualitative, consistent with honda/scooters hub (longer and heavier than Vision, medium under-seat storage to check). Traffic advice (horn taps, pedestrians, wet markings, flooded streets) is generic driving advice, no legal rule asserted.",
+   "INTENT": "Main question: is the Air Blade 125 easy and suitable to drive in Hanoi city traffic? OWNER of 'conduire un Honda Air Blade 125 dans la circulation de Hanoi'. Differs from honda-air-blade-160-hanoi-ville (160 cm3 urban question), honda-ct125-hanoi-ville and honda-air-blade-125-location-hanoi (who should rent it, what to ask).",
+   "CONTENT": "Full rewrite: removed SEO-process wording ('cette page', 'hub', 'angle change'), mannered abstractions and the repeated paragraphs flagged as duplicated with the 160 sibling. New sections: traffic context (Long Biên / Bến xe Gia Lâm / Red River bridges / Vieux Quartier), strengths, limits, Air Blade vs Vision qualitative table, profiles by experience, five riding habits checklist, pick-up check list, 4 FAQ. Words 1789 -> 1771.",
+   "META": "Title shortened 69 -> 56 chars, no overpromise; description rewritten 145 chars; og:title/og:description identical to title/description; H1 kept unchanged to stay consistent with the Honda hub anchor text.",
+   "LINKS": "7/7 unique internal links in main: /honda/ (parent), /types-motos/, /prix-location/ (all required), /honda/honda-air-blade-125-location-hanoi/, /honda/honda-air-blade-125-longue-distance-vietnam/, /honda/honda-air-blade-160-hanoi-ville/, /permis-securite/securite/. TOC synced with 9 H2 ids incl. #questions-frequentes and #pour-aller-plus-loin.",
+   "AEO_GEO": "Lead answers the H1 directly (yes, easy, with gabarit caveat). One comparison table, two checklists, 4 FAQ with short non-repeating answers, no external citations needed."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Air Blade owner row does not specify 125 vs 160: confirm which version(s) the rate covers."
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-125-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Honda Air Blade 125 à Hanoi : pour quel conducteur, face au Vision et au 160, et que faire confirmer avant de réserver",
+  "words_before": 1520,
+  "words_after": 1722,
+  "new_meta": {
+   "title": "Louer un Honda Air Blade 125 à Hanoi : à qui il convient",
+   "description": "Pour quel conducteur louer un Air Blade 125 à Hanoi plutôt qu’un Vision ou un 160 : profils, tarif indicatif, ce qu’il faut préciser avant de réserver.",
+   "h1": "Louer un Honda Air Blade 125 à Hanoi : pour quel type de conducteur ?"
+  },
+  "evidence": {
+   "FACTS": "Owner Air Blade row only (200 000 / 900 000 / 1 500 000 VND) with mandatory disclaimer and the note that the row does not state the displacement. Confirmed NAP/hours used verbatim (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, near Bến xe Gia Lâm; 0334 699 969 phone/Zalo/WhatsApp; 09:00–21:00 daily). Unconfirmed policies (deposit, documents, inclusions, assistance, availability) are stated as points to confirm once, not as shop policy; removed 'dépôt/assistance' filler. No specs. External fact: Air Blade 160 launched in Vietnam in May 2022 with the 125 remaining in the range (VTC News, 20 May 2022 – URL seen in search result; the 'range kept' detail comes from Tinhte/Mytour headlines in the same results).",
+   "INTENT": "Main question: for which driver does an Air Blade 125 rental make sense (vs Vision, vs 160)? OWNER of 'louer un Honda Air Blade 125 à Hanoi'. Differs from honda-air-blade-125-prix-location-hanoi (formula/duration/budget), honda-air-blade-125-hanoi-ville (driving in traffic) and honda-air-blade-160-location-hanoi (160 profile).",
+   "CONTENT": "Full rewrite of mannered prose ('un scooter ne se recommande pas, il s’apparie', 'la partition', hub talk). New: model in brief, 5 driver profiles, choice table Vision/AB125/AB160/semi-auto, when not to rent, duration & season advice (incl. splitting a rental before a long leg, kept from original), how to book (what to tell the shop, what to have confirmed), pick-up inspection checklist, 4 FAQ. Words 1520 -> 1722.",
+   "META": "Title 56 chars, description 151 chars, no overpromise; og tags identical; H1 unchanged (matches Honda hub anchor).",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-air-blade-160-location-hanoi/, /honda/honda-vision-location-hanoi/, /honda/honda-air-blade-125-hanoi-ville/, /honda/honda-air-blade-125-prix-location-hanoi/. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Lead gives the direct answer (who, who not, indicative rate). Choice table, booking list, pick-up checklist, 4 FAQ. One cited external source."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/ra-mat-air-blade-dong-co-160cc-tai-viet-nam-gia-tu-55-99-trieu-dong-ar677969.html",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 160 launched in Vietnam on 20 May 2022 (seen in search result; claim kept to the launch date)"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm whether the Air Blade rate applies to the 125, the 160 or both, and which versions are in the fleet.",
+   "Deposit/documents, inclusions (helmets, lock), breakdown procedure: not published."
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda Air Blade 125 est-il fait pour les longues distances au départ de Hanoi (sortie à la journée vs boucle de plusieurs jours)",
+  "words_before": 1615,
+  "words_after": 1706,
+  "new_meta": {
+   "title": "Honda Air Blade 125 : longues distances depuis Hanoi ?",
+   "description": "Un Air Blade 125 peut-il quitter Hanoi ? Sorties à la journée possibles, boucles de plusieurs jours déconseillées : critères, préparation et alternatives.",
+   "h1": "Le Honda Air Blade 125 est-il fait pour les longues distances au départ de Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "No distances, durations, tank sizes or specs stated (none sourced). Owner Air Blade row quoted once with disclaimer (200 000 / 900 000 / 1 500 000 VND). Expressway rule phrased as 'en principe' and delegated to the site's autoroute-moto guide (permis-securite/autoroute-moto-vietnam, which states two-wheelers are barred from expressways); no fine or article number given, no digest available in the scratchpad. Rental conditions for leaving Hanoi, breakdown procedure: framed as items to confirm, not as shop policy. Generic driving advice (descents without engine braking, trucks, villages, wet roads) is not tied to a legal claim.",
+   "INTENT": "Main question: can an Air Blade 125 handle long distances from Hanoi? OWNER. Differs from honda-air-blade-160-longue-distance-vietnam (160 cm3 reserve, passenger/luggage) and from the 125 location/ville pages (who rents it / city driving).",
+   "CONTENT": "Full rewrite: abstract filler ('cahier des charges', 'respecter la logique') removed; the directly useful idea of splitting the rental (city scooter, then a suited machine for the loop) kept. New: day-trip scope, four criteria, strengths, limits (descents without engine braking, 125 power reserve, rough roads), expressway note, vehicle-by-trip table, national-road riding section, day-trip checklist, 4 FAQ. Words 1615 -> 1706.",
+   "META": "Title 54 chars, description 154 chars, og tags identical; H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/, /honda/honda-air-blade-160-longue-distance-vietnam/, /types-motos/semi-automatique/, /permis-securite/autoroute-moto-vietnam/. TOC synced (10 H2).",
+   "AEO_GEO": "Lead answers directly (day trips yes, multi-day mountain loops no). Table of vehicle by trip, checklist for a day trip, 4 FAQ, no external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether rentals may leave Hanoi and the breakdown procedure are not published."
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Air Blade 125 ou Yamaha NVX : lequel louer à Hanoi (comparatif général urbain : confort, rangement, prise en main, tarifs indicatifs)",
+  "words_before": 1579,
+  "words_after": 1661,
+  "new_meta": {
+   "title": "Air Blade 125 ou Yamaha NVX : lequel louer à Hanoi ?",
+   "description": "Honda Air Blade 125 ou Yamaha NVX pour une location à Hanoi : cylindrée, freinage, rangement, confort, tarifs indicatifs et conseils pour choisir à l’essai.",
+   "h1": "Honda Air Blade 125 ou Yamaha NVX : lequel choisir pour votre location ?"
+  },
+  "evidence": {
+   "FACTS": "Prices: Air Blade owner row 200 000 / 900 000 / 1 500 000 VND with disclaimer and the note that the row does not state 125 vs 160. NVX has no owner row: only the automatic-scooter category range as 'repère' (150 000–200 000 day, 600 000–1 000 000 week, 1 200 000–2 000 000 month), 'tarif réel à confirmer'. NVX specs only from Yamaha Vietnam official page seen in search result (NVX 155 VVA ABS: 155 cm3 single, 4 valves, liquid-cooled, CVT, 5.5 L tank, ABS front disc, rear drum, tubeless tyres); explicitly limited to that version. No Honda spec (no honda.com.vn result): Air Blade side kept qualitative / to ask. Removed unsourced garage-network claim, 'sans promesse' style fillers. Deposit/insurance/assistance/fleet: stated once as items to ask, not as shop policy.",
+   "INTENT": "Main question: Air Blade 125 or NVX for a rental in Hanoi? OWNER of the general comparison (group CMP-AIRBLADE125-NVX). Distinct angles are linked, not duplicated: /prix-location/air-blade-ou-nvx-cout-location-hanoi/ (usage cost), /types-motos/yamaha-nvx-ou-honda-air-blade-location-vietnam/ (prise en main). Differs from honda-air-blade-160-ou-yamaha-nvx-155-location (160/155 pair) and yamaha/yamaha-nvx-ou-honda-air-blade-160-location (long distance and duo).",
+   "CONTENT": "Full rewrite: removed 'philosophies', 'méthode honnête' and SEO talk and the paragraphs duplicated with the 160 sibling. New: common ground list, spec/comparison table with sourced NVX figures, urban comfort/storage/handling, three concrete Hanoi situations (rush hour Long Biên, rain with ABS question, day trip), indicative prices, exemplar check list, questions to ask the renter, profile choice, 4 FAQ. Words 1579 -> 1661.",
+   "META": "Title 52 chars, description 156 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-nvx-location-hanoi/, /types-motos/yamaha-nvx-ou-honda-air-blade-location-vietnam/, /prix-location/air-blade-ou-nvx-cout-location-hanoi/, /honda/honda-air-blade-125-location-hanoi/. TOC synced (10 H2).",
+   "AEO_GEO": "Lead gives the decision rule. One 3-column comparison table, two checklists, 4 FAQ, one manufacturer citation (Yamaha Vietnam)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-29",
+    "used_for": "NVX 155 VVA specs (cm3, 4 valves, liquid cooling, CVT, 5.5 L tank, ABS front disc, rear drum, tubeless tyres) - seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "Is there a rental NVX and which version (155 VVA or older)? No owner price row for NVX.",
+   "Air Blade version(s) and whether ABS equipped."
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Air Blade 125 à Hanoi : quel tarif indicatif et quelle durée (jour, semaine, mois) demander",
+  "words_before": 1537,
+  "words_after": 1621,
+  "new_meta": {
+   "title": "Honda Air Blade 125 : louer au jour, à la semaine ou au mois",
+   "description": "Tarifs indicatifs de l’Air Blade chez Thuê xe máy Nguyễn Hà (jour, semaine, mois), choix de la durée et questions à poser avant de réserver à Hanoi.",
+   "h1": "Louer un Air Blade 125 à Hanoi : payer au jour, à la semaine ou au mois ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from owner rows: Air Blade 200 000 / 900 000 / 1 500 000 VND, Vision 200 000 / 1 000 000 / 2 000 000 (comparison), automatic-scooter category range as repère only; mandatory disclaimer next to the table; note that the Air Blade row does not state 125 vs 160; no multiplication of day rate, no invented packages, no euro conversion (explicitly said not provided). Differences Vision/Air Blade described qualitatively. Deposit/caution, inclusions, assistance, payment, fuel rule, leaving Hanoi: all framed as questions to ask once, with the generic note that some renters ask for a deposit; nothing stated as this shop's policy. Removed the earlier generic 'tarif plus affirmé va de pair avec dépôt' speculation. NAP/hours verbatim. Tết/high-season paragraph is a generic market observation without figures.",
+   "INTENT": "Main question: which duration/formula to ask for an Air Blade 125 rental and what the rate does not say. OWNER ('louer un Air Blade 125 à Hanoi'). Differs from honda-air-blade-160-prix-location-hanoi (160 version) and honda-air-blade-125-location-hanoi (profile/booking).",
+   "CONTENT": "Full rewrite of abstract prose ('grille de lecture', 'périmètre avant le chiffre', 'méthode'). New: table of the three published lines + Vision + category repère, duration-to-formula table, four deciding questions, 'what the price does not say' checklist, extra costs list (fuel, parking gửi xe, equipment, repairs, payment), season/Tết note, how to ask for a clear quote (what to send + contact), Air Blade vs Vision budget, mixed stay (kept from original), 4 FAQ. Words 1537 -> 1621.",
+   "META": "Title 60 chars, description 148 chars, og tags identical, H1 unchanged. Title dropped 'Prix de location' wording in favour of an accurate description of the page.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-vision-prix-location-hanoi/, /location-moto-hanoi/what-is-included-location-moto-hanoi/, /honda/honda-air-blade-160-prix-location-hanoi/, /honda/honda-air-blade-125-location-hanoi/. TOC synced (11 H2).",
+   "AEO_GEO": "Lead states the three published rates and how to choose; price table + duration table, two checklists, 4 FAQ, no external sources."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Does the Air Blade row apply to the 125, the 160 or both?",
+   "Rate for in-between durations (10 days, 3 weeks), definition of a rental day, deposit, inclusions, payment methods: not published."
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-160-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Conduire un Honda Air Blade 160 dans la circulation de Hanoi : ce que la 160 change (ou non) en ville par rapport à la 125",
+  "words_before": 1753,
+  "words_after": 1688,
+  "new_meta": {
+   "title": "Honda Air Blade 160 en ville à Hanoi : ce que change la 160",
+   "description": "L’Air Blade 160 dans le trafic de Hanoi : ce que ses 160 cm³ apportent sur les avenues, les ponts et à deux, et ce qui ne change pas par rapport à la 125.",
+   "h1": "Conduire un Honda Air Blade 160 dans la circulation de Hanoi : le bilan"
+  },
+  "evidence": {
+   "FACTS": "External fact: Honda launched the Air Blade 160 in Vietnam in May 2022 with the 125 kept in the range (VTC News 20 May 2022, URL seen in search results; the 125-kept detail from Tinhte/Mytour headlines in the same results). No specs, no 160 vs 125 numbers stated (no manufacturer source). Price: owner Air Blade row 200 000 / 900 000 / 1 500 000 VND with disclaimer, noting the row does not state the displacement. Version differences (ABS, key system, coffre) phrased as 'à demander / selon la version'. Permit FAQ answered with a refusal to generalise, no legal rule stated. Removed the 160 'au sommet de sa famille' claims and duplicated paragraphs flagged by QA.",
+   "INTENT": "Main question: what does the Air Blade 160 bring in Hanoi city traffic, and is it easy to drive? OWNER. Differs from honda-air-blade-125-hanoi-ville (linked once for the common gabarit/alley material) by focusing on relance, bridges, avenues, duo and the beginner caveat about throttle response; from honda-air-blade-160-location-hanoi (who should rent a 160).",
+   "CONTENT": "Full rewrite: dropped SEO-process wording, mannered abstractions and sentences identical to the 125 page. New: what 160 cm3 change vs not, 125/160 city table, where it matters (bridge, avenues), strengths, limits, profiles, two-up riding rules, five riding habits, pick-up checks, 4 FAQ. Words 1753 -> 1688.",
+   "META": "Title 59 chars, description 154 chars, og tags identical, H1 unchanged (hub anchor).",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-air-blade-125-hanoi-ville/, /honda/honda-air-blade-160-location-hanoi/, /permis-securite/securite/, /types-motos/scooter-pour-deux-personnes-hanoi/. TOC synced (10 H2).",
+   "AEO_GEO": "Lead answers directly (easy, what 160 adds, caveats). One comparison table, two checklists, 4 FAQ, one cited source (VTC News launch article)."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/ra-mat-air-blade-dong-co-160cc-tai-viet-nam-gia-tu-55-99-trieu-dong-ar677969.html",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 160 launched in Vietnam on 20 May 2022 (seen in search result; claim kept to the launch)"
+   }
+  ],
+  "owner_gaps": [
+   "Owner Air Blade row does not say whether it covers the 160."
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-160-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Honda Air Blade 160 à Hanoi : à quel conducteur convient-il (face à la 125), que demander et vérifier",
+  "words_before": 1563,
+  "words_after": 1647,
+  "new_meta": {
+   "title": "Louer un Honda Air Blade 160 à Hanoi : pour quel conducteur ?",
+   "description": "L’Air Blade 160 se justifie surtout à deux, sur grands axes ou en excursion. Quand le préférer à la 125, quoi demander avant de réserver et vérifier au retrait.",
+   "h1": "Louer un Honda Air Blade 160 à Hanoi : à quel conducteur convient-il ?"
+  },
+  "evidence": {
+   "FACTS": "Price: owner Air Blade row (200 000 / 900 000 / 1 500 000 VND) with disclaimer, stating the row does not specify the displacement. External facts: 160 launched in Vietnam in May 2022 with the 125 kept (VTC News, URL seen in search); an 'Air Blade 2026' with revised design presented in November 2025 (Tuổi Trẻ, URL and headline seen in search; only the presentation is claimed). No specs, 35 cm3 difference derived from the model names only. Removed the earlier speculation that a high-end rate 'va souvent de pair avec des conditions plus strictes' and the claim that the 125 is 'le modèle le plus courant dans les parcs de location' (fleet assertion). Deposit/documents/assistance/leaving Hanoi: single 'not published here, ask before booking'. Licence: no rule stated, 'vérifiez' only. NAP/hours verbatim. Hypothetical stays are labelled as cases, not testimonials.",
+   "INTENT": "Main question: for whom is renting the 160 worthwhile versus the 125? OWNER of 'louer un Honda Air Blade 160 à Hanoi'. Differs from honda-air-blade-125-location-hanoi (125 profile), honda-air-blade-160-hanoi-ville (driving in traffic) and honda-air-blade-160-prix-location-hanoi (duration/budget).",
+   "CONTENT": "Full rewrite: removed 'hiérarchie', 'rang', 'prestance' abstractions and SEO talk. New: model in brief with dated sources, profiles, 125/160 decision table, not-for list, three hypothetical stays, five-minute test ride, availability + how to write to the shop, pick-up checks, 6 FAQ. Words 1563 -> 1647.",
+   "META": "Title 61 chars, description 160 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-air-blade-125-location-hanoi/, /honda/honda-air-blade-160-longue-distance-vietnam/, /honda/honda-air-blade-160-prix-location-hanoi/, /honda/honda-air-blade-160-hanoi-ville/. TOC synced.",
+   "AEO_GEO": "Lead answers directly who the 160 suits and flags the unspecified-displacement rate. Decision table, test-ride and pick-up checklists, 6 FAQ, two dated external citations."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/ra-mat-air-blade-dong-co-160cc-tai-viet-nam-gia-tu-55-99-trieu-dong-ar677969.html",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 160 launch on 20 May 2022 (seen in search result)"
+   },
+   {
+    "url": "https://tuoitre.vn/honda-air-blade-2026-ra-mat-viet-nam-gia-tu-gan-43-trieu-dong-tinh-chinh-thiet-ke-20251104190702294.htm",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 2026 with revised design launched in November 2025 (headline/URL date seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Does the Air Blade rate cover the 160? Is a 160 in the rental fleet and in which generation/equipment (ABS)?"
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda Air Blade 160 est-il adapté aux longues distances au départ de Hanoi (journée, week-end, boucle de montagne)",
+  "words_before": 1723,
+  "words_after": 1625,
+  "new_meta": {
+   "title": "Honda Air Blade 160 : longues distances depuis Hanoi ?",
+   "description": "L’Air Blade 160 tient-il la route au départ de Hanoi ? Réserve de puissance, passager, bagages, descentes : jusqu’où aller, quand choisir une semi-automatique.",
+   "h1": "Le Honda Air Blade 160 est-il adapté aux longues distances au départ de Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "No distances/durations/specs stated. External fact: Air Blade 160 launched in Vietnam in May 2022 with 160 cm3 engine, 125 kept (VTC News, URL seen in search). Expressway rule phrased 'en principe' and delegated to the site guide (permis-securite/autoroute-moto-vietnam); no fine/legal number. Price: owner Air Blade row once with disclaimer and the note that it does not state the displacement. Rental conditions for leaving Hanoi and breakdown handling: items to confirm, not asserted. Braking-in-descents advice (no engine braking on an automatic scooter, brake in short touches, never coast with engine off) is generic riding advice. Weather/season paragraph is general (summer heat, rainy-season showers and mud, winter fog at altitude), no figures.",
+   "INTENT": "Main question: can the Air Blade 160 handle long distances from Hanoi? OWNER. Differs from the 125 page (125 criteria: hours in the saddle, surfaces, national-road riding) by focusing on the 160's power reserve, passenger/luggage, descents technique and vehicle-by-trip table; links the DISTINCT_ANGLE page yamaha/yamaha-nvx-ou-honda-air-blade-160-location (AB160 vs NVX 155, long distance and duo) once rather than duplicating that comparison.",
+   "CONTENT": "Full rewrite, removing abstract 'cahier des charges / rang de gamme' prose and the paragraphs duplicated with the Vision/125 pages. New: what the 160 allows (day, weekend, regular escapes), power reserve effects, load and passenger rules, endurance checklist, descents section, vehicle-by-trip table (kept idea of splitting the rental), common mistakes, season, pre-departure checklist, 4 FAQ. Words 1723 -> 1625.",
+   "META": "Title 54 chars (was 'Air Blade 160 et longues distances : faut-il quitter Hanoi ?'), description 160 chars or under, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-air-blade-160-location-hanoi/, /yamaha/yamaha-nvx-ou-honda-air-blade-160-location/, /types-motos/semi-automatique/, /permis-securite/autoroute-moto-vietnam/. TOC synced.",
+   "AEO_GEO": "Lead answers directly (day/short trips yes, mountain loops no). Table of vehicle by trip, 4 checklists, 4 FAQ, one dated external citation."
+  },
+  "sources": [
+   {
+    "url": "https://vtcnews.vn/ra-mat-air-blade-dong-co-160cc-tai-viet-nam-gia-tu-55-99-trieu-dong-ar677969.html",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 160 launch on 20 May 2022, 160 cm3 engine (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Are rentals allowed outside Hanoi and what is the breakdown procedure?",
+   "Does the Air Blade price row cover the 160?"
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-160-ou-yamaha-nvx-155-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Air Blade 160 ou Yamaha NVX 155 : lequel louer à Hanoi (comparatif général urbain)",
+  "words_before": 1573,
+  "words_after": 1650,
+  "new_meta": {
+   "title": "Air Blade 160 ou Yamaha NVX 155 : lequel louer à Hanoi ?",
+   "description": "Honda Air Blade 160 ou Yamaha NVX 155 à louer à Hanoi : cylindrées proches, freinage, rangement, confort en ville, tarifs indicatifs et conseils pour choisir.",
+   "h1": "Honda Air Blade 160 ou Yamaha NVX 155 : lequel choisir pour votre location ?"
+  },
+  "evidence": {
+   "FACTS": "NVX 155 VVA specs only from Yamaha Vietnam official page seen in search result (155 cm3 single, 4 valves, liquid-cooled, CVT, 5.5 L tank, ABS front disc, rear drum, tubeless tyres), flagged as version-specific. Air Blade 160: 160 cm3 eSP+ engine launched May 2022 (VnExpress and VTC News, URLs seen in search results); no Honda manufacturer spec so ABS/brakes/tank stay 'à demander'. Prices: owner Air Blade row (200 000 / 900 000 / 1 500 000, row does not state displacement) and, for the NVX without an owner row, only the automatic-scooter category range as 'repère', real rate to confirm; disclaimer present. Removed claims that top-of-range models are rare in rental fleets and the 'dépôt plus strict au sommet de gamme' speculation. Deposit/documents/assistance: one 'not published here' sentence.",
+   "INTENT": "Main question: Air Blade 160 or NVX 155 for a Hanoi rental (urban general comparison). OWNER of group CMP-AIRBLADE160-NVX155. The DISTINCT_ANGLE page yamaha/yamaha-nvx-ou-honda-air-blade-160-location (long distance and duo) is linked once for that topic, not duplicated; the Air Blade 125/NVX owner page is linked for the lower-power duel.",
+   "CONTENT": "Full rewrite: removed 'sommets de gamme', 'philosophies', 'méthode' wording and the paragraphs shared with the 125 duel. New: equal-footing intro with sourced figures, comparison table (cm3, transmission, braking, tyres, storage, price), urban comfort criteria, indicative prices, what is realistically available, choice by usage, four Hanoi situations, how to read a spec sheet, 6 FAQ. Words 1573 -> 1650.",
+   "META": "Title 56 chars, description 158 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-air-blade-125-ou-yamaha-nvx-location/, /yamaha/yamaha-nvx-ou-honda-air-blade-160-location/, /honda/honda-air-blade-160-location-hanoi/, /yamaha/yamaha-nvx-location-hanoi/. TOC synced.",
+   "AEO_GEO": "Lead answers directly (near-equal engines; decide on position, storage, ABS/exemplar). Comparison table, 2 checklists, 6 FAQ, 3 external citations (Yamaha Vietnam, VnExpress, VTC News)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-29",
+    "used_for": "NVX 155 VVA specs (seen in search result)"
+   },
+   {
+    "url": "https://vnexpress.net/honda-air-blade-160-ra-mat-gia-cao-nhat-57-2-trieu-dong-4465788.html",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 160 launch with eSP+ 160 cm3 engine (seen in search result)"
+   },
+   {
+    "url": "https://vtcnews.vn/ra-mat-air-blade-dong-co-160cc-tai-viet-nam-gia-tu-55-99-trieu-dong-ar677969.html",
+    "checked": "2026-10-29",
+    "used_for": "Air Blade 160 launch on 20 May 2022 (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Is a Yamaha NVX 155 in the rental fleet? No owner price row for it.",
+   "Air Blade 160 version(s)/ABS and whether the Air Blade row applies to the 160."
+  ]
+ },
+ {
+  "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Air Blade 160 à Hanoi : quel tarif indicatif, la ligne Air Blade vaut-elle pour la 160, quelle durée demander",
+  "words_before": 1629,
+  "words_after": 1650,
+  "new_meta": {
+   "title": "Honda Air Blade 160 : tarif à la journée, semaine ou mois",
+   "description": "Ligne de tarif indicatif de l’Air Blade, question de la cylindrée 160, choix entre jour, semaine et mois, et points à faire écrire avant de réserver à Hanoi.",
+   "h1": "Louer un Air Blade 160 à Hanoi : payer au jour, à la semaine ou au mois ?"
+  },
+  "evidence": {
+   "FACTS": "Only owner rows used: Air Blade 200 000 / 900 000 / 1 500 000 VND (cylindrée non précisée, shown explicitly in the table), Vision 200 000 / 1 000 000 / 2 000 000 and the automatic-scooter category range as repère; disclaimer repeated next to the table. No 160-specific price, no percentage surcharge, no multiplication, no euro conversion (explicitly refused). Three-case logic (rate covers the 160 / 160 quoted separately / only 125 available) is advice, not a claim about the shop's fleet or pricing. Deposit/documents/payment/assistance/leaving Hanoi: single 'not published here' list; 'certains loueurs demandent une caution' phrased as general market practice. NAP/hours verbatim. Removed the earlier claim that the 125 is more common in rental fleets than the 160.",
+   "INTENT": "Main question: what to pay/which duration for an Air Blade 160 rental and whether the published Air Blade line covers the 160. OWNER ('louer un Air Blade 160 à Hanoi'). Differs from honda-air-blade-125-prix-location-hanoi (which holds the full duration table and extra-cost list; linked once) and honda-air-blade-160-location-hanoi (profile).",
+   "CONTENT": "Full rewrite of the abstract 'grille de lecture / périmètre' prose. New: table of published lines with the displacement caveat, three cases, usage-to-line mapping, two-person budget (passenger helmet, fuel, gửi xe, sharing the cost), checklist of unpublished conditions, Air Blade vs Vision lines, three budget mistakes, how to write for a useful quote with NAP/hours, mixed stay (kept from original), 6 FAQ. Words 1629 -> 1650.",
+   "META": "Title 57 chars, description 157 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-air-blade-125-prix-location-hanoi/, /honda/honda-air-blade-160-location-hanoi/, /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/, /prix-location/hebdomadaire-ou-mensuelle-location-moto-hanoi-cout/. TOC synced.",
+   "AEO_GEO": "Lead gives the published rates and the key question. Price table, two checklists, 6 FAQ, no external citation."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Does the Air Blade row cover the 160 or is it quoted separately?",
+   "Deposit/documents, payment methods, rate for in-between durations, definition of a rental day: not published."
+  ]
+ },
+ {
+  "path": "honda/honda-ct125-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda CT125 dans la circulation de Hanoi : est-elle praticable en ville, atouts et limites",
+  "words_before": 1501,
+  "words_after": 1650,
+  "new_meta": {
+   "title": "Honda CT125 en ville à Hanoi : atouts et limites",
+   "description": "Le Honda CT125 dans le trafic de Hanoi : position haute, boîte semi-automatique sans levier d’embrayage, rangement, chaleur et vérifications avant de louer.",
+   "h1": "Honda CT125 dans la circulation de Hanoi : le bilan urbain honnête"
+  },
+  "evidence": {
+   "FACTS": "FACTUAL CORRECTION: the old text called the CT125 a machine with 'boîte à embrayage manuel' and 'embrayage dans le flux'; the manufacturer sources say it is a four-speed semi-automatic with foot shifter and no clutch lever (consistent with the Honda hub and honda/semi-automatiques). Specs only from American Honda's 2024 Trail125 spec sheet and product page, seen in search results (124 cm3 air-cooled, 4 speeds, 220 mm front disc with ABS, seat 31.5 in ≈ 800 mm, 256 lb ≈ 116 kg, tank 1.4 gal ≈ 5.3 L), explicitly flagged as the US-market model with possible Vietnam differences; conversions to metric are mine (rounded). Honda Vietnam presented the CT125 (honda.com.vn headline seen in results); VietnamNet headline seen in results supports 'importée de Thaïlande' and that unofficial imports circulated earlier (kept at that level). No price: the owner table has no CT125 row, so the page says no CT125 rate is published, ask with dates (no category range quoted, per batch rule for CT125). Removed the old claim that the category 'se situe généralement dans l’étage supérieur des tarifs' and 'dépôt, assistance' contract filler. Permit FAQ: no rule asserted.",
+   "INTENT": "Main question: how does a CT125 fare in Hanoi traffic? OWNER ('honda CT125 dans la circulation de Hanoi'). Differs from honda-ct125-location-hanoi (who rents it), honda-ct125-longue-distance-vietnam (road), honda-ct125-prix-location-hanoi (budget).",
+   "CONTENT": "Full rewrite: mannered prose ('la ville se négocie', 'invité', 'facture', 'sans filtre') removed and the clutch error fixed. New: machine in a few words (sourced), strengths, a typical trip from Long Biên to the centre in gear terms, limits (shifting, storage, seat height, heat, theft, rain), CT125 vs automatic table, profiles, five riding reflexes, pick-up checklist, 6 FAQ. Words 1501 -> 1650.",
+   "META": "Title 48 chars (was 'Honda CT125 en ville : atouts et limites dans Hanoi'), description 156 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-ct125-location-hanoi/, /honda/honda-ct125-longue-distance-vietnam/, /types-motos/trail/, /hanoi/excursions-moto/. TOC synced.",
+   "AEO_GEO": "Lead gives the direct answer with the gear/storage/seat-height caveats. One table, two checklists, 6 FAQ, four external citations (American Honda x2, honda.com.vn, VietnamNet)."
+  },
+  "sources": [
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/release-a463299e9046a088b84018a75821247c-2024-honda-trail125-specifications",
+    "checked": "2026-10-29",
+    "used_for": "Trail125 (CT125 in the US) 2024 specs: 124 cm3, four-speed semi-automatic, 220 mm front disc with ABS, seat 31.5 in, 256 lb, 1.4 gal (seen in search result)"
+   },
+   {
+    "url": "https://powersports.honda.com/motorcycle/minimoto/trail125/2024/trail125",
+    "checked": "2026-10-29",
+    "used_for": "Left-foot shifting, no clutch lever (seen in search result)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/tin-tuc/honda-viet-nam-lan-dau-tien-gioi-thieu-mau-xe-ct125-dong-hanh-cung-khach-hang-tren-hanh-trinh-ngao-du-thuong-ngoan",
+    "checked": "2026-10-29",
+    "used_for": "Honda Vietnam introduced the CT125 (headline seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/xe-may-honda-ct125-nhap-thai-gia-hon-85-trieu-dang-phui-khac-gi-yamaha-pg-1-2456282.html",
+    "checked": "2026-10-29",
+    "used_for": "CT125 imported from Thailand (headline seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner price row for the CT125 and no confirmation that it is in the fleet; version/year, rack/sacoches and antivol supplied are unknown."
+  ]
+ },
+ {
+  "path": "honda/honda-ct125-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Honda CT125 à Hanoi : pour quel conducteur, et que demander avant de la louer",
+  "words_before": 1510,
+  "words_after": 1650,
+  "new_meta": {
+   "title": "Louer un Honda CT125 à Hanoi : pour quel conducteur ?",
+   "description": "La CT125 est une petite trail semi-automatique sans levier d’embrayage. À qui elle convient, à qui elle convient moins, et quoi demander avant de la louer.",
+   "h1": "Louer un Honda CT125 à Hanoi : pour quel type de conducteur ?"
+  },
+  "evidence": {
+   "FACTS": "FACTUAL CORRECTION: the old text stated the CT125 has a manual 'boîte à embrayage manuel' and is reserved for riders comfortable with the clutch; American Honda's Trail125 sheet/product page (seen in search results) says four-speed semi-automatic, left-foot shifting, no clutch lever, matching the Honda hub. Specs limited to the US 2024 sheet (124 cm3 air-cooled, 4 speeds, seat ≈ 800 mm, ≈ 116 kg), flagged as possibly different in Vietnam; statement that CT125s circulated before official distribution rests on press headlines seen in results (Thanh Niên/VietnamNet) and is phrased in general terms. No price: no owner row for the CT125, page says no CT125 rate is published and not to compare with a scooter without asking; no category range quoted (batch rule). Availability not asserted; deposit/documents/assistance/leaving Hanoi listed once as items to confirm. Removed 'étage supérieur de l’échelle des tarifs' and 'Ha Giang is its natural terrain' claims. Licence: no rule stated, verify with official sources. NAP/hours verbatim.",
+   "INTENT": "Main question: who should rent a CT125 in Hanoi? OWNER ('louer un Honda CT125 à Hanoi'). Differs from honda-ct125-prix-location-hanoi (the page has the same primary_query in the ownership file but is written as budget/quote questions), honda-ct125-hanoi-ville (city riding), honda-ct125-ou-yamaha-wr155r-location (comparison).",
+   "CONTENT": "Full rewrite: mannered prose ('partition', 'portrait', 'candidate', 'courant passe') removed and clutch error fixed. New: machine in brief, ideal drivers, less suitable drivers, choice table, intended uses, CT125 vs Wave/Future, rate/availability/booking list with NAP, licence caution, ten-minute test list, 7 FAQ. Words 1510 -> 1650.",
+   "META": "Title 53 chars (was 'Honda CT125 en location à Hanoi : pour quel conducteur ?'), description 155 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-ct125-hanoi-ville/, /honda/honda-ct125-longue-distance-vietnam/, /honda/honda-ct125-ou-yamaha-wr155r-location/, /types-motos/trail/. TOC synced.",
+   "AEO_GEO": "Lead answers who it suits/doesn't and states that no CT125 price is published. Choice table, two checklists, 7 FAQ, one external citation (American Honda)."
+  },
+  "sources": [
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/release-a463299e9046a088b84018a75821247c-2024-honda-trail125-specifications",
+    "checked": "2026-10-29",
+    "used_for": "Trail125/CT125 2024 spec sheet: 124 cm3, four-speed semi-automatic, seat 31.5 in, 256 lb (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner price row for the CT125 and no confirmation it is in the fleet; version, rack and lock supplied unknown."
+  ]
+ },
+ {
+  "path": "honda/honda-ct125-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda CT125 sur les longues distances au départ de Hanoi : ce qu'il permet, ses limites, préparation",
+  "words_before": 1523,
+  "words_after": 1650,
+  "new_meta": {
+   "title": "Honda CT125 : road trip depuis Hanoi, atouts et limites",
+   "description": "La CT125 sur les longues distances depuis Hanoi : frein moteur, petit réservoir, petite cylindrée, bagages, itinéraires possibles et préparation.",
+   "h1": "Le Honda CT125 sur les longues distances : que vaut le road trip au départ de Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "FACTUAL CORRECTION: removed the old claims that the CT125 has a 'boîte à embrayage manuel' and that its manual clutch gives mountain control; it is a four-speed semi-automatic with foot shifter and no clutch lever (American Honda Trail125 2024 sheet and product page, seen in search results), which gives engine braking through downshifting. Sourced figures (US-market sheet, flagged as possibly different in Vietnam): 124 cm3, four speeds, 220 mm front disc with ABS, 256 lb ≈ 116 kg, tank 1.4 gal ≈ 5.3 L, fork travel 4.3 in ≈ 11 cm, rear 3.4 in ≈ 9 cm (metric conversions rounded by me). No distances, durations or autonomy figures; itineraries by type only; conditions to be checked before departure. No CT125 price (no owner row): page says none is published and to ask; no category range. Leaving Hanoi, breakdown costs, documents/deposit: single list of points to confirm, not asserted. Removed 'étage supérieur de l’échelle des tarifs', 'La saison se lit' absolutes and the claim that the machine is 'pensée pour la route qui se dégrade' (the sheet shows modest suspension travel).",
+   "INTENT": "Main question: how good is the CT125 for long distances from Hanoi? OWNER. Differs from the CT125 vs WR155R owner page (general comparison) and types-motos/wr155r-ou-ct125-vietnam-voyage (DISTINCT_ANGLE: bad roads/pistes, linked once for that case), honda-ct125-location-hanoi and honda-ct125-hanoi-ville.",
+   "CONTENT": "Full rewrite: removed abstract 'cercles', 'exigences', 'devise en six mots' prose and the clutch error. New: what the CT125 allows by type of trip, strengths, limits (power, tank, suspension travel, wind, heat, chain), itinerary table, five rules, luggage, gear-by-gear mountain technique, small incidents, pre-departure confirmations, 5 FAQ. Words 1523 -> 1650.",
+   "META": "Title 55 chars (was 'Honda CT125 et longues distances : le road trip au Nord'), description 145 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-ct125-location-hanoi/, /types-motos/wr155r-ou-ct125-vietnam-voyage/, /nord-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/. TOC synced.",
+   "AEO_GEO": "Lead answers directly (short tarmac trips yes, hardest loops need experience/another machine). Itinerary table, two checklists, 5 FAQ, one external citation (American Honda)."
+  },
+  "sources": [
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/release-a463299e9046a088b84018a75821247c-2024-honda-trail125-specifications",
+    "checked": "2026-10-29",
+    "used_for": "Trail125 2024 spec sheet: 124 cm3, 4 speeds, 220 mm ABS front disc, 256 lb, 1.4 gal, fork travel 4.3 in / rear 3.4 in (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner price row for the CT125; fleet presence, permission to leave Hanoi and breakdown procedure not published."
+  ]
+ },
+ {
+  "path": "honda/honda-ct125-ou-yamaha-wr155r-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda CT125 ou Yamaha WR155R : quelle trail louer à Hanoi (comparatif général)",
+  "words_before": 1710,
+  "words_after": 1686,
+  "new_meta": {
+   "title": "Honda CT125 ou Yamaha WR155R : quelle trail louer à Hanoi ?",
+   "description": "CT125 ou WR155R à louer à Hanoi : boîte semi-automatique sans embrayage contre embrayage manuel, selle, rangement, usage urbain et tarifs à demander.",
+   "h1": "Honda CT125 ou Yamaha WR155R : quel trail louer pour quel séjour ?"
+  },
+  "evidence": {
+   "FACTS": "FACTUAL CORRECTIONS: the old page said both bikes are ridden 'à l’embrayage manuel' and that the CT125 has a 'selle basse'; American Honda's 2024 Trail125 sheet (seen in search results) gives a four-speed semi-automatic with no clutch lever and a seat of 31.5 in ≈ 800 mm, i.e. not low; the comparison now rests on that real difference. CT125 figures (124 cm3 air-cooled, ≈ 800 mm, ≈ 116 kg, ≈ 5.3 L tank, suspension travel ≈ 11 cm / 9 cm) come only from the US sheet and are flagged as possibly different in Vietnam. WR155R: no Yamaha manufacturer page appeared in search results, so it is described only qualitatively (manual clutch lever, taller seat, more capable on rough roads) in line with the Honda hub; press seat-height numbers seen in results were deliberately not used. Prices: no owner row for either model and no trail category range exists; the page says no rate is published for either and to ask (disclaimer present). Expressway remark phrased 'en principe'. Deposit/documents/assistance/leaving Hanoi: one 'not published here' list. NAP/hours verbatim. Licence FAQ: no rule asserted.",
+   "INTENT": "Main question: CT125 or WR155R for a Hanoi rental? OWNER of the general comparison (group CMP-CT125-WR155R). The two DISTINCT_ANGLE pages are linked once each, not duplicated: types-motos/wr155r-ou-ct125-vietnam-voyage (bad roads and pistes) and yamaha/yamaha-wr155r-ou-honda-ct125-location (prise en main).",
+   "CONTENT": "Full rewrite removing 'philosophies', 'candidates', 'le locataire d’abord' and 'méthode' prose and the clutch/seat errors. New: comparison table, city, road/mountain, three profiles, storage/comfort/luggage, four deciding questions, what can tip the choice, rates/booking (NAP, what to send, what to confirm), test checklist, 5 FAQ. Words 1710 -> 1686.",
+   "META": "Title 59 chars, description 149 chars, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-ct125-location-hanoi/, /types-motos/wr155r-ou-ct125-vietnam-voyage/, /yamaha/yamaha-wr155r-location-hanoi/, /yamaha/yamaha-wr155r-ou-honda-ct125-location/. TOC synced.",
+   "AEO_GEO": "Lead gives the decision rule directly. Comparison table, two checklists, four-question decision list, 5 FAQ, one external citation (American Honda)."
+  },
+  "sources": [
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/release-a463299e9046a088b84018a75821247c-2024-honda-trail125-specifications",
+    "checked": "2026-10-29",
+    "used_for": "Trail125/CT125 2024 spec sheet (semi-automatic, 124 cm3, seat 31.5 in, 256 lb, tank 1.4 gal, suspension travel; seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner price row for the CT125 or the WR155R; fleet presence unknown.",
+   "No Yamaha manufacturer page retrieved for the WR155R (spec comparison kept qualitative)."
+  ]
+ },
+ {
+  "path": "honda/honda-ct125-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Honda CT125 à Hanoi : quel prix demander, quelle durée (journée, semaine, mois) et que faire écrire avant de réserver (aucun tarif publié)",
+  "words_before": 1687,
+  "words_after": 1608,
+  "new_meta": {
+   "title": "Honda CT125 en location : quel prix demander à Hanoi ?",
+   "description": "Aucun tarif CT125 n’est publié : comment demander un devis jour, semaine ou mois à Hanoi, quoi faire écrire avant de réserver et comment comparer deux offres.",
+   "h1": "Louer un Honda CT125 à Hanoi : journée, semaine ou mois, que choisit-on ?"
+  },
+  "evidence": {
+   "FACTS": "No owner price row exists for the CT125 and no trail category range: the page states that no CT125 rate is published, forbids deducing it from scooter/semi-automatic lines or by multiplying a day rate, and quotes no amount, range or euro conversion (batch rule: Winner X/CT125/manual bikes get no price). The old claims that trails 'se situent généralement dans l’étage supérieur', that the break-even is 'entre quatre et six jours', that the day rate 'se multiplie' and that the month is interesting 'dès la deuxième semaine' were removed (unsourced pricing assertions). Old 'embrayage manuel' wording removed (the CT125 is a semi-automatic). Sources: VietnamNet headline seen in search results (CT125 imported from Thailand) and American Honda Trail125 sheet (tank 1.4 gal ≈ 5.3 L, metric conversion mine). Deposit/documents/assistance/exclusions/payment/leaving Hanoi: one 'not published here' checklist; 'certains loueurs demandent une caution' framed as general market practice. Tết/high-season paragraph is a generic observation. NAP/hours verbatim.",
+   "INTENT": "Main question: what price and which duration to ask for when renting a CT125, given that no rate is published. OWNER per the ownership file (same primary_query as the location page); angle kept distinct: budget/quote/contract questions, while honda-ct125-location-hanoi covers who should rent it and honda-ct125-ou-yamaha-wr155r-location compares the two trails.",
+   "CONTENT": "Full rewrite replacing abstract 'échelle des tarifs', 'bascule', 'dégressivité' prose. New: what is and is not known, journée/semaine/mois by project (kept the original useful idea of a test day before a loop), how to write for a quote (NAP/hours), contract points for a trail, comparing offers, extra costs (fuel/tank size, gửi xe, equipment, repairs, no conversion), looking at the machine before paying, season/Tết note, duration by project, 5 FAQ. Words 1687 -> 1608.",
+   "META": "Title 54 chars (was 'Prix de location d'un Honda CT125 : jour, semaine ou mois ?', which promised a price page), description 158 chars, og tags identical, H1 unchanged (hub anchor).",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-ct125-location-hanoi/, /honda/honda-ct125-ou-yamaha-wr155r-location/, /location-moto-hanoi/longue-duree/, /nord-vietnam/. TOC synced.",
+   "AEO_GEO": "Lead states plainly that no rate is published and how to proceed. Two checklists, 5 FAQ, two external citations (VietnamNet, American Honda)."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnet.vn/xe-may-honda-ct125-nhap-thai-gia-hon-85-trieu-dang-phui-khac-gi-yamaha-pg-1-2456282.html",
+    "checked": "2026-10-29",
+    "used_for": "CT125 imported from Thailand (headline seen in search result)"
+   },
+   {
+    "url": "https://hondanews.com/en-US/powersports/releases/release-a463299e9046a088b84018a75821247c-2024-honda-trail125-specifications",
+    "checked": "2026-10-29",
+    "used_for": "Trail125 tank 1.4 gal (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Owner to provide a CT125 rental rate (or confirm none is offered) and whether it is in the fleet.",
+   "Rental terms: deposit/documents, assistance, exclusions (pistes, passenger), permission to leave Hanoi."
+  ]
+ },
+ {
+  "path": "honda/honda-cuv-e-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda CUV e: en ville à Hanoi : atouts, limites, batterie et recharge",
+  "words_before": 1648,
+  "words_after": 1600,
+  "new_meta": {
+   "title": "Honda CUV e: en ville à Hanoi : atouts et limites",
+   "description": "Le Honda CUV e: dans le trafic de Hanoi : silence, simplicité, batteries amovibles, autonomie à planifier, recharge et vérifications avant de louer.",
+   "h1": "Honda CUV e: en ville à Hanoi : quels atouts, quelles limites ?"
+  },
+  "evidence": {
+   "FACTS": "Price: no owner row for the CUV e:; only the electric category range as 'repère' (600 000–800 000 VND/week, 1 500 000–1 800 000 VND/month; day 'selon le modèle, à confirmer'), no own rate, disclaimer present. External facts, all from results seen in search: Honda Vietnam press release (sales opened June 2026 with battery swap/charging stations in big cities – headline/URL seen on honda.com.vn), Tuổi Trẻ (two removable Honda Mobile Power Pack e: batteries, June 2026), Dân Trí headline (accelerates well, charging inconvenient, 6 June 2026). Autonomy: figures vary by source (Honda announced a little over 70 km in internal test conditions; estimates for urban use around 65–70 km; another site more than 80 km) – these figures came from the search-result summary, are explicitly labelled 'relevés dans des résultats de recherche, à confirmer sur le site de Honda Vietnam', and are used to illustrate variability, not as a spec; battery weight 'une dizaine de kilos selon les sources consultées' is hedged the same way. Availability in rental fleets is not asserted. Removed the old claims that the electric category sits in an upper price tier, and 'consignes de casque'. Deposit/documents/assistance: single 'not published here' sentence. NAP/hours verbatim.",
+   "INTENT": "Main question: how is the Honda CUV e: in Hanoi city traffic? OWNER ('honda CUV e: en ville à Hanoi'). Differs from honda-cuv-e-location-hanoi (who it suits), honda-cuv-e-longue-distance-vietnam, honda-cuv-e-prix-location-hanoi and honda-cuv-e-ou-yamaha-neo-s-location.",
+   "CONTENT": "Full rewrite: removed the mannered 'flux hanoïen', 'conversation au comptoir' prose and filler. New: the machine in brief with dated sources, strengths, batteries/recharge/swap/autonomy planning, limits (autonomy margin, charging surprises, rain/flooded streets, silence and pedestrians, horizon), handling, five riding habits, rate repère/availability/booking, pick-up checklist, 5 FAQ. Words 1648 -> 1600.",
+   "META": "Title 49 chars (was 'Honda CUV e: en ville à Hanoi : atouts et limites au guidon'), description 160 chars or less, og tags identical, H1 unchanged.",
+   "LINKS": "7/7 unique: /honda/ (parent), /types-motos/, /prix-location/ (required), /honda/electriques/, /honda/honda-cuv-e-location-hanoi/, /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/. TOC synced.",
+   "AEO_GEO": "Lead answers directly (simple in town, battery logistics is the constraint). Two checklists, 5 FAQ, three external citations (Honda Vietnam, Tuổi Trẻ, Dân Trí)."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+    "checked": "2026-10-29",
+    "used_for": "Honda Vietnam press release headline: CUV e: and UC3 on sale, battery swap and charging stations in big cities (seen in search result)"
+   },
+   {
+    "url": "https://tuoitre.vn/xe-may-dien-honda-cuv-e-va-uc3-mo-ban-o-viet-nam-gia-tu-45-trieu-co-tram-doi-pin-va-sac-nhanh-20260604113725176.htm",
+    "checked": "2026-10-29",
+    "used_for": "Two removable batteries, sales opening June 2026 (cited on the Honda hub; URL date 4 June 2026)"
+   },
+   {
+    "url": "https://dantri.com.vn/o-to-xe-may/xe-may-honda-cuv-e-chay-boc-nhung-sac-pin-bat-tien-20260606160625479.htm",
+    "checked": "2026-10-29",
+    "used_for": "Headline: runs briskly but charging is inconvenient (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "No owner price row for the CUV e: (only the electric category range); fleet presence, chargers and number of batteries supplied, breakdown/empty-battery procedure not published."
+  ]
+ }
+]

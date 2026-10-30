@@ -7,7 +7,7 @@ function walk(d){for(const n of fs.readdirSync(d)){if([".git","node_modules","si
 const html=all.filter(f=>f.endsWith(".html")),err=[],sm=fs.readFileSync("sitemap.xml","utf8"),titles=new Map(),canonicals=new Map();
 const foundation=JSON.parse(fs.readFileSync("data/seo-cluster-matrix.json","utf8"));
 const cfg=JSON.parse(fs.readFileSync("data/factory-config.json","utf8"));
-const norm=s=>String(s||"").toLowerCase().normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").replace(/[^a-z0-9]+/g," ").replace(/\\s+/g," ").trim();
+const norm=s=>String(s||"").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").replace(/\s+/g," ").trim();
 function parseCSV(text){const rows=[];let row=[],f="",q=false;for(let i=0;i<text.length;i++){const c=text[i];if(q){if(c==='"'&&text[i+1]==='"'){f+='"';i++;}else if(c==='"')q=false;else f+=c;}else{if(c==='"')q=true;else if(c===","){row.push(f);f="";}else if(c==="\n"){row.push(f);rows.push(row);row=[];f="";}else if(c!=="\r")f+=c;}}if(f||row.length){row.push(f);rows.push(row);}return rows.filter(r=>r.length)}
 const raw=parseCSV(fs.readFileSync("data/content-matrix.csv","utf8")),mh=raw[0]||[],matrix=raw.slice(1).map(r=>Object.fromEntries(mh.map((h,i)=>[h,r[i]||""])));
 const byPath=new Map(matrix.filter(r=>r.path).map(r=>[r.path,r]));

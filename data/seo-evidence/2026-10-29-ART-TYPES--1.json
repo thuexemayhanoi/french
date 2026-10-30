@@ -1,0 +1,191 @@
+[
+ {
+  "path": "types-motos/125cc-location-scooter-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle cylindrée de scooter automatique louer à Hanoi : 110-125 cm³ ou 150-160 cm³ ?",
+  "words_before": 1565,
+  "words_after": 1768,
+  "new_meta": {
+   "title": "Scooter 125cc ou 150-160cc : que louer à Hanoi ?",
+   "description": "110-125 cm³ ou 150-160 cm³ à Hanoi : ville, passager, ponts, nationales et seuil de permis A1 ou A. Les critères pour choisir la cylindrée de votre scooter.",
+   "h1": "Scooter 125cc ou 150-160cc : que louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Prices only from the owner table (scooter automatique category, Vision, Air Blade rows) with the mandatory disclaimer; stated that no separate rate exists for 150-160 cm3 and not to deduce one. Removed unconfirmed policy talk (contrat, zone autorisée, assistance, caution/dépôt, flotte, 'règle de la plateforme'); caution/documents appear only as 'à faire préciser' once. Legal: A1 <=125 cm3 or 11 kW / A above under law 36/2024/QH15 (in force 1 Jan 2025), cited inline to hcc.nghean.gov.vn (seen in search result 2026-10-29), consistent with hub pages; foreign-licence validity left to /permis-securite/. Model spec claims kept qualitative ('certaines versions ... selon l'année'), manufacturer sites named as the place to check; no numbers for power/weight/speed. Insurance exclusion phrased as a generic observation ('beaucoup de contrats ... lisez votre contrat').",
+   "INTENT": "Main question: which displacement class for a Hanoi stay (city, two-up, day trips). Owner of 'scooter 125cc ou 150-160cc'. Differs from /types-motos/125cc-ou-160cc-scooter-vietnam/ (long-distance duel) because this page decides by usage in and around Hanoi and by the A1/A threshold and sends multi-day road trips there with one link.",
+   "CONTENT": "Full rewrite: removed abstract 'vocabulaire de gamme/grille du comptoir/méthode de cette page' prose and SEO-process talk; added situation table, concrete moments where displacement matters (bridge ramps from Long Biên, overtaking, long hours), what displacement does not say (brakes, état, selle), three concrete situations, A1/A threshold section, indicative price table, pre-choice checklist; FAQ rewritten (5 Q&A, no repetition of body). 1565 -> 1768 words.",
+   "META": "Title and H1 kept (matches hub anchor). Description rewritten (156 chars, factual, removed 'méthode honnête, sans chiffre inventé'); og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/125cc-ou-160cc-scooter-vietnam/, /types-motos/scooter-automatique/, /types-motos/meilleur-scooter-hanoi-circulation/, /types-motos/abs-ou-cbs-scooter-vietnam-location/. Removed link to 50cc-ou-110cc (not needed).",
+   "AEO_GEO": "Direct answer in lead (3 sentences); decision table early; checklist; price table with disclaimer; FAQ 5 questions; one external citation inline."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-1530.html",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / 11 kW, A above (law 36/2024/QH15) - seen in search result, not opened"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a 150-160 cm3 scooter is in the fleet and at what rate (no owner row)."
+  ]
+ },
+ {
+  "path": "types-motos/125cc-ou-160cc-scooter-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "125 cm³ ou 160 cm³ : ce qui change sur route (nationale, montée, deux avec bagages) par rapport à la ville.",
+  "words_before": 1633,
+  "words_after": 1628,
+  "new_meta": {
+   "title": "125cc ou 160cc : le duel ville contre longue distance",
+   "description": "125 cm³ ou 160 cm³ en location au Vietnam : ce qui change sur nationale, en montée, à deux avec bagages, et ce que cela implique pour le permis.",
+   "h1": "125cc ou 160cc : le duel ville contre longue distance"
+  },
+  "evidence": {
+   "FACTS": "Owner price rows only (scooter automatique category, Vision, Air Blade) with disclaimer; no separate rate for 160 cm3. Removed unconfirmed claims (contrat, zone autorisée, assistance, caution, 'certaines flottes orientent...'); long-trip conditions (zone, mileage, one-way return) phrased as 'à régler avant de partir', not confirmed. Assistance phrased as a question to ask before leaving (number 0334 699 969 only as contact). Legal: A1 <=125 cm3/11 kW, A above under law 36/2024/QH15, inline link hcc.nghean.gov.vn seen in search result 2026-10-29; foreign-licence and insurance left to /permis-securite/ and insurer. No manufacturer numeric specs; models cited as examples, spec check delegated to honda.com.vn/yamaha-motor.com.vn. Generic safety advice (pauses every ~2 h, avoid night driving) given as advice, no sourced numbers/distances/durations.",
+   "INTENT": "Main question: is 160 cm3 worth it over 125 cm3 on long routes vs city. Owner of '125cc ou 160cc'. Differs from /types-motos/125cc-location-scooter-hanoi/ (Hanoi stay and permis threshold) by starting from the road (overtaking, luggage, descents) and sending city readers there with one link.",
+   "CONTENT": "Full rewrite of mannered prose ('l'étage reine', 'la grille du comptoir', 'se paie sans se servir', 'prudence de la plateforme'). New: trip table, city vs road reasoning, what 160 cm3 does not fix (engine braking, small wheels), luggage/passenger/pause rules, permit threshold, price table, pre-trip checklist, 5 FAQ. 1633 -> 1628 words.",
+   "META": "Title/H1 kept (hub anchor, matches primary query). Description rewritten to 144 chars (old one had 'sans chiffre inventé'); og tags synced.",
+   "LINKS": "6/7: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/125cc-location-scooter-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/.",
+   "AEO_GEO": "Lead answers directly in 3 sentences; route table, checklists, price table; FAQ 5; one inline citation."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-1530.html",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3/11 kW, A above (seen in search result, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Availability and rate of a 160 cm3 scooter; whether long-distance trips, mileage limits or one-way returns are accepted; what is provided in case of breakdown."
+  ]
+ },
+ {
+  "path": "types-motos/50cc-electrique-scooter-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelles différences entre un scooter électrique et un 50cc à essence pour un séjour à Hanoi (conduite, énergie, tarifs, catégorie réglementaire).",
+  "words_before": 1818,
+  "words_after": 1642,
+  "new_meta": {
+   "title": "Scooter électrique ou 50cc à essence : les différences au Vietnam",
+   "description": "Scooter électrique ou 50cc à essence à Hanoi : conduite, recharge ou plein, autonomie, tarifs indicatifs et catégorie réglementaire. Lequel louer ?",
+   "h1": "Scooters électriques et 50cc à essence : quelles différences au Vietnam ?"
+  },
+  "evidence": {
+   "FACTS": "Owner rows only: 50cc 200 000/1 000 000/2 000 000 and electric 'selon le modèle, à confirmer'/600-800k/1.5-1.8M with disclaimer; stated explicitly that the electric daily rate is not quoted and must not be derived. Removed unconfirmed 'par contrat', 'recharge incluse / batterie de rechange / point partenaire' as shop offers; battery-empty procedure phrased as something to obtain from the loueur ('non confirmé ici'). Legal: cyclomoteur definition (<=50 km/h, <=50 cm3 or <=4 kW) and age 16 from Law 36/2024/QH15 art. 34 as quoted by thuvienphapluat.vn (seen in search result 2026-10-29); A1 <=125 cm3 / 11 kW, A above from hcc.nghean.gov.vn (seen in search result). No claim that a 50cc needs no licence for visitors ('pas automatiquement sans permis').",
+   "INTENT": "Main question: electric vs petrol 50cc. Owner of 'scooters électriques et 50cc à essence'. Differs from /types-motos/electrique-scooter-ou-essence-scooter-hanoi/ and prix-location electric cost pages (110-125 cc petrol vs electric cost/comfort) because it compares the two small urban machines and points there for cost.",
+   "CONTENT": "Rewrote all prose ('aîné bruyant', 'cadet ambitieux', 'grille de lecture honnête', 'philosophies'). New comparison table, guidon/vigilance, energy section (3 charging options), autonomy without invented figures, price table, legal section with cited rule, profiles, pre-departure checklist, 5 FAQ. 1818 -> 1642 words.",
+   "META": "Title kept (65 chars, within range); H1 kept (matches hub anchor). Description rewritten to 147 chars (old 172); og tags synced.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/50cc/, /types-motos/electrique/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/, /types-motos/batterie-swap-ou-plug-a-electrique-scooter-vietnam/. Removed generic links to scooter-automatique and /permis-securite/permis/.",
+   "AEO_GEO": "Lead answers directly (3 sentences); comparison table; price table; checklists; FAQ 5; two inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/hoc-sinh-du-16-tuoi-duoc-phep-lai-xe-co-dung-tich-xi-lanh-bao-nhieu-138079659.html",
+    "checked": "2026-10-29",
+    "used_for": "definition of xe gắn máy (<=50 cm3 / <=4 kW / <=50 km/h) and age 16 - seen in search result, not opened"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-1530.html",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / 11 kW, A above - seen in search result, not opened"
+   }
+  ],
+  "owner_gaps": [
+   "Which electric models are in the fleet, their autonomy/power category, charger and battery arrangements, daily electric rate."
+  ]
+ },
+ {
+  "path": "types-motos/50cc-hanoi-a-ninh-binh/index.html",
+  "role": "OWNER",
+  "primary_intent": "Un scooter 50cc est-il réaliste pour aller de Hanoi à Ninh Binh ?",
+  "words_before": 1712,
+  "words_after": 1596,
+  "new_meta": {
+   "title": "50cc de Hanoi à Ninh Binh : est-ce vraiment jouable ?",
+   "description": "Hanoi–Ninh Binh en scooter 50cc : environ 90 à 100 km sur la route nationale, camions et fatigue. Ce qui est réaliste, et les alternatives plus sûres.",
+   "h1": "50cc de Hanoi à Ninh Binh : est-ce vraiment jouable ?"
+  },
+  "evidence": {
+   "FACTS": "Distance 'environ 90 à 100 km' attributed to travel sites and flagged as commercial/variable (vinpearl.com/en/hanoi-to-ninh-binh, seen in search result 2026-10-29); motorbike ban on the Cầu Giẽ–Ninh Bình expressway reported by those same results (not opened) and phrased 'selon les sites de voyage consultés', with advice to check at departure. No driving time given (old text claimed 'moitié de la vitesse', 'dix heures', 'demi-journée'); no 'plusieurs agences proposent' train+bike claims; return of the vehicle in another city stated as not confirmed. Cyclomoteur definition (<=50 km/h, <=50 cm3) cited to thuvienphapluat.vn quoting law 36/2024/QH15 (seen in search result). 50cc rates from owner row only with disclaimer; no multiplied 2-day price. Assistance only as a question to ask; phone 0334 699 969 as contact.",
+   "INTENT": "Main question: is a 50cc workable Hanoi–Ninh Binh. Owner of '50cc de Hanoi à Ninh Binh'. Differs from /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/ and /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/ (route/rental) by judging the 50cc and its alternatives; points to the route page for steps.",
+   "CONTENT": "Full rewrite: removed mannered passages ('le delta du Fleuve Rouge à une heure', 'l'orgueil prend le guidon', 'la lenteur devient une méthode de visite'), invented traveller stories ('les voyageurs racontent tous...') and the claim that trains/navettes take the machine back. Added verdict table, concrete trip facts, why 50cc is mismatched (speed gap), return trip, alternatives, what the 50cc does well around Ninh Binh (Tràng An, Tam Cốc, Hang Múa named as places only), permit caution, price, checklist, 5 FAQ. 1712 -> 1596 words.",
+   "META": "Title and H1 kept (hub anchor). Description rewritten to 150 chars with the 90-100 km figure flagged by 'environ'; og tags synced.",
+   "LINKS": "7/7: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/50cc/, /types-motos/50cc-scooter-long-distance-vietnam/, /types-motos/scooter-ou-semi-automatique-ninh-binh/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/. Removed the off-topic link to semi-automatique-ou-trail-moto-sapa.",
+   "AEO_GEO": "Lead gives the verdict in 3 sentences; verdict table; checklists; price table; FAQ 5 (time, expressway, same-day return, stations, when to avoid); two inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://vinpearl.com/en/hanoi-to-ninh-binh",
+    "checked": "2026-10-29",
+    "used_for": "approx. 90-100 km Hanoi-Ninh Binh (seen in search result, not opened)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/hoc-sinh-du-16-tuoi-duoc-phep-lai-xe-co-dung-tich-xi-lanh-bao-nhieu-138079659.html",
+    "checked": "2026-10-29",
+    "used_for": "cyclomoteur definition, law 36/2024/QH15 (seen in search result, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a rented 50cc may be used for a two-day Ninh Binh trip (zone, mileage), what is provided in case of breakdown, one-way return."
+  ]
+ },
+ {
+  "path": "types-motos/50cc-moto-vietnam-debutant/index.html",
+  "role": "OWNER",
+  "primary_intent": "Un 50cc convient-il pour découvrir la circulation vietnamienne quand on débute ? Avantages, limites, premiers jours.",
+  "words_before": 1867,
+  "words_after": 1546,
+  "new_meta": {
+   "title": "50cc au Vietnam pour un débutant : limites et avantages",
+   "description": "Un 50cc pour découvrir la circulation de Hanoi : légèreté, trajets courts et premiers jours, mais peu de réserve sur les grands axes. Avantages et limites.",
+   "h1": "Découvrir la circulation vietnamienne en 50cc : avantages et limites"
+  },
+  "evidence": {
+   "FACTS": "Removed unconfirmed policy items: 'contrat... kilométrage, casques, assistance, dépôt', 'certains loueurs proposent le changement de machine' (now: condition not confirmed, to ask). 50cc rate from the owner row only, with disclaimer; stated that 50cc is not the cheapest (consistent with 50cc hub). Legal kept minimal and qualified: cyclomoteur distinct from A1/A motos, visitor still has to check category, age, documents, insurance; no 'sans permis' claim; no new numbers. Driving advice (drive on the right, helmet, steady pace) is general road practice; no fines/figures. No invented training claims ('moniteurs partout dans le monde').",
+   "INTENT": "Main question: is a 50cc a good first machine to learn Vietnamese traffic. Owner of 'découvrir la circulation vietnamienne en 50cc'. Differs from /types-motos/50cc-ou-110cc-scooter-vietnam/ (50 vs 110 cm3 choice) and /location-moto-hanoi/debutant-location-moto-hanoi/ (rental prep) by focusing on what the traffic demands and how a 50cc helps/limits; links to both.",
+   "CONTENT": "Full rewrite: removed the 'fleuve' metaphor, 'la grille habituelle de ce site', 'méthode de décision', 'trois critères personnels' padding. Added concrete traffic habits list, advantages and limits lists (bridges from Long Biên, passenger, outings), 3-step learning table, transition advice, permit caution, price, checklist, 5 FAQ. 1867 -> 1546 words.",
+   "META": "Title kept (hub context), H1 kept (hub anchor). Description rewritten to 155 chars; og tags synced.",
+   "LINKS": "7/7: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/50cc/, /types-motos/50cc-ou-110cc-scooter-vietnam/, /location-moto-hanoi/debutant-location-moto-hanoi/, /hanoi/easy-moto-routes-hanoi-debutant/. Dropped the old link to 50cc-electrique.",
+   "AEO_GEO": "Lead answers directly (3 sentences); adapted/possible/déconseillé checklist; learning-steps table; price table; FAQ 5; no external citations needed."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether changing machine during a rental is possible; which 50cc models (automatic vs cub with gears) are available."
+  ]
+ },
+ {
+  "path": "types-motos/50cc-ou-110cc-scooter-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "50cc ou 110 cm³ pour un premier guidon à Hanoi : lequel choisir et sur quels critères (réserve, trafic, catégorie de permis, tarifs).",
+  "words_before": 1723,
+  "words_after": 1590,
+  "new_meta": {
+   "title": "50cc ou 110cc : quel deux-roues pour un débutant au Vietnam ?",
+   "description": "50cc ou 110 cm³ pour un premier guidon à Hanoi : réserve de puissance, trafic, catégorie de permis et tarifs indicatifs. Comment choisir entre les deux.",
+   "h1": "50cc ou 110cc : quel deux-roues choisir quand on débute ?"
+  },
+  "evidence": {
+   "FACTS": "Prices from owner rows only (50cc; scooter automatique and semi-automatique category ranges; Vision) with disclaimer; stated factually that the 50cc is at the top of the daily automatic range and above the weekly/monthly semi-automatic repères (checked against the table: 200k vs 150-200k; 1M vs 700-800k; 2M vs 1-1.2M). Legal: cyclomoteur definition (<=50 km/h, <=50 cm3) per law 36/2024/QH15 via thuvienphapluat.vn; A1 <=125 cm3/11 kW via hcc.nghean.gov.vn (both seen in search results 2026-10-29); explicit that visitor eligibility depends on age, licence, country, insurance. Model examples (Vision, Wave Alpha, Sirius) cited as families, specs deferred to honda.com.vn/yamaha-motor.com.vn; no numeric specs. Removed 'contrat écrit/dépôt' formula; change-of-machine and caution flagged as unconfirmed.",
+   "INTENT": "Main question: 50cc or 110 cm³ for a beginner. Owner of '50cc ou 110cc'. Differs from /types-motos/50cc-moto-vietnam-debutant/ (what traffic demands, learning plan) and /types-motos/50cc-scooter-deux-personnes-vietnam/ (two-up) by being the decision page: criteria, regulatory regime, price comparison.",
+   "CONTENT": "Full rewrite of mannered text ('poisson lent dans un courant rapide', 'cohérence de l'allure' as slogan, 'royaume naturel', 'grille de choix'). Added comparison table, rationale, prise en main, trip-based choice, three decisive questions, regulatory section, price table with the 4 relevant owner rows, checklist, FAQ 5. 1723 -> 1590 words.",
+   "META": "Title kept (61 chars). H1 kept (hub anchor). Description rewritten to 152 chars (old 178, 'sans se tromper'); og tags synced.",
+   "LINKS": "7/7: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/50cc/, /types-motos/50cc-moto-vietnam-debutant/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /types-motos/scooter-automatique/.",
+   "AEO_GEO": "Lead states the answer in 3 sentences; comparison table; three-question decision list; price table; FAQ 5; two inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/hoc-sinh-du-16-tuoi-duoc-phep-lai-xe-co-dung-tich-xi-lanh-bao-nhieu-138079659.html",
+    "checked": "2026-10-29",
+    "used_for": "cyclomoteur definition under law 36/2024/QH15 (seen in search result, not opened)"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-1530.html",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / 11 kW (seen in search result, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Availability of 110 cm3 models and change of machine during rental; caution and return conditions."
+  ]
+ }
+]

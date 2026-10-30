@@ -1,0 +1,166 @@
+[
+ {
+  "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle destination choisir pour deux jours à moto depuis Hanoï (une nuit sur place) et comment préparer l’escapade.",
+  "new_meta": {
+   "title": "Deux jours à moto depuis Hanoï : quelle escapade choisir ?",
+   "description": "Ninh Binh, Mai Châu, Tam Đảo ou Đường Lâm et Ba Vì : distances indicatives, relief, deux-roues adapté et préparation pour deux jours à moto depuis Hanoï.",
+   "h1": "Deux jours à moto depuis Hanoï : quelle escapade choisir ?"
+  },
+  "evidence": {
+   "FACTS": "Removed invented/mannered claims: driving times (« une heure et demie à trois heures de route »), « sacs de moto loués avec le véhicule », « modalités négociées », fleet/inclusion wording. Distances now only sourced: Ninh Binh 86–104 km, Tam Đảo 70–85 km, Đường Lâm 40–44 km, Ba Vì ~60 km (same figures and sources as hanoi/excursions-moto/); Mai Châu ~140 km via Xuân Mai–Lương Sơn–Hòa Bình–Tân Lạc–col de Thung Khe (~10 km de lacets), 130–160 km range (seen in search result: vinpearl.com/en/hanoi-to-mai-chau). Hang Múa ~500 marches « selon les opérateurs » (seen in search result, Klook/Musement listings). Tam Đảo in Phú Thọ province since the July 2025 merger (seen in search result: Vietnam Airlines northern map page). Expressway ban: Feb 2026 case, 11 foreign riders fined VND 5 million each on the Tuyên Quang–Phú Thọ expressway (seen in search result: VOV). Price: only the owner reference range 150 000–200 000 VND/day (semi-auto and automatic) with the mandatory disclaimer, no 2-day package computed. Shop facts: opening 09:00 daily only (retrait la veille phrased as a question to ask). Out-of-Hanoi use, breakdown procedure and licence category phrased as points to confirm/check; no deposit, delivery, insurance or assistance statement.",
+   "INTENT": "Main question: où aller et que préparer pour deux jours à moto depuis Hanoï ? Owner of « deux jours à moto depuis Hanoï » (role OWNER). Closest pages: nord-vietnam/tuyen-quang-voyage-moto-hanoi, hanoi/jour-voyages-de-hanoi-by-moto (day trips) and prix-location/7-jours. Differs because it compares four two-day options and points to the dedicated Mai Chau / Ninh Binh two-day guides rather than detailing each; jour-voyages covers single-day trips. Added the Đường Lâm + Ba Vì two-day combination that hanoi/excursions-moto/ links here.",
+   "CONTENT": "Full rewrite: new comparison table (4 destinations, distance/relief/à retenir), rewritten Mai Châu, Ninh Binh, Tam Đảo/Đường Lâm/Ba Vì sections with concrete facts (route, pass, boat, belvédère, Hoa Lư), preparation section with checklist (expressway rule with source, tyres/brakes, soft bag, documents, offline map, lodging), pacing section, FAQ rewritten to 5 non-repeating questions. Removed mannered sentences (« le voyageur préparé s’en fiche », « baie terrestre », menu metaphor). Words 1850 → 1886.",
+   "META": "Title changed from « …destinations et itinéraires » to a question matching the owner query (58 chars); description rewritten to 153 chars and factual; H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /nord-vietnam/mai-chau-moto-2-jours/, /nord-vietnam/ninh-binh-moto-2-jours/, /hanoi/hanoi-a-ba-vi-moto/. Removed the previous link to jour-voyages-de-hanoi-by-moto to respect the cap (replaced by the excursions hub). TOC rebuilt with h2 ids comparer, mai-chau, ninh-binh, montagne, preparer, rythme, questions-frequentes, pour-aller-plus-loin.",
+   "AEO_GEO": "Lead answers the H1 question in 5 short sentences (choice by destination + one night + return by day); comparison table; checklist; FAQ 5 questions; three external citations inline (Vinpearl, Vietnam Airlines, VOV) with rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://vinpearl.com/en/hanoi-to-mai-chau",
+    "checked": "2026-10-29",
+    "used_for": "Mai Châu ~140 km via Hòa Bình/Tân Lạc/Thung Khe pass (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/en/useful-information/travel-guide/ban-do-mien-bac",
+    "checked": "2026-10-29",
+    "used_for": "Tam Đảo now in Phú Thọ province after July 2025 merger (seen in search result)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-29",
+    "used_for": "Feb 2026 expressway fines, VND 5 million each (seen in search result)"
+   },
+   {
+    "url": "https://www.klook.com/en-SG/activity/29360-hoa-lu-tam-coc-mua-cave-tour-hanoi-vietnamese-dinner/",
+    "checked": "2026-10-29",
+    "used_for": "Hang Múa ~500 steps per tour operators (seen in search result; not linked)"
+   }
+  ],
+  "owner_gaps": [],
+  "words_before": 1850,
+  "words_after": 1886
+ },
+ {
+  "path": "hanoi/ba-dinh-hanoi-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que visiter à Ba Đình (mausolée, esplanade, pagode au Pilier unique, musée, parc présidentiel) en une demi-journée et comment s’y garer à moto.",
+  "new_meta": {
+   "title": "Ba Đình à Hanoi : mausolée, pagode et musée en demi-journée",
+   "description": "Mausolée de Hô Chi Minh, esplanade, pagode au Pilier unique, musée et parc présidentiel : ordre des visites, jours d’ouverture à vérifier et stationnement.",
+   "h1": "Ba Đình à Hanoi : mausolée, pagode et musée en demi-journée"
+  },
+  "evidence": {
+   "FACTS": "Replaced the vague « horaires qui varient » prose with checked facts. Mausoleum 2026 annual closure 4 Sept–2 Nov, reopening announced 3 Nov (seen in search result: en.vietnamplus.vn, also vietnamnews.vn, tuoitre; same figure as hanoi/que-faire/). Winter hours from 1 Nov–31 Mar begin 8 am, closing ~11:00, free entry, dress code (seen in search result: vietnamtourism.com mausoleum page); weekly closing days (Mon/Fri) given only as « plusieurs guides… les sources divergent ». Museum hours/closing days stated as diverging between guides (search result); no ticket price quoted. Citadel of Thăng Long: 19C Hoàng Diệu, 8:00–17:00 daily per most guides, one says closed Monday, prices vary (seen in search result: vietnamtourism.com citadel guide). 2 Sept 1945 independence proclamation and One Pillar Pagoda 11th-c. foundation (« selon la tradition ») stated as general knowledge, qualified. Practical point added from owner hours: shop opens 09:00, mausoleum closes ~11:00. Price: owner range 150 000–200 000 VND/day with disclaimer. Removed « les conditions se négocient », location de durée « au comptoir », reviews-type wording, fictional/abstract statements; no deposit/passport/delivery/insurance claims.",
+   "INTENT": "Main question: que visiter à Ba Đình en une demi-journée, et comment faire à moto ? Owner of « ba Dinh à Hanoi » (OWNER). Closest pages: location-moto-ba-dinh (rental by district), nord-vietnam/hanoi-ba-be, hanoi-co-loa-moto. Differs: sightseeing guide for the Ba Đình sites; the district rental page is commercial.",
+   "CONTENT": "Full rewrite of all sections: site table (5 sites + what to check), mausoleum section (days/hours/closure/dress code with sources), pagoda/museum/park section, new section on the Thăng Long citadel as fallback when the mausoleum is closed, ordered half-day plan (ol) incl. 09:00 pickup constraint, motorbike access/parking section, FAQ 5 non-repeating Q&As. Removed mannered prose (« se planifie comme un vol », « on passe comme on passe devant une mémoire », « boucle de dix minutes à pied »). Words 1683 → ~1670.",
+   "META": "Title changed (Ba Dinh → Ba Đình, adds pagode/musée; 59 chars); description 155 chars factual with no promise of hours; H1 = title; eyebrow plain; og tags identical.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/temple-de-literature-hanoi-itineraire/, /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/west-lac-hanoi-moto/, /hanoi/que-faire/. Dropped nothing required.",
+   "AEO_GEO": "Lead gives the direct answer (half-day, order, closure dates); table of sites; ordered list; FAQ 5; three inline external citations (Vietnam Tourism x2, VietnamPlus)."
+  },
+  "sources": [
+   {
+    "url": "https://en.vietnamplus.vn/ho-chi-minh-mausoleum-to-close-for-restoration-from-september-4-post349788.vnp",
+    "checked": "2026-10-29",
+    "used_for": "Mausoleum closure 4 Sept–2 Nov 2026, reopening 3 Nov (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/ho-chi-minh-mausoleum-opening-hours-free-entry-and-the-dress-code",
+    "checked": "2026-10-29",
+    "used_for": "Mausoleum opening hours, free entry, dress code (seen in search result; details differ between sources)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/imperial-citadel-of-thang-long-a-complete-guide-to-hanoi-s-unesco-fortress",
+    "checked": "2026-10-29",
+    "used_for": "Citadel address/hours, UNESCO site, prices differ (seen in search result)"
+   }
+  ],
+  "owner_gaps": [],
+  "words_before": 1683,
+  "words_after": 1664
+ },
+ {
+  "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelles routes faciles autour de Hanoi pour une première sortie à moto ou en scooter, et dans quel ordre les faire.",
+  "new_meta": {
+   "title": "Routes faciles autour de Hanoi à moto : où rouler en débutant",
+   "description": "Ecopark, Bát Tràng, tour du lac de l’Ouest : trois sorties plates et courtes pour prendre en main un scooter à Hanoi, dans le bon ordre et sans autoroute.",
+   "h1": "Routes faciles autour de Hanoi à moto : où rouler en débutant"
+  },
+  "evidence": {
+   "FACTS": "Removed the invented/vague « berges de la rive nord » route and all mannered rules (« méthode du site », « grille des machines », « promesse »). Routes now match hanoi/excursions-moto/ and hanoi/index.html: Ecopark (Hưng Yên, east of Long Biên, ‘prise en main’), Bát Tràng 13–15 km same bank, Cổ Loa north beyond the river (half-day). West Lake loop 15–18 km « selon les sources » and locals ride in the morning (seen in search result: vietcetera.com; Local Vietnam 15 km, VietNamNet 17 km). Consistency with hub: Hanoi is not a place to learn riding (stated in lead and FAQ), expressway ban with Feb 2026 VOV case (seen in search result), Thăng Long avenue central lanes (qualified: follow signage; note for coordinator: a Vietnamese source (anninhthudo.vn, seen in search result) reports a temporary arrangement until 31/12/2026 allowing motorbikes on the emergency lane of the Thăng Long highway during works at Ring Road 3.5 — the hub wording ‘voies centrales interdites’ may need the same nuance). Machine advice: automatic scooter; 50cc limited power on nationales/hills (as in hub table). Price: owner reference 150 000–200 000 VND/day automatic scooter with the mandatory disclaimer; no model-specific price. Shop facts: pickup at Long Biên (east bank). Breakdown procedure and licence category phrased as items to ask/check. No deposit/passport/delivery/insurance claims.",
+   "INTENT": "Main question: par où commencer à moto quand on débute autour de Hanoi ? Owner of « routes faciles autour de Hanoi ». Closest pages: location-moto-hanoi/debutant-location-moto-hanoi (rental for beginners, linked once), hanoi/semi-automatique-moto-routes-hanoi, types-motos/50cc-ou-110cc. Differs: route choice and progression, not the rental procedure or the engine category.",
+   "CONTENT": "Full rewrite: criteria checklist (5), four-route table with order, Ecopark/Bát Tràng from Long Biên, West Lake loop, beginner handling checklist, vehicle + what to ask the lender, what to postpone, FAQ 5 non-repeating questions. Words 1986 → see words_after.",
+   "META": "Title changed to natural wording with the owner query (61 chars); description 154 chars factual; H1 = title; eyebrow shortened; og tags identical.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /location-moto-hanoi/debutant-location-moto-hanoi/, /hanoi/hanoi-ecopark-moto/, /hanoi/hanoi-a-bat-trang-moto/, /hanoi/west-lac-hanoi-moto/. Previously linked moto-frein-controle page dropped for the cap.",
+   "AEO_GEO": "Lead answers in 3 sentences (which routes, in which order, experience caveat); checklist x2, comparison table; FAQ 5; two inline external citations (Vietcetera, VOV)."
+  },
+  "sources": [
+   {
+    "url": "https://vietcetera.com/en/explore-hanoi-on-wheels-from-day-to-night",
+    "checked": "2026-10-29",
+    "used_for": "West Lake loop ~18 km; locals ride in the morning (seen in search result; other guides give 15–17 km)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-29",
+    "used_for": "Expressway ban enforced against foreign riders, Feb 2026 (seen in search result)"
+   }
+  ],
+  "owner_gaps": [],
+  "words_before": 1986,
+  "words_after": 1717
+ },
+ {
+  "path": "hanoi/free-que-faire-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire gratuitement à Hanoï (sites et moments sans billet d’entrée) et ce que coûte réellement une sortie à moto.",
+  "new_meta": {
+   "title": "Que faire gratuitement à Hanoï : 10 idées sans billet d’entrée",
+   "description": "Lacs, Vieux Quartier, marché Đồng Xuân, pont Long Biên, rues piétonnes du week-end : dix idées gratuites à Hanoï, avec les horaires à vérifier.",
+   "h1": "Que faire gratuitement à Hanoï : 10 idées sans billet d’entrée"
+  },
+  "evidence": {
+   "FACTS": "Removed false/unsupported budget claims: « une journée à scooter coûte le prix d’un plein d’essence, soit à peine le billet d’un musée », « une moto deux jours sur cinq change l’échelle du séjour sans changer l’addition », « c’est l’investissement le plus rentable de la ville », « la location se règle à la journée » and « garantit que la balade… ». Replaced by the owner reference 150 000–200 000 VND/day (automatic scooter) with the mandatory disclaimer and an explicit « gratuit ≠ sans frais » section (parking/gửi xe, fuel, rental). Weekend pedestrian zone: Friday 19:00–Sunday midnight, extended on holidays (seen in search result: VietNamNet; winter starts one hour earlier); Old Quarter streets 19:00–midnight in summer, 18:00 in winter (seen in search result: Hanoi Times). Long Biên bridge reopened 28 May 2026 after two months of works (seen in search result: Viet Nam News). Mausoleum: free entry (Vietnam Tourism, seen in search result), annual closure 4 Sept–2 Nov 2026, reopening announced 3 Nov (VietnamPlus, seen in search result). West Lake loop 15–18 km « selon les sources » (search results differ). Ngọc Sơn temple and Temple of Literature stated as having an entrance ticket, price not quoted. Low-emission zone around Hoàn Kiếm: only a hedged mention (see owner_gaps). No deposit/passport/delivery/insurance claim.",
+   "INTENT": "Main question: que faire gratuitement à Hanoï ? Owner of « que faire gratuitement à Hanoï ». Closest pages: que-faire-hanoi-early-morning, que-faire-hanoi-christmas, que-faire-hanoi-solo. Differs: budget-focused list with free/paid distinction and cost of the moto; the others are about a time of day, a season or a traveller profile.",
+   "CONTENT": "Full rewrite: 10-idea table with best moment and what to check; centre on foot (lake, Old Quarter, Đồng Xuân, weekend pedestrian streets); bridges/lakes/river (Long Biên, West Lake, Trúc Bạch, Bát Tràng); Ba Đình/French quarter/temples; « gratuit mais pas sans frais » section; two one-day plans in a table; FAQ 5. Removed mannered prose (« la vraie richesse de Hanoï ne s’achète pas, elle se regarde », « salle de spectacle en plein air », etc.).",
+   "META": "Title changed to a number-led question answer (62 chars); description rewritten to ≤160 chars; H1 = title; og tags identical.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/west-lac-hanoi-moto/, /hanoi/ba-dinh-hanoi-itineraire/.",
+   "AEO_GEO": "Lead answers in 3 sentences; 10-idea table; day-plan table; FAQ 5; four inline external citations (VietNamNet, Hanoi Times, Viet Nam News, Vietnam Tourism, VietnamPlus)."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnet.vn/en/hanoi-to-expand-pedestrianizing-streets-around-hoan-kiem-lake-2156097.html",
+    "checked": "2026-10-29",
+    "used_for": "Hoàn Kiếm weekend pedestrian zone Friday 19:00–Sunday midnight (seen in search result)"
+   },
+   {
+    "url": "https://m.hanoitimes.vn/hanoi-walking-streets-bustling-again-after-weekend-reopening-312107.html",
+    "checked": "2026-10-29",
+    "used_for": "Old Quarter pedestrian streets weekend evenings (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-29",
+    "used_for": "Long Biên bridge reopening 28 May 2026 (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/ho-chi-minh-mausoleum-opening-hours-free-entry-and-the-dress-code",
+    "checked": "2026-10-29",
+    "used_for": "Mausoleum free entry / dress code (seen in search result)"
+   },
+   {
+    "url": "https://en.vietnamplus.vn/ho-chi-minh-mausoleum-to-close-for-restoration-from-september-4-post349788.vnp",
+    "checked": "2026-10-29",
+    "used_for": "Mausoleum 2026 closure and reopening date (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Hoàn Kiếm low-emission zone: search results conflict (Dec 2025 report: council approved; May 2026 reports: proposal not yet approved / revised to phased roadmap; hanoi/index.html and que-faire/ state it started on 1 July 2026). The article only says it is announced and that rules changed between drafts; coordinator should re-verify the hubs’ wording."
+  ],
+  "words_before": 1684,
+  "words_after": 1654
+ }
+]

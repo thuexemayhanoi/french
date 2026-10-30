@@ -29,7 +29,7 @@ PRICE_OK = {'150 000', '200 000', '700 000', '800 000', '1 000 000', '1 200 000'
             '1 500 000', '1 800 000', '900 000'}
 SEO_PROCESS = re.compile(r'cannibalis|articles? futurs?|futurs? articles?|intention de recherche|page de hub|\bsilo\b|'
                          r'longue[s]? traîne|référencement|mots?-clés?|requête large|cette page sert|'
-                         r'le lecteur doit|cette architecture|point d’entrée solide|SEO', re.I)
+                         r'le lecteur doit|cette architecture|point d’entrée solide|(?-i:\bSEO\b)', re.I)
 MANNERED = re.compile(r'\b(?:qui se trouve|qui se situe|qui s’avère|qui s\'avère|qui se révèle|'
                       r'la boutique qui|l’établissement qui se|le loueur qui se)\b', re.I)
 LEGACY = re.compile(r'Nguy[eễ]n\s*T[uú]\b|0942[ .]?467[ .]?674|84942467674|112\s+Nguy|21:30|21h30|nguyentuantu', re.I)
