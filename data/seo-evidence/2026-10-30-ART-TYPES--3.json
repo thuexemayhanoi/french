@@ -1,0 +1,62 @@
+[
+ {
+  "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Location de moto manuelle à Hanoi : qu'est-ce qu'une moto à embrayage, pour qui, pour quel programme, quel permis, quoi contrôler à la remise.",
+  "words_before": 1772,
+  "words_after": 1684,
+  "new_meta": {
+   "title": "Location de moto manuelle à Hanoi : quand la louer",
+   "description": "Moto manuelle à Hanoi : levier d’embrayage au guidon, usage en ville ou en montagne, permis à vérifier et contrôles à la remise. Tarif à demander.",
+   "h1": "Location de moto manuelle à Hanoi : quand la louer"
+  },
+  "evidence": {
+   "FACTS": "Removed the 'méthode de la plateforme', 'aucune disponibilité garantie' formulas, the stacked claims about 'flottes hanoïennes' (minority share of manuals), 'réserver tôt, les manuelles se trouvent plus vite complètes' (unsourced stock claim), and the contract-line list presented as a standard (caution et sa forme, assistance, zone). Prices: no rate quoted for manual/sport bikes (protocol); the page says explicitly that no indicative rate is published and that availability/caution/assurance/zone are to be confirmed once, in the reservation section. Legal: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3 and A above, same wording and same government-portal source as the rewritten hub /types-motos/ (source reused, not re-opened in this session); explicit statement that licence validity depends on national licence/country/IDP and that travel insurance may set its own conditions. Model names (Winner X, Exciter 155, WR155R) used only as examples of clutch bikes with 'se constate sur l'exemplaire' qualifier; no spec figure. NAP and hours (09:00-21:00, 0334 699 969, Zalo/WhatsApp, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, near Bến xe Gia Lâm) used once.",
+   "INTENT": "Main question: should I rent a manual (clutch-lever) motorbike in Hanoi, and under which conditions? OWNER (group_owner = itself). Differs from /types-motos/semi-automatique/ (foot-shift without lever, linked once) and from /location-moto-hanoi/debutant-location-moto-hanoi/ and /1-jour-location-moto-hanoi/ (closest pages, sim 0.33: beginner and one-day rental guides) because this page is only about the clutch lever: vocabulary table (xe ga / xe số / xe côn tay), who benefits, city fatigue, relearning drills, 150 cm3 vs A licence threshold, handover checks.",
+   "CONTENT": "Full rewrite. Removed mannered abstractions ('conduire/piloter', 'le fleuve', 'l'expérience compte plus que la machine'), repeated disclaimers and the three 'la méthode de la plateforme' paragraphs. Added: 3-way transmission table with the Vietnamese terms to use at the counter, profiles for and against, concrete city-fatigue paragraph (stop-and-go, heat, high seats), 5-item relearning checklist (friction point, hill start, downshift, neutral, deliberate stall), licence/cylindrée section with source, 5-item handover checklist specific to clutch bikes, 5 non-repeating FAQ. 1772 -> 1684 words.",
+   "META": "Title and H1 kept (clear, matches the matrix entry, 50 chars). Description rewritten (176 -> 146 chars, no 'guide honnête du levier'); og:title/og:description identical to title/description; eyebrow shortened to 'Types de motos : moto manuelle'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (all required), plus /permis-securite/permis/, /types-motos/semi-automatique/, /types-motos/plus-de-125cc-moto-vietnam/, /types-motos/winner-x-ou-exciter-155-location-vietnam/. Removed links to the Ha Giang rental page, the mountain article and the automatic/semi-automatic comparison to stay within the cap. TOC synced with the 7 H2 ids (definition, pour-qui, ville, apprentissage, permis, reservation, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct 4-sentence answer in the lead. 1 comparison table, 2 checklists, 5 FAQ items, 1 external citation (government portal, same URL as the hub, 'consultée le 29 octobre 2026' as on the hub)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 / A above under Law 36/2024/QH15 (reused from the rewritten hub /types-motos/, not re-opened in this session)"
+   }
+  ],
+  "owner_gaps": [
+   "Which clutch-lever bikes (if any) the shop rents, their indicative rates, deposit and insurance terms for them, and the permitted area."
+  ]
+ },
+ {
+  "path": "types-motos/meilleur-moto-montagne-routes-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto (famille, état, critères à vérifier) pour les routes de montagne du Vietnam au départ de Hanoi ?",
+  "words_before": 1815,
+  "words_after": 1630,
+  "new_meta": {
+   "title": "Quelle moto pour les routes de montagne au Vietnam ?",
+   "description": "Moto pour la montagne au Vietnam : pneus, freins, frein moteur, garde au sol et poids. Quelle machine selon l’itinéraire et que vérifier avant de quitter Hanoi.",
+   "h1": "Quelle moto choisir pour les routes de montagne au Vietnam ?"
+  },
+  "evidence": {
+   "FACTS": "Removed 'le contexte de location complète le portrait: formule, assistance en zone éloignée, kilométrage, dépôt' (stated as given) and the 'machine adaptée, formule claire' wording; assistance, caution, insurance and permitted area are now only questions to ask for the exact bike (checklist), with a single closing sentence that answers are not guaranteed in advance. No price, no model spec, no distance, no altitude figure. Legal: Law 36/2024/QH15, A1 up to 125 cm3 / A above, same wording and portal source as the rewritten hub (source reused, not re-opened); licence/insurance situation left to the reader's check. Riding advice (rétrograder avant la descente, freinage par appuis courts, brouillard, éboulements après forte pluie) is generic technique/precaution, phrased as such, without invented numbers. NAP/hours used once.",
+   "INTENT": "Main question: which motorbike for Vietnamese mountain roads? OWNER (primary_query 'routes de montagne au Vietnam'). Differs from /location-moto-hanoi/choisir-location-moto-hanoi/ (generic choice) and /permis-securite/moto-fog-montagne-vietnam/ (fog riding technique, linked once) because it ranks the machine criteria and families by road type; does not detail itineraries (nord-vietnam pages) or the trail category (/types-motos/trail/).",
+   "CONTENT": "Full rewrite of all 8 sections (old abstract 'quatre critères / cinquième critère / réflexes' prose removed). New: terrain description with concrete hazards, 5-criterion table with how to check at handover, road-type/family table, descent/ascent technique, weight/saddle/luggage, weather and timing, pre-departure checklist (4 questions) and legal reminder, 5 FAQ not repeating the body. 1815 -> 1630 words.",
+   "META": "Title rewritten as the user's question (52 chars) instead of 'les critères'; H1 aligned ('Quelle moto choisir pour les routes de montagne au Vietnam ?'); description 160 chars, factual; og:title/og:description synced; eyebrow 'Types de motos : routes de montagne'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /types-motos/trail/, /types-motos/semi-automatique/, /permis-securite/moto-fog-montagne-vietnam/. Dropped /yamaha/trail-aventure/ and /permis-securite/securite/ (cap). TOC synced (terrain, criteres, familles, descendre, poids, meteo, avant-depart, questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). 2 tables (criteria with handover checks; road type vs family), 1 checklist, 5 FAQ. 1 external citation (government portal, as hub)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1/A threshold at 125 cm3 (reused from the rewritten hub, not re-opened in this session)"
+   }
+  ],
+  "owner_gaps": [
+   "Permitted travel area and breakdown handling for rentals going to the northern mountains; deposit and insurance terms."
+  ]
+ }
+]

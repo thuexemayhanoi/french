@@ -1,0 +1,24 @@
+[
+ {
+  "path": "honda/honda-vision-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel type de voyageur louer un Honda Vision à Hanoi convient-il (et pour qui non) ?",
+  "new_meta": {
+   "description": "Le Honda Vision convient à la plupart des visiteurs qui restent à Hanoi : compact, automatique, simple. Profils, limites et contrôles avant de louer."
+  },
+  "evidence": {
+   "FACTS": "Removed the sentences flagged deposit/insurance_assistance (« formalités générales — contrat, dépôt, constat, procédure d’assistance ») and replaced them by a single qualified line: caution éventuelle, papiers, procédure en cas de panne, sortie de Hanoi = à confirmer avant de signer, chaque loueur a ses règles. Price: only the owner Vision row (200 000 / 1 000 000 / 2 000 000 VND) with the mandatory disclaimer; FAQ states that Air Blade has the same day rate but lower week/month (owner rows) without deriving any package. No specs, no fleet/availability promise; Vision described qualitatively (entry-level Honda scooter, widespread, several generations) consistent with honda/scooters hub. Licence: only « vérifiez que votre situation vous autorise à conduire sur place », no rule stated.",
+   "INTENT": "Main question: à quel voyageur le Vision convient-il en location à Hanoi ? Owner of « louer un Honda Vision à Hanoi » (OWNER, closest pages honda-icon-e-location 0.57 etc. are different models). Differs from honda-vision-hanoi-ville (driving in traffic), -longue-distance (leaving Hanoi) and -prix-location (duration formulas): this page is the profile/suitability page and only points to them.",
+   "CONTENT": "Full rewrite. Removed the mannered/SEO-process openings (« cette page examine honnêtement… », « précision de méthode », « complète le hub »), the repeated « simple ne veut pas dire bâclé » paragraphs and the generic closing. New structure: profile table (6 situations), what is actually rented (generations, familiarity), prise en main test (feet flat, lift off stand, push), load/passenger, four limits (power, descents with variator, rough roads, rain), owner price table, 8-point pre-departure checklist, 4 non-redundant FAQ. Words 1629 -> see words_after.",
+   "META": "Title and H1 kept (natural, 63 chars, no promise). Description was 166 chars and slightly vague -> rewritten to 149 chars, factual; og:description synced; og:title unchanged. Eyebrow simplified.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required internal_link_targets), /honda/scooters/, /honda/honda-vision-hanoi-ville/, /honda/honda-vision-longue-distance-vietnam/, /honda/honda-vision-prix-location-hanoi/. Dropped debutant and scooter-automatique links to stay within the cap.",
+   "AEO_GEO": "Direct answer in the lead (convient à la plupart des voyageurs restant à Hanoi; moins adapté montagne/duo chargé/gros bagages) plus a profile table. 4 FAQ items on distinct points (cheapest?, beginner, day trips, rain). 1 profile table, 1 price table, 2 checklists. No external citation needed."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Vision generation/year offered and whether the shop allows leaving Hanoi are not documented; kept as points to ask."
+  ],
+  "words_before": 1629,
+  "words_after": 1537
+ }
+]

@@ -1,0 +1,222 @@
+[
+ {
+  "path": "yamaha/yamaha-grande-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel profil de voyageur la Yamaha Grande est-elle un bon scooter à louer à Hanoi ?",
+  "new_meta": {
+   "title": "Yamaha Grande en location à Hanoi : pour quel profil ?",
+   "description": "Louer une Yamaha Grande à Hanoi : scooter automatique néo-rétro, coffre de 27 litres, conduite posée. Profils adaptés, limites, contrôles et questions à poser.",
+   "h1": "Yamaha Grande en location à Hanoi : pour quel profil ?"
+  },
+  "words_before": 1607,
+  "words_after": 1617,
+  "evidence": {
+   "FACTS": "Removed the mannered claims with no source (chrome, 'signature visuelle', vague gabarit remarks) and all contract/fleet generalities (kilométrage inclus, assistance, caution, franchise, top-case, 'disponibilité relève de chaque flotte'). Specs only from Yamaha Motor Vietnam pages seen in search results: coffre 27 L, Blue Core Hybrid with hybrid assist and Stop & Start (Grande page), poids environ 100 kg (launch article); seat 790 mm explicitly flagged as first-generation figure to confirm; 125 cm3 from the Blue Core Hybrid 125 scooter description (autocarpro snippet title and Yamaha page family). Janus 15.3 L and Latte 37 L from Yamaha pages. No Yamaha model has an owner price row: only the category range 150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND 'à titre de repère' with the exact disclaimer; deposit/documents/zone/breakdown phrased once as questions to ask and get in writing; availability stated as unconfirmed. NAP and hours exactly as SEO-FACTS. No first-hand story.",
+   "INTENT": "Main question: for which traveller profile is the Grande a good rental in Hanoi. OWNER of 'yamaha Grande en location à Hanoi' (group owner = itself). Differs from yamaha-grande-prix-location-hanoi (how to read the budget), yamaha-grande-hanoi-ville (riding/parking/rain) and the Lead comparison (owner honda/honda-lead-abs-ou-yamaha-grande-location) because it is about fit and what to ask/check at the counter.",
+   "CONTENT": "Full rewrite. New sections: data table with practical consequences, who it suits and who it does not (city visitor, Long Bien commuter, occasional duo), storage comparison table Janus/Grande/Latte (Yamaha figures), short traffic section pointing to the city guide, what to ask before booking (with NAP, hours, 4 questions), handover checklist, 5 distinct FAQ. Removed the three 'profils du style', the counter-contract paragraphs and the abstract decision rule. Words 1607 -> 1617.",
+   "META": "Title kept in form and made plainer ('pour quel profil ?'); description rewritten with concrete facts (27 L, automatic, néo-rétro); H1 identical to title; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub present: /yamaha/, /types-motos/, /prix-location/, /yamaha/yamaha-grande-prix-location-hanoi/, /yamaha/yamaha-grande-hanoi-ville/, /yamaha/scooters/, /honda/honda-lead-abs-ou-yamaha-grande-location/. Removed /yamaha/yamaha-janus-125-location-hanoi/, /yamaha/yamaha-nvx-location-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/.",
+   "AEO_GEO": "Direct answer in the lead (profile, limits, no price/stock claim). Two tables (Yamaha data; storage comparison), one handover checklist, 5 FAQ with short answers, three citations to yamaha-motor.com.vn pages in the body."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/grande/?CP=PR_Grande_Mass_Fe22-32_General",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Grande Blue Core Hybrid, under-seat 27 L, hybrid assist and Stop & Start"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-grande-hoan-toan-moi-sieu-pham-cua-dinh-cao-thiet-ke-va-cong-nghe/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: weight about 100 kg for the new Grande"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-vn-chinh-thuc-gioi-thieu-grande-dong-xe-ga-dang-cap-cho-phu-nu-viet-nam/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: seat height 790 mm on the first-generation Grande table (stated as to confirm)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/kham-pha-xe-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus 125 storage about 15.3 L"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Latte storage up to 37 L"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop has a Yamaha Grande, which year/version, and its own daily/weekly/monthly price",
+   "Deposit/guarantee, documents at pick-up, authorised zone and breakdown procedure (left as questions to ask, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-grande-ou-honda-lead-abs-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Grande ou Lead ABS pour sortir de Hanoi, à deux et avec des bagages : lequel supporte mieux la route ?",
+  "new_meta": {
+   "title": "Grande ou Lead ABS pour sortir de Hanoi, à deux avec bagages",
+   "description": "Yamaha Grande ou Honda Lead ABS pour une sortie hors de Hanoi : coffre, poids, réservoir, confort à deux et bagages. Ce que chaque scooter permet sur route.",
+   "h1": "Yamaha Grande ou Honda Lead ABS : lequel pour sortir de Hanoi à deux ?"
+  },
+  "words_before": 1707,
+  "words_after": 1585,
+  "evidence": {
+   "FACTS": "Removed the invented comparison claims ('signature rétro', 'freinage signé dans son appellation', 'expérience des voyageurs', 'visibilité passive') and every generic contract/devis statement. Numbers only from manufacturer pages seen in search results: Grande 2025 standard (27 L, 4.0 L tank, 124.9 cm3, ~100 kg wet), Honda Lead ABS page (seat 760 mm, tank 6.0 L, 114 kg), Honda Lead 125 presentation (storage up to 37 L), Honda Lead 125 manual (10 kg storage, 1.5 kg hook/front compartment). Grande seat 790 mm stated as first-generation figure to confirm. A1 limit of 125 cm3 stated with 'verify your own situation' (law 36/2024/QH15, as in the Yamaha hub). No price for either model: category range 'à titre de repère' with the exact disclaimer; authorised zone/breakdown phrased as questions, availability unconfirmed. NAP hours/phone as in SEO-FACTS.",
+   "INTENT": "Main question: Grande or Lead ABS for leaving Hanoi, two-up with luggage. DISTINCT_ANGLE of group CMP-LEAD-GRANDE; owner honda/honda-lead-abs-ou-yamaha-grande-location/ linked once with natural anchor in the first section and the pour-aller-plus-loin block. Differs from the owner (general urban comparison) and from types-motos/honda-lead-ou-yamaha-grande-location (prise en main) because it only covers range, storage, passenger, luggage and descents.",
+   "CONTENT": "Full rewrite. New sections: what leaving Hanoi demands, manufacturer data table, duo and luggage (load limits), wind/hills/descents, trip-type verdict table, checklist for a day trip for two, zone/price/availability, 4 FAQ. Removed the urban 'philosophies', ABS vocabulary lecture, dos-à-dos test method, generic budget method and verdict rhetoric. Words 1707 -> 1585.",
+   "META": "Title/description/H1 refocused on the documented angle (leaving Hanoi, two-up, luggage); og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-lead-abs-longue-distance-vietnam/, /honda/honda-lead-abs-ou-yamaha-grande-location/, /permis-securite/moto-montagne-pass-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-grande-location-hanoi/. Removed /types-motos/meilleur-scooter-hanoi-circulation/, /honda/honda-lead-abs-location-hanoi/; added owner /honda/honda-lead-abs-ou-yamaha-grande-location/, /honda/honda-lead-abs-longue-distance-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/.",
+   "AEO_GEO": "Direct answer in the lead (Lead better two-up with bags, Grande lighter, neither for multi-day mountain). Two tables, one checklist, 4 FAQ, four manufacturer citations inline."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Grande standard 2025, 27 L, 4.0 L tank, 124.9 cc, 100 kg wet, ground clearance 127 mm"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Lead ABS seat 760 mm, tank 6.0 L, kerb weight 114 kg (Lead 125 page says 113 kg)"
+   },
+   {
+    "url": "https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-gioi-thieu-lead-125cc-hoan-toan-moi-dep-song-dong-lai-khac-biet",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Honda says under-seat storage up to 37 L"
+   },
+   {
+    "url": "https://cdn.honda.com.vn/motorbike-manual/September2025/mIYsZV2Cp2ZXQbVe9hKt.pdf",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Lead 125 manual, storage box 10 kg, hook and front compartment 1.5 kg"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-vn-chinh-thuc-gioi-thieu-grande-dong-xe-ga-dang-cap-cho-phu-nu-viet-nam/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: first-generation Grande seat 790 mm (flagged to confirm)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop allows leaving Hanoi, the kilometre/zone rule and breakdown procedure (left as questions)",
+   "Whether a Grande or a Lead ABS is in the fleet and their own prices"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-grande-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget prévoir pour louer une Yamaha Grande à Hanoi et comment lire un prix ou un devis ?",
+  "new_meta": {
+   "title": "Location d’une Yamaha Grande à Hanoi : repères de prix",
+   "description": "Quel budget pour louer une Yamaha Grande à Hanoi ? Repère de la catégorie scooter automatique par jour, semaine et mois, et comment comparer deux devis.",
+   "h1": "Location d’une Yamaha Grande à Hanoi : quel budget prévoir ?"
+  },
+  "words_before": 1623,
+  "words_after": 1562,
+  "evidence": {
+   "FACTS": "Removed all 'méthode' filler and unsourced generalities (dégressivité 'en tendances générales', 'le plus souvent dans les deux premières cases', 'jours fériés locaux', 'négocier'). Prices: the Grande has no owner row, so only the owner's automatic-scooter category range (150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND) 'à titre de repère' with the exact disclaimer; the Vision row (200 000 / 1 000 000 / 2 000 000) quoted only as the sole model-specific scooter row, noted as the top of the category ranges; semi-automatic monthly range (1 000 000-1 200 000) quoted for comparison. No multiplication, no package, no conversion. Deposit, passport, zone, breakdown, early return, extension phrased as questions to ask and generic 'certains loueurs demandent une caution' observations, never as the shop's policy. Grande description (Blue Core Hybrid, Stop & Start) from the Yamaha page. NAP, hours and phone as in SEO-FACTS.",
+   "INTENT": "Main question: what does renting a Yamaha Grande cost and how to read a quote. OWNER of 'location d’une Yamaha Grande'. Differs from yamaha-grande-location-hanoi (profile fit) and from yamaha-janus-125-prix-location-hanoi (other model, different category consequences) because it shows the category range, what drives variation for this model, a quote-comparison grid and Grande-vs-Vision/semi-auto comparisons.",
+   "CONTENT": "Full rewrite. New sections: category price table with disclaimer, variables for a Grande, how to get a readable quote (NAP, five-line message, blank comparison grid), jour/semaine/mois decision, comparisons (Vision row, semi-automatic month, automatic category), other expenses, 5 FAQ. Removed the 'pourquoi aucun chiffre', five 'pièges' and negotiation rhetoric. Words 1623 -> 1562.",
+   "META": "Title rewritten to 'Location d’une Yamaha Grande à Hanoi : repères de prix' (no 'prix exact' promise: it gives a category range); description and H1 rewritten; og:title/og:description identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-vision-prix-location-hanoi/, /prix-location/, /prix-location/automatique-location-scooter-hanoi-prix/, /prix-location/location-moto-depot-hanoi-passeport/, /types-motos/, /yamaha/, /yamaha/yamaha-grande-location-hanoi/. Removed /yamaha/yamaha-janus-125-prix-location-hanoi/; added /prix-location/automatique-location-scooter-hanoi-prix/, /prix-location/location-moto-depot-hanoi-passeport/, /honda/honda-vision-prix-location-hanoi/, /yamaha/yamaha-grande-location-hanoi/.",
+   "AEO_GEO": "Direct answer and the category range in the lead with the exact disclaimer. Two tables (category range, blank quote grid), one checklist, 5 FAQ, one Yamaha citation."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/grande/?CP=PR_Grande_Mass_Fe22-32_General",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Grande Blue Core Hybrid with hybrid assist and Stop & Start"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly price for a Yamaha Grande, if the shop has one",
+   "Deposit/guarantee, documents, zone, early-return and extension rules (kept as questions)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-grande-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Une Yamaha Grande peut-elle faire un road trip au départ de Hanoi, et jusqu'où ?",
+  "new_meta": {
+   "title": "Road trip en Yamaha Grande au Vietnam : jusqu’où aller ?",
+   "description": "La Yamaha Grande convient-elle à un road trip depuis Hanoi ? Réservoir, coffre, frein moteur, bagages : sorties réalistes, limites en montagne et préparation.",
+   "h1": "Road trip en Yamaha Grande au Vietnam : jusqu’où aller ?"
+  },
+  "words_before": 1736,
+  "words_after": 1536,
+  "evidence": {
+   "FACTS": "Replaced the abstract 'frontière nette' prose with manufacturer data from the Yamaha Grande 2025 standard page seen in search results: 124.9 cc, ~100 kg wet, 4.0 L tank, 1.73 L/100 km, 27 L storage, 127 mm ground clearance. The ~230 km 'on paper' figure is arithmetic from 4.0 L and 1.73 L/100 km, labelled as a calculation from Yamaha figures, not a measured range. No route distance or driving time (routes only named). Legal: A1 limit of 125 cm3 under law 36/2024/QH15 cited to luatvietnam.vn (legal information site, seen in search result, checked 2026-10-30) with the caveat that recognition of a foreign/international licence depends on country, categories and status, plus pointer to the permis guide. Authorised zone, kilometre limit, breakdown, deposit and documents phrased as questions (not published for the shop); Grande availability unconfirmed; no price for the model, category reference only via the price hub. NAP and hours as SEO-FACTS.",
+   "INTENT": "Main question: can a Yamaha Grande do a road trip from Hanoi. OWNER of 'yamaha Grande pour un road trip'. Differs from yamaha-grande-ou-honda-lead-abs-location (Grande vs Lead for a two-up outing) and yamaha-grande-location-hanoi (profile) because it is about what the scooter's specs allow on the road: day trips yes, mountains no.",
+   "CONTENT": "Full rewrite. New sections: Yamaha data table with consequences for a trip, realistic day trips/overnight, mountain limits, fuel stops, luggage and passenger, rain/heat/visibility, licence/contract with NAP, checklist, 5 FAQ. Removed 'discipline de charge', 'marges horaires' and contract-reading filler. Words 1736 -> 1536.",
+   "META": "Title/description/H1 rewritten around 'road trip en Yamaha Grande' (plain question), og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/. Removed /permis-securite/moto-pluie-securite-vietnam/, /yamaha/yamaha-grande-location-hanoi/; added /yamaha/semi-automatiques/, /nord-vietnam/, /permis-securite/permis/.",
+   "AEO_GEO": "Direct answer in the lead; one data table, one checklist, 5 FAQ; citations: Yamaha Grande 2025 page and luatvietnam.vn."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Grande standard 2025, 124.9 cc, 100 kg wet, 4.0 L tank, 1.73 L/100 km, 27 L, ground clearance 127 mm (another Yamaha page gives 4.4 L / 125 mm for the older presentation)"
+   },
+   {
+    "url": "https://luatvietnam.vn/giao-thong/luat-trat-tu-an-toan-giao-thong-duong-bo-2024-quy-dinh-nhu-the-nao-ve-giay-phep-lai-xe-hang-a1-863-100479-article.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 in force 1 Jan 2025, class A1 up to 125 cm3 (commercial legal information site; used with the usual caveat)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether trips outside Hanoi are allowed, kilometre limit and breakdown procedure (left as questions)",
+   "Whether a Grande is in the fleet and its own price"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-janus-125-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel voyageur louer un Yamaha Janus 125 à Hanoi, et que demander ou vérifier ?",
+  "new_meta": {
+   "title": "Louer un Yamaha Janus 125 à Hanoi : pour quel voyageur ?",
+   "description": "Louer un Yamaha Janus 125 à Hanoi : scooter automatique compact de 97 kg, selle à 770 mm, coffre de 15,3 litres. Pour qui, limites, questions, contrôles.",
+   "h1": "Louer un Yamaha Janus 125 à Hanoi : pour quel voyageur ?"
+  },
+  "words_before": 1515,
+  "words_after": 1561,
+  "evidence": {
+   "FACTS": "Removed the unsourced 'portrait' and generic limits. Specs only from Yamaha Motor Vietnam pages seen in search results: 124.9 cc, 97 kg standard / 99 kg special-limited, seat 770 mm, seat length 760 mm (+77 mm vs old Janus), storage about 15.3 L (+1.1 L), tank 4.2 L, ground clearance 135 mm; fuel consumption deliberately omitted because Yamaha pages disagree (1.98 vs 1.88 L/100 km). Latte 790 mm / ~100 kg wet / up to 37 L from the Yamaha Latte page. Old vs new Janus distinction flagged (Yamaha comparison page). Price: no Janus row; only the automatic-scooter category range 'à titre de repère' with the exact disclaimer. Deposit, documents, zone, breakdown: questions only; availability unconfirmed. A1 limit of 125 cm3 via luatvietnam.vn with the caveat that licence recognition depends on country, categories and status. NAP and hours as SEO-FACTS.",
+   "INTENT": "Main question: for which traveller is a Janus 125 rental sensible. OWNER of 'louer un Yamaha Janus 125 à Hanoi'. Differs from yamaha-janus-125-prix-location-hanoi (budget), yamaha-janus-125-hanoi-ville (riding in town) and the Vision comparison (owner honda/honda-vision-ou-yamaha-janus-location) by covering profile, old/new generation, what to ask and check.",
+   "CONTENT": "Full rewrite. New sections: data table with consequences, profiles (first rental, solo city use, long stay low use) and limits, Janus/Latte/Grande table, old vs new Janus, what to ask with NAP, handover checklist, licence paragraph, 6 FAQ. Removed the abstract 'portrait', 'terrains' and 'limites' sections. Words 1515 -> 1561.",
+   "META": "Title/description/H1 rewritten with concrete figures (97 kg, 770 mm, 15.3 L); og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-vision-ou-yamaha-janus-location/, /prix-location/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-janus-125-hanoi-ville/, /yamaha/yamaha-janus-125-prix-location-hanoi/. Removed /types-motos/honda-vision-ou-yamaha-janus-location/, /types-motos/meilleur-scooter-hanoi-circulation/, /types-motos/scooter-automatique/; added /yamaha/yamaha-janus-125-prix-location-hanoi/, /yamaha/yamaha-janus-125-hanoi-ville/, /honda/honda-vision-ou-yamaha-janus-location/.",
+   "AEO_GEO": "Direct answer in the lead; two tables, one checklist, 6 FAQ; five inline citations (Yamaha pages and luatvietnam.vn)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus standard version, seat 770 mm, tank 4.2 L, 124.9 cc, 97 kg, ground clearance 135 mm"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/kham-pha-xe-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus 125 storage 15.3 L (+1.1 L), seat length 760 mm (+77 mm)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/so-sanh-yamaha-janus-va-yamaha-janus-125-hoan-toan-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha comparison of old Janus and Janus 125; seat 769 vs 770 mm; consumption pages disagree (1.98 / 1.88 L/100 km, not used)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-b0r5/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Latte seat 790 mm, wet weight 100 kg, storage 37 L"
+   },
+   {
+    "url": "https://luatvietnam.vn/giao-thong/luat-trat-tu-an-toan-giao-thong-duong-bo-2024-quy-dinh-nhu-the-nao-ve-giay-phep-lai-xe-hang-a1-863-100479-article.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: A1 up to 125 cm3 under law 36/2024/QH15 (commercial legal information site)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Janus is in the fleet (old or new generation) and its own price",
+   "Deposit, documents, zone and breakdown procedure (left as questions)"
+  ]
+ }
+]

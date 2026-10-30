@@ -73,7 +73,7 @@
    "INTENT": "Main question: comment organiser un circuit street food de trois heures en soirée à moto à Hanoi ? Role DISTINCT_ANGLE; owner hanoi/hanoi-street-food-itineraire-moto/ (linked once from the FAQ with the anchor « guide complet de la street food à Hanoi à moto »). Differs from the owner because it is a timed evening loop (18:00–21:00, four stops, parking, weekend barriers, alcohol rule) and leaves the dish glossary, morning/lunch dishes and market visits to the owner guide.",
    "CONTENT": "Full rewrite: refocused from a morning-to-dessert wander to an evening circuit. New sections: circuit table with indicative times, why the evening + weekend pedestrian-street traps, three steps (hot meal, grills/chả cá, dessert + egg coffee), moto/parking/alcohol, street-eating checklist, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« la marmite est bonne », « sagement », « à Hanoï on mange mieux à pied qu'au guidon »). Words 1895 → 1830.",
    "META": "Title changed from « Street food à Hanoï à moto : parcours gourmand en 3 heures » to the evening angle (61 chars); description rewritten (≤160 chars, factual); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
-   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-street-food-itineraire-moto/ (owner, once, FAQ), /hanoi/hanoi-nuit-market-scooter-stationnement/, /hanoi/que-faire-hanoi-at-nuit/, /permis-securite/moto-hanoi-nuit-securite/. TOC synced with 8 H2 ids.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-street-food-itineraire-moto/ (owner, once, FAQ), /hanoi/hanoi-nuit-market-scooter-stationnement/, /hanoi/que-faire-hanoi-at-nuit/, /permis-securite/moto-hanoi-nuit-securite/. TOC synced with 9 H2 ids.",
    "AEO_GEO": "Lead answers directly (3 h suffisent: garer, 3–4 étapes à pied, rentrer). One timed table, one checklist, FAQ 5 questions. Inline citations rel=noopener: Thời báo Tài chính, Vietnam Airlines, Table Journey (2), VietNamNet (2), Lao Động."
   },
   "sources": [
@@ -178,7 +178,7 @@
    "INTENT": "Main question: faut-il et comment visiter Hanoi à moto en hiver ? Owner of « hanoi en hiver à moto » (OWNER). Closest pages: location-moto-hanoi/location-moto-hanoi-hiver (rental in winter: cold, drizzle, early dusk), hanoi-ba-be, temple-de-literature (low similarity). Differs because this is the city-visit angle (weather facts, kit, day plan, food/cafés, lakes, Têt 2027) and leaves the rental conditions to the location-hiver guide and the main rental guide.",
    "CONTENT": "Full rewrite. New sections: climate with sourced ranges and day length, equipment checklist, lakes/morning, day-plan table, cafés and hot dishes, riding adjustments (3-point checklist), Têt 2027 dates and impact, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« lumière de gravure », « fusain », « la discipline du site », « c’est bien fait pour elle ») and the repeated hub paragraph. Words 1868 → 1721.",
    "META": "Title changed from « …brume, cafés et tables chaudes » to an informative form (61 chars); description rewritten (156 chars, factual); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
-   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/hanoi-street-food-itineraire-moto/, /hanoi/que-faire-hanoi-christmas/, /hanoi/que-faire-hanoi-during-tet/. The previous link to hanoi-food-itineraire-moto was replaced by the street-food owner page. TOC synced with 8 H2 ids.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/hanoi-street-food-itineraire-moto/, /hanoi/que-faire-hanoi-christmas/, /hanoi/que-faire-hanoi-during-tet/. The previous link to hanoi-food-itineraire-moto was replaced by the street-food owner page. TOC synced with 9 H2 ids.",
    "AEO_GEO": "Lead answers directly (oui, avec couches/coupe-vent/gants; jour tombe vers 17 h 15; Têt 6 février 2027). One day-plan table, two checklists, FAQ 5 questions. Inline citations rel=noopener: Local Vietnam, Climates to Travel, Viet Nam News, Vinpearl, Alpenglow, VnExpress International, Vietnam Airlines."
   },
   "sources": [
@@ -236,9 +236,9 @@
   "evidence": {
    "FACTS": "Removed unsourced figures and claims from the old text: 'un quart d’heure du centre', 'trente minutes' for the temple visit, 'une trentaine de minutes de trafic', 'départ à 6 h 30', 'une heure à moto' for the West Lake tour, 'fourrières municipales ne pardonnent pas', 'ambassades' as a certainty. Now: West Lake ~500 ha and ~17 km circumference (seen in search result: vietnamtourism.vn/en/index.php/news/items/8466; other sources differ slightly, text says so); Trấn Quốc pagoda on a small peninsula, often described as the oldest in Hanoi (hoangthanhthanglong.vn, reused from que-faire hub); weekend closure around Hoan Kiem (Vietnam Airlines, reused from hub); low-emission zone since 1 July 2026 in two sectors of Hoan Kiem (VietNamNet, reused from hub); Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused); festival-night parking surcharges (Lao Động, reused). Flower villages Quảng An/Nhật Tân on the north shore and lotus in summer are stated from general knowledge, phrased 'surtout animés avant le Têt', 'période courte et variable' — not source-checked. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00 pickup only. No deposit, delivery, insurance or assistance statement.",
    "INTENT": "Main question: comment faire le circuit des lacs de Hanoi à moto ? Owner of « les lacs de Hanoï à moto » (OWNER). Closest pages: hanoi-cafes-itineraire-moto (cafés route, 0.24), location-moto-hoan-kiem (rental near Hoan Kiem, 0.23), sapa-voyage-moto (0.2). Differs because it is the 3-lake loop with ordering, access rules and parking; cafés go to hanoi-cafes-itineraire-moto, Hoàn Kiếm detail to hoan-kiem-lac-hanoi-que-faire and West Lake detail to west-lac-hanoi-moto.",
-   "CONTENT": "Full rewrite: new loop table, Hoàn Kiếm (on foot, parking, weekend closure, low-emission zone), Trúc Bạch and Thanh Niên dike (two points of attention), West Lake (size, stops checklist), two possible orders depending on pickup time, riding/parking section, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« alphabet », « lire la capitale par ses pages les plus ouvertes », « chaque saison réécrit le lac », « salle de conduite en plein air »). Words 1985 → 1636.",
+   "CONTENT": "Full rewrite: new loop table, Hoàn Kiếm (on foot, parking, weekend closure, low-emission zone), Trúc Bạch and Thanh Niên dike (two points of attention), West Lake (size, stops checklist), two possible orders depending on pickup time, riding/parking section, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« alphabet », « lire la capitale par ses pages les plus ouvertes », « chaque saison réécrit le lac », « salle de conduite en plein air »). Words 1985 → 1637.",
    "META": "Title kept the owner query, diacritics normalised to Hoàn Kiếm / Trúc Bạch (63 chars); description rewritten (159 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
-   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/west-lac-hanoi-moto/, /hanoi/hanoi-sunset-itineraire-moto/, /hanoi/hanoi-cafes-itineraire-moto/. The old link to jour-voyages-de-hanoi-by-moto was dropped to stay within the cap. TOC synced with 7 H2 ids.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/west-lac-hanoi-moto/, /hanoi/hanoi-sunset-itineraire-moto/, /hanoi/hanoi-cafes-itineraire-moto/. The old link to jour-voyages-de-hanoi-by-moto was dropped to stay within the cap. TOC synced with 8 H2 ids.",
    "AEO_GEO": "Lead answers directly (3 lacs, moto utile surtout pour Hồ Tây ~17 km). One table (4 steps), two checklists, FAQ 5 questions. Inline citations rel=noopener: Vietnam Airlines, VietNamNet, Hoàng thành Thăng Long, Vietnam Tourism, Viet Nam News, Lao Động."
   },
   "sources": [
@@ -275,7 +275,7 @@
   ],
   "owner_gaps": [],
   "words_before": 1985,
-  "words_after": 1636
+  "words_after": 1637
  },
  {
   "path": "hanoi/hanoi-musees-jour-pluie/index.html",
@@ -521,7 +521,7 @@
   "evidence": {
    "FACTS": "The old text was heavily mannered and partly wrong (cathedral placed in the quarter 'à l’ouest', Opéra 'au sud-est de la boucle', 'dix minutes de scooter', 'une demi-heure de scooter posé', 'chocolat chaud du quartier', 'le secteur le plus fluide du centre', phrase « la page du silo »). Now: Tràng Tiền as the main axis, Opera at its southern end, 5-minute walk from Đinh Tiên Hoàng street on the lake side; Ngô Quyền links the Opera to the Sofitel Legend Metropole; Tràng Tiền Plaza; cafés along Tràng Tiền; Opera exterior visible by day, performance tickets sell out quickly (seen in search result: fodors.com …/the-french-quarter/things-to-do/sights and other guides); Opera built by the French in the first decade of the 20th c., inspired by the Paris Opera (Fodor's). Quarter boundaries presented as unofficial. Hanoi capital of French Indochina from 1902 and the colonial planning of the south of the lake are stated from general knowledge, not source-checked. Administrative redistricting since 1 July 2025 (Hanoi portal, reused from hanoi/index.html). Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused); weekend closure around Hoan Kiem (Vietnam Airlines, reused); low-emission zone since 1 July 2026 (VietNamNet, reused). No café or shop is named. Egg coffee described generically. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00 and location near Bến xe Gia Lâm per facts. No deposit, delivery, insurance, assistance or fleet statement.",
    "INTENT": "Main question: que voir et comment parcourir le quartier français de Hanoi ? Owner of « le quartier français de Hanoi » (OWNER). Closest pages: que-faire-hanoi-vieux-quartier (0.28), que-faire-hanoi-couples (0.24), que-faire-hanoi-solo (0.18). Differs from the Old Quarter guide because it covers the colonial quarter south of the lake; differs from hanoi-french-architecture-itineraire-moto (linked once) because this page is the neighbourhood walk, café pauses and parking, while the architecture page covers buildings, styles and access status.",
-   "CONTENT": "Full rewrite. New sections: where it is and what it contains, context (why the quarter exists), 5-step walk, café table (5 types of pauses, no named addresses), access and parking checklist (weekend closure, low-emission zone), photographing and combining with neighbouring sectors, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« leçon d’architecture en trois actes », « le siècle assis », « la machine complique la photo ? Elle l’organise »). Words 1884 → 1677.",
+   "CONTENT": "Full rewrite. New sections: where it is and what it contains, context (why the quarter exists), 5-step walk, café table (5 types of pauses, no named addresses), access and parking checklist (weekend closure, low-emission zone), photographing and combining with neighbouring sectors, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« leçon d’architecture en trois actes », « le siècle assis », « la machine complique la photo ? Elle l’organise »). Words 1884 → 1676.",
    "META": "Title changed from « …architecture, cafés et photos » to the neighbourhood-walk angle (62 chars); description rewritten (152 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
    "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-french-architecture-itineraire-moto/, /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/hanoi-photo-spots-moto/, /hanoi/hanoi-1-jour-itineraire/. The old links to /hanoi/que-faire/ and /location-moto-hanoi/debutant-location-moto-hanoi/ were dropped to stay within the cap. TOC synced with 8 H2 ids.",
    "AEO_GEO": "Lead answers directly (au sud du lac, à pied en demi-journée, moto garée en bordure). One ordered walk, one café table, one checklist, FAQ 5 questions. Inline citations rel=noopener: Fodor's, Hanoi portal, Viet Nam News, Vietnam Airlines, VietNamNet."
@@ -555,7 +555,7 @@
   ],
   "owner_gaps": [],
   "words_before": 1884,
-  "words_after": 1677
+  "words_after": 1676
  },
  {
   "path": "hanoi/hanoi-soc-son-moto-jour-voyage/index.html",
@@ -775,5 +775,181 @@
   ],
   "words_before": 1685,
   "words_after": 1577
+ },
+ {
+  "path": "hanoi/jour-voyages-de-hanoi-by-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Où partir de Hanoi à moto pour une journée : comment choisir la sortie selon le profil, les centres d’intérêt, la saison et l’heure de retrait.",
+  "new_meta": {
+   "title": "Où partir de Hanoi à moto pour une journée ? Choisir sa sortie",
+   "description": "Bát Tràng, Sóc Sơn, Đường Lâm, Ba Vì ou pagode du Parfum : choisir sa sortie d’une journée à moto depuis Hanoi selon l’expérience, la saison et l’horaire.",
+   "h1": "Où partir de Hanoi à moto pour une journée ? Choisir sa sortie"
+  },
+  "evidence": {
+   "FACTS": "Removed the invented directional narrative of the old text ('une grosse heure de centre au pied du massif', 'rizières immergées du sud', 'une direction par journée' as a rule of the page, 'la discipline du site', 'pêche des îles') and the claim 'Ba Vì se fait par la route' without source. Distances are those already used in hanoi/excursions-moto/ (Bát Tràng 13–15 km; Đường Lâm 40–44 km; Ba Vì ~60 km; Perfume Pagoda 60–70 km; Tam Đảo 70–85 km; Ninh Binh 86–104 km; sources there: Vietnam Trips, Hanoi Times, VietNamNet, Lonely Planet, Vietnam Tourism, Oxalis) plus Sóc Sơn 25–30 km (seen in search result: vietnamnet.vn/en/48-hours-in-soc-son-district-2288835.html); all phrased as order of magnitude. Đường Lâm first village recognised as a national historical and cultural relic (VietNamNet, reused from excursions hub). Seasons (Local Vietnam), Perfume Pagoda festival period (Vietnam Tourism), weekends heading to Sóc Sơn/Ba Vì/Tam Đảo (from the excursions hub), expressway ban and Feb 2026 case (VOV), Thăng Long avenue 2026 checks (Đại biểu Nhân dân) — all reused from hanoi/index.html and hanoi/excursions-moto/. Sunset ~18:40 early July and ~17:15 late Nov–Dec (seen in search results: sunrise-sunset.org, alpenglowapp.com). Shop: 09:00–21:00 and phone/Zalo/WhatsApp; earlier or evening-before pickup phrased as a question 'rien n’est confirmé'; out-of-Hanoi use and breakdown policy phrased as questions to ask. Price: only owner range for automatic scooter with disclaimer. No deposit, delivery, insurance, assistance or fleet statement.",
+   "INTENT": "Main question: où partir à moto depuis Hanoi pour une journée et comment choisir ? Owner of « jour de sortie » (OWNER). Closest pages: 2-jours-moto-voyages-de-hanoi (0.31), sapa-itineraire-moto-1-jour (0.21), location-moto-jour-24-horaires-hanoi (0.2). Differs because it is the decision guide for one-day trips (profile, interests, season, pickup hour, common rules); the distance table and multi-day trips stay in hanoi/excursions-moto/ and 2-jours-moto-voyages-de-hanoi.",
+   "CONTENT": "Full rewrite. New sections: profile table (5 situations), interests checklist with child guides, season and calendar, pickup hour vs sunset (new, specific to the shop’s 09:00–21:00 hours), two example days (table), common rules checklist, vehicle and talking to the shop, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« l’étoile se trace d’un rayon par jour », « la page garde la frontière », « le comptoir du soir qui clôt la boucle »). Words 2183 → 1623.",
+   "META": "Title changed from « …pour une journée complète ? » to a form that states the purpose (62 chars); description rewritten (154 chars); H1 = title (previously « Jour de sortie : … »); eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-bat-trang-moto/, /hanoi/hanoi-a-ba-vi-moto/, /hanoi/hanoi-perfume-pagoda-moto/. The old link to /nord-vietnam/ha-giang/ was dropped (different multi-day topic). TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Lead answers directly (première sortie: Bát Tràng, Cổ Loa, Ecopark; journée entière: Sóc Sơn, Đường Lâm; longue journée: Ba Vì, pagode du Parfum). Two tables, two checklists, FAQ 5 questions. Inline citations rel=noopener: Local Vietnam, Vietnam Tourism, Alpenglow, sunrise-sunset.org, VOV, Đại biểu Nhân dân, VietNamNet."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnet.vn/en/48-hours-in-soc-son-district-2288835.html",
+    "checked": "2026-10-30",
+    "used_for": "Sóc Sơn distance 25–30 km (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/duong-lam-first-vietnamese-ancient-village-to-become-national-relic-712606.html",
+    "checked": "2026-10-30",
+    "used_for": "Đường Lâm national relic (reused from excursions hub)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Seasons (reused from hub)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/perfume-pagoda-festival-vietnam-s-biggest-spring-pilgrimage",
+    "checked": "2026-10-30",
+    "used_for": "Perfume Pagoda festival period (reused from excursions hub)"
+   },
+   {
+    "url": "https://www.alpenglowapp.com/times/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "Sunset times (seen in search result)"
+   },
+   {
+    "url": "https://sunrise-sunset.org/vn/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "Latest/earliest sunset (seen in search result)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Expressway ban enforcement (reused from hub)"
+   },
+   {
+    "url": "https://daibieunhandan.vn/ha-noi-lieu-linh-di-xe-may-vao-cao-toc-dai-lo-thang-long-hang-loat-tai-xe-bi-xu-ly-10413612.html",
+    "checked": "2026-10-30",
+    "used_for": "Thăng Long avenue central lanes closed to two-wheelers (reused from excursions hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether an earlier or evening-before pickup is possible, and whether out-of-Hanoi trips and breakdown handling are covered (asked as questions in the text)."
+  ],
+  "words_before": 2183,
+  "words_after": 1623
+ },
+ {
+  "path": "hanoi/long-bien-pont-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Où en est le pont Long Biên, comment le traverser à moto, quelles heures et quelles précautions, et que faire ensuite sur la rive est.",
+  "new_meta": {
+   "title": "Pont Long Biên à Hanoi : traverser à moto, heures et prudence",
+   "description": "Le pont Long Biên à moto : rouvert le 28 mai 2026, règles de passage, conduite sur le tablier, heures de lumière, berges et sorties vers la rive est.",
+   "h1": "Pont Long Biên à Hanoi : traverser à moto, heures et prudence"
+  },
+  "evidence": {
+   "FACTS": "Corrected the old text, which called the far bank « rive nord » and wrote « sa flotte urbaine couvre le pont … conditions de durée se négocient » (fleet/negotiation claims removed), plus 'plus d’un kilomètre', 'rebaptisée depuis au fil de l’histoire', 'des milliers de deux-roues'. Now: closed 28 March 2026 for repairs (chaussée, garde-corps, passerelles, drainage), reopened 28 May 2026 for motorcycles, bicycles and pedestrians in both directions (seen in search results: vietnamnews.vn/society/1782283…, news.laodong.vn Long Bien reopening articles; Tuổi Trẻ News link reused from hanoi/index.html); railway continues to operate (seen in search result: reopening articles say rail operations continued); closed to cars (hub); Chương Dương bridge as alternative, also open to cars (from hanoi/index.html). The history paragraph (built under the French at the initiative of Governor-General Paul Doumer, dated 1902, war damage and repairs) is stated from general knowledge, not source-checked, with 'd’après les sources courantes' / 'les guides signalent'. Sunrise/sunset early July and mid-December (seen in search results: sunrise-sunset.net, alpenglowapp.com). Festival-night parking surcharges (Lao Động, reused). Geography of the sunset view reasoned from the map. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00 and contact channels; out-of-centre use and breakdown policy phrased as questions. No deposit, delivery, insurance, assistance or fleet statement.",
+   "INTENT": "Main question: peut-on traverser le pont Long Biên à moto et comment ? Owner of « pont Long Bien à Hanoi » (OWNER). Closest pages: hanoi-1-jour-itineraire (0.17), location-moto-hanoi/quartiers (0.12), nord-vietnam/ha-long (0.11) — different purposes. Differs because it is the bridge itself (status, rules, riding, light, banks); the photo rules are in hanoi-photo-spots-moto, the sunset route in hanoi-sunset-itineraire-moto, the river route in red-river-hanoi-itineraire-moto.",
+   "CONTENT": "Full rewrite. New sections: key-facts table (5 questions), short colonial-era history, riding checklist with scooter price repère, best hours (with sunrise/sunset and sunset geography), walk vs ride, banks and islands (respect for farmland, parking), the east bank extensions, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« un ouvrage à cheval sur deux siècles », « le pont n’a pas de mauvaise heure », « le Long Bien se traverse deux fois par journée idéale »). Words 1632 → 1656.",
+   "META": "Title changed from « …les plus belles heures en moto » to a practical form (61 chars); description rewritten (149 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-a-bat-trang-moto/, /hanoi/red-river-hanoi-itineraire-moto/, /hanoi/hanoi-sunset-itineraire-moto/, /hanoi/hanoi-photo-spots-moto/. The old link to que-faire-hanoi-at-nuit was dropped to stay within the cap. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Lead answers directly (rouvert le 28 mai 2026, motos/vélos/piétons, au pas, loin des rails, hors pointe). Key-facts table, two checklists, FAQ 5 questions. Inline citations rel=noopener: Viet Nam News, Tuổi Trẻ News, sunrise-sunset.net, Alpenglow, Lao Động."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Reopening 28 May 2026 (seen in search result and reused from hub)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/hanoi-to-ban-motorcycles-pedestrians-on-long-bien-bridge-for-60-days-for-repairs-103260326103203013.htm",
+    "checked": "2026-10-30",
+    "used_for": "Closure from end of March 2026 (reused from hub)"
+   },
+   {
+    "url": "https://www.sunrise-sunset.net/vietnam/hanoi/2026/07",
+    "checked": "2026-10-30",
+    "used_for": "Early-July sunrise/sunset (seen in search result)"
+   },
+   {
+    "url": "https://www.alpenglowapp.com/times/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "Mid-December sunrise/sunset (seen in search result)"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo",
+    "checked": "2026-10-30",
+    "used_for": "Festival-night parking surcharges (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Official dimensions and history of the bridge were not checked in an official source; the text keeps them minimal.",
+   "Whether out-of-centre trips and breakdown handling are covered by the rental (asked as questions)."
+  ],
+  "words_before": 1632,
+  "words_after": 1656
+ },
+ {
+  "path": "hanoi/que-faire-hanoi-at-nuit/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire à Hanoi le soir et la nuit, avec ou sans moto : sorties, contrainte de l’heure de retrait, conduite de nuit, stationnement.",
+  "new_meta": {
+   "title": "Hanoi la nuit à moto : que faire après 19 heures",
+   "description": "Que faire à Hanoi après 19 heures : lac Hoàn Kiếm, marionnettes sur l’eau, Vieux Quartier, lac de l’Ouest, rues piétonnes du week-end et conduite de nuit.",
+   "h1": "Hanoi la nuit à moto : que faire après 19 heures"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported or mannered claims from the old text: 'une heure de tour', 'les cafés servent tard — le café glace renversé se boit à 21 heures', 'restaurants de poisson des rives nord', 'tortues légendées', 'les monuments ferment tôt', 'une demi-heure de deux-roues posé' for the whole route, 'dix minutes' crossings, 'la page du silo'. Now: water-puppet show ~50 min, schedules differ by source (1:45–9:15 pm in one guide, 5:15/6:30/8:00 pm in another), theatre publishes its weekly programme, tickets sell out most evenings Nov–March (seen in search result: vietnamtourism.com/en/thang-long-water-puppet-theatre-in-hanoi-showtimes-tickets-and-how-long-it-lasts; no price quoted). Weekend closure around Hoan Kiem and Old Quarter evening pedestrian streets (Vietnam Airlines, Thời báo Tài chính, reused from hanoi/index.html); weekend night market (seen in search results, see hanoi-nuit-market-scooter-stationnement evidence); Long Bien wholesale market at night, peak 22:00–05:00 per several guides (seen in search result: localvietnam.com/hanoi/long-bien-market/, referenced via the sibling guide); West Lake circumference ~17 km (seen in search result: vietnamtourism.vn/en/index.php/news/items/8466); Decree 168/2024/ND-CP in force in 2026 per Traffic Police (seen in search result: vietnamnet.vn traffic-police-refute…); low-emission zone since 1 July 2026 (VietNamNet, reused); festival-night parking surcharges (Lao Động, reused). Shop: closes at 21:00 — three cases laid out (multi-day, same-evening return, late return = a question to ask, nothing confirmed). Price: only owner range for automatic scooter with disclaimer. No deposit, delivery, insurance or assistance statement.",
+   "INTENT": "Main question: que faire à Hanoi la nuit et comment s’y déplacer ? Owner of « hanoi la nuit » (OWNER). Closest pages: unique-que-faire-hanoi (0.24), hoan-kiem-lac-hanoi-que-faire (0.21), que-faire-hanoi-when-it-rains (0.17). Differs because it is the evening overview (options table, the 21:00 return constraint, two sample evenings, night riding rules); markets/parking are in hanoi-nuit-market-scooter-stationnement, the timed food loop in hanoi-food-itineraire-moto and riding technique in permis-securite/moto-hanoi-nuit-securite.",
+   "CONTENT": "Full rewrite. New sections: options table (6), the 21:00 constraint (3 cases), centre on foot (lake, puppets, Old Quarter), West Lake at night, two sample evenings, night riding checklist (alcohol rule with source), evening parking with weekend barriers and low-emission zone, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« la seconde ville », « le salon de la ville », « la nuit de Hanoi verse ses averses aussi »). Words 1880 → 1629.",
+   "META": "Title changed from « Hanoi la nuit à deux-roues : où aller après 19 heures » to a more natural form (48 chars); description rewritten (154 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-food-itineraire-moto/, /hanoi/hanoi-nuit-market-scooter-stationnement/, /permis-securite/moto-hanoi-nuit-securite/. The old links to west-lac, quartier-français, vieux-quartier and moto-pluie-securite were dropped to stay within the cap. TOC synced with 9 H2 ids.",
+   "AEO_GEO": "Lead answers directly (à pied surtout ; moto pour le lac de l’Ouest ; fermeture du point de retrait à 21:00). Options table, two checklists, one ordered list, FAQ 5 questions. Inline citations rel=noopener: Vietnam Tourism (2), Thời báo Tài chính, Vietnam Airlines, VietNamNet (2), Lao Động."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamtourism.com/en/thang-long-water-puppet-theatre-in-hanoi-showtimes-tickets-and-how-long-it-lasts",
+    "checked": "2026-10-30",
+    "used_for": "Water-puppet show duration, schedule caveats, booking (seen in search result)"
+   },
+   {
+    "url": "https://vietnamtourism.vn/en/index.php/news/items/8466",
+    "checked": "2026-10-30",
+    "used_for": "West Lake circumference ~17 km (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/traffic-police-refute-claims-of-increased-dui-fines-in-2026-2486574.html",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024 in force in 2026 (seen in search result)"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+    "checked": "2026-10-30",
+    "used_for": "Old Quarter pedestrian streets 19:00–24:00 (reused from hub)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure around Hoan Kiem (reused from hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-30",
+    "used_for": "Low-emission zone since 1 July 2026 (reused from hub)"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo",
+    "checked": "2026-10-30",
+    "used_for": "Festival-night parking surcharges (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a late return after 21:00 or a deferred return is possible (asked as a question in the text)."
+  ],
+  "words_before": 1880,
+  "words_after": 1629
  }
 ]

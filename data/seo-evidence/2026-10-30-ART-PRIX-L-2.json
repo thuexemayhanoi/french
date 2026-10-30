@@ -1,0 +1,51 @@
+[
+ {
+  "path": "prix-location/location-moto-depot-hanoi-passeport/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Comment une garantie (espèces, plafond de carte, document) pèse sur le budget d'une location à Hanoi : argent immobilisé, change, restitution",
+  "words_before": 1636,
+  "words_after": 1911,
+  "new_meta": {
+   "title": "Dépôt, caution ou passeport : l’effet sur le budget à Hanoi",
+   "description": "Argent immobilisé, change, restitution : ce qu’une garantie de location de moto à Hanoi change à votre budget et les questions à poser avant de payer.",
+   "h1": "Dépôt, caution ou passeport : l’effet sur le budget d’une location à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "No deposit amount, form or passport rule stated as the shop's: the lead and section 1 say once that form and amount are not published for Thuê xe máy Nguyễn Hà and must be confirmed in writing. Forms (cash, card pre-authorisation, document) are presented as general market practice, never as this shop's policy; no claim that empreinte bancaire is accepted. Removed « historiquement, retiennent le passeport », « un loueur sérieux propose… », « de plus en plus de loueurs la proposent », the claim that a deposit follows model/price tendency presented as fact, and « La règle de la plateforme ». Only price used: Honda Vision week 1 000 000 VND (owner row) with the exact disclaimer next to the table; garantie line deliberately without figure; no multiplication, no € conversion. Hours 09:00–21:00 and phone/WhatsApp/Zalo as in SEO-FACTS. No legal claim made about passport retention (not asserted either way); no external source needed.",
+   "INTENT": "Main question: what does a guarantee do to a rental budget (cash tied up, currency/card effects, release)? DISTINCT_ANGLE of location-moto-hanoi/location-moto-depot-hanoi/ (owner: form, retenue, restitution) and of location-moto-hanoi/passeport-location-moto-hanoi/ (passport practice). Differs because this article treats only the budget effect (trésorerie, change, delay of release, what to put in the budget line) and links to the owner once for the guarantee itself.",
+   "CONTENT": "Full rewrite: removed the mannered 'deux philosophies' framing and « ce qui ne s’écrit pas ne protège personne »-style aphorisms; new sections: loyer vs garantie with a forms/effects table, immobilised cash (with Vision-week budget table), change/card pre-authorisation points to check, passport as a cost without amount (checklist of questions), restitution, choosing by profile, six questions to ask. FAQ rewritten to 5 short non-repeating Q&As. Words 1636→1911.",
+   "META": "Title, description, H1 rewritten to the budget angle (title 59 chars, description 150); og:title/og:description synced. Old title « dépôt ou passeport, que choisir ? » promised a recommendation the page does not give.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /location-moto-hanoi/location-moto-depot-hanoi/ (group owner, once), /location-moto-hanoi/passeport-location-moto-hanoi/, /prix-location/semaine/ (Vision week row), /prix-location/location-moto-perdue-cle-frais-vietnam/ (retenue example). tel/WhatsApp/Zalo links in the lead. TOC auto-synced with 8 H2 ids incl. #questions-frequentes; former « Pour aller plus loin » block dropped (links are in the body).",
+   "AEO_GEO": "Direct answer in the lead (guarantee immobilises money, not spent, may be partly withheld; shop's form and amount unpublished). 2 tables, 2 lists (one numbered question list), FAQ of 5."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Form, amount, currency and release timing of the guarantee (cash, card pre-authorisation, passport/document), and whether an alternative to leaving a document is offered.",
+   "Accepted payment methods (card, cash, transfer)."
+  ]
+ },
+ {
+  "path": "prix-location/location-moto-jour-24-horaires-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se compte une journée de location de moto à Hanoi : 24 heures glissantes ou date calendaire entamée",
+  "words_before": 1670,
+  "words_after": 1677,
+  "new_meta": {
+   "title": "Comment se compte une journée de location de moto à Hanoi ?",
+   "description": "24 heures ou jour calendaire : comment une journée de location est comptée, exemples en nombre de jours, heure de retour et questions à poser avant de réserver.",
+   "h1": "Comment se compte une journée de location de moto à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Day-counting rules (24 h / calendar date / opening hours) presented as common market practice; stated that Thuê xe máy Nguyễn Hà's rule, late-return rule and early-return refund are NOT published. Removed « la plateforme ne publie pas de prix », « un comptoir qui ouvre à huit heures », mentions of deposit mode (espèces ou passeport retenu), « consigne de réservoir », « procédure d’assistance », and the claim that early return is rarely refunded. Prices: only the day column of the owner table (150 000–200 000 VND semi-auto/automatic; 200 000 VND for 50cc, Vision, Air Blade) with the exact disclaimer; the worked examples count days only (no price, no multiplication, no total). Hours 09:00–21:00, address and WhatsApp/Zalo as in SEO-FACTS. No external source needed.",
+   "INTENT": "Main question: how is a rental day counted? Owner of « comment se compte une journée de location ». Differs from /prix-location/location-moto-retrait-retour-jour-charge-hanoi/ (what the pickup day and the return day count as) by being about the counting convention itself; differs from the day-price hub /prix-location/jour/ (rates) by giving worked day-count examples; differs from location-moto-hanoi/1-jour-location-moto-hanoi/ (one-day itinerary guide).",
+   "CONTENT": "Full rewrite. Removed mannered prose (« la grille qui se lit », « apprend à lire », « six réflexes », « la discipline la plus rentable du voyage ») and SEO-process wording (« le hub », « la politique de la plateforme »). New: three conventions, a 4-row day-count table (24 h vs calendar date), what the day rate does and does not tell, opening-hours consequences (late arrival, dawn departure, bridges traffic margin), programme-based timing table, late/early return questions, written checklist. FAQ rewritten to 5 non-repeating Q&As. Words 1670→1677.",
+   "META": "Title shortened from 66 to 59 chars and aligned with the question (« Comment se compte une journée de location de moto à Hanoi ? »); H1 identical; description rewritten (160 chars) to drop « lire la grille tarifaire s’apprend ligne par ligne » and « dépôt »; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/jour/, /prix-location/semaine/, /prix-location/location-moto-retrait-retour-jour-charge-hanoi/, /prix-location/prix-location-moto-hanoi/. WhatsApp/Zalo external-style links added. TOC auto-synced with 8 H2 ids incl. #questions-frequentes; former « Pour aller plus loin » dropped (links in body).",
+   "AEO_GEO": "Direct answer in the lead (two conventions, rule not published, ask the number of billed days in writing). 3 tables, 2 lists, FAQ of 5."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Day-counting convention (24 h, calendar date or opening-hours day), grace period and late-return charge, early-return refund, and whether return/pickup outside 09:00–21:00 is possible."
+  ]
+ }
+]
