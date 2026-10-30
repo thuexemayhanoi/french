@@ -1,0 +1,61 @@
+[
+ {
+  "path": "types-motos/carburateur-ou-injection-carburant-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Moto à carburateur ou à injection en location : que change chaque système pour un locataire de quelques jours à deux semaines, et comment choisir ?",
+  "words_before": 1747,
+  "new_meta": {
+   "title": "Carburateur ou injection : le match côté locataire",
+   "description": "Moto à carburateur ou à injection en location au Vietnam : comment les reconnaître, démarrage à froid, montagne, panne et questions à poser avant de partir.",
+   "h1": "Carburateur ou injection : le match côté locataire"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced/unconfirmed claims: « la plupart [des agences] incluent une assistance », « agence avec assistance rapide / sans assistance », dépôt/franchise/frais de remplacement presented as contract lines, 'flottes de deux générations' (fleet description), 'un mois favorise la FI'. Replaced by generic, attributed market wording ('certaines agences affichent un tarif plus élevé... pratique de marché, pas une règle') and by questions to ask (qui paie en cas de panne, caution éventuelle). Prices: no rate quoted; states that the owner's indicative rates are per category (semi-auto, automatique, électrique, 50cc, Vision, Air Blade), not per fuel system, with the mandatory disclaimer once. No model-level spec claims; specs deferred to honda.com.vn / yamaha-motor.com.vn for the exact version. Altitude effect stated as general principle ('en principe', 'dépend du modèle'). Phone 0334 699 969 used only in the breakdown steps. No external legal claim.",
+   "INTENT": "Main question: carburateur ou injection, which one for a rental of a few days to two weeks, and how to recognise/test it at pickup. OWNER of 'carburateur ou injection'. Differs from /types-motos/injection-carburant-moto-vietnam-location/ (FR-238, long rental: consommation, entretien, carburant E10, suivi sur la durée) because this page is the counter-side decision: identification table, cold start test, ride feel, breakdown steps, profile table; the long-rental detail is sent there with one link.",
+   "CONTENT": "Full rewrite: removed the 'round 1-4 / match / knock-out / matrice personnelle' framing, filler about 'deux générations de flottes' and repeated verdict. Added: identification cues table (FI badge, voyant, pompe, robinet, kick/starter), 4-step cold-start test checklist, ride feel in town/plain/mountain, 4-step breakdown routine, budget section without invented numbers, profile table, 5 new FAQ (no repetition of body). 1747 -> see words_after.",
+   "META": "Title and H1 kept (matches the anchor on /types-motos/ and is unique). Description rewritten to 156 chars, factual (old one 179 chars, 'round par round' wording); og:title/og:description synced; eyebrow simplified.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/injection-carburant-moto-vietnam-location/ (sibling), /types-motos/disc-frein-ou-drum-moto-vietnam/, /location-moto-hanoi/panne-scooter-hanoi/, /prix-location/. TOC synced with H2 ids (questions-frequentes, pour-aller-plus-loin).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). 2 tables (identification cues, choice by profile), 2 checklists/numbered lists, FAQ 5 Q&A. No external citation (generic mechanics only)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which carburetted/FI models and years the shop actually rents, and what help it provides in case of breakdown, are unconfirmed; page only tells the reader to ask."
+  ],
+  "words_after": 1834
+ },
+ {
+  "path": "types-motos/injection-carburant-moto-vietnam-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Injection électronique (FI) ou carburateur : que change le système d'alimentation pour une location de plusieurs semaines au Vietnam ?",
+  "words_before": 1759,
+  "new_meta": {
+   "title": "Injection électronique ou carburateur en location longue",
+   "description": "Injection (FI) ou carburateur pour louer une moto plusieurs semaines au Vietnam : démarrage, consommation, carburant E10, entretien et vérifications.",
+   "h1": "Injection électronique ou carburateur : ce que ça change en location longue"
+  },
+  "evidence": {
+   "FACTS": "Removed unconfirmed shop/market claims: 'certaines agences incluent une assistance sur l'ensemble du séjour, d'autres limitent leur garantie au périmètre urbain', 'carnet d'entretien tenu par une agence sérieuse', 'garage partenaire', 'flotte bien gérée'. Maintenance/fuel responsibility now phrased as questions to ask the lender (dernière vidange, qui organise et paie, voyant moteur). No rates quoted; states owner rates are per category not per fuel system, with the mandatory disclaimer once. No model specs; mechanical statements are generic and qualified ('sur beaucoup de modèles', 'si le système mesure la pression d'air'). New fuel fact: E10 rollout from 1 June 2026 with E5 not yet withdrawn, cited inline to voh.com.vn and a Báo Lào Cai article on vehicles over ten years (both URLs seen in a WebSearch result on 2026-10-30; claims kept within the headlines/snippets; model compatibility explicitly left unestablished). Permis: only a pointer to /permis-securite/ and the 125 cm3 mention without stating a rule.",
+   "INTENT": "Main question: what the FI/carburetor choice means over a multi-week rental (régularité, humidité, altitude, consommation, carburant, entretien). OWNER of 'injection électronique ou carburateur'. Differs from /types-motos/carburateur-ou-injection-carburant-moto-vietnam/ (FR-239: identification at the counter, cold-start test, breakdown steps, short stays) because this page covers the long-duration effects and the E10 fuel and maintenance questions, linking once to FR-239 for identification cues.",
+   "CONTENT": "Full rewrite. Removed process/marketing wording, anecdotal claims about agencies, the 'à marteler' verdict and redundant FAQ. Added comparison table (réglage, démarrage, altitude, diagnostic, réparation), measure-your-own-consumption checklist, fuel section (stations vs bottled petrol, E10 2026), maintenance questions and weekly gestes, pre-signature test checklist, decision table, 5 new FAQ. Link to flood, fuel station and oil-change guides.",
+   "META": "Title kept (unique, 56 chars). H1 kept. Description rewritten (149 chars, factual, mentions E10); og tags synced; eyebrow simplified.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/carburateur-ou-injection-carburant-moto-vietnam/ (sibling), /types-motos/rue-inondee-moto-hanoi/, /types-motos/station-essence-hanoi-moto/, /prix-location/location-moto-oil-change-longue-duree-vietnam/. Two external citations (voh.com.vn, baolaocai.vn) rel=noopener.",
+   "AEO_GEO": "Direct answer in lead (4 sentences). 2 tables, 3 checklists + 1 numbered list, FAQ 5 Q&A, 2 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://voh.com.vn/kinh-te/tu-162026-ap-dung-xang-e10-toan-quoc-nhung-chua-khai-tu-e5-654915.html",
+    "checked": "2026-10-30",
+    "used_for": "E10 nationwide from 1 June 2026, E5 not yet withdrawn (seen in search result; headline-level claim)"
+   },
+   {
+    "url": "https://baolaocai.vn/xe-o-to-xe-may-cu-tren-10-nam-can-luu-y-gi-khi-dung-xang-e10-post900115.html",
+    "checked": "2026-10-30",
+    "used_for": "Press advice for vehicles over ten years old regarding E10 (seen in search result; headline-level claim)"
+   }
+  ],
+  "owner_gaps": [
+   "Which fuel the shop recommends for each rented model, last-service data and who pays maintenance on long rentals are unconfirmed."
+  ],
+  "words_after": 1766
+ }
+]

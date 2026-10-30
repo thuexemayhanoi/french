@@ -1,0 +1,74 @@
+[
+ {
+  "path": "yamaha/yamaha-boite-125-hybride-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut la Yamaha GEAR 125 Hybrid (scooter automatique) dans la circulation de Hanoi : maniabilité, stationnement, rangement, pluie",
+  "new_meta": {
+   "title": "Yamaha GEAR 125 Hybride en ville à Hanoi : prise en main",
+   "description": "La Yamaha GEAR 125 Hybride dans Hanoi : scooter automatique, selle à 750 mm, coffre de 17,4 L, assistance hybride. Maniabilité, parking, pluie et vérifications.",
+   "h1": "Yamaha GEAR 125 Hybride en ville : que vaut-elle dans la circulation de Hanoi ?"
+  },
+  "words_before": 1746,
+  "words_after": 2103,
+  "evidence": {
+   "FACTS": "Corrected the vehicle: GEAR 125 Hybrid is an automatic scooter (Yamaha Motor VN xe tay ga), not a retro underbone with a gear lever; removed all invented gearbox, clutch and retro-style content. Specs only from Yamaha Motor Vietnam pages seen in search results (seat 750 mm, 17.4 L, 12-inch wheels, 135 mm, ~95 kg STD, 5.1 L, 1.7 L/100 km, assist up to 3 s, DX idle stop/Smart Key/Y-On, launch April 2026). ABS explicitly not assumed. No price figure for the model; availability phrased as a question to the shop. Storage 37 L Latte / 27 L Grande taken from the Yamaha scooters hub (itself sourced to Yamaha pages). Removed unsourced claims (top case, retro looks, centre stand, hotel parking rules).",
+   "INTENT": "Main question: what is the GEAR 125 Hybrid like to ride and park in Hanoi traffic. Owner of « yamaha GEAR 125 Hybride en ville » (OWNER). Differs from the closest pages (yamaha-latte-hanoi-ville, yamaha-neo-s-hanoi-ville) because it is about this model’s own traits (small wheels, 17.4 L, hybrid assist, DX idle stop) and from yamaha-boite-125-hybride-location-hanoi which covers renting decisions.",
+   "CONTENT": "Full rewrite: removed mannered narrative (« le guidon de Hanoi », « disparaître », « grammaire »), the false gear-lever sections and the generic bilan. New sections: en bref, data table with practical effect, hybrid assist and idle stop, traffic and small wheels, parking, storage, rain, who it suits, handover checklist. FAQ rewritten to 5 non-redundant questions. Words 1746 -> see words_after.",
+   "META": "Title, description, H1 rewritten for the correct vehicle (automatic scooter) and the owner query; og:title and og:description identical to title and description.",
+   "LINKS": "Kept /yamaha/, /types-motos/, /prix-location/ (required) and the sibling /yamaha/yamaha-boite-125-hybride-location-hanoi/; added /yamaha/scooters/, /yamaha/yamaha-latte-hanoi-ville/, /permis-securite/moto-pluie-securite-vietnam/; removed /location-moto-hanoi/. 7/7 unique links incl. parent hub.",
+   "AEO_GEO": "Direct answer in the lead (2-3 sentences). One table of manufacturer data, one checklist, 5 FAQ items, inline citations to two yamaha-motor.com.vn pages."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: seat 750 mm, underseat 17.4 L, front compartment with phone charging port, 5.1 L tank, ground clearance 135 mm, about 95 kg (standard)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: launch 10 April 2026, hybrid assist up to 3 s, 12-inch wheels with 110 mm tyres, two front hooks, DX idle stop, Smart Key and Y-On, 1.7 L/100 km"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop has any GEAR 125 Hybrid in its rental stock and which version (STD or DX)",
+   "Whether the shop rents with a spare key / lock included"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-boite-125-hybride-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer une Yamaha GEAR 125 Hybrid (scooter automatique) à Hanoi : pour quel profil, quelle version, quoi demander et vérifier",
+  "new_meta": {
+   "title": "Yamaha GEAR 125 Hybride en location à Hanoi : pour qui ?",
+   "description": "Louer une Yamaha GEAR 125 Hybride à Hanoi : scooter automatique récent, profils à qui elle convient, version à demander, conditions à clarifier et contrôles.",
+   "h1": "Yamaha GEAR 125 Hybride en location à Hanoi : pour quel profil ?"
+  },
+  "words_before": 1790,
+  "words_after": 1680,
+  "evidence": {
+   "FACTS": "Corrected vehicle type: automatic scooter (Yamaha Motor VN), 125 cm3, hybrid assist up to 3 s, STD vs DX (idle stop, Smart Key, Y-On), seat 750 mm, 17.4 L, ~95 kg, max load ~157-158 kg flagged to confirm. Removed retro underbone/foot-lever claims, « politique du site » and rarity claims. NAP and hours as in SEO-FACTS (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên; 09:00-21:00; 0334 699 969). No price quoted; deposit, documents, inclusions, breakdown/insurance phrased once as points to confirm in writing. Legal: law 36/2024/QH15 in force 1 Jan 2025, 125 cm3 at the upper limit of A1, recognition of foreign licence stated as dependent on situation, pointer to permis guide (no blanket statement).",
+   "INTENT": "Main question: should I rent a GEAR 125 Hybrid in Hanoi, for which profile, what to ask. Owner of « yamaha GEAR 125 Hybride en location à Hanoi ». Differs from the price page (budget logic), the Vision comparison and the city page (riding behaviour).",
+   "CONTENT": "Full rewrite. New sections: model definition (scooter not gearbox), profiles with load figure, STD vs DX table, availability message checklist with confirmed NAP, conditions to confirm, licence/cylindrée, handover checks. Removed the underbone explanation, gear-lever sections and invented stock/rarity statements. FAQ reduced to 5 distinct questions.",
+   "META": "Title kept in form (« … en location à Hanoi : pour qui ? ») and description rewritten for the correct vehicle; H1 kept; og tags identical.",
+   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-boite-125-hybride-hanoi-ville/, /yamaha/yamaha-boite-125-hybride-ou-honda-vision-location/, /yamaha/yamaha-boite-125-hybride-prix-location-hanoi/, /permis-securite/permis/. See check output for final count.",
+   "AEO_GEO": "Direct answer in lead; 2 tables/checklists (STD vs DX table, message checklist, conditions checklist, handover checklist); 5 FAQ; inline citations to two Yamaha Vietnam pages."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: seat 750 mm, 17.4 L, weight about 95 kg, max load about 157-158 kg (STD/DX, figures inconsistent between pages, flagged to confirm)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: launch April 2026, assist up to 3 s, DX idle stop, Smart Key, Y-On"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop has GEAR 125 Hybrid in stock and in which version",
+   "Deposit/guarantee, documents at pick-up, helmet/lock inclusions, breakdown procedure and any insurance (kept as items to confirm, not stated)"
+  ]
+ }
+]

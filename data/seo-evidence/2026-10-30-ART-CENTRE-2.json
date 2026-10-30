@@ -1,0 +1,116 @@
+[
+ {
+  "path": "centre-sud-vietnam/mekong-delta-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser un voyage à moto dans le delta du Mékong (régions, routes, bacs, saison) depuis Saigon.",
+  "words_before": 1895,
+  "words_after": 1899,
+  "new_meta": {
+   "title": "Delta du Mékong à moto : régions, routes, bacs et saison",
+   "description": "Le delta du Mékong à moto depuis Saigon : quelle région choisir, pourquoi l’autoroute est interdite aux motos, comment gérer les bacs et la saison des pluies.",
+   "h1": "Le delta du Mékong à moto : régions, routes et bacs"
+  },
+  "evidence": {
+   "FACTS": "Removed unconfirmed rental claims (« agences sérieuses… casque, contrat écrit et contact d’assistance », « garages… prix doux ») and the unsourced ‘110–125 cm³ suffit’. Kept only hub-verified facts: Cần Thơ ≈170 km from HCMC (VnExpress), expressways closed to motorcycles (law 36/2024/QH15 art. 25, Lao Động), Mỹ Thuận–Cần Thơ expressway and Mỹ Thuận 2 bridge opened 24/12/2023 (Tạp chí Công Thương), Cần Thơ bridge ended ferry waits (Người Quan Sát), rainy season after 5 May to ~November (Pháp Luật TP.HCM), Kiên Giang merged into An Giang in 2025 (Sài Gòn Giải Phóng). Hanoi-rental paragraph aligned with hub: no confirmation a moto rented at Long Biên can leave the North; ask in writing. No price quoted. Licence sentence is generic (nationality/licence/cylindrée), no blanket claim. Ferries: ‘prennent couramment des deux-roues’ with hours/fare to check on site; no ferry fee or schedule stated.",
+   "INTENT": "Main question: how to organise a moto trip in the Mekong Delta. OWNER of ‘le delta du Mékong à moto’. Differs from closest pages (nord-vietnam/ninh-binh-voyage-moto 0.42, bac-kan 0.33) because it is the only regional delta overview; sub-itineraries are delegated to saigon-my-tho-ben-tre, ho-chi-minh-a-can-tho, chau-doc.",
+   "CONTENT": "Fully rewritten: removed mannered/lyrical passages (‘l’enfant saluent… le temps est le vrai luxe’, ‘bonheur’), SEO-process wording (‘guide d’ensemble sert de porte d’entrée’) and repetition. New: zones table, bridges/ferries/expressway section, 5-day circuit table, season table, rental/departure paragraph, practical checklist. Words 1895→1899.",
+   "META": "Title, description, H1 and eyebrow rewritten; og:title/og:description identical to title/description. Title 56 chars, description 158 chars.",
+   "LINKS": "Kept /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/ (required) ; replaced hanoi-a-ho-chi-minh-moto, moto-ho-chi-minh-ville and vietnam-nord-a-sud with delta-specific siblings: saigon-my-tho-ben-tre-itineraire-moto, ho-chi-minh-a-can-tho-moto, chau-doc-voyage-moto. 6/7 unique internal links; parent hub present.",
+   "AEO_GEO": "Lead answers the H1 question directly (3–5 days loop from Saigon, key zones, expressway ban, rainy season). 3 tables, 1 checklist, FAQ with 5 short non-repeating questions. Inline citations to hub-verified sources."
+  },
+  "sources": [
+   {
+    "url": "https://vnexpress.net/goi-y-36-gio-kham-pha-can-tho-dip-tet-4027978.html",
+    "checked": "2026-10-30",
+    "used_for": "Cần Thơ ≈170 km from HCMC (cited as in hub centre-sud-vietnam/index.html)"
+   },
+   {
+    "url": "https://news.laodong.vn/tu-van-phap-luat/quy-dinh-ve-giao-thong-tren-duong-cao-toc-theo-luat-moi-1398493.ldo",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban for motorcycles, art. 25 law 36/2024/QH15 (as in hub)"
+   },
+   {
+    "url": "https://tapchicongthuong.vn/khanh-thanh-cao-toc-my-thuan-can-tho-va-cau-my-thuan-2--rut-ngan-thoi-gian-tu-tp-hcm-di-can-tho-115291.htm",
+    "checked": "2026-10-30",
+    "used_for": "Mỹ Thuận–Cần Thơ expressway and Mỹ Thuận 2 bridge opening 24/12/2023 (as in hub)"
+   },
+   {
+    "url": "https://nguoiquansat.vn/sieu-cau-noi-2-vung-dbscl-ket-thuc-su-menh-nhung-ben-pha-hon-100-nam-tuoi-thong-xe-15-nam-van-nam-giu-ky-luc-dong-nam-a-top-the-gioi-194312.html",
+    "checked": "2026-10-30",
+    "used_for": "Cần Thơ bridge ended long ferry waits (as in hub)"
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-30",
+    "used_for": "start of rainy season in the South (as in hub)"
+   },
+   {
+    "url": "https://www.sggp.org.vn/phu-quoc-chinh-thuc-tro-thanh-dac-khu-mo-canh-cua-van-hoi-moi-post802064.html",
+    "checked": "2026-10-30",
+    "used_for": "Kiên Giang merged into An Giang 2025 (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a moto rented at Long Biên may go to the Mekong Delta / be returned in Saigon (zone, one-way) – already tracked for the Centre/South hub."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/moto-entretien-liste-controle-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que contrôler sur une moto (personnelle ou louée) avant et pendant une longue traversée du Vietnam.",
+  "words_before": 2594,
+  "words_after": 1725,
+  "new_meta": {
+   "title": "Entretien moto avant une traversée du Vietnam : la checklist",
+   "description": "Pneus, freins, chaîne, huile, éclairage, kit de bord : la checklist d’entretien avant une longue traversée du Vietnam à moto, et le tour de contrôle du matin.",
+   "h1": "Entretien d’une moto avant une traversée du Vietnam : la checklist"
+  },
+  "evidence": {
+   "FACTS": "No numeric specs stated (pressions, jeu de chaîne, intervalles renvoyés au manuel/étiquette). Removed ‘le dépôt de caution’ (deposit unconfirmed), ‘assistance’ promises, ‘Certaines locations incluent une assistance ou remboursent…’ and the ‘essai de quartier / checklist photographique vaut procès-verbal’ framing; replaced by questions to ask the loueur, with an explicit statement that nothing published confirms what Thuê xe máy Nguyễn Hà offers for long trips. Fuel remark on the Hồ Chí Minh west branch (stations espacées) matches hub centre/ wording. No price, no legal claim.",
+   "INTENT": "Main question: what to check on the bike before/during a crossing. OWNER ‘entretien moto avant une traversée du Vietnam’. Closest pages: vietnam-voyage-moto-budget-nord-sud (0.27, budget), prix-location/mensuelle-…-entretien-cout (0.25, cost), moto-luggage (0.25, load) – this article keeps mechanical checks only and points to luggage for packing.",
+   "CONTENT": "Rewritten from abstract/mannered prose (‘méthode d’attention’, ‘la checklist apprend à écouter’, ‘le plus beau compliment…’) into a check table (8 points: how/alert), section pneus-freins-chaîne, huile/filtre/carburant, éclairage/batterie, kit de bord list, morning round, rented-bike questions list. Words 2594→1725.",
+   "META": "Title kept (60 chars, natural); description rewritten (158 chars); H1 slightly extended to align with title; og tags identical to title/description.",
+   "LINKS": "Kept /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/ (required). Replaced budget and Hanoi–HCM links by the three most useful siblings for the topic: permis-securite/moto-pneu-controle-voyage-moto-vietnam, moto-frein-controle-location, moto-breakdown-vietnam-location, plus moto-luggage-vietnam-voyage-moto. 7/7 unique internal links; parent hub present.",
+   "AEO_GEO": "Lead gives the order of checks and the rental advice in 3 sentences. 1 table, 2 checklists, FAQ with 5 short non-repeating questions. No external citations (generic mechanical advice, values deferred to manufacturer manual)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Long-trip terms (zone d’usage, réparation en route, assistance, retour) for bikes rented at Long Biên – left as questions to ask."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/moto-ho-chi-minh-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Peut-on conduire à moto à Hô-Chi-Minh-Ville quand on débute, et comment s’y prendre (trafic, stationnement, location, papiers).",
+  "words_before": 1799,
+  "words_after": 1657,
+  "new_meta": {
+   "title": "Hô-Chi-Minh-Ville à moto : conduire pour une première fois",
+   "description": "Conduire à Saigon pour la première fois : programme progressif, réflexes dans le flot, pluie et nuit, stationnement, location et papiers à vérifier.",
+   "h1": "Hô-Chi-Minh-Ville à moto : conduire à Saigon pour une première fois"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced ‘six millions de deux-roues’, ‘l’immense majorité des contrôles se règle en formalité’, ‘les agences… sont les plus sûres: contrat écrit, casque, numéro de contact’, ‘La caution aussi’ (deposit) and ‘contrôles… notamment autour des axes principaux’. Kept hub-verified facts: Southern rainy season from May to ~November, orages/rues inondées at season change (VOH), 2025 merger of Bà Rịa–Vũng Tàu and Bình Dương into HCMC (Thời báo Tài chính Việt Nam), gardé parking with ticket (hub sud/). Emergency numbers 115/113 consistent with site page permis-securite/vietnam-emergency-numbers-moto-touriste (not independently re-sourced). Hanoi-rental sentence: no confirmation a moto rented at Long Biên can be used/returned in Saigon. No price. Licence statement generic (nationalité/permis/cylindrée), sources officielles.",
+   "INTENT": "Main question: can a first-timer ride in Saigon and how. OWNER ‘Ho Chi Minh Ville à moto’. Closest pages hanoi-a-ho-chi-minh-moto (0.42, long route), ho-chi-minh-a-vung-tau (0.36), ho-chi-minh-a-can-tho (0.36) are routes; this page is urban riding/parking/rental in the city and hands off outings to them.",
+   "CONTENT": "Rewritten: 3-step progression table, reflex checklist, rain/night (VOH), getting around + 2025 merger, parking, rental checklist, papers/police, new section on accrochage/panne, outings. Removed poetic traffic metaphors (‘salle d’examen’, ‘fleuve’), ‘grammaire locale’. Words 1799→1657.",
+   "META": "Title, description (148) and H1 rewritten; eyebrow plain; og:title/og:description identical to title/description. Hub spelling (Hô-Chi-Minh-Ville / Saigon) aligned.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added: saigon-moto-1-jour-itineraire, mekong-delta-voyage-moto, ho-chi-minh-a-vung-tau-moto, hanoi-a-ho-chi-minh-moto (replaces vietnam-nord-a-sud). 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead gives direct answer (yes, by steps) in 4 sentences. 1 table, 3 checklists, FAQ 5 questions not repeating body. 2 external citations (VOH, Thời báo Tài chính Việt Nam)."
+  },
+  "sources": [
+   {
+    "url": "https://voh.com.vn/doi-song/mua-chuyen-mua-tphcm-canh-bao-giong-set-va-ngap-bat-ngo-563848.html",
+    "checked": "2026-10-30",
+    "used_for": "orages and sudden flooding at season change in HCMC (as cited in hub sud/)"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/tp-ho-chi-minh-tao-khong-gian-dong-luc-phat-trien-moi-cho-khu-vuc-ba-ria-vung-tau-182702.html",
+    "checked": "2026-10-30",
+    "used_for": "2025 merger of Bà Rịa–Vũng Tàu and Bình Dương into HCMC (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a moto rented in Long Biên can be used/returned in Saigon (zone, one-way)."
+  ]
+ }
+]

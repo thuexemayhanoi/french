@@ -13,8 +13,8 @@ This is a work plan, not a claim that SEO implementation is complete.
 
 | Scope | Status | Count |
 | --- | --- | ---: |
-| URL checkpoints | DONE | 2749 |
-| URL checkpoints | TODO | 3224 |
+| URL checkpoints | DONE | 2840 |
+| URL checkpoints | TODO | 3133 |
 | Sitewide tasks | BLOCKED_TOOL | 2 |
 | Sitewide tasks | DONE | 8 |
 | Sitewide tasks | IN_PROGRESS | 10 |
