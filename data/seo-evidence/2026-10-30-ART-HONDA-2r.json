@@ -238,5 +238,97 @@
    "Whether an ICON e: is in the shop fleet, whether vehicle swap during a rental is possible, and the breakdown/assistance rule for an empty battery.",
    "Caution and insurance for out-of-city use."
   ]
+ },
+ {
+  "path": "honda/honda-icon-e-ou-yamaha-neo-s-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda ICON e: ou Yamaha NEO’S : quel scooter électrique louer à Hanoi en ville (gabarit, autonomie, rangement, prise en main, tarif indicatif) ?",
+  "words_before": 1562,
+  "words_after": 1696,
+  "new_meta": {
+   "title": "Honda ICON e: ou Yamaha NEO’S : que louer à Hanoi en ville ?",
+   "description": "Honda ICON e: ou Yamaha NEO’S pour louer un scooter électrique à Hanoi : gabarit, autonomie, rangement, prise en main, repère de tarif et essai pour trancher.",
+   "h1": "Honda ICON e: ou Yamaha NEO’S : quel scooter électrique louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed the filler comparison (« deux écoles, deux scooters », « l’ICON e: assume un dessin doux ; la NEO’S des traits plus anguleux », « le tarif le plus bas du marché cache parfois les inclus les plus courts ») and the unsourced « l’ICON e: se recharge au logement ... selon le loueur ». Search results (not opened, snippets only) support these qualitative comparisons, kept without figures: both are removable-battery electric scooters (title-level support from a Báo Hà Tĩnh article, URL seen in results); Honda announced about 50 km at launch (Tuổi Trẻ News, seen in results) with later articles higher; the NEO’S is described as having more range, especially with a second battery; Honda and Yamaha both roll out battery-swap at dealers (swap applicability to rented machines explicitly not assumed). No weights, speeds, charge times, battery capacities or purchase prices reproduced (sources disagree and none is the manufacturer). The ICON e: coffre holding a three-quarter helmet is a single press source, flagged as such. Price: neither model has an owner row; only the electric category repère (day « selon le modèle, à confirmer »; week 600 000–800 000; month 1 500 000–1 800 000 VND) with the mandatory disclaimer; stated that it does not mean the models cost the same and that battery/charger inclusion is unknown. Availability, caution, insurance and assistance asked to be confirmed, never stated. Licence FAQ neutral.",
+   "INTENT": "Main question: ICON e: or NEO’S for a city rental in Hanoi? OWNER (angle: general comparison, urban use, comfort, storage, handling, indicative prices). The DISTINCT_ANGLE pages stay distinct: yamaha/yamaha-neo-s-ou-honda-icon-e-location (autonomy and recharge organisation) and types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam (handling by driver profile) are each linked once with a natural anchor and their topics are only summarised here; closest page honda-cuv-e-ou-yamaha-neo-s-location (0.75) concerns the larger CUV e:.",
+   "CONTENT": "Full rewrite. Removed the process-talk (« Comment lire ce duel », « la méthode tient en trois temps », « la marque suit l’usage ; l’exemplaire suit la décision ; le contrat signe la fin du duel »). New: qualitative comparison table, common points with citation, differences (range/battery, gabarit/weight, swap stations), situation-to-scooter table, urban use (storage, comfort, passenger), price repère table, side-by-side test checklist, FAQ rewritten to 5 Q&As. 1562 -> 1696 words.",
+   "META": "Title 'que louer à Hanoi en ville ?' (60 chars); description rewritten 166 -> 158 chars; H1 kept (identical to the anchor used by the Honda electric hub); eyebrow simplified; og tags synced.",
+   "LINKS": "7/7 unique internal links: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/electriques/, /honda/honda-icon-e-location-hanoi/, /yamaha/yamaha-neo-s-ou-honda-icon-e-location/, /types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam/. Dropped /yamaha/ and /types-motos/electrique-scooter-recharge-hanoi/ in favour of the two sibling angle pages.",
+   "AEO_GEO": "Lead gives the verdict and deciding criteria in 3 sentences; comparison table right after; 3 tables (comparison, situations, price repère), 1 checklist (side-by-side test); FAQ 5 questions; 1 external citation (Báo Hà Tĩnh, rel=noopener, seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://baohatinh.vn/tv/loat-xe-may-dien-pin-thao-roi-nam-2026-giai-phap-sac-linh-hoat-cho-cu-dan-do-thi-40099.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title/snippet only, page not opened): removable-battery electric scooters of 2026; used only for the general statement that the ICON e: and NEO’S are removable-battery models"
+   },
+   {
+    "url": "https://tuoitrenews.vn/news/business/20250329/honda-vietnam-rolls-out-1st-electric-motorcycle/85588.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (snippet only): Honda's 50 km test range at launch, battery leased monthly"
+   }
+  ],
+  "owner_gaps": [
+   "Whether an ICON e: and/or a NEO’S are in the shop fleet, their own rates, and whether battery, charger and recharging are included.",
+   "Battery configuration (one or two batteries) of the NEO’S if offered."
+  ]
+ },
+ {
+  "path": "honda/honda-icon-e-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Location du Honda ICON e: : quel repère de prix et quelle formule (jour, semaine, mois), et quels coûts faire préciser pour un scooter électrique ?",
+  "words_before": 1576,
+  "words_after": 1542,
+  "new_meta": {
+   "title": "Louer un Honda ICON e: à Hanoi : jour, semaine ou mois ?",
+   "description": "Honda ICON e: à Hanoi : repère de prix des scooters électriques, formule jour, semaine ou mois, coûts à faire préciser (batterie, recharge) avant de réserver.",
+   "h1": "Location du Honda ICON e: : jour, semaine ou mois ?"
+  },
+  "evidence": {
+   "FACTS": "The old page said « sans publier de chiffre » and asserted an unsupported price ladder (« au-dessus des semi-automatiques de tous les jours », « le tarif ramené au jour est le plus élevé de la grille, en tendance », « plus la catégorie monte, plus l’écart pèse »). That claim is contradicted by the owner table, so it was removed: the page now shows the electric category repère (day « selon le modèle, à confirmer »; week 600 000–800 000; month 1 500 000–1 800 000 VND) next to the Vision (200 000 / 1 000 000 / 2 000 000) and Air Blade (200 000 / 900 000 / 1 500 000) own rows, with the mandatory disclaimer, and states what can be read from them (electric week range below both petrol rows, month range comparable to the Air Blade and below the Vision) while stressing that it is not like-for-like (ICON e: has no row, battery/charger/recharge inclusion unknown, daily electric price unpublished). No multiplication, no derived packages. Battery leased monthly at launch (Tuổi Trẻ News, 29 mars 2025, URL seen in search results, snippet only), with 'la formule appliquée dépend du propriétaire'. Kilométrage, dépôt, assistance and rental-day counting asked, not stated. NAP phone/hours used.",
+   "INTENT": "Main question: which formula and price reference for an ICON e: rental in Hanoi? OWNER of « location du Honda ICON e: ». Differs from honda-winner-x-prix-location-hanoi (0.80 similarity), honda-air-blade-160-prix-location-hanoi and honda-vision-prix-location-hanoi (other models/rows) by the electric category repère, the missing daily price and the battery/recharge cost items; who-for stays in honda-icon-e-location-hanoi (linked).",
+   "CONTENT": "Full rewrite. Removed the abstract sections (« Où se situe l’ICON e: dans l’échelle des tarifs », « Où se joue la bascule », « C’est le sens de toute cette méthode »). New: price repère table with the two own-row models and an honest reading, duration-to-formula table, checklist of extra costs for an electric, day/week/month paragraphs with concrete questions (how a day is counted vs 09h00–21h00, nightly recharge, battery état for a month), blank comparison grid for two offers, pre-booking paragraph, FAQ rewritten to 5 Q&As. 1576 -> 1542 words.",
+   "META": "Title rewritten around the real question and aligned with the sibling price page style (56 chars, no 'montant'/'prix exact'); description rewritten 160 -> 158 chars; H1 shortened to « Location du Honda ICON e: : jour, semaine ou mois ? »; eyebrow plain; og tags synced.",
+   "LINKS": "7/7 unique internal links: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/electriques/, /honda/honda-icon-e-location-hanoi/, /location-moto-hanoi/longue-duree/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/. Dropped types-motos/electrique-scooter-recharge-hanoi/ in favour of the sibling who-for guide.",
+   "AEO_GEO": "Lead gives the price reference and the choice rule in 2 sentences; 3 tables (prices, duration vs formula, comparison grid), 1 checklist (extra costs); FAQ 5 questions; 1 external citation (Tuổi Trẻ News, rel=noopener, seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://tuoitrenews.vn/news/business/20250329/honda-vietnam-rolls-out-1st-electric-motorcycle/85588.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (snippet only, page not opened): battery leased monthly rather than sold with the ICON e: at launch"
+   }
+  ],
+  "owner_gaps": [
+   "Own day/week/month rate for the ICON e: and whether battery, charger and recharging are included.",
+   "How a rental day is counted, early-return/refund and extra-day rules, battery replacement rule for monthly rentals, caution/insurance/assistance."
+  ]
+ },
+ {
+  "path": "honda/honda-lead-abs-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda Lead ABS dans les rues de Hanoi : gabarit, rangement, freinage ABS ou combiné, duo, pluie, limites.",
+  "words_before": 1606,
+  "words_after": 1783,
+  "new_meta": {
+   "title": "Honda Lead ABS dans les rues de Hanoi : atouts et limites",
+   "description": "Honda Lead ABS dans la circulation de Hanoi : plancher plat, grand coffre, freinage ABS ou combiné, duo, pluie et points à contrôler avant de louer.",
+   "h1": "Le Honda Lead ABS dans les rues de Hanoi : atouts et limites"
+  },
+  "evidence": {
+   "FACTS": "The old copy presented the ABS as a given on the rented machine (« Le dispositif d’aide au freinage du Lead ABS agit précisément dans ces fractions de seconde »). A search result (press/blog snippets, not the manufacturer) states that on recent Lead models only the top version has ABS and the others use CBS, so the page now says: version to check, témoin at start-up, ask the loueur, and 'd’après la presse vietnamienne' for the version split. Storage: sources cite about 37 litres on the Lead 125 with two full-face helmets (consistent with the Honda scooters hub), phrased 'des sources vietnamiennes citent ... à vérifier sur la machine'; no seat height or other specs. Removed the unsupported « mélangent les versions », « la pratique du duo reste courante localement » lyricism and the 'Aucun horaire ne se promet' process talk. Price: no own owner row for the Lead, so only the automatic-scooter category repère (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) « à titre de repère », with the Vision (200 000 / 1 000 000 / 2 000 000) and Air Blade (200 000 / 900 000 / 1 500 000) own rows and the mandatory disclaimer; explicit that the range does not guarantee that a larger/better-equipped model falls inside it (same wording logic as the Honda scooters hub). Availability, caution, insurance and assistance asked to be confirmed once. NAP phone/hours used.",
+   "INTENT": "Main question: how does the Lead ABS behave in Hanoi streets? OWNER of « le Honda Lead ABS dans les rues de Hanoi ». Differs from honda-icon-e-hanoi-ville (0.55, electric), honda-vario-125-hanoi-ville and honda-sh125i-hanoi-ville (other models) by the ABS/CBS question, storage and two-up use; rental suitability and price stay in honda-lead-abs-location-hanoi (linked) and honda-lead-abs-prix-location-hanoi.",
+   "CONTENT": "Full rewrite. Removed mannered prose (« le terrain n’est ni hostile ni neutre », « une machine qui disparaît sous son conducteur », « le conducteur qui le considère comme un permis de rouler vite a mal lu la physique », « Le bilan final tient en une image »). New: qualitative table, ABS vs CBS section with how to recognise the version, size/parking, storage, two-up, rain, beginner approach, price repère table, inspection checklist, FAQ rewritten to 4 non-repeating Q&As (beginner, ABS on all versions, size, two-up). 1606 -> 1783 words.",
+   "META": "Title shortened to 57 chars and made plainer; description rewritten (148 chars, factual); H1 kept essentially (« atouts et limites »); eyebrow shortened; og tags synced.",
+   "LINKS": "7/7 unique internal links: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-lead-abs-location-hanoi/, /honda/scooters/, /types-motos/abs-ou-cbs-scooter-vietnam-location/, /location-moto-hanoi/debutant-location-moto-hanoi/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ and /honda/honda-vision-hanoi-ville/ (the Vision comparison is now carried by the table and the scooters sub-hub).",
+   "AEO_GEO": "Lead gives the answer (practical city scooter; ABS depends on version) in 3 sentences; qualitative table right after; 2 tables (qualitative, price repère), 1 checklist (inspection); FAQ 4 questions; no external citations (press statements marked as press-reported)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether a Lead ABS is in the shop fleet, which version (ABS or CBS), and its own rate.",
+   "Caution, insurance and breakdown assistance."
+  ]
  }
 ]

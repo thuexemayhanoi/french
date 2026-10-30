@@ -126,14 +126,14 @@
   "role": "OWNER",
   "primary_intent": "Air Blade ou Vario : quel scooter sportif Honda louer à Hanoi ?",
   "words_before": 1669,
-  "words_after": 1770,
+  "words_after": 1772,
   "new_meta": {
    "description": "Honda Air Blade ou Vario à Hanoi : version 125 ou 160 cm³, permis A1 ou A, freinage CBS ou ABS, tarif de référence et essai à faire avant de choisir."
   },
   "evidence": {
    "FACTS": "Removed all unsourced character claims about each model ('réputation', 'assise ferme', 'modèle qui circule en nombre, entretenu partout', 'loueurs l'intègrent dans leurs flottes récentes') and the contract/zone/assistance/caution talk. No power, weight, dimension or seat figure stated (manufacturer sheet honda.com.vn named as the place to check, per model year). Sourced statements: Air Blade 2022 offered as 125 cm3 (CBS) and 160 cm3 (single-channel ABS) per vinamr.com.vn (seen in search result 2026-10-29, press, flagged to verify); Air Blade 160 shares platform and powertrain with Vario 160 per rushlane.com (seen in search result 2026-10-29, press, title-level claim only); A1 <=125 cm3 or 11 kW / A above under Law 36/2024/QH15 (in force 1 Jan 2025) per hcc.nghean.gov.vn summary (seen in search result 2026-10-29, secondary source), with the reminder that the visitor's own licence depends on country/category/IDP and a pointer to /permis-securite/. Prices from the owner table only: Air Blade 200 000 / 900 000 / 1 500 000 VND (stated that the owner row does not distinguish 125 and 160); no Vario row, so only the automatic-scooter category range (150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND) 'à titre de repère', with the mandatory disclaimer and the statement that availability is not implied. Vario's versions and braking given as 'selon les marchés et les années : à vérifier'. Content consistent with /honda/honda-air-blade-125-location-hanoi/ (160 launched 2022, 125 kept) and /types-motos/scooter-automatique/.",
    "INTENT": "Main question: Air Blade or Vario for a rental in Hanoi. Owner (own URL). Distinct from /prix-location/air-blade-ou-nvx-cout-location-hanoi/ (cost, Air Blade vs NVX) and /honda/honda-air-blade-125-ou-yamaha-nvx-location/ and /yamaha/yamaha-nvx-ou-honda-air-blade-160-location/ (versus the Yamaha NVX) because this page compares the two Honda models only and focuses on version/permit/braking/test; it links to the Air Blade 125 and Vario 125 model pages for details.",
-   "CONTENT": "Full rewrite of mannered prose ('deux façons très Honda', 'la sportivité au quotidien', 'la modernité affirmée', 'la grille du comptoir', 'assurance'). New: comparison table; same-family section with the two press-sourced facts; 125 vs 160 and permit (sourced); braking; Hanoi traffic (Long Biên bridges, Old Quarter, rain); choice by stay profile (checklist); price table; 10-minute comparative test; 5 FAQ. Words 1669 -> 1770.",
+   "CONTENT": "Full rewrite of mannered prose ('deux façons très Honda', 'la sportivité au quotidien', 'la modernité affirmée', 'la grille du comptoir', 'assurance'). New: comparison table; same-family section with the two press-sourced facts; 125 vs 160 and permit (sourced); braking; Hanoi traffic (Long Biên bridges, Old Quarter, rain); choice by stay profile (checklist); price table; 10-minute comparative test; 5 FAQ. Words 1669 -> 1772.",
    "META": "Title and H1 kept (54 chars, matches the hub anchor). Description rewritten (149 chars, factual, lists what is actually covered). og tags identical to title/description. Eyebrow 'Scooters · Honda'.",
    "LINKS": "7/7 unique internal links in main: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/scooter-automatique/, /types-motos/abs-ou-cbs-scooter-vietnam-location/, /honda/honda-air-blade-125-location-hanoi/, /honda/honda-vario-125-location-hanoi/. The original link to automatique-ou-semi-automatique-moto-vietnam was dropped (not relevant to the comparison). No broken link per checker.",
    "AEO_GEO": "Direct answer in lead (3 sentences) plus a comparison table right after the TOC; 5 FAQ with distinct answers; 2 checklists; 3 inline citations seen in search results (vinamr.com.vn, rushlane.com, hcc.nghean.gov.vn)."
@@ -246,6 +246,41 @@
   "owner_gaps": [
    "Availability of automatic or semi-automatic models for given dates is unconfirmed.",
    "Whether the shop gives a short riding briefing to first-time semi-automatic users is unconfirmed (the page only suggests asking for a demonstration)."
+  ]
+ },
+ {
+  "path": "types-motos/batterie-swap-ou-plug-a-electrique-scooter-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Échange de batterie ou recharge par prise : quel système pour un scooter électrique de location au Vietnam ?",
+  "words_before": 2099,
+  "words_after": 1567,
+  "new_meta": {
+   "description": "Scooter électrique de location : échange de batterie ou recharge sur prise ? Fonctionnement, limites, exemple Honda et questions à poser avant de réserver."
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced generalities presented as fact in the old text ('au Vietnam, ce modèle s'est développé autour de réseaux qui déploient des stations dans les grandes villes et le long de certains axes', 'le kilowattheure domestique coûte moins cher qu'un échange', 'les batteries tournent, se testent, se retirent de la circulation', 'le contrat d'assistance', 'remorquage, rapatriement'). Sourced example: Honda plans swap cabinets at its authorised dealers (HEAD) selling electric bikes, findable through MyHonda+ or the Honda Vietnam site, cited to baodautu.vn (seen in search result 2026-10-29; the results gave no Hanoi location list or count, said so, reader told to check the map and not to assume the rented model uses that network). Hanoi apartment-building restriction: only 'la presse a rapporté qu'une commune de Hanoi demandait à l'investisseur d'un immeuble de lever une interdiction concernant les véhicules électriques' (laodong.vn, title/slug seen in search result 2026-10-29), used to justify asking the accommodation. No charge duration, range, battery capacity, swap price or station count stated. Price: electric row from the owner table (day 'selon le modèle, à confirmer'; week 600 000-800 000; month 1 500 000-1 800 000 VND) with the mandatory disclaimer and 'ne le déduisez pas'; recharge/swap inclusion and availability explicitly unconfirmed. Whether the shop rents swap-capable or plug-in models, assistance when the battery is flat, and recharge costs are unconfirmed and turned into questions to ask once (checklist). Licence: 'dépend de la puissance du moteur' (as /types-motos/electrique/), no category figure restated.",
+   "INTENT": "Main question: swap vs plug charging for an electric rental scooter. Owner (own URL). Distinct from /types-motos/removable-batterie-scooter-vietnam-hotel-recharge/ (charging a removable battery in the hotel room) and /types-motos/electrique-scooter-recharge-hanoi/ (daily charging management and trips) and /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/ (cost) because this page compares the three energy systems, gives the Honda swap example and the questions to ask; it links to those three for their angles.",
+   "CONTENT": "Full rewrite of mannered prose ('deux écoles', 'plein d'électrons', 'la logique de la station/de la pause', 'chimère', 'noir sur blanc'). New: 3-system comparison table; swap section with sourced Honda example and limits; plug section (fixed vs removable battery, ask the accommodation); traveller viewpoint (Long Biên, day trips); 5-question checklist; battery safety checklist; indicative price row; licence pointer; 5 FAQ. Words 2099 -> 1567 (removed repetition and speculative statements, replaced by concrete checks).",
+   "META": "Title and H1 kept (54 chars). Description rewritten (155 chars): factual, mentions the Honda example the page actually contains. og tags identical to title/description. Eyebrow 'Électrique · échange ou prise'.",
+   "LINKS": "7/7 unique internal links in main: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/removable-batterie-scooter-vietnam-hotel-recharge/, /types-motos/electrique-scooter-recharge-hanoi/, /prix-location/electrique-scooter-recharge-cout-ou-essence-vietnam/ (all three kept), /types-motos/electrique/ (new, type page). No broken link per checker.",
+   "AEO_GEO": "Direct answer in the lead (3 sentences) plus a comparison table right after the TOC; 5 FAQ distinct from the body; 2 tables (comparison, price) and 2 checklists; 2 inline citations seen in search results (baodautu.vn, laodong.vn)."
+  },
+  "sources": [
+   {
+    "url": "https://baodautu.vn/tu-doi-pin-xe-may-dien-cua-honda-viet-nam-duoc-dat-tai-cac-head-ban-xe-dien-d458433.html",
+    "checked": "2026-10-29",
+    "used_for": "Honda Vietnam swap cabinets planned at authorised dealers (HEAD) selling electric motorbikes, locatable via MyHonda+ or Honda Vietnam website (title + aggregated snippet seen in search result; no Hanoi list found)"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/phuong-o-ha-noi-yeu-cau-chu-dau-tu-to-hop-chung-cu-go-lenh-cam-gui-xe-dien-1619919.ldo",
+    "checked": "2026-10-29",
+    "used_for": "Reported case in Hanoi of an apartment complex with a restriction on electric vehicles; used only to justify asking the accommodation (title/slug seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop rents electric models, which battery system they use (fixed, removable, swap) and whether recharge/swap is included are unconfirmed.",
+   "Procedure and cost if the battery runs flat away from a charging point are unconfirmed.",
+   "Honda swap-cabinet locations in Hanoi not found in the results; to check on MyHonda+ / Honda Vietnam."
   ]
  }
 ]

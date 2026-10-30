@@ -207,5 +207,255 @@
   "owner_gaps": [
    "Weekly price for the exact model, deposit, insurance, breakdown and overnight/out-of-Hanoi use unconfirmed."
   ]
+ },
+ {
+  "path": "hanoi/hanoi-a-ba-vi-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller à Ba Vì à moto depuis Hanoi en une journée : distance, route, entrée du parc, montée en lacets, temple, météo, deux-roues adapté.",
+  "words_before": 1929,
+  "words_after": 1683,
+  "new_meta": {
+   "title": "Ba Vì à moto depuis Hanoi : parc, lacets et temple en une journée",
+   "description": "Ba Vì à moto depuis Hanoi : distance indicative, route par Sơn Tây, entrée du parc, lacets, temple du sommet, brume, deux-roues adapté et retour avant la nuit.",
+   "h1": "Ba Vì à moto depuis Hanoi : le parc national en une journée"
+  },
+  "evidence": {
+   "FACTS": "Removed mannered/invented content: « une grosse heure de centre au pied de la montagne », « la route de la plaine… marchés de bord de route », « vaches du parc paissent au bord de la chaussée », « vestiges du temple qui couronne la crête / pierres noircies », « la règle du site », « aucun tarif ne se fixe ici, par discipline », « guidon verrouillé, casque laissé au guidon selon les habitudes du lieu ». Distances: 50–65 km depending on start/entrance, ~60 km per most guides (seen in search result 2026-10-30: Wikipedia-derived entry 48 km, bikemap ~50 km via Sơn Tây, vietjetair/others ~60 km, Lonely Planet ~65 km; hub says ~60 km). Tản Viên peak ~1,226–1,227 m (seen in search result: vietnamtravel.com 1,226 m, vinpearl/legendtravel 1,227 m). Entrance fee: 60 000 VND best documented (Ministry of Finance circular 2016, LawNet, also Vietnam Airlines) vs 15 000–30 000 VND in other guides (VnExpress 30 000, LocalVietnam 15 000) — presented as conflicting, to confirm at the gate; opening hours said to vary (seen in search result: 8–16 vs 5–19). Temple steps: guides range from ~500 to more than a thousand (Lonely Planet >1,000 per hub; most others ~500) — presented as a range. Colonial-era retreat and old French church « selon les guides » (seen in search result). Thượng temple honouring Tản Viên mountain spirit « selon la tradition »; Hô Chi Minh temple near another summit (park photo caption in search result). Dairy reputation (VnExpress ‘Ba Vì, the land of milk and nature’ headline, seen in search result). Lonely Planet warning about confusion with Ba Vì town attractions (hub + search). Expressway ban with Feb 2026 VOV case; Thăng Long avenue central lanes (per hub). Shop facts only: 09:00–21:00, Long Biên; consequence for a long outing stated explicitly, retrait la veille phrased as a question. Price: owner range 150 000–200 000 VND/day with disclaimer. 50cc struggling on long climbs stated as caution consistent with the hub table. Deposit/insurance/out-of-Hanoi use/breakdown phrased as points to confirm.",
+   "INTENT": "Main question: how to do Ba Vì by motorbike from Hanoi in a day and whether it suits you. Owner = /hanoi/hanoi-a-ba-vi-moto/. Differs from /hanoi/hanoi-a-duong-lam-moto/ (flat village trip on national roads) and /hanoi/excursions-moto/ (comparison of all destinations) by treating the mountain road, park entry and descent technique specifically.",
+   "CONTENT": "Entire article rewritten: Ba Vì-in-brief table, trajet + rules checklist, park entrance (fees/hours conflict), montée (lacets, brume, frein moteur), sommet, retour, organisation autour des horaires du point de retrait (+ packing checklist), moto/budget, 5 FAQ. 1929→1683 words.",
+   "META": "Title/description/H1 rewritten (old description 169 chars); og tags synced; description 159 chars.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-duong-lam-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/, /types-motos/meilleur-moto-montagne-routes-vietnam/.",
+   "AEO_GEO": "Direct answer in lead; facts table; two checklists; 5 FAQ; one external citation (LawNet) with link."
+  },
+  "sources": [
+   {
+    "url": "https://lawnet.vn/thong-tin-phap-luat/en/chinh-sach-moi/from-2017-the-entrance-fee-for-ba-vi-national-park-reaches-a-maximum-of-60-000-vnd-164522.html",
+    "checked": "2026-10-30",
+    "used_for": "Ba Vì national park entrance fee up to 60 000 VND (seen in search result; other guides differ)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/vietnam/attractions/ba-vi-national-park/a/poi-sig/1142333/1316122",
+    "checked": "2026-10-30",
+    "used_for": "Confusion park vs Ba Vì town attractions; ~65 km; temple steps (seen in search result)"
+   },
+   {
+    "url": "https://vietnamtravel.com/ba-vi-national-park",
+    "checked": "2026-10-30",
+    "used_for": "Tản Viên peak 1,226 m (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Retrait la veille, out-of-Hanoi use, deposit, insurance and breakdown procedure unconfirmed (phrased as questions)."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-a-bat-trang-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller à Bát Tràng à moto depuis Hanoi/Long Biên et organiser la demi-journée : trajet, village, musée, marché, essai du tour, achats à porter en scooter.",
+  "words_before": 1991,
+  "words_after": 1582,
+  "new_meta": {
+   "title": "Bát Tràng à moto depuis Hanoi : le village de céramique",
+   "description": "Bát Tràng à moto depuis Long Biên : 13 à 15 km, ateliers, musée, marché, essai du tour de potier, achats à porter en scooter, parking et horaires à prévoir.",
+   "h1": "Bát Tràng à moto : le village de céramique en demi-journée"
+  },
+  "evidence": {
+   "FACTS": "Removed invented/mannered content: « sortie qui résume l'usage le plus juste de la deux-roues hanoienne », « bien moins d'une heure de centre à village », « variante par les routes de quartier de la rive gauche qui rallongent la sortie d'un tiers », « les parkings gardent les deux-roues contre une pièce modique », « aucun tarif ne se fixe ici, par discipline », firing/decoration descriptions without source, « tasse de Bát Tràng qui sert le thé du soir ». Facts from search results 2026-10-30 (vietnamtourism.com, localvietnam, hanoivoyage, vietnamtrips, vietjetair, agoda listings): 13–15 km from centre (same figure as hanoi/excursions-moto/), village entry free, ceramics museum about 60 000 VND (one guide), pottery-wheel classes 30 000–70 000 VND per person (one guide, ~50 000 in another) rendered qualitatively as « quelques dizaines de milliers de dông », ~4 hours with a class and advice to arrange classes in advance (one guide), most shops cash-only, bargaining expected, weekday mornings calmer, bus 47A from the Long Biên transit point (several guides; fare range 7 000–10 000 VND rendered as « quelques milliers de dông »). Same-bank logic and Ecopark reachable without crossing the river come from hanoi/ hub and hanoi/excursions-moto/. Long Biên bridge reopening 28 May 2026 and Chương Dương alternative: per hubs. Shop facts: NAP, hours 09:00–21:00 only. Price: owner range 150 000–200 000 VND/day with disclaimer. Shipping of purchases, deposit, insurance, out-of-centre use, breakdown phrased as questions to ask. Review flags (refund_payment, fleet_promise, money_not_in_owner_table) concern third-party guide statements about cash-only shops, class prices and class availability.",
+   "INTENT": "Main question: how to do Bát Tràng by motorbike and what to expect. Owner = /hanoi/hanoi-a-bat-trang-moto/. Differs from /hanoi/red-river-hanoi-itineraire-moto/ (river/dyke route Long Biên–Bát Tràng–islands) and /hanoi/hanoi-ecopark-moto/ (landscaped district, no craft) by covering the village visit, market and workshop practicalities.",
+   "CONTENT": "Entire article rewritten: facts table, trajet depuis Long Biên, village (workshops, kilns, museum), marché et achats (checklist), essai du tour, demi-journée dans l'ordre (ordered list), combiner, moto/budget, 5 FAQ. 1991→1582 words.",
+   "META": "Title shortened and made specific (old title 52 chars, description 162); new description 156 chars; H1 kept close to the old one; og tags synced.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/red-river-hanoi-itineraire-moto/, /hanoi/hanoi-ecopark-moto/, /hanoi/unique-que-faire-hanoi/ (kept from the old page). Removed /hanoi/que-faire-hanoi-vieux-quartier/ (cap).",
+   "AEO_GEO": "Direct answer in lead; facts table; purchases checklist; ordered half-day plan; 5 FAQ; one external citation (Vietnam Tourism) with link."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamtourism.com/en/bat-trang-hanoi-s-centuries-old-ceramic-village",
+    "checked": "2026-10-30",
+    "used_for": "General Bát Tràng guide (seen in search result)"
+   },
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "13–15 km from centre (seen in search result; same as hub)"
+   },
+   {
+    "url": "https://localvietnam.com/blog/bat-trang-ceramic-village/",
+    "checked": "2026-10-30",
+    "used_for": "Highlights, practical tips (seen in search result; not linked)"
+   }
+  ],
+  "owner_gaps": [
+   "Shipping of purchases, workshop prices and out-of-centre use of the rental bike are not confirmed by the shop (phrased as questions)."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-a-duong-lam-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller à Đường Lâm (Duong Lam) à moto depuis Hanoi en une journée : distance, route, ce qu'on visite, entrée, saison, règles de conduite.",
+  "words_before": 1667,
+  "words_after": 1574,
+  "new_meta": {
+   "title": "Đường Lâm à moto depuis Hanoi : le village ancien en une journée",
+   "description": "Đường Lâm (Duong Lam) à moto depuis Hanoi : 40 à 44 km à l’ouest, maisons de latérite, porte de Mông Phụ, pagode Mía, route, entrée payante, saisons.",
+   "h1": "Đường Lâm à moto depuis Hanoi : village ancien, journée à l’ouest"
+  },
+  "evidence": {
+   "FACTS": "Corrected the old « cinquantaine de kilomètres » and « une heure et demie de route dans chaque sens » (unsourced driving time) to 40–44 km (Hanoi Times 40 km, VietNamNet 44 km, same range as hanoi/excursions-moto/) with no travel time. Removed « la région est sûre », « ramassage de grands-mères qui fendent des bambous », « les saveurs franches », payment-method claims (« paiement électronique aléatoire à la campagne »), unsourced « variante par les digues, selon les autorisations locales » now phrased as unreliable. Sites from search result 2026-10-30 (Wikipedia: Mía Pagoda, Mông Phụ communal house, Phùng Hưng temple, Ngô Quyền mausoleum, village gate in Mông Phụ; spring March–April and autumn September–November best); first village recognised as national relic (VietNamNet, per hub); entrance fee: one tour operator note of 50 000 VND flagged as not official (seen in search result); hamlets Mông Phụ, Đông Sàng, Cam Thịnh kept from old page (also in Wikipedia/common sources). Phùng Hưng 8th-century revolt and Ngô Quyền victory at Bạch Đằng in 938 stated as general historical knowledge. Honeycomb laterite « pierre d'abeille » stated as common description. Expressway ban with Feb 2026 VOV case, Thăng Long avenue central lanes: per hub. Local specialities listed as « citées par les guides » (old page), no prices. Shop facts: NAP, 09:00–21:00 only; early pick-up phrased as a question. Price: owner range 150 000–200 000 VND/day with disclaimer. Deposit, insurance, out-of-Hanoi use, breakdown phrased as points to confirm.",
+   "INTENT": "Main question: how to do Đường Lâm by motorbike in a day. Owner = /hanoi/hanoi-a-duong-lam-moto/. Differs from /hanoi/hanoi-a-ba-vi-moto/ (mountain road, park, descent) and /hanoi/hanoi-a-bat-trang-moto/ (east-bank craft village) by being the flat western village trip on busy national roads.",
+   "CONTENT": "Entire article rewritten: facts table, ce qu'on visite, deux figures historiques + savoir-vivre checklist, route et règles (checklist), journée dans l'ordre (ordered list + horaires), quand y aller, moto/budget, 5 FAQ. 1667→1574 words.",
+   "META": "Title now carries both spellings (Đường Lâm / Duong Lam in description) and the 40–44 km fact; old description 153 chars replaced by 149-char one; H1 changed; og tags synced.",
+   "LINKS": "6/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-ba-vi-moto/, /hanoi/hanoi-a-bat-trang-moto/. Removed /hanoi/jour-voyages-de-hanoi-by-moto/.",
+   "AEO_GEO": "Direct answer in lead; facts table; savoir-vivre and route checklists; ordered day plan; 5 FAQ; citations VietNamNet, Wikipedia, VOV with links."
+  },
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m_Ancient_Village",
+    "checked": "2026-10-30",
+    "used_for": "Sites and best seasons (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/duong-lam-first-vietnamese-ancient-village-to-become-national-relic-712606.html",
+    "checked": "2026-10-30",
+    "used_for": "First village recognised as national relic; 44 km (seen in hub evidence)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Expressway ban enforcement Feb 2026 (seen in hub evidence)"
+   }
+  ],
+  "owner_gaps": [
+   "Official Đường Lâm entrance fee, early pick-up, deposit, insurance, out-of-Hanoi use and breakdown procedure unconfirmed."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-cafes-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment faire une route des cafés de Hanoi à moto : quelles haltes, dans quel ordre, avec quels parkings et horaires, sans conduire après avoir bu.",
+  "words_before": 1947,
+  "words_after": 1683,
+  "new_meta": {
+   "title": "Route des cafés de Hanoi à moto : quatre haltes, ville et lacs",
+   "description": "Route des cafés à moto à Hanoi : café à l’œuf dans le Vieux Quartier, chaussée Thanh Niên, lac de l’Ouest au couchant, parkings et horaires à vérifier.",
+   "h1": "Route des cafés de Hanoi à moto : quatre haltes, du Vieux Quartier au lac"
+  },
+  "evidence": {
+   "FACTS": "Replaced an article that deliberately named no address (« aucune adresse inventée, aucun horaire promis », « dix minutes de route entre chaque tasse », « trois kilomètres de vieux quartier aux lacs », « discipline du site ») with a route built on search-verified places (2026-10-30): café Phố Cổ at 11 Hàng Gai, entrance through a silk shop then corridor/courtyard/staircase, rooftop view of Hoàn Kiếm, hours listed from 7 or 8 am to 10 or 11 pm, egg coffee ~40 000–50 000 VND per listings, advice to come before 9 am (seen in search result: localvietnam, atlasobscura, mapstr, theculturetrip), Vietnamese robusta with phin (seen in search result); egg coffee origin: bartender Nguyễn Văn Giảng, Metropole, 1946 milk shortage, records contested, café Giảng « souvent cité comme l'origine » (seen in search result: Vietnam News, seasia.co, hanoitimes); café Đinh at 13 Đinh Tiên Hoàng, upstairs, no signboard, family link from a single report (seen in search result); Thanh Niên causeway the only road between West Lake and Trúc Bạch lake, sunset hotspot, Highlands Coffee at 28 Thanh Niên opposite Trấn Quốc pagoda open ~7:00–23:00 per a review, Cộng cà phê known for coconut coffee with branches at Trúc Bạch and Tây Hồ (seen in search result: hanoitimes, trvlogue, vietnamairlines, gtrip). West Lake loop 15–18 km « selon les sources »; Trấn Quốc oldest pagoda on a peninsula; weekend pedestrian rules; LEZ pilot from 1 July 2026; seasons: per hubs. Egg-coffee prices are third-party guide figures flagged « à vérifier » (review flag money_not_in_owner_table covers the Park-price-like figure; owner price used only for the moto: 150 000–200 000 VND/day with disclaimer). Shop facts: 09:00–21:00 only. Deposit, insurance, permit phrased as points to confirm.",
+   "INTENT": "Main question: how to do a café route in Hanoi by scooter. Owner = /hanoi/hanoi-cafes-itineraire-moto/. Differs from /hanoi/hanoi-cafes-quartiers-scooter/ (neighbourhood-by-neighbourhood guide with drinks vocabulary and parking per district) and /hanoi/hanoi-food-itineraire-moto/ (food, closest by similarity 0.25) by giving one ordered four-stop loop with timing around pickup/return hours.",
+   "CONTENT": "Entire article rewritten: parcours table, four haltes (one H2 each), adapter la route (short/long/rain), conduite + moto/budget, 5 FAQ. Removed the repeated « discipline du site » and abstract « une ville bue plus que visitée » passages. 1947→1683 words.",
+   "META": "Title/description/H1 rewritten (old title 61 chars, description 173); og tags synced.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/west-lac-hanoi-moto/, /hanoi/hanoi-cafes-quartiers-scooter/.",
+   "AEO_GEO": "Direct answer in lead; route table; 5 FAQ; no external links (facts from search results flagged as to verify)."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/blog/egg-coffee-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Café Phố Cổ and egg-coffee cafés (seen in search result; not linked)"
+   },
+   {
+    "url": "https://atlasobscura.com/places/cafe-pho-co",
+    "checked": "2026-10-30",
+    "used_for": "Café Phố Cổ hidden entrance, rooftop (seen in search result; not linked)"
+   },
+   {
+    "url": "https://vietnamnews.vn/life-style/717886/wake-up-and-smell-the-egg-coffee.html",
+    "checked": "2026-10-30",
+    "used_for": "Egg coffee origin story, Nguyễn Văn Giảng (seen in search result; records contested)"
+   },
+   {
+    "url": "https://hanoitimes.vn/save-the-emotions-at-the-note-coffee.588318.html",
+    "checked": "2026-10-30",
+    "used_for": "Thanh Niên road between the two lakes (seen in search result)"
+   },
+   {
+    "url": "https://www.trvlogue.com/en/highlands-coffee-hanoi-west-lake",
+    "checked": "2026-10-30",
+    "used_for": "Highlands Coffee 28 Thanh Niên opposite Trấn Quốc (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Café opening hours/prices are third-party and change; deposit, insurance and breakdown procedure unconfirmed."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-cafes-quartiers-scooter/index.html",
+  "role": "OWNER",
+  "primary_intent": "Où boire un café à Hanoi en scooter, quartier par quartier (Vieux Quartier, cathédrale, quartier français, Thanh Niên/Trúc Bạch, lac de l'Ouest), quoi commander et où se garer.",
+  "words_before": 1778,
+  "words_after": 1612,
+  "new_meta": {
+   "title": "Cafés de Hanoi en scooter : cinq quartiers et quoi boire",
+   "description": "Cafés de Hanoi en scooter par quartier : Vieux Quartier, cathédrale, quartier français, Trúc Bạch et lac de l’Ouest, avec les boissons à goûter et où se garer.",
+   "h1": "Cafés de Hanoi en scooter : cinq quartiers, quoi boire, où se garer"
+  },
+  "evidence": {
+   "FACTS": "Removed invented/mannered content (« quartier des ambassades », « les photographes le savent, et les installeurs de hamacs aussi », « un quart d'heure par les avenues de l'ouest », « à pied la tournée prendrait deux jours », glycémie digression, « le café y est né dans les collines du pays » etc.). Replaced with search-verified facts (2026-10-30): café Phố Cổ at 11 Hàng Gai (silk-shop entrance, rooftop on Hoàn Kiếm; hours listed 7/8 am–10/11 pm), café Đinh at 13 Đinh Tiên Hoàng upstairs without signboard, egg coffee origin attributed to Nguyễn Văn Giảng (Metropole, 1946) with « les sources de l'époque manquent » (Vietnam News, seasia.co, hanoitimes); Thanh Niên road the only road between West Lake and Trúc Bạch, Highlands Coffee 28 Thanh Niên facing Trấn Quốc with glass walls; Cộng cà phê known for coconut coffee with branches at Trúc Bạch and Tây Hồ; Tony's Coffee on Nguyễn Đình Thi (coconut ice cream), Doing Coffee Roaster, lakeside cafés on Trích Sài (seen in search result: trvlogue, vietnamairlines, gtrip, mytour, hanoitimes); Vietnamese robusta with phin (localvietnam via search result). Drink vocabulary (đen, nâu, trứng, cốt dừa, trà đá/chanh, ít đường) is general Vietnamese usage. St Joseph's Cathedral described as neo-Gothic, late 19th century (general knowledge). West Lake loop 15–18 km « selon les sources »; weekend pedestrian rules and LEZ pilot from 1 July 2026: per hubs. No café prices quoted. Price: owner range 150 000–200 000 VND/day with disclaimer. Shop facts: 09:00–21:00 only. Deposit, insurance, permit phrased as points to confirm.",
+   "INTENT": "Main question: where to have coffee in Hanoi by scooter, by district, and what to order. Owner = /hanoi/hanoi-cafes-quartiers-scooter/. Differs from /hanoi/hanoi-cafes-itineraire-moto/ (one ordered four-stop loop with timing) by being a district-by-district guide with a drinks table and parking per area; it points to the route page once for a timed circuit.",
+   "CONTENT": "Entire article rewritten: drinks vocabulary table, five district sections, organisation checklist (5 items), scooter/budget, 5 FAQ. 1778→1612 words.",
+   "META": "Title/description/H1 rewritten (old title 53 chars, description 173); og tags synced.",
+   "LINKS": "7/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/hanoi-cafes-itineraire-moto/. Removed /hanoi/hoan-kiem-lac-hanoi-que-faire/ (cap).",
+   "AEO_GEO": "Direct answer in lead; drinks table; organisation checklist; 5 FAQ. No external links (search-derived facts flagged as to verify)."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/blog/egg-coffee-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Egg-coffee cafés incl. Café Phố Cổ (seen in search result; not linked)"
+   },
+   {
+    "url": "https://www.trvlogue.com/en/highlands-coffee-hanoi-west-lake",
+    "checked": "2026-10-30",
+    "used_for": "Highlands Coffee 28 Thanh Niên opposite Trấn Quốc (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnews.vn/life-style/717886/wake-up-and-smell-the-egg-coffee.html",
+    "checked": "2026-10-30",
+    "used_for": "Egg coffee story, Nguyễn Văn Giảng (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Café names/hours are third-party and may change; deposit, insurance and breakdown procedure unconfirmed."
+  ]
+ },
+ {
+  "path": "hanoi/hanoi-co-loa-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller à Cổ Loa à moto depuis Hanoi ou Long Biên, ce qu'on y voit, horaires et entrée, légende, demi-journée type.",
+  "words_before": 1998,
+  "words_after": 1626,
+  "new_meta": {
+   "title": "Cổ Loa à moto depuis Hanoi : la citadelle en demi-journée",
+   "description": "Cổ Loa à moto depuis Hanoi : 16 à 20 km au nord, remparts de terre, temple An Dương Vương, légende de la tortue d’or, horaires et entrée à confirmer.",
+   "h1": "Cổ Loa à moto depuis Hanoi : la citadelle en demi-journée"
+  },
+  "evidence": {
+   "FACTS": "Corrected « une vingtaine de kilomètres / une heure de guidon » (unsourced driving time) to 16–20 km with no travel time (seen in search result 2026-10-30: kupi, audiala, vietnamtrips listings: ~16 km NE of Old Quarter, ~17 km north, one source 20 km). Opening hours conflict (8–17 most cited; 7–17, 6:30–17, 6:30–18, 8–18, lunch break): stated as divergent. Admission: 10 000–30 000 VND per guides (10 000: two guides; 20 000; 30 000: two guides), children under 15/16 often free, one source says free: stated as a range to confirm (seen in search result). Removed unsourced content: « le musée du site » with bronze arrowheads and drums, « buffles paissent au bord des douves », « la route des digues de Đông Anh » (kept only as caution about wet dykes), « vers sept heures », « rendue avant seize heures », « mille ans de terre ». Âu Lạc capital > 2,000 years « selon les historiens » (Wikipedia result), spiral/snail-shell citadel and the Golden Turtle/crossbow/Trọng Thủy–Mỵ Châu legend with explicit « des historiens doutent » (seen in search result: Wikipedia An Dương Vương/Âu Lạc, ancient-history-sites, vietnamtales); An Dương Vương (Thượng) temple in the centre of the inner citadel with a bronze statue of the king and two horses, Ngọc (Jade) well near the temple, shrine to Mỵ Châu (seen in search result: kupi, audiala, jackfruitadventure, tatinta). Festival described only as « début de l'année lunaire, dates à vérifier ». Cổ Loa on the same bank as Long Biên (geography: Đông Anh on the left bank; consistent with hanoi/excursions-moto/). Expressway ban + Feb 2026 VOV case and Long Biên bridge reopening 28 May 2026: per hubs. Price: owner range 150 000–200 000 VND/day with disclaimer. Shop facts: NAP, 09:00–21:00 only. Deposit, insurance, out-of-centre use, breakdown phrased as points to confirm.",
+   "INTENT": "Main question: how to visit Cổ Loa from Hanoi by motorbike. Owner = /hanoi/hanoi-co-loa-moto/. Differs from /hanoi/hanoi-a-duong-lam-moto/, /hanoi/hanoi-a-bat-trang-moto/ and /hanoi/hanoi-a-ba-vi-moto/ (other destinations, similarity 0.25 each) by treating a northern history site with sourced hours/fees conflict and legend context.",
+   "CONTENT": "Entire article rewritten: facts table, histoire et légende, ce qu'on visite, trajet, demi-journée ordered list, bien préparer (checklist), combiner/choisir entre demi-journées, moto/budget, 5 FAQ. 1998→1626 words.",
+   "META": "Title/description/H1 rewritten (old description 167 chars); og tags synced; description 149 chars.",
+   "LINKS": "6/7 unique: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-bat-trang-moto/, /hanoi/hanoi-ecopark-moto/. Removed /hanoi/jour-voyages-de-hanoi-by-moto/.",
+   "AEO_GEO": "Direct answer in lead; facts table; ordered half-day plan; preparation checklist; 5 FAQ."
+  },
+  "sources": [
+   {
+    "url": "https://kupi.com/en/explore/vietnam/hanoi/co-loa-citadel",
+    "checked": "2026-10-30",
+    "used_for": "Cổ Loa distance, hours, temple (seen in search result; not linked)"
+   },
+   {
+    "url": "https://vietnamtrips.com/ha-noi/co-loa-citadel",
+    "checked": "2026-10-30",
+    "used_for": "Cổ Loa guide, tickets/hours (seen in search result; not linked)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+    "checked": "2026-10-30",
+    "used_for": "Legend of the golden turtle, crossbow, Trọng Thủy and Mỵ Châu (seen in search result; not linked)"
+   }
+  ],
+  "owner_gaps": [
+   "Official site hours/fees are not confirmed by an official source; out-of-centre use, deposit, insurance and breakdown procedure unconfirmed."
+  ]
  }
 ]
