@@ -541,5 +541,230 @@
   "owner_gaps": [
    "Whether a Long Biên rental may reach Phú Yên. Distances (Gành Đá Đĩa ≈35 km, Tuy Hòa–Quy Nhơn 90–100 km) and the Đắk Lắk attachment come from search snippets and should be checked on an official map/source."
   ]
+ },
+ {
+  "path": "centre-sud-vietnam/quy-nhon-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que voir et comment rouler à moto à Quy Nhơn (Eo Gió, Kỳ Co, tours cham, côte).",
+  "words_before": 2076,
+  "words_after": 1622,
+  "new_meta": {
+   "title": "Quy Nhơn à moto : Eo Gió, Kỳ Co, tours cham et côte calme",
+   "description": "Quy Nhơn à moto : corniche d’Eo Gió, plage de Kỳ Co, tours cham, nationale 1 depuis Đà Nẵng, pluies d’automne, machine et vérifications avant de louer.",
+   "h1": "Quy Nhơn à moto : corniche d’Eo Gió, Kỳ Co et tours cham"
+  },
+  "evidence": {
+   "FACTS": "Corrected a geography error in the old text: Eo Gió/Kỳ Co were placed ‘au sud’ and the Cham plain ‘au nord’; guides place Eo Gió (≈20 km, one source 11 km) and Kỳ Co (≈25 km) on the north-east peninsula, and Tháp Đôi in the city (WebSearch standard, seen in search result; no URL cited). Removed unsourced content: ‘berceau des arts martiaux’, ‘université’, ‘fermes d’huîtres’, ‘crêpes de la région’, the page-rules sentence (‘aucun horaire promis…’). Used hub-verified facts: Quy Nhơn 1,065 km from Hanoi / 650 km from HCMC (VnExpress cam-nang quy nhon), ≈300 km from Đà Nẵng (VnExpress), advice to split it into two days, QL1 trucks vs coastal roads, Sept–Dec storm/flood season (Thanh Tra). Tuy Hòa 90–100 km from Quy Nhơn: search snippets. Hanoi-rental caveat (>1,000 km away); no price; licence generic. Administrative merger of Bình Định not mentioned (not verified).",
+   "INTENT": "Main question: what to see and how to ride around Quy Nhơn. OWNER ‘Quy Nhơn à moto’. Closest pages (nord-vietnam/halong 0.27, ba-be 0.21, phu-yen 0.21): only Phú Yên is relevant and differs by being the neighbouring province, linked once.",
+   "CONTENT": "Rewritten: sites table with caveated distances, Eo Gió/Kỳ Co safety, Cham towers, access/onward routes, one-to-two-day programme table (new), season table, machine/rental, FAQ. Words 2076→1622.",
+   "META": "Title (57), description (151), H1 rewritten; eyebrow plain; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added centre/, phu-yen-voyage-moto, central-vietnam-coastal-itineraire-moto. 6/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (1–2 days; sites; ≈300 km from Đà Nẵng; avoid Sept–Dec storms). 3 tables, 1 checklist, FAQ 5 questions. 3 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-quy-nhon-4119727.html",
+    "checked": "2026-10-30",
+    "used_for": "1,065 km from Hanoi, 650 km from HCMC (as in hub)"
+   },
+   {
+    "url": "https://vnexpress.net/nhung-dieu-chi-co-o-quy-nhon-2913103.html",
+    "checked": "2026-10-30",
+    "used_for": "≈300 km from Đà Nẵng (as in hub)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may reach Quy Nhơn. Local distances (Eo Gió, Kỳ Co, Tuy Hòa) come from search snippets (not independently opened pages)."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/saigon-moto-1-jour-itineraire/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle boucle faire à moto à Saigon en une journée (centre, Cholon, quais) et à quelles conditions.",
+  "words_before": 1899,
+  "words_after": 1664,
+  "new_meta": {
+   "title": "Saigon à moto en une journée : centre colonial, Cholon et quais",
+   "description": "Une journée à Saigon à moto : centre colonial le matin, pause à midi, Cholon l’après-midi, quais de la rivière au coucher du soleil, stationnement et réflexes.",
+   "h1": "Saigon à moto en une journée : centre colonial, Cholon et quais"
+  },
+  "evidence": {
+   "FACTS": "Removed false/unsourced statements from the old text: ‘À Saïgon, on ne tourne pas à gauche directement’ (invented rule), ‘plusieurs millions de deux-roues’, ‘110 et 125 cm³ chez les loueurs sérieux’, ‘La caution se règle souvent contre le passeport… privilégiez la copie du passeport’ (passport retention/deposit), ‘la répression a changé les habitudes’ at red lights, ‘la plupart des loueurs s’arrangent facilement’. Deposit mention now only a generic ‘si le loueur demande un dépôt ou un document en garantie, faites préciser par écrit’ (review flags deposit/fleet accepted: qualified, no amount). Kept landmark descriptions (Notre-Dame, poste, palais de l’Indépendance, musée des vestiges de la guerre, Bến Thành, Thiên Hậu, Bình Tây, Nguyễn Huệ, Bạch Đằng) with ‘horaires à vérifier’ and no ticket/price. Hub-verified: gardé parking with ticket, orages/rues inondées at season change (VOH). Hanoi-rental caveat; licence generic; no price.",
+   "INTENT": "Main question: what to do in one day by moto in Saigon. OWNER ‘Saïgon à moto en une journée’. Closest pages hanoi-1-jour-itineraire (0.27), 3-jours-location-moto-hanoi (0.23): other cities; this page is Saigon's one-day loop and hands first-time driving to moto-ho-chi-minh-ville.",
+   "CONTENT": "Rewritten: lead + plan table, preparation/checklist, morning/midday/afternoon/evening sections, adapt-the-loop table (new), circulation/parking checklist, FAQ. Words 1899→1664.",
+   "META": "Title (63), description (159), H1 rewritten; hub spelling ‘Saigon’; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept moto-ho-chi-minh-ville; replaced mui-ne/da-lat by sud/ and mekong-delta-voyage-moto. 6/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (boucle centre → Cholon → quais, départ 8 h, conducteur à l’aise). 2 tables, 2 checklists, FAQ 5 questions. 1 inline citation (VOH)."
+  },
+  "sources": [
+   {
+    "url": "https://voh.com.vn/doi-song/mua-chuyen-mua-tphcm-canh-bao-giong-set-va-ngap-bat-ngo-563848.html",
+    "checked": "2026-10-30",
+    "used_for": "orages and sudden floods at season change in HCMC (as in hub sud/)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a moto rented in Long Biên may be used/returned in Saigon; opening hours/closures of sites (left as ‘à vérifier’)."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/saigon-my-tho-ben-tre-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment faire Saigon – Mỹ Tho – Bến Tre à moto en une ou deux journées.",
+  "words_before": 1863,
+  "words_after": 1556,
+  "new_meta": {
+   "title": "De Saigon à Mỹ Tho et Bến Tre à moto : sortie d’un ou deux jours",
+   "description": "Saigon, Mỹ Tho, Bến Tre à moto : sortir de la ville sans autoroute, franchir le fleuve, découvrir cocoteraies et canaux, en une journée serrée ou en deux jours.",
+   "h1": "De Saigon à Mỹ Tho et Bến Tre à moto : première sortie dans le delta"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced: ‘une grosse heure à heure et demie de route’, ‘scooter de 110 à 125 cm³’, ‘la plupart [des loueurs] acceptent un retour différé’, ‘aucun bac obligatoire’ as a blanket claim (now scoped to the Rạch Miễu crossing), ‘distributeurs/pharmacies/réseaux mobiles’, ‘île de Phung’, ‘démonstrations… prix des ateliers’. Used: law 36/2024/QH15 art. 25 (Lao Động, as in hub) for the expressway ban, Southern rainy season after 5 May to ~November (Pháp Luật TP.HCM, hub), hub table ‘sortie d’un ou deux jours’ and ‘routes étroites le long des canaux’. WebSearch (standard): Mỹ Tho ≈70 km from HCMC (a travel source, ‘non recoupé avec une source officielle’), Rạch Miễu bridge links Mỹ Tho and Bến Tre, Rạch Miễu 2 built ≈4 km upstream, and Vĩnh Long–Bến Tre–Trà Vinh merger announced 30/06/2025 (Diễn đàn Doanh nghiệp) – written as ‘d’après la presse économique vietnamienne’ (seen in search result; no URL cited since the snippet source could not be matched to a single page). Vĩnh Tràng pagoda described generally (‘que les guides décrivent’). Hanoi-rental caveat; licence generic; no price.",
+   "INTENT": "Main question: how to do Mỹ Tho and Bến Tre by moto from Saigon in 1–2 days. OWNER ‘de Saïgon à My Tho et Ben Tre en moto’. Closest pages (nord-vietnam hanoi-sapa-ha-giang, hanoi-french-architecture; ≤0.25) are unrelated; the page is the first-contact route and links the delta overview and the Cần Thơ route.",
+   "CONTENT": "Rewritten: stage table, leaving Saigon (expressway ban), Mỹ Tho, Bến Tre, bridges/ferries/return, 1 vs 2 days table, equipment checklist (new), machine/season/papers, FAQ. Removed padding, ‘méthode’ talk and the ‘sésame’ rhetoric. Words 1863→1556.",
+   "META": "Title (64), description (160), H1 rewritten; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept moto-ho-chi-minh-ville; replaced vung-tau link by mekong-delta-voyage-moto and ho-chi-minh-a-can-tho-moto. 6/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (≈70 km, 1 day dense/2 days comfortable, no expressway). 2 tables, 2 lists, FAQ 5 questions. 2 inline citations (Lao Động, Pháp Luật TP.HCM)."
+  },
+  "sources": [
+   {
+    "url": "https://news.laodong.vn/tu-van-phap-luat/quy-dinh-ve-giao-thong-tren-duong-cao-toc-theo-luat-moi-1398493.ldo",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban for motorcycles (as in hub)"
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-30",
+    "used_for": "start of Southern rainy season (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may reach the Mekong Delta or be returned in Saigon. Mỹ Tho distance and the Vĩnh Long merger come from search snippets and should be double-checked."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/vietnam-coastal-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment découper la route côtière du col de Hải Vân à Mũi Né à moto (étapes, distances, saisons).",
+  "words_before": 1831,
+  "words_after": 1665,
+  "new_meta": {
+   "title": "Vietnam côtier à moto : de Hải Vân à Mũi Né, étapes et distances",
+   "description": "La côte du Vietnam à moto, du col de Hải Vân à Mũi Né : étapes et distances, nationale 1 chargée, autoroutes interdites, saisons du Centre et du Sud, machine.",
+   "h1": "Le Vietnam côtier à moto : de Hải Vân à Mũi Né"
+  },
+  "evidence": {
+   "FACTS": "Corrected a factual error: the old text said a ‘route alternative par tunnel existe si le temps se gâte’ at Hải Vân – the tunnel is reserved for automobiles (VnExpress 2020, hub). Removed unsourced local colour (casiers à homards, Quang Nam/Quang Ngai lagoons ‘sans touristes’, Phan Rang salt/kitesurf, ‘bains de boue’, ‘la plupart des voyageurs… vols à Da Nang’, ‘une dizaine de jours’). Distances: Huế–Hội An 122 km, Mũi Né–HCMC ≈230 km via the coast, Đà Nẵng–Quy Nhơn ≈300 km (VnExpress, as in hub); Quy Nhơn–Nha Trang ≈212 km (QL1A; some routes ≈230 km) and Nha Trang–Phan Thiết ≈250 km (QL1 kilometre markers per Wikipedia as seen in a search result, plus travel pages): WebSearch (standard), stated as ‘selon des guides / bornes de la nationale 1, à vérifier’ with no URL cited. Hải Vân pass ≈20 km/≈500 m (Đà Nẵng tourism office), QL27C 121 km and landslides (VietnamPlus), expressway ban (law 36/2024/QH15), Sept–Dec storm season (Thanh Tra) and Southern rainy season (Pháp Luật TP.HCM) from the hub. Hanoi-rental caveat incl. one-way; licence generic; no price.",
+   "INTENT": "Main question: how to split the Hải Vân–Mũi Né coast by moto (stages, distances, seasons). OWNER ‘vietnam côtier à moto’. Closest page central-vietnam-coastal-itineraire-moto (0.33) is the Centre-only coastal route (seasons, rhythm, machine); this page covers the whole strip down to the South with a distance table and links to the Centre guide once.",
+   "CONTENT": "Rewritten: stage/distance table, Centre (col), Quy Nhơn–Nha Trang, Nha Trang–Mũi Né, coast vs plateau (new), season table, rhythm checklist, machine/rental, FAQ. Words 1831→1665.",
+   "META": "Title (64), description (158), H1 rewritten with hub spellings; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept mui-ne-voyage-moto; replaced da-nang-a-hoi-an by moto-hue-a-da-nang; added central-vietnam-coastal-itineraire-moto and nha-trang-itineraire-moto. 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (5–7 stages, QL1 trucks, expressway ban, two rain calendars). 2 tables, 1 checklist, FAQ 5 questions. 9 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-hoi-an-4446174.html",
+    "checked": "2026-10-30",
+    "used_for": "Huế–Hội An 122 km (as in hub)"
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-mui-ne-3838646.html",
+    "checked": "2026-10-30",
+    "used_for": "Mũi Né ≈230 km from HCMC via coast (as in hub)"
+   },
+   {
+    "url": "https://vnexpress.net/nhung-dieu-chi-co-o-quy-nhon-2913103.html",
+    "checked": "2026-10-30",
+    "used_for": "Đà Nẵng–Quy Nhơn ≈300 km (as in hub)"
+   },
+   {
+    "url": "https://vnexpress.net/mo-ham-hai-van-cho-doan-nguoi-ve-que-4368282.html",
+    "checked": "2026-10-30",
+    "used_for": "Hải Vân tunnel reserved for cars (as in hub)"
+   },
+   {
+    "url": "https://danangfantasticity.com/en/hai-van-pass",
+    "checked": "2026-10-30",
+    "used_for": "pass ≈20 km, ≈500 m (as in hub)"
+   },
+   {
+    "url": "https://www.vietnamplus.vn/khanh-hoa-khan-truong-khac-phuc-sat-lo-quoc-lo-27c-truoc-mua-mua-bao-post1136301.vnp",
+    "checked": "2026-10-30",
+    "used_for": "QL27C 121 km, landslides (as in hub)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-30",
+    "used_for": "Southern rainy season start (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may go down the coast or be returned elsewhere (one-way). Quy Nhơn–Nha Trang and Nha Trang–Phan Thiết distances are from search snippets/kilometre markers, not an opened page."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/vietnam-nord-a-sud-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aborder une traversée Nord–Sud du Vietnam à moto : échelle, régions, sens, saisons, accord du loueur.",
+  "words_before": 1537,
+  "words_after": 1635,
+  "new_meta": {
+   "title": "Nord–Sud du Vietnam à moto : régions, sens du voyage et saisons",
+   "description": "Traverser le Vietnam du Nord au Sud à moto : échelle du voyage, trois régions, sens à choisir, saisons, routes interdites aux motos et accord du loueur.",
+   "h1": "Le Vietnam du Nord au Sud à moto : régions, sens du voyage et préparation"
+  },
+  "evidence": {
+   "FACTS": "The old page contained no usable information (all ‘la page ne promet aucun tarif…’ prose) and an unsourced ‘de l’ordre de deux mille kilomètres’; replaced by the sourced rail distance 1,726 km Hanoi–Saigon (thuviennhadat.vn, as in hub) and Quy Nhơn 1,065 km from Hanoi / 650 km from HCMC (VnExpress, hub). Reused the hub's formula table and Vietnam Coracle rail-shipping statement (hub-verified; ‘only if the owner authorises’). Seasons: Centre Sept–Dec storms/floods (Thanh Tra), South rainy season after 5 May to ~Nov (Pháp Luật TP.HCM); no North season rule stated. Routes: law 36/2024/QH15 expressway ban, Hải Vân tunnel reserved for cars, west branch of the Hồ Chí Minh route (hub), 34 provincial units after 2025 (hcc.nghean.gov.vn, hub). Hanoi-rental paragraph aligned with the hub checklist; no price quoted (‘aucun tarif n’est promis pour une traversée’). Licence statement generic.",
+   "INTENT": "Main question: how to approach a full North–South moto trip. OWNER ‘le Vietnam du Nord au Sud à moto’. Closest pages meilleur-moto-vietnam-nord-sud (0.45, machine choice), prix-location/nord-vietnam-voyage-moto-budget-7-jours (0.36), vietnam-voyage-moto-budget-nord-sud (0.33, budget): this page covers scale, regions, direction, seasons, road restrictions and rental conditions; machine/maintenance/budget are one-line pointers (meilleur-moto linked, budget not linked).",
+   "CONTENT": "Fully rewritten: scale + formulas table, regions table, direction table, seasons, roads checklist, machine/preparation, Hanoi rental checklist, FAQ. Words 1537→1635.",
+   "META": "Title (63), description shortened to ≤160 (143), H1 and eyebrow rewritten; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Added: nord-vietnam/, centre/, hanoi-a-ho-chi-minh-moto, meilleur-moto-vietnam-nord-sud (replacing moto-nha-trang-a-dalat, hue-a-hoi-an). 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (several weeks; 1,726 km rail; direction depends on seasons and loueur agreement). 4 tables, 2 checklists, FAQ 5 questions. 5 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://thuviennhadat.vn/phap-ly-nha-dat/danh-sach-cac-tuyen-duong-sat-o-mien-nam-684173.html",
+    "checked": "2026-10-30",
+    "used_for": "rail line Hanoi–Saigon 1,726 km (as in hub)"
+   },
+   {
+    "url": "https://vnexpress.net/cam-nang-du-lich-quy-nhon-4119727.html",
+    "checked": "2026-10-30",
+    "used_for": "Quy Nhơn 1,065 km from Hanoi, 650 km from HCMC (as in hub)"
+   },
+   {
+    "url": "https://vietnamcoracle.com/how-to-send-your-motorbike-on-the-train",
+    "checked": "2026-10-30",
+    "used_for": "motorbike sent by train in a goods wagon (as in hub)"
+   },
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-30",
+    "used_for": "Southern rainy season start (as in hub)"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/quoc-hoi-thong-qua-nghi-quyet-sap-xep-don-vi-hanh-chinh-cap-tinh-2291.html",
+    "checked": "2026-10-30",
+    "used_for": "34 provincial units after the 2025 resolution (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Long-trip terms for bikes rented at Long Biên (zone, rail transport, one-way return, long-term rates)."
+  ]
  }
 ]

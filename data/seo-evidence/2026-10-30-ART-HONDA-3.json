@@ -107,7 +107,9 @@
   "words_before": 1932,
   "words_after": 1644,
   "new_meta": {
-   "description": "Le Honda SH Mode 125 en ville à Hanoi : confort, maniabilité dans les files, stationnement, pluie et points à contrôler avant de le louer pour un séjour urbain."
+   "title": "Honda SH Mode 125 dans le trafic de Hanoi : atouts et limites",
+   "description": "Le Honda SH Mode 125 en ville à Hanoi : confort, maniabilité dans les files, stationnement, pluie et points à contrôler avant de le louer pour un séjour urbain.",
+   "h1": "Honda SH Mode 125 dans le trafic de Hanoi : atouts et limites"
   }
  },
  {
@@ -128,14 +130,21 @@
    "Rental conditions: caution/ID, what is included (casque, antivol), breakdown handling, return condition rules"
   ],
   "words_before": 1615,
-  "words_after": 1569
+  "words_after": 1569,
+  "new_meta": {
+   "title": "Honda SH Mode 125 en location à Hanoi : pour quel conducteur ?",
+   "description": "Le Honda SH Mode 125 en location à Hanoi : à qui il convient, à qui il convient moins, les alternatives et les questions à poser au loueur avant de réserver.",
+   "h1": "Honda SH Mode 125 en location à Hanoi : pour quel conducteur ?"
+  }
  },
  {
   "path": "honda/honda-sh-mode-125-longue-distance-vietnam/index.html",
   "role": "OWNER",
   "primary_intent": "Jusqu'où partir de Hanoi avec un SH Mode 125 de location : sorties à la journée, confort, limites en montagne, alternatives.",
   "new_meta": {
-   "description": "Jusqu’où partir de Hanoi avec un Honda SH Mode 125 en location ? Sorties à la journée, confort, limites en montagne et alternatives pour un vrai road trip."
+   "title": "Honda SH Mode 125 et longue distance : jusqu’où partir de Hanoi ?",
+   "description": "Jusqu’où partir de Hanoi avec un Honda SH Mode 125 en location ? Sorties à la journée, confort, limites en montagne et alternatives pour un vrai road trip.",
+   "h1": "Honda SH Mode 125 et longue distance : jusqu’où partir de Hanoi ?"
   },
   "evidence": {
    "FACTS": "Removed the abstract « rayon / strate de gamme / citadine face à l'appel de la route » prose and the flagged claims on « dépôt de garantie éventuel, équipement éventuel » and fleet wording (fleet_promise). No price quoted (SH Mode has no owner row; said explicitly). No distances, travel times, speeds or fines: itinerary table is qualitative (Bat Trang, Duong Lam/Ba Vi, Ninh Binh/Tam Coc, Ha Long, Mai Chau/Pu Luong, Ha Giang/Cao Bang/Mu Cang Chai/Sapa). Season statement kept general (« en général »). Leaving Hanoi, breakdown help, papers to keep, fixations are questions to confirm with the shop; breakdown help explicitly « pas confirmée ici ». Licence: pointer to official sources, no rule stated. Contact channel from SEO-FACTS.",
@@ -158,7 +167,9 @@
   "role": "OWNER",
   "primary_intent": "Honda SH Mode 125 ou Yamaha Grande : lequel louer à Hanoi (gabarit, confort, rangement, passager, sorties, repère tarifaire) ?",
   "new_meta": {
-   "description": "SH Mode 125 ou Yamaha Grande à louer à Hanoi : gabarit, confort, rangement, passager et sorties hors ville, avec un repère tarifaire de catégorie à confirmer."
+   "title": "Honda SH Mode 125 ou Yamaha Grande : lequel louer à Hanoi ?",
+   "description": "SH Mode 125 ou Yamaha Grande à louer à Hanoi : gabarit, confort, rangement, passager et sorties hors ville, avec un repère tarifaire de catégorie à confirmer.",
+   "h1": "Honda SH Mode 125 ou Yamaha Grande : lequel louer à Hanoi ?"
   },
   "evidence": {
    "FACTS": "Removed the abstract duel prose (« deux écoles rivales », « le contrat tranche ce que le style laisse ouvert ») and the flagged claims on « dépôt, conditions d'assurance et de restitution » and « contrat qui prévoit l'assistance en cas de panne » (insurance_assistance, deposit). Neither model has an owner row: category repère « scooter automatique » (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and « pas un devis », plus a caution that a premium scooter may be quoted outside the range (as in the Honda hub). Qualitative only: SH wide wheels/weight/seat (consistent with /honda/scooters/ hub); Grande lighter, néo-rétro, coffre généralement plus modeste, roues généralement plus petites flagged « à essayer / à tester ». No spec figures. Fleet presence of both models explicitly not confirmed; test-ride possibility not confirmed.",
@@ -200,5 +211,205 @@
   ],
   "words_before": 1631,
   "words_after": 1567
+ },
+ {
+  "path": "honda/honda-sh125i-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda SH125i est-il un bon scooter pour le trafic de Hanoi : atouts, limites de gabarit, stationnement, niveau d'expérience.",
+  "new_meta": {
+   "title": "Honda SH125i dans le trafic de Hanoi : atouts et limites",
+   "description": "Le Honda SH125i en ville à Hanoi : confort, stabilité, gabarit imposant, stationnement et niveau d’expérience conseillé avant de le louer pour un séjour urbain.",
+   "h1": "Honda SH125i dans le trafic de Hanoi : atouts et limites"
+  },
+  "evidence": {
+   "FACTS": "Corrected a factual contradiction with the rewritten Honda hubs: the old text called the SH125i « compact », « poids contenu », « béquille latérale » and said it « se faufile sans effort »; the hub states it is the largest and most imposing Honda scooter (grandes roues, selle haute), so the article now presents gabarit as the main limit. Removed the flagged « règles locales de dépôt », « franchise éventuelle / conditions de responsabilité / montants plus élevés », « scooter premium… assurance » wording (deposit, insurance_assistance). No price quoted: no owner row for the SH125i (stated). No spec figures, no height in cm, no distances. Licence: paragraph says the answer depends on nationality/category/vehicle and points to official sources and /permis-securite/, no rule stated. Antivol, papers, damage/theft handling, ABS version listed as questions to ask. ABS only « demandez si la version a l'ABS ou un freinage combiné ». Fleet presence not confirmed.",
+   "INTENT": "Main question: is the SH125i suited to Hanoi traffic, with what advantages and limits. OWNER of « honda SH125i dans le trafic de Hanoi ». Closest: vario-125-hanoi-ville (0.55), sh-mode-125-hanoi-ville (0.50), icon-e-hanoi-ville (0.50). Differs from the SH Mode city article: focused on the SH125i's size/height/weight, parking and lifting problems, experience level, five habits for a wide scooter; the SH Mode is only pointed to in a short comparison paragraph.",
+   "CONTENT": "Full rewrite. Sections: apports (confort, grandes roues, stabilité, duo, allure), gabarit + situation table, stationnement/vol/rayures, SH125i vs SH Mode, niveau d'expérience + licence pointer, five habits for a wide scooter, checklist, price pointer, verdict, FAQ 4 Qs. Words 2141 -> see words_after.",
+   "META": "Title kept (56 chars; the H1 suffix « aisance de conduite » dropped so H1 = title). Description rewritten (160 chars; old one 162 > 160); og tags identical. Eyebrow « Motos Honda » -> « Honda SH125i · En ville ».",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-sh125i-location-hanoi/, /honda/honda-sh125i-prix-location-hanoi/, /honda/honda-sh-mode-125-hanoi-ville/, /permis-securite/. Dropped /location-moto-hanoi/ (generic guide) from the old link list.",
+   "AEO_GEO": "Direct answer in the lead (confortable/stable but the most imposing; for experienced, taller drivers). 1 table, 1 checklist, 1 numbered list, FAQ 4 Qs (taille, premier séjour, antivol, sortie de Hanoi)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "SH125i presence in the fleet, version (ABS/CBS), own rate",
+   "Damage/theft handling, antivol supplied or not"
+  ],
+  "words_before": 1932,
+  "words_after": 1591
+ },
+ {
+  "path": "honda/honda-sh125i-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda SH125i convient-il à ma location à Hanoi : pour quel profil de voyageur, à qui l'éviter, que vérifier ?",
+  "new_meta": {
+   "title": "Honda SH125i en location à Hanoi : pour quel profil ?",
+   "description": "Louer un Honda SH125i à Hanoi : à quels voyageurs il convient, lesquels devraient choisir plus simple, et les points à vérifier avant de réserver.",
+   "h1": "Honda SH125i en location à Hanoi : pour quel profil ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced/unconfirmed statements flagged by the checker and found on reading: « grilles dégressives que proposent généralement les agences », « contrat mensuel… assistance en cas de panne, modalités de renouvellement », « dépôt de garantie, supplément second casque, franchise, couverture en cas de dommage », « modèles premium partent vite en haute saison », « une agence qui s'en désintéresse vous met en danger », and the old description of the SH125i as « compact / léger / vivacité » (contradicting the Honda hubs: the SH125i is the most imposing scooter). No price: the SH125i has no owner row (stated twice); Vision and Air Blade named as the models with own rows, no figures quoted. Caution/ID as generic practice (« certains loueurs… demandez la règle applicable »); antivol, damage/theft handling, sorties de Hanoi, availability phrased as questions; fleet presence not confirmed (FAQ). Licence: no rule stated, only official-source pointer + /permis-securite/. ABS/CBS only as a question. Contact data from SEO-FACTS.",
+   "INTENT": "Main question: for which traveller profile is renting a SH125i in Hanoi sensible. OWNER of « honda SH125i en location à Hanoi ». Closest: wave-alpha-110-location (0.44), cuv-e-location (0.44), lead-abs-location (0.43). Profile + profile table + who should choose simpler + questions + trial + one-month scenario; city behaviour, long-distance and pricing are delegated by link.",
+   "CONTENT": "Full rewrite. Sections: statutory-scooter effect on rental, profile table (8 profiles), who should choose simpler, city vs excursions, questions to ask (checklist), 6-step trial, one-month scenario, papers/licence pointer, budget/quote, FAQ 5 Qs. Words 2300 -> see words_after.",
+   "META": "Title and H1 kept (53 chars; H1 shortened by dropping « de voyageur »). Description rewritten (146 chars; old one 164 > 160); og tags identical. Eyebrow « Motos Honda » -> « Honda SH125i · Profil et choix ».",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-sh125i-hanoi-ville/, /honda/honda-sh125i-longue-distance-vietnam/, /honda/honda-sh125i-prix-location-hanoi/, /permis-securite/. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (who it suits and who should choose simpler). 1 table, 2 checklists, 1 numbered list, FAQ 5 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "SH125i presence in fleet, version (ABS/CBS/classique), year and own rate",
+   "Caution/ID rule, inclusions, incident handling, permission to leave Hanoi"
+  ],
+  "words_before": 2300,
+  "words_after": 1566
+ },
+ {
+  "path": "honda/honda-sh125i-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Un SH125i de location convient-il à un road trip au Vietnam depuis Hanoi, sur quels itinéraires et avec quelles précautions ?",
+  "new_meta": {
+   "title": "Honda SH125i pour un road trip au Vietnam : est-ce un bon choix ?",
+   "description": "Un Honda SH125i de location convient-il à un road trip depuis Hanoi ? Confort, limites, itinéraires adaptés, contrat à vérifier et alternatives en montagne.",
+   "h1": "Honda SH125i pour un road trip au Vietnam : est-ce un bon choix ?"
+  },
+  "evidence": {
+   "FACTS": "Corrected the factual contradiction in the old text (« petit diamètre des roues d'un scooter urbain » applied to the SH125i, whereas the Honda hubs state big wheels as the SH's advantage) and removed unsourced claims: « consommation contenue », « petit réservoir », « mécanique réputée fiable », « marges de refroidissement calibrées par le constructeur », « 'montants de responsabilité plus élevés', logistique de rapatriement », « l'assistance en cas de panne… remplacement de la machine… conditions applicables hors de la province » (flagged insurance_assistance/deposit). No price: SH125i has no owner row (stated); CT125 explicitly « pas de tarif publié, demandez le montant ». No fuel/tank/spec figures, no distances or travel times. Contract points (leaving Hanoi, breakdown, damage/theft, papers) are listed as items « non confirmés ici » to ask; caution/ID as generic market practice; licence: no rule, official sources only. Contact data from SEO-FACTS.",
+   "INTENT": "Main question: is the SH125i a good choice for a Vietnam road trip from Hanoi. OWNER of « honda SH125i pour un road trip au Vietnam depuis Hanoi ». Closest: vision-longue-distance (0.36), super-cub-c125-longue-distance (0.36), ct125-longue-distance (0.33). Distinct angle: comfort/big wheels/stability vs weight, no engine braking and the cost/risk of a premium scooter far from Hanoi; three-day Ninh Binh example; contract points.",
+   "CONTENT": "Full rewrite. Sections: apports, limites, itinerary table, preparation list, contract/risk, three-day example, breakdown/imprévus, alternatives (semi-auto, CT125 ask, trail guide, Nord Vietnam guide), budget pointer, FAQ 4 Qs. Words 1987 -> see words_after.",
+   "META": "Title/H1 changed from « …: faut-il ? » / « …le bon choix ? » to a single natural phrasing (65 chars); description rewritten (156 chars; old one 173 > 160); og tags identical. Eyebrow « Motos Honda » -> « Honda SH125i · Road trip depuis Hanoi ».",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-sh125i-location-hanoi/, /honda/semi-automatiques/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /nord-vietnam/. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (oui plaine/étapes courtes, non grandes boucles du Nord). 1 itinerary table, 2 lists, 1 numbered list, FAQ 4 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether rentals may leave Hanoi, breakdown support, damage/theft liability and papers",
+   "SH125i presence/version and own rate; CT125 rate (no published price)"
+  ],
+  "words_before": 1987,
+  "words_after": 1608
+ },
+ {
+  "path": "honda/honda-sh125i-ou-yamaha-nmax-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda SH125i ou Yamaha NMAX : lequel louer à Hanoi (confort, gabarit, protection, passager, sorties, repère tarifaire) ?",
+  "new_meta": {
+   "title": "Honda SH125i ou Yamaha NMAX : lequel louer à Hanoi ?",
+   "description": "SH125i ou Yamaha NMAX à louer à Hanoi : confort, gabarit, protection du vent, passager et sorties, avec un repère tarifaire de catégorie à confirmer.",
+   "h1": "Honda SH125i ou Yamaha NMAX : lequel louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported claims from the old text: « le NMAX se loue généralement moins cher que le SH125i » (no source, no owner rows), « gabarit compact » for both scooters (contradicts the Honda hubs: SH125i is the most imposing; NMAX described there as a more road-oriented maxi-scooter), « dépôt de garantie, franchise », « assistance en cas de panne, remplacement de la machine », « remise de bonne volonté », and fleet wording. Neither model has an owner row: category repère « scooter automatique » only (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with the mandatory disclaimer and « pas un devis », and the page explicitly says one cannot say which is cheaper. NMAX statements are qualitative and consistent with the Honda hub row « SH125i vs NMAX: grand scooter statutaire contre maxi-scooter plus routier »; no spec figures, cylinder capacity deliberately left to ask. Caution/ID as generic practice; incidents, antivol, exchange of scooter, ABS/CBS as questions; fleet presence not confirmed.",
+   "INTENT": "Main question: SH125i or NMAX to rent in Hanoi. OWNER (group CMP-SH125I-NMAX, general comparison: urban use, comfort, storage, handling, indicative prices to confirm). Closest: yamaha/yamaha-nmax-ou-honda-sh125i-location (0.60, Yamaha-side duel), yamaha-latte-ou-honda-vision (0.40), honda-vision-ou-yamaha-janus (0.40). This page = Honda-side criteria table, city vs road, passenger/storage, questions to ask, first kilometres; the Yamaha-side duel is linked once with a natural anchor.",
+   "CONTENT": "Full rewrite. Sections: comparison table, en ville (gabarit/parking), sur route (protection, montagne limits), passager/rangement, repère tarifaire, questions to ask, premiers kilomètres, comment trancher by profile, FAQ 4 Qs. Words 1964 -> see words_after.",
+   "META": "Title/H1 changed from « Location à Hanoi : Honda SH125i ou Yamaha NMAX ? » / « …le comparatif honnête » to « Honda SH125i ou Yamaha NMAX : lequel louer à Hanoi ? » (52 chars); description rewritten (149 chars); og tags identical. Title unique in the repo (grep). Eyebrow shortened.",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /yamaha/yamaha-nmax-ou-honda-sh125i-location/, /honda/honda-sh125i-location-hanoi/, /honda/honda-sh125i-hanoi-ville/, /honda/honda-sh125i-longue-distance-vietnam/. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (SH125i for comfort/daily city, NMAX for protection and sportier road use; both large). 2 tables (comparison, repère), 2 lists, FAQ 4 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether SH125i and Yamaha NMAX are in the fleet, versions/cylinder capacity and own rates",
+   "Test-ride possibility, caution/ID rule, inclusions, incident handling"
+  ],
+  "words_before": 1964,
+  "words_after": 1529
+ },
+ {
+  "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel tarif attendre et comment choisir la durée / comparer les devis pour louer un SH125i à Hanoi.",
+  "new_meta": {
+   "title": "Location d’un Honda SH125i à Hanoi : jour, semaine ou mois ?",
+   "description": "Honda SH125i à louer à Hanoi : pas de tarif propre dans les prix de référence, repère de catégorie, choix de la durée et méthode pour comparer deux devis.",
+   "h1": "Location d’un Honda SH125i à Hanoi : jour, semaine ou mois ?"
+  },
+  "evidence": {
+   "FACTS": "Removed many unconfirmed statements from the old text: « la quasi-totalité des agences de Hanoi pratique des grilles dégressives », « dépôt de garantie en espèces ou préautorisation bancaire, plus élevé sur les modèles premium », « frais de nettoyage / carburant / supplément retard », « maintenance planifiée, assurance et assistance incluses », « interlocuteur dédié », « conditions de renouvellement avantageuses », « plafond kilométrique », « interrogez votre assurance voyage » (flagged deposit, insurance_assistance, fleet_promise, refund_payment). No own owner price for the SH125i: table shows verbatim owner rows Vision (200 000/1 000 000/2 000 000) and Air Blade (200 000/900 000/1 500 000) plus the automatic-scooter category repère (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND), with the mandatory disclaimer, the Air Blade displacement caveat and « aucune de ces lignes ne donne le tarif du SH125i ». No derived prices; the only derived remark is a comparison (category week range does not exceed seven days at the lowest day rate) and the page tells readers not to multiply a day rate. Caution/ID phrased as generic practice; damage/theft, incidents, inclusions as questions; model availability not confirmed. Contact data from SEO-FACTS.",
+   "INTENT": "Main question: what to expect to pay and which duration to choose for a SH125i rental. OWNER of « location d'un Honda SH125i à Hanoi ». Closest: honda-icon-e-prix-location (0.71), lead-abs-prix-location (0.62), wave-rsx-prix-location (0.56) - same template family. Distinct: SH125i statutory-scooter effect on the bill, comparison with Vision/Air Blade owner rows, effective cost per useful day method, traps, alternatives list (Vision, Air Blade, SH Mode, Lead).",
+   "CONTENT": "Full rewrite of an abstract, claim-heavy page. Sections: three repère rows, SH vs cheaper models, duration by profile, how to compare two quotes (checklist), alternatives, classic traps, how to get a quote, FAQ 4 Qs. Words 2211 -> see words_after.",
+   "META": "Title/H1 unified to « Location d’un Honda SH125i à Hanoi : jour, semaine ou mois ? » (60 chars; the old title and H1 differed); description rewritten (154 chars); og tags identical. Eyebrow « Motos Honda » -> « Honda SH125i · Tarifs et durée ».",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-sh125i-location-hanoi/, /honda/honda-vision-prix-location-hanoi/, /prix-location/journaliere-ou-hebdomadaire-location-moto-hanoi-cout/, /prix-location/mensuelle-location-moto-economies-hanoi/. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (no own price, category repère, ask a nominal quote, choose duration by real driving days). 1 table, 2 lists, FAQ 4 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Own SH125i rates (none in the owner table) and whether a premium over the scooter category applies",
+   "Caution/ID rule, inclusions, damage/theft handling, prolongation rule, availability"
+  ],
+  "words_before": 2211,
+  "words_after": 1541
+ },
+ {
+  "path": "honda/honda-super-cub-c125-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "La Honda Super Cub C125 est-elle agréable et pratique dans la circulation de Hanoi : avantages, limites, prise en main.",
+  "new_meta": {
+   "title": "Honda Super Cub C125 dans Hanoi : avantages et limites",
+   "description": "La Honda Super Cub C125 en ville à Hanoi : boîte sans levier d’embrayage, maniabilité, stationnement, limites sur les grands axes et prise en main.",
+   "h1": "Honda Super Cub C125 dans Hanoi : avantages et limites"
+  },
+  "evidence": {
+   "FACTS": "Removed mannered/abstract prose (« machine de promenade dans une ville de mission », « la ville défile », « sourire au guidon ») and unsourced claims: « selle basse », « étroite, légère », « rayon de braquage court », « moteur sans bruit agressif », « boîte qui rétrograde en approche de carrefour = main libre », plus the flagged « assurance lue attentivement », « conditions à deux : exigences d'équipement ou de responsabilité » and the invitation to confirm with agencies. Gearbox described only as semi-automatic with no clutch lever and a foot selector (consistent with the /honda/semi-automatiques/ hub, which cites Honda Europe 2018 for the Cub's 4-speed automatic centrifugal clutch; that release was not reopened here, and my search only confirmed a 4-speed box from press snippets). Cadre ouvert stated as a Cub characteristic. « plus typée et plus chère à l'achat qu'une Wave » from the hub (VTC News, seen there). No price quoted: the C125 has no owner row (stated); no cm³ figure beyond the model's own 125 name, no height, no speed. Licence: no rule, official sources + /permis-securite/. Antivol, papers, fleet presence as questions/unconfirmed.",
+   "INTENT": "Main question: is the Super Cub C125 good for Hanoi city riding. OWNER of « honda Super Cub C125 dans Hanoi ». Closest: wave-rsx-hanoi-ville (0.40), vision-hanoi-ville (0.36), sh125i-hanoi-ville (0.33). Distinct: semi-automatic gearbox explanation in city traffic, Cub-specific limits (speed on fast axes, selector in jams, valuable bike), city route table, one-day example from Long Biên, parking.",
+   "CONTENT": "Full rewrite. Sections: boîte semi-automatique (step-by-step), avantages, limites, route table, one-day example, parking, three-step prise en main, checklist, price pointer, FAQ 4 Qs. Words 1974 -> see words_after.",
+   "META": "Title/H1 unified to « Honda Super Cub C125 dans Hanoi : avantages et limites » (54 chars; old title « …avantages, limites et facilité », H1 « …avantages, inconvénients et facilité de conduite »); description rewritten (147 chars); og tags identical. Eyebrow « Motos Honda » -> « Honda Super Cub C125 · En ville ».",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-super-cub-c125-location-hanoi/, /honda/honda-super-cub-c125-prix-location-hanoi/, /honda/semi-automatiques/, /permis-securite/. Dropped /location-moto-hanoi/ and /types-motos/semi-automatique/.",
+   "AEO_GEO": "Direct answer in the lead (agréable à rythme tranquille; limites; pour qui). 1 route table, 2 checklists, 1 numbered list, FAQ 4 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Super Cub C125 presence in the fleet, version (ABS or not) and own rate",
+   "Antivol supplied or not, papers to keep, incident handling"
+  ],
+  "words_before": 1974,
+  "words_after": 1557
+ },
+ {
+  "path": "honda/honda-super-cub-c125-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel voyageur la location d'une Honda Super Cub C125 à Hanoi a-t-elle du sens, avec quelles alternatives et quelles questions.",
+  "new_meta": {
+   "title": "Honda Super Cub C125 en location à Hanoi : pour qui ?",
+   "description": "Louer une Honda Super Cub C125 à Hanoi : pour quels voyageurs, conduite semi-automatique, limites, alternatives et questions à poser avant de réserver.",
+   "h1": "Honda Super Cub C125 en location à Hanoi : pour qui ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced/unconfirmed statements from the old text: « la moto la plus produite de l'histoire selon Honda », « vendue en Europe, au Japon et aux États-Unis », « plus rare dans les parcs qu'une Wave », « son assurance et son entretien suivent la logique du prix », « selle basse… suspension encaisse… protection du tablier », « on rétropédale pour rétrograder », « clauses d'assistance », « se loue en général plus cher » (stated as fact), delivery/deposit/assistance wording (insurance_assistance, delivery, deposit). Remaining statements: C125 is more typed and more expensive to buy than a Wave (stated from the /honda/semi-automatiques/ hub, which cites VTC News price lists seen there; my search only gave a Honda Vietnam price in the press snippet, not used), semi-automatic without clutch lever and foot selector (consistent with the hub citing Honda Europe 2018; not reopened here). Price: no owner row for the C125; the owner category « semi-automatique » repère (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) is given with the mandatory disclaimer, « pas un devis pour la C125 » and a warning that it may not cover so typed a model; the claim that the C125 is more expensive to rent than a Wave is phrased as « probable, non confirmé ». Caution/ID as generic practice; antivol, incidents, sorties de Hanoi, version/ABS as questions. Contact data from SEO-FACTS.",
+   "INTENT": "Main question: for whom is renting a Super Cub C125 in Hanoi sensible. OWNER of « honda Super Cub C125 en location à Hanoi ». Closest: types-motos/super-cub-c125-location-vietnam (0.56), yamaha-pg-1-abs-ou-honda-super-cub-c125-location (0.38), honda-super-cub-c125-prix-location-hanoi (0.38). This page = profile table + alternatives + questions + trial + one repère table; city handling, long distance and pricing method are delegated by link; PG-1 mentioned but not linked.",
+   "CONTENT": "Full rewrite. Sections: néo-rétro positioning, riding the selector, profile table (8 profiles), limits, alternatives, questions to ask, 6-step trial, during-rental care/return, budget repère table + quote contact, FAQ 4 Qs. Words 2217 -> see words_after.",
+   "META": "Title and H1 kept (53 chars; H1 shortened by dropping « à qui cette icône convient-elle ? »). Description rewritten (151 chars; old one 169 > 160); og tags identical. Eyebrow « Motos Honda » -> « Honda Super Cub C125 · Profil et choix ».",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-super-cub-c125-hanoi-ville/, /honda/honda-super-cub-c125-longue-distance-vietnam/, /honda/honda-super-cub-c125-prix-location-hanoi/, /honda/semi-automatiques/. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Direct answer in the lead (who it suits, who it does not, no own price). 2 tables (profils, repère), 3 lists, 1 numbered trial, FAQ 4 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Super Cub C125 presence in the fleet, version (ABS or not), own rate (none in the owner table)",
+   "Caution/ID rule, inclusions, incident handling, permission to leave Hanoi"
+  ],
+  "words_before": 2217,
+  "words_after": 1555
+ },
+ {
+  "path": "honda/honda-super-cub-c125-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "La Super Cub C125 convient-elle à un road trip depuis Hanoi : boucles adaptées, limites, montagne, contrat à vérifier.",
+  "new_meta": {
+   "title": "Honda Super Cub C125 et longue distance : road trip depuis Hanoi",
+   "description": "Honda Super Cub C125 en road trip depuis Hanoi : boucles tranquilles adaptées, limites sur les longues étapes, montagne à éviter, contrat à vérifier.",
+   "h1": "Honda Super Cub C125 et longue distance : road trip depuis Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced or unconfirmed claims from the old text: « deux cents kilomètres à rythme doux » (invented distance), « la moto qui a fait le tour du monde », « suspension sommaire / garde au sol modeste / freinage sobre » as facts, « contenance modérée du réservoir » stated as a fact (now « sur une moto de ce type, plutôt petit : faites le plein dès que la jauge baisse »), « prise en charge des réparations / franchises / clauses d'assistance » (insurance_assistance). Qualitative statements only: semi-automatic with foot selector so downshifting gives engine braking (consistent with the /honda/semi-automatiques/ hub), simple mechanics repairable at roadside workshops, more typed and more expensive to buy than a Wave (hub, VTC News list). CT125 mentioned with « sans tarif publié : demandez le montant ». No price table: the C125 has no owner row (stated), the page points to the price article; no distances/travel times. Contract points (leaving Hanoi, breakdown help, damage/theft, papers) explicitly « non confirmés ici »; caution/ID as generic practice; licence: official sources only. Contact data from SEO-FACTS.",
+   "INTENT": "Main question: can a Super Cub C125 do a multi-day trip from Hanoi, on which itineraries. OWNER of « honda Super Cub C125 et longue distance ». Closest: wave-rsx-longue-distance (0.40), sh125i-longue-distance (0.36), vario-125-longue-distance (0.33). Distinct angle: semi-automatic engine braking and simple mechanics vs 125 cm³ power/seat/luggage, itinerary table, three-day Ninh Binh example, why mountains exceed a Cub, contract checklist.",
+   "CONTENT": "Full rewrite replacing the romantic/abstract prose. Sections: apports, limites, itinerary table, three-day Ninh Binh loop, why mountains exceed a Cub, numbered preparation list, contract checklist, budget pointer, FAQ 4 Qs. Words 1965 -> see words_after.",
+   "META": "Title/H1 unified to « Honda Super Cub C125 et longue distance : road trip depuis Hanoi » (64 chars; old title and H1 differed, H1 « …en vérité »); description rewritten (149 chars; old one 164 > 160); og tags identical. Eyebrow « Motos Honda » -> « Honda Super Cub C125 · Road trip depuis Hanoi ».",
+   "LINKS": "7/7 unique: /honda/ (parent hub), /types-motos/, /prix-location/ (required), /honda/honda-super-cub-c125-location-hanoi/, /honda/semi-automatiques/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /nord-vietnam/. Dropped /location-moto-hanoi/, /types-motos/semi-automatique/ and /types-motos/station-essence-hanoi-moto/.",
+   "AEO_GEO": "Direct answer in the lead (boucle tranquille oui, grandes boucles du Nord non, contrat à vérifier). 1 itinerary table, 2 lists, 1 numbered list, FAQ 4 Qs."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Whether rentals may leave Hanoi, breakdown help, damage/theft liability, papers to keep",
+   "Super Cub C125 presence/version and own rate; CT125 rate (no published price)"
+  ],
+  "words_before": 1965,
+  "words_after": 1591
  }
 ]

@@ -1,0 +1,66 @@
+[
+ {
+  "path": "location-moto-hanoi/location-moto-hoan-kiem/index.html",
+  "role": "OWNER",
+  "words_before": 2128,
+  "words_after": 2196,
+  "primary_intent": "Louer une moto pour séjourner ou rouler à Hoan Kiem (centre autour du lac) : où prendre la moto, quand rouler, où se garer.",
+  "new_meta": {
+   "description": "Louer une moto pour le centre de Hanoi : retrait à Long Biên, heures creuses, interdiction des motos autour du lac le soir du week-end, stationnement."
+  },
+  "evidence": {
+   "FACTS": "Removed 'règle du site / aucune adresse inventée' wording and the claim that the shop could deliver/hand over at the lisière (invented method). Shop located in Long Biên (Ngõ 5 Nguyễn Văn Cừ, near Bến xe Gia Lâm), 09:00-21:00; delivery stated as not announced, to be confirmed in writing (hotel handover, slot, fees). Day prices only from the owner table (scooter/semi 150 000-200 000, Vision 200 000, Air Blade 200 000, electric 'selon le modèle') with the mandatory disclaimer; no weekly/monthly derivation. Added the Hoàn Kiếm low-emission-zone pilot (from 1 July 2026; motorbikes and cars barred 19:00-midnight Fri-Sun in the lake / night-market pedestrian area; phase 1 to 31 Dec 2026; extension announced; checkpoints reported; no exception for rental bikes found) qualified as 'd'après la presse', check signs on site. Weekend-morning closure claim of the old text replaced (the old 'périmètre fermé aux moteurs en fin de semaine' was unsourced). Bridges (Long Biên two-wheelers/pedestrians only, Chương Dương) consistent with the quartiers sub-hub and flagged 'à vérifier'. No travel times, no parking prices. Parking via gửi xe described generically.",
+   "INTENT": "Main question: how to rent a motorbike for Hoan Kiem and avoid the centre's traffic. Owner of 'location de moto à Hoan Kiem' (group_owner = itself). Differs from location-moto-vieux-quartier-hanoi (sim 0.31 for Long Biên neighbour) by focusing on the lake area, the LEZ evening ban, rush hours and exits; Vieux Quartier article covers retrait/retour/vehicle choice for the 36 streets and is linked once.",
+   "CONTENT": "Full rewrite of all sections (old prose 'se lit/se roule' removed). New H2: Hoan Kiem et la boutique : deux rives du fleuve; Se faire remettre la moto à l'hôtel (option à confirmer); Autour du lac (interdiction des motos le soir du week-end); Les heures qui évitent les bouchons (checklist); Sortir du centre sans rester coincé; Où garer la moto; Quelle machine (price table + disclaimer); FAQ 5 Q. Words 2128 -> 2196.",
+   "META": "Title and H1 kept (natural, matches sub-hub anchor, promise delivered by hours/exits/parking sections). Description rewritten (169 -> 150 chars, removed 'sans adresse ni tarif inventés'); og:description synced; og:title unchanged.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-vieux-quartier-hanoi/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/moto-livraison-hotel-hanoi/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ to stay at 7. Contact links tel/Zalo/WhatsApp are not counted.",
+   "AEO_GEO": "Direct answer in the lead (shop in Long Biên, off-peak start, LEZ evening ban). 1 checklist, 1 price table, FAQ 5 questions (no repetition of the body beyond 1-line answers). 3 external citations (VietnamPlus, VietNamNet, Dân trí) for the LEZ."
+  },
+  "sources": [
+   {
+    "url": "https://en.vietnamplus.vn/hanoi-rolls-out-inner-city-traffic-plan-to-support-low-emission-zone-pilot-post347526.vnp",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: 19:00-midnight Fri-Sun ban on motorcycles and cars in lake pedestrian area, phase 1 1 Jul-31 Dec 2026, expansion planned"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/hanoi-drops-proposal-for-outright-petrol-motorbike-ban-around-hoan-kiem-lake-2521274.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title/snippet only): proposal of an outright petrol motorbike ban around the lake dropped"
+   },
+   {
+    "url": "https://dtinews.dantri.com.vn/lifestyle/hanoi-begins-vehicle-ban-in-hoan-kiem-low-emission-zone-20260704084734369.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: ban began in early July 2026, checkpoints and patrols, boundaries not widely known"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm whether hotel handover/delivery is offered in Hoan Kiem, its slots and fees",
+   "Confirm whether rental motorbikes may be returned outside Long Biên"
+  ]
+ },
+ {
+  "path": "location-moto-hanoi/location-moto-inspection-liste-controle/index.html",
+  "role": "OWNER",
+  "words_before": 1599,
+  "words_after": 2207,
+  "primary_intent": "Inspecter sa moto de location à Hanoi avant de partir : quoi vérifier, dans quel ordre, quoi faire en cas de défaut.",
+  "new_meta": {
+   "description": "Pneus, freins, éclairage, klaxon, chaîne, papiers : les points à contrôler sur une moto de location à Hanoi avant de partir, et comment les noter en photos."
+  },
+  "evidence": {
+   "FACTS": "Removed the assumption of a deposit ('pour votre dépôt') and the unconfirmed 'assistance' among inclusions; guarantee/inclusions now explicitly 'à confirmer avant la réservation' with the shop's phone/Zalo/WhatsApp. Removed unsourced speculation ('un loueur qui a remplacé les ampoules a probablement surveillé les plaquettes', 'plusieurs fois par kilomètre'). Added only generic mechanical checks (TWI wear marks, DOT 4-digit week/year code, chain slack, brakes) without numbers; documents: asked to see registration certificate and compulsory civil-liability insurance certificate, legal statement kept generic ('les règles vietnamiennes prévoient que le conducteur présente les papiers du véhicule') and consistent with Law 36/2024/QH15 cited in the longue-duree sub-hub; no article number or fine stated. Price: only owner range 150 000-200 000 VND/day (scooter/semi-auto) with the mandatory disclaimer. No model specs, no fleet claims.",
+   "INTENT": "Main question: what to check on a rental motorbike in Hanoi before leaving. Owner of 'inspecter sa moto de location à Hanoi'. Differs from location-moto-legal-liste-controle-vietnam (sim 0.33, legal/documents checklist) by being the mechanical inspection; documents appear only as one bullet. Links to retrait (full handover), what-is-included (equipment), panne (breakdown).",
+   "CONTENT": "Rewrote all prose in direct French (removed 'cette page complète… sans le répéter', 'ne se délègue pas', 'dépôt' framing). Sections: why inspect; papiers/casque/carburant (new checklist); pneus; freins (arrêt + essai); éclairage/clignotants/klaxon/rétroviseurs; chaîne/transmission/démarrage; electric scooter special case (new); photos et état des lieux (new); que faire si un point est défectueux (new); liste à cocher (12 items, previously a paragraph); ce que le contrôle ne remplace pas; FAQ 5 Q. Words 1599 -> 2207.",
+   "META": "Title kept (60 chars, natural, unique). H1 kept (aligned with title, plain). Description rewritten 174 -> 156 chars (factual, lists the checked items); og:description synced.",
+   "LINKS": "7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/what-is-included-location-moto-hanoi/, /location-moto-hanoi/panne-scooter-hanoi/, /permis-securite/securite/. tel/Zalo/WhatsApp links not counted.",
+   "AEO_GEO": "Direct answer in the lead (10-minute order of checks). 2 checklists (papiers/équipement and the final 12-item list), FAQ 5 Q without repetition, no external citation needed."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which documents are handed over with the motorbike (registration, insurance certificate)",
+   "Whether a helmet, lock or rain cover is included or charged",
+   "Expected fuel level at return",
+   "Who to call for a breakdown"
+  ]
+ }
+]

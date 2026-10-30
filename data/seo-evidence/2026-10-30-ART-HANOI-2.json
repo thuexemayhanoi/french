@@ -276,5 +276,237 @@
   "owner_gaps": [],
   "words_before": 1985,
   "words_after": 1636
+ },
+ {
+  "path": "hanoi/hanoi-musees-jour-pluie/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quels musées de Hanoi visiter un jour de pluie, comment les enchaîner par secteur et comment s’y rendre à moto sous l’averse.",
+  "new_meta": {
+   "title": "Musées de Hanoi sous la pluie : lesquels choisir, comment y aller",
+   "description": "Ethnologie, Hỏa Lò, Musée des femmes, beaux-arts : quels musées de Hanoi visiter un jour de pluie, comment les enchaîner à moto et quoi vérifier.",
+   "h1": "Musées de Hanoi sous la pluie : lesquels choisir, comment y aller"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported specifics from the old text: 'une vingtaine de minutes de scooter', 'une heure trente à deux heures' per museum, 'les jours de pluie ne suspendent pas un contrat', 'le comptoir reste joignable pour tout conseil de mauvais temps', 'habitués de la ville connaissent les heures où la pluie tombe', 'coupe-selle ou bâche selon les habitudes du moment'. Now: Vietnam Museum of Ethnology 8:30–17:30, closed Monday and Têt, adult ticket 40 000 VND per its official site (seen in search result: vme-en.vass.gov.vn; the ticket price is a museum fee, not a shop price, and is flagged 'à confirmer'). Other museums: only approximate hours reported by travel sites that contradict each other (Hỏa Lò ~8:00–17:00, Women's Museum ~8:00–17:00, Fine Arts ~8:30–17:00, closure day contested) — presented as 'repères', 'à vérifier', with no prices (seen in search results: north-vietnam.com, nashaplaneta.net, izitour.com). Hỏa Lò built by the French at the end of the 19th c., later used in the war (seen in search result; mémorial today). Mausoleum yearly maintenance 4 Sep–2 Nov 2026 (VietnamPlus, reused from que-faire hub); weekend closure around Hoan Kiem (Vietnam Airlines, reused); rainy season May–Sept with storms (Local Vietnam, reused). Tràng Tiền museum building described as Indochinese-style from general knowledge, hours 'à vérifier'. Price: only owner range for automatic scooter with disclaimer. No deposit, delivery, insurance, assistance or fleet statement. Flooded-street advice is generic.",
+   "INTENT": "Main question: quels musées visiter à Hanoi un jour de pluie et comment s’y rendre ? Owner of « musées de Hanoi sous la pluie » (OWNER). Closest pages: location-moto-hanoi-pluie-season (rental in rain, 0.21), types-motos/scooter-abs-vietnam-pluie (0.17), moto-pluie-securite-vietnam (0.11). Differs because it is a museum-by-museum plan with sectors; rain riding technique is delegated to permis-securite/moto-pluie-securite-vietnam and the wider rainy-day programme to que-faire-hanoi-when-it-rains.",
+   "CONTENT": "Full rewrite. New sections: museum table (5 museums, sector, content, hours as repères), 3-day table (centre / ouest / Temple of Literature), Ethnology detail, centre detail (Hỏa Lò, Women’s Museum, History), rain checklist, practicalities (hours, parking, price repère), FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« la bascule », « canevas éprouvé », « panoplie du motard pluvieux », « la ville s’en remet très bien »). Words 1626 → 1690.",
+   "META": "Title changed from « …itinéraires d’un jour couvert » to a clearer form (65 chars); description rewritten (≤160); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-when-it-rains/, /hanoi/temple-de-literature-hanoi-itineraire/, /hanoi/ba-dinh-hanoi-itineraire/, /permis-securite/moto-pluie-securite-vietnam/. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Lead answers directly (deux musées par jour, regroupés par secteur). Two tables, one checklist, FAQ 5 questions. Inline citations rel=noopener: VME official site, VietnamPlus, Vietnam Airlines, Local Vietnam."
+  },
+  "sources": [
+   {
+    "url": "https://vme-en.vass.gov.vn/",
+    "checked": "2026-10-30",
+    "used_for": "Ethnology museum hours (8:30–17:30, closed Monday and Têt) and 40 000 VND adult ticket (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamplus.vn/tu-bo-dinh-ky-lang-chu-tich-ho-chi-minh-tu-49-den-211-post1133954.amp",
+    "checked": "2026-10-30",
+    "used_for": "Mausoleum 2026 maintenance closure (reused from que-faire hub)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure around Hoan Kiem (reused from hub)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Rainy season May–Sept (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Official hours and prices of Hỏa Lò, the Women’s Museum, the Fine Arts Museum and the History Museum were not found in official sources; the text gives approximate 'repères' and tells readers to check."
+  ],
+  "words_before": 1626,
+  "words_after": 1690
+ },
+ {
+  "path": "hanoi/hanoi-nuit-market-scooter-stationnement/index.html",
+  "role": "OWNER",
+  "primary_intent": "Où sont les marchés de nuit de Hanoi, quand y aller et où garer un scooter sans mauvaise surprise.",
+  "new_meta": {
+   "title": "Marchés de nuit à Hanoi : où aller et où garer sa moto",
+   "description": "Marché du week-end du Vieux Quartier, marché de gros de Long Biên : horaires indicatifs, accès, où garer son scooter et comment éviter les barrières.",
+   "h1": "Marchés de nuit à Hanoi : où aller et où garer sa moto"
+  },
+  "evidence": {
+   "FACTS": "Removed vague or invented claims from the old text: 'tarif modique', 'les mises en fourrière existent', 'à dix minutes du lac', 'cinq minutes de marche', pickpocket generalisation, 'Hanoï reste une ville sûre', 'taxi moto'. Now sourced: weekend night market Fri–Sun along Hàng Đào–Hàng Ngang–Hàng Đường to Đồng Xuân market, 2–3 km, start ~18:00/19:00 and end 23:00/midnight depending on source (seen in search results: vietnamairlines.com/bh/en/useful-information/travel-guide/hanoi-night-market, localvietnam.com/hanoi/hanoi-weekend-night-market/); Đồng Xuân hall open daily by day (same results). Long Bien wholesale market under the bridge, access Yên Phụ street, peak ~22:00–05:00 per several guides, professional market not a tourist site, past closure plans mentioned and status to verify (seen in search result: localvietnam.com/hanoi/long-bien-market/). Weekend closure/pedestrian streets (Vietnam Airlines, Thời báo Tài chính Việt Nam, reused from hanoi/index.html); low-emission zone since 1 July 2026 (VietNamNet, reused); Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused); festival-night parking surcharges (Lao Động, reused). Alcohol: Decree 168/2024/ND-CP in force in 2026 per Traffic Police (seen in search result: vietnamnet.vn traffic-police-refute-claims…); no fine amount given. Price: only owner range for automatic scooter with disclaimer. Shop: closes 21:00, night returns phrased as a question to ask, nothing confirmed. No deposit, delivery, insurance or assistance statement.",
+   "INTENT": "Main question: où aller et où garer sa moto pour les marchés de nuit de Hanoi ? Owner of « marchés de nuit à Hanoï » (OWNER). Closest pages: que-faire-hanoi-at-nuit (night itinerary, 0.17), permis-securite/moto-hanoi-nuit-securite (night riding safety, 0.15), hoan-kiem-lac-hanoi-que-faire (0.14). Differs because it covers the markets themselves (which, when, how to get there) and parking; night itinerary stays in que-faire-hanoi-at-nuit and riding safety in the permis-securite guide.",
+   "CONTENT": "Full rewrite. New sections: market table (3 markets), weekend market how-to, parking checklist (6 points), Long Bien wholesale market at night, evening safety, FAQ rewritten to 5 non-repeating questions. Removed the long street-food and souvenir sections that duplicated other pages and the mannered prose (« rituel de ville », « la stratégie du grignotage », « formalités »). Words 1723 → 1637.",
+   "META": "Title kept the natural form (54 chars, “et” instead of comma); description rewritten (≤160 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-at-nuit/, /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-food-itineraire-moto/, /permis-securite/moto-hanoi-nuit-securite/. The old Bát Tràng link was replaced to stay within the cap. TOC synced with 7 H2 ids.",
+   "AEO_GEO": "Lead answers directly (marché du week-end, Hàng Đào → Đồng Xuân, garer avant les barrières). One table, one checklist, FAQ 5 questions. Inline citations rel=noopener: Vietnam Airlines (2 pages), Local Vietnam (2 pages), Viet Nam News, Thời báo Tài chính Việt Nam, Lao Động, VietNamNet (2)."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamairlines.com/bh/en/useful-information/travel-guide/hanoi-night-market",
+    "checked": "2026-10-30",
+    "used_for": "Weekend night market description and hours (seen in search result)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/hanoi-weekend-night-market/",
+    "checked": "2026-10-30",
+    "used_for": "Weekend night market route and days (seen in search result)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/long-bien-market/",
+    "checked": "2026-10-30",
+    "used_for": "Long Bien wholesale market at night: hours, nature, closure plans (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/traffic-police-refute-claims-of-increased-dui-fines-in-2026-2486574.html",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024 still in force in 2026 (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Hoan Kiem weekend closure (reused from hub)"
+   },
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+    "checked": "2026-10-30",
+    "used_for": "Old Quarter pedestrian streets 19:00–24:00 (reused from hub)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Bien bridge reopening 28 May 2026 (reused from hub)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+    "checked": "2026-10-30",
+    "used_for": "Low-emission zone since 1 July 2026 (reused from hub)"
+   },
+   {
+    "url": "https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo",
+    "checked": "2026-10-30",
+    "used_for": "Festival-night parking surcharges (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether night/late returns after 21:00 are possible for a rental (asked as a question in the text)."
+  ],
+  "words_before": 1723,
+  "words_after": 1637
+ },
+ {
+  "path": "hanoi/hanoi-perfume-pagoda-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment faire la pagode du Parfum à moto depuis Hanoi en une journée : route sans autoroute, barque, montée, période de fête.",
+  "new_meta": {
+   "title": "Pagode du Parfum à moto depuis Hanoi : route, barque et grotte",
+   "description": "Pagode du Parfum à moto depuis Hanoi : route sans autoroute, barque sur le ruisseau Yến, montée à pied ou en téléphérique, période de fête et préparation.",
+   "h1": "Pagode du Parfum à moto depuis Hanoi : route, barque et grotte"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced precision from the old text: 'environ deux heures de conduite effective', 'cadre de dix heures', 'départ avant sept heures', 'une heure à une heure et demie' of walking, 'une bonne demi-heure' in the cave, 'pagode Thien Tru et ses cours fleuries', 'pourboire à la descente reste un usage', 'route goudronnée du début à la fin', 'buffles'. Now: distance ~60–70 km from the centre (hub excursions-moto, Vietnam Airlines guide) and 40 km in some guides — the text says the gap comes from the starting point (seen in search results); route via National Highway 21B then provincial roads, per one guide (seen in search result: vinwonders.com/en/wonderpedia/news/perfume-pagoda-from-hanoi/); no driving time given. Boat from Đục wharf on the Yến stream, 1–1.5 h per guides, other wharfs possible (seen in search result: vinpearl.com/en/perfume-pagoda-hanoi and operator listings); climb ~2.5 km per one guide, cable car optional, times/prices 'à vérifier' (no prices given because sources are dated and conflict: 80 000 + 50 000 VND entry/ferry, cable car 100 000/140 000 VND were not used). Festival from 6th day of the 1st lunar month to end of the 3rd month, generally Feb–Apr (Vietnam Tourism, reused from excursions hub); crowds and queues from dawn in the first weeks (VnExpress International, reused); Têt 2027 = 6 Feb 2027 (seen in search result: e.vnexpress.net), hence ~11 Feb 2027 for the festival opening — a derived date explicitly marked 'confirmez'. Expressway ban and Feb 2026 case (VOV, reused from hub). Seasons (Local Vietnam, reused). Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00; out-of-Hanoi trip and breakdown policy phrased as questions to ask, not stated. No deposit, delivery, insurance, assistance or fleet statement.",
+   "INTENT": "Main question: comment faire la pagode du Parfum à moto depuis Hanoi ? Owner of « pagode du Parfum à moto » (OWNER). Closest pages: hanoi-sunset-itineraire-moto (0.15), hanoi-sapa-ha-giang (0.14), hanoi-a-pu-luong (0.14) — different topics. Aligned with hanoi/excursions-moto/ (linked) which gives the comparison table; this article gives the day plan.",
+   "CONTENT": "Full rewrite. New sections: 4-step day table, road section (distance, expressway rule, preparation, vehicle), boat, climb (walk or cable car), when to go (festival, weekends, weather), preparation checklist, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« dimension presque initiatique », « chaque étape méritant la suivante », « les batelières chantent seules »). Words 1670 → 1691.",
+   "META": "Title changed from « …route, barque et grotte sacrée » to a more precise form (62 chars, adds « depuis Hanoi »); description rewritten (154 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "5/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /permis-securite/securite/. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Lead answers directly (une longue journée, 60–70 km, pas d’autoroute, barque puis marche/téléphérique, éviter la fête). One table, one checklist, FAQ 5 questions. Inline citations rel=noopener: Vietnam Airlines, VinWonders, VOV, VnExpress International, Vietnam Tourism, Local Vietnam."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamairlines.com/en/useful-information/travel-guide/perfume-pagoda",
+    "checked": "2026-10-30",
+    "used_for": "Site description: Đục wharf, boat, walk to main cave (reused from excursions hub)"
+   },
+   {
+    "url": "https://vinwonders.com/en/wonderpedia/news/perfume-pagoda-from-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Route via National Highway 21B (seen in search result)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Expressway ban enforcement Feb 2026 (reused from hub)"
+   },
+   {
+    "url": "https://e.vnexpress.net/news/life/floating-under-the-moonlight-to-hanoi-s-perfume-pagoda-3713658.html",
+    "checked": "2026-10-30",
+    "used_for": "Queues at the boats from dawn in the first weeks of the festival (reused from excursions hub)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/perfume-pagoda-festival-vietnam-s-biggest-spring-pilgrimage",
+    "checked": "2026-10-30",
+    "used_for": "Festival period (reused from excursions hub)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "Seasons (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Exact cable-car and entry/boat prices and hours were not confirmed in an official source; the text says to check at the ticket office.",
+   "Whether out-of-Hanoi trips and breakdown handling are covered by the rental (asked as questions)."
+  ],
+  "words_before": 1670,
+  "words_after": 1691
+ },
+ {
+  "path": "hanoi/hanoi-photo-spots-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Où et quand photographier Hanoi à moto : spots, heures de lumière selon la saison, règles pour s’arrêter, ce qu’il faut éviter.",
+  "new_meta": {
+   "title": "Spots photo de Hanoi à moto : où, quand et comment s’arrêter",
+   "description": "Pont Thê Húc, pont Long Biên, lac de l’Ouest, quartier français : les spots photo de Hanoi, les heures de lumière selon la saison et comment s’arrêter à moto.",
+   "h1": "Spots photo de Hanoi à moto : où, quand et comment s’arrêter"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced or wrong statements from the old text: 'une boucle paisible d’une heure et demie', 'un chemin descend depuis la rive sud', 'cafés en hauteur', 'Aucun permis photo n’existe', 'vendeuses au panier à balance', typos (« their », « quiProgramment »). Sun times: early July sunrise ~5:20 / sunset ~18:40 (seen in search result: sunrise-sunset.net/vietnam/hanoi/2026/07) and mid-December ~6:25 / ~17:15 (seen in search result: alpenglowapp.com/times/hanoi). Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused from hub); rail traffic reduced in early 2026 (seen in search result: vietcetera.com 'Hanoi cuts train services to famous Train Street', Feb 2026 agreement; text only says 'réduite'). Train Street: tours banned in March 2025 (seen in search result: english.vtv.vn/news/hanoi-bans-tours-on-train-street-20250310095147632.htm); text says status to verify, no claim that it is closed or open. Drones: registration + Ministry of National Defence permission, central Hanoi sensitive (seen in search result: vietnamtourism.com 'flying a drone in vietnam' — travel guide, not primary); no fines quoted (sources unverified); advice is to refrain and check with authorities. Weekend closure around Hoan Kiem (Vietnam Airlines, reused from hub). Price: only owner range for automatic scooter with disclaimer. Shop: 09:00 pickup; earlier/evening-before pickup phrased as a question, nothing confirmed. No deposit, delivery, insurance or assistance statement.",
+   "INTENT": "Main question: où et quand faire de belles photos de Hanoi à moto ? Owner of « spots photo de Hanoï à moto » (OWNER). Closest pages: cao-bang-voyage-moto (0.17), hanoi-soc-son-moto-jour-voyage (0.15), hanoi-lakes-itineraire-moto (0.14) — different purposes. Differs from hanoi-sunset-itineraire-moto (sunset route) because it covers all the spots, season-dependent light, the do-not-do list (Train Street, drones, official buildings) and riding/stopping rules.",
+   "CONTENT": "Full rewrite. New sections: spots table (6), season-dependent light with sunrise/sunset references and checklist, Long Bien bridge and banks, lakes/Old Quarter/French Quarter, what to avoid (4-point list), two photo loops table, gear/vehicle section, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« l’ingrédient secret », « le tour est joué », « matière première la plus riche »). Words 1694 → 1584.",
+   "META": "Title changed from « …ponts, lacs et ruelles » to an action-oriented form (60 chars); description rewritten (158 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/long-bien-pont-hanoi/, /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-sunset-itineraire-moto/. TOC synced with 8 H2 ids.",
+   "AEO_GEO": "Lead answers directly (autour de Hoàn Kiếm, Long Biên, quartier français, lac de l’Ouest; lever du jour et dernière heure; photographier à l’arrêt). Three tables, two checklists, FAQ 5 questions. Inline citations rel=noopener: sunrise-sunset.net, Alpenglow, Viet Nam News, Vietcetera, Vietnam Airlines, VTV, Vietnam Tourism."
+  },
+  "sources": [
+   {
+    "url": "https://www.sunrise-sunset.net/vietnam/hanoi/2026/07",
+    "checked": "2026-10-30",
+    "used_for": "Sunrise/sunset early July (seen in search result)"
+   },
+   {
+    "url": "https://www.alpenglowapp.com/times/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "Sunrise/sunset mid-December (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Bien bridge reopening (reused from hub)"
+   },
+   {
+    "url": "https://vietcetera.com/en/hanoi-cuts-train-services-to-famous-train-street-can-it-remain-a-tourist-magnet",
+    "checked": "2026-10-30",
+    "used_for": "Rail traffic reduced through Train Street/Long Bien bridge area in 2026 (seen in search result)"
+   },
+   {
+    "url": "https://english.vtv.vn/news/hanoi-bans-tours-on-train-street-20250310095147632.htm",
+    "checked": "2026-10-30",
+    "used_for": "Tours to Train Street banned March 2025 (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/flying-a-drone-in-vietnam-rules-permits-and-no-fly-zones",
+    "checked": "2026-10-30",
+    "used_for": "Drone registration/permit regime, sensitive areas (seen in search result; secondary source)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi",
+    "checked": "2026-10-30",
+    "used_for": "Weekend closure around Hoan Kiem (reused from hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Primary-source drone rules (CAAV / Ministry of National Defence) were not opened; the text only says to check with authorities.",
+   "Whether an earlier or evening-before pickup is possible (asked as a question)."
+  ],
+  "words_before": 1694,
+  "words_after": 1584
  }
 ]

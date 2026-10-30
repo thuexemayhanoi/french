@@ -9,13 +9,13 @@
    "h1": "Yamaha GEAR 125 Hybride en ville : que vaut-elle dans la circulation de Hanoi ?"
   },
   "words_before": 1746,
-  "words_after": 2103,
+  "words_after": 2102,
   "evidence": {
    "FACTS": "Corrected the vehicle: GEAR 125 Hybrid is an automatic scooter (Yamaha Motor VN xe tay ga), not a retro underbone with a gear lever; removed all invented gearbox, clutch and retro-style content. Specs only from Yamaha Motor Vietnam pages seen in search results (seat 750 mm, 17.4 L, 12-inch wheels, 135 mm, ~95 kg STD, 5.1 L, 1.7 L/100 km, assist up to 3 s, DX idle stop/Smart Key/Y-On, launch April 2026). ABS explicitly not assumed. No price figure for the model; availability phrased as a question to the shop. Storage 37 L Latte / 27 L Grande taken from the Yamaha scooters hub (itself sourced to Yamaha pages). Removed unsourced claims (top case, retro looks, centre stand, hotel parking rules).",
    "INTENT": "Main question: what is the GEAR 125 Hybrid like to ride and park in Hanoi traffic. Owner of « yamaha GEAR 125 Hybride en ville » (OWNER). Differs from the closest pages (yamaha-latte-hanoi-ville, yamaha-neo-s-hanoi-ville) because it is about this model’s own traits (small wheels, 17.4 L, hybrid assist, DX idle stop) and from yamaha-boite-125-hybride-location-hanoi which covers renting decisions.",
    "CONTENT": "Full rewrite: removed mannered narrative (« le guidon de Hanoi », « disparaître », « grammaire »), the false gear-lever sections and the generic bilan. New sections: en bref, data table with practical effect, hybrid assist and idle stop, traffic and small wheels, parking, storage, rain, who it suits, handover checklist. FAQ rewritten to 5 non-redundant questions. Words 1746 -> see words_after.",
    "META": "Title, description, H1 rewritten for the correct vehicle (automatic scooter) and the owner query; og:title and og:description identical to title and description.",
-   "LINKS": "Kept /yamaha/, /types-motos/, /prix-location/ (required) and the sibling /yamaha/yamaha-boite-125-hybride-location-hanoi/; added /yamaha/scooters/, /yamaha/yamaha-latte-hanoi-ville/, /permis-securite/moto-pluie-securite-vietnam/; removed /location-moto-hanoi/. 7/7 unique links incl. parent hub.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/moto-pluie-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-boite-125-hybride-location-hanoi/, /yamaha/yamaha-latte-hanoi-ville/. added /yamaha/scooters/, /yamaha/yamaha-latte-hanoi-ville/, /permis-securite/moto-pluie-securite-vietnam/; removed /location-moto-hanoi/. 7/7 unique links incl. parent hub.",
    "AEO_GEO": "Direct answer in the lead (2-3 sentences). One table of manufacturer data, one checklist, 5 FAQ items, inline citations to two yamaha-motor.com.vn pages."
   },
   "sources": [
@@ -51,7 +51,7 @@
    "INTENT": "Main question: should I rent a GEAR 125 Hybrid in Hanoi, for which profile, what to ask. Owner of « yamaha GEAR 125 Hybride en location à Hanoi ». Differs from the price page (budget logic), the Vision comparison and the city page (riding behaviour).",
    "CONTENT": "Full rewrite. New sections: model definition (scooter not gearbox), profiles with load figure, STD vs DX table, availability message checklist with confirmed NAP, conditions to confirm, licence/cylindrée, handover checks. Removed the underbone explanation, gear-lever sections and invented stock/rarity statements. FAQ reduced to 5 distinct questions.",
    "META": "Title kept in form (« … en location à Hanoi : pour qui ? ») and description rewritten for the correct vehicle; H1 kept; og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-boite-125-hybride-hanoi-ville/, /yamaha/yamaha-boite-125-hybride-ou-honda-vision-location/, /yamaha/yamaha-boite-125-hybride-prix-location-hanoi/, /permis-securite/permis/. See check output for final count.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-boite-125-hybride-hanoi-ville/, /yamaha/yamaha-boite-125-hybride-ou-honda-vision-location/, /yamaha/yamaha-boite-125-hybride-prix-location-hanoi/.",
    "AEO_GEO": "Direct answer in lead; 2 tables/checklists (STD vs DX table, message checklist, conditions checklist, handover checklist); 5 FAQ; inline citations to two Yamaha Vietnam pages."
   },
   "sources": [
@@ -87,7 +87,7 @@
    "INTENT": "Main question: GEAR 125 Hybrid or Honda Vision for a rental in Hanoi. OWNER of « yamaha GEAR 125 Hybride ou Honda Vision ». Closest pages (yamaha-boite-125-hybride-location-hanoi, yamaha-latte-ou-honda-vision-location, honda-vision-ou-yamaha-janus-location) are linked and not duplicated: this page is about the GEAR-specific choice (selle, assist, DX, no price row).",
    "CONTENT": "Full rewrite with a spec/price table, riding differences, storage/passenger, budget, availability, four-question decision list. Removed philosophy/style/cult-of-character prose and unsourced claims about Vision popularity. FAQ trimmed to 5.",
    "META": "Title kept; description and H1 rewritten (scooter automatique framing, no promise of « le bon choix »); og tags identical to title/description.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-boite-125-hybride-location-hanoi/, /honda/honda-vision-location-hanoi/, /yamaha/yamaha-latte-ou-honda-vision-location/, /honda/honda-vision-ou-yamaha-janus-location/; removed /location-moto-hanoi/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-vision-location-hanoi/, /honda/honda-vision-ou-yamaha-janus-location/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-boite-125-hybride-location-hanoi/, /yamaha/yamaha-latte-ou-honda-vision-location/. removed /location-moto-hanoi/.",
    "AEO_GEO": "Direct answer in lead; comparison table; decision checklist; 5 FAQ; citations to Yamaha and Honda Vietnam pages (seen in search)."
   },
   "sources": [
@@ -128,7 +128,7 @@
    "INTENT": "Main question: what budget to expect to rent a GEAR 125 Hybrid. OWNER of « louer une Yamaha GEAR 125 Hybride ». Differs from yamaha-boite-125-hybride-location-hanoi (profiles, version, checks) by focusing on price logic and quotes; closest similar pages (sirius-fi/xmax prix) are other models.",
    "CONTENT": "Full rewrite: price table with disclaimer, duration logic using the three duration guides, why model price cannot be deduced, quote checklist, offer comparison, fuel/extra costs, message template. FAQ rewritten to 5.",
    "META": "Title and description rewritten (no « prix exact » promise); H1 kept; og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-boite-125-hybride-location-hanoi/, /prix-location/jour/, /prix-location/semaine/, /prix-location/mois/; removed /location-moto-hanoi/; the Vision comparison is mentioned in text without a link to respect the 7-link cap.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /prix-location/jour/, /prix-location/mois/, /prix-location/semaine/, /types-motos/, /yamaha/, /yamaha/yamaha-boite-125-hybride-location-hanoi/. removed /location-moto-hanoi/; the Vision comparison is mentioned in text without a link to respect the 7-link cap.",
    "AEO_GEO": "Direct answer with category range in lead; price table + disclaimer; quote checklist; message template; 5 FAQ."
   },
   "sources": [
@@ -164,7 +164,7 @@
    "INTENT": "Main question: can the GEAR 125 Hybrid be used for travel in Vietnam and how far. OWNER of « yamaha GEAR 125 Hybride et voyage au Vietnam ». Differs from the general owner permis-securite/moto-protective-boite-vietnam-voyage-moto (« voyage à moto au Vietnam », protective gear) by judging one model’s fitness for trips.",
    "CONTENT": "Full rewrite: data-to-consequence table, day trips vs mountains, fuel/autonomy, luggage/passenger, licence, preparation checklist, alternatives. Removed romantic « petites motos voyageuses » prose and « verdict » flourish. FAQ rewritten to 5.",
    "META": "Title, description and H1 rewritten (« jusqu’où » instead of « le vrai bilan / le bilan honnête »); og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-boite-125-hybride-location-hanoi/, /nord-vietnam/, /permis-securite/permis/, /permis-securite/moto-montagne-pass-securite-vietnam/; dropped /location-moto-hanoi/ and the price sibling.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-boite-125-hybride-location-hanoi/.",
    "AEO_GEO": "Direct answer in the lead; data table; preparation checklist; 5 FAQ; citations to two Yamaha Vietnam pages."
   },
   "sources": [
@@ -200,7 +200,7 @@
    "INTENT": "Main question: how does the Exciter 155 behave in Hanoi city traffic. OWNER of « l’Exciter 155 dans la circulation de Hanoi ». Differs from yamaha-freego-hanoi-ville (scooter) and yamaha-exciter-155-location-hanoi (renting decision) by focusing on clutch handling, hill starts, parking weight, rain/night.",
    "CONTENT": "Full rewrite: removed lyrical prose (« la ville s’apprend comme une langue », « partition »). New: data table, clutch in traffic, hill start, typical routes, parking, rain/night, who it suits, licence and budget, handover checklist. FAQ rewritten to 5. Technical riding tips are standard practice (no figures).",
    "META": "Title, description, H1 rewritten (« le guide » removed); og tags identical.",
-   "LINKS": "6/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-exciter-155-location-hanoi/, /honda/honda-winner-x-ou-yamaha-exciter-155-location/, /permis-securite/moto-pluie-securite-vietnam/.",
+   "LINKS": "6/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-winner-x-ou-yamaha-exciter-155-location/, /permis-securite/moto-pluie-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-exciter-155-location-hanoi/.",
    "AEO_GEO": "Direct answer in lead; data table; handover checklist; 5 FAQ; citations to two Yamaha Vietnam pages."
   },
   "sources": [
@@ -236,7 +236,7 @@
    "INTENT": "Main question: should I rent an Exciter 155 in Hanoi and what to ask. OWNER of « yamaha Exciter 155 en location à Hanoi ». Differs from the price page (how to read a quote), the city page (riding) and the Winner X comparison pages by being the rental decision guide.",
    "CONTENT": "Full rewrite: removed « profils » romance, « revival », and long-winded contract prose. New: model facts, three conditions, alternatives, versions/ABS, availability message with confirmed NAP, conditions to confirm, clutch-bike handover checks, Winner X pointer. FAQ rewritten to 5.",
    "META": "Title and H1 kept; description rewritten to the factual content; og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-exciter-155-hanoi-ville/, /yamaha/yamaha-exciter-155-prix-location-hanoi/, /permis-securite/permis/, /honda/honda-winner-x-ou-yamaha-exciter-155-location/ (owner of the Winner X comparison group). Removed /nord-vietnam/ and /permis-securite/moto-montagne-pass-securite-vietnam/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-winner-x-ou-yamaha-exciter-155-location/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-exciter-155-hanoi-ville/, /yamaha/yamaha-exciter-155-prix-location-hanoi/.",
    "AEO_GEO": "Direct answer in the lead; three conditions list; availability message checklist; contract and handover checklists; 5 FAQ; citations to two Yamaha Vietnam pages."
   },
   "sources": [
@@ -266,13 +266,13 @@
    "h1": "Exciter 155 ou Winner X pour la route : longue distance, passager et bagages"
   },
   "words_before": 1550,
-  "words_after": 1616,
+  "words_after": 1620,
   "evidence": {
    "FACTS": "Dropped the old narrative and shifted to the documented angle. Exciter figures only from Yamaha Motor Vietnam page seen in search results (5.4 L, ~265 km manufacturer estimate flagged, 795 mm, 119-124 kg). Winner X: no figures stated because honda.com.vn spec page was not found in search; reader pointed to the Honda fiche. Licence: A category above 125 cm3 under law 36/2024/QH15, recognition dependent on situation. Contract items (zone, deposit, breakdown, insurance) phrased as questions to confirm; no price (manual sport bikes). NAP/hours per SEO-FACTS. Passenger/luggage advice is generic riding practice, no figures.",
    "INTENT": "Main question: which of the two sport bikes copes better with long distances, a passenger and luggage outside Hanoi. DISTINCT_ANGLE; group owner honda/honda-winner-x-ou-yamaha-exciter-155-location/ (general urban comparison, linked once in the verdict). Differs from types-motos/winner-x-ou-exciter-155-location-vietnam and the Exciter location page by focusing on long stages, duo and bags.",
    "CONTENT": "Full rewrite: removed the generic duel (« même école », « le verdict honnête », « programme avant la marque »). New: common ground with permit and Exciter data, criteria table for long outings, fatigue and rhythm, passenger, luggage, contract questions, decision rule. FAQ rewritten to 5. Words 1550 -> see words_after.",
    "META": "Title, description and H1 refocused on the documented angle (long distance, duo, luggage); og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-winner-x-ou-yamaha-exciter-155-location/ (group owner, once, natural anchor), /yamaha/yamaha-exciter-155-location-hanoi/, /yamaha/yamaha-exciter-155-vietnam-voyage-moto/, /nord-vietnam/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-winner-x-ou-yamaha-exciter-155-location/, /nord-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-exciter-155-location-hanoi/, /yamaha/yamaha-exciter-155-vietnam-voyage-moto/.",
    "AEO_GEO": "Direct answer in the lead; criteria table; contract checklist; 5 FAQ; one inline citation to Yamaha Vietnam."
   },
   "sources": [
@@ -304,7 +304,7 @@
    "INTENT": "Main question: how much does it cost to rent an Exciter 155 and how to get a reliable answer. OWNER of « prix de location du Yamaha Exciter 155 à Hanoi ». Differs from the location page (profile and checks) by being only about price and quote reading; closest cross-model price pages (freego, pg-1) are other models.",
    "CONTENT": "Full rewrite: table of published categories (without the Exciter), factors, duration logic with the three duration guides, quote checklist, wear/damage questions, side costs, comparison advice, message template. FAQ rewritten to 5. Removed links to NVX and Sirius FI price pages, Winner X comparison and the repeated « la leçon dépasse l’Exciter » text.",
    "META": "Title and description rewritten (no promise of an amount); H1 rewritten; og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-exciter-155-location-hanoi/, /prix-location/jour/, /prix-location/semaine/, /prix-location/mois/; removed the Honda Winner X, NVX and Sirius FI links.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /prix-location/jour/, /prix-location/mois/, /prix-location/semaine/, /types-motos/, /yamaha/, /yamaha/yamaha-exciter-155-location-hanoi/. removed the Honda Winner X, NVX and Sirius FI links.",
    "AEO_GEO": "Direct answer in the lead (no tarif published); price table with disclaimer; two checklists; message template; 5 FAQ; one citation to Yamaha Vietnam."
   },
   "sources": [
@@ -335,7 +335,7 @@
    "INTENT": "Main question: can the Exciter 155 be used for a road trip and mountain roads in Vietnam. OWNER of « yamaha Exciter 155 ». Differs from yamaha-exciter-155-ou-honda-winner-x-location (long-distance duo/luggage criteria vs the other sport bike) and from the location page by being about route suitability.",
    "CONTENT": "Full rewrite: data table with travel consequences, day loops, national roads, paved passes vs pistes, fuel stops, luggage/passenger, licence and contract, preparation checklist. Removed rhetorical « paliers », « session de pilotage » and « échec avec un badge ». FAQ rewritten to 5.",
    "META": "Title and H1 kept (clear and natural); description rewritten to the facts.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-exciter-155-location-hanoi/, /nord-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /yamaha/yamaha-exciter-155-ou-honda-winner-x-location/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-exciter-155-location-hanoi/, /yamaha/yamaha-exciter-155-ou-honda-winner-x-location/.",
    "AEO_GEO": "Direct answer in the lead (oui, avec limites); data table; preparation checklist; 5 FAQ; two citations to Yamaha Vietnam pages."
   },
   "sources": [
@@ -365,13 +365,13 @@
    "h1": "Yamaha FreeGo dans la circulation de Hanoi : que vaut-elle au quotidien ?"
   },
   "words_before": 1775,
-  "words_after": 1603,
+  "words_after": 1604,
   "evidence": {
    "FACTS": "Replaced the vague « automatique urbaine à l’allure sportive » narrative with Yamaha Motor Vietnam facts seen in search results (Blue Core 125 cc, seat 780 mm, ~100/102 kg, 25 L, Stop & Start, ABS and Smart Key only on the S version, 12 V socket, 3.9 L tank on S ABS). Wheel size not found, so not stated. Latte 37 L / Grande 27 L taken from the Yamaha scooters hub. No price figure; no availability claim; parking/guardian practices phrased as general. Removed invented sensations and unsourced claims.",
    "INTENT": "Main question: how does the FreeGo behave and fit into Hanoi city traffic. OWNER of « yamaha FreeGo dans la circulation de Hanoi ». Differs from yamaha-exciter-155-hanoi-ville (clutch bike) and the FreeGo location page (renting) by being about riding, parking and storage.",
    "CONTENT": "Full rewrite: removed « grammaire du trafic », « la ville à hauteur de selle » and the repeated comparison paragraphs. New: data table, flow, Stop & Start and key, parking, storage, typical routes, rain and night, handover checklist. FAQ rewritten to 5.",
    "META": "Title and description rewritten; H1 reformulated as a question; og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-freego-location-hanoi/, /yamaha/yamaha-grande-hanoi-ville/, /types-motos/meilleur-scooter-hanoi-circulation/, /permis-securite/moto-pluie-securite-vietnam/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/moto-pluie-securite-vietnam/, /prix-location/, /types-motos/, /types-motos/meilleur-scooter-hanoi-circulation/, /yamaha/, /yamaha/yamaha-freego-location-hanoi/, /yamaha/yamaha-grande-hanoi-ville/.",
    "AEO_GEO": "Direct answer in the lead; data table; handover checklist; 5 FAQ; two citations to Yamaha Vietnam pages."
   },
   "sources": [
@@ -407,7 +407,7 @@
    "INTENT": "Main question: should I rent a FreeGo in Hanoi and what to ask. OWNER of « yamaha FreeGo en location à Hanoi ». Differs from the price page and the city page, and from yamaha-grande-location-hanoi and types-motos/yamaha-mio-location-hanoi by version and spec-based advice.",
    "CONTENT": "Full rewrite: model facts, profiles, version table, availability message, conditions to confirm, alternatives, licence, handover checks. FAQ rewritten to 5. Removed « face aux autres Yamaha » and duplicate paragraphs.",
    "META": "Title and H1 kept; description rewritten with facts; og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-freego-hanoi-ville/, /yamaha/yamaha-freego-prix-location-hanoi/, /yamaha/yamaha-grande-location-hanoi/, /honda/honda-vario-125-ou-yamaha-freego-location/; removed /types-motos/meilleur-scooter-hanoi-circulation/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-vario-125-ou-yamaha-freego-location/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-freego-hanoi-ville/, /yamaha/yamaha-freego-prix-location-hanoi/, /yamaha/yamaha-grande-location-hanoi/. removed /types-motos/meilleur-scooter-hanoi-circulation/.",
    "AEO_GEO": "Direct answer in the lead; version table; availability message checklist; conditions and handover checklists; 5 FAQ; two Yamaha Vietnam citations."
   },
   "sources": [
@@ -444,7 +444,7 @@
    "INTENT": "Main question: FreeGo or Vario 125 for long outings with a passenger and luggage. DISTINCT_ANGLE; group owner honda/honda-vario-125-ou-yamaha-freego-location/ (general comparison; linked once with a natural anchor in the final section). Differs from yamaha-lexi-ou-honda-vario-125-location and honda-vario-125-location-hanoi by comparing tank, storage, seat and contract questions for trips.",
    "CONTENT": "Full rewrite: spec table, tank and fuel stops, passenger and luggage, comfort, what these scooters allow outside Hanoi, contract/permit, decision rule. FAQ rewritten to 5.",
    "META": "Title, description and H1 refocused on the documented angle; og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-vario-125-ou-yamaha-freego-location/ (group owner), /yamaha/yamaha-freego-location-hanoi/, /yamaha/yamaha-freego-vietnam-voyage-moto/, /nord-vietnam/; removed /types-motos/meilleur-scooter-hanoi-circulation/ and /yamaha/yamaha-grande-ou-honda-lead-abs-location/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-vario-125-ou-yamaha-freego-location/, /nord-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-freego-location-hanoi/, /yamaha/yamaha-freego-vietnam-voyage-moto/. removed /types-motos/meilleur-scooter-hanoi-circulation/ and /yamaha/yamaha-grande-ou-honda-lead-abs-location/.",
    "AEO_GEO": "Direct answer in the lead (tank vs coffre); comparison table; 5 FAQ; four inline citations to Yamaha and Honda Vietnam pages seen in search."
   },
   "sources": [
@@ -482,17 +482,17 @@
   "primary_intent": "Prix de location de la Yamaha FreeGo à Hanoi : repère de catégorie, version, durée, lecture d’un devis",
   "new_meta": {
    "title": "Prix de location du Yamaha FreeGo à Hanoi : repères et devis",
-   "description": "Quel budget pour louer une Yamaha FreeGo à Hanoi ? Pas de tarif propre au modèle : repère de la catégorie scooter automatique, version, durée et lecture du devis.",
+   "description": "Quel budget pour louer une Yamaha FreeGo à Hanoi ? Pas de tarif propre au modèle : repère de la catégorie scooter automatique, version, durée, lecture du devis.",
    "h1": "Prix de location du Yamaha FreeGo à Hanoi : repères et lecture du devis"
   },
   "words_before": 1708,
-  "words_after": 1388,
+  "words_after": 1603,
   "evidence": {
    "FACTS": "Removed unsourced tarif logic, deposit/passport/refund/delivery/insurance lines (flagged: 5 deposit, 6 insurance, 2 refund, 1 legal, 3 duplicated paragraphs before). Prices only from owner table: category automatic scooter 150 000-200 000 / 600 000-1 000 000 / 1 200 000-2 000 000 VND as repère to confirm, Vision row 200 000 / 1 000 000 / 2 000 000 as the only model-specific line, FreeGo explicitly without a row; disclaimer next to table and quoted rate; no multiplication or conversion. Conditions (deposit, inclusions, documents, breakdown, insurance, late fee) phrased once as to confirm. Yamaha facts from a page seen in search (S ABS: ABS and Smart Key, 3.9 L tank, 12 V socket, 25 L). NAP/hours per SEO-FACTS.",
    "INTENT": "Main question: budget to rent a FreeGo. OWNER of « prix de location du Yamaha FreeGo à Hanoi ». Differs from yamaha-freego-location-hanoi (profile and checks) by price logic only; and from prix-location/50cc-location-scooter-hanoi-prix (DISTINCT_ANGLE on 50cc deposit) by being about one 125 cm3 model.",
    "CONTENT": "Full rewrite: price table with disclaimer, version question, durations with three guides, quote checklist, side costs, comparison, state-of-machine warning, message template. FAQ rewritten to 5. Removed links to Grande and Janus price pages (cap).",
    "META": "Title, description and H1 rewritten (no promise of an amount); og tags identical.",
-   "LINKS": "7/7 unique: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-freego-location-hanoi/, /prix-location/jour/, /prix-location/semaine/, /prix-location/mois/; removed /yamaha/yamaha-grande-prix-location-hanoi/ and /yamaha/yamaha-janus-125-prix-location-hanoi/.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /prix-location/jour/, /prix-location/mois/, /prix-location/semaine/, /types-motos/, /yamaha/, /yamaha/yamaha-freego-location-hanoi/. removed /yamaha/yamaha-grande-prix-location-hanoi/ and /yamaha/yamaha-janus-125-prix-location-hanoi/.",
    "AEO_GEO": "Direct answer with category range in the lead; price table with disclaimer; two checklists; message template; 5 FAQ; one Yamaha Vietnam citation."
   },
   "sources": [
@@ -505,6 +505,78 @@
   "owner_gaps": [
    "Own price row for the FreeGo (standard and S) if the shop offers it",
    "Deposit/guarantee, inclusions, late fee, breakdown/insurance (kept as questions to confirm)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-freego-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Peut-on faire un road trip ou des sorties longues au Vietnam avec une Yamaha FreeGo (scooter automatique 125 cm³) ?",
+  "new_meta": {
+   "title": "Road trip au Vietnam en Yamaha FreeGo : jusqu’où ?",
+   "description": "Road trip au Vietnam en Yamaha FreeGo : sorties à la journée oui, grandes boucles de montagne non. Réservoir, coffre, ABS, pleins, permis et préparation.",
+   "h1": "Road trip au Vietnam en Yamaha FreeGo : jusqu’où aller ?"
+  },
+  "words_before": 1634,
+  "words_after": 1635,
+  "evidence": {
+   "FACTS": "Replaced the « programme / terrain interdit » boilerplate with Yamaha Motor Vietnam data seen in search (Blue Core 125 cc, ~100/102 kg, 25 L, 3.9 L tank on S ABS, ABS and Smart Key on S only, 12 V socket). No distances, durations or fines; itineraries qualitative with « calculez sur une carte ». Licence: law 36/2024/QH15 from 1 Jan 2025, 125 cm3 at the upper limit of A1, recognition dependent on situation. Trip rules (zone, mileage, breakdown, deposit) phrased as questions to confirm; no rate quoted. NAP/hours per SEO-FACTS.",
+   "INTENT": "Main question: how far can a FreeGo go on a Vietnamese road trip. OWNER of « road trip au Vietnam en Yamaha FreeGo ». Differs from the GEAR travel page and yamaha-nmax/janus/lexi travel pages by FreeGo-specific limits (3.9 L tank, ABS only on S, 25 L); the Vario comparison covers the head-to-head.",
+   "CONTENT": "Full rewrite: data table, realistic day trips, mountain and pistes limits, fuel, luggage/passenger, safety and weather, licence and contract, preparation checklist. FAQ rewritten to 5. Removed « grammaire », « programme » boilerplate.",
+   "META": "Title kept (apostrophe typographic), description rewritten, H1 slightly extended (« aller »); og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-freego-location-hanoi/, /yamaha/yamaha-freego-ou-honda-vario-125-location/.",
+   "AEO_GEO": "Direct answer in the lead; data table; preparation checklist; 5 FAQ; two Yamaha Vietnam citations."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/freego-phien-ban-tieu-chuan-mau-moi-b4u9/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: 25 L, ~100 kg, Blue Core 125 cc"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4ua/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: S ABS 102 kg, 3.9 L tank, ABS and Smart Key on S, 12 V socket"
+   }
+  ],
+  "owner_gaps": [
+   "FreeGo standard version tank, wheel size and maximum load not found",
+   "Shop policy on zone/mileage for trips outside Hanoi; breakdown procedure"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-grande-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut la Yamaha Grande (scooter automatique 125 cm³ à grand coffre) dans les rues de Hanoi : maniabilité, rangement, passager, stationnement, pluie",
+  "new_meta": {
+   "title": "La Yamaha Grande dans Hanoi : coffre, confort et parking",
+   "description": "La Yamaha Grande dans les rues de Hanoi : scooter 125 cm³ à coffre éclairé de 27 L, assistance hybride. Maniabilité, parking, passager, pluie et contrôles.",
+   "h1": "La Yamaha Grande dans les rues de Hanoi : que vaut-elle au quotidien ?"
+  },
+  "words_before": 1533,
+  "words_after": 1662,
+  "evidence": {
+   "FACTS": "Replaced the « signature rétro / classique » narrative with Yamaha Motor Vietnam facts seen in search (Blue Core Hybrid 125, 27 L LED-lit storage for two helmets, 4.0 L tank, 1820 x 684 x 1155 mm, ground clearance 127 mm). Seat height not stated (current figure not found; the only seat height seen belonged to the 2014 model) and ABS, weight and max load explicitly left as questions. Latte 37 L from the Yamaha scooters hub. No price (no owner row), no availability claim; parking/guardian practices phrased as general. Removed invented sensations and generic repeated sections.",
+   "INTENT": "Main question: how does the Grande behave and fit in Hanoi traffic and daily life. OWNER of « la Yamaha Grande dans les rues de Hanoi ». Differs from yamaha-latte-hanoi-ville and yamaha-neo-s-hanoi-ville by this model’s facts (27 L, dimensions, ground clearance) and from yamaha-grande-location-hanoi (renting) and yamaha-grande-prix-location-hanoi (price).",
+   "CONTENT": "Full rewrite: data table, flow and size, storage, passenger, parking, rain/bridges/night, profile, handover checklist. FAQ rewritten to 5.",
+   "META": "Title, description and H1 rewritten (« sensations et quotidien » removed); og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/moto-pluie-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-grande-location-hanoi/, /yamaha/yamaha-grande-prix-location-hanoi/, /yamaha/yamaha-latte-hanoi-ville/. removed /types-motos/meilleur-scooter-hanoi-circulation/.",
+   "AEO_GEO": "Direct answer in the lead; data table; handover checklist; 5 FAQ; two Yamaha Vietnam citations."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: 27 L storage, 4.0 L tank, 1820 x 684 x 1155 mm, ground clearance 127 mm, Blue Core Hybrid 125"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-dac-biet-mau-moi-2024-bjj8/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: 27 L with LED light and two helmets, 4.0 L tank"
+   }
+  ],
+  "owner_gaps": [
+   "Seat height, weight, ABS and maximum load of the current Grande not retrieved",
+   "Whether the shop has a Grande and which version"
   ]
  }
 ]
