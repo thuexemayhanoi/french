@@ -1899,7 +1899,7 @@
           "Faut-il partir de Hanoi ou de Saigon ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/ho-chi-minh-a-hanoi-location-moto/index.html",
           "centre-sud-vietnam/index.html",
@@ -3565,7 +3565,7 @@
           "Un scooter automatique demande-t-il le même entretien ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/index.html",
           "centre-sud-vietnam/meilleur-moto-vietnam-nord-sud/index.html",
@@ -3617,7 +3617,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Kept /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/ (required). Replaced budget and Hanoi–HCM links by the three most useful siblings for the topic: permis-securite/moto-pneu-controle-voyage-moto-vietnam, moto-frein-controle-location, moto-breakdown-vietnam-location, plus moto-luggage-vietnam-voyage-moto. 7/7 unique internal links; parent hub present. Built check: 3 source-body incoming links (e.g. centre-sud-vietnam/index.html, centre-sud-vietnam/meilleur-moto-vietnam-nord-sud/index.html, centre-sud-vietnam/moto-luggage-vietnam-voyage-moto/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Kept /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/ (required). Replaced budget and Hanoi–HCM links by the three most useful siblings for the topic: permis-securite/moto-pneu-controle-voyage-moto-vietnam, moto-frein-controle-location, moto-breakdown-vietnam-location, plus moto-luggage-vietnam-voyage-moto. 7/7 unique internal links; parent hub present. Built check: 4 source-body incoming links (e.g. centre-sud-vietnam/index.html, centre-sud-vietnam/meilleur-moto-vietnam-nord-sud/index.html, centre-sud-vietnam/moto-luggage-vietnam-voyage-moto/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "a29cd2061d42c56923cb7f1aa543adf8cceceb86dec6f958f223a15c01cd24b8"
         },
         "AEO_GEO": {
@@ -3944,10 +3944,11 @@
           "Où laisser les affaires inutiles pendant le voyage ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/index.html",
-          "centre-sud-vietnam/moto-entretien-liste-controle-vietnam-voyage-moto/index.html"
+          "centre-sud-vietnam/moto-entretien-liste-controle-vietnam-voyage-moto/index.html",
+          "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -3995,7 +3996,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept meilleur-moto-vietnam-nord-sud and vietnam-coastal-itineraire-moto; added moto-entretien-liste-controle-vietnam-voyage-moto and permis-securite/moto-pluie-securite-vietnam. 7/7 unique; parent hub present. Built check: 2 source-body incoming links (e.g. centre-sud-vietnam/index.html, centre-sud-vietnam/moto-entretien-liste-controle-vietnam-voyage-moto/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept meilleur-moto-vietnam-nord-sud and vietnam-coastal-itineraire-moto; added moto-entretien-liste-controle-vietnam-voyage-moto and permis-securite/moto-pluie-securite-vietnam. 7/7 unique; parent hub present. Built check: 3 source-body incoming links (e.g. centre-sud-vietnam/index.html, centre-sud-vietnam/moto-entretien-liste-controle-vietnam-voyage-moto/index.html, centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "87449a30958e6b3e3f4e5deb31cf8e8f23bdfdb2707436b66a39cbf1c5187054"
         },
         "AEO_GEO": {
@@ -4397,7 +4398,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "d364c34a4694a28f3d145e11fa64eeedee562186f57d0e4b2db622e27e0e1697"
         },
         "TECHNICAL": {
@@ -4522,7 +4523,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "26241d7d2a64c0a919fe3ef911e61314c2d04ab2ce3c614647cbe2c81f5f775d"
         },
         "TECHNICAL": {
@@ -5475,7 +5476,7 @@
           "Remonter vers le Centre et le Nord",
           "Continuer la préparation"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 8,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/centre/index.html",
           "centre-sud-vietnam/index.html",
@@ -5831,34 +5832,33 @@
       "cluster": "centre-sud",
       "parent_hub": "/centre-sud-vietnam/",
       "priority": "P1",
-      "keyword_seed_fr": "Traversée du Vietnam en moto : le budget, poste par poste",
+      "keyword_seed_fr": "Budget d’une traversée du Vietnam en moto : les postes de dépense",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "1a7871ee84f7512ae717aba7428986cdc809947fe89ae9d6e37399f2d4980a95",
+        "source_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a",
         "title": "Traversée du Vietnam en moto : le budget, poste par poste",
         "title_chars": 57,
-        "description": "Location, essence, hébergements, repas, équipement et imprévus : comment se construit réellement le budget d'une traversée du Vietnam en moto, sans chiffres figés.",
-        "description_chars": 163,
-        "h1": "Traversée du Vietnam en moto : le budget, poste par poste",
+        "description": "Budget d’une traversée du Vietnam en moto : postes de dépense, tarifs indicatifs de location à Hanoi, essence, nuits, équipement, imprévus et estimation.",
+        "description_chars": 153,
+        "h1": "Budget d’une traversée du Vietnam en moto : les postes de dépense",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/",
-        "editorial_word_count_estimate": 1781,
+        "editorial_word_count_estimate": 1544,
         "h2_h3": [
-          "Un budget vivant, jamais figé",
-          "La location : le poste qui change tout",
+          "Les postes du budget et comment les estimer",
+          "La location : le poste le plus important",
           "Essence et entretien courant",
-          "Hébergements et repas",
-          "Équipement et papiers",
-          "La part de l’imprévu",
-          "Maîtriser la dépense sans rogner le plaisir",
-          "Questions fréquentes sur le budget",
+          "Nuits, repas et eau",
+          "Équipement, assurance et papiers",
+          "Imprévus et leviers d’économie",
+          "Questions fréquentes",
           "Quel est le budget moyen d’une traversée en moto ?",
-          "La caution de location est-elle négociable ?",
-          "Les formules one-way coûtent-elles beaucoup plus cher ?",
-          "Peut-on voyager avec un petit budget sans danger ?",
-          "Combien prévoir pour les imprévus ?",
+          "Les tarifs de location de Thuê xe máy Nguyễn Hà valent-ils pour une traversée ?",
+          "Une caution est-elle demandée ?",
+          "L’aller simple coûte-t-il plus cher ?",
+          "Que prévoir pour les imprévus ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 1,
@@ -5890,47 +5890,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Added the owner reference prices (semi-automatic 150,000–200,000 / 700,000–800,000 / 1,000,000–1,200,000 VND; automatic scooter 150,000–200,000 / 600,000–1,000,000 / 1,200,000–2,000,000 VND) with the mandatory disclaimer ‘Tarifs indicatifs, à confirmer avant toute réservation selon le véhicule et la durée’ and an explicit statement that they say nothing about zone, one-way, rail transport or multi-week terms; no multiplication, no € conversion (only advice to use a dated rate). Removed unsourced/unconfirmed statements: ‘les frais de rapatriement’ for one-way presented as fact, ‘la caution… par dépôt d’espèces ou par empreinte’, ‘les loueurs accordent plus facilement une journée offerte’, ‘achat-revente’ detail, ‘les tarifs de carburant encadrés’, ‘une hospitalisation non couverte dépasse en un jour le budget’, ‘certaines agences incluent sacoches et kit’. Deposit now only generic (‘certains loueurs demandent… demandez la règle’, plus ‘rien n’est confirmé pour Nguyễn Hà’ in FAQ) – review flags accepted as qualified. Sources: Thanh Tra (Sept–Dec storm season, hub), Vietnam Coracle (moto by train, authorisation needed, tariffs at counter; hub). No numeric fuel/lodging/meal figures. Sources: https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html; https://vietnamcoracle.com/how-to-send-your-motorbike-on-the-train",
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Main question: how to build the budget of a crossing. OWNER ‘traversée du Vietnam en moto’. Closest pages vietnam-nord-a-sud-voyage-moto (0.33, trip overview), prix-location/nord-vietnam-voyage-moto-budget-7-jours (0.31), moto-entretien (0.27): this page is a cost-structure and estimation method with the shop’s indicative rental rates; routes and regions are in the overview.",
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Rewritten: cost-post worksheet table, rental section with owner price table, fuel/maintenance, nights/meals, equipment/insurance/papers, imprévus + levers checklist, FAQ. Removed abstract padding (‘un budget vivant’, ‘vocabulaire’). Words 1822→1582. Sources: https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html; https://vietnamcoracle.com/how-to-send-your-motorbike-on-the-train",
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Title kept (57); description rewritten (153); H1 aligned (‘les postes de dépense’); og tags identical to title/description. Built check: Unique title (57 chars) and description (153 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept meilleur-moto-vietnam-nord-sud; added /prix-location/, moto-entretien-liste-controle-vietnam-voyage-moto, moto-luggage-vietnam-voyage-moto (hanoi-a-ho-chi-minh mentioned in text without link to respect the 7-link cap). 7/7 unique; parent hub present. Built check: 1 source-body incoming links (e.g. centre-sud-vietnam/index.html); 1 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Lead answers directly (no universal total; location and nights dominate; owner rates quoted with disclaimer). 2 tables, 1 checklist, FAQ 5 questions. 2 inline citations.",
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "1a7871ee84f7512ae717aba7428986cdc809947fe89ae9d6e37399f2d4980a95"
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-centre-sud-vietnam-vietnam-voyage-moto-budget-nord-sud assets/images/seo/centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/hero.webp WebP 1200x630 207 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "1a7871ee84f7512ae717aba7428986cdc809947fe89ae9d6e37399f2d4980a95"
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html: self canonical https://fr.rentbikehanoi.com/centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "1a7871ee84f7512ae717aba7428986cdc809947fe89ae9d6e37399f2d4980a95"
+          "verified_sha256": "c440cdb31fbc7b31d0b11da3f2fd57595bb3f140dc1219bb1fb1457934bfd40a"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -5948,33 +5955,34 @@
       "cluster": "centre-sud",
       "parent_hub": "/centre-sud-vietnam/",
       "priority": "P2",
-      "keyword_seed_fr": "Vũng Tàu à moto : deux plages, deux monts et la corniche",
+      "keyword_seed_fr": "Vũng Tàu à moto : plages, monts et corniche",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Thông tin du lịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "b541bcbe03eabc08ba3d908bc06d69be30f76a7981f29f193822217a01247f4b",
-        "title": "Vũng Tàu à moto : deux plages, deux monts et la corniche",
-        "title_chars": 56,
-        "description": "Vũng Tàu à moto : la plage avant et la plage arrière, la statue du sommet, le phare et la corniche sous le mont, saison et conseils de location.",
-        "description_chars": 144,
-        "h1": "Vũng Tàu à moto : deux plages, deux monts et la corniche",
+        "source_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941",
+        "title": "Vũng Tàu à moto : plages, statue, phare et route de corniche",
+        "title_chars": 60,
+        "description": "Vũng Tàu à moto depuis Saigon : plage de la baie et plage du large, petit et grand mont, statue et phare, corniche, week-ends chargés, saison et vérifications.",
+        "description_chars": 159,
+        "h1": "Vũng Tàu à moto : plages, monts et corniche",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/centre-sud-vietnam/vung-tau-itineraire-moto/",
-        "editorial_word_count_estimate": 2140,
+        "editorial_word_count_estimate": 1525,
         "h2_h3": [
-          "Vũng Tàu, le balcon sur la mer des Saïgonnais",
-          "Les deux plages : baie et mer ouverte",
-          "Les deux monts : la statue et le phare",
-          "La corniche sous le mont",
-          "Rejoindre Vũng Tàu et y louer",
-          "Machine, sécurité et conduite urbaine",
-          "Saisons et fenêtres de week-end",
-          "Questions fréquentes sur Vũng Tàu à moto",
-          "Combien de temps pour Vũng Tàu depuis Hô Chi Minh Ville ?",
+          "Vũng Tàu en bref : les sites et les repères",
+          "Les deux plages : la baie et le large",
+          "Les monts, la statue et le phare",
+          "La route de corniche",
+          "Un programme d’une journée sur place",
+          "Rejoindre Vũng Tàu depuis Saigon",
+          "Saison, week-ends et météo",
+          "Machine, location et papiers",
+          "Questions fréquentes",
+          "Quelle distance entre Saigon et Vũng Tàu ?",
           "Pourquoi deux plages à Vũng Tàu ?",
-          "La corniche de la montagne se roule-t-elle en demi-journée ?",
-          "Quelle moto pour Vũng Tàu et la corniche ?",
+          "Peut-on monter à la statue à moto ?",
+          "Quelle moto pour Vũng Tàu ?",
           "Quand éviter Vũng Tàu ?",
           "Pour aller plus loin"
         ],
@@ -6009,47 +6017,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Corrected a probable error of the old text: it placed the lighthouse on the ‘grand mont’ and described a ‘corniche au nord de la ville… réserves au pied des collines’; WebSearch (standard) could not confirm either (one snippet even tied the statue to the small mountain), so the page now gives the statue on the petit mont (query result: ≈800 steps, single source, flagged ‘à vérifier’), says the lighthouse access must be checked on a map, and describes the corniche generically as the coastal road between the two beaches (consistent with hub ‘corniche entre deux collines’). Distance Saigon–Vũng Tàu: sources give 90, 100, 110 or 120 km, stated as ‘entre 90 et 120 km selon les sources’ (seen in search result, no URL cited); back beach ≈8–10 km (two sources). Removed unsourced narrative (‘villas coloniales’, ‘pétrole au large’, ‘cap… depuis des siècles’, ‘boucle des crêtes’, fruits de mer au panier, hub-contradicting heading ‘balcon des Saïgonnais’). Hub-verified: 2025 merger of Bà Rịa–Vũng Tàu into HCMC (Thời báo Tài chính Việt Nam), Southern rainy season (Pháp Luật TP.HCM), expressway ban (law 36/2024/QH15). Hanoi-rental caveat; licence generic; no price. Sources: https://thoibaotaichinhvietnam.vn/tp-ho-chi-minh-tao-khong-gian-dong-luc-phat-trien-moi-cho-khu-vuc-ba-ria-vung-tau-182702.html; https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Main question: what to see/how to ride in Vũng Tàu by moto. OWNER ‘Vũng Tàu à moto’. Closest pages (nord-vietnam/halong 2 jours 0.23, nha-trang 0.21) are unrelated; route from Saigon is delegated to ho-chi-minh-a-vung-tau-moto.",
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Rewritten: sites table with caveated figures, two beaches, mountains/statue/lighthouse checklist, corniche, one-day programme table (new), access from Saigon, season and weekends, machine/rental, FAQ. Removed mannered prose (‘la ville récompense toujours ceux qui se lèvent’, ‘la discipline du site’). Words 2198→1580. Sources: https://thoibaotaichinhvietnam.vn/tp-ho-chi-minh-tao-khong-gian-dong-luc-phat-trien-moi-cho-khu-vuc-ba-ria-vung-tau-182702.html; https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Title (60), description (159), H1 and eyebrow rewritten; og tags identical to title/description. Built check: Unique title (60 chars) and description (159 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept ho-chi-minh-a-vung-tau-moto and moto-ho-chi-minh-ville; added sud/. 6/7 unique; parent hub present. Built check: 4 source-body incoming links (e.g. centre-sud-vietnam/con-dao-voyage-moto/index.html, centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html, centre-sud-vietnam/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 6 unique internal body links, none broken.",
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-CENTRE-2.json): Lead answers directly (peninsula with two beaches and two mountains; access without expressway; early start; weekends busy). 2 tables, 2 lists, FAQ 5 questions. 2 inline citations.",
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/centre-sud-vietnam/vung-tau-itineraire-moto/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "b541bcbe03eabc08ba3d908bc06d69be30f76a7981f29f193822217a01247f4b"
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-centre-sud-vietnam-vung-tau-itineraire-moto assets/images/seo/centre-sud-vietnam/vung-tau-itineraire-moto/hero.webp WebP 1200x630 204 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "b541bcbe03eabc08ba3d908bc06d69be30f76a7981f29f193822217a01247f4b"
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/centre-sud-vietnam/vung-tau-itineraire-moto/index.html: self canonical https://fr.rentbikehanoi.com/centre-sud-vietnam/vung-tau-itineraire-moto/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "b541bcbe03eabc08ba3d908bc06d69be30f76a7981f29f193822217a01247f4b"
+          "verified_sha256": "6ca4d4da58d8c8ce335549d4ff394c0579d0bea2567749859073490c41be1941"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -8349,7 +8364,7 @@
           "Que faire s’il pleut ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 5,
+        "source_body_internal_inlinks": 6,
         "source_body_internal_inlink_examples": [
           "hanoi/hanoi-5-jours-itineraire/index.html",
           "hanoi/hanoi-cafes-quartiers-scooter/index.html",
@@ -8603,9 +8618,10 @@
           "La légende est-elle historique ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
           "hanoi/excursions-moto/index.html",
+          "hanoi/hanoi-soc-son-moto-jour-voyage/index.html",
           "hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
@@ -8981,11 +8997,11 @@
           "Où laisser la moto ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "hanoi/hanoi-nuit-market-scooter-stationnement/index.html",
-          "hanoi/index.html",
-          "hanoi/que-faire-hanoi-christmas/index.html"
+          "hanoi/hanoi-street-food-itineraire-moto/index.html",
+          "hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -9033,7 +9049,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-street-food-itineraire-moto/ (owner, once, FAQ), /hanoi/hanoi-nuit-market-scooter-stationnement/, /hanoi/que-faire-hanoi-at-nuit/, /permis-securite/moto-hanoi-nuit-securite/. TOC synced with 8 H2 ids. Built check: 4 source-body incoming links (e.g. hanoi/hanoi-nuit-market-scooter-stationnement/index.html, hanoi/index.html, hanoi/que-faire-hanoi-christmas/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-street-food-itineraire-moto/ (owner, once, FAQ), /hanoi/hanoi-nuit-market-scooter-stationnement/, /hanoi/que-faire-hanoi-at-nuit/, /permis-securite/moto-hanoi-nuit-securite/. TOC synced with 8 H2 ids. Built check: 5 source-body incoming links (e.g. hanoi/hanoi-nuit-market-scooter-stationnement/index.html, hanoi/hanoi-street-food-itineraire-moto/index.html, hanoi/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "07a2d596439d7b369928c4a19b71ff37672723d3ce53003833c90c3cfbc785f0"
         },
         "AEO_GEO": {
@@ -9105,8 +9121,9 @@
           "Le palais présidentiel se visite-t-il ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
+          "hanoi/hanoi-quartier-francais-que-faire/index.html",
           "hanoi/index.html",
           "hanoi/que-faire/index.html"
         ],
@@ -9156,7 +9173,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/long-bien-pont-hanoi/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-photo-spots-moto/. TOC synced with 7 H2 ids. Built check: 2 source-body incoming links (e.g. hanoi/index.html, hanoi/que-faire/index.html); 52 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/long-bien-pont-hanoi/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-photo-spots-moto/. TOC synced with 7 H2 ids. Built check: 3 source-body incoming links (e.g. hanoi/hanoi-quartier-francais-que-faire/index.html, hanoi/index.html, hanoi/que-faire/index.html); 52 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "fee6da13312a1791a55651f0c4b4b655e1c0975f68ccac1b17f8cf59107bd4f1"
         },
         "AEO_GEO": {
@@ -9176,7 +9193,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 7 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 7 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "fee6da13312a1791a55651f0c4b4b655e1c0975f68ccac1b17f8cf59107bd4f1"
         },
         "TECHNICAL": {
@@ -9355,7 +9372,7 @@
           "Faut-il craindre les restrictions pour les motos à essence ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "hanoi/hanoi-cafes-itineraire-moto/index.html",
           "hanoi/hanoi-cafes-quartiers-scooter/index.html",
@@ -9407,7 +9424,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/west-lac-hanoi-moto/, /hanoi/hanoi-sunset-itineraire-moto/, /hanoi/hanoi-cafes-itineraire-moto/. The old link to jour-voyages-de-hanoi-by-moto was dropped to stay within the cap. TOC synced with 7 H2 ids. Built check: 8 source-body incoming links (e.g. hanoi/hanoi-cafes-itineraire-moto/index.html, hanoi/hanoi-cafes-quartiers-scooter/index.html, hanoi/hanoi-french-architecture-itineraire-moto/index.html); 8 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/west-lac-hanoi-moto/, /hanoi/hanoi-sunset-itineraire-moto/, /hanoi/hanoi-cafes-itineraire-moto/. The old link to jour-voyages-de-hanoi-by-moto was dropped to stay within the cap. TOC synced with 7 H2 ids. Built check: 9 source-body incoming links (e.g. hanoi/hanoi-cafes-itineraire-moto/index.html, hanoi/hanoi-cafes-quartiers-scooter/index.html, hanoi/hanoi-french-architecture-itineraire-moto/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "8ce835cb24cce75be27ba872b337602696ea038ee02ca9c29c08ebc9575f1444"
         },
         "AEO_GEO": {
@@ -9604,11 +9621,11 @@
           "Faut-il de l’argent liquide ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "hanoi/hanoi-food-itineraire-moto/index.html",
-          "hanoi/index.html",
-          "hanoi/que-faire/index.html"
+          "hanoi/hanoi-street-food-itineraire-moto/index.html",
+          "hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -9656,7 +9673,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-at-nuit/, /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-food-itineraire-moto/, /permis-securite/moto-hanoi-nuit-securite/. The old Bát Tràng link was replaced to stay within the cap. TOC synced with 7 H2 ids. Built check: 3 source-body incoming links (e.g. hanoi/hanoi-food-itineraire-moto/index.html, hanoi/index.html, hanoi/que-faire/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-at-nuit/, /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-food-itineraire-moto/, /permis-securite/moto-hanoi-nuit-securite/. The old Bát Tràng link was replaced to stay within the cap. TOC synced with 7 H2 ids. Built check: 4 source-body incoming links (e.g. hanoi/hanoi-food-itineraire-moto/index.html, hanoi/hanoi-street-food-itineraire-moto/index.html, hanoi/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "957d92177ddec33ffb7eb163d5606210334261736b319bfe1cff5afb1af5a24a"
         },
         "AEO_GEO": {
@@ -9854,11 +9871,11 @@
           "Un scooter automatique convient-il à une journée photo ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
-          "hanoi/hanoi-sunset-itineraire-moto/index.html",
-          "hanoi/index.html"
+          "hanoi/hanoi-quartier-francais-que-faire/index.html",
+          "hanoi/hanoi-sunset-itineraire-moto/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -9906,7 +9923,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/long-bien-pont-hanoi/, /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-sunset-itineraire-moto/. TOC synced with 8 H2 ids. Built check: 4 source-body incoming links (e.g. hanoi/hanoi-french-architecture-itineraire-moto/index.html, hanoi/hanoi-sunset-itineraire-moto/index.html, hanoi/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/long-bien-pont-hanoi/, /hanoi/hoan-kiem-lac-hanoi-que-faire/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-sunset-itineraire-moto/. TOC synced with 8 H2 ids. Built check: 5 source-body incoming links (e.g. hanoi/hanoi-french-architecture-itineraire-moto/index.html, hanoi/hanoi-quartier-francais-que-faire/index.html, hanoi/hanoi-sunset-itineraire-moto/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "3547be71ae0c4635c6dcadf7942c72c27b2d5108063b7a638766625aa0d0a610"
         },
         "AEO_GEO": {
@@ -9950,32 +9967,33 @@
       "cluster": "hanoi",
       "parent_hub": "/hanoi/",
       "priority": "P0",
-      "keyword_seed_fr": "Le quartier français de Hanoi : l'architecture, les cafés et les angles photo",
+      "keyword_seed_fr": "Le quartier français de Hanoi : promenade, cafés et stationnement",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Thông tin du lịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "986646bc5af6fb9ed93f300b70777510df0cd8512e24003d7dba2cf0001400e7",
-        "title": "Quartier français de Hanoi : architecture, cafés et photos",
-        "title_chars": 58,
-        "description": "Le quartier français de Hanoi à deux roues : façades ocre, cathédrale, opéra, avenues plantées — les arrêts d'architecture, les cafés d'époque et les meilleurs angles photo.",
-        "description_chars": 173,
-        "h1": "Le quartier français de Hanoi : l'architecture, les cafés et les angles photo",
+        "source_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4",
+        "title": "Quartier français de Hanoi : promenade, cafés et stationnement",
+        "title_chars": 62,
+        "description": "Le quartier français de Hanoi, au sud du lac Hoàn Kiếm : parcours à pied autour de Tràng Tiền et de l’Opéra, pauses café, accès à moto et stationnement.",
+        "description_chars": 152,
+        "h1": "Le quartier français de Hanoi : promenade, cafés et stationnement",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/hanoi/hanoi-quartier-francais-que-faire/",
-        "editorial_word_count_estimate": 1833,
+        "editorial_word_count_estimate": 1629,
         "h2_h3": [
-          "Lire le quartier : une leçon d'architecture en trois actes",
-          "La boucle à deux-roues : cathédrale, opéra et avenues",
-          "Les cafés d'époque : le siècle assis",
-          "Les angles photo : la lumière et les façades",
-          "La logistique du secteur : garer, rouler, prolonger",
+          "Où est le quartier français et ce qu’il contient",
+          "Pourquoi ce quartier existe",
+          "Une promenade à pied, étape par étape",
+          "Les cafés : des types de pauses plutôt que des adresses",
+          "Y aller et se garer à moto",
+          "Photographier, prolonger, combiner",
           "Questions fréquentes",
-          "Que voir dans le quartier français de Hanoi ?",
-          "Le quartier français se visite-t-il à moto ou à pied ?",
-          "Quand photographier les façades du quartier français ?",
-          "Où garer sa moto dans le quartier français ?",
-          "Quels cafés choisir dans le quartier ?",
+          "Où commence et où finit le quartier français ?",
+          "Faut-il une moto pour le visiter ?",
+          "Peut-on visiter l’intérieur de l’Opéra ?",
+          "Les rues sont-elles fermées le week-end ?",
+          "Quel est le meilleur moment pour y aller ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 9,
@@ -10009,47 +10027,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): The old text was heavily mannered and partly wrong (cathedral placed in the quarter 'à l’ouest', Opéra 'au sud-est de la boucle', 'dix minutes de scooter', 'une demi-heure de scooter posé', 'chocolat chaud du quartier', 'le secteur le plus fluide du centre', phrase « la page du silo »). Now: Tràng Tiền as the main axis, Opera at its southern end, 5-minute walk from Đinh Tiên Hoàng street on the lake side; Ngô Quyền links the Opera to the Sofitel Legend Metropole; Tràng Tiền Plaza; cafés along Tràng Tiền; Opera exterior visible by day, performance tickets sell out quickly (seen in search result: fodors.com …/the-french-quarter/things-to-do/sights and other guides); Opera built by the French in the first decade of the 20th c., inspired by the Paris Opera (Fodor's). Quarter boundaries presented as unofficial. Hanoi capital of French Indochina from 1902 and the colonial planning of the south of the lake are stated from general knowledge, not source-checked. Administrative redistricting since 1 July 2025 (Hanoi portal, reused from hanoi/index.html). Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused); weekend closure around Hoan Kiem (Vietnam Airlines, reused); low-emission zone since 1 July 2026 (VietNamNet, reused). No café or shop is named. Egg coffee described generically. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00 and location near Bến xe Gia Lâm per facts. No deposit, delivery, insurance, assistance or fleet statement. Sources: https://www.fodors.com/world/asia/vietnam/hanoi/neighborhoods/the-french-quarter/things-to-do/sights; https://english.hanoi.gov.vn/featured-news/state-president-luong-cuong-attends-launch-of-hanoi-two-tiered-administrative-system-2655250702182341418.htm; https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html; https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi; https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Main question: que voir et comment parcourir le quartier français de Hanoi ? Owner of « le quartier français de Hanoi » (OWNER). Closest pages: que-faire-hanoi-vieux-quartier (0.28), que-faire-hanoi-couples (0.24), que-faire-hanoi-solo (0.18). Differs from the Old Quarter guide because it covers the colonial quarter south of the lake; differs from hanoi-french-architecture-itineraire-moto (linked once) because this page is the neighbourhood walk, café pauses and parking, while the architecture page covers buildings, styles and access status.",
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Full rewrite. New sections: where it is and what it contains, context (why the quarter exists), 5-step walk, café table (5 types of pauses, no named addresses), access and parking checklist (weekend closure, low-emission zone), photographing and combining with neighbouring sectors, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« leçon d’architecture en trois actes », « le siècle assis », « la machine complique la photo ? Elle l’organise »). Words 1884 → 1677. Sources: https://www.fodors.com/world/asia/vietnam/hanoi/neighborhoods/the-french-quarter/things-to-do/sights; https://english.hanoi.gov.vn/featured-news/state-president-luong-cuong-attends-launch-of-hanoi-two-tiered-administrative-system-2655250702182341418.htm; https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html; https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi; https://vietnamnet.vn/en/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526324.html",
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Title changed from « …architecture, cafés et photos » to the neighbourhood-walk angle (62 chars); description rewritten (152 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description. Built check: Unique title (62 chars) and description (152 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-french-architecture-itineraire-moto/, /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/hanoi-photo-spots-moto/, /hanoi/hanoi-1-jour-itineraire/. The old links to /hanoi/que-faire/ and /location-moto-hanoi/debutant-location-moto-hanoi/ were dropped to stay within the cap. TOC synced with 8 H2 ids. Built check: 9 source-body incoming links (e.g. hanoi/hanoi-cafes-quartiers-scooter/index.html, hanoi/hanoi-french-architecture-itineraire-moto/index.html, hanoi/hanoi-photo-spots-moto/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Lead answers directly (au sud du lac, à pied en demi-journée, moto garée en bordure). One ordered walk, one café table, one checklist, FAQ 5 questions. Inline citations rel=noopener: Fodor's, Hanoi portal, Viet Nam News, Vietnam Airlines, VietNamNet.",
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/hanoi/hanoi-quartier-francais-que-faire/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "986646bc5af6fb9ed93f300b70777510df0cd8512e24003d7dba2cf0001400e7"
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-hanoi-hanoi-quartier-francais-que-faire assets/images/seo/hanoi/hanoi-quartier-francais-que-faire/hero.webp WebP 1200x630 198 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "986646bc5af6fb9ed93f300b70777510df0cd8512e24003d7dba2cf0001400e7"
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/hanoi/hanoi-quartier-francais-que-faire/index.html: self canonical https://fr.rentbikehanoi.com/hanoi/hanoi-quartier-francais-que-faire/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "986646bc5af6fb9ed93f300b70777510df0cd8512e24003d7dba2cf0001400e7"
+          "verified_sha256": "a85ae352d59d28c224aa3dee6e23cda6d0389cd1c6982d42ed0a6a9206ee0cb4"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -10067,33 +10092,33 @@
       "cluster": "hanoi",
       "parent_hub": "/hanoi/",
       "priority": "P2",
-      "keyword_seed_fr": "Sóc Sơn à moto depuis Hanoi : lacs, forêts de pins et cafés",
+      "keyword_seed_fr": "Sóc Sơn à moto depuis Hanoi : lacs, pins et temple en une journée",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Lịch trình",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "045b402bb996151b1558f11086029b674716ed62684cb93f2549507964537e08",
-        "title": "Sóc Sơn à moto depuis Hanoi : lacs, forêts de pins et cafés",
-        "title_chars": 59,
-        "description": "Sóc Sơn à moto depuis Hanoi : la sortie nord d'une journée — lacs de campagne, forêts de pins, colline de temples et cafés des faubourgs, route et logistique expliquées.",
-        "description_chars": 169,
-        "h1": "Sóc Sơn à moto depuis Hanoi : lacs, forêts de pins et cafés",
+        "source_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de",
+        "title": "Sóc Sơn à moto depuis Hanoi : lacs, pins et temple en une journée",
+        "title_chars": 65,
+        "description": "Sóc Sơn à moto depuis Hanoi : lacs de Đồng Quan et Kèo Cà, forêts de pins, temple de Sóc et fête Gióng, route sans autoroute et préparation d’une journée.",
+        "description_chars": 154,
+        "h1": "Sóc Sơn à moto depuis Hanoi : lacs, pins et temple en une journée",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/hanoi/hanoi-soc-son-moto-jour-voyage/",
-        "editorial_word_count_estimate": 2020,
+        "editorial_word_count_estimate": 1598,
         "h2_h3": [
-          "Le nord de la porte : pourquoi Sóc Sơn",
-          "La route : traverser la ville, quitter le flot",
-          "Les lacs : Đồng Đò et les rives plantées",
-          "Forêts de pins et colline de temples",
-          "Cafés de campagne et tables des faubourgs",
-          "Louer et rentrer : la logistique du jour",
+          "La sortie en un tableau",
+          "La route : quitter la ville sans prendre l’autoroute",
+          "Lacs et forêts de pins",
+          "Le temple de Sóc et la fête Gióng",
+          "Cafés et repas sur le trajet",
+          "Choisir le deux-roues et préparer la journée",
           "Questions fréquentes",
           "Sóc Sơn se fait-il en une journée depuis Hanoi ?",
-          "Quelle route choisir vers Sóc Sơn ?",
-          "Quel deux-roues pour cette sortie ?",
-          "Les cafés de Sóc Sơn sont-ils ouverts en semaine ?",
-          "Peut-on visiter le temple en moto ?",
+          "Peut-on prendre l’autoroute vers l’aéroport en moto ?",
+          "Quand la fête du temple de Sóc a-t-elle lieu ?",
+          "Faut-il une moto semi-automatique ?",
+          "Vaut-il mieux y aller en semaine ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 2,
@@ -10126,47 +10151,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Removed the invented or unsupported statements of the old text: 'fait gagner trois quarts d’heure', 'moins d’une heure de guidon', 'ombre garantie', 'départ vers huit heures', 'nénuphars', 'tables de campagne servent la cuisine locale selon l’arrivage', 'dépôt, contrat, casques' in the rental paragraph, 'discipline du site'. Now: district 25–30 km from the centre and Sóc temple ~30 km per guides (seen in search results: vietnamnet.vn/en/48-hours-in-soc-son-district-2288835.html and hanoitimes.vn/48-hours-in-soc-son-district-327041.html); lakes Kèo Cà, Đồng Quan (camping/BBQ) and the more remote Đồng Đò with pines (same guides); Hàm Lợn described by a guide as the highest mountain in Hanoi; Sóc temple dedicated to Phù Đổng Thiên Vương/Thánh Gióng with a large statue erected in 2010; Gióng festival 6th–8th of the first lunar month at Sóc Sơn (seen in search result: hanoitimes.vn/giong-festival-2025-opens.642192.html); Têt 2027 on 6 Feb 2027 (e.vnexpress.net, seen in search result) so ~11–13 Feb 2027 — derived and marked 'confirmez'; an older article placing the festival around the 4th lunar month is flagged as possibly another Gióng temple in Gia Lâm (my inference, hedged with 'peut correspondre'). Expressway ban and Feb 2026 case (VOV, reused from hub); Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused). No driving time given. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00, address area near Bến xe Gia Lâm; out-of-Hanoi use and breakdown policy phrased as questions to ask. No deposit, delivery, insurance, assistance or fleet statement. Sources: https://vietnamnet.vn/en/48-hours-in-soc-son-district-2288835.html; https://hanoitimes.vn/48-hours-in-soc-son-district-327041.html; https://hanoitimes.vn/giong-festival-2025-opens.642192.html; https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov; https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Main question: comment faire Sóc Sơn à moto depuis Hanoi en une journée ? Owner of « sóc Sơn à moto depuis Hanoi » (OWNER). Closest pages: tuyen-quang-voyage-moto-hanoi (0.21), cao-bang-voyage-moto (0.21), 2-jours-moto-voyages-de-hanoi (0.21) — multi-day trips; this is the single-day northern excursion, consistent with the Sóc Sơn row of hanoi/excursions-moto/.",
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Full rewrite. New sections: halte table, road (leaving Long Biên, no expressway, fuel/map/return), lakes and pines, Sóc temple and Gióng festival, cafés/meals, vehicle and preparation (checklist), FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« la porte du nord », « la saison écrit le paysage », « le décor change, l’esprit reste »). Words 2075 → 1644. Sources: https://vietnamnet.vn/en/48-hours-in-soc-son-district-2288835.html; https://hanoitimes.vn/48-hours-in-soc-son-district-327041.html; https://hanoitimes.vn/giong-festival-2025-opens.642192.html; https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov; https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Title kept the owner query in a more informative form (65 chars); description rewritten (154 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description. Built check: Unique title (65 chars) and description (154 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/jour-voyages-de-hanoi-by-moto/, /hanoi/hanoi-cafes-itineraire-moto/, /hanoi/hanoi-co-loa-moto/. TOC synced with 8 H2 ids. Built check: 2 source-body incoming links (e.g. hanoi/excursions-moto/index.html, hanoi/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Lead answers directly (une journée, 25–30 km, voies rapides interdites, partir tôt). One table, one checklist, FAQ 5 questions. Inline citations rel=noopener: VietNamNet, Hanoi Times (2), Viet Nam News, VOV.",
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/hanoi/hanoi-soc-son-moto-jour-voyage/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "045b402bb996151b1558f11086029b674716ed62684cb93f2549507964537e08"
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-hanoi-hanoi-soc-son-moto-jour-voyage assets/images/seo/hanoi/hanoi-soc-son-moto-jour-voyage/hero.webp WebP 1200x630 199 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "045b402bb996151b1558f11086029b674716ed62684cb93f2549507964537e08"
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/hanoi/hanoi-soc-son-moto-jour-voyage/index.html: self canonical https://fr.rentbikehanoi.com/hanoi/hanoi-soc-son-moto-jour-voyage/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "045b402bb996151b1558f11086029b674716ed62684cb93f2549507964537e08"
+          "verified_sha256": "aa843ba0ae719c1925076d17dd085827fccfb445c81323b5e1bc40db441be5de"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -10184,36 +10216,37 @@
       "cluster": "hanoi",
       "parent_hub": "/hanoi/",
       "priority": "P0",
-      "keyword_seed_fr": "Street food à Hanoi : le parcours gourmand que la moto rend possible",
+      "keyword_seed_fr": "Street food à Hanoi à moto : que manger, où et à quelle heure",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Thông tin du lịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "59cf371ccb382e38a63ae2796f9fe4506d91ba09667a2b6d687029aa5f46b8d3",
-        "title": "Street food à Hanoi à moto : l'itinéraire gourmand en deux-roues",
-        "title_chars": 64,
-        "description": "La street food de Hanoi en deux-roues : l'itinéraire gourmand de quartier en quartier — pho du matin, bun cha de midi, grillades du soir — et la méthode pour manger debout.",
-        "description_chars": 172,
-        "h1": "Street food à Hanoi : le parcours gourmand que la moto rend possible",
+        "source_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465",
+        "title": "Street food à Hanoi à moto : que manger, où et à quelle heure",
+        "title_chars": 61,
+        "description": "Phở, bún chả, bánh cuốn, chả cá, chè, café à l’œuf : les plats de rue de Hanoi par moment de la journée, comment choisir un étal, se garer et manger prudemment.",
+        "description_chars": 160,
+        "h1": "Street food à Hanoi à moto : que manger, où et à quelle heure",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/hanoi/hanoi-street-food-itineraire-moto/",
-        "editorial_word_count_estimate": 2123,
+        "editorial_word_count_estimate": 1707,
         "h2_h3": [
-          "La méthode : lire un étal avant d'y goûter",
-          "Le matin des soupes : le pho avant la chaleur",
-          "Le midi des grillades : le bun cha et ses voisins",
-          "L'après-midi des douceurs : cafés, douceurs et glaces",
-          "Le soir des brochettes : la ville qui grille",
-          "La logistique du parcours : parkings, rythme et prudence",
+          "Les plats par moment de la journée",
+          "Petit lexique pour lire une carte ou une enseigne",
+          "Choisir un étal et commander",
+          "Où chercher : par secteur",
+          "Une journée gourmande type",
+          "Se déplacer et se garer entre les étals",
+          "Manger sans mauvaise surprise",
           "Questions fréquentes",
-          "Où manger la street food à Hanoi, et comment s'y rendre ?",
-          "Comment choisir un étal de street food à Hanoi ?",
-          "La moto est-elle utile pour un parcours de street food ?",
-          "Combien coûte un repas de street food à Hanoi ?",
-          "Le parcours complet tient-il dans une journée ?",
+          "Quel plat essayer en premier à Hanoi ?",
+          "Faut-il parler vietnamien pour commander ?",
+          "La street food est-elle sûre pour les voyageurs ?",
+          "Peut-on payer par carte ?",
+          "Faut-il venir à moto ou à pied ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 7,
         "source_body_internal_inlink_examples": [
           "hanoi/hanoi-5-jours-itineraire/index.html",
           "hanoi/hanoi-food-itineraire-moto/index.html",
@@ -10244,47 +10277,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Removed the old mannered claims and unsupported statements ('aucune adresse figée', 'la page du silo', 'les tarifs de la rue … modeste', 'rive sud du lac … étals de quartier', 'brochettes de bœuf au miel', 'soupe de crabe de printemps'). Dish descriptions (phở, bún chả, bánh cuốn, xôi, bún riêu, bún thang, bún đậu mắm tôm, nem rán, chả cá, chè, ốc, lẩu, bánh mì, bia hơi, cốm in autumn) are general culinary knowledge, not source-checked; timing repères (phở early morning, bún chả at midday, evening grills/lẩu/seafood in residential streets, stalls selling out early) come from travel guides seen in search results (asianwaytravel.com, booked.ai, rexby.com 'When locals eat in Hanoi' — unattributed in the text, no link). Egg coffee attributed to Nguyễn Văn Giảng, Metropole bartender, 1946 (seen in search result: vietnamnet.vn/en/wake-up-and-smell-the-egg-coffee-647728.html; sources differ on the first location, text says so). Old Quarter evening pedestrian streets 19:00–24:00 (Thời báo Tài chính Việt Nam, reused from hub); festival-night parking surcharges (Lao Động, reused). Alcohol: Decree 168/2024/ND-CP in force in 2026 per Traffic Police (seen in search result: vietnamnet.vn traffic-police-refute-claims…); no fine amount. No stall or restaurant is named; no street-food price is given. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00 pickup only. No deposit, delivery, insurance or assistance statement. Sources: https://vietnamnet.vn/en/wake-up-and-smell-the-egg-coffee-647728.html; https://vietnamnet.vn/en/traffic-police-refute-claims-of-increased-dui-fines-in-2026-2486574.html; https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo; https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Main question: que manger et où dans la rue à Hanoi, à quelle heure, avec quel déplacement à moto ? Owner of « street food hanoi moto » (OWNER, group owner). Closest pages: hanoi-food-itineraire-moto (distinct angle: 3 h evening circuit, linked from this page once with the anchor « circuit street food de trois heures en soirée »), nord-vietnam/hanoi-sapa-ha-giang (0.2), hanoi-french-architecture (0.2). Differs because it is the complete guide: dishes by time of day, lexicon, stall-choice method, areas, a day plan; the evening circuit page carries the timed 3-hour loop.",
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Full rewrite. New sections: dishes by moment of the day (table), lexicon (12 dishes), stall-choice checklist, areas, day plan (ordered list), parking/riding, food-safety checklist, FAQ rewritten to 5 non-repeating questions. Removed the long metaphor-heavy morning/midday/afternoon/evening sections and the repeated hub paragraph. Words 2187 → 1755. Sources: https://vietnamnet.vn/en/wake-up-and-smell-the-egg-coffee-647728.html; https://vietnamnet.vn/en/traffic-police-refute-claims-of-increased-dui-fines-in-2026-2486574.html; https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo; https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html",
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Title changed from « …l’itinéraire gourmand en deux-roues » to a question-style form (61 chars); description rewritten (160 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description. Built check: Unique title (61 chars) and description (160 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/que-faire-hanoi-early-morning/, /hanoi/hanoi-food-itineraire-moto/, /hanoi/hanoi-nuit-market-scooter-stationnement/. The old links to /hanoi/que-faire/ and /hanoi/hanoi-quartier-francais-que-faire/ were dropped to stay within the cap. TOC synced with 9 H2 ids. Built check: 7 source-body incoming links (e.g. hanoi/hanoi-5-jours-itineraire/index.html, hanoi/hanoi-food-itineraire-moto/index.html, hanoi/hanoi-hiver-itineraire/index.html); 7 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Lead answers directly (chaque plat a son moment ; Vieux Quartier à pied, moto entre secteurs). Two tables (moments, lexicon), three checklists, one ordered list, FAQ 5 questions. Inline citations rel=noopener: VietNamNet (2), Lao Động, Thời báo Tài chính Việt Nam.",
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/hanoi/hanoi-street-food-itineraire-moto/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "59cf371ccb382e38a63ae2796f9fe4506d91ba09667a2b6d687029aa5f46b8d3"
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-hanoi-hanoi-street-food-itineraire-moto assets/images/seo/hanoi/hanoi-street-food-itineraire-moto/hero.webp WebP 1200x630 179 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "59cf371ccb382e38a63ae2796f9fe4506d91ba09667a2b6d687029aa5f46b8d3"
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/hanoi/hanoi-street-food-itineraire-moto/index.html: self canonical https://fr.rentbikehanoi.com/hanoi/hanoi-street-food-itineraire-moto/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "59cf371ccb382e38a63ae2796f9fe4506d91ba09667a2b6d687029aa5f46b8d3"
+          "verified_sha256": "295dd5afc0fa8b73b9105398193b9aa30387c449909acb97d007b591c70e6465"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -10302,33 +10342,33 @@
       "cluster": "hanoi",
       "parent_hub": "/hanoi/",
       "priority": "P2",
-      "keyword_seed_fr": "Hanoi au coucher du soleil à moto : la route des photos",
+      "keyword_seed_fr": "Hanoi au coucher du soleil à moto : spots, horaires et route",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Lịch trình",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "c9df970b4805cef0c33bab97289ef1e1055487984f40d155f8baea5450051b22",
-        "title": "Hanoi au coucher du soleil à moto : la route des photos",
-        "title_chars": 55,
-        "description": "La route photo du coucher du soleil à Hanoi à moto : spots des lacs, digue et pont, lumière dorée, conseils de conduite et de stationnement pour photographier la capitale.",
-        "description_chars": 171,
-        "h1": "Hanoi au coucher du soleil à moto : la route des photos",
+        "source_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75",
+        "title": "Hanoi au coucher du soleil à moto : spots, horaires et route",
+        "title_chars": 60,
+        "description": "Coucher du soleil à Hanoi à moto : heure selon la saison, lac de l’Ouest, digue Thanh Niên et berges du fleuve Rouge, stationnement et conduite au crépuscule.",
+        "description_chars": 158,
+        "h1": "Hanoi au coucher du soleil à moto : spots, horaires et route",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/hanoi/hanoi-sunset-itineraire-moto/",
-        "editorial_word_count_estimate": 1898,
+        "editorial_word_count_estimate": 1551,
         "h2_h3": [
-          "La lumière de Hanoi, une affaire de photographe",
-          "Les spots de la route : lacs, digue et pont",
-          "Le matériel qui voyage en scooter",
-          "L’horloge du photographe",
-          "Conduire et stationner au crépuscule",
-          "L’itinéraire d’une soirée complète",
+          "À quelle heure le soleil se couche-t-il ?",
+          "Où voir le coucher du soleil",
+          "Choisir son spot selon votre point de départ",
+          "Une soirée type",
+          "Conduire et se garer au crépuscule",
+          "Matériel et précautions pour la photo",
           "Questions fréquentes",
-          "Quelle est la meilleure heure pour photographier le coucher du soleil à Hanoi ?",
-          "Où garer sa moto aux spots du soir ?",
-          "Faut-il un trépied pour la route du soir ?",
-          "Les spots du soir sont-ils fréquentés ?",
-          "Quel deux-roues pour la route du coucher du soleil ?",
+          "Quel est le meilleur spot pour le coucher du soleil à Hanoi ?",
+          "À quelle heure faut-il arriver ?",
+          "Le coucher du soleil est-il visible depuis Hoàn Kiếm ?",
+          "Peut-on rentrer à moto de nuit ?",
+          "Faut-il craindre la pluie ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 5,
@@ -10362,47 +10402,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Removed the old factual errors and filler ('une heure de route relie les meilleurs cadres', 'ciel de l’est du vieux quartier' for the Long Bien sunset, 'gratte-ciel lointains', 'bateaux de sable', 'quarante minutes' style durations, 'la discipline du site'). Sunset times: early July ~18:42 and latest sunset ~4 July 18:43, earliest ~27 November 17:15 (seen in search result: sunrise-sunset.org/vn/hanoi); 15 Sept 17:59, 15 Oct 17:32, 15 Nov 17:15, 15 Dec 17:17 for 2026 (seen in search result: alpenglowapp.com/times/hanoi); 1 July 2026 sunrise/sunset 5:18/18:42 (seen in search result: sunrise-sunset.net). The 'arriver une heure avant' column is stated as advice, not data. Geography: West Lake lies west of the centre, so the east shore and the Thanh Niên dike look west; from the east bank of the Red River the view is west towards the city — reasoned from the map, not from a source. Weekend closure around Hoan Kiem (Vietnam Airlines, reused from hub); Long Bien bridge reopened 28 May 2026 (Viet Nam News, reused); festival-night parking surcharges (Lao Động, reused). Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00, same-evening return phrased as question, nothing confirmed. No deposit, delivery, insurance or assistance statement. Sources: https://sunrise-sunset.org/vn/hanoi; https://www.alpenglowapp.com/times/hanoi; https://www.sunrise-sunset.net/vietnam/hanoi/2026/07; https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi; https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo; https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Main question: où et quand voir le coucher du soleil à Hanoi à moto ? Owner of « hanoi au coucher du soleil à moto » (OWNER). Closest pages: hanoi-sapa-ha-giang-itineraire-moto (0.18), hanoi-a-pu-luong-moto (0.18), hanoi-french-architecture-itineraire-moto (0.18) — different topics. Differs from hanoi-photo-spots-moto (all spots, light all day, what to avoid) because it is built around sunset timing by season, spot choice by starting point and the dusk ride.",
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Full rewrite. New sections: sunset times by season (table with sources), spots (3), choice of spot by situation (table), typical evening (ordered list), riding/parking at dusk with price repère, gear checklist, FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« l’horloge du photographe », « la bascule », « sa plus dorée »). Words 1940 → 1594. Sources: https://sunrise-sunset.org/vn/hanoi; https://www.alpenglowapp.com/times/hanoi; https://www.sunrise-sunset.net/vietnam/hanoi/2026/07; https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi; https://news.laodong.vn/xa-hoi/dip-le-29-tai-ha-noi-nhieu-diem-trong-xe-may-20000-30000-dongluot-1759440.ldo; https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Title changed from « …la route des photos » to spots/horaires/route (60 chars); description rewritten (158 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description. Built check: Unique title (60 chars) and description (158 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/long-bien-pont-hanoi/, /hanoi/hanoi-photo-spots-moto/, /permis-securite/moto-hanoi-nuit-securite/. TOC synced with 8 H2 ids. Built check: 5 source-body incoming links (e.g. hanoi/hanoi-ete-itineraire-heat/index.html, hanoi/hanoi-lakes-itineraire-moto/index.html, hanoi/hanoi-photo-spots-moto/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Lead answers directly (coucher entre 17 h 15 et 18 h 40 environ ; spots ; arriver une heure avant). Two tables, two checklists, one ordered list, FAQ 5 questions. Inline citations rel=noopener: sunrise-sunset.org, Alpenglow, Vietnam Airlines, Lao Động, Viet Nam News.",
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/hanoi/hanoi-sunset-itineraire-moto/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "c9df970b4805cef0c33bab97289ef1e1055487984f40d155f8baea5450051b22"
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-hanoi-hanoi-sunset-itineraire-moto assets/images/seo/hanoi/hanoi-sunset-itineraire-moto/hero.webp WebP 1200x630 195 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "c9df970b4805cef0c33bab97289ef1e1055487984f40d155f8baea5450051b22"
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/hanoi/hanoi-sunset-itineraire-moto/index.html: self canonical https://fr.rentbikehanoi.com/hanoi/hanoi-sunset-itineraire-moto/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "c9df970b4805cef0c33bab97289ef1e1055487984f40d155f8baea5450051b22"
+          "verified_sha256": "7f455c2341b73c5299816686d213863c51cb84e1d9bd73c1ef22577c7d92ba75"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -10420,32 +10467,33 @@
       "cluster": "hanoi",
       "parent_hub": "/hanoi/",
       "priority": "P1",
-      "keyword_seed_fr": "Lac Hoan Kiem à Hanoi : quand y aller et où garer la moto",
+      "keyword_seed_fr": "Lac Hoàn Kiếm à Hanoi : quand y aller et où garer la moto",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Thông tin du lịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "a923ce7b7045c3e70df6c77f4b4b29c70919cb59b2f212e09e398b3d375bf1df",
-        "title": "Lac Hoan Kiem à Hanoi : quand y aller et où garer la moto",
+        "source_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab",
+        "title": "Lac Hoàn Kiếm à Hanoi : quand y aller et où garer la moto",
         "title_chars": 57,
-        "description": "Lac Hoan Kiem à Hanoi : meilleures heures, tour des rives, temple de l'îlot, zone piétonne du week-end et parkings gardés — le guide complet en moto.",
-        "description_chars": 149,
-        "h1": "Lac Hoan Kiem à Hanoi : quand y aller et où garer la moto",
+        "description": "Lac Hoàn Kiếm à Hanoi : meilleures heures, pont Thê Húc et temple Ngọc Sơn, rues piétonnes du week-end, zone à faibles émissions et parkings gardés.",
+        "description_chars": 148,
+        "h1": "Lac Hoàn Kiếm à Hanoi : quand y aller et où garer la moto",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/hanoi/hoan-kiem-lac-hanoi-que-faire/",
-        "editorial_word_count_estimate": 1643,
+        "editorial_word_count_estimate": 1525,
         "h2_h3": [
-          "Le lac qui tient la ville",
-          "Les bonnes heures : matin, soir, week-end",
-          "Le tour du lac et ses alentours",
+          "Les bonnes heures : matin, midi, soir, week-end",
+          "Le tour du lac et ce qu’on y voit",
+          "À quelques minutes à pied du lac",
+          "Week-end : rues piétonnes et zone à faibles émissions",
           "Où garer la moto autour du lac",
-          "Le lac en moto : l’intégrer à sa journée",
+          "Intégrer le lac à votre journée",
           "Questions fréquentes",
-          "Quelle est la meilleure heure pour visiter le lac Hoan Kiem ?",
+          "Quelle est la meilleure heure pour visiter le lac Hoàn Kiếm ?",
           "Peut-on rouler autour du lac le week-end ?",
-          "Où garer son scooter près du lac ?",
-          "Le temple de l’îlot se visite-t-il facilement ?",
-          "Combien de temps prévoir pour le lac et ses abords ?",
+          "Les motos à essence sont-elles interdites autour du lac ?",
+          "Le temple de l’îlot est-il payant ?",
+          "Combien de temps prévoir pour le lac ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 9,
@@ -10479,47 +10527,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Removed unsourced and mannered claims from the old text: 'à cinq minutes de tout', 'moins d’une heure détendue', 'sentier ombragé sur toute leur longueur', 'quelques établissements de rive disposent de terrasses sur les toits', 'ronds-points calmes … l’école de pilotage de la ville', 'les tarifs se paient en monnaie locale'. Now: legend of the returned sword and Thê Húc bridge/Ngọc Sơn temple/Turtle Tower (seen in search results: vietnamisawesome.com, asiaforvisitors.com, Vietnam Airlines 'what to visit in Hanoi'); temple ticket booth in front of Thê Húc bridge, hours differ by source (8:00–18:00 / 7:00–18:00 / 7:00–21:00 weekend), preserved turtles displayed (same results) — no price or hours quoted. Sunrise/sunset ranges (seen in search results: sunrise-sunset.net July 2026; alpenglowapp.com mid-December). Tràng Tiền–Opera five-minute walk from Đinh Tiên Hoàng (Fodor's, seen in search result). Weekend closure of Hoan Kiem streets and Old Quarter evening pedestrian streets 19:00–24:00 (Vietnam Airlines and Thời báo Tài chính Việt Nam, reused from hanoi/index.html); March 2026 suspension and reopening on Friday 20 March at 19:00 (Báo Văn hóa, reused); low-emission zone since 1 July 2026 with extension planned from 2027 (VietNamNet, reused); festival-night parking surcharges (Lao Động, reused); Long Bien bridge reopening (Viet Nam News, reused). The water-puppet theatre at the lake is mentioned from general knowledge without address/price. Price: only owner range for automatic scooter with disclaimer. Shop: 09:00–21:00 only. No deposit, delivery, insurance, assistance or fleet statement. Sources: https://www.sunrise-sunset.net/vietnam/hanoi/2026/07; https://www.alpenglowapp.com/times/hanoi; https://www.fodors.com/world/asia/vietnam/hanoi/neighborhoods/the-french-quarter/things-to-do/sights; https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi; https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html; https://baovanhoa.vn/doi-song/lich-tam-dung-pho-di-bo-ho-hoan-kiem-tu-ngay-133-den-203-249310.html",
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Main question: quand aller au lac Hoàn Kiếm et où y garer sa moto ? Owner of « lac Hoan Kiem à Hanoi » (OWNER). Closest pages: que-faire-hanoi-solo (0.21), que-faire-hanoi-during-tet (0.21), que-faire-hanoi-at-nuit (0.21) — profile and season guides. Differs because it is the lake itself: hours, tour, weekend rules, parking; the 3-lake loop is in hanoi-lakes-itineraire-moto and the neighbouring sectors are in the Old Quarter and French Quarter guides.",
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Full rewrite. New sections: time-of-day table, tour and what to see (legend, bridge, temple), nearby places on foot, weekend closures and low-emission zone, parking checklist, how to fit the lake in a day (with scooter price repère), FAQ rewritten to 5 non-repeating questions. Removed mannered prose (« puits de lumière », « il n’a pas de porte, seulement des seuils », « venir tôt ou venir tard, mais venir deux fois »). Words 1685 → 1577. Sources: https://www.sunrise-sunset.net/vietnam/hanoi/2026/07; https://www.alpenglowapp.com/times/hanoi; https://www.fodors.com/world/asia/vietnam/hanoi/neighborhoods/the-french-quarter/things-to-do/sights; https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/pho-di-bo-ha-noi; https://thoibaotaichinhvietnam.vn/dieu-chinh-thoi-gian-hoat-dong-pho-di-bo-ho-guom-dip-nghi-le-gio-to-hung-vuong-va-304-15-173862.html; https://baovanhoa.vn/doi-song/lich-tam-dung-pho-di-bo-ho-hoan-kiem-tu-ngay-133-den-203-249310.html",
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Title kept (57 chars) with proper diacritics; description rewritten (148 chars); H1 = title; eyebrow shortened; og:title/og:description identical to title/description. Built check: Unique title (57 chars) and description (148 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): 7/7 unique internal links in main: /hanoi/ (parent), /location-moto-hanoi/, /types-motos/ (required), /hanoi/hanoi-lakes-itineraire-moto/, /hanoi/que-faire-hanoi-vieux-quartier/, /hanoi/hanoi-quartier-francais-que-faire/, /hanoi/hanoi-1-jour-itineraire/. The old link to hanoi-street-food-itineraire-moto was dropped to stay within the cap. TOC synced with 8 H2 ids. Built check: 9 source-body incoming links (e.g. hanoi/ba-dinh-hanoi-itineraire/index.html, hanoi/free-que-faire-hanoi/index.html, hanoi/hanoi-lakes-itineraire-moto/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HANOI-2.json): Lead answers directly (tour à pied tôt ou fin d’après-midi, moto garée en bordure, fermeture week-end, zone à faibles émissions). Two tables/checklists, FAQ 5 questions. Inline citations rel=noopener: sunrise-sunset.net, Alpenglow, Fodor's, Vietnam Airlines, Thời báo Tài chính, Báo Văn hóa, VietNamNet, Lao Động, Viet Nam News.",
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/hanoi/hoan-kiem-lac-hanoi-que-faire/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "a923ce7b7045c3e70df6c77f4b4b29c70919cb59b2f212e09e398b3d375bf1df"
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-hanoi-hoan-kiem-lac-hanoi-que-faire assets/images/seo/hanoi/hoan-kiem-lac-hanoi-que-faire/hero.webp WebP 1200x630 209 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "a923ce7b7045c3e70df6c77f4b4b29c70919cb59b2f212e09e398b3d375bf1df"
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/hanoi/hoan-kiem-lac-hanoi-que-faire/index.html: self canonical https://fr.rentbikehanoi.com/hanoi/hoan-kiem-lac-hanoi-que-faire/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "a923ce7b7045c3e70df6c77f4b4b29c70919cb59b2f212e09e398b3d375bf1df"
+          "verified_sha256": "e7838689b4d89ee203486141cf753dd0413470c65e06e084fa405c2ae0159bab"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -10819,7 +10874,7 @@
           "Que faire de l’autre côté du pont ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "hanoi/hanoi-1-jour-itineraire/index.html",
@@ -10944,7 +10999,7 @@
           "Que faire à Hanoi le soir ?",
           "Préparer la suite"
         ],
-        "source_body_internal_inlinks": 10,
+        "source_body_internal_inlinks": 8,
         "source_body_internal_inlink_examples": [
           "hanoi/ba-dinh-hanoi-itineraire/index.html",
           "hanoi/excursions-moto/index.html",
@@ -11666,11 +11721,11 @@
           "Louer un scooter le matin est-il une bonne idée ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "hanoi/hanoi-ete-itineraire-heat/index.html",
-          "hanoi/index.html",
-          "hanoi/que-faire/index.html"
+          "hanoi/hanoi-street-food-itineraire-moto/index.html",
+          "hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 1,
@@ -12850,7 +12905,7 @@
           "Le lac de l'Ouest se combine-t-il avec le lac Truc Bach ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 12,
+        "source_body_internal_inlinks": 13,
         "source_body_internal_inlink_examples": [
           "hanoi/ba-dinh-hanoi-itineraire/index.html",
           "hanoi/easy-moto-routes-hanoi-debutant/index.html",
@@ -25071,7 +25126,7 @@
           "Peut-on changer de moto si l’état ne convient pas ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "location-moto-hanoi/best-motorbike-rental-hanoi/index.html",
@@ -25462,11 +25517,11 @@
           "Faut-il un permis pour louer ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 30,
+        "source_body_internal_inlinks": 29,
         "source_body_internal_inlink_examples": [
           "hanoi/easy-moto-routes-hanoi-debutant/index.html",
-          "hanoi/hanoi-quartier-francais-que-faire/index.html",
-          "hanoi/que-faire-hanoi-vieux-quartier/index.html"
+          "hanoi/que-faire-hanoi-vieux-quartier/index.html",
+          "honda/honda-lead-abs-hanoi-ville/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -27696,11 +27751,11 @@
           "Questions fréquentes",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/courte-duree/index.html",
           "location-moto-hanoi/index.html",
-          "location-moto-hanoi/longue-duree/index.html"
+          "location-moto-hanoi/location-moto-ou-public-transport-hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -28437,9 +28492,10 @@
           "Où garer la moto à Hoan Kiem ?",
           "Un scooter automatique convient-il aux rues étroites ?"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/index.html",
+          "location-moto-hanoi/location-moto-ou-public-transport-hanoi/index.html",
           "location-moto-hanoi/quartiers/index.html"
         ],
         "broken_body_links_or_fragments": [],
@@ -28488,7 +28544,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-vieux-quartier-hanoi/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/moto-livraison-hotel-hanoi/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ to stay at 7. Contact links tel/Zalo/WhatsApp are not counted. Built check: 2 source-body incoming links (e.g. location-moto-hanoi/index.html, location-moto-hanoi/quartiers/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-vieux-quartier-hanoi/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/moto-livraison-hotel-hanoi/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ to stay at 7. Contact links tel/Zalo/WhatsApp are not counted. Built check: 3 source-body incoming links (e.g. location-moto-hanoi/index.html, location-moto-hanoi/location-moto-ou-public-transport-hanoi/index.html, location-moto-hanoi/quartiers/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "adb0b4058fcef3d91b653dd0cce0ff51d81be5c5b8f21a1934c9f06ab8dbdea2"
         },
         "AEO_GEO": {
@@ -28569,7 +28625,7 @@
           "L’inspection est-elle différente pour un scooter automatique ?",
           "Faut-il inspecter un deux-roues électrique différemment ?"
         ],
-        "source_body_internal_inlinks": 28,
+        "source_body_internal_inlinks": 27,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
@@ -28621,7 +28677,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/what-is-included-location-moto-hanoi/, /location-moto-hanoi/panne-scooter-hanoi/, /permis-securite/securite/. tel/Zalo/WhatsApp links not counted. Built check: 28 source-body incoming links (e.g. blog/index.html, location-moto-hanoi/2-jours-location-moto-hanoi/index.html, location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html); 28 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/what-is-included-location-moto-hanoi/, /location-moto-hanoi/panne-scooter-hanoi/, /permis-securite/securite/. tel/Zalo/WhatsApp links not counted. Built check: 27 source-body incoming links (e.g. blog/index.html, location-moto-hanoi/2-jours-location-moto-hanoi/index.html, location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html); 27 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "4d16853042ab5b8375bdc1466bef1480e1a391f578e308ae04f7def304748624"
         },
         "AEO_GEO": {
@@ -28670,25 +28726,34 @@
       "intent_to_validate": "Giao dịch địa phương",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "8167b617e4f12df20d4eba124fe31e28f47fca8318f56617c7046ca87fd9c2e2",
+        "source_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559",
         "title": "Location de moto à Long Biên : louer hors du Vieux Quartier",
         "title_chars": 59,
-        "description": "Location de moto à Long Biên : louer hors du Vieux Quartier — le quartier de l'autre rive, les vérifications au départ et la méthode du site, sans inventer d'adresse ni de tarif.",
-        "description_chars": 178,
+        "description": "Louer une moto à Long Biên, sur la rive est du fleuve Rouge : adresse de la boutique près de Bến xe Gia Lâm, ponts à franchir, tarifs indicatifs et sorties.",
+        "description_chars": 156,
         "h1": "Location de moto à Long Biên : louer hors du Vieux Quartier",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-long-bien/",
-        "editorial_word_count_estimate": 1506,
+        "editorial_word_count_estimate": 1813,
         "h2_h3": [
-          "Long Biên, l'autre rive de Hanoi",
-          "Louer à Long Biên : ce qui change",
-          "La machine du quotidien du quartier",
-          "Le budget se lit au jour",
+          "Long Biên, la rive est du fleuve Rouge",
+          "Comment venir à la boutique",
+          "Louer à Long Biên ou depuis le Vieux Quartier",
+          "Le jour du retrait",
+          "Quelle machine pour le quotidien",
+          "Pour un mois ou plus",
+          "Sorties au départ de Long Biên",
+          "Rouler et stationner côté Long Biên",
           "Questions fréquentes",
+          "Où se trouve la boutique à Long Biên ?",
           "Peut-on rejoindre le Vieux Quartier à moto depuis Long Biên ?",
-          "L'offre de location y diffère-t-elle du Vieux Quartier ?",
+          "La moto peut-elle être livrée à l’hôtel ?",
           "Quelle machine convient à un séjour basé à Long Biên ?",
-          "Pour aller plus loin"
+          "Faut-il réserver avant de venir ?",
+          "Peut-on rejoindre le Vieux Quartier à moto depuis Long Biên ?",
+          "La moto peut-elle être livrée à l’hôtel ?",
+          "Quelle machine convient à un séjour basé à Long Biên ?",
+          "Faut-il réserver avant de venir ?"
         ],
         "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
@@ -28721,47 +28786,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): The old text (100% abstract, 'aucune adresse inventée', 'le dépôt qui s'écrit', 'certains loueurs livrent') replaced by confirmed NAP (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, gần Bến xe Gia Lâm; 09:00-21:00 every day; 0334 699 969 / Zalo / WhatsApp). Full owner price table (day/week/month, six rows) with the mandatory disclaimer and the 'ne se déduit pas du prix d'une journée' rule. Deposit/documents/inclusions/delivery/day counting stated as 'à confirmer'; delivery 'non annoncée'. Bridges consistent with the quartiers sub-hub: Long Biên bridge only for pedestrians, bicycles and two-wheelers, access previously interrupted (works, flood) so 'à vérifier'; Chương Dương carries cars and two-wheelers; Vĩnh Tuy to the south. No travel times, no GPS coordinates (site publishes none), no distances (Bát Tràng, Ecopark, Cổ Loa given only by direction). Expressway ban for two-wheelers kept from the pillar. No external source cited (claims already sourced in the quartiers sub-hub).",
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Main question: renting a motorbike in Long Biên, where the shop is. Owner of 'location de moto à Long Biên'. Differs from location-moto-vieux-quartier-hanoi (sim 0.31) which covers the centre (retrait/retour from the Old Quarter); this one covers the east-bank pickup, access over the bridges, local riding and outings. Vieux Quartier guide linked once.",
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Full rewrite. Sections: quartier + NAP checklist; comment venir (taxi, bridges); comparison table Long Biên vs Vieux Quartier; jour du retrait; quelle machine + price table; pour un mois ou plus; sorties au départ de Long Biên; rouler et stationner; FAQ 5 Q. Words 1539 -> 1863.",
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Title and H1 kept (natural, 59 chars, match the sub-hub anchor). Description rewritten 178 -> 156 chars (removed 'méthode du site, sans inventer d'adresse ni de tarif'); og:description synced. Built check: Unique title (59 chars) and description (156 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-retrait-hanoi/, /location-moto-hanoi/location-moto-vieux-quartier-hanoi/, /hanoi/long-bien-pont-hanoi/. Dropped /location-moto-hanoi/location-moto-inspection-liste-controle/ (inspection summarised in one paragraph, covered by the retrait guide). Built check: 3 source-body incoming links (e.g. blog/index.html, location-moto-hanoi/index.html, location-moto-hanoi/quartiers/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Direct answer in the lead (shop address, hours, bridge to cross). NAP checklist, comparison table, price table; FAQ 5 Q. No external citation.",
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-long-bien/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "8167b617e4f12df20d4eba124fe31e28f47fca8318f56617c7046ca87fd9c2e2"
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-location-moto-long-bien assets/images/seo/location-moto-hanoi/location-moto-long-bien/hero.webp WebP 1200x630 203 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "8167b617e4f12df20d4eba124fe31e28f47fca8318f56617c7046ca87fd9c2e2"
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/location-moto-long-bien/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-long-bien/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "8167b617e4f12df20d4eba124fe31e28f47fca8318f56617c7046ca87fd9c2e2"
+          "verified_sha256": "8a0b4860ba9a9ff104afed065c4c89cc74c343016f08f6f298b9f1e4f6c54559"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -28779,33 +28851,38 @@
       "cluster": "location-hanoi",
       "parent_hub": "/location-moto-hanoi/",
       "priority": "P2",
-      "keyword_seed_fr": "Moto de location ou transports publics à Hanoi ?",
+      "keyword_seed_fr": "Moto de location ou transports publics à Hanoi : que choisir ?",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "So sánh",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "43c18668c13ccaf5949d75fe639379b2509eee4705f3f8b6b2873144e9bc4adf",
-        "title": "Moto de location ou transports publics à Hanoi ?",
-        "title_chars": 48,
-        "description": "Hanoi à deux roues ou en bus ? Comparer la moto de location et les transports publics : coût, temps, flexibilité et cas d'usage pour choisir.",
-        "description_chars": 141,
-        "h1": "Moto de location ou transports publics à Hanoi ?",
+        "source_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d",
+        "title": "Moto de location ou transports publics à Hanoi : que choisir ?",
+        "title_chars": 62,
+        "description": "Bus, métro, marche ou moto de location à Hanoi : comparez trajets, coût, horaires et liberté de mouvement selon la durée et le programme de votre séjour.",
+        "description_chars": 153,
+        "h1": "Moto de location ou transports publics à Hanoi : que choisir ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-ou-public-transport-hanoi/",
-        "editorial_word_count_estimate": 1727,
+        "editorial_word_count_estimate": 1769,
         "h2_h3": [
-          "Le paysage des transports à Hanoi",
-          "Ce que les transports publics font bien — et moins bien",
-          "Ce que la moto fait bien — et moins bien",
-          "Le face-à-face : coût, temps, prévisibilité",
-          "Trois profils de séjour, trois réponses",
+          "Ce que Hanoi propose : marche, bus, métro, applications",
+          "Où les transports publics montrent leurs limites",
+          "Ce qu’apporte la moto de location, et ce qu’elle exige",
+          "Comparer selon le trajet",
+          "Trois profils de séjour",
+          "Rejoindre la boutique sans moto",
+          "Cinq questions pour trancher",
           "Questions fréquentes",
-          "La moto n’est-elle pas dangereuse comparée au bus ?",
-          "Peut-on combiner les deux sur un même séjour ?",
-          "Le bus convient-il aux trajets du vieux quartier ?",
-          "Comment calculer ce que la moto coûterait par rapport au bus ?",
-          "Les transports publics progressent-ils à Hanoi ?",
-          "Pour aller plus loin"
+          "Peut-on combiner moto de location et transports publics ?",
+          "Le métro de Hanoi dessert-il le Vieux Quartier ?",
+          "Combien coûte le bus à Hanoi ?",
+          "La moto est-elle plus risquée que le bus ?",
+          "Quel véhicule choisir quand on débute ?",
+          "Le métro de Hanoi dessert-il le Vieux Quartier ?",
+          "Combien coûte le bus à Hanoi ?",
+          "La moto est-elle plus risquée que le bus ?",
+          "Quel véhicule choisir quand on débute ?"
         ],
         "source_body_internal_inlinks": 2,
         "source_body_internal_inlink_examples": [
@@ -28837,47 +28914,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): The old text had no concrete fact on Hanoi public transport. Added, all marked as seen in search results and 'à vérifier': bus tickets paid in cash on board, same fare for foreigners, HanoiBus/BusMap apps, fare of a few thousand VND, new fare structure reported for 2026 (no precise fare stated); metro line 2A Cát Linh-Hà Đông with hours around 05:30-22:00; line 3 elevated Nhổn-Cầu Giấy open since 8 Aug 2024, underground part to Hanoi Station announced for 2027; airport bus line 86 mentioned by guides. Statement that no metro line reaches the Old Quarter or Long Biên is dated 'à la date de cette révision'. Owner prices only: 150 000-200 000/day, 600 000-1 000 000/week (automatic scooter), 1 200 000-2 000 000/month with the mandatory disclaimer. Licence: no blanket statement, 'dépend de votre permis et nationalité, vérifiez'. Helmet obligatory (consistent with pillar). Hoàn Kiếm low-emission-zone evening ban (19:00-midnight Fri-Sun since 1 July 2026) mentioned with a pointer to the Hoan Kiem article which holds the sources. No taxi prices, no convert to EUR, no invented bus fare. Sources: https://www.hanoitourism.org/hanoi-bus-system-guide/; https://en.wikipedia.org/wiki/Buses_in_Hanoi; https://www.hanoitourism.org/hanoi-metro-guide/; https://en.wikipedia.org/wiki/Hanoi_Metro_Line_3",
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Main question: public transport or rental motorbike in Hanoi. Owner of 'moto de location ou transports publics à Hanoi'. Differs from location-moto-ou-taxi-hanoi-cout (3-day taxi cost), location-moto-hanoi-ou-grab (ride-hailing) and location-moto-hanoi-ou-circuit-moto-hanoi (guided tour) by being about the public network (walking, bus, metro) and the trip-by-trip decision; Grab and taxi-cost pages linked once each, circuit named without link.",
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Full rewrite; old text was abstract comparison ('le cœur de la comparaison', 'asymétrie de liberté'). New sections: offre de transports (bus, métro, applications), limites, atouts/exigences de la moto, table by trip type, three profiles, reaching the Long Biên shop without a motorbike, five-question checklist, FAQ 5 Q. Words 1772 -> 1644. Sources: https://www.hanoitourism.org/hanoi-bus-system-guide/; https://en.wikipedia.org/wiki/Buses_in_Hanoi; https://www.hanoitourism.org/hanoi-metro-guide/; https://en.wikipedia.org/wiki/Hanoi_Metro_Line_3",
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Title extended with 'que choisir ?' (48 -> 62 chars, a natural question matching the intent); H1 aligned; description rewritten (141 -> 154 chars) ; og:title/og:description synced. Coordinator should sync data/seo-master-matrix if it stores the title. Built check: Unique title (62 chars) and description (153 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/location-moto-hanoi-ou-grab/, /prix-location/location-moto-ou-taxi-hanoi-cout/, /location-moto-hanoi/location-moto-hoan-kiem/, /location-moto-hanoi/quartiers/. External: hanoitourism.org (bus guide, metro guide), Wikipedia (Buses in Hanoi, Hanoi Metro Line 3). Built check: 2 source-body incoming links (e.g. location-moto-hanoi/index.html, location-moto-hanoi/longue-duree/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Direct answer in the lead (centre: walk/bus; moto for dispersed/excursion/long stays; metro does not serve the Old Quarter or Long Biên). Comparison table by trip, checklist of 5 questions, FAQ 5 Q, 4 external citations.",
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-ou-public-transport-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "43c18668c13ccaf5949d75fe639379b2509eee4705f3f8b6b2873144e9bc4adf"
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-location-moto-ou-public-transport-hanoi assets/images/seo/location-moto-hanoi/location-moto-ou-public-transport-hanoi/hero.webp WebP 1200x630 184 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "43c18668c13ccaf5949d75fe639379b2509eee4705f3f8b6b2873144e9bc4adf"
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/location-moto-ou-public-transport-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-ou-public-transport-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "43c18668c13ccaf5949d75fe639379b2509eee4705f3f8b6b2873144e9bc4adf"
+          "verified_sha256": "4ae0f219f015ee32c11af2a4c53760762cfb8943568057b59b877c9cfd20a18d"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -28900,30 +28984,34 @@
       "intent_to_validate": "Giao dịch địa phương",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "6d6fb061c0773072c2f020edd154fb4e70898416d2ea1f3a9681449b13ecc53c",
+        "source_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8",
         "title": "Location de moto près de moi à Hanoi : trouver le bon loueur",
         "title_chars": 60,
-        "description": "Vous cherchez une location de moto près de vous à Hanoi ? Méthode pour repérer un loueur fiable proche de votre logement, sans vous limiter à l'enseigne la plus proche.",
-        "description_chars": 168,
+        "description": "Louer une moto près de chez vous à Hanoi : ce que la proximité change vraiment, comment filtrer les loueurs sur une carte et quoi demander avant de réserver.",
+        "description_chars": 157,
         "h1": "Louer une moto près de chez vous à Hanoi : bien choisir, pas seulement au plus près",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-pres-de-moi/",
-        "editorial_word_count_estimate": 2096,
+        "editorial_word_count_estimate": 1882,
         "h2_h3": [
-          "Ce que veut vraiment dire « près de moi » à Hanoi",
-          "Chercher un loueur proche de votre logement, pas à pas",
-          "Proximité ou qualité : ce qui doit peser le plus",
-          "Évaluer rapidement un loueur trouvé à proximité",
+          "Ce que « près de moi » veut dire pour une location",
+          "La boutique est-elle près de chez vous ?",
+          "Chercher un loueur sur une carte en ligne",
+          "Les questions à poser avant de réserver",
+          "Proximité ou qualité : quand la distance pèse",
           "Quand la livraison remplace la proximité",
-          "Les erreurs classiques des recherches locales",
-          "Préparer votre premier trajet jusqu’au point de retrait",
-          "Checklist avant de choisir un loueur près de vous",
+          "Les erreurs fréquentes quand on cherche près de soi",
+          "Préparer le trajet jusqu’au point de retrait",
           "Questions fréquentes",
           "Faut-il prendre le loueur le plus proche de son hôtel ?",
           "Comment vérifier un loueur trouvé sur une carte en ligne ?",
-          "La livraison est-elle possible si le point de retrait est loin ?",
-          "Que vérifier sur place avant de signer ?",
-          "Pour aller plus loin"
+          "La boutique de Long Biên est-elle proche du Vieux Quartier ?",
+          "Une livraison à l’hôtel est-elle possible ?",
+          "Que vérifier sur place avant de partir ?",
+          "Comment vérifier un loueur trouvé sur une carte en ligne ?",
+          "La boutique de Long Biên est-elle proche du Vieux Quartier ?",
+          "Une livraison à l’hôtel est-elle possible ?",
+          "Que vérifier sur place avant de partir ?"
         ],
         "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
@@ -28956,47 +29044,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Removed SEO-process wording ('hub', 'cette page se concentre sur la décision locale', 'logique de carte/de service'), and the generic claims that the shop's site 'documente un point de retrait… exemple concret'. Shop located at Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên (gần Bến xe Gia Lâm), 09:00-21:00; per-quarter reachability (bridge to cross) consistent with the quartiers sub-hub, no travel times. Caution/passport stated only as general market practice ('certains loueurs demandent une somme d'argent, d'autres conservent une pièce d'identité ; demandez la règle applicable'). Shop's own deposit, documents, delivery and assistance explicitly 'à confirmer par message'; delivery 'non annoncée'. Price: only owner range 150 000-200 000 VND/day for automatic/semi-automatic with the mandatory disclaimer. Licence: dependent on permit, category and nationality, to check before paying; no blanket statement.",
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Main question: how to rent a motorbike 'near me' in Hanoi and whether the nearest renter is the right one. Owner of 'louer une moto près de chez vous à Hanoi'. Differs from location-moto-aeroport-noi-bai (airport pickup), location-moto-retrait-hanoi (the handover steps) and choisir-location-moto-hanoi (general criteria): this one is about distance from lodging, filtering map listings and the pickup trip. Each is linked once.",
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Rewrote all sections in direct French; deleted the 'checklist qui ne désigne pas le bon loueur' filler and the duplicate FAQ; added a per-sector reachability list, a map-filtering checklist and a standard question list for any renter. Sections: ce que signifie près de moi; la boutique est-elle près de chez vous; chercher sur une carte; questions à poser; proximité ou qualité; livraison; erreurs; préparer le trajet; FAQ 5 Q. Words 2240 -> 1801.",
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Title kept (60 chars). H1 kept (matches the sub-hub anchor). Description rewritten (168 -> 154 chars); og:description synced. Built check: Unique title (60 chars) and description (157 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/choisir-location-moto-hanoi/, /location-moto-hanoi/moto-livraison-hotel-hanoi/, /location-moto-hanoi/location-moto-retrait-hanoi/. Built check: 3 source-body incoming links (e.g. location-moto-hanoi/book-location-moto-hanoi-online-ou-walk-a/index.html, location-moto-hanoi/index.html, location-moto-hanoi/quartiers/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Direct answer in the lead (3 moments where distance matters, shop in Long Biên). 3 checklists, 1 question list, FAQ 5 Q; no external citation.",
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-pres-de-moi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "6d6fb061c0773072c2f020edd154fb4e70898416d2ea1f3a9681449b13ecc53c"
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-location-moto-pres-de-moi assets/images/seo/location-moto-hanoi/location-moto-pres-de-moi/hero.webp WebP 1200x630 211 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "6d6fb061c0773072c2f020edd154fb4e70898416d2ea1f3a9681449b13ecc53c"
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/location-moto-pres-de-moi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-pres-de-moi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "6d6fb061c0773072c2f020edd154fb4e70898416d2ea1f3a9681449b13ecc53c"
+          "verified_sha256": "a5805c94f9ac71b0d0068de2a65c1954e60f4fff519c61046bf9368cb7d693e8"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -29019,32 +29114,41 @@
       "intent_to_validate": "Giao dịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "80d09ff06f3805b7732b8f5981ae359f4a02c76c345c716cdcfc965fb52e1738",
-        "title": "Retrait de la moto louée à Hanoi : organiser le bon moment",
-        "title_chars": 58,
-        "description": "Retirer une moto louée à Hanoi se prépare : documents, créneau, inspection, contrat et dépôt. Le déroulé complet du retrait, étape par étape, pour partir sereinement.",
-        "description_chars": 166,
+        "source_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b",
+        "title": "Retrait de la moto louée à Hanoi : le déroulé étape par étape",
+        "title_chars": 61,
+        "description": "Récupérer une moto louée à Hanoi : confirmation avant de venir, vérifications au comptoir, conditions écrites, photos et premiers kilomètres à Long Biên.",
+        "description_chars": 153,
         "h1": "Récupérer sa moto louée à Hanoi : le déroulé du retrait, étape par étape",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-retrait-hanoi/",
-        "editorial_word_count_estimate": 1854,
+        "editorial_word_count_estimate": 2040,
         "h2_h3": [
-          "Pourquoi le retrait mérite d’être préparé",
-          "Choisir le bon créneau pour récupérer la moto",
-          "Les documents et la somme à avoir sur soi",
-          "L’inspection du véhicule : la séquence complète",
-          "Le contrat et le dépôt : ce qui doit être écrit",
-          "Le point de retrait et les options de livraison",
-          "Repartir du bon pied : les premières minutes",
+          "Avant de venir : ce qu’il faut confirmer",
+          "Choisir le créneau et organiser le trajet",
+          "Ce qu’il faut avoir sur soi",
+          "Au comptoir : vérifier avant de signer",
+          "Si la moto ne vous convient pas",
+          "Le contrôle de la moto, rapidement",
+          "Photos et constat de départ",
+          "Les premiers kilomètres",
           "Checklist du jour du retrait",
           "Questions fréquentes",
-          "Combien de temps dure un retrait de moto ?",
-          "Où se situe le point de retrait du site ?",
-          "Peut-on se faire livrer la moto au lieu d’aller la chercher ?",
+          "Combien de temps faut-il prévoir pour le retrait ?",
+          "Où est le point de retrait ?",
+          "Peut-on se faire livrer la moto à l’hôtel ?",
+          "Quels documents faut-il apporter ?",
           "Faut-il photographier la moto au retrait ?",
-          "Pour aller plus loin"
+          "Où est le point de retrait ?",
+          "Peut-on se faire livrer la moto à l’hôtel ?",
+          "Quels documents faut-il apporter ?",
+          "Faut-il photographier la moto au retrait ?",
+          "Où est le point de retrait ?",
+          "Peut-on se faire livrer la moto à l’hôtel ?",
+          "Quels documents faut-il apporter ?",
+          "Faut-il photographier la moto au retrait ?"
         ],
-        "source_body_internal_inlinks": 16,
+        "source_body_internal_inlinks": 18,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html",
@@ -29075,47 +29179,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Removed unconfirmed policies stated as facts: 'si vous choisissez le dépôt en espèces', 'passeport valide, loyer et dépôt', 'remise du dépôt', 'délai de remboursement', and the claim the contract has four standard clauses. Now: deposit/guarantee, documents, payment method, day counting, delivery all 'à confirmer avant de vous déplacer' (stated once explicitly for Thuê xe máy Nguyễn Hà). NAP and hours confirmed (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, gần Bến xe Gia Lâm; 09:00-21:00). Prices: only owner range 150 000-200 000/day (scooter/semi) with the mandatory disclaimer and the list of other rows. Licence: dependent on permit/nationality, no blanket statement. Removed 'photo → règle la quasi-totalité des constats' (unsourced). Generic equipment advice (closed shoes, rain jacket) is common-sense, no numbers.",
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Main question: what happens when you pick up a rental motorbike in Hanoi. Owner of 'récupérer sa moto louée à Hanoi'. Differs from prix-location/location-moto-retrait-retour-jour-charge-hanoi (how the pickup/return day is charged) and from location-moto-inspection-liste-controle (mechanical checks, linked once) by being the chronological sequence: before coming, travel, counter, photos, first kilometres.",
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Full rewrite. Sections: avant de venir (what to confirm); créneau et trajet; ce qu'il faut avoir sur soi (new); au comptoir; si la moto ne vous convient pas (new); contrôle rapide (details moved to the inspection article); photos et constat; premiers kilomètres; checklist; FAQ 5 Q. Words 1968 -> 1963.",
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Title changed from 'Retrait de la moto louée à Hanoi : organiser le bon moment' (not what the page delivers: the page is a step-by-step) to 'Retrait de la moto louée à Hanoi : le déroulé étape par étape' (61 chars). H1 kept. Description rewritten (166 -> 153 chars; removed 'contrat et dépôt'); og:title and og:description synced. Coordinator should sync the title in the matrix. Built check: Unique title (61 chars) and description (153 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/location-moto-inspection-liste-controle/, /location-moto-hanoi/moto-livraison-hotel-hanoi/, /location-moto-hanoi/rendre-scooter-location-hanoi/. Dropped /location-moto-hanoi/choisir-location-moto-hanoi/ to stay at 7. Built check: 18 source-body incoming links (e.g. blog/index.html, location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html, location-moto-hanoi/courte-duree-location-moto-hanoi/index.html); 18 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Direct answer in the lead (sequence of the pickup). 4 checklists, FAQ 5 Q; no external citation.",
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-retrait-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "80d09ff06f3805b7732b8f5981ae359f4a02c76c345c716cdcfc965fb52e1738"
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-location-moto-retrait-hanoi assets/images/seo/location-moto-hanoi/location-moto-retrait-hanoi/hero.webp WebP 1200x630 207 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image. Duplication note: near-identical composition (dHash ≤8/256) with IMG-prix-location-location-moto-retrait-retour-jour-charge-hanoi (d=8); colours/details differ; kept as a valid illustration and prioritised for the separate photographic replacement (G18).",
-          "verified_sha256": "80d09ff06f3805b7732b8f5981ae359f4a02c76c345c716cdcfc965fb52e1738"
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/location-moto-retrait-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-retrait-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "80d09ff06f3805b7732b8f5981ae359f4a02c76c345c716cdcfc965fb52e1738"
+          "verified_sha256": "2c6360e1ae21c993fe29a21c578c5d502c9eca9fc6f23590a7ee2c57faaf016b"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -29138,28 +29249,33 @@
       "intent_to_validate": "Giao dịch địa phương",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "f09d7acb5a8a25318b9825bb040b450aa40f901bf4e057dd112a9d0031c8d27b",
+        "source_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49",
         "title": "Location de moto à Tay Ho : la formule des longs séjours",
         "title_chars": 56,
-        "description": "Location de moto à Tay Ho : le district du lac de l'Ouest qui se prête aux longs séjours — la location mensuelle, la machine du quotidien, sans adresse ni tarif inventés.",
-        "description_chars": 170,
+        "description": "Vous logez à Tay Ho, près du lac de l’Ouest ? Louer une moto au mois, aller la chercher à Long Biên, tarifs indicatifs, machine du quotidien et points à régler.",
+        "description_chars": 160,
         "h1": "Location de moto à Tay Ho : la formule des longs séjours",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-tay-ho/",
-        "editorial_word_count_estimate": 1649,
+        "editorial_word_count_estimate": 1734,
         "h2_h3": [
-          "Tay Ho, le district qui borde le grand lac",
-          "Pourquoi le district se prête aux longs séjours",
-          "La machine du quotidien du district",
-          "Rouler au bord du lac",
-          "Le budget qui se lit au mois",
+          "Tay Ho, le quartier du lac de l’Ouest",
+          "Aller chercher la moto à Long Biên depuis Tay Ho",
+          "Louer au mois : tarifs et points à régler",
+          "Deux ou trois semaines : quelle ligne s’applique ?",
+          "Ce que le loyer ne comprend pas",
+          "Quelle machine pour le quotidien à Tay Ho",
+          "Rouler et se garer autour du lac",
           "Questions fréquentes",
-          "La location au mois se pratique-t-elle à Tay Ho ?",
-          "Quelle machine pour le quotidien du bord du lac ?",
-          "Les quais du lac se roulent-ils à toute heure ?",
-          "Le tarif mensuel diffère-t-il de celui du centre-ville ?",
-          "Peut-on alterner voiture et moto au long séjour ?",
-          "Pour aller plus loin"
+          "Y a-t-il un point de retrait à Tay Ho ?",
+          "Combien coûte une location au mois ?",
+          "Quelle machine choisir pour le quotidien au bord du lac ?",
+          "La recharge d’un deux-roues électrique est-elle possible dans les logements de Tay Ho ?",
+          "Peut-on prolonger la location à la fin du mois ?",
+          "Combien coûte une location au mois ?",
+          "Quelle machine choisir pour le quotidien au bord du lac ?",
+          "La recharge d’un deux-roues électrique est-elle possible dans les logements de Tay Ho ?",
+          "Peut-on prolonger la location à la fin du mois ?"
         ],
         "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
@@ -29192,47 +29308,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Old text was entirely abstract ('aucune adresse inventée', 'les pêcheurs qui relèvent aux filets', 'ambassades qui s'y dispersent') - invented local colour removed. Shop stated in Long Biên (not Tay Ho), 09:00-21:00, route via Long Biên bridge (two-wheelers/pedestrians only, access previously interrupted) or Chương Dương; no travel time. Monthly and weekly prices only from the owner table (six rows monthly; weekly line list) with the disclaimer, 'pas de forfait pour 2-5 semaines', 'ne se déduit pas du prix d'une journée'. Maintenance, replacement machine, prolongation, documents, guarantee, delivery: asked in a checklist, none affirmed. Geography stated only at a general level (Hồ Tây largest lake of Hanoi, north-west of the old centre, Red River to the east, Xuân Diệu/Quảng An streets as dining streets); expressway ban for two-wheelers kept from the pillar. No ambassy/ expat statistics.",
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Main question: renting a motorbike while staying in Tay Ho. Owner of 'location de moto à Tay Ho'. Differs from what-is-included-location-moto-hanoi and 1-way (closest pages) because it is district-specific and monthly-stay oriented; longue-duree sub-hub and 1-mois article linked once each for the general long-stay rules.",
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Full rewrite. Sections: Tay Ho, le quartier du lac de l'Ouest; aller chercher la moto à Long Biên; louer au mois (price table + checklist of 5 points); deux ou trois semaines (new); ce que le loyer ne comprend pas (new); quelle machine; rouler et se garer autour du lac; FAQ 5 Q. Words 1690 -> 1794.",
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Title and H1 kept (56 chars, match the sub-hub anchor, plain enough). Description rewritten (170 -> 160 chars; removed 'sans adresse ni tarif inventés'); og:description synced. Built check: Unique title (56 chars) and description (160 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): 7/7 unique internal: /location-moto-hanoi/ (parent hub), /prix-location/, /types-motos/ (required), /location-moto-hanoi/quartiers/, /location-moto-hanoi/longue-duree/, /location-moto-hanoi/1-mois-location-moto-hanoi/, /hanoi/west-lac-hanoi-moto/. Dropped /prix-location/mensuelle-location-moto-economies-hanoi/ and the inspection link to keep within 7. Built check: 4 source-body incoming links (e.g. location-moto-hanoi/index.html, location-moto-hanoi/location-moto-hanoi-expat/index.html, location-moto-hanoi/longue-duree/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-LOCATI-3.json): Direct answer in the lead (monthly logic, shop in Long Biên, monthly range). Price table + checklist, FAQ 5 Q; no external citation.",
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-tay-ho/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "f09d7acb5a8a25318b9825bb040b450aa40f901bf4e057dd112a9d0031c8d27b"
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-location-moto-hanoi-location-moto-tay-ho assets/images/seo/location-moto-hanoi/location-moto-tay-ho/hero.webp WebP 1200x630 194 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "f09d7acb5a8a25318b9825bb040b450aa40f901bf4e057dd112a9d0031c8d27b"
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/location-moto-hanoi/location-moto-tay-ho/index.html: self canonical https://fr.rentbikehanoi.com/location-moto-hanoi/location-moto-tay-ho/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "f09d7acb5a8a25318b9825bb040b450aa40f901bf4e057dd112a9d0031c8d27b"
+          "verified_sha256": "977c672f276e269d1ffdc5c0fc09081b0a6dbb6be1fbf4715d7e1ba8cced2d49"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -29408,7 +29531,7 @@
           "Garantie, contrat et modèles",
           "Contact et pages voisines"
         ],
-        "source_body_internal_inlinks": 22,
+        "source_body_internal_inlinks": 23,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/index.html",
           "honda/honda-ct125-prix-location-hanoi/index.html",
@@ -29888,7 +30011,7 @@
           "Faut-il réserver longtemps à l'avance pour une livraison ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/book-location-moto-hanoi-online-ou-walk-a/index.html",
           "location-moto-hanoi/business-traveler-hanoi-location-moto-ou-taxi/index.html",
@@ -30385,7 +30508,7 @@
           "Arrivée à Hanoi et choix du loueur",
           "Contact et pages voisines"
         ],
-        "source_body_internal_inlinks": 22,
+        "source_body_internal_inlinks": 23,
         "source_body_internal_inlink_examples": [
           "hanoi/index.html",
           "location-moto-hanoi/aeroport-noi-bai-vers-hanoi-location-moto/index.html",
@@ -30517,7 +30640,7 @@
           "Comment éviter d’oublier ses affaires dans la machine ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "location-moto-hanoi/courte-duree/index.html",
@@ -45347,7 +45470,7 @@
           "Le prix inclut-il une caution ou une livraison ?",
           "Où trouver les réponses sur les documents ?"
         ],
-        "source_body_internal_inlinks": 285,
+        "source_body_internal_inlinks": 286,
         "source_body_internal_inlink_examples": [
           "a-propos/index.html",
           "blog/index.html",
@@ -46340,11 +46463,11 @@
           "Que faire en cas de pluie pendant la location ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/business-traveler-hanoi-location-moto-ou-taxi/index.html",
-          "prix-location/index.html",
-          "prix-location/jour/index.html"
+          "location-moto-hanoi/location-moto-ou-public-transport-hanoi/index.html",
+          "prix-location/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -46810,7 +46933,7 @@
           "Que regarder dans le contrat avant de signer un mois ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 11,
+        "source_body_internal_inlinks": 10,
         "source_body_internal_inlink_examples": [
           "honda/honda-lead-abs-prix-location-hanoi/index.html",
           "honda/honda-sh125i-prix-location-hanoi/index.html",

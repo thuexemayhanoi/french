@@ -118,7 +118,7 @@
   "role": "OWNER",
   "primary_intent": "À moto de Huế à Đà Nẵng : col de Hải Vân ou tunnel, et comment rouler le col.",
   "words_before": 1633,
-  "words_after": 1700,
+  "words_after": 1662,
   "new_meta": {
    "title": "De Huế à Đà Nẵng à moto : col de Hải Vân ou tunnel ?",
    "description": "Huế–Đà Nẵng à moto : pourquoi les deux-roues prennent le col de Hải Vân et non le tunnel, comment le rouler, météo, machine et vérifications avant la descente.",
@@ -212,7 +212,7 @@
   "role": "OWNER",
   "primary_intent": "Comment monter de Nha Trang à Đà Lạt à moto : routes, col de Khánh Lê, météo, machine.",
   "words_before": 1724,
-  "words_after": 1700,
+  "words_after": 1712,
   "new_meta": {
    "title": "De Nha Trang à Đà Lạt à moto : routes, col de Khánh Lê, météo",
    "description": "De Nha Trang à Đà Lạt à moto : la nationale 27C et le col de Khánh Lê, l’itinéraire plus long, le risque d’éboulement en saison des pluies, machine et étapes.",
@@ -267,7 +267,7 @@
   "role": "OWNER",
   "primary_intent": "Comment visiter Mũi Né à moto : accès depuis Saigon, dunes, port, vent et sable.",
   "words_before": 1768,
-  "words_after": 1650,
+  "words_after": 1686,
   "new_meta": {
    "title": "Mũi Né à moto : dunes, port de pêche, vent et route côtière",
    "description": "Mũi Né à moto : rejoindre la côte depuis Saigon sans autoroute, dunes au lever du soleil, port de pêche, vent latéral et sable sur la chaussée.",
@@ -347,7 +347,7 @@
   "role": "OWNER",
   "primary_intent": "Comment aller à Phong Nha et s’y déplacer à moto (routes, grottes, saison).",
   "words_before": 1855,
-  "words_after": 1600,
+  "words_after": 1613,
   "new_meta": {
    "title": "Phong Nha à moto : grottes, routes de montagne, accès depuis Huế",
    "description": "Phong Nha à moto : parc national et grottes, nationale 1 ou route Hồ Chí Minh depuis Huế, ravitaillement, pluies d’automne, machine et sécurité en montagne.",
@@ -437,7 +437,7 @@
   "role": "OWNER",
   "primary_intent": "Comment répartir trois jours à moto à Phú Quốc (sud, est, nord).",
   "words_before": 2134,
-  "words_after": 1680,
+  "words_after": 1681,
   "new_meta": {
    "title": "Phú Quốc à moto en 3 jours : sud, est et nord de l’île",
    "description": "Phú Quốc à moto en trois jours : une zone par jour (sud, est, nord), pistes du nord après la pluie, saison, location sur l’île et vérifications utiles.",
@@ -652,7 +652,7 @@
   "role": "OWNER",
   "primary_intent": "Comment découper la route côtière du col de Hải Vân à Mũi Né à moto (étapes, distances, saisons).",
   "words_before": 1831,
-  "words_after": 1665,
+  "words_after": 1666,
   "new_meta": {
    "title": "Vietnam côtier à moto : de Hải Vân à Mũi Né, étapes et distances",
    "description": "La côte du Vietnam à moto, du col de Hải Vân à Mũi Né : étapes et distances, nationale 1 chargée, autoroutes interdites, saisons du Centre et du Sud, machine.",
@@ -717,7 +717,7 @@
   "role": "OWNER",
   "primary_intent": "Comment aborder une traversée Nord–Sud du Vietnam à moto : échelle, régions, sens, saisons, accord du loueur.",
   "words_before": 1537,
-  "words_after": 1635,
+  "words_after": 1632,
   "new_meta": {
    "title": "Nord–Sud du Vietnam à moto : régions, sens du voyage et saisons",
    "description": "Traverser le Vietnam du Nord au Sud à moto : échelle du voyage, trois régions, sens à choisir, saisons, routes interdites aux motos et accord du loueur.",
@@ -765,6 +765,75 @@
   ],
   "owner_gaps": [
    "Long-trip terms for bikes rented at Long Biên (zone, rail transport, one-way return, long-term rates)."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment chiffrer le budget d’une traversée du Vietnam en moto (postes, tarifs de location indicatifs, estimation).",
+  "words_before": 1822,
+  "words_after": 1582,
+  "new_meta": {
+   "description": "Budget d’une traversée du Vietnam en moto : postes de dépense, tarifs indicatifs de location à Hanoi, essence, nuits, équipement, imprévus et estimation.",
+   "h1": "Budget d’une traversée du Vietnam en moto : les postes de dépense"
+  },
+  "evidence": {
+   "FACTS": "Added the owner reference prices (semi-automatic 150,000–200,000 / 700,000–800,000 / 1,000,000–1,200,000 VND; automatic scooter 150,000–200,000 / 600,000–1,000,000 / 1,200,000–2,000,000 VND) with the mandatory disclaimer ‘Tarifs indicatifs, à confirmer avant toute réservation selon le véhicule et la durée’ and an explicit statement that they say nothing about zone, one-way, rail transport or multi-week terms; no multiplication, no € conversion (only advice to use a dated rate). Removed unsourced/unconfirmed statements: ‘les frais de rapatriement’ for one-way presented as fact, ‘la caution… par dépôt d’espèces ou par empreinte’, ‘les loueurs accordent plus facilement une journée offerte’, ‘achat-revente’ detail, ‘les tarifs de carburant encadrés’, ‘une hospitalisation non couverte dépasse en un jour le budget’, ‘certaines agences incluent sacoches et kit’. Deposit now only generic (‘certains loueurs demandent… demandez la règle’, plus ‘rien n’est confirmé pour Nguyễn Hà’ in FAQ) – review flags accepted as qualified. Sources: Thanh Tra (Sept–Dec storm season, hub), Vietnam Coracle (moto by train, authorisation needed, tariffs at counter; hub). No numeric fuel/lodging/meal figures.",
+   "INTENT": "Main question: how to build the budget of a crossing. OWNER ‘traversée du Vietnam en moto’. Closest pages vietnam-nord-a-sud-voyage-moto (0.33, trip overview), prix-location/nord-vietnam-voyage-moto-budget-7-jours (0.31), moto-entretien (0.27): this page is a cost-structure and estimation method with the shop’s indicative rental rates; routes and regions are in the overview.",
+   "CONTENT": "Rewritten: cost-post worksheet table, rental section with owner price table, fuel/maintenance, nights/meals, equipment/insurance/papers, imprévus + levers checklist, FAQ. Removed abstract padding (‘un budget vivant’, ‘vocabulaire’). Words 1822→1582.",
+   "META": "Title kept (57); description rewritten (153); H1 aligned (‘les postes de dépense’); og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept meilleur-moto-vietnam-nord-sud; added /prix-location/, moto-entretien-liste-controle-vietnam-voyage-moto, moto-luggage-vietnam-voyage-moto (hanoi-a-ho-chi-minh mentioned in text without link to respect the 7-link cap). 7/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (no universal total; location and nights dominate; owner rates quoted with disclaimer). 2 tables, 1 checklist, FAQ 5 questions. 2 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://thanhtra.com.vn/moi-truong-9DBF44B9E/mua-lon-don-dap-tai-mien-trung-vao-thang-10-11-D3085D18.html",
+    "checked": "2026-10-30",
+    "used_for": "Centre storm/flood season (as in hub)"
+   },
+   {
+    "url": "https://vietnamcoracle.com/how-to-send-your-motorbike-on-the-train",
+    "checked": "2026-10-30",
+    "used_for": "moto sent by train, authorisation and tariffs at counter (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Rates and conditions for multi-week rentals, one-way returns and out-of-region use at Thuê xe máy Nguyễn Hà; deposit policy; whether insurance is included."
+  ]
+ },
+ {
+  "path": "centre-sud-vietnam/vung-tau-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que voir et comment rouler à moto à Vũng Tàu, depuis Saigon.",
+  "words_before": 2198,
+  "words_after": 1580,
+  "new_meta": {
+   "title": "Vũng Tàu à moto : plages, statue, phare et route de corniche",
+   "description": "Vũng Tàu à moto depuis Saigon : plage de la baie et plage du large, petit et grand mont, statue et phare, corniche, week-ends chargés, saison et vérifications.",
+   "h1": "Vũng Tàu à moto : plages, monts et corniche"
+  },
+  "evidence": {
+   "FACTS": "Corrected a probable error of the old text: it placed the lighthouse on the ‘grand mont’ and described a ‘corniche au nord de la ville… réserves au pied des collines’; WebSearch (standard) could not confirm either (one snippet even tied the statue to the small mountain), so the page now gives the statue on the petit mont (query result: ≈800 steps, single source, flagged ‘à vérifier’), says the lighthouse access must be checked on a map, and describes the corniche generically as the coastal road between the two beaches (consistent with hub ‘corniche entre deux collines’). Distance Saigon–Vũng Tàu: sources give 90, 100, 110 or 120 km, stated as ‘entre 90 et 120 km selon les sources’ (seen in search result, no URL cited); back beach ≈8–10 km (two sources). Removed unsourced narrative (‘villas coloniales’, ‘pétrole au large’, ‘cap… depuis des siècles’, ‘boucle des crêtes’, fruits de mer au panier, hub-contradicting heading ‘balcon des Saïgonnais’). Hub-verified: 2025 merger of Bà Rịa–Vũng Tàu into HCMC (Thời báo Tài chính Việt Nam), Southern rainy season (Pháp Luật TP.HCM), expressway ban (law 36/2024/QH15). Hanoi-rental caveat; licence generic; no price.",
+   "INTENT": "Main question: what to see/how to ride in Vũng Tàu by moto. OWNER ‘Vũng Tàu à moto’. Closest pages (nord-vietnam/halong 2 jours 0.23, nha-trang 0.21) are unrelated; route from Saigon is delegated to ho-chi-minh-a-vung-tau-moto.",
+   "CONTENT": "Rewritten: sites table with caveated figures, two beaches, mountains/statue/lighthouse checklist, corniche, one-day programme table (new), access from Saigon, season and weekends, machine/rental, FAQ. Removed mannered prose (‘la ville récompense toujours ceux qui se lèvent’, ‘la discipline du site’). Words 2198→1580.",
+   "META": "Title (60), description (159), H1 and eyebrow rewritten; og tags identical to title/description.",
+   "LINKS": "Required: /centre-sud-vietnam/, /types-motos/, /permis-securite/securite/. Kept ho-chi-minh-a-vung-tau-moto and moto-ho-chi-minh-ville; added sud/. 6/7 unique; parent hub present.",
+   "AEO_GEO": "Lead answers directly (peninsula with two beaches and two mountains; access without expressway; early start; weekends busy). 2 tables, 2 lists, FAQ 5 questions. 2 inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://thoibaotaichinhvietnam.vn/tp-ho-chi-minh-tao-khong-gian-dong-luc-phat-trien-moi-cho-khu-vuc-ba-ria-vung-tau-182702.html",
+    "checked": "2026-10-30",
+    "used_for": "2025 merger of Bà Rịa–Vũng Tàu into HCMC (as in hub)"
+   },
+   {
+    "url": "https://plo.vn/sau-ngay-5-5-tphcm-va-nam-bo-buoc-vao-mua-mua-post480943.html",
+    "checked": "2026-10-30",
+    "used_for": "Southern rainy season start (as in hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Long Biên rental may reach Vũng Tàu. Statue steps, back-beach length and Saigon–Vũng Tàu distance come from inconsistent search snippets; lighthouse/mountain location not verified."
   ]
  }
 ]

@@ -807,7 +807,7 @@
     },
     {
      "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
-     "similarity": 0.27
+     "similarity": 0.23
     },
     {
      "path": "prix-location/nord-vietnam-voyage-moto-budget-7-jours/index.html",
@@ -852,12 +852,12 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
-     "similarity": 0.27
-    },
-    {
      "path": "prix-location/mensuelle-location-moto-entretien-cout-hanoi/index.html",
      "similarity": 0.25
+    },
+    {
+     "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
+     "similarity": 0.23
     },
     {
      "path": "yamaha/yamaha-lexi-vietnam-voyage-moto/index.html",
@@ -1131,12 +1131,12 @@
      "similarity": 0.17
     },
     {
-     "path": "centre-sud-vietnam/da-nang-voyage-moto/index.html",
+     "path": "centre-sud-vietnam/vung-tau-itineraire-moto/index.html",
      "similarity": 0.16
     },
     {
-     "path": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
-     "similarity": 0.15
+     "path": "centre-sud-vietnam/da-nang-voyage-moto/index.html",
+     "similarity": 0.16
     }
    ]
   },
@@ -1285,8 +1285,8 @@
      "similarity": 0.29
     },
     {
-     "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
-     "similarity": 0.27
+     "path": "centre-sud-vietnam/index.html",
+     "similarity": 0.25
     }
    ]
   },
@@ -1294,7 +1294,7 @@
    "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
    "url": "https://fr.rentbikehanoi.com/centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/",
    "type": "ARTICLE",
-   "primary_query_fr": "traversée du Vietnam en moto",
+   "primary_query_fr": "budget d’une traversée du Vietnam en moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
@@ -1303,15 +1303,15 @@
    "closest_pages": [
     {
      "path": "prix-location/nord-vietnam-voyage-moto-budget-7-jours/index.html",
-     "similarity": 0.31
+     "similarity": 0.27
+    },
+    {
+     "path": "centre-sud-vietnam/vietnam-nord-a-sud-voyage-moto/index.html",
+     "similarity": 0.24
     },
     {
      "path": "centre-sud-vietnam/moto-entretien-liste-controle-vietnam-voyage-moto/index.html",
-     "similarity": 0.27
-    },
-    {
-     "path": "centre-sud-vietnam/meilleur-moto-vietnam-nord-sud/index.html",
-     "similarity": 0.27
+     "similarity": 0.23
     }
    ]
   },
@@ -1327,16 +1327,16 @@
    "parent_hub": "/centre-sud-vietnam/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/halong-voyage-moto-2-jours/index.html",
-     "similarity": 0.23
+     "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
+     "similarity": 0.18
+    },
+    {
+     "path": "centre-sud-vietnam/phu-yen-voyage-moto/index.html",
+     "similarity": 0.16
     },
     {
      "path": "hanoi/hanoi-street-food-itineraire-moto/index.html",
-     "similarity": 0.19
-    },
-    {
-     "path": "centre-sud-vietnam/ho-chi-minh-a-vung-tau-moto/index.html",
-     "similarity": 0.19
+     "similarity": 0.15
     }
    ]
   },
@@ -1727,16 +1727,16 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
+     "path": "hanoi/hanoi-soc-son-moto-jour-voyage/index.html",
+     "similarity": 0.27
+    },
+    {
      "path": "hanoi/hanoi-a-bat-trang-moto/index.html",
      "similarity": 0.27
     },
     {
      "path": "hanoi/hanoi-a-duong-lam-moto/index.html",
      "similarity": 0.25
-    },
-    {
-     "path": "hanoi/hanoi-co-loa-moto/index.html",
-     "similarity": 0.21
     }
    ]
   },
@@ -1856,11 +1856,11 @@
      "similarity": 0.33
     },
     {
-     "path": "hanoi/hanoi-a-duong-lam-moto/index.html",
-     "similarity": 0.21
+     "path": "hanoi/hanoi-soc-son-moto-jour-voyage/index.html",
+     "similarity": 0.23
     },
     {
-     "path": "hanoi/hanoi-a-ba-vi-moto/index.html",
+     "path": "hanoi/hanoi-a-duong-lam-moto/index.html",
      "similarity": 0.21
     }
    ]
@@ -1928,15 +1928,15 @@
    "closest_pages": [
     {
      "path": "hanoi/hanoi-street-food-itineraire-moto/index.html",
-     "similarity": 0.29
-    },
-    {
-     "path": "hanoi/hanoi-sunset-itineraire-moto/index.html",
-     "similarity": 0.18
+     "similarity": 0.44
     },
     {
      "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
      "similarity": 0.18
+    },
+    {
+     "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
+     "similarity": 0.17
     }
    ]
   },
@@ -2085,7 +2085,7 @@
      "similarity": 0.15
     },
     {
-     "path": "hanoi/hanoi-sunset-itineraire-moto/index.html",
+     "path": "hanoi/hanoi-street-food-itineraire-moto/index.html",
      "similarity": 0.15
     }
    ]
@@ -2102,15 +2102,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
+     "path": "hanoi/hanoi-sunset-itineraire-moto/index.html",
+     "similarity": 0.22
+    },
+    {
      "path": "types-motos/scooter-ou-moto-vietnam/index.html",
      "similarity": 0.14
     },
     {
      "path": "types-motos/moins-de-125cc-moto-vietnam/index.html",
-     "similarity": 0.14
-    },
-    {
-     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
      "similarity": 0.14
     }
    ]
@@ -2128,15 +2128,15 @@
    "closest_pages": [
     {
      "path": "hanoi/que-faire-hanoi-vieux-quartier/index.html",
-     "similarity": 0.28
+     "similarity": 0.31
     },
     {
      "path": "hanoi/que-faire-hanoi-couples/index.html",
-     "similarity": 0.24
+     "similarity": 0.27
     },
     {
      "path": "hanoi/que-faire-hanoi-solo/index.html",
-     "similarity": 0.18
+     "similarity": 0.2
     }
    ]
   },
@@ -2152,15 +2152,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
+     "path": "hanoi/hanoi-a-ba-vi-moto/index.html",
+     "similarity": 0.27
+    },
+    {
+     "path": "hanoi/hanoi-co-loa-moto/index.html",
+     "similarity": 0.23
+    },
+    {
      "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
-     "similarity": 0.21
-    },
-    {
-     "path": "nord-vietnam/cao-bang-voyage-moto/index.html",
-     "similarity": 0.21
-    },
-    {
-     "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
      "similarity": 0.21
     }
    ]
@@ -2178,15 +2178,15 @@
    "closest_pages": [
     {
      "path": "hanoi/hanoi-food-itineraire-moto/index.html",
-     "similarity": 0.29
+     "similarity": 0.44
     },
     {
      "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
-     "similarity": 0.21
+     "similarity": 0.2
     },
     {
      "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
-     "similarity": 0.2
+     "similarity": 0.18
     }
    ]
   },
@@ -2202,15 +2202,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
-     "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
-     "similarity": 0.2
+     "path": "hanoi/hanoi-photo-spots-moto/index.html",
+     "similarity": 0.22
     },
     {
-     "path": "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
+     "path": "hanoi/hanoi-street-food-itineraire-moto/index.html",
      "similarity": 0.18
     },
     {
-     "path": "nord-vietnam/hanoi-a-pu-luong-moto/index.html",
+     "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
      "similarity": 0.18
     }
    ]
@@ -2219,7 +2219,7 @@
    "path": "hanoi/hoan-kiem-lac-hanoi-que-faire/index.html",
    "url": "https://fr.rentbikehanoi.com/hanoi/hoan-kiem-lac-hanoi-que-faire/",
    "type": "ARTICLE",
-   "primary_query_fr": "lac Hoan Kiem à Hanoi",
+   "primary_query_fr": "lac Hoàn Kiếm à Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "hanoi/hoan-kiem-lac-hanoi-que-faire/index.html",
@@ -2403,7 +2403,7 @@
    "closest_pages": [
     {
      "path": "hanoi/hanoi-quartier-francais-que-faire/index.html",
-     "similarity": 0.24
+     "similarity": 0.27
     },
     {
      "path": "hanoi/que-faire-hanoi-solo/index.html",
@@ -2503,7 +2503,7 @@
    "closest_pages": [
     {
      "path": "hanoi/hanoi-quartier-francais-que-faire/index.html",
-     "similarity": 0.28
+     "similarity": 0.31
     },
     {
      "path": "location-moto-hanoi/location-moto-vieux-quartier-hanoi/index.html",
@@ -5302,16 +5302,8 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "hanoi/hanoi-sunset-itineraire-moto/index.html",
-     "similarity": 0.11
-    },
-    {
      "path": "centre-sud-vietnam/con-dao-voyage-moto/index.html",
      "similarity": 0.08
-    },
-    {
-     "path": "hanoi/hanoi-quartier-francais-que-faire/index.html",
-     "similarity": 0.07
     }
    ]
   },
@@ -5403,7 +5395,7 @@
    "closest_pages": [
     {
      "path": "location-moto-hanoi/location-moto-retrait-hanoi/index.html",
-     "similarity": 0.09
+     "similarity": 0.12
     },
     {
      "path": "nord-vietnam/ha-giang-boucle-4-jours-moto/index.html",
@@ -5977,11 +5969,11 @@
      "similarity": 0.2
     },
     {
-     "path": "location-moto-hanoi/location-moto-retrait-hanoi/index.html",
-     "similarity": 0.16
+     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+     "similarity": 0.15
     },
     {
-     "path": "types-motos/location-moto-manuelle-hanoi/index.html",
+     "path": "location-moto-hanoi/debutant-location-moto-hanoi/index.html",
      "similarity": 0.15
     }
    ]
@@ -5998,16 +5990,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "prix-location/location-moto-retrait-retour-jour-charge-hanoi/index.html",
-     "similarity": 0.22
-    },
-    {
      "path": "location-moto-hanoi/location-moto-hanoi-ou-grab/index.html",
-     "similarity": 0.21
+     "similarity": 0.27
     },
     {
      "path": "location-moto-hanoi/location-moto-hanoi-ou-circuit-moto-hanoi/index.html",
-     "similarity": 0.21
+     "similarity": 0.27
+    },
+    {
+     "path": "prix-location/location-moto-retrait-retour-jour-charge-hanoi/index.html",
+     "similarity": 0.27
     }
    ]
   },
@@ -6298,16 +6290,16 @@
    "parent_hub": "/location-moto-hanoi/",
    "closest_pages": [
     {
-     "path": "location-moto-hanoi/location-moto-retrait-hanoi/index.html",
-     "similarity": 0.17
-    },
-    {
      "path": "types-motos/electrique-scooter-hanoi-ninh-binh/index.html",
      "similarity": 0.12
     },
     {
      "path": "honda/honda-sh125i-longue-distance-vietnam/index.html",
      "similarity": 0.11
+    },
+    {
+     "path": "nord-vietnam/hanoi-a-ha-giang-moto/index.html",
+     "similarity": 0.1
     }
    ]
   },
@@ -9844,11 +9836,11 @@
      "similarity": 0.31
     },
     {
-     "path": "centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/index.html",
-     "similarity": 0.31
+     "path": "centre-sud-vietnam/vietnam-nord-a-sud-voyage-moto/index.html",
+     "similarity": 0.29
     },
     {
-     "path": "centre-sud-vietnam/vietnam-nord-a-sud-voyage-moto/index.html",
+     "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
      "similarity": 0.29
     }
    ]
