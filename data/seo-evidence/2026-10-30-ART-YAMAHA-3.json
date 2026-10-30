@@ -80,5 +80,158 @@
    "Own day/week/month rate for a Yamaha Latte (if it is offered).",
    "Deposit, casques included, fuel rule, late-return counting, breakdown procedure, payment methods/currency (all written as questions)."
   ]
+ },
+ {
+  "path": "yamaha/yamaha-latte-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Un Yamaha Latte de location suffit-il pour voyager au Vietnam, et jusqu’où depuis Hanoi.",
+  "words_before": 1940,
+  "words_after": 1631,
+  "new_meta": {
+   "title": "Yamaha Latte en voyage : jusqu’où aller depuis Hanoi ?",
+   "description": "Un Yamaha Latte de location suffit-il pour voyager au Vietnam ? Excursions adaptées, limites en montagne, autonomie, bagages, permis et préparation.",
+   "h1": "Yamaha Latte et voyage au Vietnam : jusqu’où peut-on aller ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced/mannered claims: « selle basse » (Yamaha lists 790 mm, not low; now stated and flagged), « roues de petit diamètre », « consommation contenue », « le numéro d’assistance éventuelle », rizières/buffles/pont de bambou anecdotes. Kept only Latte facts from Yamaha Motor Vietnam (seen in search result): coffre jusqu’à 37 L fond plat, réservoir 5,0 L, ≈100 kg en ordre de marche, 125 cm3, selle 790 mm, conso annoncée 1,8 L/100 km; autonomie « plus de 250 km en théorie » derived from the two figures and flagged theoretical. No distances or driving times given (table has none). Permit: Law 36/2024/QH15, A1 ≤125 cm3 / A above, cited to xaydungchinhsach.chinhphu.vn (consulté 2026-10-29, seen in search result), with the caveat on foreign licences and link to /permis-securite/permis/. Zone/outing conditions and breakdown procedure written as questions (« certains loueurs… ; demandez la règle applicable »), none affirmed as shop policy. Price: category scooter automatique range only, « à titre de repère », with the mandatory disclaimer; the Latte has no owner row. Removed an unsourced highway rule rather than citing it.",
+   "INTENT": "Main question: peut-on voyager au Vietnam en Latte, et jusqu’où ? Owner of « yamaha Latte et voyage au Vietnam ». Differs from yamaha-xmax/nvx/nmax-vietnam-voyage-moto (larger scooters) because the answer is bounded by a compact 125 cm3 with no engine braking and a 5,0 L tank; and from yamaha-latte-location-hanoi (usage/rental) because it is about outings and limits.",
+   "CONTENT": "Full rewrite of a long, generic text. Sections: réponse courte (3-level yes/with reserve/no), atouts hors ville (coffre, autonomie, légèreté, simplicité), limites (frein moteur, puissance, protection, charge, selle), sorties (table: Hanoi/banlieue, Ba Vì-Đường Lâm-Sóc Sơn, Ninh Bình, Ha Giang-Cao Bang-Sapa, no distances), préparer (7-item checklist), permis/zone/règles, budget indicatif, FAQ (5), pour aller plus loin. Words 1940 → 1631.",
+   "META": "Title (54 chars) and description (148 chars) rewritten to name the actual answer (excursions, montagne, bagages, permis); H1 changed to « …jusqu’où peut-on aller ? »; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-latte-location-hanoi/, /permis-securite/permis/, /hanoi/excursions-moto/, /nord-vietnam/hanoi-a-ha-giang-moto/. Dropped /location-moto-hanoi/, /location-moto-hanoi/longue-duree/. External: 2 rel=noopener citations (Yamaha Latte page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences) plus a 3-item yes/reserve/no list opening the first section; one adequacy table; one preparation checklist; 5 FAQ items (Ha Giang, Ninh Bình, bagages, permis, consommation)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "Latte 125 cm3, coffre 37 L fond plat, réservoir 5,0 L, poids 100 kg, selle 790 mm, conso annoncée 1,8 L/100 km (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 in force 1 Jan 2025 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop allows trips outside Hanoi, any zone/kilometre rule, and its breakdown procedure (written as questions to ask).",
+   "Availability of a Latte and its own tariff."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-lexi-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit un Yamaha LEXi dans Hanoi : prise en main, ruelles, ponts, stationnement, pluie.",
+  "words_before": 1857,
+  "words_after": 1582,
+  "new_meta": {
+   "title": "Conduire un Yamaha LEXi dans Hanoi : prise en main et ville",
+   "description": "Conduire un Yamaha LEXi (155 cm³, 118 kg) à Hanoi : prise en main, ruelles du Vieux Quartier, ponts et grands axes, stationnement, pluie et gestes de sécurité.",
+   "h1": "Conduire un Yamaha LEXi dans Hanoi : ce qu’il faut savoir"
+  },
+  "evidence": {
+   "FACTS": "Removed the generic « tableau honnête », the invented « journée type » timetable and unsourced claims (« selle à hauteur accessible selon la version », « cylindrée … dépend de l’année »). The LEXi facts now come from Yamaha Motor Vietnam’s LEXi 155 VVA-ABS page (seen in search result summary): 155,1 cm3, 11,3 kW, 118 kg, selle 768 mm, ABS, clé intelligente; compared with the Latte’s ≈100 kg / 125 cm3 (Yamaha Latte page, seen in search result). Permit: category A above 125 cm3 per Law 36/2024/QH15 (xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) with the foreign-licence caveat. Local context kept qualitative and hedged: Hoàn Kiếm lakeside closures « à certaines heures, notamment le week-end, selon un calendrier qui peut changer »; gardiens de parking « dans de nombreuses zones fréquentées »; Sunday morning « souvent plus calme ». No distances, no durations, no prices, no shop policies (passager acceptance is a question for the loueur). Riding advice (rear-only braking, left turns in two stages, head checks) is general safety guidance, not a legal claim.",
+   "INTENT": "Main question: comment conduire un LEXi dans Hanoi (ressenti, gestes, pièges). Owner of « conduire un Yamaha LEXi dans Hanoi ». Closest: yamaha-sirius-fi-hanoi-ville (0.45), sirius-hanoi-ville, xmax-hanoi-ville; differs through the LEXi’s 155 cm3 / 118 kg / ABS specifics and Hanoi-specific scenes (Vieux Quartier, ponts du fleuve Rouge, Long Biên start). Rental conditions are left to yamaha-lexi-location-hanoi (linked once).",
+   "CONTENT": "Full rewrite. Sections: ce qui change au guidon par rapport à un compact (4 points), les quinze premières minutes (5 numbered steps), Vieux Quartier et ruelles, grands axes et ponts, un premier jour en douceur (4-step progression), stationnement et sécurité du scooter, les erreurs fréquentes (6), pluie/chaleur/nuit, permis, FAQ (5), pour aller plus loin. Words 1857 → 1582.",
+   "META": "Title (59 chars) and description (159 chars) rewritten with the LEXi’s concrete facts; H1 changed to « Conduire un Yamaha LEXi dans Hanoi : ce qu’il faut savoir »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-lexi-location-hanoi/, /permis-securite/permis/, /permis-securite/moto-pluie-securite-vietnam/, /hanoi/hanoi-1-jour-itineraire/. Dropped /location-moto-hanoi/. External: 2 rel=noopener citations (Yamaha LEXi page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences: automatique, 155 cm3, 118 kg, for whom). One 4-bullet comparison list, one numbered 5-step first-minutes drill, two checklists (parking, mistakes), 5 FAQ items (Vieux Quartier, deux personnes, permis A, pluie, stationnement)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-tieu-chuan-bvy1/",
+    "checked": "2026-10-30",
+    "used_for": "LEXi 155 VVA-ABS: 155,1 cm3, 11,3 kW, 118 kg, selle 768 mm, ABS, clé intelligente (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "Latte ≈100 kg / 125 cm3 for the comparison (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop accepts a passenger on a LEXi and which licence categories it accepts for a 155 cm3 scooter."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-lexi-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Yamaha LEXi en location à Hanoi : pour qui, avec quel permis, que vérifier au retrait.",
+  "words_before": 1862,
+  "words_after": 1657,
+  "new_meta": {
+   "title": "Yamaha LEXi en location à Hanoi : fiche, permis, vérifications",
+   "description": "Yamaha LEXi en location à Hanoi : 155 cm³, 118 kg, ABS et clé intelligente selon Yamaha, permis de catégorie A, vérifications au retrait et tarif à confirmer.",
+   "h1": "Yamaha LEXi en location à Hanoi : pour qui, avec quel permis ?"
+  },
+  "evidence": {
+   "FACTS": "Key correction: the old text treated the LEXi as a generic compact and said the displacement « dépend de l’année » without a permit consequence. Yamaha Motor Vietnam’s current LEXi page is the LEXi 155 VVA-ABS (155,1 cm3), so the article now states category A (Law 36/2024/QH15, cited to xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) and flags that a rental unit may be another generation (check papers) and that foreign-licence recognition depends on the issuing country (link /permis-securite/permis/). Specs from the Yamaha page (seen in search result summary): 155,1 cm3, 11,3 kW, 14,2 N·m, 118 kg, 4,2 L, 2,19 L/100 km, selle 768 mm, ABS, clé intelligente, prise de recharge, Y-Connect; coffre not published in the sources: stated as unknown. Latte column in the comparison table uses Yamaha’s Latte figures (125 cm3, ≈100 kg, 5,0 L, 790 mm, 37 L; seen in search result). Autonomy « ≈190 km en théorie » derived from 4,2 L and 2,19 L/100 km and flagged theoretical. Price: no owner row; automatic-scooter category range « à titre de repère » + mandatory disclaimer, with the explicit caution that a 155 cm3 machine may not fall in the range. Removed the former unconfirmed statements (caution/franchise, assistance routière, nombre de casques, remorquage) and the claim that LEXi is « parmi les plus demandés »; remaining contract items are written as questions to ask. NAP/hours as in SEO-FACTS.",
+   "INTENT": "Main question: le LEXi est-il le bon scooter à louer à Hanoi, pour quel profil et avec quel permis ? Owner of « yamaha LEXi en location à Hanoi ». Closest: yamaha-grande-location-hanoi (0.60), yamaha-neo-s-location, yamaha-freego-location. Differs by the 155 cm3 / category A / 118 kg / ABS-smart-key facts, absent from the other model pages; the riding experience is left to yamaha-lexi-hanoi-ville and the cost reading to yamaha-lexi-prix-location-hanoi.",
+   "CONTENT": "Full rewrite. New sections: fiche constructeur (table), profils (3), quand choisir autre chose (4), permis catégorie A, LEXi ou Latte (sourced table), questions à poser avant de réserver (7), vérifications au retrait (8-item checklist: clé intelligente, ABS, freins, pneus, éclairage, prise de recharge, carrosserie, poids), tarif et disponibilité, FAQ (5), pour aller plus loin. Removed « la fiche du constructeur et le devis écrit restent les deux sources », the paragraph on trottoirs/ruelles and the generic contract-reading sermon. Words 1862 → 1657.",
+   "META": "Title (62 chars) and description (158 chars) rewritten to carry the new facts (155 cm3, catégorie A); H1 « Yamaha LEXi en location à Hanoi : pour qui, avec quel permis ? »; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /permis-securite/permis/, /yamaha/yamaha-lexi-ou-honda-vario-125-location/, /yamaha/yamaha-lexi-hanoi-ville/, /yamaha/yamaha-lexi-prix-location-hanoi/. Dropped /honda/honda-vision-location-hanoi/, /location-moto-hanoi/ and /yamaha/yamaha-latte-location-hanoi/ (Latte mentioned in text, not linked). External: 2 rel=noopener citations (Yamaha LEXi page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences: 155 cm3, 118 kg, category A, who it suits). Spec table and LEXi/Latte table with sources; two checklists (7 questions, 8 checks); 5 FAQ items (est-ce un 125 ?, permis, débutant, disponibilité, autonomie)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-tieu-chuan-bvy1/",
+    "checked": "2026-10-30",
+    "used_for": "LEXi 155 VVA-ABS standard: 155,1 cm3, 11,3 kW @ 8 000 tr/min, 14,2 N·m @ 6 500, 118 kg, réservoir 4,2 L, conso annoncée 2,19 L/100 km, selle 768 mm, ABS, clé intelligente, prise de recharge, Y-Connect; coffre not stated (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Law 36/2024/QH15 in force 1 Jan 2025: A1 up to 125 cm3 or 11 kW electric; A above (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "Latte figures used in the comparison table (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop offers a LEXi (and which generation/cylindrée) and at what price.",
+   "Which licence categories the shop accepts for a category-A scooter; deposit, casques, breakdown procedure, trips outside Hanoi (all phrased as questions)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget et quel devis pour louer un Yamaha LEXi à Hanoi.",
+  "words_before": 1742,
+  "words_after": 1564,
+  "new_meta": {
+   "title": "Louer un Yamaha LEXi à Hanoi : repères de prix et devis",
+   "description": "Yamaha LEXi en location à Hanoi : repères de la catégorie scooter automatique, pourquoi un 155 cm³ peut sortir de la fourchette, et comment lire un devis.",
+   "h1": "Louer un Yamaha LEXi à Hanoi : quel budget et quel devis ?"
+  },
+  "evidence": {
+   "FACTS": "No owner row for the LEXi. Prices used: scooter automatique category range 150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND « à titre de repère »; semi-automatic range; Honda Vision (200 000 / 1 000 000 / 2 000 000) and Honda Air Blade (200 000 / 900 000 / 1 500 000) own rows shown only to say they are the only models with a line; mandatory disclaimer next to the table and in the first FAQ. Explicit caution that a 155 cm3 machine may not fall within the range (no price invented). Old unsourced statements removed: « la marge de l’agence », « le prix journalier d’une semaine descend sous celui d’un jour isolé », « palier de quatre ou cinq jours », « le dégressif du mois est le plus marqué », « supplément passager », « frais de gestion » and the list of surprise fees presented as common practice. Deposit, casques, carburant, assistance, zone, hour counting: asked as questions in a quote table, stated as unconfirmed. LEXi specs (155,1 cm3, 118 kg, 4,2 L, 2,19 L/100 km) from Yamaha Motor Vietnam (seen in search result); « près de 190 km en théorie » derived and flagged theoretical. Permit: Law 36/2024/QH15 category A above 125 cm3 (xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) with the foreign-licence caveat. No euro conversion (the article warns to ask the rate and the VND total).",
+   "INTENT": "Main question: combien coûte et comment bien demander un devis pour un Yamaha LEXi. Owner of « louer un Yamaha LEXi à Hanoi ». Closest: yamaha-xmax-prix, yamaha-nmax-prix, yamaha-sirius-fi-prix. Differs from yamaha-latte-prix-location-hanoi (same structure family) by the 155 cm3 / category A consequence and by the quote-line table, the three stay types and the errors list; the riding and model description stay in yamaha-lexi-location-hanoi.",
+   "CONTENT": "Full rewrite of an abstract text (« la durée agit comme un vrai levier de négociation »). Sections: repères publiés (table), pourquoi un 155 cm³ peut sortir de la fourchette, lire un devis ligne par ligne (8-row table), trois séjours types, coûts d’usage, erreurs à éviter (6), comparer avec un autre scooter, demander le devis (template + NAP), FAQ (5), pour aller plus loin. Words 1742 → 1564.",
+   "META": "Title (55 chars) and description (154 chars) rewritten (no « prix exact » promise); H1 changed to « Louer un Yamaha LEXi à Hanoi : quel budget et quel devis ? »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /prix-location/automatique-location-scooter-hanoi-prix/, /permis-securite/permis/, /yamaha/yamaha-lexi-ou-honda-vario-125-location/, /yamaha/yamaha-lexi-location-hanoi/. Dropped /prix-location/jour/, /semaine/, /mois/, /location-moto-hanoi/ and the longue-duree link (mentioned without link). External: 2 rel=noopener citations (Yamaha LEXi page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). Two tables (price repères with disclaimer; quote lines with what to ask and why), copy-ready message, 5 FAQ items (cost, 155 vs 125, caution, carburant, permis A1)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-tieu-chuan-bvy1/",
+    "checked": "2026-10-30",
+    "used_for": "LEXi 155 VVA-ABS: 155,1 cm3, 118 kg, réservoir 4,2 L, conso annoncée 2,19 L/100 km, ABS, clé intelligente (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Own LEXi rate (if offered) and whether it follows the automatic-scooter range.",
+   "Deposit, fuel rule, assistance, zone rules, hour counting, payment currency (all phrased as questions)."
+  ]
  }
 ]

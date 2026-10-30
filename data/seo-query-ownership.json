@@ -2202,15 +2202,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
+     "path": "hanoi/west-lac-hanoi-moto/index.html",
+     "similarity": 0.23
+    },
+    {
      "path": "hanoi/hanoi-photo-spots-moto/index.html",
      "similarity": 0.22
     },
     {
      "path": "hanoi/hanoi-street-food-itineraire-moto/index.html",
-     "similarity": 0.18
-    },
-    {
-     "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
      "similarity": 0.18
     }
    ]
@@ -2606,11 +2606,11 @@
      "similarity": 0.2
     },
     {
-     "path": "hanoi/jour-voyages-de-hanoi-by-moto/index.html",
+     "path": "hanoi/trail-moto-routes-de-hanoi/index.html",
      "similarity": 0.17
     },
     {
-     "path": "hanoi/easy-moto-routes-hanoi-debutant/index.html",
+     "path": "hanoi/jour-voyages-de-hanoi-by-moto/index.html",
      "similarity": 0.17
     }
    ]
@@ -2678,15 +2678,15 @@
    "closest_pages": [
     {
      "path": "prix-location/trail-location-moto-vietnam-prix/index.html",
-     "similarity": 0.13
+     "similarity": 0.18
     },
     {
-     "path": "types-motos/trail/index.html",
-     "similarity": 0.12
+     "path": "hanoi/semi-automatique-moto-routes-hanoi/index.html",
+     "similarity": 0.17
     },
     {
-     "path": "hanoi/hanoi-ecopark-moto/index.html",
-     "similarity": 0.12
+     "path": "hanoi/scooter-jour-voyages-hanoi/index.html",
+     "similarity": 0.17
     }
    ]
   },
@@ -2703,15 +2703,15 @@
    "closest_pages": [
     {
      "path": "hanoi/que-faire-hanoi-solo/index.html",
-     "similarity": 0.18
+     "similarity": 0.2
     },
     {
      "path": "hanoi/que-faire-hanoi-couples/index.html",
-     "similarity": 0.18
+     "similarity": 0.2
     },
     {
      "path": "hanoi/que-faire-hanoi-christmas/index.html",
-     "similarity": 0.18
+     "similarity": 0.2
     }
    ]
   },
@@ -2719,7 +2719,7 @@
    "path": "hanoi/west-lac-hanoi-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/hanoi/west-lac-hanoi-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "le lac de l'Ouest à deux roues",
+   "primary_query_fr": "lac de l’Ouest à moto",
    "role": "OWNER",
    "group": null,
    "group_owner": "hanoi/west-lac-hanoi-moto/index.html",
@@ -2727,16 +2727,16 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
+     "path": "hanoi/hanoi-sunset-itineraire-moto/index.html",
+     "similarity": 0.23
+    },
+    {
      "path": "nord-vietnam/ba-be-lac-voyage-moto/index.html",
-     "similarity": 0.19
+     "similarity": 0.2
     },
     {
      "path": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
-     "similarity": 0.18
-    },
-    {
-     "path": "hanoi/hanoi-lakes-itineraire-moto/index.html",
-     "similarity": 0.18
+     "similarity": 0.19
     }
    ]
   },
@@ -3260,7 +3260,7 @@
      "similarity": 0.5
     },
     {
-     "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
+     "path": "honda/honda-wave-alpha-110-prix-location-hanoi/index.html",
      "similarity": 0.5
     }
    ]
@@ -4431,12 +4431,12 @@
      "similarity": 0.5
     },
     {
-     "path": "honda/honda-wave-alpha-110-ou-yamaha-sirius-location/index.html",
+     "path": "honda/honda-wave-alpha-110-prix-location-hanoi/index.html",
      "similarity": 0.45
     },
     {
-     "path": "honda/honda-vision-location-hanoi/index.html",
-     "similarity": 0.44
+     "path": "honda/honda-wave-alpha-110-ou-yamaha-sirius-location/index.html",
+     "similarity": 0.45
     }
    ]
   },
@@ -4452,16 +4452,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-wave-rsx-longue-distance-vietnam/index.html",
-     "similarity": 0.44
-    },
-    {
      "path": "honda/honda-winner-x-longue-distance-vietnam/index.html",
-     "similarity": 0.29
+     "similarity": 0.33
     },
     {
      "path": "honda/honda-vision-longue-distance-vietnam/index.html",
-     "similarity": 0.29
+     "similarity": 0.33
+    },
+    {
+     "path": "honda/honda-wave-rsx-longue-distance-vietnam/index.html",
+     "similarity": 0.31
     }
    ]
   },
@@ -4502,15 +4502,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
-     "similarity": 0.64
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
+     "similarity": 0.6
     },
     {
-     "path": "honda/honda-vision-prix-location-hanoi/index.html",
+     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
      "similarity": 0.55
     },
     {
-     "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
+     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
      "similarity": 0.5
     }
    ]
@@ -4585,8 +4585,8 @@
      "similarity": 0.46
     },
     {
-     "path": "honda/honda-wave-alpha-110-longue-distance-vietnam/index.html",
-     "similarity": 0.44
+     "path": "honda/honda-super-cub-c125-longue-distance-vietnam/index.html",
+     "similarity": 0.43
     }
    ]
   },
@@ -4627,15 +4627,15 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-wave-alpha-110-prix-location-hanoi/index.html",
-     "similarity": 0.64
-    },
-    {
      "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
      "similarity": 0.6
     },
     {
      "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
+     "similarity": 0.56
+    },
+    {
+     "path": "honda/honda-icon-e-prix-location-hanoi/index.html",
      "similarity": 0.56
     }
    ]
@@ -5260,7 +5260,7 @@
      "similarity": 0.12
     },
     {
-     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
+     "path": "location-moto-hanoi/longue-duree-location-moto-hanoi/index.html",
      "similarity": 0.11
     }
    ]
@@ -7748,8 +7748,8 @@
      "similarity": 0.21
     },
     {
-     "path": "nord-vietnam/cat-ba-voyage-moto/index.html",
-     "similarity": 0.18
+     "path": "hanoi/west-lac-hanoi-moto/index.html",
+     "similarity": 0.19
     }
    ]
   },
@@ -8561,12 +8561,12 @@
      "similarity": 0.24
     },
     {
-     "path": "yamaha/yamaha-latte-vietnam-voyage-moto/index.html",
-     "similarity": 0.22
-    },
-    {
      "path": "nord-vietnam/hanoi-lang-son-voyage-moto/index.html",
      "similarity": 0.2
+    },
+    {
+     "path": "permis-securite/moto-protective-boite-vietnam-voyage-moto/index.html",
+     "similarity": 0.19
     }
    ]
   },
@@ -9865,7 +9865,7 @@
      "similarity": 0.45
     },
     {
-     "path": "yamaha/yamaha-grande-prix-location-hanoi/index.html",
+     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
      "similarity": 0.33
     }
    ]
@@ -11882,15 +11882,15 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
+     "path": "yamaha/yamaha-latte-vietnam-voyage-moto/index.html",
+     "similarity": 0.5
+    },
+    {
      "path": "yamaha/yamaha-janus-125-vietnam-voyage-moto/index.html",
      "similarity": 0.5
     },
     {
      "path": "yamaha/yamaha-grande-vietnam-voyage-moto/index.html",
-     "similarity": 0.45
-    },
-    {
-     "path": "yamaha/yamaha-freego-vietnam-voyage-moto/index.html",
      "similarity": 0.45
     }
    ]
@@ -12107,15 +12107,15 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
+     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
+     "similarity": 0.6
+    },
+    {
      "path": "yamaha/yamaha-latte-prix-location-hanoi/index.html",
      "similarity": 0.55
     },
     {
      "path": "yamaha/yamaha-grande-prix-location-hanoi/index.html",
-     "similarity": 0.45
-    },
-    {
-     "path": "prix-location/prix-location-moto-hanoi/index.html",
      "similarity": 0.45
     }
    ]
@@ -12136,12 +12136,12 @@
      "similarity": 0.71
     },
     {
-     "path": "yamaha/yamaha-janus-125-vietnam-voyage-moto/index.html",
+     "path": "yamaha/yamaha-latte-vietnam-voyage-moto/index.html",
      "similarity": 0.56
     },
     {
-     "path": "yamaha/yamaha-jupiter-finn-vietnam-voyage-moto/index.html",
-     "similarity": 0.5
+     "path": "yamaha/yamaha-janus-125-vietnam-voyage-moto/index.html",
+     "similarity": 0.56
     }
    ]
   },
@@ -12182,15 +12182,15 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-lexi-location-hanoi/index.html",
-     "similarity": 0.6
-    },
-    {
      "path": "yamaha/yamaha-neo-s-location-hanoi/index.html",
      "similarity": 0.4
     },
     {
      "path": "yamaha/yamaha-freego-location-hanoi/index.html",
+     "similarity": 0.4
+    },
+    {
+     "path": "types-motos/honda-lead-ou-yamaha-grande-location/index.html",
      "similarity": 0.4
     }
    ]
@@ -12261,12 +12261,12 @@
      "similarity": 0.71
     },
     {
-     "path": "yamaha/yamaha-janus-125-vietnam-voyage-moto/index.html",
+     "path": "yamaha/yamaha-latte-vietnam-voyage-moto/index.html",
      "similarity": 0.56
     },
     {
-     "path": "yamaha/yamaha-jupiter-finn-vietnam-voyage-moto/index.html",
-     "similarity": 0.5
+     "path": "yamaha/yamaha-janus-125-vietnam-voyage-moto/index.html",
+     "similarity": 0.56
     }
    ]
   },
@@ -12382,16 +12382,16 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
+     "path": "yamaha/yamaha-latte-vietnam-voyage-moto/index.html",
+     "similarity": 0.6
+    },
+    {
      "path": "yamaha/yamaha-grande-vietnam-voyage-moto/index.html",
      "similarity": 0.56
     },
     {
      "path": "yamaha/yamaha-freego-vietnam-voyage-moto/index.html",
      "similarity": 0.56
-    },
-    {
-     "path": "yamaha/yamaha-boite-125-hybride-vietnam-voyage-moto/index.html",
-     "similarity": 0.5
     }
    ]
   },
@@ -12407,15 +12407,15 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-lexi-hanoi-ville/index.html",
-     "similarity": 0.33
-    },
-    {
      "path": "yamaha/yamaha-latte-hanoi-ville/index.html",
      "similarity": 0.33
     },
     {
      "path": "yamaha/yamaha-xmax-hanoi-ville/index.html",
+     "similarity": 0.29
+    },
+    {
+     "path": "yamaha/yamaha-wr155r-hanoi-ville/index.html",
      "similarity": 0.29
     }
    ]
@@ -12607,15 +12607,15 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
+     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
+     "similarity": 0.7
+    },
+    {
      "path": "yamaha/yamaha-grande-prix-location-hanoi/index.html",
      "similarity": 0.7
     },
     {
      "path": "yamaha/yamaha-jupiter-finn-prix-location-hanoi/index.html",
-     "similarity": 0.64
-    },
-    {
-     "path": "yamaha/yamaha-janus-125-prix-location-hanoi/index.html",
      "similarity": 0.64
     }
    ]
@@ -12632,16 +12632,16 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-xmax-vietnam-voyage-moto/index.html",
-     "similarity": 0.38
+     "path": "yamaha/yamaha-janus-125-vietnam-voyage-moto/index.html",
+     "similarity": 0.6
     },
     {
-     "path": "yamaha/yamaha-nvx-vietnam-voyage-moto/index.html",
-     "similarity": 0.31
+     "path": "yamaha/yamaha-grande-vietnam-voyage-moto/index.html",
+     "similarity": 0.56
     },
     {
-     "path": "yamaha/yamaha-nmax-vietnam-voyage-moto/index.html",
-     "similarity": 0.31
+     "path": "yamaha/yamaha-freego-vietnam-voyage-moto/index.html",
+     "similarity": 0.56
     }
    ]
   },
@@ -12657,16 +12657,16 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-sirius-fi-hanoi-ville/index.html",
-     "similarity": 0.45
-    },
-    {
-     "path": "yamaha/yamaha-sirius-hanoi-ville/index.html",
-     "similarity": 0.38
+     "path": "yamaha/yamaha-janus-125-hanoi-ville/index.html",
+     "similarity": 0.46
     },
     {
      "path": "yamaha/yamaha-xmax-hanoi-ville/index.html",
-     "similarity": 0.33
+     "similarity": 0.38
+    },
+    {
+     "path": "yamaha/yamaha-wr155r-hanoi-ville/index.html",
+     "similarity": 0.38
     }
    ]
   },
@@ -12682,16 +12682,16 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-grande-location-hanoi/index.html",
-     "similarity": 0.6
+     "path": "yamaha/yamaha-lexi-ou-honda-vario-125-location/index.html",
+     "similarity": 0.3
     },
     {
      "path": "yamaha/yamaha-neo-s-location-hanoi/index.html",
-     "similarity": 0.4
+     "similarity": 0.29
     },
     {
      "path": "yamaha/yamaha-freego-location-hanoi/index.html",
-     "similarity": 0.4
+     "similarity": 0.29
     }
    ]
   },
@@ -12732,16 +12732,16 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-xmax-prix-location-hanoi/index.html",
-     "similarity": 0.5
+     "path": "yamaha/yamaha-latte-prix-location-hanoi/index.html",
+     "similarity": 0.7
     },
     {
-     "path": "yamaha/yamaha-nmax-prix-location-hanoi/index.html",
-     "similarity": 0.5
+     "path": "yamaha/yamaha-grande-prix-location-hanoi/index.html",
+     "similarity": 0.6
     },
     {
-     "path": "yamaha/yamaha-sirius-fi-prix-location-hanoi/index.html",
-     "similarity": 0.42
+     "path": "yamaha/yamaha-freego-prix-location-hanoi/index.html",
+     "similarity": 0.6
     }
    ]
   },
@@ -12865,8 +12865,8 @@
      "similarity": 0.5
     },
     {
-     "path": "yamaha/yamaha-nmax-prix-location-hanoi/index.html",
-     "similarity": 0.42
+     "path": "yamaha/yamaha-xmax-prix-location-hanoi/index.html",
+     "similarity": 0.4
     }
    ]
   },
@@ -12982,16 +12982,16 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
-     "similarity": 0.5
-    },
-    {
      "path": "yamaha/yamaha-xmax-prix-location-hanoi/index.html",
-     "similarity": 0.46
+     "similarity": 0.45
     },
     {
-     "path": "yamaha/yamaha-nvx-prix-location-hanoi/index.html",
-     "similarity": 0.43
+     "path": "yamaha/yamaha-neo-s-prix-location-hanoi/index.html",
+     "similarity": 0.4
+    },
+    {
+     "path": "yamaha/yamaha-sirius-fi-prix-location-hanoi/index.html",
+     "similarity": 0.38
     }
    ]
   },
@@ -13111,11 +13111,11 @@
      "similarity": 0.5
     },
     {
-     "path": "yamaha/yamaha-nmax-prix-location-hanoi/index.html",
-     "similarity": 0.43
+     "path": "yamaha/yamaha-sirius-prix-location-hanoi/index.html",
+     "similarity": 0.42
     },
     {
-     "path": "yamaha/yamaha-sirius-prix-location-hanoi/index.html",
+     "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
      "similarity": 0.42
     }
    ]
@@ -13282,16 +13282,16 @@
    "parent_hub": "/yamaha/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-lexi-hanoi-ville/index.html",
-     "similarity": 0.45
-    },
-    {
      "path": "yamaha/yamaha-sirius-hanoi-ville/index.html",
      "similarity": 0.43
     },
     {
      "path": "yamaha/yamaha-xmax-hanoi-ville/index.html",
      "similarity": 0.38
+    },
+    {
+     "path": "yamaha/yamaha-wr155r-hanoi-ville/index.html",
+     "similarity": 0.29
     }
    ]
   },
@@ -13365,8 +13365,8 @@
      "similarity": 0.47
     },
     {
-     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
-     "similarity": 0.42
+     "path": "yamaha/yamaha-nmax-prix-location-hanoi/index.html",
+     "similarity": 0.38
     }
    ]
   },
@@ -13736,12 +13736,12 @@
      "similarity": 0.5
     },
     {
-     "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
-     "similarity": 0.5
+     "path": "yamaha/yamaha-nmax-prix-location-hanoi/index.html",
+     "similarity": 0.45
     },
     {
-     "path": "yamaha/yamaha-nmax-prix-location-hanoi/index.html",
-     "similarity": 0.46
+     "path": "yamaha/yamaha-boite-125-hybride-prix-location-hanoi/index.html",
+     "similarity": 0.43
     }
    ]
   },

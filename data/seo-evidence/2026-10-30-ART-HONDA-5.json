@@ -75,5 +75,135 @@
    "Version/année des Wave Alpha louées",
    "Caution, assurance, casques fournis, moyens de paiement"
   ]
+ },
+ {
+  "path": "honda/honda-wave-alpha-110-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "La Honda Wave Alpha 110 convient-elle aux longues routes du Vietnam au départ de Hanoi (sortie à la journée, week-end, boucle de montagne) ?",
+  "words_before": 1541,
+  "words_after": 1610,
+  "new_meta": {
+   "title": "Honda Wave Alpha 110 et longues routes au départ de Hanoi",
+   "description": "La Wave Alpha 110 peut-elle faire une sortie à la journée, un week-end ou une boucle de montagne ? Limites, préparation et cas où choisir une moto plus grande.",
+   "h1": "La Honda Wave Alpha 110 est-elle faite pour les longues routes du Vietnam ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun prix propre: budget limité au repère de catégorie semi-automatique (150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND) avec disclaimer exact. Arguments mécaniques (ateliers de bord de route, frein moteur, roues de grand diamètre, moteur modeste demandant d'anticiper les côtes, chaîne à contrôler chaque matin, bagages sur porte-bagages avec sangles) alignés sur honda/semi-automatiques/ (déjà sourcé). Pas de spec chiffrée, pas de distance ni de durée de trajet; rappel que itinéraires, météo, fermetures et contrôles changent. Conditions de sortie de Hanoi, assistance en cas de panne, caution: posées comme questions, non affirmées. Aucune règle légale (autoroutes, permis) affirmée. Numéro/horaires conformes à SEO-FACTS. Supprimé: 'sans promettre de stock ni de tarif', 'périmètre habituel ... dépôt', 'drague l'attention', 'la bonne machine est celle qui dort déjà'.",
+   "INTENT": "Question: la Wave Alpha tient-elle une sortie longue? Owner de 'la Honda Wave Alpha 110 est-elle faite pour les longues routes du Vietnam'. Distinct de honda-wave-rsx-longue-distance-vietnam (autre modèle) et de honda-wave-alpha-110-location-hanoi (profil du voyageur) par le tableau des quatre types de sortie, la conduite en montagne et la journée type.",
+   "CONTENT": "Réécriture complète du texte mannéré ('la bonne question avant la réponse', 'la règle pratique', 'fidélité tranquille'). Sections: quatre cas (tableau), atouts, limites, journée type au départ de Hanoi, rapports et freins en montagne, préparation (checklist), quand choisir une autre moto (Future 125), budget, FAQ 4 questions. Mots 1541 -> 1610.",
+   "META": "Titre 57 caractères (ancien 61, 'longue distance' reformulé en 'longues routes'); description 159 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-future-125-fi-longue-distance-vietnam/, /hanoi/excursions-moto/, /nord-vietnam/. Retirés: /honda/honda-wave-alpha-110-location-hanoi/, /permis-securite/securite/.",
+   "AEO_GEO": "Lead de 3 phrases avec verdict par cas. 1 tableau (4 types de sortie), 2 checklists, FAQ 4 questions courtes. Aucune citation externe."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Autorisation de sortir de Hanoi et distance maximale",
+   "Assistance panne/crevaison",
+   "Tarif propre de la Wave Alpha"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-alpha-110-ou-yamaha-sirius-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Wave Alpha 110 ou Yamaha Sirius : laquelle louer à Hanoi (usage urbain, confort, rangement, prise en main, tarifs indicatifs) ?",
+  "words_before": 1501,
+  "words_after": 1577,
+  "new_meta": {
+   "title": "Honda Wave Alpha 110 ou Yamaha Sirius : que louer à Hanoi ?",
+   "description": "Wave Alpha 110 ou Yamaha Sirius en location à Hanoi : chiffres annoncés par les constructeurs, versions à vérifier, prise en main, confort et repère de tarif.",
+   "h1": "Honda Wave Alpha 110 ou Yamaha Sirius : quel choix pour votre location ?"
+  },
+  "evidence": {
+   "FACTS": "Specs uniquement depuis pages constructeur vues dans les résultats de recherche (checked 2026-10-30, 'seen in search result'): Honda Vietnam Wave Alpha 110 = 109,2 cm³, 6,12 kW à 7 500 tr/min, couple 8,44 Nm à 5 500 tr/min, trois versions (standard, spéciale, classique); Yamaha Vietnam Sirius disque (carburateur) = 110,3 cm³, réservoir 4,2 L; Sirius FI disque = 113,7 cm³, 6,4 kW à 7 000 tr/min, frein avant disque hydraulique, arrière tambour. Valeurs absentes laissées vides et le tableau précise qu'il s'agit de versions récentes. Aucun prix de modèle: repère de catégorie semi-automatique (150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND) + disclaimer exact + 'ne dit pas laquelle coûte le plus cher'. Caution présentée comme pratique de 'certains loueurs', assurance, casques, paiement, entretien, sortie de Hanoi et assistance posés en questions non affirmées. Pas de classement de fiabilité/confort/consommation (aucune source). Supprimé: 'ne promet ni stock ni tarif', 'réparabilité légendaire', 'tel garage connaît une marque de bifurcation', 'guerre de marques', 'le regret le plus coûteux...'.",
+   "INTENT": "Question: laquelle choisir entre Wave Alpha 110 et Sirius pour louer à Hanoi? Owner de 'honda wave alpha ou yamaha sirius' (comparatif général). Distinct de la page miroir yamaha/yamaha-sirius-ou-honda-wave-alpha-location (côté Yamaha, lié une fois) par le tableau de chiffres constructeur, les versions à vérifier et la procédure d'essai; distinct de types-motos/wave-alpha-ou-sirius-location-vietnam.",
+   "CONTENT": "Réécriture complète des passages abstraits ('deux écoles, une même famille', 'trois mouvements', 'philosophies'). Sections: points communs, chiffres constructeurs (tableau sourcé), versions (checklist), comparaison d'usage (tableau honnête: pas de gagnant), départager sur place (étapes), séjour long, questions avant signature, tarifs, FAQ 4 questions. Mots 1501 -> 1577.",
+   "META": "Titre 59 caractères (ancien 59, inchangé en longueur, 'que louer' conservé); description 158 caractères remplace l'ancienne de 163 (trop longue); H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-ou-honda-wave-alpha-location/ (page miroir), /honda/honda-wave-alpha-110-location-hanoi/. Retirés: /yamaha/, /types-motos/semi-automatique/, /honda/honda-wave-alpha-110-hanoi-ville/. 3 liens externes constructeur en rel=noopener.",
+   "AEO_GEO": "Lead de 3 phrases avec réponse (l'exemplaire prime, vérifier la version). 4 tableaux (chiffres sourcés, comparaison d'usage, tarif), 3 checklists + 1 liste numérotée, FAQ 4 questions courtes. Citations: honda.com.vn et yamaha-motor.com.vn inline."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+    "checked": "2026-10-30",
+    "used_for": "Wave Alpha 110: 109,2 cm³, 6,12 kW à 7 500 tr/min, 8,44 Nm à 5 500 tr/min, versions standard/spéciale/classique (seen in search result)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-bgyb/",
+    "checked": "2026-10-30",
+    "used_for": "Sirius disque (carburateur): 110,3 cm³, réservoir 4,2 L (seen in search result)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-dia-mau-hoan-toan-moi-bsab/",
+    "checked": "2026-10-30",
+    "used_for": "Sirius FI disque: 113,7 cm³, 6,4 kW à 7 000 tr/min, frein avant disque hydraulique/arrière tambour (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif propre de la Wave Alpha et de la Sirius",
+   "Versions réellement louées (frein, injection, année)",
+   "Caution, assurance, casques, entretien en cours de location"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-alpha-110-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle durée de location (jour, semaine, mois) choisir pour une Wave Alpha 110 à Hanoi, sans tarif propre pour ce modèle ?",
+  "words_before": 1517,
+  "words_after": 1541,
+  "new_meta": {
+   "title": "Louer une Wave Alpha 110 à Hanoi : jour, semaine ou mois ?",
+   "description": "Wave Alpha 110 à Hanoi : repère de tarif des semi-automatiques, comment choisir entre jour, semaine et mois, et ce qu’il faut faire préciser avant de payer.",
+   "h1": "Louer une Wave Alpha 110 à Hanoi : payer au jour, à la semaine ou au mois ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun prix propre à la Wave Alpha: uniquement le repère de catégorie semi-automatique (150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND) et, dans le tableau comparatif, les lignes propriétaire Vision (200 000/1 000 000/2 000 000) et Air Blade (200 000/900 000/1 500 000) et la fourchette scooter automatique; disclaimer exact dans le lead et sous chaque tableau; phrase 'la fourchette décrit la catégorie, pas le prix d'une Wave'. Seuils (4-5 jours = semaine, environ 10 jours = mois) donnés comme ordre de grandeur issu des repères de catégorie, sans montant calculé ni forfait inventé; mention que les seuils dépendent de la facturation du loueur. Aucune conversion en euros. Horaires 09:00-21:00 et 0334 699 969 conformes à SEO-FACTS. Caution = pratique de 'certains loueurs', assurance, casques, paiement, prolongation, remboursement posés en questions. Carburant/stationnement décrits comme généralités ('en général', 'souvent payant'). Supprimé: 'dépôt de garantie' abstrait, 'sans se laisser dicter', 'la clarté du papier reste la meilleure assurance', affirmations sur livraison.",
+   "INTENT": "Question: payer au jour, à la semaine ou au mois pour une Wave Alpha? Owner de 'louer une Wave Alpha 110 à Hanoi'. Distinct de honda-vision-prix-location-hanoi (ligne propriétaire Vision) et honda-wave-rsx-prix-location-hanoi (autre modèle) par le repère de catégorie semi-automatique et la comparaison avec les lignes Vision/Air Blade.",
+   "CONTENT": "Réécriture complète du texte abstrait ('situer le tarif dans le marché', 'périmètre avant le chiffre', 'grille de lecture'). Sections: repère de tarif, seuils jour/semaine/mois (tableau), comparaison Wave Alpha/Vision/Air Blade (tableau), définir durée et inclus (checklist), modèle de message pour devis comparable, séjour long (hors loyer), FAQ 4 questions. Mots 1517 -> 1541.",
+   "META": "Titre 62 -> 58 caractères et recentré sur 'louer' (l'ancien 'Prix de location ...' promettait un prix que la page ne donne pas); description 156 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-wave-alpha-110-location-hanoi/, /honda/honda-vision-prix-location-hanoi/, /prix-location/semi-automatique-location-moto-hanoi-prix/. Retiré: /prix-location/semaine/.",
+   "AEO_GEO": "Lead de 4 phrases avec repère de catégorie, disclaimer et méthode. 3 tableaux (repère, seuils, comparaison), 1 checklist, modèle de message, FAQ 4 questions courtes. Aucune citation externe."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Tarif propre de la Wave Alpha (jour/semaine/mois)",
+   "Définition du jour/semaine/mois",
+   "Caution, assurance, casques, prolongation, remboursement"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-rsx-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut la Honda Wave RSX dans la circulation de Hanoi : avantages, inconvénients, aisance de conduite ?",
+  "words_before": 1869,
+  "words_after": 1577,
+  "new_meta": {
+   "title": "Honda Wave RSX dans Hanoi : avantages et inconvénients",
+   "description": "La Honda Wave RSX dans le trafic de Hanoi : maniabilité, injection, sélecteur au pied, pluie et rangement, et à qui elle convient face à un scooter.",
+   "h1": "Honda Wave RSX dans la circulation de Hanoi : avantages, inconvénients et aisance de conduite"
+  },
+  "evidence": {
+   "FACTS": "ERREUR FACTUELLE CORRIGÉE: l'ancien texte décrivait un levier d'embrayage ('débrayer', 'embrayage progresse sur une course longue', 'main gauche travaille'); la RSX est une semi-automatique sans levier (cf. honda/semi-automatiques, source Honda Europe sur l'embrayage centrifuge) -> réécrit en sélecteur au pied, embrayage automatique. Supprimé aussi: 'réservoir plat accueille un sac', 'porte-bagages robuste' (devenu 'si l'exemplaire en est équipé'), 'agences sérieuses accompagnent la prise en main / essai de familiarisation', 'coût de location contenu', 'responsabilité du conducteur en cas de chute', formules sur les documents demandés. Specs seulement depuis pages constructeur vues dans les résultats de recherche (checked 2026-10-30): Wave RSX FI = 109,2 cm³, injection PGM-FI, 6,46 kW à 7 500 tr/min, 8,70 Nm à 6 000 tr/min; Wave Alpha 110 = 6,12 kW à 7 500 tr/min, 8,44 Nm à 5 500 tr/min, avec mention qu'il s'agit de versions récentes. Budget: uniquement repère de catégorie semi-automatique (150 000-200 000 / 700 000-800 000 / 1 000 000-1 200 000 VND) avec disclaimer exact et 'pas le prix de la RSX'. Permis: aucune règle affirmée, renvoi à /permis-securite/ (dépend de la nationalité, de la catégorie et de la cylindrée).",
+   "INTENT": "Question: la RSX est-elle à l'aise dans le trafic de Hanoi? Owner de 'honda Wave RSX dans la circulation de Hanoi'. Distinct de honda-wave-rsx-location-hanoi (profil du voyageur) et de honda-wave-alpha-110-hanoi-ville (autre modèle, sans injection documentée) par l'injection PGM-FI et les chiffres Honda.",
+   "CONTENT": "Réécriture complète: bilan en tableau, maniabilité, injection (chiffres Honda), sélecteur au pied, pluie/rangement/confort, niveau requis et permis, RSX ou scooter (checklist), repère de budget, contrôles, FAQ 5 questions. Mots 1869 -> 1577 (suppression du remplissage, de l'erreur sur l'embrayage et des répétitions).",
+   "META": "Titre conservé (54 caractères, naturel, ne promet rien); description 175 -> 148 caractères (trop longue avant); H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/scooters/, /honda/honda-wave-rsx-location-hanoi/, /permis-securite/. Retiré: /location-moto-hanoi/.",
+   "AEO_GEO": "Lead de 3 phrases avec réponse. 1 tableau bilan, 3 checklists, FAQ 5 questions courtes. Citations inline honda.com.vn (RSX et Alpha), rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI: 109,2 cm³, PGM-FI, 6,46 kW à 7 500 tr/min, 8,70 Nm à 6 000 tr/min (seen in search result)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+    "checked": "2026-10-30",
+    "used_for": "Wave Alpha 110: 6,12 kW à 7 500 tr/min, 8,44 Nm à 5 500 tr/min (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif propre de la Wave RSX",
+   "Version (injection ou non), année et équipement (porte-bagages) des RSX louées"
+  ]
  }
 ]

@@ -1,0 +1,44 @@
+[
+ {
+  "path": "yamaha/yamaha-nmax-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment comparer le coût de location d’un Yamaha NMAX selon la durée (jour, semaine, mois) à Hanoi ?",
+  "new_meta": {
+   "title": "Louer un Yamaha NMAX : comparer le coût selon la durée",
+   "description": "Pas de tarif publié pour le Yamaha NMAX : repère de la catégorie scooter automatique, formules jour, semaine et mois, et points à faire confirmer.",
+   "h1": "Louer un Yamaha NMAX : comment comparer le coût selon la durée ?"
+  },
+  "words_before": 1615,
+  "words_after": 1705,
+  "evidence": {
+   "FACTS": "Removed the abstract « grille/méthode » prose, the claim that the NMAX sits in an « étage supérieur » of the local scale, the unconfirmed « dépôt de garantie, kilométrage, assistance, exclusions » as shop facts, and « grilles dégressives ». Prices: no NMAX owner row; only the automatic-scooter category range (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) « à titre de repère » with the exact disclaimer next to the table and in the lead, and an explicit statement that the NMAX may fall outside it (consistent with the yamaha/scooters hub). No multiplication, package, discount or conversion. Specs only from Yamaha Motor Vietnam pages seen in search results: standard version 155,1 cm3, ABS front and rear discs, tank 7,1 L, seat 770 mm, 131 kg, storage 24 L, ground clearance 127 mm; TECH MAX 135 kg and 22,3 L; caveat that the latest generation was not in the results and that a rental machine may be older. Licence: Law 36/2024/QH15 A1 up to 125 cm3 / A above, chinhphu portal (seen in search result, consulté 2026-10-30), foreign-licence validity left to /permis-securite/permis/. Deposit, helmets, breakdown contact, early return, extension, availability: phrased as questions or as generic « certains loueurs » practice, never as the shop's policy. NAP and hours as in SEO-FACTS (09:00–21:00 used only in a question about when a rental day ends).",
+   "INTENT": "Main question: comment comparer le coût d’un NMAX selon la durée. OWNER of « louer un Yamaha NMAX » (yamaha/yamaha-nmax-prix-location-hanoi). Differs from yamaha-nvx-prix-location-hanoi (NVX: factors that move a quote) and from yamaha-nmax-location-hanoi (profile of the traveller) by focusing on duration formulas, the stay-to-formula table and what changes the total for a heavy scooter.",
+   "CONTENT": "Full rewrite. Sections: category range table, NMAX data table with consequences, stay-to-formula table, total checklist, when the NMAX is worth it, how to ask (NAP + message content), FAQ (5). Removed the three duplicated method paragraphs and the vague contract section. Words 1615 -> 1705.",
+   "META": "Title « Louer un Yamaha NMAX : comparer le coût selon la durée » (54 chars, no promise of an amount); description 146 chars; H1 kept; eyebrow « Yamaha NMAX · budget »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/permis/, /prix-location/, /prix-location/semaine/, /types-motos/, /yamaha/, /yamaha/yamaha-nmax-location-hanoi/, /yamaha/yamaha-nvx-prix-location-hanoi/. Kept /yamaha/yamaha-nmax-location-hanoi/ and the hub links; removed /location-moto-hanoi/longue-duree/, /location-moto-hanoi/1-semaine-location-moto-hanoi/ and /nord-vietnam/; added /prix-location/semaine/, /yamaha/yamaha-nvx-prix-location-hanoi/ and /permis-securite/permis/.",
+   "AEO_GEO": "Direct answer and exact disclaimer in the lead; three tables, two checklists; FAQ of 5 distinct short answers (price, fourchette, week from day, licence, compact vs NMAX); 3 external citations rel=noopener (Yamaha NMAX standard, TECH MAX, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NMAX standard 155,1 cm3, ABS front/rear discs, tank 7,1 L, seat 770 mm, 131 kg, storage 24 L, ground clearance 127 mm"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-phien-ban-tech-max-dc21/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: TECH MAX 135 kg, storage 22,3 L"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly price for a NMAX, if the shop offers one",
+   "Whether a NMAX is actually available",
+   "Deposit/ID document, helmets included, early return and extension rules, breakdown contact (all asked, none stated)"
+  ]
+ }
+]

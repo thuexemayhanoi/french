@@ -1,0 +1,72 @@
+[
+ {
+  "path": "types-motos/semi-automatique-ou-trail-moto-sapa/index.html",
+  "role": "OWNER",
+  "words_before": 1838,
+  "words_after": 1970,
+  "primary_intent": "Semi-automatique ou trail pour la route de Sapa : quelle famille de moto louer au départ de Hanoi.",
+  "new_meta": {
+   "title": "Semi-automatique ou trail pour Sapa : quel choix ?",
+   "description": "Semi-automatique ou trail pour aller à Sapa en moto ? Frein moteur, suspensions, hauteur de selle, permis et météo : les critères pour choisir sans regret.",
+   "h1": "Semi-automatique ou trail pour Sapa : quel choix ?"
+  },
+  "evidence": {
+   "FACTS": "Removed all unconfirmed shop statements (old 'grille du comptoir' listing caution/assistance/zone as if standard; 'flotte'). Contract zone for the North, restitution and breakdown handling are now explicit questions to ask before booking, not claims. Price used: owner semi-automatic category range only (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) with the mandatory disclaimer; no price for trail (stated as none published, to ask, availability to confirm). Licence: Law 36/2024/QH15 A1 up to 125 cm3 / 11 kW, A above, same wording and portal URL as the rewritten hub types-motos/index.html (consulted 2026-10-29), no blanket statement on French/international licence. Distances: 'un peu plus de 300 km par l'autoroute', '360 à 420 km via les nationales' given as unofficial guide-book orders of magnitude (seen in search result, aggregate, to recompute in motorbike mode); expressway ban for two-wheelers consistent with /permis-securite/autoroute-moto-vietnam/. Altitude ~1 500 m and rainy season 'en gros mai-septembre' stated as general knowledge with soft wording. No model specs.",
+   "INTENT": "Main question: which family, semi-automatic or trail, for riding to Sapa. OWNER of its query; closest pages scooter-ou-semi-automatique-ninh-binh (0.40) and automatique-ou-semi-automatique-moto-vietnam (0.36) cover other destinations/transmission; this page stays on the Sapa road and licence/handling. Sibling trail-moto-ou-scooter-ha-giang linked for the Ha Giang version.",
+   "CONTENT": "Full rewrite: removed mannered prose ('lignes sinueuses', 'la grille du comptoir', 'la marge se mérite', platform-rule talk). New sections: route constraints with checklist, semi-automatic, trail (+licence), comparison table, rider-level questions, pre-departure checklist (brakes, tyres, chain, lights, oil, fuel, photos). FAQ rewritten to 5 non-redundant Q&A. Words 1838→1970.",
+   "META": "Title and H1 kept (natural, 50 chars, no promise). Description rewritten (155 chars) to drop 'sans chiffre inventé ni promesse' process wording; og:title/og:description identical to title/description. Eyebrow shortened to 'Types de motos · Nord du Vietnam'.",
+   "LINKS": "7/7 unique: /types-motos/ (parent hub), /location-moto-hanoi/, /permis-securite/ (required), plus /nord-vietnam/sapa/, /types-motos/trail-moto-ou-scooter-ha-giang/, /types-motos/semi-automatique/, /permis-securite/autoroute-moto-vietnam/. Removed link to automatique-ou-semi-automatique-moto-vietnam and location-moto-manuelle-hanoi to respect the cap.",
+   "AEO_GEO": "Direct 3-sentence answer in the lead; 1 comparison table (family tendencies, disclaimer next to price), 3 checklists; 5 FAQ; one inline citation (chinhphu.vn portal for licence categories)."
+  },
+  "sources": [
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Licence categories A1/A under Law 36/2024/QH15 (URL already cited in the rewritten hub; not re-opened in this session)"
+   },
+   {
+    "url": "https://vinpearl.com/en/travel-from-hanoi-to-sapa",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result only (aggregate summary): Hanoi–Sapa ~300–320 km by expressway, motorbikes use national roads; unofficial orders of magnitude"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop allows trips to Sapa/the North, one-way returns and breakdown handling; whether a trail is in the fleet and at what rate."
+  ]
+ },
+ {
+  "path": "types-motos/station-essence-hanoi-moto/index.html",
+  "role": "OWNER",
+  "words_before": 1904,
+  "words_after": 1645,
+  "primary_intent": "Comment faire le plein d'un scooter de location à Hanoi : station, carburant, paiement, restitution.",
+  "new_meta": {
+   "title": "Faire le plein à Hanoi : station essence, E10 et paiement",
+   "description": "Comment faire le plein d’un scooter à Hanoi : trouver une station, choisir E10 ou E5 RON 92, payer en dongs et régler le niveau à la restitution.",
+   "h1": "Faire le plein à Hanoi : station essence, E10 et paiement"
+  },
+  "evidence": {
+   "FACTS": "Fuel rule added from search results (seen in search result, 2026-10-30): since 1 June 2026 only E10 and E5 RON 92 are sold (E10 replaced RON 95), most recent vehicles are E10-compatible per manufacturers, Honda Vietnam motorcycles designed for RON 91+ and up to 10% ethanol; older models are the case to check; phrased with attribution. Unconfirmed shop policy removed: old text implied agencies deliver with fill-level/forfait and described 'notre page' what is included (deposit, assistance); now fuel level at pickup, return rule (same level/full/forfait) and carburant type are questions to ask this shop, 'aucune règle n'est confirmée'. No petrol price, no tank capacity, no model spec given (FAQ points to honda.com.vn / yamaha-motor.com.vn). Vietnamese vocabulary (xăng, cây xăng/trạm xăng, đổ đầy, đổ 50 nghìn, bao nhiêu tiền, cảm ơn) is general knowledge; 20 000/500 000 VND note confusion is general tourist knowledge, qualified. Hours 09:00-21:00 and phone from SEO-FACTS. Petrolimex/PVOIL named only as national chains.",
+   "INTENT": "Main question: how to refuel a rented scooter in Hanoi (where, which fuel, how to pay, what the rental rule is). OWNER; closest pages are electric-vs-petrol pages (similarity 0.09-0.12), clearly different; the electric comparison is linked once.",
+   "CONTENT": "Rewrote all sections without the mannered 'dix minutes… séquence complète' prose: fuel types (new), contract questions (checklist), finding stations (Maps keywords, chains, rural gaps, bottle sellers), pump gestures + vocabulary table, payment, three checks, long trips and return. FAQ rewritten to 6 non-redundant items (E10, inclusion, wrong fuel, empty tank, tank quantity, return rule). Words 1904→1645.",
+   "META": "Title shortened from 67 to 57 chars and made concrete (E10); H1 aligned; description rewritten (145 chars); og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /location-moto-hanoi/what-is-included-location-moto-hanoi/, /location-moto-hanoi/location-moto-hanoi-opening-horaires/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/, /permis-securite/moto-breakdown-vietnam-location/.",
+   "AEO_GEO": "Direct answer in lead (3 sentences), 1 vocabulary table, 2 checklists, 6 FAQ, 2 external citations (laodong.vn, vietnamnews.vn) marked as seen in search results."
+  },
+  "sources": [
+   {
+    "url": "https://news.laodong.vn/thi-truong/tu-hom-nay-16-chi-ban-xang-e10-va-xang-e5-1711534.ldo",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: from 1 June only E10 and E5 RON 92 sold (title/snippet)"
+   },
+   {
+    "url": "https://vietnamnews.vn/economy/1782147/most-current-vehicle-models-are-compatible-with-e10-biofuel-gasoline-manufacturers.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: manufacturers say most current models are E10-compatible; Honda Vietnam RON 91+/ethanol up to 10% (search summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Fuel level at pickup, return rule (same level/full/forfait/fee) and recommended fuel for each rented model."
+  ]
+ }
+]

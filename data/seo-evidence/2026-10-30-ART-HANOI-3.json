@@ -472,7 +472,7 @@
   "role": "OWNER",
   "primary_intent": "Comment faire une boucle à moto le long du fleuve Rouge (pont Long Biên, digue, bancs de sable, Bát Tràng) depuis Hanoi.",
   "words_before": 1933,
-  "words_after": 1693,
+  "words_after": 1694,
   "new_meta": {
    "title": "Rivière Rouge à moto : pont Long Biên, digue et Bát Tràng",
    "description": "Itinéraire à moto le long du fleuve Rouge depuis Long Biên : pont, digue, bancs de sable cultivés, village de céramique de Bát Tràng et précautions de route.",
@@ -481,7 +481,7 @@
   "evidence": {
    "FACTS": "Corrected the route logic: the old text started 'du vieux quartier vers sept heures' and gave 'une vingtaine de minutes de conduite' and 'quatre à cinq heures' (unsourced, impossible with a 09:00 pickup); the page now starts from the Long Biên pickup (09:00-21:00) and gives no driving durations. Removed the unsourced statements about bamboo cafés on the sandbanks, parkings 'tenus par les habitants', the 'pont Chương Dương réservé à la circulation dense', 'les sens de circulation selon règles locales'. Sourced facts: Long Biên bridge built 1899-1902 by Daydé & Pillé, first called Paul Doumer (Hanoi Times, seen in search result); bridge closed after Typhoon Yagi in September 2024 (Hanoi Capital, seen in search result); 60-day closure from end March 2026 and reopening on 28 May 2026 (Viet Nam News, taken from rewritten hanoi hub); bridge reserved to motorbikes, bicycles and pedestrians next to the railway (hanoi hub); tourists endangering themselves in front of trains (CNN title, seen in search result); sandbank access not easy, narrow paths (Hanoi Times, seen in search result), 2025 unauthorised construction on an islet reported by the press (Tuổi Trẻ May 2025 per search summary, no URL cited), stronger current and alluvial-ground dangers reported (search results, phrased as 'des reportages signalent'); Bát Tràng 13-15 km from centre (Vietnam Trips, taken from excursions hub); motorbikes banned on expressways, 11 foreign bikers fined in Feb 2026 (VOV, taken from hanoi hub); sunset about 17:20 mid-December and 18:40 late June (timeanddate, approximate). Shop facts limited to NAP/hours and questions to ask (precise pickup point, contract coverage on dike roads, return time). No price, deposit, delivery or insurance claim.",
    "INTENT": "Main question: how to ride a half-day loop along the Red River from Hanoi. Role OWNER for 'rivière Rouge à moto'. Closest pages: nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto (0.21), hanoi-a-bat-trang-moto (0.19), quang-ninh (0.18): this page is the river/dike/bridge loop that ends at Bát Tràng; the Bát Tràng page remains the village guide and long-distance pages are unrelated.",
-   "CONTENT": "Full rewrite. New sections: fleuve (river and lodging side), pont (history, closures, behaviour), bancs (access, safety, no promises), batrang, boucle (6-step table), digues (road, expressway ban, weather, sunset), sac (checklist), location (questions), FAQ 5, closing links. Words 1933 -> 1693.",
+   "CONTENT": "Full rewrite. New sections: fleuve (river and lodging side), pont (history, closures, behaviour), bancs (access, safety, no promises), batrang, boucle (6-step table), digues (road, expressway ban, weather, sunset), sac (checklist), location (questions), FAQ 5, closing links. Words 1933 -> 1694.",
    "META": "Title 'Rivière Rouge à moto : Long Bien, Bat Trang et les îles' (55) replaced by 'Rivière Rouge à moto : pont Long Biên, digue et Bát Tràng' (57); description rewritten (157 chars) and no longer promises 'une boucle réussie'; H1 = title; eyebrow 'Hanoi · Fleuve Rouge'; og tags identical.",
    "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/hanoi-a-bat-trang-moto/. Added /hanoi/long-bien-pont-hanoi/ and /hanoi/hanoi-ecopark-moto/. 7/7 unique internal links, parent hub present.",
    "AEO_GEO": "Lead gives the answer in 3 sentences; 1 table (boucle en 6 étapes), 1 checklist (sac), FAQ 5 distinct questions. 8 external citations seen in search results or the rewritten hubs."
@@ -715,6 +715,166 @@
   ],
   "owner_gaps": [
    "Parking conditions at the Temple of Literature and the temple's current hours/ticket should be reconfirmed on site (page says so)."
+  ]
+ },
+ {
+  "path": "hanoi/trail-moto-routes-de-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelles routes trail (hors bitume) existe-t-il depuis Hanoi, et que demander au loueur ?",
+  "words_before": 2221,
+  "words_after": 1698,
+  "new_meta": {
+   "title": "Routes trail depuis Hanoi : ce qui existe autour de la ville",
+   "description": "Routes trail depuis Hanoi : digues, pistes de village, Ba Vì et Tam Đảo, limites du hors bitume près de la ville et questions à poser au loueur.",
+   "h1": "Routes trail depuis Hanoi : ce qui existe autour de la ville"
+  },
+  "evidence": {
+   "FACTS": "Removed SEO-process wording ('discipline du site', 'le silo de sécurité') and the unsupported promotion of the Red River sandbanks as 'le terrain de jeu où la ville vient rouler le week-end' and 'école de trail de la capitale': replaced by a cautionary section (access via narrow paths per Hanoi Times, strong current and flood dangers reported in the press, uncertain status, not recommended with a rental vehicle). Removed claims that the shop's contract covers or refuses piste, that 'les modèles du pays' include trail models, and the invented 'page des pannes en voyage'. No trail price, no model spec, no WR155R detail; the page says that no trail rate is published and availability is unconfirmed, consistent with prix-location/trail-location-moto-vietnam-prix. Distances only from the sourced table of the excursions hub (Vietnam Trips, Lonely Planet, Vietnam Tourism); seasons (Local Vietnam, from the hanoi hub); expressway ban with the February 2026 VOV case (from the hubs). Licence: 'la catégorie de permis exigée dépend de la cylindrée et de la nationalité' with a pointer to official sources, no blanket claim. Shop facts: NAP, hours, and questions to ask (availability, off-road allowed by contract, state of tyres/brakes/chain/suspension, breakdown, permit category, return time). Hà Giang/Sapa mentioned only as the northern destination, as on the types-motos/trail page.",
+   "INTENT": "Main question: where to ride trail/off-road starting from Hanoi. Role OWNER for 'routes trail depuis Hanoi'. Closest pages (prix-location/trail-location-moto-vietnam-prix 0.12, types-motos/trail 0.12, hanoi-ecopark-moto 0.12) have low overlap: those pages cover pricing/availability and the category; this page is the geography of what exists around Hanoi and its limits, and links to the category and WR155R pages.",
+   "CONTENT": "Full rewrite. Removed mannered text ('la machine donne l’accès, la méthode fait la sortie', 'le dessert du répertoire'). New sections: realite (what trail changes, honest limits), terrains (table of five terrains), sable (why caution), digues (riding as a guest), montagne (Ba Vì/Tam Đảo), nord (long trips, expressway ban), saison et équipement (checklist), location (checklist of questions), FAQ 5, closing links. Words 2221 -> 1698.",
+   "META": "Title 'Routes trail au départ de Hanoi : où rouler hors bitume' (55) replaced by 'Routes trail depuis Hanoi : ce qui existe autour de la ville' (60); description rewritten (144 chars); H1 = title (old H1 'Routes trail depuis Hanoi : le répertoire du hors bitume aux portes de la ville'); eyebrow 'Hanoi · Hors bitume'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /types-motos/trail/, /types-motos/yamaha-wr155r-vietnam-tout-terrain/, /permis-securite/moto-montagne-pass-securite-vietnam/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead states what exists near Hanoi and that trail availability is unconfirmed in 3 sentences; 1 table (terrains), 2 checklists (équipement, questions au loueur), FAQ 5 distinct questions. 6 external citations seen in search results or taken from the rewritten hubs."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "Bát Tràng distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/vietnam/attractions/ba-vi-national-park/a/poi-sig/1142333/1316122",
+    "checked": "2026-10-30",
+    "used_for": "Ba Vì distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/fr/parc-national-de-tam-dao-le-guide-complet-pour-s-echapper-a",
+    "checked": "2026-10-30",
+    "used_for": "Tam Đảo distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://m.hanoitimes.vn/high-time-for-red-river-to-emerge-as-hanois-new-development-symbol-experts-327850.html",
+    "checked": "2026-10-30",
+    "used_for": "sandbank access via bridge and narrow paths (seen in search result)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban enforcement (taken from hubs)"
+   },
+   {
+    "url": "https://localvietnam.com/hanoi/best-time-to-visit-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "seasons (taken from rewritten hanoi hub)"
+   }
+  ],
+  "owner_gaps": [
+   "Availability of any trail model, rate and off-road conditions in the contract at Thuê xe máy Nguyễn Hà are unconfirmed (page says so and lists questions)."
+  ]
+ },
+ {
+  "path": "hanoi/unique-que-faire-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire à Hanoi hors des circuits habituels : villages, citadelle, bords du fleuve, cafés, quartiers.",
+  "words_before": 2194,
+  "words_after": 1545,
+  "new_meta": {
+   "title": "Hanoi hors des sentiers battus : villages, citadelle et quartiers",
+   "description": "Hanoi hors des sentiers battus : villages de métiers, citadelle de Cổ Loa, bords du fleuve Rouge, cafés cachés et soirées de quartier, repères pratiques.",
+   "h1": "Hanoi hors des sentiers battus : villages, citadelle et quartiers"
+  },
+  "evidence": {
+   "FACTS": "Removed SEO-process wording ('la discipline du site', 'la page en fait le répertoire') and unsourced or invented content: 'la rue du train de banlieue' with houses stepping back for the convoy, 'péniches amarrées et terrasses sur pilotis des quais', 'guinguettes de bord de route', 'sept expériences' (the page said seven but listed five), 'une demi-heure de guidon du centre' for all sites, 'le parking de l’atelier garde la machine contre une pièce modique'. New sourced facts: craft villages (Vạn Phúc silk 8-10 km SW, Chuông conical hats about 30 km W, Quất Động embroidery 20 to nearly 50 km; Local Vietnam craft-village guide, seen in search result, flagged as varying by source); Bát Tràng 13-15 km (Vietnam Trips, from excursions hub); Cổ Loa in Đông Anh, first fortified citadel, 16 km (Lonely Planet) vs 20 km (other source), An Dương Vương 3rd century BC with varying dates, Thượng temple partly 1687 per one source, 2-3 hours per one guide (search results, qualified); Long Biên bridge reopened on 28 May 2026 (Viet Nam News, from hanoi hub); sandbank access and danger caution (Hanoi Times via the red-river guide); expressway ban (VOV, from hubs); Quảng An peach market near Nhật Tân (VietnamPlus, seen in search result); egg coffee origin 1946 and Café Giảng 39 Nguyễn Hữu Huân with divergent accounts (Mental Floss, seen in search result). Alcohol: only 'sanctionné au Vietnam', no figure. Shop facts: NAP, hours, questions to ask (outing accepted, breakdown, return time). No price, deposit, delivery, insurance or fleet claim.",
+   "INTENT": "Main question: what to do in Hanoi beyond the usual circuits. Role OWNER for 'hanoi hors des sentiers battus'. Closest pages: que-faire-hanoi-at-nuit (0.24, night guide), solo (0.18), during-tet (0.18). It differs because it covers daytime off-circuit places (craft villages, Cổ Loa, river bank, flower villages, hidden cafés); the night guide is linked for evenings.",
+   "CONTENT": "Full rewrite. New sections: villages (table of 4 craft villages), coloa, fleuve, fleurs (West Lake flower villages), cafes, nuits, methode (checklist and rental questions), FAQ 5, closing links. Words 2194 -> 1545.",
+   "META": "Title 'Hanoi hors des sentiers : expériences insolites à deux-roues' (60) replaced by 'Hanoi hors des sentiers battus : villages, citadelle et quartiers' (65); description rewritten (153 chars) and no longer says 'expériences insolites'; H1 identical to the title (old H1: 'Hanoi hors des sentiers battus : les expériences que la deux-roues ouvre'); eyebrow 'Hanoi · Hors des circuits'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/excursions-moto/, /hanoi/que-faire-hanoi-at-nuit/. Added /hanoi/hanoi-a-bat-trang-moto/ and /hanoi/hanoi-co-loa-moto/; dropped /hanoi/que-faire-hanoi-vieux-quartier/ and /hanoi/hanoi-street-food-itineraire-moto/ (the page now leaves the Old Quarter). 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead gives four directions and the one-place-per-half-day rule in 3 sentences; 1 table (craft villages), 1 checklist (méthode), FAQ 5 distinct questions. 7 external citations seen in search results or taken from the rewritten hubs."
+  },
+  "sources": [
+   {
+    "url": "https://localvietnam.com/hanoi/craft-villages-hanoi/",
+    "checked": "2026-10-30",
+    "used_for": "craft villages and approximate distances (seen in search result)"
+   },
+   {
+    "url": "https://vietnamtrips.com/ha-noi/bat-trang-pottery-village",
+    "checked": "2026-10-30",
+    "used_for": "Bát Tràng distance (taken from excursions hub)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/points-of-interest/co-loa-citadel/1142335",
+    "checked": "2026-10-30",
+    "used_for": "Cổ Loa first fortified citadel, 16 km north (seen in search result)"
+   },
+   {
+    "url": "https://vietnamnews.vn/society/1782283/ha-no-i-s-iconic-bridge-reopens-after-two-month-renovation.html",
+    "checked": "2026-10-30",
+    "used_for": "Long Biên bridge reopened 28 May 2026 (taken from rewritten hanoi hub)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban enforcement (taken from hubs)"
+   },
+   {
+    "url": "https://en.vietnamplus.vn/hanois-quang-an-flower-market-busier-ahead-of-tet/204347.vnp",
+    "checked": "2026-10-30",
+    "used_for": "Quảng An peach market (seen in search result)"
+   },
+   {
+    "url": "https://www.mentalfloss.com/food/coffee/vietnamese-egg-coffee-origin",
+    "checked": "2026-10-30",
+    "used_for": "egg coffee origin 1946, Café Giảng (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop accepts outings outside Hanoi, its breakdown procedure and return-time rules are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "hanoi/west-lac-hanoi-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment faire le tour du lac de l’Ouest à moto (étapes, pagode, cafés, coucher de soleil, circulation, location).",
+  "words_before": 2020,
+  "words_after": 1633,
+  "new_meta": {
+   "title": "Lac de l’Ouest à moto : tour du lac, pagode et coucher de soleil",
+   "description": "Le lac de l’Ouest à moto : tour d’environ 17 km, pagode Trấn Quốc, digue Thanh Niên, cafés, coucher de soleil, circulation, stationnement et pluie.",
+   "h1": "Lac de l’Ouest à moto : tour du lac, pagode et coucher de soleil"
+  },
+  "evidence": {
+   "FACTS": "Corrected errors and removed invented content: the old text placed the Temple of Literature 'voisine du secteur sud-est' of West Lake (it is in Đống Đa, west of the Old Quarter) and claimed a 'dizaine de kilomètres' tour in 'une demi-heure', 'poissons volants des pêcheurs', 'parkings de complaisance', 'la pointe est/ouest' café geography and 'restaurants de poisson de la rive nord'. Also removed SEO-process wording ('le silo les garde'). Sourced facts: lake about 500 ha and roads (Xuân Diệu, Thanh Niên, Tây Hồ; Âu Cơ and Lạc Long Quân as fast axes), traffic as main hazard with concentration at the southern tip and narrow footpaths, full-lake walk not recommended (travel guides seen in search results, qualified as 'un guide'); loop about 17 km, 15-18 km by source (Lokalee, seen in search result); Thanh Niên road as early 17th-century dam (Hanoi Times, seen in search result); Trấn Quốc pagoda on an islet, about 1 500 years with imprecise dating, free with donations, hours 8:00-16:00 most common, 6:00-18:00 on 1st and 15th lunar days per one source, other sources 8:00-17:00, shoulders and knees covered (Vietnam Tourism result and other guides from search); Đặng Thai Mai and Tô Ngọc Vân sunset streets (one guide in search summary, no URL attributable, so stated without link); sunset about 17:20 mid-December and 18:40 late June (timeanddate, approximate); Quảng An market and Nhật Tân peaches (stated without a link here; supported by the VietnamPlus article cited on the Tet and off-the-beaten-path pages). Cardinal sides of shore streets deliberately not asserted. Shop facts: NAP, 09:00 pickup consequence (tour in late morning or afternoon), questions to ask (passenger suitability, breakdown, return time). No price, deposit, delivery, insurance or fleet claim.",
+   "INTENT": "Main question: how to tour West Lake by scooter. Role OWNER for 'le lac de l’Ouest à deux roues'. Closest pages: nord-vietnam/ba-be-lac-voyage-moto (0.19), thac-ba-lac-voyage-moto (0.18), hanoi-lakes-itineraire-moto (0.18): the first two are other lakes outside Hanoi; the lakes loop covers Hoàn Kiếm, Trúc Bạch and West Lake together, while this page is the West Lake tour only and links to the loop once.",
+   "CONTENT": "Full rewrite. New sections: tour (size, roads, crossing from Long Biên), etapes (table), pagode, cafes, soir (sunset), circulation (traffic, parking, rain), avant (checklist), location, FAQ 5, closing links. Words 2020 -> 1633.",
+   "META": "Title 'Lac de l'Ouest à Hanoi à moto : le tour du lac et ses cafés' (59) replaced by 'Lac de l’Ouest à moto : tour du lac, pagode et coucher de soleil' (64); description rewritten (147 chars) with a concrete distance; H1 = title; eyebrow 'Hanoi · Lac de l’Ouest'; og tags identical.",
+   "LINKS": "Kept /hanoi/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /hanoi/que-faire/, /permis-securite/moto-pluie-securite-vietnam/. Added /hanoi/hanoi-lakes-itineraire-moto/ and /hanoi/hanoi-sunset-itineraire-moto/; dropped /hanoi/hanoi-2-jours-itineraire/ and /hanoi/que-faire-hanoi-vieux-quartier/. 7/7 unique internal links, parent hub present.",
+   "AEO_GEO": "Lead gives the length and the plan in 3 sentences; 1 table (étapes), 1 checklist (avant de partir), FAQ 5 distinct questions. 4 external citations seen in search results."
+  },
+  "sources": [
+   {
+    "url": "https://lokalee.app/tours/half-day-west-lake-route-of-hanoi-on-motorbike",
+    "checked": "2026-10-30",
+    "used_for": "West Lake loop about 17 km (seen in search result)"
+   },
+   {
+    "url": "https://hanoitimes.vn/tales-of-hanoi-streets-thanh-nien-the-ancient-road-connecting-two-great-lakes-322252.html",
+    "checked": "2026-10-30",
+    "used_for": "Thanh Niên road history (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/tran-quoc-pagoda-in-hanoi-opening-hours-dress-code-and-what-to-see",
+    "checked": "2026-10-30",
+    "used_for": "Trấn Quốc pagoda hours, dress code, age (seen in search result; details from search summary)"
+   },
+   {
+    "url": "https://timeanddate.com/astronomy/vietnam/hanoi",
+    "checked": "2026-10-30",
+    "used_for": "sunset time range (listed in search results, approximate)"
+   }
+  ],
+  "owner_gaps": [
+   "Suitability of the shop's vehicles for a passenger and breakdown/return conditions are unconfirmed (page tells readers to ask)."
   ]
  }
 ]
