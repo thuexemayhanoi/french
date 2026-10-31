@@ -25,41 +25,6 @@
  },
  {
   "role": "OWNER",
-  "primary_intent": "Quel équipement de protection minimal pour un voyage à moto au Vietnam (casque, gants, chaussures, vêtements, pluie) et ce que la loi impose. Closest owner for the helmet legal question is permis-securite/casque-law-vietnam-moto-touriste (linked); closest topic page for luggage is centre-sud-vietnam/moto-luggage-vietnam-voyage-moto (similarity 0.14).",
-  "words_before": 2467,
-  "evidence": {
-   "FACTS": "Legal digest used: Law 36/2024/QH15 art. 33(2) helmet conforming to national technical regulation with strap fastened (retrieved full text, hcc.nghean.gov.vn); QCVN 2:2021/BKHCN and CR mark (seen in search result, thuvienphapluat.vn). 'Vérifié le 30 octobre 2026' stated next to the legal paragraph. No fine amounts: Decree 168/2024/NĐ-CP mentioned only as the source to read. Statement that gloves/shoes/clothes are not obliged is qualified ('dans les articles de la loi relus', 'non relevé'). Removed unsourced claims: 'les statistiques de chute placent la mâchoire en première ligne', 'le loueur fournit souvent le casque, parfois la cape, rarement les gants' (shop/market policy unconfirmed) and 'les contrôles existent'. European helmet vs CR mark: acceptance stated as not established. Shop equipment to be confirmed before booking; shop NAP/hours only from SEO-FACTS.md. No prices.",
-   "INTENT": "Main question: which protective gear is the minimum for a motorbike trip in Vietnam. Distinct from casque-law-vietnam-moto-touriste (helmet legal rule) by covering the whole kit; links to it once.",
-   "CONTENT": "Full rewrite replacing the abstract/mannered prose ('la moto expose', 'la pièce que la chute choisit toujours', chains of em-dash relatives, SEO-process paragraph). New sections: what the law imposes; helmet checklist; gloves; shoes/trousers/top; rain gear; optional protections; summary table with legal status column; what to ask the loueur; FAQ x5; further reading.",
-   "META": "Title 'Équipement de protection à moto au Vietnam : le kit minimal' (was 'Équipement du motard au Vietnam : le kit de protection minimal'); H1 'Équipement de protection pour voyager à moto au Vietnam' (was 'Voyage à moto au Vietnam : la protection minimale, pièce par pièce'); description 144 chars rewritten; og:title/og:description identical; eyebrow 'Sécurité · Équipement'.",
-   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others kept or added: /permis-securite/casque-law-vietnam-moto-touriste/, /permis-securite/moto-pluie-securite-vietnam/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /nord-vietnam/ha-giang/. 7/7 unique, parent hub present.",
-   "AEO_GEO": "Lead gives the direct answer (five pieces, only the helmet legally required). Table with legal status per piece, two checklists (helmet checks, optional gear), FAQ of 5 distinct questions (minimum kit, European helmet, full-face, loueur supplies, gloves in heat). Two inline legal citations."
-  },
-  "sources": [
-   {
-    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
-    "checked": "2026-10-30",
-    "used_for": "Law 36/2024/QH15 art. 33(2) helmet obligation (full text retrieved per legal digest)"
-   },
-   {
-    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
-    "checked": "2026-10-30",
-    "used_for": "QCVN 2:2021/BKHCN helmet standard and CR mark (seen in search result)"
-   }
-  ],
-  "owner_gaps": [
-   "Which equipment (helmet, rain gear, gloves) the shop supplies with a rental: not asserted, to confirm before booking."
-  ],
-  "path": "permis-securite/moto-protective-boite-vietnam-voyage-moto/index.html",
-  "words_after": 1854,
-  "new_meta": {
-   "title": "Équipement de protection à moto au Vietnam : le kit minimal",
-   "description": "Casque conforme, gants, chaussures fermées, vêtements couvrants et tenue de pluie : le kit de protection minimal pour voyager à moto au Vietnam.",
-   "h1": "Équipement de protection pour voyager à moto au Vietnam"
-  }
- },
- {
-  "role": "OWNER",
   "primary_intent": "À quelle vitesse rouler à moto au Vietnam : cadre légal (loi 36/2024 art. 12, circulaire 38/2024, panneaux) et allure pratique selon ville, route, montagne, pluie, nuit. Query owner: this article ('vitesse moto au Vietnam'). Related owner: permis-securite/limite-vitesse-moto-vietnam ('limites de vitesse moto au Vietnam'), linked; this page stays on choosing the pace, not on tabulating limits.",
   "words_before": 2099,
   "evidence": {
@@ -503,6 +468,76 @@
    "title": "Numéros d’urgence à moto au Vietnam : qui appeler et quoi dire",
    "description": "113, 114, 115, 112 : rôle de chaque numéro d’urgence au Vietnam, qui appeler après un accident ou une panne de moto, et comment appeler sans parler vietnamien.",
    "h1": "Numéros d’urgence et assistance moto au Vietnam : qui appeler"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Que couvrent les catégories A1 et A du permis moto vietnamien (seuils, âge, électriques, anciens seuils) et comment un étranger les rapproche de sa moto et de son propre permis. Owner of 'permis moto vietnamien'. Closest: 125cc-plus-permis-moto-vietnam (owner of 'plus de 125 cm3', 0.23) and moins-de-125cc-license-vietnam, both linked; this article is the category overview and stays consistent with the permis hub.",
+  "words_before": 2504,
+  "evidence": {
+   "FACTS": "All from E-legal-digest §1.2, 1.3, 1.8, 1.11, 1.13 and §9 (Law 36/2024/QH15 arts. 34, 56, 57, 59, 89; full text retrieved): A1 = two-wheelers up to 125 cm3 or electric up to 11 kW; A = above 125 cm3 or above 11 kW and all A1 vehicles; B1 = three-wheel motorcycles + A1 vehicles; A1/A/B1 no expiry; ages 16 (xe gắn máy) and 18; transitional old A1 (50 to <175 cm3 / 4 to <14 kW), old A2, old A1 -> A restricted on exchange, stated as applying to Vietnamese licences only. CORRECTED per digest §9: low-power electric (≤ 4 kW AND ≤ 50 km/h by construction) is a xe gắn máy (moped, motor vehicle), distinct from xe đạp máy (assisted bicycle, assistance cut at 25 km/h, non-motorised); 'autour de 4 kW / 50 km/h' replaced by the legal ceilings. Wording consistent with permis-securite/permis/. REMOVED unsupported claims: 'A1 couvre la quasi-totalité des scooters', 'correspondance A2 européen / A vietnamien', conversion gives equivalent category (now: not verified), 'l'ancienne A2 a disparu du système délivré', 'les motos de location courantes se situent sous les deux seuils'. Foreign category equivalence, French B + 7 h and conversion category stated as not verified; Belgian FPS statement (seen in search result per digest) and Québec wording per digest. No model specs; 'dung tích' (cylindrée) and 'giấy đăng ký xe' (registration certificate) given as vocabulary for checking displacement. Shop: availability and documents to confirm (0334 699 969), hours/NAP from SEO-FACTS. No prices.",
+   "INTENT": "Main question: what do A1 and A cover and how to match them with a bike. Differs from 125cc-plus (above 125 cm3) and moins-de-125cc (below) by giving the overall category table, electric rules and the old/new thresholds; each detail guide is linked.",
+   "CONTENT": "Full rewrite: removed mannered passages ('deux lettres, un système', 'grammaire', 'la machine se choisit dans la catégorie'), meta-commentary and the repeated reform narrative; new sections: category table; A1; A; electrics; old 175 cm3 thresholds; visitor's reading of the letters; checklist before the counter; FAQ x5.",
+   "META": "Title kept ('Permis moto vietnamien : comprendre les catégories A1 et A'), H1 kept; description rewritten (156 chars); og tags identical; eyebrow 'Permis · Catégories A1 et A'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/permis/, /permis-securite/moins-de-125cc-license-vietnam/, /permis-securite/125cc-plus-permis-moto-vietnam/, /permis-securite/electrique-scooter-license-vietnam/. Dropped /location-moto-hanoi/debutant-location-moto-hanoi/, /location-moto-hanoi/location-moto-hanoi-vietnam/, /types-motos/50cc-moto-vietnam-debutant/. 7/7 unique.",
+   "AEO_GEO": "Lead answers directly in 4 sentences with thresholds, ages and the cyclomoteur exemption. Category table, ordered checklist, FAQ x5 (A1, A, electric, 175 cm3, A2 equivalence). Citations: law text, Belgian FPS."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 34, 56, 57, 59, 89 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Belgian licence valid for category A for motorcycles over 50 cc (seen in search result per digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Exact displacement of the models the shop rents and the foreign-to-Vietnamese category equivalences: not asserted."
+  ],
+  "path": "permis-securite/vietnam-permis-moto-a1-a/index.html",
+  "words_after": 1613,
+  "new_meta": {
+   "title": "Permis moto vietnamien : comprendre les catégories A1 et A",
+   "description": "Catégories A1 et A du permis moto vietnamien (loi 36/2024) : seuils en cm3 et kW, âge, cyclomoteur sans permis, électriques et lien avec un permis étranger.",
+   "h1": "Permis moto vietnamien : les catégories A1 et A expliquées aux étrangers"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Quel équipement de protection minimal pour un voyage à moto au Vietnam (casque, gants, chaussures, vêtements, pluie) et ce que la loi impose. Closest owner for the helmet legal question is permis-securite/casque-law-vietnam-moto-touriste (linked); closest topic page for luggage is centre-sud-vietnam/moto-luggage-vietnam-voyage-moto (similarity 0.14).",
+  "words_before": 2467,
+  "evidence": {
+   "FACTS": "Legal digest used: Law 36/2024/QH15 art. 33(2) helmet conforming to national technical regulation with strap fastened (retrieved full text, hcc.nghean.gov.vn); QCVN 2:2021/BKHCN and CR mark (seen in search result, thuvienphapluat.vn). 'Vérifié le 30 octobre 2026' stated next to the legal paragraph. No fine amounts: Decree 168/2024/NĐ-CP mentioned only as the source to read. Statement that gloves/shoes/clothes are not obliged is qualified ('dans les articles de la loi relus', 'non relevé'). Removed unsourced claims: 'les statistiques de chute placent la mâchoire en première ligne', 'le loueur fournit souvent le casque, parfois la cape, rarement les gants' (shop/market policy unconfirmed) and 'les contrôles existent'. European helmet vs CR mark: acceptance stated as not established. Shop equipment to be confirmed before booking; shop NAP/hours only from SEO-FACTS.md. No prices.",
+   "INTENT": "Main question: which protective gear is the minimum for a motorbike trip in Vietnam. Distinct from casque-law-vietnam-moto-touriste (helmet legal rule) by covering the whole kit; links to it once.",
+   "CONTENT": "Full rewrite replacing the abstract/mannered prose ('la moto expose', 'la pièce que la chute choisit toujours', chains of em-dash relatives, SEO-process paragraph). New sections: what the law imposes; helmet checklist; gloves; shoes/trousers/top; rain gear; optional protections; summary table with legal status column; what to ask the loueur; FAQ x5; further reading.",
+   "META": "Title 'Équipement de protection à moto au Vietnam : le kit minimal' (was 'Équipement du motard au Vietnam : le kit de protection minimal'); H1 'Équipement de protection pour voyager à moto au Vietnam' (was 'Voyage à moto au Vietnam : la protection minimale, pièce par pièce'); description 144 chars rewritten; og:title/og:description identical; eyebrow 'Sécurité · Équipement'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others kept or added: /permis-securite/casque-law-vietnam-moto-touriste/, /permis-securite/moto-pluie-securite-vietnam/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /nord-vietnam/ha-giang/. 7/7 unique, parent hub present.",
+   "AEO_GEO": "Lead gives the direct answer (five pieces, only the helmet legally required). Table with legal status per piece, two checklists (helmet checks, optional gear), FAQ of 5 distinct questions (minimum kit, European helmet, full-face, loueur supplies, gloves in heat). Two inline legal citations."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 33(2) helmet obligation (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+    "checked": "2026-10-30",
+    "used_for": "QCVN 2:2021/BKHCN helmet standard and CR mark (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which equipment (helmet, rain gear, gloves) the shop supplies with a rental: not asserted, to confirm before booking."
+  ],
+  "path": "permis-securite/moto-protective-boite-vietnam-voyage-moto/index.html",
+  "words_after": 1852,
+  "new_meta": {
+   "title": "Équipement de protection à moto au Vietnam : le kit minimal",
+   "description": "Casque conforme, gants, chaussures fermées, vêtements couvrants et tenue de pluie : le kit de protection minimal pour voyager à moto au Vietnam.",
+   "h1": "Équipement de protection pour voyager à moto au Vietnam"
   }
  }
 ]
