@@ -10027,12 +10027,12 @@
      "similarity": 0.6
     },
     {
-     "path": "yamaha/yamaha-latte-ou-honda-vision-location/index.html",
-     "similarity": 0.45
+     "path": "prix-location/wave-ou-sirius-mensuelle-cout-location/index.html",
+     "similarity": 0.5
     },
     {
-     "path": "types-motos/honda-vision-ou-yamaha-janus-location/index.html",
-     "similarity": 0.43
+     "path": "yamaha/yamaha-latte-ou-honda-vision-location/index.html",
+     "similarity": 0.45
     }
    ]
   },
@@ -10048,16 +10048,16 @@
    "parent_hub": "/prix-location/",
    "closest_pages": [
     {
+     "path": "prix-location/vision-ou-janus-cout-location-hanoi/index.html",
+     "similarity": 0.5
+    },
+    {
      "path": "honda/honda-wave-alpha-110-ou-yamaha-sirius-location/index.html",
-     "similarity": 0.4
+     "similarity": 0.43
     },
     {
      "path": "honda/honda-wave-rsx-ou-yamaha-sirius-fi-location/index.html",
-     "similarity": 0.38
-    },
-    {
-     "path": "yamaha/yamaha-sirius-ou-honda-wave-alpha-location/index.html",
-     "similarity": 0.35
+     "similarity": 0.4
     }
    ]
   },

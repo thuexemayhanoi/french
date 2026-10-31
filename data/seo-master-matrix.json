@@ -21881,7 +21881,7 @@
           "Peut-on faire une boucle de montagne avec l’une ou l’autre ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 7,
         "source_body_internal_inlink_examples": [
           "honda/honda-wave-alpha-110-location-hanoi/index.html",
           "honda/index.html",
@@ -47677,7 +47677,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "d58e770c2f0ec90b9a1e8b1be476be7d1eb38b333bf8407e29935a47a5360818"
         },
         "TECHNICAL": {
@@ -47706,7 +47706,7 @@
       "intent_to_validate": "Thông tin",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530",
+        "source_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7",
         "title": "Vidange et entretien pendant une longue location de moto",
         "title_chars": 56,
         "description": "Quand faire la vidange d’une moto louée plusieurs semaines : repères Honda Vietnam, kilométrage, démarches et justificatifs à demander au loueur.",
@@ -47730,7 +47730,7 @@
           "Puis-je faire la vidange dans n’importe quel atelier ?",
           "Que faire si un voyant d’huile s’allume en route ?"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 8,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/longue-duree/index.html",
           "permis-securite/moto-oil-controle-location-vietnam/index.html",
@@ -47763,52 +47763,52 @@
         "FACTS": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Added sourced intervals: Honda Vietnam FAQ (first oil change after 1 000 km, then about every 6 000 km under normal use, shorten the interval above 1 000 km/month, follow the model manual) and Honda Vietnam product sheet for 4T semi-automatic oil (first change 1 000 km, then every 2 000–2 500 km); the page says the two sources disagree and tells readers to ask for the model's own schedule. Both seen in a WebSearch result on 2026-10-30 (summary only, pages not opened). Removed unsourced claims: « l’entretien périodique relève du loueur en principe », « les loueurs ont presque toujours une habitude établie », « parfaitement maîtrisée partout au Vietnam », « la plupart du temps il n’en coûte rien au locataire », retenue on deposit for delayed maintenance. Who organises/pays the oil change stated as unconfirmed for Thuê xe máy Nguyễn Hà, with three generic arrangements to ask about. Kilometre table uses explicit example hypotheses (30/60/150 km per day x 30 days), no rental price multiplication. Month prices: owner month column only with the exact disclaimer (semi-auto 1 000 000–1 200 000; automatic 1 200 000–2 000 000; Vision 2 000 000; Air Blade 1 500 000 VND). No oil price, no workshop price. Address/hours/WhatsApp/Zalo per SEO-FACTS. Sources: https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=dau-nhot&category_child=tu-van-su-dung-xe-may; https://www.honda.com.vn/xe-may/phu-tung/hoa-chat-detail?id_pt=7",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "INTENT": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Main question: when does an oil change fall in a long rental and how to organise/trace it? Owner of « vidange et entretien pendant une longue location de moto ». Differs from /prix-location/mensuelle-location-moto-entretien-cout-hanoi/ (who pays maintenance: wear/damage/negligence) by being about oil-change timing in km and the practical organisation; differs from /prix-location/longue-duree-location-moto-hanoi-discount/ (price discussion) and from types-motos/injection-carburant-moto-vietnam-location/ (fuel injection).",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "CONTENT": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Full rewrite. Removed mannered prose (« le locataire devient le gardien provisoire de la mécanique », « contrat moral », « quand les kilomètres dépassent le calendrier »). New: Honda intervals with sources, km-per-month table, three things to note at pickup, three common arrangements (organiser/payer), maintenance watch list, city vs touring organisation, budget lines. FAQ cut to 4 non-repeating Q&As. Words 1575→1543. Sources: https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=dau-nhot&category_child=tu-van-su-dung-xe-may; https://www.honda.com.vn/xe-may/phu-tung/hoa-chat-detail?id_pt=7",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "META": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Title and H1 kept (56 chars, natural). Description rewritten (145 chars) to state the Honda Vietnam intervals angle and drop « qui la prend en charge » (unconfirmed); og:description synced. Built check: Unique title (56 chars) and description (145 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/30-jours-location-moto-hanoi-cout/, /prix-location/longue-duree-location-moto-hanoi-discount/ (kept from before), /prix-location/mensuelle-location-moto-entretien-cout-hanoi/, /prix-location/location-moto-crevaison-pneu-cout-vietnam/. Two external honda.com.vn links (rel=noopener) plus WhatsApp/Zalo. TOC auto-synced with 8 H2 ids incl. #questions-frequentes; « Pour aller plus loin » dropped. Built check: 6 source-body incoming links (e.g. location-moto-hanoi/longue-duree/index.html, prix-location/index.html, prix-location/longue-duree-location-moto-hanoi-discount/index.html); 6 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/30-jours-location-moto-hanoi-cout/, /prix-location/longue-duree-location-moto-hanoi-discount/ (kept from before), /prix-location/mensuelle-location-moto-entretien-cout-hanoi/, /prix-location/location-moto-crevaison-pneu-cout-vietnam/. Two external honda.com.vn links (rel=noopener) plus WhatsApp/Zalo. TOC auto-synced with 8 H2 ids incl. #questions-frequentes; « Pour aller plus loin » dropped. Built check: 8 source-body incoming links (e.g. location-moto-hanoi/longue-duree/index.html, permis-securite/moto-oil-controle-location-vietnam/index.html, prix-location/index.html); 8 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "AEO_GEO": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Direct answer in the lead (depends on kilometres; Honda Vietnam FAQ intervals; organiser/payer unpublished). 2 tables, 3 lists, FAQ of 4.",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/prix-location/location-moto-oil-change-longue-duree-vietnam/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-prix-location-location-moto-oil-change-longue-duree-vietnam assets/images/seo/prix-location/location-moto-oil-change-longue-duree-vietnam/hero.webp WebP 1200x630 191 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "UX_CRO": {
           "status": "DONE",
           "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 7 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/prix-location/location-moto-oil-change-longue-duree-vietnam/index.html: self canonical https://fr.rentbikehanoi.com/prix-location/location-moto-oil-change-longue-duree-vietnam/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "b7c01d119324f6e29078e647fa07ef622d60f60463d5105403ae2c7707c6c530"
+          "verified_sha256": "70422666b2fde628aa7fa2eed6f22ce708621b2fbc8956e176ea4e2e065783b7"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -48085,7 +48085,7 @@
       "intent_to_validate": "Thông tin",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37",
+        "source_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4",
         "title": "Clé ou SmartKey perdue en location de moto : quels frais ?",
         "title_chars": 58,
         "description": "Clé ou SmartKey perdue en location : frais possibles, rôle du loueur et du concessionnaire Honda, réflexes sur place et questions à poser avant de partir.",
@@ -48145,52 +48145,52 @@
         "FACTS": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): No amount, no forfait, no rule stated as Thuê xe máy Nguyễn Hà's: the lead, the contract section and the FAQ say once that cost and policy are unpublished and must be asked in writing. Table lists possible cost lines with a question for each, no figure. Sourced fact: Honda Vietnam Smart Key FAQ (up to 4 FOBs per bike; after a loss an extra FOB is ordered at an authorised HEAD dealer where a technician programs it; the bike's ID code must still be available; the FAQ concerns SH125i/SH150i, no procedure given for other models) seen in a WebSearch result on 2026-10-30, page not opened; the article states the scope limit. Removed unsourced claims: « presque toujours dans la liste des éléments remis », « dans la plupart des contrats, oui » (retenue on the deposit), « beaucoup de loueurs conservent un double », « le dépannage se règle presque toujours plus vite qu’on ne le craint », and the fictional-style generalisations about litigations. Deposit/retenue mentioned as conditional (« si une garantie a été laissée »). Hours 09:00–21:00 and WhatsApp/Zalo per SEO-FACTS. Sources: https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=smart-key&category_child=phu-tung",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "INTENT": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Main question: lost key or SmartKey on a rental, which costs and what to do? Owner of « clé ou SmartKey perdue en location de moto ». Differs from types-motos/scooter-smartkey-location-vietnam-perdue-cle/ (SmartKey scooters: technology, immediate protocol) by being the cost-lines view (what lines may appear, what to ask, which proof to keep), and links to it once.",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "CONTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Full rewrite. Removed mannered prose (« une clé qui glisse dans une rivière », « le panier », « la règle de la place unique marche mieux que toute la technologie », « le litige le plus bête ») and invented details. New: cost-lines table, mechanical key vs SmartKey with the Honda FAQ, three things to have written, six on-site steps, prevention list, three concrete cases with their cost lines, dispute-avoidance list. FAQ cut to 5 non-repeating Q&As. Words 1807→1665. Sources: https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=smart-key&category_child=phu-tung",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Full rewrite. Removed mannered prose (« une clé qui glisse dans une rivière », « le panier », « la règle de la place unique marche mieux que toute la technologie », « le litige le plus bête ») and invented details. New: cost-lines table, mechanical key vs SmartKey with the Honda FAQ, three things to have written, six on-site steps, prevention list, three concrete cases with their cost lines, dispute-avoidance list. FAQ cut to 5 non-repeating Q&As. Words 1807→1653. Sources: https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=smart-key&category_child=phu-tung",
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "META": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Title « …: qui paie quoi ? » changed to « …: quels frais ? » (58 chars) because the page cannot say who pays at Thuê xe máy Nguyễn Hà; H1 « …: quels frais prévoir ? » aligned; description rewritten (154 chars); og:title/og:description synced. Built check: Unique title (58 chars) and description (154 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "LINKS": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 6/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/scooter-smartkey-location-vietnam-perdue-cle/ (sibling), /prix-location/location-moto-depot-hanoi-passeport/ (retenue effect on budget), /prix-location/mensuelle-location-moto-entretien-cout-hanoi/. Dropped the former link to /prix-location/moto-livraison-frais-hanoi/ (unrelated) and /permis-securite/. One external honda.com.vn link plus WhatsApp/Zalo. TOC auto-synced with 8 H2 ids incl. #questions-frequentes. Built check: 9 source-body incoming links (e.g. location-moto-hanoi/longue-duree/index.html, prix-location/index.html, prix-location/jour/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 6 unique internal body links, none broken.",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "AEO_GEO": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Direct answer in the lead (warn the loueur at once; cost depends on key type, immobilisation, agreed rules; nothing published). 1 table, 1 numbered list, 3 bullet lists, FAQ of 5.",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/prix-location/location-moto-perdue-cle-frais-vietnam/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-prix-location-location-moto-perdue-cle-frais-vietnam assets/images/seo/prix-location/location-moto-perdue-cle-frais-vietnam/hero.webp WebP 1200x630 212 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/prix-location/location-moto-perdue-cle-frais-vietnam/index.html: self canonical https://fr.rentbikehanoi.com/prix-location/location-moto-perdue-cle-frais-vietnam/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "a4ca3500bbeb4f3c19ceaa2bfaafa7eb2f893c3e43b115ecb89ef4f3d0fa3a37"
+          "verified_sha256": "859a0b1b7af4742b87bb5b90a67ea54b5fa30a6d126eb07c3d86a2c5f1c539b4"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -48565,7 +48565,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "900401eec4f6f25dcf1c5104c615d0c4e72eb9734d46d588c4f0ac3fdae5a8b8"
         },
         "TECHNICAL": {
@@ -48969,7 +48969,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "bef24d862597f3a68f3b2d504929c0c49217525c341baa4ed1e5ed730cf08bee"
         },
         "TECHNICAL": {
@@ -49608,7 +49608,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/automatique-ou-semi-automatique-moto-vietnam/ (kept), /prix-location/mois/, /prix-location/wave-ou-sirius-mensuelle-cout-location/, /prix-location/automatique-location-scooter-hanoi-prix/. tel/WhatsApp/Zalo links. TOC auto-synced with 9 H2 ids incl. #questions-frequentes. Built check: 9 source-body incoming links (e.g. hanoi/semi-automatique-moto-routes-hanoi/index.html, prix-location/automatique-location-scooter-hanoi-prix/index.html, prix-location/cheap-location-moto-hanoi/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /types-motos/automatique-ou-semi-automatique-moto-vietnam/ (kept), /prix-location/mois/, /prix-location/wave-ou-sirius-mensuelle-cout-location/, /prix-location/automatique-location-scooter-hanoi-prix/. tel/WhatsApp/Zalo links. TOC auto-synced with 9 H2 ids incl. #questions-frequentes. Built check: 11 source-body incoming links (e.g. hanoi/semi-automatique-moto-routes-hanoi/index.html, honda/honda-wave-alpha-110-prix-location-hanoi/index.html, honda/honda-wave-rsx-prix-location-hanoi/index.html); 11 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "677620a9d3e3f68a74ad10dc22ca7096838e3cf3b7acad26d8ed7a0b4517234f"
         },
         "AEO_GEO": {
@@ -49755,7 +49755,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "3b28b7a9e34eb31ff19048476f3d2652d2c949402d1b3027da21a4262f24b9b8"
         },
         "TECHNICAL": {
@@ -49784,7 +49784,7 @@
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629",
+        "source_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9",
         "title": "Location de moto au Vietnam : budget pour 30 jours",
         "title_chars": 50,
         "description": "Un mois de moto au Vietnam : repères indicatifs du loyer mensuel, carburant, nuits, garantie et retour de la moto, avec une méthode pour chiffrer chaque poste.",
@@ -49844,52 +49844,52 @@
         "FACTS": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Rent: month column of the six owner rows with the exact disclaimer; no daily multiplication, no 30-day package; no trail/manual-sport figure. Fuel: Vision example from Honda Vietnam's declared 1.82 L/100 km and 4.8 L tank (honda.com.vn product page, seen in search result) and E5 RON 92 at 25 060 VND/L (Petrolimex zone 1, in force since 2026-10-22; Báo Văn Hóa article of 2026-10-23, seen in search result); worked lines for 1 000 km (18.2 L, about 456 100 VND) and 3 000 km (54.6 L, about 1 368 300 VND) are arithmetic on those figures with declared hypothetical distances and a warning that real use is higher. Oil-change remark: Honda Vietnam FAQ says to shorten the interval above 1 000 km per month (seen in search result). Leaving Hanoi, restitution elsewhere, assistance, garantie, payment, insurance and permit statements: unconfirmed for Thuê xe máy Nguyễn Hà or generic « vérifiez » (no blanket legal claim). Removed: « le forfait mensuel est avantageux en tendance », « les loueurs sérieux préfèrent les dossiers clairs », « la logique du forfait long séjour », seasonal/monsoon pricing claims, the caution forms (espèces, empreinte, virement) as the shop's, and « les périodes de forte demande raidissent les fourchettes ». No € conversion. NAP/hours per SEO-FACTS. Sources: https://www.honda.com.vn/xe-may/san-pham/vision?category=2; https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html; https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=dau-nhot&category_child=tu-van-su-dung-xe-may",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "INTENT": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Main question: what budget for 30 days of motorbike rental in Vietnam? Owner of « location de moto au Vietnam ». Differs from /prix-location/30-jours-location-moto-hanoi-cout/ (30-day rental in Hanoi, rent-line composition) by treating a month of road across the country: five postes with the leaving-Hanoi / one-way return question, a fuel example over month-long distances and a budget table to complete; differs from /prix-location/nord-vietnam-voyage-moto-budget-7-jours/ (one week, north).",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "CONTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Full rewrite. Removed mannered prose (« la règle reste entière », « un budget honnête », « la marge honnête ne cherche pas à tout chiffrer », « un contrat clair est la meilleure ligne d’un budget ») and SEO-process wording (« ce dossier », « les pages du dossier suivent la même règle »). New: month-rate table, fuel example table, nights/meals method, return of the moto, garantie/entretien/imprévus, permit and conditions, three month shapes, budget table to complete, in-trip budget control. FAQ cut to 4 non-repeating Q&As. Words 2006→1720. Sources: https://www.honda.com.vn/xe-may/san-pham/vision?category=2; https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html; https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=dau-nhot&category_child=tu-van-su-dung-xe-may",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Full rewrite. Removed mannered prose (« la règle reste entière », « un budget honnête », « la marge honnête ne cherche pas à tout chiffrer », « un contrat clair est la meilleure ligne d’un budget ») and SEO-process wording (« ce dossier », « les pages du dossier suivent la même règle »). New: month-rate table, fuel example table, nights/meals method, return of the moto, garantie/entretien/imprévus, permit and conditions, three month shapes, budget table to complete, in-trip budget control. FAQ cut to 4 non-repeating Q&As. Words 2006→1721. Sources: https://www.honda.com.vn/xe-may/san-pham/vision?category=2; https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html; https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=dau-nhot&category_child=tu-van-su-dung-xe-may",
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "META": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Title and H1 kept (50 chars). Description rewritten (159 chars) to drop « ce qui se négocie » and « pièges à lire avant de signer »; og:description synced (old one used an &#39; entity). Built check: Unique title (50 chars) and description (159 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "LINKS": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /prix-location/30-jours-location-moto-hanoi-cout/, /prix-location/moto-carburant-cout-hanoi-location/, /centre-sud-vietnam/vietnam-voyage-moto-budget-nord-sud/, /permis-securite/. Dropped /types-motos/location-moto-manuelle-hanoi/. Three external links (honda.com.vn product page and FAQ, baovanhoa.vn), rel=noopener, seen in search results. tel/WhatsApp/Zalo links. TOC auto-synced with 11 H2 ids incl. #questions-frequentes. Built check: 2 source-body incoming links (e.g. prix-location/index.html, prix-location/mois/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "AEO_GEO": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Direct answer in the lead (five postes, only the rent is published, leaving Hanoi unconfirmed). 4 tables, 3 lists, FAQ of 4.",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/prix-location/vietnam-location-moto-cout-30-jours/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-prix-location-vietnam-location-moto-cout-30-jours assets/images/seo/prix-location/vietnam-location-moto-cout-30-jours/hero.webp WebP 1200x630 207 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "UX_CRO": {
           "status": "DONE",
           "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/prix-location/vietnam-location-moto-cout-30-jours/index.html: self canonical https://fr.rentbikehanoi.com/prix-location/vietnam-location-moto-cout-30-jours/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "d10e5c2b7e710fb44376aaa3a9bb0aeaa4c154d02619cdeedee6bba0e8a80629"
+          "verified_sha256": "caa0b670d5eb8b215a43e7d068cc1fcd3f80f0c0b5f68d48140dff784dfa44b9"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -50031,33 +50031,34 @@
       "cluster": "prix",
       "parent_hub": "/prix-location/",
       "priority": "P1",
-      "keyword_seed_fr": "Wave ou Sirius : quelle machine économise sur un mois de location ?",
+      "keyword_seed_fr": "Wave ou Sirius : quel coût à l’usage sur un mois de location ?",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "So sánh",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb",
-        "title": "Honda Wave ou Yamaha Sirius : quelle économie sur un mois ?",
-        "title_chars": 59,
-        "description": "Location mensuelle, carburant, entretien, état de l’exemplaire : comparer Wave et Sirius sur un mois se fait ligne par ligne, au devis du moment.",
-        "description_chars": 145,
-        "h1": "Wave ou Sirius : quelle machine économise sur un mois de location ?",
+        "source_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332",
+        "title": "Honda Wave ou Yamaha Sirius : quel coût sur un mois ?",
+        "title_chars": 53,
+        "description": "Wave ou Sirius sur un mois à Hanoi : loyer indicatif des semi-automatiques, carburant annoncé par Honda et Yamaha, entretien et questions à poser.",
+        "description_chars": 146,
+        "h1": "Wave ou Sirius : quel coût à l’usage sur un mois de location ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/prix-location/wave-ou-sirius-mensuelle-cout-location/",
-        "editorial_word_count_estimate": 1629,
+        "editorial_word_count_estimate": 1533,
         "h2_h3": [
-          "Deux routières de la série économique",
-          "Le mois change la grille de lecture",
-          "Carburant : la ligne qui compte sur trente jours",
-          "Entretien et imprévus : le coût du temps long",
-          "Le protocole de choix pour un mois",
+          "La ligne loyer : un repère de catégorie",
+          "Le carburant d’un mois, d’après les constructeurs",
+          "Réservoir, réserve et autonomie",
+          "Un mois de roulage : la vidange et l’entretien",
+          "Un mois de 900 km : l’ordre de grandeur",
+          "L’état de la moto compte plus que la marque",
+          "Comment départager les deux",
+          "Demander les totaux",
           "Questions fréquentes",
-          "Laquelle coûte le moins sur un mois : Wave ou Sirius ?",
-          "Le tarif mensuel se déduit-il du tarif journalier ?",
-          "Qui paie l’entretien sur une location d’un mois ?",
-          "La consommation change-t-elle la donne sur trente jours ?",
-          "L’état de la machine importe-t-il davantage sur un mois ?",
-          "Pour aller plus loin"
+          "Laquelle consomme le moins, la Wave ou la Sirius ?",
+          "Laquelle coûte le moins cher à louer un mois ?",
+          "La Wave ou la Sirius est-elle disponible chez Thuê xe máy Nguyễn Hà ?",
+          "Le carburant est-il compris dans le loyer ?"
         ],
         "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
@@ -50092,52 +50093,52 @@
         "FACTS": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Rent: neither Wave nor Sirius has an owner row, so only the semi-automatic category row (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) is shown as a repère to confirm, with the exact disclaimer; no model price, no 30-day multiplication; availability of both models stated as unconfirmed. Fuel: Honda Wave Alpha 110 1.72 L/100 km, tank 3.7 L (honda.com.vn product page); manual: about 1.02 L left in the red zone, RON 91 or higher recommended (manual PDF at cdn.honda.com.vn, seen in search result summary); Yamaha Sirius FI 1.65 L/100 km, tank 4.0 L on the current alloy-wheel version page (older Yamaha documents give other values: 1.57 L/100 km in 2020 data, 3.8 L tank in 2017) (yamaha-motor.com.vn, seen in search results 2026-10-30); E5 RON 92 at 25 060 VND/L (Petrolimex zone 1 since 2026-10-22, Báo Văn Hóa 23 Oct 2026, seen in search result). Arithmetic (100/900/1 500 km: about 43 100/387 900/646 500 VND for Wave vs 41 300/372 100/620 200 VND for Sirius; 1 000 km gap about 17 500 VND; theoretical range 215 vs 240 km; a 900 km month = category month row + fuel = about 1 370 000–1 590 000 VND before garantie/maintenance) is on those figures only, with distances declared hypotheses and the warning that declared consumption is a test value. Oil-change interval: Honda Vietnam FAQ (first change 1 000 km then about 6 000 km, shorten above 1 000 km/month), cross-referenced to the oil-change article's sources. Removed unsourced claims: « des millions de foyers », « réparables partout », « la Wave, c’est increvable », « les récits de voyageurs les créditent de comportements voisins », « les loueurs pratiquent des grilles dégressives », « les offres mensuelles englobent l’entretien » as general facts. Who pays maintenance, garantie, fuel rule, leaving Hanoi: unpublished questions. No € conversion. NAP/hours per SEO-FACTS. Sources: https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110; https://cdn.honda.com.vn/motorbike-manual/September2025/PIcp8XLSxQmsi5X5Twsy.pdf; https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-vanh-duc-mau-hoan-toan-moi-bsac/; https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "INTENT": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Main question: Wave or Sirius, which costs less to use over a month? DISTINCT_ANGLE of honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (group owner: which semi-automatic to rent); this article only treats usage cost with published/declared figures and no invented package; links to the owner once, and to the semi-automatic price article and the oil-change article.",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "CONTENT": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Full rewrite. Removed mannered prose (« deux routières de la série économique », « la décision se prend en selle », « le mois change la grille de lecture », « le hub ») and SEO-process wording (« la politique de la plateforme ne négocie pas sur ce point »). New: category rent table, declared-fuel table Wave/Sirius with sources, tank/reserve/range, a 900 km month order of magnitude and table of what is/isn't known, oil-change and maintenance questions, seven-point condition checklist, five-step choice, how to request totals. FAQ cut to 4 non-repeating Q&As. Words 1671→1588. Sources: https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110; https://cdn.honda.com.vn/motorbike-manual/September2025/PIcp8XLSxQmsi5X5Twsy.pdf; https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-vanh-duc-mau-hoan-toan-moi-bsac/; https://baovanhoa.vn/kinh-te/gia-xang-dau-hom-nay-23102026-ap-dung-bang-moi-sau-dieu-chinh-278233.html",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "META": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Title « Honda Wave ou Yamaha Sirius : quelle économie sur un mois ? » changed to « …: quel coût sur un mois ? » (53 chars) because the page shows a small fuel gap, not an economy; H1 aligned (« quel coût à l’usage sur un mois de location ? »); description rewritten (146 chars); og tags synced. Built check: Unique title (59 chars) and description (145 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Title « Honda Wave ou Yamaha Sirius : quelle économie sur un mois ? » changed to « …: quel coût sur un mois ? » (53 chars) because the page shows a small fuel gap, not an economy; H1 aligned (« quel coût à l’usage sur un mois de location ? »); description rewritten (146 chars); og tags synced. Built check: Unique title (53 chars) and description (146 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (group owner, once), /prix-location/semi-automatique-location-moto-hanoi-prix/ (kept), /prix-location/moto-carburant-cout-hanoi-location/ (kept), /prix-location/location-moto-oil-change-longue-duree-vietnam/. Four external links (honda.com.vn, yamaha-motor.com.vn, Wave manual PDF, baovanhoa.vn; rel=noopener; seen in search results). tel/WhatsApp/Zalo links. TOC auto-synced with 10 H2 ids incl. #questions-frequentes. Built check: 5 source-body incoming links (e.g. honda/honda-wave-rsx-ou-yamaha-sirius-fi-location/index.html, location-moto-hanoi/longue-duree/index.html, prix-location/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 5 unique internal body links, none broken.",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): 7/7 unique internal links in main: /prix-location/ (parent hub), /location-moto-hanoi/, /types-motos/ (required), /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (group owner, once), /prix-location/semi-automatique-location-moto-hanoi-prix/ (kept), /prix-location/moto-carburant-cout-hanoi-location/ (kept), /prix-location/location-moto-oil-change-longue-duree-vietnam/. Four external links (honda.com.vn, yamaha-motor.com.vn, Wave manual PDF, baovanhoa.vn; rel=noopener; seen in search results). tel/WhatsApp/Zalo links. TOC auto-synced with 10 H2 ids incl. #questions-frequentes. Built check: 4 source-body incoming links (e.g. location-moto-hanoi/longue-duree/index.html, prix-location/index.html, prix-location/mois/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "AEO_GEO": {
           "status": "DONE",
           "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PRIX-L-2.json): Direct answer in the lead (fuel gap about 17 500 VND per 1 000 km, rent decides, no model row, availability unconfirmed). 4 tables, 2 lists, FAQ of 4.",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/prix-location/wave-ou-sirius-mensuelle-cout-location/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-prix-location-wave-ou-sirius-mensuelle-cout-location assets/images/seo/prix-location/wave-ou-sirius-mensuelle-cout-location/hero.webp WebP 1200x630 199 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 7 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/prix-location/wave-ou-sirius-mensuelle-cout-location/index.html: self canonical https://fr.rentbikehanoi.com/prix-location/wave-ou-sirius-mensuelle-cout-location/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "74ad1ed22303ca7e8a9707e77064f612b3e18e3c65d35a62218926b9ccc02ffb"
+          "verified_sha256": "0a8a6d3374c93aacbe8cc164df9216f132e7772500754a84d3cc2f375d1ab332"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -58541,7 +58542,7 @@
       "intent_to_validate": "Commercial investigation",
       "content_depth_policy": "HUB_HOME_1600_6000_IF_USEFUL",
       "baseline": {
-        "source_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea",
+        "source_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5",
         "title": "Location Yamaha à Hanoi : NVX, Janus, Sirius, WR155R",
         "title_chars": 52,
         "description": "Quelle Yamaha louer à Hanoi ? Scooters Janus, Latte, NVX, semi-automatiques Sirius et Jupiter Finn, trail WR155R, électrique NEO’S et tarifs indicatifs.",
@@ -58549,7 +58550,7 @@
         "h1": "Louer une Yamaha à Hanoi : scooter, semi-automatique ou trail ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/yamaha/",
-        "editorial_word_count_estimate": 4738,
+        "editorial_word_count_estimate": 4750,
         "h2_h3": [
           "La réponse courte : quelle Yamaha pour quel usage ?",
           "Ce que Yamaha vend au Vietnam aujourd’hui",
@@ -58619,53 +58620,53 @@
       "checks": {
         "FACTS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Owner NAP/hours/phone channels in 'Préparer votre demande'; price table uses only owner category rows (scooter 150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND; semi-auto 150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000; electric 'Selon le modèle, à confirmer' / 600 000–800 000 / 1 500 000–1 800 000) with the exact disclaimer; states no Yamaha model has its own rate and that WR155R/Exciter 155/NMAX/XMAX are outside the ranges (ask). No deposit, delivery, insurance, stock or assistance claims. Legacy template filler (SEO-architecture talk, duplicated boilerplate) removed entirely. Sources: https://yamaha-motor.com.vn/xe/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://yamaha-motor.com.vn/xe/loai-xe/xe-the-thao/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Owner NAP/hours/phone channels in 'Préparer votre demande'; price table uses only owner category rows (scooter 150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND; semi-auto 150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000; electric 'Selon le modèle, à confirmer' / 600 000–800 000 / 1 500 000–1 800 000) with the exact disclaimer; states no Yamaha model has its own rate and that WR155R/Exciter 155/NMAX/XMAX are outside the ranges (ask). No deposit, delivery, insurance, stock or assistance claims. Legacy template filler (SEO-architecture talk, duplicated boilerplate) removed entirely. 2026-10-31 correction after article reviews: LEXi listed with the 155 cm³ scooters (licence category A, Law 36/2024/QH15 art. 57) instead of the compacts; Sirius FI displacement aligned to the Yamaha Vietnam product sheet (113,7 cm³, seen in search result by the ART-YAMAHA-5 review). Sources: https://yamaha-motor.com.vn/xe/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://yamaha-motor.com.vn/xe/loai-xe/xe-the-thao/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "INTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): primary intent 'location yamaha hanoi' (commercial investigation: which Yamaha to rent in Hanoi); owner URL /yamaha/; distinct from /honda/ (other brand), /types-motos/ (category-neutral) and the 3 Yamaha sub-hubs (family deep-dives) because it orients across families, lists the whole Vietnam lineup and links all 80 children.",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): primary intent 'location yamaha hanoi' (commercial investigation: which Yamaha to rent in Hanoi); owner URL /yamaha/; distinct from /honda/ (other brand), /types-motos/ (category-neutral) and the 3 Yamaha sub-hubs (family deep-dives) because it orients across families, lists the whole Vietnam lineup and links all 80 children.",
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "CONTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Rewritten sections: direct answer; current Yamaha Vietnam lineup by official groups + Vietnamese terms xe tay ga/xe số/xe côn tay; 5-family comparison table (controls, use, caveat); choice by programme (city, duo, month in Long Biên, Northern loop, day trip); category price table; Yamaha vs Honda duel table (13 rows linking 15 comparison children); 125 cm³ licence threshold (Law 36/2024/QH15, gov portal, dated); Yamaha-specific pre-ride checklist (smart key, Stop&Start, hybrid assist, ABS light, chain, NEO'S battery); 7 FAQ; full guide list (16 h3, 80 li with actual H1 anchors). Specs only from yamaha-motor.com.vn search results (Latte 37 L, Grande 27 L, NVX ~25 L, GEAR 750 mm/assist 3 s/launch Apr 2026, PG-1 795 mm, NEO'S 72/144 km with test conditions). Sources: https://yamaha-motor.com.vn/xe/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://yamaha-motor.com.vn/xe/loai-xe/xe-the-thao/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Rewritten sections: direct answer; current Yamaha Vietnam lineup by official groups + Vietnamese terms xe tay ga/xe số/xe côn tay; 5-family comparison table (controls, use, caveat); choice by programme (city, duo, month in Long Biên, Northern loop, day trip); category price table; Yamaha vs Honda duel table (13 rows linking 15 comparison children); 125 cm³ licence threshold (Law 36/2024/QH15, gov portal, dated); Yamaha-specific pre-ride checklist (smart key, Stop&Start, hybrid assist, ABS light, chain, NEO'S battery); 7 FAQ; full guide list (16 h3, 80 li with actual H1 anchors). Specs only from yamaha-motor.com.vn search results (Latte 37 L, Grande 27 L, NVX ~25 L, GEAR 750 mm/assist 3 s/launch Apr 2026, PG-1 795 mm, NEO'S 72/144 km with test conditions). 2026-10-31 correction after article reviews: LEXi listed with the 155 cm³ scooters (licence category A, Law 36/2024/QH15 art. 57) instead of the compacts; Sirius FI displacement aligned to the Yamaha Vietnam product sheet (113,7 cm³, seen in search result by the ART-YAMAHA-5 review). Sources: https://yamaha-motor.com.vn/xe/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://yamaha-motor.com.vn/xe/loai-xe/xe-the-thao/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "META": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Title 52 chars, description 152 chars, og:title/og:description identical; H1 changed to a question-style decision H1. Sync required in data/seo-cluster-matrix.json (FND-016). Built check: Unique title (52 chars) and description (152 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Title 52 chars, description 152 chars, og:title/og:description identical; H1 changed to a question-style decision H1. Sync required in data/seo-cluster-matrix.json (FND-016). Built check: Unique title (52 chars) and description (152 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Required links present: /yamaha/scooters/, /yamaha/semi-automatiques/, /yamaha/trail-aventure/, /honda/, /types-motos/. Also /prix-location/, /permis-securite/permis/, /permis-securite/securite/, /types-motos/electrique/, /nord-vietnam/ha-giang/ and all 80 /yamaha/ children grouped by model/family (guide §5). seo_page_check: no broken links. Built check: 101 source-body incoming links (e.g. blog/index.html, honda/honda-air-blade-125-ou-yamaha-nvx-location/index.html, honda/honda-air-blade-160-ou-yamaha-nvx-155-location/index.html); 542 built pages link here incl. navigation; BreadcrumbList rendered; 90 unique internal body links, none broken.",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Required links present: /yamaha/scooters/, /yamaha/semi-automatiques/, /yamaha/trail-aventure/, /honda/, /types-motos/. Also /prix-location/, /permis-securite/permis/, /permis-securite/securite/, /types-motos/electrique/, /nord-vietnam/ha-giang/ and all 80 /yamaha/ children grouped by model/family (guide §5). seo_page_check: no broken links. Built check: 93 source-body incoming links (e.g. blog/index.html, honda/honda-vario-125-ou-yamaha-freego-location/index.html, honda/honda-vario-160-ou-yamaha-nvx-location/index.html); 542 built pages link here incl. navigation; BreadcrumbList rendered; 90 unique internal body links, none broken.",
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "AEO_GEO": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Lead answers 'which Yamaha for which trip' in 4 sentences; extractable tables (families, prices, duels); FAQ answers self-contained; dated, attributed manufacturer and government citations inline.",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Lead answers 'which Yamaha for which trip' in 4 sentences; extractable tables (families, prices, duels); FAQ answers self-contained; dated, attributed manufacturer and government citations inline.",
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph BreadcrumbList, CollectionPage, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/yamaha/#… with name = visible H1, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-yamaha assets/images/seo/yamaha/hero.webp WebP 1200x630 194 KiB; IMG-EXTRA-003 assets/images/seo/yamaha/gamme-scooters.webp WebP 1200x630 195 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 0 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 0 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/yamaha/index.html: self canonical https://fr.rentbikehanoi.com/yamaha/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (BreadcrumbList, CollectionPage, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "81e821d5855b6222565c3717f153370745e2a4c8a1c406762a7d5cb8c97246ea"
+          "verified_sha256": "a745633da1f02b62a55590c1d8cf32bdd3e421bdf067cb85016af4e7023fbed5"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -58688,7 +58689,7 @@
       "intent_to_validate": "Commercial investigation",
       "content_depth_policy": "HUB_HOME_1600_6000_IF_USEFUL",
       "baseline": {
-        "source_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c",
+        "source_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138",
         "title": "Scooters Yamaha à Hanoi : NVX, Janus, Grande, Latte, FreeGo",
         "title_chars": 59,
         "description": "Janus, Latte, FreeGo, Grande, NVX ou NMAX : comparez les scooters Yamaha pour Hanoi selon le gabarit, le coffre, le confort à deux et l’usage sur route.",
@@ -58696,7 +58697,7 @@
         "h1": "Scooters Yamaha à Hanoi : NVX, Janus, Grande ou Latte ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/yamaha/scooters/",
-        "editorial_word_count_estimate": 3051,
+        "editorial_word_count_estimate": 3074,
         "h2_h3": [
           "En bref : quel scooter Yamaha pour votre séjour ?",
           "Comparatif des scooters Yamaha",
@@ -58757,53 +58758,53 @@
       "checks": {
         "FACTS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Scooter category range only (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with exact disclaimer; explicitly no Yamaha model rate, NMAX/XMAX not assumed in range; Honda Vision/Air Blade own rows mentioned without quoting other models. No stock/deposit/delivery claims. Sources: https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/freego-phien-ban-tieu-chuan-mau-moi-b4u9/; https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/; https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Scooter category range only (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) with exact disclaimer; explicitly no Yamaha model rate, NMAX/XMAX not assumed in range; Honda Vision/Air Blade own rows mentioned without quoting other models. No stock/deposit/delivery claims. 2026-10-31 correction after article reviews: LEXi listed with the 155 cm³ scooters (licence category A, Law 36/2024/QH15 art. 57) instead of the compacts; Sirius FI displacement aligned to the Yamaha Vietnam product sheet (113,7 cm³, seen in search result by the ART-YAMAHA-5 review). Sources: https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/freego-phien-ban-tieu-chuan-mau-moi-b4u9/; https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/; https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "INTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): primary intent 'location scooter yamaha hanoi' (NVX, NMAX, Janus, Grande); owner URL /yamaha/scooters/; distinct from /types-motos/scooter-automatique/ (brand-neutral) and /honda/scooters/ (Honda models) because it compares Yamaha scooter models against each other.",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): primary intent 'location scooter yamaha hanoi' (NVX, NMAX, Janus, Grande); owner URL /yamaha/scooters/; distinct from /types-motos/scooter-automatique/ (brand-neutral) and /honda/scooters/ (Honda models) because it compares Yamaha scooter models against each other.",
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "CONTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Sections: short answer + 'smallest scooter that carries your load' rule; 9-model comparison table (profile, Yamaha-announced storage, strength, limit) with source paragraph and version caveat (NVX 25 vs 24.5 L); compacts (Janus, Latte 37 L/A4/13-inch laptop, FreeGo 25 L, LEXi, GEAR 125 Hybrid 750 mm seat/12-inch wheels/3 s assist/DX Stop&Start, launch Apr 2026); Grande (27 L lit, 2 helmets) vs NVX 155 VVA ABS (smart key functions, ABS, VVA, phone charging; 155 cm³ → class A); NMAX (24 L) and XMAX: when a large scooter is justified; city/road/mountain (no engine braking, rainy-season flooding); price; 8-point scooter inspection; 6 FAQ; 45 child links grouped by 9 models. Sources: https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/freego-phien-ban-tieu-chuan-mau-moi-b4u9/; https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/; https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Sections: short answer + 'smallest scooter that carries your load' rule; 9-model comparison table (profile, Yamaha-announced storage, strength, limit) with source paragraph and version caveat (NVX 25 vs 24.5 L); compacts (Janus, Latte 37 L/A4/13-inch laptop, FreeGo 25 L, LEXi, GEAR 125 Hybrid 750 mm seat/12-inch wheels/3 s assist/DX Stop&Start, launch Apr 2026); Grande (27 L lit, 2 helmets) vs NVX 155 VVA ABS (smart key functions, ABS, VVA, phone charging; 155 cm³ → class A); NMAX (24 L) and XMAX: when a large scooter is justified; city/road/mountain (no engine braking, rainy-season flooding); price; 8-point scooter inspection; 6 FAQ; 45 child links grouped by 9 models. 2026-10-31 correction after article reviews: LEXi listed with the 155 cm³ scooters (licence category A, Law 36/2024/QH15 art. 57) instead of the compacts; Sirius FI displacement aligned to the Yamaha Vietnam product sheet (113,7 cm³, seen in search result by the ART-YAMAHA-5 review). Sources: https://yamaha-motor.com.vn/xe/loai-xe/latte/; https://yamaha-motor.com.vn/xe/freego-phien-ban-tieu-chuan-mau-moi-b4u9/; https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-tieu-chuan-df91/; https://yamaha-motor.com.vn/tin-tuc/yamaha-gear-125-hybrid-ra-mat-xu-huong-di-chuyen-do-thi-moi/; https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/; https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "META": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Title 59 chars, description 152 chars, og tags identical. Sync required (FND-017). Built check: Unique title (59 chars) and description (152 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Title 59 chars, description 152 chars, og tags identical. Sync required (FND-017). Built check: Unique title (59 chars) and description (152 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Required links present: /honda/scooters/, /types-motos/scooter-automatique/, /prix-location/, /yamaha/. Also /yamaha/semi-automatiques/, /permis-securite/permis/, /permis-securite/securite/ and 45 scooter children (Janus, Latte, FreeGo, LEXi, GEAR 125 Hybrid, Grande, NVX, NMAX, XMAX). Built check: 7 source-body incoming links (e.g. honda/scooters/index.html, types-motos/scooter-automatique/index.html, yamaha/index.html); 85 built pages link here incl. navigation; BreadcrumbList rendered; 52 unique internal body links, none broken.",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Required links present: /honda/scooters/, /types-motos/scooter-automatique/, /prix-location/, /yamaha/. Also /yamaha/semi-automatiques/, /permis-securite/permis/, /permis-securite/securite/ and 45 scooter children (Janus, Latte, FreeGo, LEXi, GEAR 125 Hybrid, Grande, NVX, NMAX, XMAX). Built check: 15 source-body incoming links (e.g. honda/scooters/index.html, types-motos/scooter-automatique/index.html, yamaha/index.html); 85 built pages link here incl. navigation; BreadcrumbList rendered; 52 unique internal body links, none broken.",
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "AEO_GEO": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Direct answer in lead; storage/profile table with cited manufacturer values; FAQ for small riders, Janus vs Latte, NVX for beginners, duo, licence (cited), Ha Giang.",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Direct answer in lead; storage/profile table with cited manufacturer values; FAQ for small riders, Janus vs Latte, NVX for beginners, duo, licence (cited), Ha Giang.",
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph BreadcrumbList, CollectionPage, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/yamaha/scooters/#… with name = visible H1, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-yamaha-scooters assets/images/seo/yamaha/scooters/hero.webp WebP 1200x630 195 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "UX_CRO": {
           "status": "DONE",
           "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 0 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/yamaha/scooters/index.html: self canonical https://fr.rentbikehanoi.com/yamaha/scooters/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (BreadcrumbList, CollectionPage, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "d7f29033714c365deba4af17f154e26dccf6bef9036d9a8bd2ea77811f33848c"
+          "verified_sha256": "84b70824089416d3909ae650c0c0dc63361e0627edd30277ca5b0ddfa65c1138"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -58826,7 +58827,7 @@
       "intent_to_validate": "Commercial investigation",
       "content_depth_policy": "HUB_HOME_1600_6000_IF_USEFUL",
       "baseline": {
-        "source_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e",
+        "source_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd",
         "title": "Yamaha semi-automatique à Hanoi : Sirius, Jupiter Finn, PG-1",
         "title_chars": 60,
         "description": "Sirius, Sirius FI, Jupiter Finn ou PG-1 : comment se conduit une Yamaha semi-automatique, pourquoi elle convient au Nord et quoi vérifier avant de louer.",
@@ -58834,7 +58835,7 @@
         "h1": "Motos semi-automatiques Yamaha : Sirius, Jupiter Finn et PG-1",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/yamaha/semi-automatiques/",
-        "editorial_word_count_estimate": 2351,
+        "editorial_word_count_estimate": 2359,
         "h2_h3": [
           "Pourquoi choisir une semi-automatique Yamaha ?",
           "Comment fonctionne une boîte semi-automatique",
@@ -58891,53 +58892,53 @@
       "checks": {
         "FACTS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Semi-automatic category range only (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) + disclaimer, comparison with scooter monthly range from owner table; PG-1 not assumed in range. Stray post-article filler section 'Critère supplémentaire à vérifier' (SEO/cannibalisation talk) deleted; no unique fact lost. Sources: https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/; https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-bgyb/; https://yamaha-motor.com.vn/tin-tuc/nang-tam-phong-cach-moi-cung-sirius-fi-2021/; https://yamaha-motor.com.vn/tin-tuc/xe-yamaha-pg-1-danh-gia-chi-tiet/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Semi-automatic category range only (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) + disclaimer, comparison with scooter monthly range from owner table; PG-1 not assumed in range. Stray post-article filler section 'Critère supplémentaire à vérifier' (SEO/cannibalisation talk) deleted; no unique fact lost. 2026-10-31 correction after article reviews: LEXi listed with the 155 cm³ scooters (licence category A, Law 36/2024/QH15 art. 57) instead of the compacts; Sirius FI displacement aligned to the Yamaha Vietnam product sheet (113,7 cm³, seen in search result by the ART-YAMAHA-5 review). Sources: https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/; https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-bgyb/; https://yamaha-motor.com.vn/tin-tuc/nang-tam-phong-cach-moi-cung-sirius-fi-2021/; https://yamaha-motor.com.vn/tin-tuc/xe-yamaha-pg-1-danh-gia-chi-tiet/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "INTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): primary intent 'location moto semi automatique yamaha' (Sirius, Jupiter Finn); owner URL /yamaha/semi-automatiques/; distinct from /types-motos/semi-automatique/ (brand-neutral) and /honda/semi-automatiques/ (Wave/Future) because it compares Yamaha's xe số models and how to ride them.",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): primary intent 'location moto semi automatique yamaha' (Sirius, Jupiter Finn); owner URL /yamaha/semi-automatiques/; distinct from /types-motos/semi-automatique/ (brand-neutral) and /honda/semi-automatiques/ (Wave/Future) because it compares Yamaha's xe số models and how to ride them.",
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "CONTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Sections: why a semi-auto (engine braking, repairability, cheapest monthly range; who it suits/doesn't); how the gearbox works (Jupiter Finn spec: 4-speed rotary + wet multi-plate centrifugal clutch; shifting technique, neutral, rotary caveat, 3 beginner mistakes); 4-model table (Sirius 110 cc carb/3 versions, Sirius FI 115 cc injection, Jupiter Finn 113.7 cm³ and claimed 1.64 L/100 km, PG-1 113.7 cm³/795 mm/ABS) with sources; why it suits Northern roads (Sapa/Ha Giang links, seasonal closures caveat); 6-step learning checklist; semi-auto vs trail threshold; price; 9-point inspection (chain, sprocket, gears, centrifugal clutch, brakes...); Honda equivalents; 6 FAQ; 20 child links (Sirius, Sirius FI, Jupiter Finn, PG-1 ABS). Sources: https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/; https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-bgyb/; https://yamaha-motor.com.vn/tin-tuc/nang-tam-phong-cach-moi-cung-sirius-fi-2021/; https://yamaha-motor.com.vn/tin-tuc/xe-yamaha-pg-1-danh-gia-chi-tiet/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Sections: why a semi-auto (engine braking, repairability, cheapest monthly range; who it suits/doesn't); how the gearbox works (Jupiter Finn spec: 4-speed rotary + wet multi-plate centrifugal clutch; shifting technique, neutral, rotary caveat, 3 beginner mistakes); 4-model table (Sirius 110 cc carb/3 versions, Sirius FI 115 cc injection, Jupiter Finn 113.7 cm³ and claimed 1.64 L/100 km, PG-1 113.7 cm³/795 mm/ABS) with sources; why it suits Northern roads (Sapa/Ha Giang links, seasonal closures caveat); 6-step learning checklist; semi-auto vs trail threshold; price; 9-point inspection (chain, sprocket, gears, centrifugal clutch, brakes...); Honda equivalents; 6 FAQ; 20 child links (Sirius, Sirius FI, Jupiter Finn, PG-1 ABS). 2026-10-31 correction after article reviews: LEXi listed with the 155 cm³ scooters (licence category A, Law 36/2024/QH15 art. 57) instead of the compacts; Sirius FI displacement aligned to the Yamaha Vietnam product sheet (113,7 cm³, seen in search result by the ART-YAMAHA-5 review). Sources: https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/; https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-bgyb/; https://yamaha-motor.com.vn/tin-tuc/nang-tam-phong-cach-moi-cung-sirius-fi-2021/; https://yamaha-motor.com.vn/tin-tuc/xe-yamaha-pg-1-danh-gia-chi-tiet/; https://yamaha-motor.com.vn/xe/loai-xe/xe-so/; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "META": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Title 60 chars, description 153 chars, og tags identical. Sync required (FND-018). Built check: Unique title (60 chars) and description (153 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Title 60 chars, description 153 chars, og tags identical. Sync required (FND-018). Built check: Unique title (60 chars) and description (153 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Required links present: /yamaha/trail-aventure/, /honda/semi-automatiques/, /types-motos/semi-automatique/, /nord-vietnam/sapa/. Also /yamaha/, /nord-vietnam/ha-giang/, /permis-securite/permis/ and 20 children. Built check: 13 source-body incoming links (e.g. honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/index.html, honda/semi-automatiques/index.html, types-motos/semi-automatique/index.html); 86 built pages link here incl. navigation; BreadcrumbList rendered; 27 unique internal body links, none broken.",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Required links present: /yamaha/trail-aventure/, /honda/semi-automatiques/, /types-motos/semi-automatique/, /nord-vietnam/sapa/. Also /yamaha/, /nord-vietnam/ha-giang/, /permis-securite/permis/ and 20 children. Built check: 21 source-body incoming links (e.g. honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/index.html, honda/honda-wave-alpha-110-ou-yamaha-sirius-location/index.html, honda/honda-wave-rsx-ou-yamaha-sirius-fi-location/index.html); 88 built pages link here incl. navigation; BreadcrumbList rendered; 27 unique internal body links, none broken.",
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "AEO_GEO": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-29-D-yamaha.json): Lead defines semi-automatic and gives the recommendation; step-by-step learning list; FAQ incl. licence class A1 (cited) and neutral troubleshooting.",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-D-yamaha-fix.json): Lead defines semi-automatic and gives the recommendation; step-by-step learning list; FAQ incl. licence class A1 (cited) and neutral troubleshooting.",
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph BreadcrumbList, CollectionPage, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/yamaha/semi-automatiques/#… with name = visible H1, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-yamaha-semi-automatiques assets/images/seo/yamaha/semi-automatiques/hero.webp WebP 1200x630 204 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "UX_CRO": {
           "status": "DONE",
           "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 0 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/yamaha/semi-automatiques/index.html: self canonical https://fr.rentbikehanoi.com/yamaha/semi-automatiques/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (BreadcrumbList, CollectionPage, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "b6f49474a25edd94b67255296af506c72a41374d1f8f7dc1f4e9bb51d981a55e"
+          "verified_sha256": "d56a6847a45839e3a0938162cfe2b0d9f1e9c3bdca414de5d927c4f529f578bd"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
