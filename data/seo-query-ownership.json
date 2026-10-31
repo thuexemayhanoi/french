@@ -1485,15 +1485,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
-     "similarity": 0.33
-    },
-    {
      "path": "hanoi/jour-voyages-de-hanoi-by-moto/index.html",
      "similarity": 0.33
     },
     {
      "path": "location-moto-hanoi/3-jours-location-moto-hanoi/index.html",
+     "similarity": 0.27
+    },
+    {
+     "path": "location-moto-hanoi/2-jours-location-moto-hanoi/index.html",
      "similarity": 0.27
     }
    ]
@@ -2110,15 +2110,15 @@
    "parent_hub": "/hanoi/",
    "closest_pages": [
     {
+     "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
+     "similarity": 0.19
+    },
+    {
+     "path": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
+     "similarity": 0.19
+    },
+    {
      "path": "location-moto-hanoi/location-moto-hanoi-ou-circuit-moto-hanoi/index.html",
-     "similarity": 0.15
-    },
-    {
-     "path": "hanoi/hanoi-street-food-itineraire-moto/index.html",
-     "similarity": 0.15
-    },
-    {
-     "path": "hanoi/hanoi-french-architecture-itineraire-moto/index.html",
      "similarity": 0.15
     }
    ]
@@ -6474,7 +6474,7 @@
    "closest_pages": [
     {
      "path": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
-     "similarity": 0.33
+     "similarity": 0.43
     },
     {
      "path": "nord-vietnam/hanoi-ba-be-itineraire-moto/index.html",
@@ -6752,12 +6752,12 @@
      "similarity": 0.36
     },
     {
-     "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
-     "similarity": 0.33
-    },
-    {
      "path": "nord-vietnam/pu-luong-moto-2-jours/index.html",
      "similarity": 0.31
+    },
+    {
+     "path": "prix-location/nord-vietnam-voyage-moto-budget-7-jours/index.html",
+     "similarity": 0.29
     }
    ]
   },
@@ -7765,7 +7765,7 @@
    "path": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
    "url": "https://fr.rentbikehanoi.com/nord-vietnam/thac-ba-lac-voyage-moto/",
    "type": "ARTICLE",
-   "primary_query_fr": "le lac de Thác Bà à moto la parenthèse secrète du Yên Bái",
+   "primary_query_fr": "le lac de Thác Bà à moto îles, bateau et route depuis Hanoi",
    "role": "OWNER",
    "group": null,
    "group_owner": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
@@ -7774,15 +7774,15 @@
    "closest_pages": [
     {
      "path": "nord-vietnam/ba-be-lac-voyage-moto/index.html",
-     "similarity": 0.33
+     "similarity": 0.43
+    },
+    {
+     "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
+     "similarity": 0.25
     },
     {
      "path": "nord-vietnam/hanoi-ba-be-itineraire-moto/index.html",
      "similarity": 0.21
-    },
-    {
-     "path": "nord-vietnam/bac-kan-voyage-moto/index.html",
-     "similarity": 0.19
     }
    ]
   },
@@ -7790,7 +7790,7 @@
    "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
    "url": "https://fr.rentbikehanoi.com/nord-vietnam/tuyen-quang-voyage-moto-hanoi/",
    "type": "ARTICLE",
-   "primary_query_fr": "tuyên Quang à moto depuis Hanoï la boucle de deux jours",
+   "primary_query_fr": "tuyên Quang à moto depuis Hanoi Tân Trào, Na Hang et la route",
    "role": "OWNER",
    "group": null,
    "group_owner": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
@@ -7798,16 +7798,16 @@
    "parent_hub": "/nord-vietnam/",
    "closest_pages": [
     {
-     "path": "nord-vietnam/halong-voyage-moto-2-jours/index.html",
-     "similarity": 0.33
-    },
-    {
-     "path": "hanoi/2-jours-moto-voyages-de-hanoi/index.html",
-     "similarity": 0.33
-    },
-    {
-     "path": "nord-vietnam/hanoi-moc-chau-moto-2-jours/index.html",
+     "path": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
      "similarity": 0.25
+    },
+    {
+     "path": "prix-location/hanoi-sapa-voyage-moto-cout/index.html",
+     "similarity": 0.2
+    },
+    {
+     "path": "nord-vietnam/hanoi-lang-son-voyage-moto/index.html",
+     "similarity": 0.2
     }
    ]
   },
@@ -7923,16 +7923,16 @@
    "parent_hub": "/permis-securite/",
    "closest_pages": [
     {
-     "path": "permis-securite/vietnam-emergency-numbers-moto-touriste/index.html",
-     "similarity": 0.12
-    },
-    {
      "path": "permis-securite/touriste-conversion-permis-conduire-vietnam/index.html",
      "similarity": 0.12
     },
     {
      "path": "location-moto-hanoi/location-moto-hanoi-pour-tourists/index.html",
      "similarity": 0.12
+    },
+    {
+     "path": "permis-securite/vietnam-emergency-numbers-moto-touriste/index.html",
+     "similarity": 0.11
     }
    ]
   },
@@ -8890,7 +8890,7 @@
    "path": "permis-securite/temporary-residence-permis-etranger-conversion-vietnam/index.html",
    "url": "https://fr.rentbikehanoi.com/permis-securite/temporary-residence-permis-etranger-conversion-vietnam/",
    "type": "ARTICLE",
-   "primary_query_fr": "visa ou carte de séjour le dossier pour convertir son permis",
+   "primary_query_fr": "visa ou carte de séjour quel titre pour convertir son permis au Vietnam",
    "role": "OWNER",
    "group": null,
    "group_owner": "permis-securite/temporary-residence-permis-etranger-conversion-vietnam/index.html",
@@ -8940,7 +8940,7 @@
    "path": "permis-securite/vietnam-emergency-numbers-moto-touriste/index.html",
    "url": "https://fr.rentbikehanoi.com/permis-securite/vietnam-emergency-numbers-moto-touriste/",
    "type": "ARTICLE",
-   "primary_query_fr": "numéros d’urgence et assistance moto au Vietnam guide",
+   "primary_query_fr": "numéros d’urgence et assistance moto au Vietnam qui appeler",
    "role": "OWNER",
    "group": null,
    "group_owner": "permis-securite/vietnam-emergency-numbers-moto-touriste/index.html",
@@ -8949,15 +8949,15 @@
    "closest_pages": [
     {
      "path": "permis-securite/casque-law-vietnam-moto-touriste/index.html",
-     "similarity": 0.12
-    },
-    {
-     "path": "types-motos/scooter-ou-moto-vietnam/index.html",
      "similarity": 0.11
     },
     {
+     "path": "types-motos/scooter-ou-moto-vietnam/index.html",
+     "similarity": 0.09
+    },
+    {
      "path": "types-motos/moins-de-125cc-moto-vietnam/index.html",
-     "similarity": 0.1
+     "similarity": 0.08
     }
    ]
   },

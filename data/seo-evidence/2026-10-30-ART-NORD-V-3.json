@@ -498,5 +498,140 @@
   "owner_gaps": [
    "Confirm bike may go to Sapa for several nights, return conditions, breakdown assistance and insurance."
   ]
+ },
+ {
+  "path": "nord-vietnam/tam-dao-voyage-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller à Tam Đảo à moto depuis Hanoi : distance, route de montagne, brouillard, journée ou nuit, moto adaptée ?",
+  "words_before": 1730,
+  "words_after": 1598,
+  "new_meta": {
+   "title": "Tam Đảo à moto : la station d’altitude au départ de Hanoi",
+   "description": "Tam Đảo à moto depuis Hanoi : 70 à 85 km selon les sources, route de montagne, brouillard, week-ends chargés, journée type et choix de la moto.",
+   "h1": "Tam Đảo à moto : la station d’altitude au départ de Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Old page had no numbers and heavy mannered prose. Added sourced facts from search results (seen in search result): town at ~930 m, set up by the French in 1907 (most sources; one tourism page gave 1902–1945 and was not used), 70 km (Wikivoyage) to ~85 km (Viet Nam News 'Ascending into mist at Tam Đảo', https://vietnamnews.vn/travel/299118/ascending-into-mist-at-tam-ao.html) from Hanoi, access by QL2B (same Viet Nam News article, an older piece), paved road with fog reducing visibility (vietnamtourism.com Tam Dao guide), weekend appeal to Hanoi residents. Phú Thọ now includes Vĩnh Phúc per G-route digest §1 (Tuổi Trẻ News, retrieved). Art. 25(3) expressway ban (retrieved), art. 20 headlights, art. 12 (slow down on passes/slopes and in rain/fog; no km/h figures printed), art. 9 (zero alcohol) from E-legal digest. Round trip '140 à 170 km' is simply twice 70–85 km. Stone church/waterfall/Tây Thiên named only as 'cités par les guides', access unverified; park rules, fees and sentiers explicitly unverified. No driving time. No prices; shop conditions only as questions.",
+   "INTENT": "Main question: Tam Đảo by motorbike from Hanoi (overview). OWNER. Differs from /nord-vietnam/meilleur-moto-tam-dao/ (which bike; linked once) and /hanoi/excursions-moto/ (Hanoi day-trip hub; linked): this page covers the station, route, fog, day vs night formats, on-site and return.",
+   "CONTENT": "Full rewrite. New: short answer with sourced distance range and province note, station, route and climbing checklist, fog/rain, formats table, on-site, return, bike choice (trail link), booking questions, FAQ x5. Words 1730 -> 1598.",
+   "META": "Title 57 chars, description 143 chars, H1 aligned; og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/meilleur-moto-tam-dao/, /hanoi/excursions-moto/, /permis-securite/moto-fog-montagne-vietnam/, /contact/. Old links to /hanoi/easy-moto-routes-hanoi-debutant/, /hanoi/jour-voyages-de-hanoi-by-moto/ and /permis-securite/moto-pluie-securite-vietnam/ dropped.",
+   "AEO_GEO": "Direct answer first with distance range; climbing checklist; formats table; FAQ 5; citations Viet Nam News, vietnamtourism.com, Tuổi Trẻ News, luatvietnam."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/travel/299118/ascending-into-mist-at-tam-ao.html",
+    "checked": "2026-10-31",
+    "used_for": "~85 km north of Hanoi, QL2B access (seen in search result; older article)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/tam-dao-national-park-the-complete-guide-to-hanoi-s-mountain-escape",
+    "checked": "2026-10-31",
+    "used_for": "Paved road, fog can reduce visibility (seen in search result)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Vĩnh Phúc merged into Phú Thọ"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Tam Đảo, return time, breakdown assistance and insurance. Tam Đảo park access rules and fees not verified."
+  ]
+ },
+ {
+  "path": "nord-vietnam/thac-ba-lac-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment visiter le lac de Thác Bà à moto depuis Hanoi : distance, route sans autoroute, bateau, hébergement, moto ?",
+  "words_before": 1977,
+  "words_after": 1564,
+  "new_meta": {
+   "title": "Lac de Thác Bà à moto : îles, bateau et route depuis Hanoi",
+   "description": "Le lac de Thác Bà à moto depuis Hanoi : environ 180 km selon les guides, lac de barrage aux 1 300 îles, bateau, hébergement et route sans autoroute.",
+   "h1": "Le lac de Thác Bà à moto : îles, bateau et route depuis Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Old text claimed 'une longue journée de route', 'la rive orientale relève d'un parc national', 'les motos de location se prennent la veille', 'stations rares', 'pagodes et temples de rive', 'baignade… jamais seul': removed or reduced; 'siècle dernier' made precise. Facts seen in search result (several pages incl. Wikipedia 'Thác Bà Reservoir', vietnamtourism.vn, baochinhphu, vietnamnet): plant built 1964–1971 with Soviet support (one source says lake created 1970), 1,300–1,331 islands, lake on the Chảy River spanning Yên Bình and Lục Yên, ~180 km from Hanoi via QL2 or QL32 (one outlier source 140 km). Area figures deliberately NOT printed (sources contradict: 23,400 ha total / 19,000 ha water vs 145 km²). Province: Yên Bái merged into Lào Cai per Tuổi Trẻ News (retrieved, G digest §1). Expressway ban art. 25(3) (retrieved); VOV Feb 2026 case (11 foreign riders, 5 million VND each, retrieved) explicitly not a fine scale, Decree 168/2024 named without amounts; art. 20 headlights from E-legal digest; 'aucune alcoolémie' art. 9. Peoples (Dao, Tày) kept from the old page as general knowledge ('parmi lesquels'). Boat prices/circuits not given. '360 km aller-retour' is twice 180 km, labelled approximate. No prices; shop conditions only as questions.",
+   "INTENT": "Main question: visiting Thác Bà lake by motorbike from Hanoi. OWNER. Differs from /nord-vietnam/ba-be-lac-voyage-moto/ (other lake; linked once as next stage) and from /nord-vietnam/mu-cang-chai-voyage-moto/ (neighbour; linked once): this page covers the reservoir, boat trips, the approach without expressway and a 2-day plan.",
+   "CONTENT": "Full rewrite, removing 'parenthèse secrète / décor de fjord tropical / lac que les foules oublient' marketing. New: short answer with sourced facts, lake section, route/expressway, 2-day ordered programme, on-site checklist, seasons/packing, bike choice (trail link), booking questions, FAQ x5. Words 1977 -> 1564.",
+   "META": "Title 58 chars (old 'la parenthèse secrète du Yên Bái' was outdated and promotional), description 148 chars, H1 aligned; og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/mu-cang-chai-voyage-moto/, /nord-vietnam/ba-be-lac-voyage-moto/, /permis-securite/permis/, /contact/. Old /location-moto-hanoi/ and /permis-securite/moto-montagne-pass-securite-vietnam/ dropped.",
+   "AEO_GEO": "Direct answer first (distance, days, province change); ordered 2-day programme; checklist; FAQ 5; citations Tuổi Trẻ News, luatvietnam, VOV."
+  },
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Th%C3%A1c_B%C3%A0_Reservoir",
+    "checked": "2026-10-31",
+    "used_for": "Reservoir on the Chảy River (page appeared in search results; dates/islands cross-checked against other results, seen in search result)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Yên Bái merged into Lào Cai"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026 expressway case"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Lào Cai province for several nights, return conditions, breakdown assistance and insurance. Boat circuits and prices at Thác Bà not verified."
+  ]
+ },
+ {
+  "path": "nord-vietnam/tuyen-quang-voyage-moto-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment visiter Tuyên Quang à moto depuis Hanoi : distances, route sans autoroute, Tân Trào, Na Hang, durée réaliste ?",
+  "words_before": 1917,
+  "words_after": 1554,
+  "new_meta": {
+   "title": "Tuyên Quang à moto depuis Hanoi : Tân Trào, Na Hang et route",
+   "description": "Tuyên Quang à moto depuis Hanoi : Tân Trào, lac de Na Hang, distances selon les sources, autoroute interdite aux motos, programme sur deux ou trois jours.",
+   "h1": "Tuyên Quang à moto depuis Hanoi : Tân Trào, Na Hang et la route"
+  },
+  "evidence": {
+   "FACTS": "Corrected an unrealistic claim of the old page: it promised Hanoi–Tuyên Quang citadel on day 1 and Na Hang on day 2 with an evening return; sourced distances show Na Hang ~110 km beyond Tuyên Quang city, so the page now says two days fit the city and Tân Trào and Na Hang needs three days. Removed unsourced 'citadelle de brique', 'fête des lanternes de la mi-automne', 'gsm passe mal', 'l'assurance adaptée complète le dispositif', 'le permis et les règles… auprès de son loueur'. Facts seen in search result: Hanoi–Tuyên Quang city ~130 km (route planners), ~100–104 km (bus-booking sites), 165 km (one Vietnamese tourism source), QL2 Hanoi–Việt Trì–Tuyên Quang–Hà Giang; Tân Trào special national relic (recognised 2012), ~40 km beyond Tuyên Quang city centre (vietnamtourism.vn Tan Trao page appeared), ~130 km from Nội Bài (another page); Na Hang lake ~110 km beyond the city, ~8,000 ha, Gâm and Năng rivers, boat trip 4–5 h from Na Hang or Thượng Lâm wharf, Pác Ban fall ~2 km from Na Hang town, Khuổi Nhi ~1 km steep walk, Na Hang–Lâm Bình special national scenic site: all 'd'après les guides' and listed as approximate; no single URL attribution. Hà Giang merged into Tuyên Quang per Tuổi Trẻ News (retrieved). VOV case of 9 Feb 2026 on the Tuyên Quang–Phú Thọ expressway (retrieved): 11 foreign riders, 5 million VND each, valid licences/visas; explicitly not a fine scale, Decree 168/2024 named without amounts. Art. 25(3), art. 20, art. 9 from digests. No driving time; no prices; shop conditions only as questions.",
+   "INTENT": "Main question: Tuyên Quang by motorbike from Hanoi. OWNER. Differs from /nord-vietnam/ha-giang/ and /nord-vietnam/hanoi-a-ha-giang-moto/ (Hà Giang loop and its approach; linked) and /nord-vietnam/ba-be-lac-voyage-moto/ (other lake; linked): this page is about the Tuyên Quang stops (city, Tân Trào, Na Hang) and a realistic 2- or 3-day format.",
+   "CONTENT": "Full rewrite. New: short answer with the province merger, distance/format table, route and expressway (incl. the Feb 2026 case in this very corridor), Tân Trào, Na Hang, two ordered programmes, weather/safety, bike and booking conditions, FAQ x5. Words 1917 -> 1554.",
+   "META": "Title 60 chars, description 154 chars, H1 aligned; og identical; old 'la boucle de deux jours' promise replaced by an honest 2–3 day framing.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ha-giang/, /nord-vietnam/hanoi-a-ha-giang-moto/, /nord-vietnam/ba-be-lac-voyage-moto/, /contact/. Dropped /location-moto-hanoi/ and /permis-securite/moto-montagne-pass-securite-vietnam/ for the cap.",
+   "AEO_GEO": "Direct answer first; distance/format table; two ordered programmes; FAQ 5; citations Tuổi Trẻ News, luatvietnam, VOV."
+  },
+  "sources": [
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Hà Giang merged into Tuyên Quang"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "9 Feb 2026 case on the Tuyên Quang–Phú Thọ expressway"
+   },
+   {
+    "url": "https://vietnamtourism.vn/en/index.php/tourism/items/1337",
+    "checked": "2026-10-31",
+    "used_for": "Tân Trào Historical Site, special national relic (page appeared in search results; seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Tuyên Quang overnight, return conditions, breakdown assistance and insurance. Tân Trào and Na Hang access hours, fees and boat prices not verified."
+  ]
  }
 ]

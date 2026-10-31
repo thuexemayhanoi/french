@@ -377,5 +377,132 @@
    "description": "Comment passer les vitesses d’une semi-automatique au Vietnam : levier au pied, rétrogradage en col, frein moteur et erreurs courantes du débutant.",
    "h1": "Semi-automatique : monter et descendre les rapports sur les routes du Vietnam"
   }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Quel titre de séjour (visa, exemption, carte de séjour) permet de demander l'échange d'un permis étranger au Vietnam. Owner of 'visa ou carte de séjour'. Closest: permis-etranger-conversion-vietnam (0.25, procedure steps), conversion-permis-conduire-etranger-vietnam (group owner of the conversion cluster, 0.25), touriste-conversion (0.19); each linked once.",
+  "words_before": 1978,
+  "evidence": {
+   "FACTS": "From E-legal-digest: Law 36/2024/QH15 art. 62(2)(đ) (full text retrieved); Circular 12/2025/TT-BCA in force 1 March 2025: foreigners residing/working/studying with valid national licence and diplomatic ID, official ID, temporary or permanent residence card (seen in search result); Circular 108/2026/TT-BCA, in force 1 July 2026, possibly superseding (seen in search result, not read); WebSearch 2026-10-31 snippets: foreigners' form in Annex XIII of circular 12/2025. A tourist visa/exemption is not named in the sources seen: stated as such, not as a legal prohibition. REMOVED unsupported claims of the old text: 'visa de court séjour vs long séjour' statuses presented as legal categories, 'durée d'instruction dépasse celle du séjour', refusal/appeal procedure, 'les circulaires récentes ont réformé…' without source, trois volets de pièces, photos 'selon les normes'. Temporary residence card description kept generic (issued according to visa category: work, study, investment, family) and flagged as outside the verified scope. Statement on prolonged use of the IDP route by residents flagged as not verified. Loueur document policy to confirm before booking; NAP/hours from SEO-FACTS. No fees, delays, document lists.",
+   "INTENT": "Main question: which residence title is needed to request the exchange of a foreign licence. Differs from the procedure article by being about the title (visa vs residence card) and four traveller profiles; from the tourist article by covering residents/long-stay cases.",
+   "CONTENT": "Full rewrite: removed abstract paragraphs ('deux statuts, deux lectures', 'le dossier se lit comme une démonstration') and repeated disclaimers; new sections: what texts say; table of four situations; what a temporary residence card is; what the title changes in the file; riding meanwhile; four profiles; questions for the administration; FAQ x5.",
+   "META": "Title changed from 'Visa ou carte de séjour : le dossier pour convertir son permis' to 'Visa ou carte de séjour : lequel pour convertir son permis ?' (the page does not give the file contents); H1 'Visa ou carte de séjour : quel titre pour convertir son permis au Vietnam ?'; description rewritten (156 chars); og tags identical; eyebrow 'Permis · Titre de séjour'. Matrix sync needed for title/H1/description.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Added: /permis-securite/permis-etranger-conversion-vietnam/, /permis-securite/touriste-conversion-permis-conduire-vietnam/, /permis-securite/conversion-permis-conduire-etranger-vietnam/, /permis-securite/permis-conduire-international-vietnam-moto/. 7/7 unique.",
+   "AEO_GEO": "Lead answers directly (residence card, not tourist visa; sources named; verify intermediate cases). Table of four situations, two checklists (title checks; profiles), question list for the administration, FAQ x5."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 57, 62 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/huong-dan-thuc-hien-doi-giay-phep-lai-xe-theo-thong-tu-122025-201157.html",
+    "checked": "2026-10-31",
+    "used_for": "Circular 12/2025/TT-BCA summary: eligible foreigners and residence documents (seen in search result)"
+   },
+   {
+    "url": "https://luatvietnam.vn/bai-viet-lien-quan/12-2025-tt-bca-392101.html",
+    "checked": "2026-10-31",
+    "used_for": "Circular 108/2026/TT-BCA mention in related-news list (seen in search result, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a long-stay visa without residence card suffices, minimum residual validity of the card, document forms and fees: not verified."
+  ],
+  "path": "permis-securite/temporary-residence-permis-etranger-conversion-vietnam/index.html",
+  "words_after": 1637,
+  "new_meta": {
+   "title": "Visa ou carte de séjour : lequel pour convertir son permis ?",
+   "description": "Visa touristique, exemption de visa ou carte de séjour : quel titre de séjour permet de demander l’échange d’un permis étranger au Vietnam, et que vérifier.",
+   "h1": "Visa ou carte de séjour : quel titre pour convertir son permis au Vietnam ?"
+  }
+ },
+ {
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Un touriste en court séjour peut-il convertir son permis ? Réponse courte et alternatives. Group owner: permis-securite/conversion-permis-conduire-etranger-vietnam/ ('convertir permis étranger vietnam'), linked once. Documented angle: le cas du touriste en court séjour (réponse courte et alternatives), en renvoyant à la procédure de conversion.",
+  "words_before": 1856,
+  "evidence": {
+   "FACTS": "From E-legal-digest: Law 36/2024/QH15 art. 62(2)(đ), art. 57(6),(8), art. 56/59 (xe gắn máy, age 16), art. 9 (full text retrieved); Circular 12/2025/TT-BCA summary (in force 1 March 2025; foreigners residing/working/studying with residence card) and possible supersession by Circular 108/2026/TT-BCA (both seen in search result, not read). 'A tourist without residence card: no source seen allowing conversion' stated as in the digest ('en principe', à vérifier). IDP: ≤3 years, never beyond national licence, no category created; Canada/US/Australia not parties (UN table, retrieved); France IDP via ANTS (France Titres reply, seen in search result). Decree 168/2024/NĐ-CP referenced without amounts. Bilateral/treaty licences: list not verified, stated as such. Insurance statement 'peut refuser… lisez les exclusions'. REMOVED unsupported claims of the old text: 'certains permis bénéficient de règles de reconnaissance spécifiques' (unnamed), 'loueurs avec conducteur' (unconfirmed offering), 'le temps de la démarche dépasse souvent celui du séjour', and all generic disclaimers about 'sources officielles'. Grab named only as an example of transport app. Shop: documents at rental to confirm before booking; NAP/hours from SEO-FACTS.",
+   "INTENT": "Main question: can a tourist convert a foreign licence. Differs from the group owner (conversion overview) by giving the short answer and the alternatives for a short stay; conversion procedure and residence card are delegated by links.",
+   "CONTENT": "Full rewrite: removed abstract paragraphs ('les mots avant les règles', 'la route se savoure en passager'), repeated 'vérifier aux sources officielles' passages and a FAQ that repeated the body. New sections: short answer; convert/translate/recognise; alternatives (IDP, cyclomoteur, bilateral cases, not riding); situation table; consequences of an invalid title; longer stay; four misconceptions; preparation order; FAQ x5.",
+   "META": "Title kept ('Touriste au Vietnam : peut-on convertir son permis de conduire ?'), H1 kept; description rewritten (150 chars); og tags identical; eyebrow 'Permis · Court séjour'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/conversion-permis-conduire-etranger-vietnam/ (group owner), /permis-securite/permis-conduire-international-vietnam-moto/, /permis-securite/permis/, /permis-securite/temporary-residence-permis-etranger-conversion-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Lead answers directly in 3 sentences. Table of situations/titles, ordered preparation list, checklist of three concepts and of four misconceptions, FAQ x5. Citations: law text, circular summary, France Titres reply."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 9, 56, 57, 59, 62 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/huong-dan-thuc-hien-doi-giay-phep-lai-xe-theo-thong-tu-122025-201157.html",
+    "checked": "2026-10-31",
+    "used_for": "Circular 12/2025/TT-BCA summary (seen in search result)"
+   },
+   {
+    "url": "https://www.plus.transformation.gouv.fr/experiences/4529463_permis-international-refuse",
+    "checked": "2026-10-30",
+    "used_for": "French IDP via ANTS, 3 years or remaining validity (seen in search result per digest)"
+   }
+  ],
+  "owner_gaps": [
+   "List of bilateral agreements/treaties covering foreign licences not verified.",
+   "Shop requirements for handing over a motorbike: to confirm before booking."
+  ],
+  "path": "permis-securite/touriste-conversion-permis-conduire-vietnam/index.html",
+  "words_after": 1640,
+  "new_meta": {
+   "title": "Touriste au Vietnam : peut-on convertir son permis de conduire ?",
+   "description": "Un touriste peut-il convertir son permis en permis vietnamien ? Ce que disent les textes et les alternatives : permis international, 50cc, transports.",
+   "h1": "Touriste au Vietnam : peut-on convertir son permis de conduire ?"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Quels numéros d'urgence composer au Vietnam à moto (113/114/115/112), qui appeler selon la situation et comment appeler sans parler vietnamien. Owner of 'numéros d'urgence et assistance moto au Vietnam'. Closest: casque-law-vietnam-moto-touriste (0.12), different topic; related articles linked: location-moto-accident-vietnam, moto-breakdown-vietnam-location, moto-assurance-vietnam-location.",
+  "words_before": 1685,
+  "evidence": {
+   "FACTS": "From E-legal-digest §6: 113 police, 114 fire and rescue, 115 medical emergency (thuvienphapluat.vn hỏi đáp citing Circular 22/2014/TT-BTTTT, seen in search result); 112 presented as the search-and-rescue line (separate thuvienphapluat.vn page, cited separately, seen in search result); a 17/04/2026 luatvietnam.vn article reports a PROPOSAL to merge 113/114/115 into one number, not in force per that summary, so the text says 'numéros en vigueur à la date de vérification, vérifiez'. Operators' language NOT verified: stated as such, with advice to ask a Vietnamese speaker. Law 36/2024/QH15 art. 80 (stop, warn, keep the scene, help victims, notify police/health facility/People's Committee, stay until police arrive except medical urgency/threat, give identity, fleeing prohibited; full text retrieved) from the digest; 'Vérifié le 30 octobre 2026'. REMOVED unsupported claims of the old text: that emergency calls work from any phone including roaming (now: check with your carrier), that 113 'oriente vers le bon service', 'les flottes sérieuses disposent de garages partenaires', 'le loueur parle la langue', and the physiology-of-stress passage. Row 'personne égarée → 112' flagged as to confirm. Vietnamese phrases ('Tai nạn giao thông', 'Có người bị thương', 'Làm ơn gọi cấp cứu', 'Làm ơn gọi công an', 'Tôi cần giúp đỡ') provided with advice to verify in a translation app. Shop: phone/Zalo/WhatsApp 0334 699 969 and hours 09:00-21:00 from SEO-FACTS; no 24/7 service, roadside assistance or breakdown cover promised, questions to ask instead. Insurance conditions not asserted.",
+   "INTENT": "Main question: who to call and what to say in an emergency on a rented motorbike in Vietnam. Distinct from location-moto-hanoi-accident (steps at the scene) and moto-breakdown (mechanical) by being the numbers/who-to-call guide; both linked.",
+   "CONTENT": "Full rewrite: removed mannered passages ('l'urgence ne se gère pas dans l'urgence', 'celui qui sait qui appeler n'a plus besoin d'avoir peur'), silo wording and the FAQ that repeated the body. New sections: numbers table; who to call by situation (table, art. 80 duties); effective call (4-point order, phrase table); loueur and questions to ask; phone and trip preparation; contact sheet; after the call; FAQ x5.",
+   "META": "Title changed from 'Numéros d’urgence et assistance moto au Vietnam : guide' to 'Numéros d’urgence à moto au Vietnam : qui appeler et quoi dire'; H1 'Numéros d’urgence et assistance moto au Vietnam : qui appeler'; description rewritten (159 chars); og tags identical; eyebrow 'Sécurité · Urgence'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Added: /permis-securite/location-moto-accident-vietnam/, /permis-securite/moto-breakdown-vietnam-location/, /permis-securite/moto-assurance-vietnam-location/. 6/7 unique.",
+   "AEO_GEO": "Lead gives the numbers and the rule (115 first for injured, loueur for breakdown) in 4 sentences. Three tables (numbers, situations, phrases), three checklists, FAQ x5 (police number, ambulance, single number, breakdown, operators' language). Citations: three Vietnamese sources seen in search results plus law text."
+  },
+  "sources": [
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/111-113-114-115-la-so-dien-thoai-gi-138013545.html",
+    "checked": "2026-10-30",
+    "used_for": "113 police, 114 fire/rescue, 115 medical (seen in search result per digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/phap-luat/112-la-so-dien-thoai-gi-so-dien-thoai-112-goi-cho-ai-goi-cho-so-112-co-mat-phi-khong-theo-nghi-dinh-225537-268000.html",
+    "checked": "2026-10-30",
+    "used_for": "112 as search-and-rescue number (seen in search result per digest)"
+   },
+   {
+    "url": "https://luatvietnam.vn/linh-vuc-khac/se-thay-cac-so-113-114-115-bang-dau-so-nao-883-104078-article.html",
+    "checked": "2026-10-30",
+    "used_for": "Proposal to merge 113/114/115 (17/04/2026), not in force per summary (seen in search result per digest)"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 80 duties after an accident (full text retrieved per digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether operators speak English/French: not verified.",
+   "Shop after-hours contact, roadside assistance, breakdown cost and insurer rules: not asserted, to confirm before booking."
+  ],
+  "path": "permis-securite/vietnam-emergency-numbers-moto-touriste/index.html",
+  "words_after": 1622,
+  "new_meta": {
+   "title": "Numéros d’urgence à moto au Vietnam : qui appeler et quoi dire",
+   "description": "113, 114, 115, 112 : rôle de chaque numéro d’urgence au Vietnam, qui appeler après un accident ou une panne de moto, et comment appeler sans parler vietnamien.",
+   "h1": "Numéros d’urgence et assistance moto au Vietnam : qui appeler"
+  }
  }
 ]
