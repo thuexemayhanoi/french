@@ -292,5 +292,272 @@
    "What the shop provides for a puncture (kit, assistance, who pays, out-of-hours contact) is unconfirmed; the page only tells readers to ask."
   ],
   "words_after": 1509
+ },
+ {
+  "path": "permis-securite/deux-personnes-moto-vietnam-law/index.html",
+  "role": "OWNER",
+  "primary_intent": "Peut-on rouler à deux sur une moto au Vietnam, selon quelles règles, et comment s'y prendre ?",
+  "words_before": 1696,
+  "new_meta": {
+   "title": "Rouler à deux sur une moto au Vietnam : les règles de base",
+   "description": "Un seul passager sur une moto au Vietnam, deux dans des cas prévus par la loi, casque pour chacun. Article 33, charge, conduite à deux et questions au loueur.",
+   "h1": "Rouler à deux sur une moto au Vietnam : ce que dit la loi"
+  },
+  "evidence": {
+   "FACTS": "The old text said it would not copy the rules and referred readers elsewhere: replaced by Law 36/2024/QH15 art. 33 as per the digest (one passenger; max two for patient, offender escort, child under 12, elderly/disabled; helmet; rider/passenger prohibitions; load 0.3 m side, 0.5 m rear, 2 m height), art. 9 (zero alcohol, phone), art. 56/57 (licence for the driver; compulsory insurance certificate of the owner). Removed unsourced claims: 'la plupart des contrats de location prévoient une ligne passager', 'le loueur sérieux fournit le second casque', 'un refus flou se lit comme un signal sur la flotte', 'certains contrats désignent un conducteur unique' (now a question to ask). No minimum age to ride as passenger stated (not in sources). No fine amounts. No rate quoted.",
+   "INTENT": "Main question: can you ride two-up in Vietnam and under which rules. OWNER of 'rouler à deux sur une moto au Vietnam'. Differs from /types-motos/50cc-scooter-deux-personnes-vietnam/, /types-motos/scooter-pour-deux-personnes-hanoi/ and /location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/ (which model/formula for two) because it owns the legal rule and riding technique; the model and formula pages are linked once each.",
+   "CONTENT": "Full rewrite: removed the 'dossier / honnête / question recouvre' prose and the abstract chapters. Added: article 33 table, machine and load checklist, children section, 6-step two-up riding routine, rental questions with insurance caution, 5 FAQ. 1696 -> see words_after.",
+   "META": "Title kept (unique, 58 chars); H1 rewritten to 'ce que dit la loi'; description factual with article reference; eyebrow 'Règles de circulation'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/casque-law-vietnam-moto-touriste/, /types-motos/scooter-pour-deux-personnes-hanoi/, /location-moto-hanoi/location-moto-hanoi-pour-deux-personnes/, /permis-securite/location-moto-contrat-vietnam/. TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences with date and law link). 1 table, 2 checklists, 1 numbered routine, 5 FAQ. Law cited by article (text retrieved in digest)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 33, 56, 57, 59, 80: retrieved in the legal digest"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/111-113-114-115-la-so-dien-thoai-gi-138013545.html",
+    "checked": "2026-10-30",
+    "used_for": "Emergency numbers 113/115 (and the 2026 proposal to merge them): seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop's contract/insurance covers a passenger, and whether a second helmet is supplied, is unconfirmed; the page lists questions to ask.",
+   "Minimum age to ride as a passenger and the exact fines are not in the sources consulted."
+  ],
+  "words_after": 1588
+ },
+ {
+  "path": "permis-securite/documents-moto-location-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quels papiers et documents faut-il avoir sur soi avec une moto louée au Vietnam ?",
+  "words_before": 1824,
+  "new_meta": {
+   "title": "Papiers et documents à avoir sur une moto louée au Vietnam",
+   "description": "Permis national et international, certificat d’immatriculation, assurance obligatoire, contrat : ce qu’il faut porter sur une moto louée au Vietnam (loi 36/2024).",
+   "h1": "Papiers et documents à avoir sur une moto louée au Vietnam"
+  },
+  "evidence": {
+   "FACTS": "Replaced the old 'trois tas' structure (which explicitly deferred the exact list to 'sources officielles') by the list in Law 36/2024/QH15 art. 56(1): licence matching the vehicle (cyclomoteur riders excepted, art. 56(4)), registration certificate (certified copy + bank confirmation only for a mortgaged vehicle), compulsory civil-liability insurance certificate of the owner, technical inspection certificate where required, VNeID electronic documents (art. 56(3)); art. 9 (no handing over a vehicle to someone not meeting conditions); art. 57 (IDP + national licence, Vienna 1968, max 3 years), 34, 59. Removed unsourced claims: 'une machine sans papiers ne part pas en location', 'la caution se documente par virement', 'la mousson trempe une sacoche en vingt minutes', 'coûtent quelques dizaines de milliers de dongs', 'le contrat cite les contacts d'assistance', 'chaque agence remet original ou copie certifiée'. Passport deposit/caution/insurance/assistance only as generic market observation and questions. No fine amounts (Decree 168/2024 pointed to). Shop only as NAP/hours.",
+   "INTENT": "Main question: which papers must a renter carry on a rented bike. OWNER of 'papiers et documents à avoir sur une moto louée'. Differs from /permis-securite/passeport-location-moto-vietnam/ (passport held by the shop), /permis-securite/moto-immatriculation-location-vietnam/ (registration detail) and /permis-securite/moto-assurance-vietnam-location/: this page is the overall legal list; each sibling is linked once for its detail.",
+   "CONTENT": "Full rewrite: removed the 'trois tas / pochette A6 / sourire et virement' prose. Added: article 56 table, permis table by machine with IDP conditions, registration checks, insurance clarification, passport/caution/contract list, storing tips, 5 FAQ. 1824 -> see words_after.",
+   "META": "Title and H1 kept (matches intent, unique, 57 chars); description rewritten with the article reference; eyebrow 'Documents'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/moto-immatriculation-location-vietnam/, /permis-securite/moto-assurance-vietnam-location/, /permis-securite/passeport-location-moto-vietnam/ (7 total). TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (3 sentences with article and date). 2 tables, 1 checklist, 5 FAQ. Citations: law text (retrieved in digest), Decree 168/2024 record (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "used_for": "IDP required with the French licence, vehicle must be insured: seen in search result"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 34, 56, 57, 59: retrieved in the legal digest"
+   },
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024/ND-CP record (fines not read): seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "Which version of the registration certificate and which documents the shop hands over or keeps (passport, deposit, copies) is unconfirmed; the page tells readers to ask.",
+   "Whether the shop's insurance/protection exists and what it covers is unconfirmed."
+  ],
+  "words_after": 1527
+ },
+ {
+  "path": "permis-securite/electrique-scooter-license-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Faut-il un permis pour un scooter électrique au Vietnam, selon la puissance et la vitesse ?",
+  "words_before": 2302,
+  "new_meta": {
+   "title": "Scooter électrique au Vietnam : faut-il un permis ?",
+   "description": "Scooter électrique au Vietnam : pas de permis jusqu’à 4 kW et 50 km/h, catégorie A1 jusqu’à 11 kW, A au-delà. Vélo électrique, fiche technique et location.",
+   "h1": "Scooter électrique au Vietnam : quel permis selon la puissance ?"
+  },
+  "evidence": {
+   "FACTS": "Corrected the absolute old H1 (« quand aucun permis n'est exigé ») per legal digest §9: no licence only for electric xe gắn máy (<=4 kW and <=50 km/h design speed, art. 34(1)(e)) or pedal-assist xe đạp máy (assist cut at 25 km/h, art. 34(2)(b)); electric motorcycles <=11 kW A1, >11 kW A (art. 57); ages 16/18 (art. 59). Old text said thresholds were 'quelques unités de kW' and 'à vérifier': replaced by the exact figures. Prices: only the owner electric row (day 'selon le modèle, à confirmer', 600,000-800,000 VND/week, 1,500,000-1,800,000 VND/month) with the mandatory disclaimer; no daily price inferred. Other rules from art. 9, 21, 25, 33, 56. Removed unsourced claims: 'la porte d'entrée légale du voyageur sans titre', 'le comptoir ...'. Hanoi low-emission zone: Tuoi Tre News article seen in search result (resolution approved Nov 2025, time-based restriction of petrol motorbikes from 1 Jul 2026 in nine central wards), other results mention scope/calendar divergence; stated as 'à vérifier', not as current law. Helmet obligation for pedal-assist bikes stated as not specified in the sources. No fine amounts.",
+   "INTENT": "Main question: licence needed for an electric scooter in Vietnam. OWNER of 'scooter électrique au Vietnam'. Differs from /types-motos/electrique-scooter-hanoi-ninh-binh/, /types-motos/50cc-electrique-scooter-vietnam/ and /types-motos/electrique-scooter-recharge-hanoi/ (model, range, charging): this page owns the legal classification by kW and km/h; the usage pages are linked for recharge and petrol/electric choice.",
+   "CONTENT": "Full rewrite: removed the 'grille électrique / deux scooters jumeaux / trois questions' prose. Added: classification table (4 rows), spec-sheet checklist (kW/W, 50 km/h, pedals), obligations list, owner price table with disclaimer and questions, driving differences list, Hanoi low-emission zone section, 5 FAQ. 2302 -> see words_after.",
+   "META": "Title kept (unique, 49 chars, plain question); H1 states the criterion; description gives the thresholds; eyebrow 'Permis moto'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/50cc-scooter-license-vietnam/, /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/ and /permis-securite/permis-conduire-international-vietnam-moto/ (7 total). TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences with thresholds, date and law link). 2 tables, 3 lists, 5 FAQ. Citations: law text (retrieved in digest), Tuoi Tre News (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 21, 25, 33, 34, 56, 57, 59: retrieved in the legal digest"
+   },
+   {
+    "url": "https://news.tuoitre.vn/hanoi-to-bar-gasoline-motorbikes-by-time-in-9-central-wards-from-july-2026-103251128101331073.htm",
+    "checked": "2026-10-31",
+    "used_for": "Hanoi low-emission zone, time-based restriction of petrol motorbikes from 1 Jul 2026 in nine central wards: seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "Which electric scooters the shop rents, their kW and design speed, range and charging conditions are unconfirmed; the page tells readers to ask.",
+   "Status and details of Hanoi's low-emission zone (pilot from 1 July 2026) at the date of the stay are not verified; the shop's petrol rental offer in central wards may be affected and should be checked by the owner."
+  ],
+  "words_after": 1629
+ },
+ {
+  "path": "permis-securite/hanoi-roundabout-moto-conseils/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aborder un rond-point de Hanoi à moto quand on débute : priorité, entrée, trajectoire, sortie ?",
+  "words_before": 1909,
+  "new_meta": {
+   "title": "Rond-points de Hanoi en moto : le guide du débutant",
+   "description": "Priorité à gauche au rond-point signalé, voie de droite, clignotant, klaxon encadré : aborder un rond-point de Hanoi à moto en débutant (loi 36/2024).",
+   "h1": "Rond-points de Hanoi à moto : priorité, trajectoire et sortie"
+  },
+  "evidence": {
+   "FACTS": "Corrected statements that contradicted the legal digest: the old text said priority 'se lit dans la fluidité' and recommended a short horn blast at insertion and 'le trafic local utilise le klaxon comme information permanente'. Replaced by Law 36/2024/QH15 art. 22 (roundabout-signed intersections: yield to vehicles from the left; otherwise yield to the right; minor road yields to the main road), art. 21 (horn only to warn of danger or signal overtaking; none continuous; none 22:00-05:00 in built-up areas), art. 15 (turn signal; yield to pedestrians, non-motorised and oncoming; no U-turn on one-way streets), art. 13 (slower vehicles keep right, one lane, signal), art. 20 (headlights 18:00-06:00 and poor visibility), art. 12, 33 (no riding abreast), 9 (zero alcohol, no phone). Removed unsourced claims: 'les motos longent l'extérieur', 'le loueur connaît les rond-points du quartier', 'une semaine de conduite', 'la plupart des débutants'. Licence reminder from art. 57/59. No speed limits, no fines.",
+   "INTENT": "Main question: how to ride a Hanoi roundabout as a beginner. OWNER of 'rond-points de Hanoi en moto'. Differs from /location-moto-hanoi/debutant-location-moto-hanoi/ (beginner rental overall) and from /permis-securite/moto-left-turn-hanoi-circulation/, /moto-lane-hanoi/ and /panneaux-circulation-hanoi-moto/ (left turns, lanes, signs): this page owns the roundabout rule and entry/exit routine; the others are linked once.",
+   "CONTENT": "Full rewrite: removed the 'rivière / danse / salle de classe' prose and the claim that Hanoi priority is informal. Added: art. 22 priority table, 6-step entry routine, trajectory and exit list, signalling table (clignotant, klaxon, phares, piétons, téléphone), progressive training list, machine and papers section, 5 FAQ. 1909 -> see words_after.",
+   "META": "Title kept (unique, 52 chars); H1 rewritten to name priority, trajectory and exit; description factual with the law reference; eyebrow 'Conduite en ville'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/panneaux-circulation-hanoi-moto/, /permis-securite/moto-left-turn-hanoi-circulation/, /permis-securite/moto-lane-hanoi/, /location-moto-hanoi/debutant-location-moto-hanoi/. TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences with article 22, date and law link). 2 tables, 2 numbered lists, 1 list, 5 FAQ. Law cited by article (text retrieved in digest)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 12, 13, 15, 20, 21, 22, 33, 57, 59: retrieved in the legal digest"
+   }
+  ],
+  "owner_gaps": [
+   "Which Hanoi intersections carry the roundabout sign and how enforcement treats informal insertion in dense traffic was not verified.",
+   "Which beginner-friendly models the shop rents is unconfirmed."
+  ],
+  "words_after": 1560
+ },
+ {
+  "path": "permis-securite/idp-ou-translated-permis-conduire-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Permis international ou traduction du permis : lequel compte pour conduire une moto au Vietnam ?",
+  "words_before": 1929,
+  "new_meta": {
+   "title": "Permis international ou traduction : conduire au Vietnam",
+   "description": "Au Vietnam, la loi cite le permis international (Convention de Vienne, 1968) avec le permis national, pas la traduction. Différences, validité et obtention.",
+   "h1": "Permis international ou traduction du permis : ce qui compte au Vietnam"
+  },
+  "evidence": {
+   "FACTS": "The old text only said rules 'se vérifient auprès des sources officielles'. Replaced by Law 36/2024/QH15 art. 57(6)(b)-(d) and 57(8) (IDP + matching national licence, issued by a 1968 Vienna Convention state; max 3 years and within the validity of the national licence; (c)/(d) bilateral and treaty cases flagged as to check), art. 9 (handing over a vehicle), art. 34/59 (cyclomoteur, ages). UN treaty page: Viet Nam accession 20 Aug 2014, France/Belgium/Luxembourg/Switzerland/Monaco/Morocco/Senegal/Tunisia parties, Canada/US/Australia absent (retrieved in digest). Belgian FPS (seen in search result) for category A above 50 cc; French IDP via ANTS, 3 years or remaining validity (service-public F11534, seen in search result, no URL given). The translation is stated as absent from the art. 57 list, which was read in full. Removed unsourced claims: 'formats issus de conventions différentes avec années de référence', 'les rumeurs de route', anecdotes. Fake online IDP warning kept generic ('une carte de ce type n'est pas délivrée par un État partie'). No fines, no prices.",
+   "INTENT": "Main question: IDP or translated licence, which one counts in Vietnam. OWNER of 'permis international ou traduction'. Differs from /permis-securite/permis-conduire-international-vietnam-moto/ (when the IDP allows riding) and /permis-securite/touriste-conversion-permis-conduire-vietnam/ (tourist conversion): this page owns the IDP vs translation distinction; the IDP page, the conversion page and the foreign-licence-validity page are linked once.",
+   "CONTENT": "Full rewrite: removed the 'dictionnaire enseigne à conduire / rumeurs / dossier parent' prose. Added: comparison table, art. 57 section with Vienna parties and Canada caveat, limits list, how to obtain (France ANTS) with a fake-seller warning, role of a translation, pre-departure checklist, 5 FAQ. 1929 -> see words_after.",
+   "META": "Title kept (unique, 55 chars); H1 rewritten to name both documents and the Vietnam context; description factual with Convention reference; eyebrow 'Permis moto'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/permis-conduire-etranger-valide-vietnam/, /permis-securite/permis-conduire-international-vietnam-moto/, /permis-securite/conversion-permis-conduire-etranger-vietnam/, /permis-securite/documents-moto-location-vietnam/. TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences with article 57, date, law and UN links). 1 comparison table, 2 lists, 5 FAQ. Citations: law text and UN treaty page (retrieved in digest), Belgian FPS (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 34, 57, 59: retrieved in the legal digest"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "used_for": "1968 Convention participants, Viet Nam accession 2014: retrieved in the legal digest"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Belgian licence must be valid for motorcycles (category A) above 50 cc: seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "The list of bilateral recognition agreements (art. 57(6)(c)) was not checked.",
+   "What documents the shop asks from tourists (IDP, translation, copies) is unconfirmed; the page tells readers to ask."
+  ],
+  "words_after": 1664
+ },
+ {
+  "path": "permis-securite/limite-vitesse-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelles sont les limites de vitesse à moto au Vietnam et que vérifier avant de rouler ?",
+  "words_before": 1902,
+  "new_meta": {
+   "title": "Limites de vitesse à moto au Vietnam : règles et repères",
+   "description": "Vitesse à moto au Vietnam : la loi impose d’adapter l’allure, une circulaire fixe les plafonds, les panneaux priment. Ce qui est établi, ce qui reste à vérifier.",
+   "h1": "Limites de vitesse à moto au Vietnam : ce que disent les textes"
+  },
+  "evidence": {
+   "FACTS": "The old text quoted 'de l'ordre de 50 km/h pour les motos, 40 km/h pour les cyclomoteurs' in built-up areas and fines 'de centaines de milliers à plusieurs millions de dongs': removed (digest §8: km/h figures and fine amounts not verified). Now: Law 36/2024/QH15 art. 12 (obey limits, safe distance, adapt speed, slow at crossings, curves, passes and slopes, schools/markets/crowded areas, rain, wind, fog, smoke, dust, slippery or muddy roads, animals; text read), art. 13 (slower vehicles keep right), art. 25 (expressway ban). Circular 38/2024/TT-BGTVT (effective 1 Jan 2025, replaces 31/2019): seen in search result (Lawnet and vbpl.vn links); two articles say xe gắn máy (incl. electric) max 40 km/h outside expressways, but article numbers differ between sources and the xe mô tô ceilings could not be confirmed (one 60/50 table was tied to the replaced 2019 circular). Presented as 'annoncé par la presse juridique, à confirmer'. Sign reference R.420 for the start of a built-up area: appeared in a search result title, mentioned as such. No fine amounts (Decree 168/2024 pointed to). No shop policy beyond NAP/hours.",
+   "INTENT": "Main question: what are the speed limits on a motorbike in Vietnam. OWNER of 'limites de vitesse moto au Vietnam'. Differs from /permis-securite/moto-vitesse-limits-vietnam/ ('repères en ville et hors agglomération'): this page states what is verified (law art. 12, circular named) and what is not; the sibling is linked once. The sibling should be reconciled with this page by its reviewer.",
+   "CONTENT": "Full rewrite: removed the unsourced 50/40 km/h figures, the fine ranges, the 'feeling ment avec constance' prose and speed-camera claims. Added: art. 12 summary with the slow-down cases, a verification-level table, panneaux section, practical list, rental/fines section, 5 FAQ. 1902 -> see words_after.",
+   "META": "Title shortened and made plain ('règles et repères'); H1 states 'ce que disent les textes'; description factual and honest about the split between law and circular; eyebrow 'Règles de circulation'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/automatique-scooter-montagne-pass-vietnam/, /permis-securite/autoroute-moto-vietnam/, /permis-securite/moto-vitesse-limits-vietnam/, /permis-securite/location-moto-contrat-vietnam/. TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (3 sentences with article 12, date and law link). 1 verification table, 2 lists, 5 FAQ. Citations: law text (retrieved in digest); Circular 38/2024 summaries and Decree 168/2024 record (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 12, 13, 25: retrieved in the legal digest"
+   },
+   {
+    "url": "https://lawnet.vn/ngan-hang-phap-luat/en/tu-van-phap-luat/giao-thong--van-tai/circular-38-2024-tt-bgtvt-stipulating-the-speed-limits-and-safe-distances-for-motor-vehicles-and-spe-1101914",
+    "checked": "2026-10-31",
+    "used_for": "Circular 38/2024/TT-BGTVT on speed and safe distance, effective 1 Jan 2025, replaces Circular 31/2019: seen in search result"
+   },
+   {
+    "url": "https://vbpl.vn/TW/Lists/vbpq/Attachments/173068/Thông tư số 38.2024.TT-BGTVT.docx",
+    "checked": "2026-10-31",
+    "used_for": "Circular 38/2024/TT-BGTVT text link: seen in search result, not read"
+   },
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024/ND-CP record (fines not read): seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "Exact speed ceilings for xe mô tô and xe gắn máy under Circular 38/2024/TT-BGTVT (built-up and non-built-up, by road type) were not confirmed from the circular text; the page gives no motorcycle km/h figure.",
+   "Fine amounts for speeding (Decree 168/2024) were not read."
+  ],
+  "words_after": 1569
+ },
+ {
+  "path": "permis-securite/location-moto-accident-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire dans l'ordre après un petit accident avec une moto de location au Vietnam ?",
+  "words_before": 1711,
+  "new_meta": {
+   "title": "Petit accident avec une moto de location : l’ordre des gestes",
+   "description": "Après un petit accident en moto de location au Vietnam : se mettre à l’abri, secours, obligations de l’article 80, photos, prévenir le loueur, restitution.",
+   "h1": "Petit accident avec une moto de location au Vietnam : que faire, dans l’ordre"
+  },
+  "evidence": {
+   "FACTS": "Legal basis added from the digest: Law 36/2024/QH15 art. 80 (stop, warn, preserve the scene, help victims, notify police/health facility/nearest People's Committee, stay until police arrive except to seek emergency care or under threat then report immediately, give identity; witnesses must help), art. 9 (fleeing/not helping a victim prohibited), art. 56 (compulsory civil-liability insurance certificate of the owner). Emergency numbers 113/114/115/112 and the 2026 merger proposal: seen in search result (thuvienphapluat Q&A), phrased as 'à vérifier'. Removed unsourced claims: 'le contrat prévoit presque toujours une ligne dédiée aux incidents', 'le loueur sérieux gère ces situations chaque saison', dépôt/franchise as contract lines (now questions), 'les déclarations de responsabilité ne se font ni sur place ni après' (legal-advice-like), 'représentation consulaire'. Rental/insurance/assistance only as questions to ask and generic wording ('votre assurance peut demander'). No fine amounts, no claims about the shop's assistance.",
+   "INTENT": "Main question: what to do, in order, after a minor accident with a rented motorbike. OWNER of 'petit accident avec une moto de location'. Differs from /permis-securite/vietnam-emergency-numbers-moto-touriste/ (numbers and assistance), /permis-securite/moto-assurance-vietnam-location/ (insurance questions) and /permis-securite/moto-breakdown-vietnam-location/ (breakdown): this page owns the sequence and legal duties after an accident; they are linked once each as needed.",
+   "CONTENT": "Full rewrite: removed the 'liste de vol / ego égratigné / dossier' prose. Added: 5-step first-minutes list, art. 80 duties list, documenting list, 6-case table, preparation checklist, loueur/insurance section with questions, restitution and follow-up section, 5 FAQ. 1711 -> see words_after.",
+   "META": "Title kept (unique, 56 chars); H1 made explicit about Vietnam and the order; description factual with article reference; eyebrow 'Sécurité à moto'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/vietnam-emergency-numbers-moto-touriste/, /permis-securite/moto-assurance-vietnam-location/, /permis-securite/location-moto-contrat-vietnam/, /permis-securite/police-moto-vietnam-touriste/. TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences with article 80, article 9, date and law link). 1 numbered list, 3 lists, 5 FAQ. Citations: law text (retrieved in digest), emergency numbers Q&A (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 56, 80: retrieved in the legal digest"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/111-113-114-115-la-so-dien-thoai-gi-138013545.html",
+    "checked": "2026-10-30",
+    "used_for": "Emergency numbers 113/114/115/112 and the 2026 merger proposal: seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "What the shop covers or charges after an accident (damage, deposit, deductible, insurance, assistance) and whom to call out of hours is unconfirmed; the page lists questions to ask.",
+   "Whether a minor accident without injuries requires a police report in practice is not stated in the law text read; the page tells readers to ask the loueur and the local authorities."
+  ],
+  "words_after": 1559
  }
 ]

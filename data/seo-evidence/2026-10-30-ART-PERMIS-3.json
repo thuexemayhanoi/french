@@ -1,0 +1,136 @@
+[
+ {
+  "role": "OWNER",
+  "primary_intent": "Comment contrôler les pneus d'une moto de location avant un voyage (sculptures, pression, flancs, âge) et que décider ensuite. Question propre à cet article : cinq minutes de contrôle du pneu au retrait.",
+  "words_before": 2333,
+  "evidence": {
+   "FACTS": "No legal or fine claim. Generic mechanical facts only (TWI wear bars, DOT 4-digit date code, check pressure cold, pressure value depends on model/load, flank damage = change tyre). No tyre pressure figure, no tread depth figure, no price. Removed unsupported claims about the shop's fleet maintenance; shop policy on tyre repair/replacement cost/assistance reworded as questions to ask before departure, not asserted. Shop NAP/hours (09:00-21:00, Ngõ 5 Nguyễn Văn Cừ, near Bến xe Gia Lâm) used once as context for daylight pickup check, per SEO-FACTS.md. Vietnamese terms 'vá xe' and 'bơm hơi' used for roadside tyre shops/air.",
+   "INTENT": "Main question: how to check a rental motorbike's tyres before a trip. Owner of its query cluster is the article itself in the silo (closest centre-sud-vietnam/moto-luggage-vietnam-voyage-moto and moto-entretien-liste-controle at similarity 0.15-0.2, a different topic: luggage/maintenance checklist). Differs from moto-frein-controle-location (brakes) and crevaison-pneu-ha-giang-moto (what to do after a puncture) by being the pre-departure inspection; links to both.",
+   "CONTENT": "Full rewrite: removed mannered prose ('deux timbres-poste', 'la gomme raconte', 'règle du silo', 'lit l'entretien de la flotte'), SEO-process paragraph (silo/dossier/intention de recherche) and repetitive FAQ. New sections: why tyres first; where/when to inspect; tread and wear indicators; pressure; sidewalls/nails/repairs; DOT age code; symptom/decision table; what to ask the loueur; en-route habits; FAQ x5; further reading. Words 2333 -> see words_after.",
+   "META": "Title changed from 'Pneus d'une moto de location : les vérifier avant le voyage' to 'Contrôler les pneus d’une moto de location avant un voyage' (clear verb-led query form); H1 aligned; description rewritten (152 chars) without promises; og:title/og:description identical to title/description; eyebrow shortened to 'Sécurité · Pneus'.",
+   "LINKS": "Required targets kept: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/. Added useful siblings: /permis-securite/moto-pluie-securite-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/moto-frein-controle-location/, /permis-securite/crevaison-pneu-ha-giang-moto/. Dropped /location-moto-hanoi/location-moto-hanoi-vietnam/ and /nord-vietnam/ha-giang/ (not required, link cap). Total 7/7 unique internal links.",
+   "AEO_GEO": "Lead gives the direct answer (4 checks, 5 minutes, regonfler vs change). One symptom/decision table, two checklists (defects, questions to ask), FAQ of 5 distinct questions (tread minimum, pressure, DIY repair, cracks, tyres vs brakes). No external citations needed."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Who pays/handles a puncture or tyre replacement and whether assistance exists (not asserted; given as questions to ask)."
+  ],
+  "path": "permis-securite/moto-pneu-controle-voyage-moto-vietnam/index.html",
+  "words_after": 2242,
+  "new_meta": {
+   "title": "Contrôler les pneus d’une moto de location avant un voyage",
+   "description": "Sculptures, pression, flancs, clous et âge du pneu : les cinq minutes de contrôle à faire sur une moto de location au Vietnam avant de partir en voyage.",
+   "h1": "Contrôler les pneus d’une moto de location avant un voyage"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Quel équipement de protection minimal pour un voyage à moto au Vietnam (casque, gants, chaussures, vêtements, pluie) et ce que la loi impose. Closest owner for the helmet legal question is permis-securite/casque-law-vietnam-moto-touriste (linked); closest topic page for luggage is centre-sud-vietnam/moto-luggage-vietnam-voyage-moto (similarity 0.14).",
+  "words_before": 2467,
+  "evidence": {
+   "FACTS": "Legal digest used: Law 36/2024/QH15 art. 33(2) helmet conforming to national technical regulation with strap fastened (retrieved full text, hcc.nghean.gov.vn); QCVN 2:2021/BKHCN and CR mark (seen in search result, thuvienphapluat.vn). 'Vérifié le 30 octobre 2026' stated next to the legal paragraph. No fine amounts: Decree 168/2024/NĐ-CP mentioned only as the source to read. Statement that gloves/shoes/clothes are not obliged is qualified ('dans les articles de la loi relus', 'non relevé'). Removed unsourced claims: 'les statistiques de chute placent la mâchoire en première ligne', 'le loueur fournit souvent le casque, parfois la cape, rarement les gants' (shop/market policy unconfirmed) and 'les contrôles existent'. European helmet vs CR mark: acceptance stated as not established. Shop equipment to be confirmed before booking; shop NAP/hours only from SEO-FACTS.md. No prices.",
+   "INTENT": "Main question: which protective gear is the minimum for a motorbike trip in Vietnam. Distinct from casque-law-vietnam-moto-touriste (helmet legal rule) by covering the whole kit; links to it once.",
+   "CONTENT": "Full rewrite replacing the abstract/mannered prose ('la moto expose', 'la pièce que la chute choisit toujours', chains of em-dash relatives, SEO-process paragraph). New sections: what the law imposes; helmet checklist; gloves; shoes/trousers/top; rain gear; optional protections; summary table with legal status column; what to ask the loueur; FAQ x5; further reading.",
+   "META": "Title 'Équipement de protection à moto au Vietnam : le kit minimal' (was 'Équipement du motard au Vietnam : le kit de protection minimal'); H1 'Équipement de protection pour voyager à moto au Vietnam' (was 'Voyage à moto au Vietnam : la protection minimale, pièce par pièce'); description 144 chars rewritten; og:title/og:description identical; eyebrow 'Sécurité · Équipement'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others kept or added: /permis-securite/casque-law-vietnam-moto-touriste/, /permis-securite/moto-pluie-securite-vietnam/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /nord-vietnam/ha-giang/. 7/7 unique, parent hub present.",
+   "AEO_GEO": "Lead gives the direct answer (five pieces, only the helmet legally required). Table with legal status per piece, two checklists (helmet checks, optional gear), FAQ of 5 distinct questions (minimum kit, European helmet, full-face, loueur supplies, gloves in heat). Two inline legal citations."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 33(2) helmet obligation (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+    "checked": "2026-10-30",
+    "used_for": "QCVN 2:2021/BKHCN helmet standard and CR mark (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which equipment (helmet, rain gear, gloves) the shop supplies with a rental: not asserted, to confirm before booking."
+  ],
+  "path": "permis-securite/moto-protective-boite-vietnam-voyage-moto/index.html",
+  "words_after": 1854,
+  "new_meta": {
+   "title": "Équipement de protection à moto au Vietnam : le kit minimal",
+   "description": "Casque conforme, gants, chaussures fermées, vêtements couvrants et tenue de pluie : le kit de protection minimal pour voyager à moto au Vietnam.",
+   "h1": "Équipement de protection pour voyager à moto au Vietnam"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "À quelle vitesse rouler à moto au Vietnam : cadre légal (loi 36/2024 art. 12, circulaire 38/2024, panneaux) et allure pratique selon ville, route, montagne, pluie, nuit. Query owner: this article ('vitesse moto au Vietnam'). Related owner: permis-securite/limite-vitesse-moto-vietnam ('limites de vitesse moto au Vietnam'), linked; this page stays on choosing the pace, not on tabulating limits.",
+  "words_before": 2099,
+  "evidence": {
+   "FACTS": "Law 36/2024/QH15 art. 12 (adapt speed, slow down at crossings, bends, passes, slopes, schools/markets, rain/fog/dust/slippery roads), art. 13 (slower vehicles keep right), art. 20 (headlight 18:00-06:00 and in poor visibility), art. 21 (horn rules), art. 22 (priority), art. 25(3) (no expressways), art. 33 (one passenger, load) all from E-legal-digest (full text retrieved). No km/h values stated: legal digest says Circular 38/2024/TT-BGTVT was not read. WebSearch 2026-10-31 confirmed only that Circular 38/2024/TT-BGTVT of 15 Nov 2024 (in force 1 Jan 2025, replaces 31/2019) covers motorbike/xe gắn máy speeds in arts. 6 and 7; the figures themselves were NOT confirmed (a draft snippet mentioned 40 km/h for xe gắn máy but treated as unverified and not used). Fine amounts not stated; Decree 168/2024/NĐ-CP referenced for sanctions only. 'Two seconds' following distance and 'braking distance proportional to the square of speed' are flagged as general prudence/physics, not law. Removed unsourced claims in the old text (e.g. tram rails, 'valeur d'hier', quasi-legal advice). Shop: hours 09:00-21:00 and location near Gia Lâm from SEO-FACTS; rental conditions (documents, deposit, assistance) listed as to confirm before booking, not asserted.",
+   "INTENT": "Main question: how fast to ride in practice and what the rules are. Differs from limite-vitesse-moto-vietnam (numeric limits) by focusing on speed choice by situation and conditions; links to it twice naturally (lead section, city section, further reading).",
+   "CONTENT": "Full rewrite: removed 'dossier du silo', 'ce dossier apprend à rencontrer les textes', 'méthode', abstract paragraphs and the FAQ that repeated the body. New sections: law/circular/signs; why limit is not the pace (reaction/braking physics); situation table (law vs practical); city (Hanoi flow, Long Biên bridges); route/villages/mountain; rain/fog/night; bike, passenger and luggage; three checks; multi-day rhythm; FAQ x5.",
+   "META": "Title changed from 'Vitesse moto au Vietnam : repères en ville et hors agglomération' to 'À quelle vitesse rouler à moto au Vietnam ? Ville et route'; H1 'À quelle vitesse rouler à moto au Vietnam ?'; description rewritten (148 chars) and does not promise figures; og:title/og:description identical; eyebrow 'Sécurité · Vitesse'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Added useful siblings: /permis-securite/limite-vitesse-moto-vietnam/, /permis-securite/autoroute-moto-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/. Dropped /permis-securite/moto-immatriculation-location-vietnam/ (cap). 7/7 unique.",
+   "AEO_GEO": "Lead answers the H1 (maximum depends on road and vehicle, set by circular and signs; adapt to conditions; no figures given). Table law/practical per situation, checklist of 3 pre-ride checks, FAQ x5 (max speed, ride at the limit, speed checks, overtaking, speedometer). Inline citations to law text and circular listing (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 12, 13, 20, 21, 22, 25, 33 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://caselaw.vn/van-ban-phap-luat/412364-thong-tu-so-38-2024-tt-bgtvt-ngay-15-11-2024-cua-bo-truong-bo-giao-thong-van-tai-ve-toc-do-va-khoang-cach-an-toan-cua-xe-co-gioi-xe-may-chuyen-dung-tham-gia-giao-thong-tren-duong-bo",
+    "checked": "2026-10-31",
+    "used_for": "Circular 38/2024/TT-BGTVT title/date (seen in search result only; values not read)"
+   }
+  ],
+  "owner_gaps": [
+   "Numeric speed limits (Circular 38/2024/TT-BGTVT arts. 6-7) still to be read from the official text by the owner of limite-vitesse-moto-vietnam; this article states none."
+  ],
+  "path": "permis-securite/moto-vitesse-limits-vietnam/index.html",
+  "words_after": 2035,
+  "new_meta": {
+   "title": "À quelle vitesse rouler à moto au Vietnam ? Ville et route",
+   "description": "Loi 36/2024, panneaux, circulaire 38/2024 : comment régler sa vitesse à moto au Vietnam en ville, sur route nationale, en montagne et sous la pluie.",
+   "h1": "À quelle vitesse rouler à moto au Vietnam ?"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Comment lire panneaux, priorités, ronds-points et sens uniques à Hanoi à moto. Closest pages: hanoi-roundabout-moto-conseils (roundabout manoeuvres, linked), moto-lane-hanoi (lane markings, linked), moto-left-turn-hanoi-circulation (linked); this article is the signage/priority overview.",
+  "words_before": 1822,
+  "evidence": {
+   "FACTS": "Law 36/2024/QH15 (full text retrieved, E-legal-digest): art. 13 (slower vehicles keep right, one lane at a time), art. 15 (turning rules, U-turn bans incl. one-way streets), art. 21 (horn), art. 22 (priority: minor to main road; right-hand priority without roundabout sign; yield to vehicles from the left at signed roundabouts), art. 25(3) (no expressways). 'Vérifié le 30 octobre 2026' stated. WebSearch 2026-10-31 (seen in search result only): QCVN 41:2019/BGTVT (Circular 54/2019/TT-BGTVT, in force 1 July 2020): prohibition signs round, red border, white background, black symbol; warning signs equilateral triangle, red border, yellow background, point up except W.208; a 2024 replacement draft QCVN 41:2024 exists, status unconfirmed (stated as such). Blue obligation/information signs given without citation; table of Vietnamese sign names marked as common labels to verify. Hanoi low-emission zone: press (vietnamfinance.vn headline 'Hà Nội không đồng loạt cấm xe chạy xăng trong Vành đai 1 từ ngày 1/7') seen in search results: no general ban on petrol motorbikes within Ring Road 1 from 1 July 2026, pilot limited to parts of Hoàn Kiếm; presented as 'à vérifier', no official text read. Removed unsourced sentences from old text (stop sign details attributed to Hanoi, 'enlèvements et amendes', 'le piéton traverse là'). Shop NAP/hours from SEO-FACTS; rental conditions to confirm before booking. No fines.",
+   "INTENT": "Main question: how to read signs, one-way streets and roundabouts in Hanoi on a motorbike. Distinct from the three linked siblings by covering sign grammar, priorities and the Hanoi-specific checks; roundabout, lane and left-turn details are delegated by link.",
+   "CONTENT": "Full rewrite: removed mannered passages ('la signalisation déroute... le visiteur devient l’élément imprévisible', 'la courtoisie de route n’est pas une option littéraire', 'la ville vit à sens unique, jamais la prudence'), generic disclaimers repeated, and the FAQ that repeated the body. New sections: legal basics; sign shape/colour and a table of common signs with Vietnamese labels; one-way streets with two confirmations; priorities and roundabouts; low-emission zone check; expressways; doubt checklist; first outing from Long Biên; FAQ x5.",
+   "META": "Title changed from 'Panneaux, ronds-points et sens uniques à Hanoi à moto' to 'Hanoi à moto : panneaux, ronds-points et sens uniques'; H1 aligned; description rewritten (148 chars) citing law 36/2024; og tags identical; eyebrow 'Sécurité · Signalisation à Hanoi'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Kept siblings: /permis-securite/hanoi-roundabout-moto-conseils/, /permis-securite/moto-left-turn-hanoi-circulation/, /permis-securite/moto-lane-hanoi/. Added /permis-securite/documents-moto-location-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Lead gives the direct answer (sign code, priority rules, how to confirm a one-way street). Sign table, doubt checklist, FAQ x5 (European comparison, roundabout priority, one-way check, U-turns, petrol motorbikes in centre). Inline citations to law text, QCVN 41:2019 listing and a press article."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 13, 15, 21, 22, 25 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-41-2019-BGTVT-Bao-hieu-duong-bo-918577.aspx",
+    "checked": "2026-10-31",
+    "used_for": "QCVN 41:2019/BGTVT road signs standard (seen in search result; sign colour/shape summary from search snippets)"
+   },
+   {
+    "url": "https://vietnamfinance.vn/ha-noi-khong-dong-loat-cam-xe-chay-xang-trong-vanh-dai-1-tu-ngay-1-7-d142734.html",
+    "checked": "2026-10-31",
+    "used_for": "Hanoi did not impose a general petrol-motorbike ban within Ring Road 1 from 1 July 2026 (seen in search result, headline and summary only)"
+   }
+  ],
+  "owner_gaps": [
+   "Current Hanoi low-emission-zone pilot scope (Hoàn Kiếm sectors, hours, vehicles) not read from an official text; to verify before publishing any concrete rule."
+  ],
+  "path": "permis-securite/panneaux-circulation-hanoi-moto/index.html",
+  "words_after": 1823,
+  "new_meta": {
+   "title": "Hanoi à moto : panneaux, ronds-points et sens uniques",
+   "description": "Panneaux d’interdiction et de danger, sens uniques, priorités et ronds-points : comment lire la signalisation à Hanoi à moto d’après la loi 36/2024.",
+   "h1": "Hanoi à moto : panneaux, ronds-points et sens uniques"
+  }
+ }
+]

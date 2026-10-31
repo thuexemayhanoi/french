@@ -308,7 +308,7 @@
    "CONTENT": "Full rewrite. New: manufacturer data table with market/weight caveats, profile table, clutch vs semi-automatic, seat-height and weight test incl. lifting a fallen bike, ergonomics, typical handling errors of each, programme as last criterion, licence and price statement, three-question decision, FAQ (5). Words 1602 -> 1625.",
    "META": "Title « WR155R ou CT125 : quelle prise en main selon votre profil ? » (59 chars); description 145 chars; H1 kept (matches hub anchor); eyebrow « WR155R ou CT125 · Prise en main »; og:title/og:description identical to title/description.",
    "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-ct125-ou-yamaha-wr155r-location/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/trail-aventure/, /yamaha/yamaha-wr155r-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /yamaha/yamaha-wr155r-location-hanoi/, /honda/honda-ct125-ou-yamaha-wr155r-location/ (owner, once); removed /location-moto-hanoi/location-moto-depot-hanoi/, /types-motos/trail/ and /yamaha/yamaha-wr155r-vietnam-voyage-moto/; added /yamaha/trail-aventure/ and /permis-securite/permis/.",
-   "AEO_GEO": "Direct answer in the 3-sentence lead; 2 tables, 2 checklists, 1 ordered list; FAQ of 5 distinct short answers (beginner, clutchless, lowest, Ha Giang, price); 4 external citations rel=noopener (Yamaha WR155R, Honda NZ CT125, chinhphu licence classes) plus the lead data."
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 2 tables, 2 checklists, 1 ordered list; FAQ of 5 distinct short answers (beginner, clutchless, lowest, Ha Giang, price); 3 external citations rel=noopener (Yamaha WR155R, Honda NZ CT125, chinhphu licence classes)."
   },
   "sources": [
    {
@@ -517,6 +517,83 @@
    "Whether an ADV350 or an XMAX is actually proposed, year, origin and papers of an ADV350",
    "Rates for either machine",
    "Deposit/ID, breakdown cover, leaving the city (asked, not stated); no Honda Vietnam ADV350 spec page found"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-xmax-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget prévoir pour louer un Yamaha XMAX à Hanoi selon la durée (jour, semaine, mois) ?",
+  "new_meta": {
+   "title": "Louer un Yamaha XMAX à Hanoi : quel budget selon la durée ?",
+   "description": "Pas de tarif publié pour le Yamaha XMAX : repère de la catégorie scooter automatique, formules jour, semaine, mois, et points à faire confirmer.",
+   "h1": "Yamaha XMAX : le prix de location à Hanoi comparé selon la durée"
+  },
+  "words_before": 2107,
+  "words_after": 1575,
+  "evidence": {
+   "FACTS": "Removed the « décote qui travaille », « le vrai terrain du grand scooter » and any claim of a XMAX rental price. Prices: no XMAX owner row; only the automatic-scooter category range (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) « à titre de repère » with the exact disclaimer in the lead and under the table and an explicit statement that it may not apply to a 292 cm3 scooter; no multiplication, package, discount, € conversion or fuel cost. One deliberate exception flagged for review: the page cites Yamaha Vietnam retail prices of a NEW machine (XMAX 300 « 140 000 000 VND » on its product page; NMAX standard « 69 000 000 VND » on the Yamaha price list; both seen in search results on 2026-10-30) to explain why the XMAX may sit outside the scooter range; the text states they are not rental rates, may change, and cannot yield any rent (the checker lists them under money_not_in_owner_table; remove that paragraph if the coordinator prefers). Specs from the Yamaha Motor Vietnam XMAX 300 page (292 cm3, 13 L, 44,9 L, ABS, smart key). Deposit, documents, damage, breakdown, seasonal pricing, extras and fuel inclusion phrased as questions or generic « certains loueurs » practice. Licence: category A under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30).",
+   "INTENT": "Main question: quel budget pour louer un XMAX selon la durée (primary query « yamaha XMAX »). OWNER. Differs from yamaha-xmax-location-hanoi (profile and how to request) and yamaha-nmax-prix-location-hanoi / yamaha-sirius-fi-prix-location-hanoi (other models; this is the big-scooter case where the category range may not apply).",
+   "CONTENT": "Full rewrite. New: scooter-automatic range table with caveat, why the XMAX may exit the range (with sourced retail context), stay-to-formula table, factors, offer checklist table, fuel and extras, tight-budget options, arbitration vs other scooters, licence and request with NAP, FAQ (5). Words 2107 -> 1575.",
+   "META": "Title « Louer un Yamaha XMAX à Hanoi : quel budget selon la durée ? » (59 chars, no promise of an amount); description 144 chars; H1 kept (matches hub anchor and primary query); eyebrow « Yamaha XMAX · Budget »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/permis/, /prix-location/, /prix-location/mois/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-xmax-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/; removed /location-moto-hanoi/, /location-moto-hanoi/longue-duree/, /prix-location/jour/ and /prix-location/semaine/; added /prix-location/mois/, /yamaha/yamaha-xmax-location-hanoi/, /yamaha/scooters/ and /permis-securite/permis/.",
+   "AEO_GEO": "Direct answer and exact disclaimer in the lead; 3 tables, 3 checklists; FAQ of 5 distinct short answers (daily price, dearer than others, monthly, fuel, deposit); 3 external citations rel=noopener (Yamaha XMAX 300 page, Yamaha price list, chinhphu licence classes) plus Zalo/WhatsApp contact links."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/xmax-bkau/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha Motor Vietnam XMAX 300 page: 292 cc, 13 L tank, 44,9 L storage, ABS both wheels, smart key; suggested retail price listed at 140 000 000 VND (new machine, not a rental rate)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/bang-gia-xe-may/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha Vietnam price list, NMAX standard listed at 69 000 000 VND (new machine, not a rental rate)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly rate for a XMAX and whether one is offered",
+   "Deposit/ID, extras, damage and breakdown handling, seasonal pricing (asked, none stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-xmax-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut le Yamaha XMAX pour un voyage au Vietnam et sur les routes de montagne (atouts, limites, préparation) ?",
+  "new_meta": {
+   "title": "Yamaha XMAX en road trip au Vietnam : atouts et limites",
+   "description": "Le Yamaha XMAX en voyage au Vietnam : confort, rangement et réservoir sur routes goudronnées de montagne, limites sur pistes, permis A et préparation du départ.",
+   "h1": "Yamaha XMAX et voyage au Vietnam : le grand scooter sur les routes de montagne"
+  },
+  "words_before": 1958,
+  "words_after": 1607,
+  "evidence": {
+   "FACTS": "Removed the abstract prose (« son vrai territoire », « son terrain de jeu »), the « assurance et assistance loin de Hanoi » promises and the unsourced budget claims (« décote », « durée, devis »). Specs only from the Yamaha Motor Vietnam XMAX 300 page seen in search results (292 cm3, 20,6 kW, 13 L, 44,9 L, ABS both wheels, smart key, USB-C); weight, seat height, ground clearance and consumption deliberately not stated; the range is not computed. Route statements (Ha Giang main loop tarred with some very damaged sections, Sapa wider roads, closures, rain, fog, cold) follow the rewritten trail/scooter hubs; no distances, drive times or altitudes. « Un scooter n’offre presque pas de frein moteur » mirrors the hub. Licence: category A under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30); foreign-licence validity and travel insurance left to the reader. The shop is stated to have confirmed no assistance, deposit or travel-zone rule for this model; leaving Hanoi, breakdown contact, repairs and fall damage phrased as questions. Price: no XMAX rate; the automatic-scooter range stated not to apply automatically; no figure given.",
+   "INTENT": "Main question: que vaut le XMAX en voyage et en montagne. OWNER of « yamaha XMAX et voyage au Vietnam ». Differs from yamaha-nvx-vietnam-voyage-moto (sporty 155 scooter) and yamaha-wr155r-vietnam-voyage-moto (clutch trail) by treating the big road scooter: comfort, storage, tank, no engine brake, poor fit for pistes.",
+   "CONTENT": "Full rewrite. New: Yamaha data table with travel consequences, advantages, limits (pistes, weight, descents), routes that suit it, rain/fog/cold, travelling two-up, departure checklist, licence/insurance/assistance (unconfirmed items as questions), budget, FAQ (5). Words 1958 -> 1607.",
+   "META": "Title « Yamaha XMAX en road trip au Vietnam : atouts et limites » (55 chars); description 160 chars; H1 kept (matches hub anchor); eyebrow « Yamaha XMAX · Voyage et montagne »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/ha-giang/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-xmax-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /permis-securite/permis/, /yamaha/yamaha-xmax-location-hanoi/; removed /location-moto-hanoi/ and /location-moto-hanoi/longue-duree/; added /yamaha/scooters/ and /nord-vietnam/ha-giang/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 1 table, 5 checklists; FAQ of 5 distinct short answers (Ha Giang, two-up, 13 L autonomy, pistes, licence); 2 external citations rel=noopener (Yamaha XMAX 300 page, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/xmax-bkau/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha Motor Vietnam « XMAX 300 - Thông số và giá bán »: 292 cc single-cylinder liquid-cooled, 20,6 kW, fuel tank 13 L, underseat storage 44,9 L, ABS on both wheels, USB-C port, smart key (weight, seat height, ground clearance not in the snippet, so not stated)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "XMAX availability (year/version) and any rate",
+   "Leaving Hanoi/province, breakdown contact, repair cost, fall damage, deposit/ID (asked, not stated)"
   ]
  }
 ]

@@ -210,6 +210,210 @@
   ]
  },
  {
+  "path": "nord-vietnam/ha-giang-boucle-3-jours-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Faire la boucle de Hà Giang en 3 jours à moto : comment condenser les étapes, ce que le format sacrifie, pour qui",
+  "words_before": 2103,
+  "words_after": 1603,
+  "new_meta": {
+   "title": "Boucle de Hà Giang en 3 jours à moto : étapes et compromis",
+   "description": "Boucle de Hà Giang en 3 jours à moto : deux façons de condenser les étapes, ce que le format sacrifie, pour qui il convient et comment le tenir en sécurité.",
+   "h1": "Boucle de Hà Giang en 3 jours à moto : étapes et compromis"
+  },
+  "evidence": {
+   "FACTS": "All distances and sites from Lonely Planet (Apr 2026, retrieved, digest §2): Hà Giang–Yên Minh ≈90 km (Bắc Sum pass ≈7 km, Quản Bạ 'Heaven Gate'), Yên Minh–Đồng Văn ≈100 km (Vương palace, Lũng Cú tower), Đồng Văn–Du Già ≈100 km (Mã Pì Lèng ≈20 km of road, Mèo Vạc ≈15 km from the pass, Nho Quế boats), Du Già–Hà Giang ≈85 km; very rainy June–August, cold Nov–March. The three 3-day splits (A 190 / B 200 / C 185 km) are the page's own sums of LP's rounded figures and are flagged as such ('ordres de grandeur, calculés ici'). Road rules arts. 12, 20, 33, 9 of Law 36/2024/QH15: legal digest 1.14, 1.17, 1.22, 1.4. Border-area permit (Time Out, digest) mentioned in one sentence without fee. Removed: invented content (marchés du matin, fleuve du chef-lieu, 'les trois jours concentrent l'usure de cinq', 'la machine du format court se vérifie double'), mannered prose. Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim. No driving time stated.",
+   "INTENT": "Main question: can and should the loop be done in 3 days, and how. OWNER of 'boucle de Hà Giang en 3 jours'. Distinct from /nord-vietnam/ha-giang-boucle-4-jours-moto/ (similarity 0.53: the 4-day page covers the standard stage-by-stage programme; this one compares the three ways of merging stages and lists sacrifices); /nord-vietnam/ha-giang-boucle-voyage-moto/ (first-time guide, linked once) and /nord-vietnam/hanoi-a-ha-giang-moto/ (approach, linked once).",
+   "CONTENT": "Full rewrite: three-split table with distances, split comparison, jour-par-jour for split A, sacrifices list, who it suits, pace/safety rules, total including approach, bike/papers, 5 FAQ. 2103 -> 1603 words.",
+   "META": "Title/description/H1 rewritten (58/156 chars); og tags identical; 'en 3 jours à moto' keeps the query.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/ha-giang-boucle-4-jours-moto/, /nord-vietnam/ha-giang-boucle-voyage-moto/, /nord-vietnam/hanoi-a-ha-giang-moto/, /permis-securite/permis/ = 7/7 unique. Dropped /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/.",
+   "AEO_GEO": "Lead answers directly (3 days by merging two legs, 185-200 km day, for experienced riders). Table with 3 splits, 4 checklists, day-by-day h3 sections, 5-question FAQ; citations Lonely Planet/Time Out named in text, Law 36/2024/QH15 articles."
+  },
+  "sources": [
+   {
+    "url": "https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "stages, distances, sites, seasons (digest, retrieved)"
+   },
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "border-area permit (digest, retrieved; named in text, not linked)"
+   }
+  ],
+  "owner_gaps": [
+   "Rented bike leaving Hanoi for Hà Giang and breakdown assistance (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/ha-giang-boucle-4-jours-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Programme de la boucle de Hà Giang en 4 jours à moto, étape par étape (format standard)",
+  "words_before": 2182,
+  "words_after": 1554,
+  "new_meta": {
+   "title": "Boucle de Hà Giang en 4 jours à moto : étapes jour par jour",
+   "description": "Boucle de Hà Giang en 4 jours à moto : étapes de 85 à 100 km, sites à voir, nuits à Yên Minh, Đồng Văn et Du Già, météo, marge et conseils de sécurité.",
+   "h1": "Boucle de Hà Giang en 4 jours à moto : étapes jour par jour"
+  },
+  "evidence": {
+   "FACTS": "Stage table = Lonely Planet Apr 2026 (digest §2, retrieved): 4 days most common (3 to 10), Hà Giang–Yên Minh ≈90 km (Bắc Sum pass ≈7 km, Quản Bạ), Yên Minh–Đồng Văn ≈100 km (Vương palace, Lũng Cú), Đồng Văn–Du Già ≈100 km (Mã Pì Lèng ≈20 km of road, Mèo Vạc ≈15 km from the pass, Nho Quế boat trips), Du Già–Hà Giang ≈85 km; rainy June–Aug, cold Nov–Mar. Total ≈370 km (LP) vs ≈350 km (Wikipedia Ha_Giang_Loop, retrieved: also UNESCO geopark Đồng Văn Karst Plateau, 'Happiness Road' 1959-1965, linked inline). Border-area permit: Time Out 14 Jun 2026 (named, not linked, no fee). Art. 12 and 20 of Law 36/2024/QH15: legal digest 1.14, 1.17. No driving times printed. Removed invented content: marchés par jour, 'trois droits', vallées secondaires, tension de chaîne dans tout bourg, 'les loueurs'. Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: what is the standard 4-day Hà Giang loop programme. OWNER of 'boucle de Hà Giang en 4 jours'. Distinct from /nord-vietnam/ha-giang-boucle-3-jours-moto/ (similarity 0.53: that page compares 3-day mergers and sacrifices; this one gives the day-by-day standard programme, margin placement and delay rules); linked once each: 3-day page, first-time guide, cost page, approach from Hanoi.",
+   "CONTENT": "Full rewrite: stage table, per-day sections, margin placement, season, delay rules checklist, logistics checklist, bike, 5 FAQ. 2182 -> 1554 words.",
+   "META": "Title/description/H1 rewritten (59/151 chars); og tags identical.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/ha-giang-boucle-3-jours-moto/, /nord-vietnam/ha-giang-boucle-voyage-moto/, /nord-vietnam/ha-giang-circuit-moto-prix/, /nord-vietnam/hanoi-a-ha-giang-moto/ = 7/7 unique. Dropped /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/ (licence covered in the first-time guide).",
+   "AEO_GEO": "Lead answers directly (4 stages of 85-100 km, nights at Yên Minh, Đồng Văn, Du Già, first-time suitability). Table, 2 checklists, 5-question FAQ, Wikipedia cited inline, Lonely Planet/Time Out named in text."
+  },
+  "sources": [
+   {
+    "url": "https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "stages, distances, sites, seasons (digest, retrieved; named in text, not linked)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ha_Giang_Loop",
+    "checked": "2026-10-30",
+    "used_for": "loop ≈350 km, geopark, Happiness Road (digest, retrieved; linked inline)"
+   },
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "border-area permit (digest, retrieved; named in text)"
+   }
+  ],
+  "owner_gaps": [
+   "Rented bike leaving Hanoi for Hà Giang and breakdown assistance (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/ha-giang-boucle-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Boucle de Hà Giang à moto pour une première fois : durée, niveau, permis, autorisation frontalière, moto, étapes, saisons, sécurité",
+  "words_before": 2402,
+  "words_after": 1566,
+  "new_meta": {
+   "description": "Boucle de Hà Giang à moto : distance, durée, niveau requis, permis, autorisation de zone frontalière, choix de la moto, saisons et sécurité.",
+   "h1": "Boucle de Hà Giang à moto : le guide complet de la première fois"
+  },
+  "evidence": {
+   "FACTS": "Loop ≈350 km (Wikipedia Ha_Giang_Loop, retrieved) / ≈370 km, usually 4 days (3 to 10), legs Hà Giang–Yên Minh ≈90 km (Bắc Sum pass ≈7 km, Quản Bạ), Yên Minh–Đồng Văn ≈100 km (Vương palace, Lũng Cú), Đồng Văn–Du Già ≈100 km (Mã Pì Lèng ≈20 km of road, Mèo Vạc ≈15 km from the pass, Nho Quế), Du Già–Hà Giang ≈85 km; rainy June–August, cold November–March; increased police presence; riders without Vietnamese/international motorcycle licence advised to take a guided tour: all Lonely Planet Apr 2026 (digest §2, retrieved). Hà Giang merged into Tuyên Quang 1 Jul 2025: digest §1 (Tuổi Trẻ, retrieved). Border-area permit (Quản Bạ, Yên Minh, Đồng Văn, Mèo Vạc incl. Mã Pì Lèng/Nho Quế; usually via accommodation/tour company; independent riders to local immigration/police; fee NOT quoted; the 1 June 2026 'new rule' NOT mentioned): Time Out 14 Jun 2026 (digest, retrieved). Licence rules: Law 36/2024/QH15 arts. 57(6),(8), 57(1) A1/A, 9(7): legal digest 1.8-1.10, 1.4; 1968 Vienna Convention parties France/Belgium/Luxembourg/Switzerland and Canada absent: UN Treaty Collection XI-B-19 (digest §2, retrieved); IDP reproduces only national categories (legal digest §7); no fine amount printed (Decree 168/2024 not read, referenced only). Road rules arts. 12, 20, 21, 33, 9: legal digest 1.14, 1.17, 1.18, 1.22, 1.4. Removed all unsourced assertions of the original: 'les locations du nord acceptent de moins en moins les scooters', 'locations entretiennent leurs motos à la chaîne', 'assurances, caution, assistance, pièces' as contract features, Happiness Road rhetoric. Shop: only questions to ask (leaving Hanoi, breakdown, papers); NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: what must a first-timer know before riding the Hà Giang loop. OWNER of 'boucle de Hà Giang à moto' (also nominal query of /nord-vietnam/ha-giang-circuit-moto-prix/, which is refocused on costs). Differs from /nord-vietnam/ha-giang-boucle-3-jours-moto/ and /nord-vietnam/ha-giang-boucle-4-jours-moto/ (day-by-day formats, each linked once), /nord-vietnam/hanoi-a-ha-giang-moto/ (approach, linked once) and /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/ (bike comparison; not linked here because of the 7-link cap, reachable through the hub).",
+   "CONTENT": "Full rewrite: repères table, who/conditions, licence/IDP/border permit section, bike choice, LP stage table, seasons, mountain-riding rules with article references, 5 FAQ. 2402 -> 1566 words.",
+   "META": "Title and H1 kept (natural, 56 chars, query matched); description rewritten (140 chars); og:description identical; eyebrow plain.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/hanoi-a-ha-giang-moto/, /permis-securite/permis/, /nord-vietnam/ha-giang-boucle-4-jours-moto/, /nord-vietnam/ha-giang-boucle-3-jours-moto/ = 7/7 unique. Dropped /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/crevaison-pneu-ha-giang-moto/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/.",
+   "AEO_GEO": "Lead answers directly (350-370 km, 4 days, experienced riders, valid licence, guided option, border permit, rainy summer). 2 tables, 3 checklists, 5-question FAQ, inline citations (UN Treaty Collection, Time Out)."
+  },
+  "sources": [
+   {
+    "url": "https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "loop length, legs, seasons, police presence (digest, retrieved; not linked inline in this page)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ha_Giang_Loop",
+    "checked": "2026-10-30",
+    "used_for": "loop ≈350 km (digest, retrieved)"
+   },
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "border-area permit description (digest, retrieved)"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "used_for": "1968 Vienna Convention participants (digest, retrieved)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Hà Giang merged into Tuyên Quang (digest, retrieved; not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the rented bike may travel to Hà Giang, breakdown assistance, one-way return (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/ha-giang-circuit-moto-prix/index.html",
+  "role": "OWNER",
+  "primary_intent": "Combien coûte la boucle de Hà Giang à moto : postes du budget, tarifs de référence de location, durée à compter, coûts à vérifier",
+  "words_before": 2175,
+  "words_after": 1561,
+  "new_meta": {
+   "title": "Budget de la boucle de Hà Giang à moto : postes et repères",
+   "description": "Combien coûte la boucle de Hà Giang à moto ? Les postes du budget, les tarifs de référence de location à confirmer, la durée à compter et les coûts à vérifier.",
+   "h1": "Combien coûte la boucle de Hà Giang à moto ? Les postes du budget"
+  },
+  "evidence": {
+   "FACTS": "Prices used: owner reference rows only (SEO-FACTS / editorial guide): semi-automatic 150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000; automatic scooter 150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000; Honda Vision 200 000 / 1 000 000 / 2 000 000; Honda Air Blade 200 000 / 900 000 / 1 500 000 (VND day/week/month) with the mandatory disclaimer. No rate for trail or manual sport bikes ('demandez un devis'); no multiplication of day rates, no 8-day total computed, no €/$ conversion; the 8-day example is an explicit hypothetical about duration, not a price. Border-area permit and 'fee commonly reported ≈200 000–250 000 VND': Time Out 14 Jun 2026 (digest, retrieved) — printed only as 'montants évoqués par les voyageurs … à vérifier', no official text, the '1 June 2026 rule' not mentioned. Lonely Planet: loop usually 4 days; licence-less riders advised to take a guide/car (digest §2). Fuel, lodging, meals, guided-tour prices: none printed (no sourced figure). Decree 168/2024 referenced without amounts (legal digest §3). Removed from original: all claims about contract content (assurances étendues, kit de bord, livraison, tarif dégressif du comptoir, caution engagée), 'la méthode de la page', 'la règle du site', unsupported statements on trail rental price ordering. Shop: deposit/guarantee, leaving Hanoi, papers, breakdown, total only as questions to ask; NAP/hours per SEO-FACTS.",
+   "INTENT": "Main question: what does a Hà Giang loop cost and how to budget it. data/seo-query-ownership.json lists this page as OWNER with the same primary query as /nord-vietnam/ha-giang-boucle-voyage-moto/ ('boucle de Hà Giang à moto'); the page is refocused on budget (title, H1, lead) so it differs from the first-time guide (linked once), the 4-day programme (linked once), the approach from Hanoi (linked once) and the rental price hub /prix-location/ (linked once). Suggest the coordinator re-label it DISTINCT_ANGLE (angle: budget) in the ownership file.",
+   "CONTENT": "Full rewrite: six-post table, owner reference rate table with disclaimer, own-budget formula checklist, rental duration incl. approach/return, what to confirm with the rental shop (questions only), border-permit cost, guided vs self-guided, bike/papers, 5 FAQ. 2175 -> 1561 words.",
+   "META": "Title/description/H1 rewritten (58/159 chars): no promise of an exact amount; og tags identical.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/hanoi-a-ha-giang-moto/, /nord-vietnam/ha-giang-boucle-4-jours-moto/, /nord-vietnam/ha-giang-boucle-voyage-moto/, /prix-location/ = 7/7 unique. Dropped /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /permis-securite/crevaison-pneu-ha-giang-moto/.",
+   "AEO_GEO": "Lead answers directly (six cost posts, only rental rates indicated, budget the full duration). 2 tables, 3 checklists, 5-question FAQ; Time Out and Lonely Planet named in text."
+  },
+  "sources": [
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "border-area permit and reported fee range (digest, retrieved; named in text, not linked)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "typical loop duration, guided-tour advice (digest, retrieved; named in text)"
+   }
+  ],
+  "owner_gaps": [
+   "Deposit/guarantee, delivery, insurance, breakdown assistance, one-way return and permission to take the bike to Hà Giang for a multi-day rental (unconfirmed; only listed as questions to ask).",
+   "Price of trail / manual bikes for multi-day rentals (no owner row)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/halong-voyage-moto-2-jours/index.html",
+  "role": "OWNER",
+  "primary_intent": "Programme de deux jours à Hạ Long à moto : route, excursion ou nuit en baie, stationnement, retour",
+  "words_before": 1869,
+  "words_after": 1516,
+  "new_meta": {
+   "description": "Halong à moto sur deux jours : programme jour par jour, route de 150 à 170 km sans autoroute, excursion ou nuit en baie, stationnement de la moto et retour.",
+   "h1": "Halong à moto sur deux jours : route et croisière"
+  },
+  "evidence": {
+   "FACTS": "Hanoi–Hạ Long ≈150 km by expressway and ≈165 km by old QL18 (narrow, busy), other snippets 124-170 km: route digest §5 (sunparadiseland, seen in search result). Expressway ban: Law 36/2024/QH15 art. 25(3) (digest link, retrieved). UNESCO property, 1,133 islands and islets: digest §5 (whc.unesco.org/en/list/672, retrieved). Storm suspensions of departures and overnight stays in the bay, Typhoon Wipha July 2025: digest §5 (halongbay.com.vn and news.tuoitre.vn Wipha article, both seen in search result). Headlight 18-06 (art. 20), helmet, zero alcohol, phone: legal digest 1.4, 1.17, 1.22. Removed from original: unconfirmed claims that rental shops take the bike back at the port or run guarded car parks, 'l'autoroute réservée aux véhicules couverts', claim that boats leave by late morning, cruise tariff/format assertions, 'via Hai Duong et Hai Phong' route claim (replaced by QL18 per digest), invented anecdotes (briqueteries, chars à buffle, laver la machine au retour). Parking of the bike during the cruise explicitly 'not confirmed by this site, to arrange before boarding'. Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: how to organise a two-day Hạ Long trip by motorbike. OWNER of 'halong à moto sur deux jours'. Differs from /nord-vietnam/halong-voyage-moto/ (should I ride at all; linked once), /nord-vietnam/moto-de-hanoi-a-halong-baie/ (route detail; linked once) and /nord-vietnam/cat-ba-voyage-moto/ (island variant; linked once).",
+   "CONTENT": "Full rewrite: two-formula table, day-1 route with checklist, bay questions checklist, parking precautions, bad-weather plan, booking, bag checklist, day 2, Cát Bà variant, bike/papers, 5 FAQ. 1869 -> 1516 words.",
+   "META": "Title and H1 kept (natural French, 49 chars, query 'halong à moto sur deux jours'); description rewritten (156 chars); og:description identical; eyebrow plain.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/moto-de-hanoi-a-halong-baie/, /nord-vietnam/halong-voyage-moto/, /nord-vietnam/cat-ba-voyage-moto/, /permis-securite/permis/ = 7/7 unique. Dropped /location-moto-hanoi/.",
+   "AEO_GEO": "Lead answers directly (feasible in two days, 150-170 km, no expressway, moto stays ashore, storm margin). Table, 3 checklists, 5-question FAQ, inline citations (Law 36/2024/QH15 art. 25(3), UNESCO, Hạ Long Bay management board, Tuổi Trẻ News)."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest, retrieved)"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/672",
+    "checked": "2026-10-30",
+    "used_for": "UNESCO property (digest, retrieved)"
+   },
+   {
+    "url": "https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+    "checked": "2026-10-30",
+    "used_for": "suspension of boats and overnight stays (digest, seen in search result)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/ha-long-bay-tourist-boats-banned-from-departing-as-typhoon-wipha-nears-103250720163544717.htm",
+    "checked": "2026-10-30",
+    "used_for": "Typhoon Wipha July 2025 departures banned (digest, seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the bike can stay several days away from Hanoi / be parked on the coast; transport back if weather cancels the return (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
   "path": "nord-vietnam/halong-voyage-moto/index.html",
   "role": "OWNER",
   "primary_intent": "Faut-il rouler de Hanoi à la baie de Hạ Long à moto, ou prendre un transport collectif ? (décision et formules)",
@@ -335,6 +539,52 @@
   ],
   "owner_gaps": [
    "Can the rented bike board a ferry / go to Cát Bà, return or one-way options (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/hanoi-a-ha-giang-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rejoindre Hà Giang à moto depuis Hanoi : routes, une ou deux journées, nuit d'étape, autoroute interdite, arrivée",
+  "words_before": 2144,
+  "words_after": 1656,
+  "new_meta": {
+   "title": "De Hanoi à Hà Giang à moto : routes, étapes et pièges",
+   "description": "De Hanoi à Hà Giang à moto : un long trajet de plusieurs centaines de km par les nationales, autoroute interdite, une ou deux journées, nuit d’étape et arrivée.",
+   "h1": "De Hanoi à Hà Giang à moto : routes, étapes et pièges"
+  },
+  "evidence": {
+   "FACTS": "No Hanoi–Hà Giang distance printed (route digest §2: not sourced; snippets conflicting): 'plusieurs centaines de km', 'mesurez votre tracé'. Seen in search result (aggregated snippets, no inline link): most-described route via Tuyên Quang (QL2), flat first stretch and climbing after Tuyên Quang, an alternative via Thái Nguyên–Bắc Kạn and a longer version via Ba Be–Mèo Vạc (distances not repeated). Expressway ban art. 25(3) Law 36/2024/QH15 (digest link). VOV 9 Feb 2026 case (11 foreign riders, VND 5 million each, Tuyên Quang–Phú Thọ expressway, valid licences and visas): digest §1 (retrieved), stated as one case, not a scale; Decree 168/2024 amounts not quoted (legal digest §3). Hà Giang -> Tuyên Quang merger 1 Jul 2025: digest §1. Border-area permit: Time Out 14 Jun 2026 (named, no fee). Lonely Planet seasons (digest §2). Rules (headlight 18-06, helmet, zero alcohol, phone): legal digest 1.4/1.17/1.22, dated 30 Oct 2026. Removed: invented content (Phở du matin, 'la file des camions ne se trompe jamais', barrages, collines de thé, 'la page de la location compare les options' as a claim, riverside café descriptions, 'les stations bordent les nationales'). Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: how to ride from Hanoi to Hà Giang and how many days to plan. OWNER of 'de Hanoi à Hà Giang à moto'. Differs from /nord-vietnam/ha-giang-boucle-voyage-moto/ (the loop itself, linked once), /nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/ (combined Sapa+Hà Giang trip, linked once) and /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/ (rental angle, linked once).",
+   "CONTENT": "Full rewrite: repères table, one-vs-two days with table, routes, expressway section with the Feb 2026 case, mid-way night, arrival, rent-in-Hanoi-or-locally, season, return, preparation checklist, bike/papers, 5 FAQ. 2144 -> 1656 words.",
+   "META": "Title/description/H1 rewritten (53/160 chars); og tags identical.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/ha-giang-boucle-voyage-moto/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/, /permis-securite/permis/ = 7/7 unique. Dropped /nord-vietnam/ha-giang/.",
+   "AEO_GEO": "Lead answers directly (several hundred km, national roads, no expressway, two days, province naming). 2 tables, 2 checklists, 5-question FAQ, inline citations (Law 36/2024/QH15 art. 25(3), VOV)."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest, retrieved)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026 fine case (digest, retrieved)"
+   },
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "border-area permit (digest, retrieved; named in text)"
+   },
+   {
+    "url": "https://www.goldentrailtravel.com/blog/how-to-plan-a-flawless-motorbike-tour-from-hanoi-to-ha-giang",
+    "checked": "2026-10-31",
+    "used_for": "route options Hanoi–Hà Giang (seen in search result; not opened, not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Bike leaving Hanoi for Hà Giang, breakdown assistance, multi-day return (unconfirmed, only questions to ask).",
+   "No sourced Hanoi–Hà Giang distance: a sourced figure (official map or road authority) would let the page print one."
   ]
  }
 ]

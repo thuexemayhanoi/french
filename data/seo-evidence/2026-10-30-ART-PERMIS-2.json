@@ -259,5 +259,175 @@
    "Late-evening return procedure and the number to call for a problem after 21:00 are unconfirmed (page says to confirm before booking).",
    "Whether an antivol is supplied is unconfirmed (page tells readers to ask)."
   ]
+ },
+ {
+  "path": "permis-securite/moto-heat-securite-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rouler à moto sous la chaleur au Vietnam (hydratation, pauses, tenue, signes d'alerte)",
+  "new_meta": {
+   "title": "Rouler à moto sous la chaleur au Vietnam : conseils pratiques",
+   "description": "Moto sous la chaleur au Vietnam : hydratation, pauses, tenue, casque, zéro alcool et signes du coup de chaleur pour rouler sans vous épuiser.",
+   "h1": "Rouler à moto sous la chaleur au Vietnam : conseils pratiques"
+  },
+  "words_before": 1714,
+  "words_after": 1648,
+  "evidence": {
+   "FACTS": "Removed unsourced numbers and claims: 'de mai à septembre' (hot-season months not verified), 'un verre toutes les demi-heures', 'un arrêt toutes les deux ou trois heures = bonne hydratation', 'pause tous les trois quarts d'heure à une heure et demie', 'les conducteurs locaux roulent couverts', 'la moto supporte la chaleur du pays depuis des décennies', 'prendre la voiture climatisée'. Replaced by qualitative advice with a single explicitly indicative rule of thumb (pause every one to two hours, shorter if unwell). Legal items from E-legal-digest (Law 36/2024, retrieved): art. 9 zero alcohol (applied to the 'bière fraîche à la pause' case), art. 33 helmet conforming to the national standard, strap fastened, passenger rules (one passenger, two in specific cases incl. child under 12) and load limits (stated qualitatively), art. 20 headlight 18:00-06:00; QCVN 2:2021/BKHCN with CR mark (seen in search result, thuvienphapluat.vn fiche, via digest); emergency number 115 with the 'vérifiez sur place, fusion évoquée' caveat. Medical advice kept generic (stop, shade, drink, cool the skin, seek medical advice if persistent), no dosages or diagnosis. Shop: NAP/hours; the sentence that the pick-up starts at opening (09:00) is a consequence of the confirmed hours, not a policy; no assistance/price claims.",
+   "INTENT": "Main question: how to ride a motorbike safely in strong heat in Vietnam. OWNER of « rouler à moto sous la chaleur au Vietnam ». Closest pages: moto-pluie-securite-vietnam (0.25), moto-hanoi-nuit-securite (0.23), hanoi/hanoi-ete-itineraire-heat (0.23, summer itinerary); this page is the riding-in-heat safety guide (body, drinking, breaks, clothing/helmet, bike, warning signs) and links to the night and summer-itinerary pages instead of repeating them.",
+   "CONTENT": "Full rewrite: removed mannered passages ('rester au top', 'le meilleur conducteur est celui qui arrive en forme', 'transforme la journée'). New: effect of heat on the rider, hydration checklist incl. alcohol ban, breaks and timetable table, clothing/helmet checklist with legal standard, first days/passenger/luggage, the bike in the heat (tyre pressure cold, engine, saddle, brakes), warning signs and what to do, 5 FAQ. Words 1714 -> see words_after.",
+   "META": "Title changed ('rester au top' dropped, 61 chars) and H1 aligned; description rewritten (141 chars); og tags synced; eyebrow 'Conduite par forte chaleur'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; kept /permis-securite/moto-hanoi-nuit-securite/; added /hanoi/hanoi-ete-itineraire-heat/, /permis-securite/moto-frein-controle-location/, /permis-securite/vietnam-emergency-numbers-moto-touriste/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in lead; timetable table; 5 checklists; 5 FAQ with short answers; inline citations to Law 36/2024 articles and the QCVN 2:2021 fiche."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 9, 20, 33 (retrieved per E-legal-digest); cited as 'article N de la loi' in the text"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+    "checked": "2026-10-30",
+    "used_for": "Helmet standard QCVN 2:2021/BKHCN, CR mark (seen in search result, via digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Helmet models/ventilation provided with rentals and the shop's early-morning handover options are unconfirmed."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-immatriculation-location-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quels papiers d'immatriculation (certificat, plaque, assurance) vérifier sur une moto de location au Vietnam et que garder sur soi",
+  "new_meta": {
+   "description": "Certificat d’immatriculation, plaque, assurance : ce qu’il faut contrôler sur les papiers d’une moto de location au Vietnam et ce qu’il faut avoir sur soi."
+  },
+  "words_before": 1792,
+  "words_after": 1639,
+  "evidence": {
+   "FACTS": "Corrected the old text, which stated as normal practice that 'les documents se remettent en général sous forme de copies... la copie certifiée accompagne la machine' and that 'la plaque se porte à l'avant et à l'arrière' (both unsupported). Now: Law 36/2024 art. 56 (retrieved): driver carries registration certificate (certified copy + bank confirmation only when the vehicle is mortgaged), licence matching the vehicle (not for xe gắn máy riders), technical inspection certificate where law requires (applicability to motorbikes explicitly not verified), compulsory civil-liability insurance certificate of the owner; art. 56(3) VNeID electronic documents mainly for residents; art. 57 A1 <=125 cm3 / A above; art. 59 age 16 for xe gắn máy; art. 57(6)/(8) IDP of a 1968 Convention state. Said openly that the law does not state whether a simple copy suffices for a non-mortgaged rental bike: 'posez la question avant de partir'. Identity document: art. 56 does not cite it; advice to agree with the loueur on what stays with the renter. Decree 168/2024 cited for sanctions without amounts. Vietnamese certificate field names (Biển số, Chủ xe, Nhãn hiệu, số loại, Màu sơn, Dung tích, Số khung, số máy) given 'en principe' with the note that layout varies; basic language knowledge, no legal claim. Removed 'flotte qui forme son personnel', 'machine louée très en dessous du marché' and the assertion that most checks end in minutes. Shop: NAP/hours; documents handed over, form and loss procedure stated as not detailed on the site; no policy affirmed.",
+   "INTENT": "Main question: which registration/insurance papers to check on a rental motorbike in Vietnam and what to carry. OWNER of « carte d'immatriculation et location de moto au Vietnam ». Closest pages (types-motos/location-moto-manuelle-hanoi 0.29, location-moto-hanoi/debutant-location-moto-hanoi 0.29) are rental guides; sibling documents-moto-location-vietnam covers the renter's own documents and the legal-liste article the overall checklist, so this page keeps the vehicle papers and the police-check sequence.",
+   "CONTENT": "Full rewrite (removed 'dossier de bord', 'liasse', 'la flotte raconte', speculative police-check narration). New: legal list of papers, counter checks table, questions to the loueur, certificate vocabulary table, what to carry, control sequence, warning signals, shop paragraph, 5 FAQ. Words 1792 -> see words_after.",
+   "META": "Title and H1 kept (54 chars, literal and unique); description rewritten (155 chars); og tags synced; eyebrow 'Papiers de la moto'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; added /permis-securite/location-moto-legal-liste-controle-vietnam/, /permis-securite/moto-assurance-vietnam-location/, /permis-securite/documents-moto-location-vietnam/, /permis-securite/police-moto-vietnam-touriste/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in lead (what to match, what the law asks, copy vs original uncertainty); 2 tables, 4 checklists, 5 FAQ with short answers; inline citation of Law 36/2024 full text."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 56, 57, 59 (retrieved per E-legal-digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Which vehicle documents (original/copy) are handed to renters at Thuê xe máy Nguyễn Hà, who the registered owner of rental bikes is, and the loss/restitution procedure are unconfirmed."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-lane-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Où se placer à moto sur la chaussée à Hanoi : voies, côté, lignes, priorités, voies de bus",
+  "new_meta": {
+   "title": "Voies et lignes des motos à Hanoi : où se placer sur la chaussée",
+   "description": "Où rouler à moto à Hanoi : garder sa droite, rester dans sa voie, priorité à droite aux carrefours, voies de bus, marquages et chantiers à repérer.",
+   "h1": "Voies et lignes des motos à Hanoi : où se placer sur la chaussée"
+  },
+  "words_before": 1994,
+  "words_after": 1586,
+  "evidence": {
+   "FACTS": "Corrected a wrong statement of the old text ('la logique locale réserve le côté gauche aux deux-roues qui veulent dépasser', 'voitures et bus occupent les voies de droite'): the page now follows Law 36/2024 (retrieved, E-legal-digest) art. 13 (slower vehicles keep right, stay in one marked lane, change only where allowed, one lane at a time with signal), art. 22 (minor road yields to main road; no roundabout sign -> yield to vehicles from the right; signed roundabout -> yield to those arriving from the left), art. 15 (turning rules, no U-turn on pedestrian crossings/bridges/slopes/blind bends/one-way streets), art. 33 (no riding abreast), art. 25 (no expressways), art. 12 (slow/stop at pedestrian crossings, bends, crowded areas), art. 21 (horn), art. 9 (phone). 'Vérifié le 30 octobre 2026' at the table. Removed unsupported local assertions (BRT-like reservations 'entrées de pont et de tunnel', 'la meute connaît la rue', klaxon as 'conversation', dimanche matin traffic claims turned into advice only, loueur 'connaît les rues' replaced by 'demandez quels axes éviter'). Line-marking meaning stated as general road-marking principle (continuous line not to be crossed, dashed line permits a lane change when traffic permits), with the pointer to local signs; no fines. Shop: NAP/hours only; no policy.",
+   "INTENT": "Main question: where to position a motorbike on the road in Hanoi (lanes, lines, priorities). OWNER of « voies et lignes des motos à Hanoi ». Closest pages: permis-securite/location-moto-contrat-vietnam (0.2), prix-location/prix-location-moto-hanoi (0.17) are unrelated rental pages, so no overlap issue; this page links to the left-turn, roundabout and signs guides (sibling angles) instead of repeating them.",
+   "CONTENT": "Full rewrite: removed 'la chaussée est un texte vivant', 'grammaire de la route', 'la meute connaît la rue', 'la moto suit la meute'. New: legal placement table, practical placement checklist, five-situations table, bus lanes/markings/roadworks checklist, intersections priority, first-outing checklist with shop contact, 5 FAQ. Words 1994 -> see words_after.",
+   "META": "Title changed from 'lire la chaussée' to the concrete question 'où se placer sur la chaussée' (64 chars), H1 aligned; description rewritten (147 chars); og tags synced; eyebrow 'Circuler à Hanoi'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; added /permis-securite/moto-left-turn-hanoi-circulation/, /permis-securite/hanoi-roundabout-moto-conseils/, /permis-securite/panneaux-circulation-hanoi-moto/, /permis-securite/autoroute-moto-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in lead (keep right, lane rules, priority to the right); legal table with article numbers; situations table; 3 checklists; 5 FAQ with article citations; inline citation of Law 36/2024 full text."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 9, 12, 13, 15, 21, 22, 25, 33 (retrieved per E-legal-digest)"
+   }
+  ],
+  "owner_gaps": []
+ },
+ {
+  "path": "permis-securite/moto-left-turn-hanoi-circulation/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment tourner à gauche à moto à Hanoi (règles du virage, créneau, alternatives)",
+  "new_meta": {
+   "description": "Tourner à gauche à Hanoi en moto : règles de la loi sur le virage, placement, choix du créneau, abandon de la manœuvre et détours par les rues secondaires."
+  },
+  "words_before": 2001,
+  "words_after": 1572,
+  "evidence": {
+   "FACTS": "Corrected the old FAQ that left the signal question open ('la signalisation locale s'applique... la position compte autant que le clignotant'): Law 36/2024 art. 15 (retrieved) requires continuous signalling, positioning in the lane nearest the turn, yielding to pedestrians, non-motorised vehicles and oncoming traffic, and lists places where U-turns are forbidden (pedestrian crossings, bridges, under overpasses, slopes, blind bends, expressways, tunnels, one-way streets unless directed). Art. 22 priority (right / left at signed roundabouts), art. 9 phone ban, art. 12 slow down. 'Vérifié le 30 octobre 2026'. Removed invented claims: 'passages réservés aux deux-roues traversent les blocs, coupent les cours d'école et doublent les carrefours', 'la plupart des incidents viennent de la décision prise en retard' (statistic without source), 'attendre une trentaine de secondes', 'quinze minutes de route', 'un coup de klaxon bref au départ' (horn limited by art. 21), 'le loueur connaît les carrefours du quartier'. The 'contourner le pâté de maisons par virages à droite' and 'traverser à pied en poussant la moto' are practical technique advice, with the note to check one-way streets; no distances/timings. Shop: NAP/hours, only a suggestion to ask which axes to avoid on day one.",
+   "INTENT": "Main question: how to turn left safely on a motorbike in Hanoi. OWNER of « tourner à gauche à Hanoi en moto ». Closest pages are generic (types-motos/scooter-ou-moto-vietnam 0.1, permis-securite/securite 0.1) so no overlap; links to the lane-placement, roundabout and signs guides for neighbouring angles.",
+   "CONTENT": "Full rewrite: removed 'la précision remplace le courage', 'traverser un fleuve', 'le compteur mental', 'la moto suit son pilote'. New: legal frame, why it is the most exposed manoeuvre, preparation checklist, three criteria for the gap, numbered 3-step crossing with abandonment criterion, alternatives (go around the block, other junction, route choice, walk across), machine/preparation with shop line, 5 FAQ. Words 2001 -> see words_after.",
+   "META": "Title kept (56 chars, literal and unique); description rewritten (155 chars) with the legal angle; og tags synced; H1 kept; eyebrow 'Manœuvres urbaines'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; added /permis-securite/moto-lane-hanoi/, /permis-securite/hanoi-roundabout-moto-conseils/, /permis-securite/panneaux-circulation-hanoi-moto/. 6/7 unique, parent hub present.",
+   "AEO_GEO": "Direct answer in lead with article 15 steps; 3 checklists, numbered crossing steps, 5 FAQ with article citations; inline citation of the Law 36/2024 full text."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 9, 12, 15, 22 (retrieved per E-legal-digest)"
+   }
+  ],
+  "owner_gaps": []
+ },
+ {
+  "path": "permis-securite/moto-montagne-pass-securite-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment descendre (et monter) un col à moto au Vietnam : frein moteur, rapports, freinage",
+  "new_meta": {
+   "title": "Descendre un col à moto au Vietnam : frein moteur et rapports",
+   "description": "Descendre un col à moto au Vietnam : frein moteur, rapports bas, freinages brefs avant les virages, erreurs qui chauffent les freins et conseils pour la montée."
+  },
+  "words_before": 2412,
+  "words_after": 1714,
+  "evidence": {
+   "FACTS": "Technique rewritten as generic riding technique, no numbers: engine braking strong on semi-automatic/geared bikes with a low gear engaged, weak on CVT automatic scooters (stated with 'en général' and 'demandez au loueur s'il existe un mode de retenue', replacing the old claim that some transmissions offer preselectable gears), progressive downshifting, never in neutral or with the clutch pulled, both brakes with firm-then-release braking, no water on hot brakes. Legal items from E-legal-digest (Law 36/2024, retrieved): art. 12 (adapt speed to passes/slopes, bends, rain, fog, slippery roads, livestock; no km/h given and the text says why), art. 13 (keep right), art. 15 (no U-turn on slopes/blind bends), art. 20 (headlight 18:00-06:00 and low visibility), art. 21 (horn), art. 33 (passenger limit). 'Vérifié le 30 octobre 2026'. Removed unsupported/mannered items: the Vietnamese expression 'rà phanh' (not verified), 'la corne d'approche, coutume locale de sécurité', 'pause toutes les demi-heures de descente', 'buffles parfois', 'la machine la plus répandue des flottes de location' (fleet claim). Shop: NAP/hours; mountain assistance explicitly not detailed on the site and to be confirmed before booking. No prices.",
+   "INTENT": "Main question: how to descend a mountain pass by motorbike in Vietnam. OWNER of « descendre un col à moto au Vietnam ». Closest pages: types-motos/meilleur-moto-montagne-routes-vietnam (0.21, bike choice), permis-securite/semi-automatique-moto-shifting-vietnam (0.21, gear shifting), permis-securite/moto-fog-montagne-vietnam (0.2, fog); this page keeps the descent/climb technique and links to each of them once instead of duplicating.",
+   "CONTENT": "Full rewrite: removed 'le col conduit par la méthode', 'la discipline du silo', 'chante, stable, présent', 'la montagne fait le reste'. New: why descending wears brakes (with art. 12), engine-braking table by machine type, numbered descent method with legal points, errors that heat the brakes (5), trucks/buses/other users, climbing, preparation checklist with shop paragraph, 5 FAQ. Words 2412 -> see words_after.",
+   "META": "Title changed to the owner query 'Descendre un col à moto au Vietnam : frein moteur et rapports' (61 chars); H1 kept; description rewritten (160 chars max); og tags synced; eyebrow 'Conduite en montagne'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; kept /types-motos/meilleur-moto-montagne-routes-vietnam/; replaced /types-motos/semi-automatique/, /nord-vietnam/ha-giang/ and /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/ by /permis-securite/semi-automatique-moto-shifting-vietnam/, /permis-securite/moto-frein-controle-location/ and /permis-securite/moto-fog-montagne-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in the lead (engine brake first, brief firm braking, scooters weak engine braking); engine-braking table, numbered method, 3 checklists, 5 FAQ with short answers; inline citation of Law 36/2024 full text."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 12, 13, 15, 20, 21, 33 (retrieved per E-legal-digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop's automatic scooters offer any engine-braking mode, and mountain assistance, are unconfirmed (page tells readers to ask)."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-oil-controle-location-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment contrôler l'huile moteur d'une moto de location (niveau, rythme, signaux, quoi demander au loueur)",
+  "new_meta": {
+   "title": "Huile moteur d’une moto de location : comment la contrôler",
+   "description": "Niveau d’huile d’une moto de location au Vietnam : lire la jauge, quand contrôler, compléter avec la bonne huile, signaux d’alerte et questions au loueur.",
+   "h1": "Huile moteur d’une moto de location : comment la contrôler"
+  },
+  "words_before": 1695,
+  "words_after": 1585,
+  "evidence": {
+   "FACTS": "Corrected technical claims that were stated as universal: the old text said the dipstick is always unscrewed, wiped, re-screwed 'sans forcer', and read; the new text says that the reading method (dipstick pushed in or screwed in, or a sight glass) depends on the model and must be asked from the loueur. Removed numeric/unsourced items ('chaque semaine / tous les deux ou trois jours' stated as rule, 'vidange à mi-parcours', 'les flottes sérieuses fournissent le flacon', 'une machine saine consomme naturellement...' kept only as a general statement). Check frequencies are marked 'repères indicatifs'; no oil grade/viscosity numbers (the page only says 'huile moto quatre temps avec la viscosité et la norme prescrites', and that a motorcycle oil is generally preferable on clutch bikes - stated with 'en général' and asking the loueur). Service intervals are explicitly 'fixés par le constructeur selon le modèle' with questions for the loueur, no km values. Vietnamese search terms 'thay nhớt' (oil change) and 'dầu nhớt' (engine oil) given as shop/sign terms (general language knowledge). No legal claims, no prices, no manufacturer specs. Shop: NAP/hours; maintenance programme stated as not detailed on the site, to be asked before booking, especially for a long rental.",
+   "INTENT": "Main question: how to check the engine oil of a rental motorbike. OWNER of « huile moteur d'une moto de location ». Closest pages (location-moto-hanoi/longue-duree-location-moto-hanoi 0.33, prix-location/longue-duree-location-moto-hanoi-discount 0.31, prix-location/location-moto-oil-change-longue-duree-vietnam 0.27 = OWNER of « vidange et entretien pendant une longue location ») are long-rental/price/oil-change pages; this page keeps only the level check, warning signals and the questions to the loueur, and sends oil-change planning to the oil-change owner via one link.",
+   "CONTENT": "Full rewrite: removed 'l'huile décide du séjour', 'fluide silencieux qui récompense', 'contrat implicite', 'fluidité de la réponse raconte la flotte'. New: why oil matters on rentals, 6-step level reading (method depends on model), common reading mistakes, when to check (indicative), topping up with the right oil, warning-signal table, who does what + 5 questions + shop paragraph, 5 FAQ. Words 1695 -> see words_after.",
+   "META": "Title changed ('contrôle longue durée' -> 'comment la contrôler', 58 chars) and H1 aligned; description rewritten (154 chars); og tags synced; eyebrow 'Contrôle de la moto'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; added /prix-location/location-moto-oil-change-longue-duree-vietnam/ (oil-change owner), /permis-securite/moto-chain-slack-location-vietnam/, /permis-securite/moto-breakdown-vietnam-location/, /location-moto-hanoi/longue-duree-location-moto-hanoi/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in lead; numbered reading steps, mistakes checklist, signal table, questions checklist, 5 FAQ with short answers (no repetition)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Oil type, last/next oil change and maintenance schedule for the shop's motorbikes, and who pays top-ups/oil changes during a rental, are unconfirmed (page tells readers to ask)."
+  ]
  }
 ]
