@@ -124,7 +124,7 @@
   "role": "OWNER",
   "primary_intent": "Cao Bang à moto : vue d'ensemble (sites, durée, saisons, accès, moto) pour préparer un voyage à Cao Bằng",
   "words_before": 2075,
-  "words_after": 1547,
+  "words_after": 1551,
   "new_meta": {
    "title": "Cao Bang à moto : Bản Giốc, geopark et routes du nord-est",
    "description": "Cao Bang à moto depuis Hanoi : cascade de Bản Giốc, grotte de Ngườm Ngao, geopark, lacs de Thang Hen, saisons, nombre de jours et choix de la moto.",
@@ -133,7 +133,7 @@
   "evidence": {
    "FACTS": "Seen in search result (aggregated snippets; per-URL attribution uncertain, so no inline link): Hanoi–Cao Bằng ~270-300 km (one guide >330); Cao Bằng–Bản Giốc 60-115 km (digest: ~80 km Lonely Planet, linked in hub, 'seen in search result'); Non Nước Cao Bằng UNESCO Global Geopark recognised 2018, 2nd in Vietnam after Đồng Văn (threeland, vietnamnet, saigoneer, mytour snippets); Bản Giốc on the Quây Sơn river at the China border; Nguườm/Ngườm Ngao cave ~3 km long, ~1 km open, a few km from the falls; Thang Hen cluster of ~36 lakes (Trà Lĩnh); Trùng Khánh chestnuts Oct–Dec; best seasons Sep–Nov and Mar–May (a motorbike operator, vietnammotorcycletours snippet), Aug–Sep strongest flow (one source); QL3 via Thái Nguyên–Bắc Kạn, operators advise two days (localvietnam, vietnamtourism snippets). Cao Bằng unchanged by 2025 merger (route digest §1/§6; districts no longer in addresses so 'ancien district'). Border-area permit: Time Out article (retrieved per digest) concerns Hà Giang only; for Cao Bằng stated as 'no official information found, ask locally'. Law 36/2024/QH15 art. 25(3) expressway ban and art. 9(7) (handing a vehicle to unqualified person): legal digest 1.4/1.20; date 30 Oct 2026. Removed all rhetoric and unsupported statements ('trois nuits se défendent mieux que deux', 'ateliers du chef-lieu', 'la méthode du site'). No prices, no shop policy asserted (questions to ask only).",
    "INTENT": "Main question: what does a motorbike trip to Cao Bằng involve (sites, days, season, access, bike). OWNER of 'cao Bang à moto'. Differs from /nord-vietnam/cao-bang-moto-boucle/ (loop sequencing) and /nord-vietnam/hanoi-a-cao-bang-moto/ (approach from Hanoi): this page is the overview and links to both once each, plus /nord-vietnam/meilleur-moto-cao-bang/ for bike choice.",
-   "CONTENT": "Complete rewrite from abstract prose to concrete content: repères table, sites (Bản Giốc, Ngườm Ngao, Trùng Khánh/Thang Hen, Pác Bó), days table, seasons, QL3/expressway, border zone and papers, bike section, 5 FAQ. 2075 -> 1547 words.",
+   "CONTENT": "Complete rewrite from abstract prose to concrete content: repères table, sites (Bản Giốc, Ngườm Ngao, Trùng Khánh/Thang Hen, Pác Bó), days table, seasons, QL3/expressway, border zone and papers, bike section, 5 FAQ. 2075 -> 1551 words.",
    "META": "Title/description/H1 rewritten (57/147 chars; 'Cao Bang à moto' query kept, diacritics in the body). og tags identical. Eyebrow plain.",
    "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/cao-bang-moto-boucle/, /nord-vietnam/hanoi-a-cao-bang-moto/, /nord-vietnam/meilleur-moto-cao-bang/, /permis-securite/permis/ = 7/7 unique. Dropped from original: /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/, /types-motos/meilleur-moto-montagne-routes-vietnam/.",
    "AEO_GEO": "Lead answers directly (days, route, season, bike). 2 tables, 5-question FAQ, inline citations to Law 36/2024/QH15 art. 25(3) and Time Out."
@@ -249,7 +249,7 @@
   "role": "OWNER",
   "primary_intent": "Programme de la boucle de Hà Giang en 4 jours à moto, étape par étape (format standard)",
   "words_before": 2182,
-  "words_after": 1554,
+  "words_after": 1562,
   "new_meta": {
    "title": "Boucle de Hà Giang en 4 jours à moto : étapes jour par jour",
    "description": "Boucle de Hà Giang en 4 jours à moto : étapes de 85 à 100 km, sites à voir, nuits à Yên Minh, Đồng Văn et Du Già, météo, marge et conseils de sécurité.",
@@ -258,7 +258,7 @@
   "evidence": {
    "FACTS": "Stage table = Lonely Planet Apr 2026 (digest §2, retrieved): 4 days most common (3 to 10), Hà Giang–Yên Minh ≈90 km (Bắc Sum pass ≈7 km, Quản Bạ), Yên Minh–Đồng Văn ≈100 km (Vương palace, Lũng Cú), Đồng Văn–Du Già ≈100 km (Mã Pì Lèng ≈20 km of road, Mèo Vạc ≈15 km from the pass, Nho Quế boat trips), Du Già–Hà Giang ≈85 km; rainy June–Aug, cold Nov–Mar. Total ≈370 km (LP) vs ≈350 km (Wikipedia Ha_Giang_Loop, retrieved: also UNESCO geopark Đồng Văn Karst Plateau, 'Happiness Road' 1959-1965, linked inline). Border-area permit: Time Out 14 Jun 2026 (named, not linked, no fee). Art. 12 and 20 of Law 36/2024/QH15: legal digest 1.14, 1.17. No driving times printed. Removed invented content: marchés par jour, 'trois droits', vallées secondaires, tension de chaîne dans tout bourg, 'les loueurs'. Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
    "INTENT": "Main question: what is the standard 4-day Hà Giang loop programme. OWNER of 'boucle de Hà Giang en 4 jours'. Distinct from /nord-vietnam/ha-giang-boucle-3-jours-moto/ (similarity 0.53: that page compares 3-day mergers and sacrifices; this one gives the day-by-day standard programme, margin placement and delay rules); linked once each: 3-day page, first-time guide, cost page, approach from Hanoi.",
-   "CONTENT": "Full rewrite: stage table, per-day sections, margin placement, season, delay rules checklist, logistics checklist, bike, 5 FAQ. 2182 -> 1554 words.",
+   "CONTENT": "Full rewrite: stage table, per-day sections, margin placement, season, delay rules checklist, logistics checklist, bike, 5 FAQ. 2182 -> 1562 words.",
    "META": "Title/description/H1 rewritten (59/151 chars); og tags identical.",
    "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/ha-giang-boucle-3-jours-moto/, /nord-vietnam/ha-giang-boucle-voyage-moto/, /nord-vietnam/ha-giang-circuit-moto-prix/, /nord-vietnam/hanoi-a-ha-giang-moto/ = 7/7 unique. Dropped /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/ (licence covered in the first-time guide).",
    "AEO_GEO": "Lead answers directly (4 stages of 85-100 km, nights at Yên Minh, Đồng Văn, Du Già, first-time suitability). Table, 2 checklists, 5-question FAQ, Wikipedia cited inline, Lonely Planet/Time Out named in text."
@@ -291,8 +291,7 @@
   "words_before": 2402,
   "words_after": 1566,
   "new_meta": {
-   "description": "Boucle de Hà Giang à moto : distance, durée, niveau requis, permis, autorisation de zone frontalière, choix de la moto, saisons et sécurité.",
-   "h1": "Boucle de Hà Giang à moto : le guide complet de la première fois"
+   "description": "Boucle de Hà Giang à moto : distance, durée, niveau requis, permis, autorisation de zone frontalière, choix de la moto, saisons et sécurité."
   },
   "evidence": {
    "FACTS": "Loop ≈350 km (Wikipedia Ha_Giang_Loop, retrieved) / ≈370 km, usually 4 days (3 to 10), legs Hà Giang–Yên Minh ≈90 km (Bắc Sum pass ≈7 km, Quản Bạ), Yên Minh–Đồng Văn ≈100 km (Vương palace, Lũng Cú), Đồng Văn–Du Già ≈100 km (Mã Pì Lèng ≈20 km of road, Mèo Vạc ≈15 km from the pass, Nho Quế), Du Già–Hà Giang ≈85 km; rainy June–August, cold November–March; increased police presence; riders without Vietnamese/international motorcycle licence advised to take a guided tour: all Lonely Planet Apr 2026 (digest §2, retrieved). Hà Giang merged into Tuyên Quang 1 Jul 2025: digest §1 (Tuổi Trẻ, retrieved). Border-area permit (Quản Bạ, Yên Minh, Đồng Văn, Mèo Vạc incl. Mã Pì Lèng/Nho Quế; usually via accommodation/tour company; independent riders to local immigration/police; fee NOT quoted; the 1 June 2026 'new rule' NOT mentioned): Time Out 14 Jun 2026 (digest, retrieved). Licence rules: Law 36/2024/QH15 arts. 57(6),(8), 57(1) A1/A, 9(7): legal digest 1.8-1.10, 1.4; 1968 Vienna Convention parties France/Belgium/Luxembourg/Switzerland and Canada absent: UN Treaty Collection XI-B-19 (digest §2, retrieved); IDP reproduces only national categories (legal digest §7); no fine amount printed (Decree 168/2024 not read, referenced only). Road rules arts. 12, 20, 21, 33, 9: legal digest 1.14, 1.17, 1.18, 1.22, 1.4. Removed all unsourced assertions of the original: 'les locations du nord acceptent de moins en moins les scooters', 'locations entretiennent leurs motos à la chaîne', 'assurances, caution, assistance, pièces' as contract features, Happiness Road rhetoric. Shop: only questions to ask (leaving Hanoi, breakdown, papers); NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
@@ -376,8 +375,7 @@
   "words_before": 1869,
   "words_after": 1516,
   "new_meta": {
-   "description": "Halong à moto sur deux jours : programme jour par jour, route de 150 à 170 km sans autoroute, excursion ou nuit en baie, stationnement de la moto et retour.",
-   "h1": "Halong à moto sur deux jours : route et croisière"
+   "description": "Halong à moto sur deux jours : programme jour par jour, route de 150 à 170 km sans autoroute, excursion ou nuit en baie, stationnement de la moto et retour."
   },
   "evidence": {
    "FACTS": "Hanoi–Hạ Long ≈150 km by expressway and ≈165 km by old QL18 (narrow, busy), other snippets 124-170 km: route digest §5 (sunparadiseland, seen in search result). Expressway ban: Law 36/2024/QH15 art. 25(3) (digest link, retrieved). UNESCO property, 1,133 islands and islets: digest §5 (whc.unesco.org/en/list/672, retrieved). Storm suspensions of departures and overnight stays in the bay, Typhoon Wipha July 2025: digest §5 (halongbay.com.vn and news.tuoitre.vn Wipha article, both seen in search result). Headlight 18-06 (art. 20), helmet, zero alcohol, phone: legal digest 1.4, 1.17, 1.22. Removed from original: unconfirmed claims that rental shops take the bike back at the port or run guarded car parks, 'l'autoroute réservée aux véhicules couverts', claim that boats leave by late morning, cruise tariff/format assertions, 'via Hai Duong et Hai Phong' route claim (replaced by QL18 per digest), invented anecdotes (briqueteries, chars à buffle, laver la machine au retour). Parking of the bike during the cruise explicitly 'not confirmed by this site, to arrange before boarding'. Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
@@ -585,6 +583,163 @@
   "owner_gaps": [
    "Bike leaving Hanoi for Hà Giang, breakdown assistance, multi-day return (unconfirmed, only questions to ask).",
    "No sourced Hanoi–Hà Giang distance: a sourced figure (official map or road authority) would let the page print one."
+  ]
+ },
+ {
+  "path": "nord-vietnam/hanoi-a-mai-chau-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rejoindre Mai Châu à moto depuis Hanoi : distance, route QL6, col de Thung Khe, journée ou nuit, pauses, retour",
+  "words_before": 1927,
+  "words_after": 1583,
+  "new_meta": {
+   "title": "De Hanoi à Mai Chau à moto : route par la QL6, col et pauses",
+   "description": "De Hanoi à Mai Chau à moto : environ 140 km par la QL6, col de Thung Khe, une ou deux journées, pauses, retour et préparation. Autoroute interdite aux motos.",
+   "h1": "De Hanoi à Mai Chau à moto : route par la QL6, col et pauses"
+  },
+  "evidence": {
+   "FACTS": "Seen in search result (aggregated snippets; no inline link; vietnamtourism.com, vinwonders, vinpearl, hanoiecotour listed): Hanoi–Mai Châu ≈140 km (130-150 km, 139 km from Hoàn Kiếm, 150 km from centre); QL6 via Xuân Mai, Lương Sơn, Hòa Bình, Cao Phong, Tân Lạc; Thung Khe pass on QL6 between Tân Lạc and Mai Châu, one source puts it ≈110 km from Hanoi; Mai Châu–Pù Luông ≈34-46 km (Routard forum, LocalVietnam, Hanoi Eco Tour snippets); Vinpearl warns against riding the Hanoi–Pù Luông route in rain (landslides). Province: Mai Châu now in Phú Thọ (ex-Hòa Bình, 1 Jul 2025): route digest §1/§6 (Tuổi Trẻ, retrieved) — one search snippet still said Hòa Bình province, digest preferred. No driving times, no Hanoi–Mai Châu duration printed. Expressway ban art. 25(3) Law 36/2024/QH15 (digest link); arts. 9, 12, 20, 33: legal digest 1.4, 1.14, 1.17, 1.22, dated 30 Oct 2026. Removed: invented content ('villages-rues', lacs de barrage, vans et minibus du jour, link to Ba Vi, 'la règle du site', stilt-house marketing). Shop: only a question to ask (leaving Hanoi, breakdown); NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: how to ride from Hanoi to Mai Châu. OWNER of 'de Hanoi à Mai Chau à moto'. Differs from /nord-vietnam/mai-chau-voyage-moto/ (destination), /nord-vietnam/mai-chau-moto-2-jours/ (two-day stay) and /nord-vietnam/hanoi-a-sapa-moto/: this page = approach by QL6, pass, stops and return; each sibling linked once.",
+   "CONTENT": "Full rewrite: repères table, QL6 route and naming after merger, expressway, Thung Khe pass checklist, day-vs-night, pauses, Pù Luông extension, arrival, return, seasons, preparation, bike/papers, 5 FAQ. 1927 -> 1583 words.",
+   "META": "Title/description/H1 rewritten (60/157 chars); og tags identical.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/mai-chau-voyage-moto/, /nord-vietnam/mai-chau-moto-2-jours/, /nord-vietnam/hanoi-a-pu-luong-moto/, /permis-securite/permis/ = 7/7 unique. Dropped /hanoi/hanoi-a-ba-vi-moto/, /hanoi/jour-voyages-de-hanoi-by-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/.",
+   "AEO_GEO": "Lead answers directly (≈140 km, QL6, Thung Khe, day-trip possible/night better, no expressway). Table, 3 checklists, 5-question FAQ, inline citation of Law 36/2024/QH15 art. 25(3)."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest, retrieved)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Hòa Bình merged into Phú Thọ (digest, retrieved; not cited inline)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/how-to-get-to-mai-chau-from-hanoi-and-is-the-road-safe",
+    "checked": "2026-10-31",
+    "used_for": "Hanoi–Mai Châu ≈140 km, QL6 route (seen in search result; not opened, not cited inline)"
+   },
+   {
+    "url": "https://vinpearl.com/en/hanoi-to-pu-luong-an-essential-guide-for-your-trip",
+    "checked": "2026-10-31",
+    "used_for": "advice against riding the route in rain, landslide risk (seen in search result; not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Bike leaving Hanoi for Mai Châu and breakdown assistance (unconfirmed, only a question to ask).",
+   "A sourced official/map distance for Hanoi–Mai Châu and Thung Khe pass."
+  ]
+ },
+ {
+  "path": "nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rejoindre Ninh Bình à moto depuis Hanoi : route QL1A, distances jusqu'aux sites, une ou deux journées, conduite en plaine",
+  "words_before": 2094,
+  "words_after": 1574,
+  "new_meta": {
+   "title": "De Hanoi à Ninh Binh à moto : QL1A, distances et conseils",
+   "description": "De Hanoi à Ninh Binh à moto : une centaine de km par la QL1A, autoroute interdite aux motos, distances jusqu’aux sites, une ou deux journées, conseils.",
+   "h1": "De Hanoi à Ninh Binh à moto : QL1A, distances et conseils"
+  },
+  "evidence": {
+   "FACTS": "Distances Hanoi→Vân Long ≈86 km, Bái Đính ≈97, Tràng An ≈100, Tam Cốc ≈104: oxalisadventure.com, route digest §4 (seen in search result, operator page, linked inline as 'guide de transport d'opérateur'). QL1A via Giải Phóng, Thường Tín, Phủ Lý to Ninh Bình, karst landscape from Phủ Lý (~60 km from Hoàn Kiếm lake), expressway not allowed for motorbikes (one blog) while another blog listed the Pháp Vân–Cầu Giẽ expressway: seen in search result (vietnamtourism, wayro, southeastasiabackpacker snippets; no inline link); ban anchored on Law 36/2024/QH15 art. 25(3) (digest link) and the page states that guides conflict and 'c'est la loi qui tranche'. Ninh Bình merged with Hà Nam and Nam Định 1 Jul 2025: digest §1/§4 (Tuổi Trẻ, retrieved); Phủ Lý ex-capital of Hà Nam hence now in Ninh Bình (inference from the merger table, stated as 'd'après le tableau'). UNESCO Tràng An: mixed property 2014, 6,226 ha, Hoa Lư ancient capital (10th-11th c.), Tràng An–Tam Cốc–Bích Động landscape, special-use forest, karst up to 200 m, >30,000 years of occupation, sampans rowed by local guides, Bái Đính in buffer zone: digest §4 (whc.unesco.org/en/list/1438, retrieved). Road rules arts. 9, 20, 21, 22, 33 of Law 36/2024/QH15: legal digest 1.4, 1.17, 1.18, 1.19, 1.21, 1.22. No driving times, no ticket prices, no fine amounts. Removed: 'les cimetières du nord sont pleins…', train rhetoric, 'cour calme', 'la méthode du site', unsourced 'villages-rues'. Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: how to ride from Hanoi to Ninh Bình and how many days. OWNER of 'de Hanoi à Ninh Binh à moto'. Differs from /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/ (rental angle, linked once), /nord-vietnam/ninh-binh-itineraire-moto/ (one-day visit itinerary, linked once), /nord-vietnam/ninh-binh-moto-2-jours/ (two-day stay, linked once) and /nord-vietnam/hanoi-ninh-binh-pu-luong-itineraire-moto/ (combined trip).",
+   "CONTENT": "Full rewrite: repères table, QL1A route, expressway, distances table, one-or-two-days, day-in-order table, sites (UNESCO), plain riding rules with art. refs, seasons, return, bike/papers, 5 FAQ. 2094 -> 1574 words.",
+   "META": "Title/description/H1 rewritten (57/151 chars); og tags identical; 'itinéraire facile des débutants' dropped (no promise of ease).",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/ninh-binh-itineraire-moto/, /nord-vietnam/ninh-binh-moto-2-jours/, /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/, /permis-securite/permis/ = 7/7 unique. Dropped /hanoi/easy-moto-routes-hanoi-debutant/, /nord-vietnam/ninh-binh/, /location-moto-hanoi/debutant-location-moto-hanoi/.",
+   "AEO_GEO": "Lead answers directly (≈100 km, QL1A, no expressway, day trip possible). Two tables + distance table, checklist, 5-question FAQ, inline citations (Law 36/2024/QH15 art. 25(3), UNESCO, Tuổi Trẻ News, operator transport guide)."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest, retrieved)"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/1438",
+    "checked": "2026-10-30",
+    "used_for": "Tràng An Landscape Complex facts (digest, retrieved)"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-30",
+    "used_for": "distances Hanoi to Vân Long / Bái Đính / Tràng An / Tam Cốc (digest, seen in search result)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Hà Nam and Nam Định merged into Ninh Bình (digest, retrieved)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/riding-vietnam-north-to-south-the-complete-motorbike-itinerary",
+    "checked": "2026-10-31",
+    "used_for": "QL1A route and expressway ban for motorbikes (seen in search result; not opened, not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Bike leaving Hanoi for Ninh Bình and breakdown assistance (unconfirmed, only a question to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/hanoi-a-pu-luong-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rejoindre Pù Luông à moto depuis Hanoi : distances selon l'itinéraire, passage par Mai Châu, étapes sur deux jours, risques de pluie",
+  "words_before": 1830,
+  "words_after": 1563,
+  "new_meta": {
+   "title": "De Hanoi à Pù Luông à moto : itinéraires, distances et étapes",
+   "description": "De Hanoi à Pù Luông à moto : de 130 à près de 200 km selon l’itinéraire, par Mai Châu ou plus direct, étapes sur deux jours, pluie et préparation.",
+   "h1": "De Hanoi à Pù Luông à moto : itinéraires, distances et étapes"
+  },
+  "evidence": {
+   "FACTS": "Seen in search result with per-URL attribution in the results list (linked inline in the distance table): Vinpearl ≈145 km shortest route and warning that the route has many dangerous passes and shouldn't be ridden in rain (landslides); Indochina Voyages 130-150 km; Vietnam Airlines ≈160 km via Mai Châu (another VA page ≈180 km, not used); Vinwonders ≈195 km via Mai Châu; Viettracks motorbike tour 215 km for day 1 Hanoi–Mai Châu–Pù Luông (stated without link as 'un opérateur'); Mai Châu–Pù Luông ≈34-35 km (Routard forum, LocalVietnam) to ≈46 km (Hanoi Eco Tour). Figures are mostly car estimates: the page says so and recommends 'retenez plutôt 150 à 200 km' (the search summary's own motorbike range) and 'mesurez votre tracé'. Hanoi–Mai Châu ≈140 km: seen in search result (vietnamtourism snippet). Mai Châu now in Phú Thọ (ex-Hòa Bình): route digest §1/§6; Pù Luông in Thanh Hóa (unchanged province per digest). Expressway ban: Law 36/2024/QH15 art. 25(3) (digest link); art. 12, 9, 20, 33: legal digest 1.14, 1.4, 1.17, 1.22, dated 30 Oct 2026. Removed: invented content (théiers, lacs, villages-rues, vans et minibus du jour, 'la méthode du site'). Shop: only questions to ask; NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: how far and by which route to ride from Hanoi to Pù Luông. OWNER of 'de Hanoi à Pù Luông à moto'. Differs from /nord-vietnam/hanoi-a-mai-chau-moto/ (first part of the route, linked once), /nord-vietnam/pu-luong-voyage-moto/ (destination, linked once), /nord-vietnam/pu-luong-moto-2-jours/ (stay itinerary, linked once) and the closest pages /nord-vietnam/hanoi-ninh-binh-pu-luong-itineraire-moto/ and /nord-vietnam/hanoi-mai-chau-pu-luong-moto-boucle/ (multi-stop trips).",
+   "CONTENT": "Full rewrite: distance table with sources, two itineraries, 2-day table, rain/passes checklist, Mai Châu vs Pù Luông, day-by-day, sleeping, on-site pointer, return, preparation, bike/papers, 5 FAQ. 1830 -> 1563 words.",
+   "META": "Title/description/H1 rewritten (61/146 chars); og tags identical. Title slightly above 60 chars (61), acceptable within the 45-65 guideline.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/hanoi-a-mai-chau-moto/, /nord-vietnam/pu-luong-voyage-moto/, /nord-vietnam/pu-luong-moto-2-jours/, /permis-securite/permis/ = 7/7 unique. Dropped /hanoi/jour-voyages-de-hanoi-by-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/.",
+   "AEO_GEO": "Lead answers directly (130 to ≈200 km, ≈145 km shortest, 160-195 km via Mai Châu, two days, rain risk, Thanh Hóa). Source table with inline citations, 2-day table, 3 checklists, 5-question FAQ."
+  },
+  "sources": [
+   {
+    "url": "https://vinpearl.com/en/hanoi-to-pu-luong-an-essential-guide-for-your-trip",
+    "checked": "2026-10-31",
+    "used_for": "≈145 km shortest route; warning about dangerous passes and rain (seen in search result, linked inline)"
+   },
+   {
+    "url": "https://indochinavoyages.com/?p=26605",
+    "checked": "2026-10-31",
+    "used_for": "130-150 km (seen in search result, linked inline)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/at/en/plan-book/travel/travel-guide/pu-luong-nature-reserve-vietnam",
+    "checked": "2026-10-31",
+    "used_for": "≈160 km via Mai Châu (seen in search result, linked inline)"
+   },
+   {
+    "url": "https://vinwonders.com/en/wonderpedia/news/ha-noi-to-pu-luong/",
+    "checked": "2026-10-31",
+    "used_for": "≈195 km via Mai Châu (seen in search result, linked inline)"
+   },
+   {
+    "url": "https://localvietnam.com/?p=24855",
+    "checked": "2026-10-31",
+    "used_for": "Mai Châu–Pù Luông ≈34-35 km (seen in search result, linked inline)"
+   },
+   {
+    "url": "https://hanoiecotour.com/?p=4919",
+    "checked": "2026-10-31",
+    "used_for": "≈46 km from Pù Luông's Don village (seen in search result, linked inline)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest, retrieved)"
+   }
+  ],
+  "owner_gaps": [
+   "Bike leaving Hanoi for Pù Luông and breakdown assistance (unconfirmed, only a question to ask).",
+   "A motorbike-specific sourced route and distance Hanoi–Pù Luông (current figures are mostly car estimates)."
   ]
  }
 ]

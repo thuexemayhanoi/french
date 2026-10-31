@@ -559,5 +559,35 @@
    "Whether a minor accident without injuries requires a police report in practice is not stated in the law text read; the page tells readers to ask the loueur and the local authorities."
   ],
   "words_after": 1559
+ },
+ {
+  "path": "permis-securite/location-moto-contrat-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelles clauses lire dans un contrat de location de moto au Vietnam avant de signer ?",
+  "words_before": 1747,
+  "new_meta": {
+   "title": "Contrat de location de moto au Vietnam : les clauses à lire",
+   "description": "Les points à vérifier avant de signer un contrat de location de moto au Vietnam : machine, durée, tarif, caution, conducteur, zone, panne, accident.",
+   "h1": "Contrat de location de moto au Vietnam : les clauses à lire avant de signer"
+  },
+  "evidence": {
+   "FACTS": "The old text described contract practices as facts ('un loueur sérieux le propose de lui-même', 'la plupart des contrats fixent un périmètre', 'la caution: espèces, empreinte, blocage'), none confirmed: rewritten as a grid of questions with generic wording ('la pratique varie ; certains loueurs demandent une caution, un document ou un passeport en dépôt ; demandez la règle applicable'). Prices: the six owner rows (semi-automatique, scooter automatique, électrique day 'selon le modèle, à confirmer', 50cc, Honda Vision, Honda Air Blade) taken from SEO-FACTS with the mandatory disclaimer and the precedence of the model row; no multiplication or conversion. Legal anchors from Law 36/2024/QH15: art. 9 (handing a vehicle to someone not meeting conditions), art. 25 (no expressway), art. 33 (passenger), art. 56 (registration certificate and compulsory insurance certificate). No deposit amount, no delivery, no assistance claimed for the shop; the shop is quoted only for NAP, hours and a question about out-of-hours return.",
+   "INTENT": "Main question: which clauses to read in a Vietnamese motorbike rental contract. OWNER of 'contrat de location de moto au Vietnam'. Differs from /location-moto-hanoi/3-mois-location-moto-hanoi/ (long rental), /prix-location/prix-location-moto-hanoi/ (prices) and /types-motos/location-moto-manuelle-hanoi/ (manual bike rental): this page is the clause grid and signing routine; accident/crevaison/documents/passenger pages are linked once each.",
+   "CONTENT": "Full rewrite: removed the 'carte / bords / flotte organisée' prose and the presentation of contract practices as facts. Added: 10-row clause table, machine/papers section, owner price table with disclaimer, money checklist, conducteur/passager/zone/usage list, imprévus checklist, restitution and signing advice, 5 FAQ. 1747 -> see words_after.",
+   "META": "Title kept (unique, 58 chars); H1 extended with 'avant de signer'; description lists the clauses without promising a model contract; eyebrow 'Location et sécurité'; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/documents-moto-location-vietnam/, /permis-securite/deux-personnes-moto-vietnam-law/, /permis-securite/crevaison-pneu-ha-giang-moto/ and /permis-securite/location-moto-accident-vietnam/ (7 total). TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (3 sentences, ten points, law references). 2 tables (clauses, owner prices), 3 lists, 5 FAQ. Law cited by article (text retrieved in digest)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 25, 33, 56: retrieved in the legal digest"
+   }
+  ],
+  "owner_gaps": [
+   "The shop's actual contract terms (deposit/caution amount and form, passport handling, delivery, insurance, assistance, geographic limits, late fees, return outside 9:00-21:00) are unconfirmed; the page tells readers to ask and to get answers in writing."
+  ],
+  "words_after": 1594
  }
 ]

@@ -538,5 +538,145 @@
   "owner_gaps": [
    "Whether the bike may do a 10-12 day trip to Sapa and Hà Giang, breakdown assistance in remote areas, insurance, total price: unconfirmed, written as questions."
   ]
+ },
+ {
+  "path": "nord-vietnam/mai-chau-moto-2-jours/index.html",
+  "role": "OWNER",
+  "primary_intent": "Plan de deux jours à Mai Châu à moto depuis Hanoi : route, nuit au village, vallée, retour",
+  "new_meta": {
+   "title": "Mai Châu à moto sur 2 jours : plan, nuit au village et retour",
+   "description": "Mai Châu à moto en 2 jours depuis Hanoi : 135 à 145 km environ, col de Thung Khe, nuit sur pilotis à Lác ou Pom Coong, vallée à pied ou à vélo, conseils.",
+   "h1": "Mai Châu à moto sur deux jours : plan, nuit au village et retour"
+  },
+  "words_before": 1916,
+  "words_after": 1579,
+  "evidence": {
+   "FACTS": "CORRECTED: the original placed Mai Châu in Hòa Bình and gave 'de l'ordre de cent cinquante kilomètres'; now Phú Thọ since 1 July 2025 (Tuổi Trẻ per G14 digest; stated in the lead without link) and about 135-145 km (139 km via QL6/Hòa Bình/Thung Khe, first 40-50 km busy, fog on the pass early morning: legendtravelgroup.com snippet, seen in a WebSearch result, page not opened). Lác (more developed) and Pom Coong (quieter) villages, White Thai families, stilt houses of wood and bamboo, brocade weaving, cycling: travel-guide snippets seen in search (localvietnam.com, hanoivoyage.com, north-vietnam.com); no price quoted (the 150,000 VND/night and workshop prices seen in snippets were deliberately NOT used as unconfirmed/dated). Expressway ban art. 25(3), headlight art. 20, IDP art. 57 (legal digest) with 'Vérifié le 30 octobre 2026'. A parallel voie rapide on the QL6 corridor stated only generally. Removed: 'vin de riz', 'danses des villages', 'vélos-charges', 'col aux parois claires' (unverified), 'prix de location' text, rental 'qui connaît l'itinéraire'. Pù Luông variant explicitly moved to 3+ days. Shop: address/hours 09:00/phone per SEO-FACTS; all policies as questions.",
+   "INTENT": "Main question: how to do Mai Châu in two days by motorbike from Hanoi. OWNER, /nord-vietnam/mai-chau-moto-2-jours/. Differs from /nord-vietnam/mai-chau-voyage-moto/ (valley overview, rewritten as destination guide, linked), /nord-vietnam/hanoi-a-mai-chau-moto/ (the road, linked), hanoi-moc-chau-moto-2-jours (Mộc Châu plateau) and sapa-moto-2-jours (Sapa, similarity 0.6 but a different destination): this article is the 2-day plan, night and valley morning.",
+   "CONTENT": "Rewritten: plan table, route and pass, night in Lác/Pom Coong, valley morning, return options, bag checklist, bike and papers, weather. Removed the generic 'week-end' prose and the thin FAQ.",
+   "META": "Title 61 chars, description 153 chars, H1 rewritten and aligned; Mai Chau -> Mai Châu; og tags identical.",
+   "LINKS": "Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped generic /location-moto-hanoi/; added hanoi-a-mai-chau-moto, mai-chau-voyage-moto, hanoi-mai-chau-pu-luong-moto-boucle. Parent hub present. Internal links in main: 6/7 (/nord-vietnam/, /nord-vietnam/hanoi-a-mai-chau-moto/, /nord-vietnam/hanoi-mai-chau-pu-luong-moto-boucle/, /nord-vietnam/mai-chau-voyage-moto/, /permis-securite/securite/, /types-motos/trail/).",
+   "AEO_GEO": "Direct answer in lead (2 days, distance, province, plan). One table, one checklist, 5-question FAQ (2 days, distance, where to sleep, same day, bike) not repeating the body; citations Luatvietnam, legendtravelgroup."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3), expressway ban for motorbikes (retrieved per G14 route digest); articles 20 and 57 per E-legal digest (full text retrieved at hcc.nghean.gov.vn)"
+   },
+   {
+    "url": "https://www.legendtravelgroup.com/a/how-to-ride-a-motorbike-to-mai-chau-from-hanoi-phu-tho-s-scenic-routes-eco-tips",
+    "checked": "2026-10-31",
+    "used_for": "Hanoi-Mai Châu about 139 km via QL6, busy first 40-50 km (seen in search result, page not opened)"
+   },
+   {
+    "url": "https://localvietnam.com/hoa-binh/mai-chau/mai-chau-homestays-resorts/",
+    "checked": "2026-10-31",
+    "used_for": "Lác and Pom Coong homestay villages, White Thai stilt houses (seen in search result snippet, page not opened, attribution likely but not certain)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "2025 provincial mergers (retrieved per G14 digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the bike may stay overnight at Mai Châu, early key handover, breakdown assistance, insurance, total price for 2 days: unconfirmed, written as questions."
+  ]
+ },
+ {
+  "path": "nord-vietnam/mai-chau-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Mai Châu à moto : présentation de la destination depuis Hanoi (vallée, route, durée, moto)",
+  "new_meta": {
+   "title": "Mai Châu à moto : la vallée des pilotis à 135 km de Hanoi",
+   "description": "Mai Châu à moto depuis Hanoi : vallée de rizières et villages thaïs sur pilotis, col de Thung Khe, saisons, durée du séjour, moto adaptée et points à vérifier.",
+   "h1": "Mai Châu à moto : la vallée des pilotis et l’escapade courte de Hanoi"
+  },
+  "words_before": 1932,
+  "words_after": 1594,
+  "evidence": {
+   "FACTS": "Original: province given as Hòa Bình (outdated), no distance, no sources; link to generic Hanoi day-trip pages. Now: Phú Thọ since 1 July 2025 (Tuổi Trẻ, retrieved per digest); Hanoi-Mai Châu 135-145 km (139 km via QL6/Hòa Bình/Thung Khe, busy first 40-50 km, early-morning pass fog: legendtravelgroup.com snippet seen in a WebSearch result, page not opened). Title says '135 km' as the lower bound of the sourced 135-145 km range, repeated as a range in the lead and description-free. Lác (more developed) and Pom Coong (quieter) villages, White Thai families, stilt houses, brocade weaving, cycling: travel-guide snippets seen in search results (localvietnam.com, hanoivoyage.com), no price quoted. Expressway ban art. 25(3), headlight art. 20, IDP art. 57 (legal digest) with 'Vérifié le 30 octobre 2026'. Pù Luông in Thanh Hóa (unchanged, digest). Village etiquette (shoes, noise, buying directly) is general cultural guidance, not a source-dependent claim. Removed: 'danses des villages', 'fêtes du calendrier local', 'graduation naturelle des débutants', the three template 'conseil de la page' paragraphs. Shop: address/hours 09:00/phone per SEO-FACTS; all policies as questions.",
+   "INTENT": "Main question: what is Mai Châu like by motorbike and how to organise it from Hanoi. OWNER, /nord-vietnam/mai-chau-voyage-moto/. Differs from /nord-vietnam/mai-chau-moto-2-jours/ (hour-by-hour 2-day plan), /nord-vietnam/hanoi-a-mai-chau-moto/ (the road) and hanoi-mai-chau-pu-luong-moto-boucle (loop with Pù Luông): this one is the destination overview with quick-reference table; closest pages moc-chau-voyage-moto (Mộc Châu plateau) is a different destination.",
+   "CONTENT": "Rewritten: valley and villages, road and pass, quick-reference table, village etiquette, length of stay, weather, bike, papers and questions. Removed all abstract prose.",
+   "META": "Title 57 chars, description 159 chars, H1 rewritten; Mai Chau -> Mai Châu; og tags identical.",
+   "LINKS": "Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/ and original /permis-securite/moto-montagne-pass-securite-vietnam/; dropped /hanoi/jour-voyages-de-hanoi-by-moto/, /hanoi/easy-moto-routes-hanoi-debutant/ and /permis-securite/moto-pluie-securite-vietnam/ (generic, to stay at the 7 cap); added hanoi-a-mai-chau-moto, mai-chau-moto-2-jours, hanoi-mai-chau-pu-luong-moto-boucle. Parent hub present, 7/7. Internal links in main: 7/7 (/nord-vietnam/, /nord-vietnam/hanoi-a-mai-chau-moto/, /nord-vietnam/hanoi-mai-chau-pu-luong-moto-boucle/, /nord-vietnam/mai-chau-moto-2-jours/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/securite/, /types-motos/trail/).",
+   "AEO_GEO": "Direct answer in lead (distance, route, province, format). Quick-reference table, 5-question FAQ (one day, distance, bike, activities, road) not repeating the body; citations Luatvietnam, Tuổi Trẻ, legendtravelgroup."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3), expressway ban for motorbikes (retrieved per G14 route digest); articles 20 and 57 per E-legal digest (full text retrieved at hcc.nghean.gov.vn)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "2025 provincial mergers (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://www.legendtravelgroup.com/a/how-to-ride-a-motorbike-to-mai-chau-from-hanoi-phu-tho-s-scenic-routes-eco-tips",
+    "checked": "2026-10-31",
+    "used_for": "Hanoi-Mai Châu about 139 km via QL6/Hòa Bình/Thung Khe, busy first 40-50 km (seen in search result, page not opened)"
+   },
+   {
+    "url": "https://localvietnam.com/hoa-binh/mai-chau/mai-chau-homestays-resorts/",
+    "checked": "2026-10-31",
+    "used_for": "Lác and Pom Coong homestay villages, White Thai stilt houses, brocade weaving (seen in search result snippet, page not opened, attribution likely but not certain)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the bike may stay overnight at Mai Châu, breakdown assistance, insurance, total price: unconfirmed, written as questions."
+  ]
+ },
+ {
+  "path": "nord-vietnam/meilleur-moto-cao-bang/index.html",
+  "role": "OWNER",
+  "primary_intent": "Semi-automatique ou trail pour Cao Bằng et Bản Giốc",
+  "new_meta": {
+   "title": "Semi-automatique ou trail pour Cao Bằng : quelle moto choisir ?",
+   "description": "Semi-automatique ou trail pour Cao Bằng et Bản Giốc : routes goudronnées mais étroites, col de Mã Phục, permis selon la cylindrée, critères de choix.",
+   "h1": "Semi-automatique ou trail : quelle moto pour Cao Bằng ?"
+  },
+  "words_before": 2050,
+  "words_after": 1583,
+  "evidence": {
+   "FACTS": "Removed unsourced and policy-like statements: 'dans les flottes de location elle représente l'offre la plus large', 'la trail de location, souvent une 250', 'tarif logiquement supérieur', 'se construit sur devis', 'Hanoi–Cao Bang de l'ordre de trois cents kilomètres', rental 'agence sérieuse', 'flottes concentrées à Hanoï'. No rate for any model; no fleet or stock claim; availability and model/cylindrée only as questions to the shop. Added sourced context: Cao Bằng province unchanged (Tuổi Trẻ, retrieved per digest); Bản Giốc about 80-85 km from Cao Bằng city (Lonely Planet seen in search result per digest and another guide snippet), road paved but narrow in places, livestock, fuel at Quảng Uyên about 40 km (one guide snippet, to confirm on site), Mã Phục pass 'lacets jugés dangereux par certains' (search snippet); Non Nước Cao Bằng UNESCO Global Geopark recognised 2018 (vietnamnet.vn and VnExpress, seen in search result). Licence: A1 up to 125 cm3/11 kW, A above, IDP of a 1968 Vienna Convention state (law 36/2024 art. 57, E-legal digest), 'Vérifié le 30 octobre 2026', and that the cylindrée of a given trail must be checked. Headlight art. 20, expressway art. 25(3). Generic category comparison (height, weight, ground clearance) is stated as general, with model-specific figures left to the shop. Shop: address/phone per SEO-FACTS; all policies as questions. Review flags are the licence statements and the question list.",
+   "INTENT": "Main question: semi-automatique or trail for Cao Bằng. OWNER (primary query 'semi-automatique ou trail'), /nord-vietnam/meilleur-moto-cao-bang/. Differs from the closest pages centre-sud-vietnam/meilleur-moto-dalat (0.5), meilleure-moto-pour-sapa (0.4) and meilleur-moto-ninh-binh (0.4) by Cao Bằng-specific terrain (Bản Giốc road, Mã Phục, geopark), the licence-by-cylindrée point and the questions to ask; it links the Hà Giang sibling for the scooter point.",
+   "CONTENT": "Fully rewritten: terrain facts, comparison table (6 criteria), profile checklist, common choice mistakes, bike test, on-site notes, questions for the shop, 5 FAQ. Removed the long generic semi-auto/trail essays.",
+   "META": "Title 63 chars, description 149 chars, H1 kept; Cao Bang -> Cao Bằng; og tags identical.",
+   "LINKS": "Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped /location-moto-hanoi/; added /types-motos/semi-automatique/, hanoi-a-cao-bang-moto, cao-bang-moto-boucle, meilleure-moto-pour-ha-giang-boucle. Parent hub present, 7/7. Internal links in main: 7/7 (/nord-vietnam/, /nord-vietnam/cao-bang-moto-boucle/, /nord-vietnam/hanoi-a-cao-bang-moto/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /permis-securite/securite/, /types-motos/semi-automatique/, /types-motos/trail/).",
+   "AEO_GEO": "Direct answer in lead (semi-automatique suffices for most, trail only if mastered, licence depends on cylindrée). One comparison table, 3 checklists, 5-question FAQ (Bản Giốc, trail comfort, licence, scooter, changing bike) not repeating the body; citations Tuổi Trẻ, Lonely Planet, VietNamNet, VnExpress."
+  },
+  "sources": [
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "2025 provincial mergers (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3), expressway ban for motorbikes (retrieved per G14 route digest); articles 20 and 57 per E-legal digest (full text retrieved at hcc.nghean.gov.vn)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Cao Bằng-Bản Giốc about 80 km (seen in search result per G14 digest)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/discovering-non-nuoc-cao-bang-geopark-687730.html",
+    "checked": "2026-10-31",
+    "used_for": "Non Nước Cao Bằng geopark (seen in search result)"
+   },
+   {
+    "url": "https://e.vnexpress.net/news/travel-life/bathe-yourself-in-the-glory-of-vietnam-s-new-global-geopark-3736727.html",
+    "checked": "2026-10-31",
+    "used_for": "Geopark recognised by UNESCO in 2018 (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Which semi-automatic and trail models are really available, their cylindrée/licence category, whether the bike may go to Cao Bằng, breakdown assistance, insurance, total price: unconfirmed, written as questions. No trail rate quoted (no owner row)."
+  ]
  }
 ]

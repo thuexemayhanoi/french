@@ -168,5 +168,175 @@
   "owner_gaps": [
    "Confirm bike may go to Ninh Bình, return time, breakdown assistance and insurance."
   ]
+ },
+ {
+  "path": "nord-vietnam/ninh-binh-moto-2-jours/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment passer deux jours à Ninh Bình à moto depuis Hanoi : quels sites, quelle nuit, quel second jour (Tràng An ou Cúc Phương) ?",
+  "words_before": 1991,
+  "words_after": 1635,
+  "new_meta": {
+   "title": "Ninh Binh à moto sur deux jours : Tam Cốc, Tràng An, Cúc Phương",
+   "description": "Ninh Binh à moto sur deux jours depuis Hanoi : Tam Cốc, Hang Múa, Tràng An ou parc de Cúc Phương, nuit sur place, routes de campagne et retour.",
+   "h1": "Ninh Binh à moto sur deux jours : Tam Cốc, Tràng An et Cúc Phương"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported or contradictory old statements: 'une grosse demi-journée de route' (driving time), 'environ une heure à moto' from Tam Cốc to Cúc Phương (driving time), 'La location… se règle à la journée avec caution' (deposit claim removed), 'riz brûlé servi avec de la truite' (unverified), 'pangolins' (kept out), 'petite trail … couvre tous les tracés' (trail rate/spec). Distances Hanoi–Tràng An/Tam Cốc ~100/104 km from G-route digest §4 (Oxalis guide, seen in search result). UNESCO 2014 mixed property from whc.unesco.org/en/list/1438. Cúc Phương: first national park, 1962 (en.wikipedia.org page appeared in results); 40–45 km from Ninh Bình city, 100–120 km from Hanoi, rescue centre since 1993 with Frankfurt Zoological Society, ~500 m past the gate: seen in search result (Wikivoyage, vietnamtourism.com, travel blog) given as 'd'après les guides'; park hours, fees and rules explicitly marked unconfirmed. Boat durations and ~500 Hang Múa steps: seen in search result (operator listings), flagged 'confirmez au guichet'. Expressway ban art. 25(3) and art. 20 lights as in other articles; province merger (Hà Nam, Nam Định) from Tuổi Trẻ News (retrieved). Local food (chèvre, cơm cháy) general knowledge, attributed to guides. No prices; shop questions only.",
+   "INTENT": "Main question: a two-day motorbike stay in Ninh Bình. OWNER. Differs from /nord-vietnam/ninh-binh-itineraire-moto/ (one day, Tràng An/Tam Cốc/Hang Múa choices; linked) and /nord-vietnam/ninh-binh-voyage-moto/ (overview; linked): this page gives day 1 (route, Tam Cốc, Hang Múa), a day 2 choice table (Tràng An + Hoa Lư vs Cúc Phương), night and parking, countryside roads.",
+   "CONTENT": "Full rewrite. Kept useful old ideas (Cúc Phương day, countryside roads, rain on laterite, night base choice, local food) and removed vague ones. New: short answer, day 1 steps, day 2 comparison table and two sub-sections, countryside roads, route/expressway, night/parking, bike and booking conditions, FAQ x5. Words 1991 -> 1635.",
+   "META": "Title 63 chars (old 'karstique, parc et campagnes' was unclear), description 143 chars, H1 aligned; og tags identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ninh-binh-itineraire-moto/, /nord-vietnam/ninh-binh-voyage-moto/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/, /contact/. Old /location-moto-hanoi/ dropped for the cap.",
+   "AEO_GEO": "Direct answer in first section with the real decision (day 2 choice); two ordered/table structures; FAQ 5; citations: UNESCO, Oxalis guide, Wikipedia (Cúc Phương), luatvietnam, Tuổi Trẻ."
+  },
+  "sources": [
+   {
+    "url": "https://whc.unesco.org/en/list/1438",
+    "checked": "2026-10-30",
+    "used_for": "Tràng An Landscape Complex (retrieved in digest)"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-30",
+    "used_for": "Distances Hanoi–Tràng An/Tam Cốc (seen in search result)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/C%C3%BAc_Ph%C6%B0%C6%A1ng_National_Park",
+    "checked": "2026-10-31",
+    "used_for": "Cúc Phương as Vietnam's first national park, 1962 (seen in search result)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Hà Nam and Nam Định merged into Ninh Bình"
+   }
+  ],
+  "owner_gaps": [
+   "Cúc Phương opening hours, fees and visit rules not verified; confirm bike may overnight in Ninh Bình, return time, breakdown assistance and insurance."
+  ]
+ },
+ {
+  "path": "nord-vietnam/ninh-binh-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que représente Ninh Bình à moto depuis Hanoi : sites, distances, durée utile, route sans autoroute, saisons, moto adaptée ?",
+  "words_before": 2117,
+  "words_after": 1635,
+  "new_meta": {
+   "title": "Ninh Binh à moto : karsts, rizières, sites et routes du delta",
+   "description": "Ninh Binh à moto depuis Hanoi : Tràng An, Tam Cốc, Hoa Lư, distances, route sans autoroute, saisons, choix de la moto et nombre de jours à prévoir.",
+   "h1": "Ninh Binh à moto : karsts, rizières et routes du delta"
+  },
+  "evidence": {
+   "FACTS": "Removed the 'discipline du site / aucun horaire inventé / promesse honnête' passages and the claim 'Ninh Binh se roule… mieux que partout ailleurs au nord'. UNESCO facts (2014, mixed, 6,226 ha, three components, karst 200 m, 30,000 years) from whc.unesco.org/en/list/1438 (G-route digest §4, retrieved). Distances (Tràng An 100, Tam Cốc 104, Bái Đính 97, Vân Long 86 km) from the Oxalis guide (seen in search result). Cúc Phương 100–120 km and first national park 1962: seen in search result (Wikipedia page link used). Hang Múa ~500 steps / ~2 km from Tam Cốc: seen in search result, 'd'après les guides'. Province merger (Hà Nam, Nam Định) from Tuổi Trẻ News (retrieved). Expressway ban art. 25(3), headlight art. 20 as elsewhere (E-legal digest). Rice colours kept generic (no harvest dates). 50cc statement kept qualitative, no rates. Shop conditions only as questions; no prices.",
+   "INTENT": "Main question: what does a motorbike trip to Ninh Bình involve (overview)? OWNER. Differs from /nord-vietnam/ninh-binh-itineraire-moto/ (one day plan; linked), /nord-vietnam/ninh-binh-moto-2-jours/ (two days; linked), /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/ (route; linked) and the hub /nord-vietnam/ninh-binh/ (linked): this page is the overview of sites with a table, days needed, weather, lodging/parking and respectful visiting.",
+   "CONTENT": "Full rewrite; removed abstract geography prose ('karsts, fleuves, rizières' in three words, 'la carte postale change de face'). New: short answer, UNESCO landscape, sites table, days checklist, route, weather, bike, lodging/parking, respect, pre-booking questions, FAQ x5. Words 2117 -> 1635.",
+   "META": "Title 61 chars, description 147 chars (old one 171 with 'sans inventer un horaire ni un tarif'), H1 simplified; og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ninh-binh/ (hub), /nord-vietnam/ninh-binh-itineraire-moto/, /nord-vietnam/ninh-binh-moto-2-jours/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/. Dropped /permis-securite/moto-pluie-securite-vietnam/ and /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/ for the cap.",
+   "AEO_GEO": "Direct answer first (distance, days, expressway); sites table; days checklist; FAQ 5; citations UNESCO, Oxalis, Wikipedia, luatvietnam, Tuổi Trẻ."
+  },
+  "sources": [
+   {
+    "url": "https://whc.unesco.org/en/list/1438",
+    "checked": "2026-10-30",
+    "used_for": "Tràng An Landscape Complex (retrieved in digest)"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-30",
+    "used_for": "Distances (seen in search result)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/C%C3%BAc_Ph%C6%B0%C6%A1ng_National_Park",
+    "checked": "2026-10-31",
+    "used_for": "Cúc Phương first national park 1962 (seen in search result)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Province merger"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Ninh Bình, return conditions, breakdown assistance and insurance."
+  ]
+ },
+ {
+  "path": "nord-vietnam/pu-luong-moto-2-jours/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser deux jours à Pù Luông à moto : ce qu'un séjour court permet, quoi faire chaque jour, quand repartir ?",
+  "words_before": 1850,
+  "words_after": 1546,
+  "new_meta": {
+   "title": "Pù Luông à moto sur deux jours : terrasses, villages et sentiers",
+   "description": "Pù Luông à moto sur deux jours : arrivée, nuit chez l’habitant, marche dans les terrasses, roues à eau, retour, et ce qu’un séjour court permet vraiment.",
+   "h1": "Pù Luông à moto sur deux jours : terrasses, villages et sentiers"
+  },
+  "evidence": {
+   "FACTS": "Old text made specific claims without sources: 'axe principal… province de Hoa Binh… bifurcation vers le sud', 'lacets… ponts suspendus', 'les paiements électroniques restent rares', 'eau chaude selon les établissements', 'loueur sérieux préfère une machine rendue propre' (shop policy), 'comparatif des loueurs'. All removed or reduced to generic advice; shop conditions only as questions. Approach routes described only as 'deux approches décrites par les guides' without distances (G digest: no sourced Hanoi distance). Mai Châu now Phú Thọ per Tuổi Trẻ News (retrieved). Villages (Kho Mường, Hiêu) and waterwheels (Bản Công, Chiềng Lâu) and Sept–Oct as most consistent peak: seen in search result (travel/operator snippets), phrased 'd'après les guides'/'les sources disent'. Expressway ban art. 25(3) and headlights art. 20 from digests. No prices.",
+   "INTENT": "Main question: what do two days at Pù Luông by motorbike look like. OWNER. Differs from /nord-vietnam/pu-luong-voyage-moto/ (overview/seasons/roads; linked) and /nord-vietnam/hanoi-a-pu-luong-moto/ (approach; linked): this page is the 2-day plan with an honest table of the two meanings of 'deux jours', a rainy-weather plan and packing.",
+   "CONTENT": "Full rewrite. New: short answer, formats table, day 1, day 2 ordered list, on-site checklist, packing, bad-weather plan, bike and booking conditions, FAQ x5. Words 1850 -> 1546.",
+   "META": "Title 64 chars, description 153 chars, H1 aligned; og identical; 'Pu Luong' replaced by 'Pù Luông' to match the hub.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/pu-luong-voyage-moto/, /nord-vietnam/hanoi-a-pu-luong-moto/, /nord-vietnam/mai-chau-moto-2-jours/ (kept), /contact/. Dropped /location-moto-hanoi/ (cap).",
+   "AEO_GEO": "Direct answer first with the honest 'compter sur place' framing; formats table; ordered day 2 list; checklist; FAQ 5; citations Tuổi Trẻ News, luatvietnam."
+  },
+  "sources": [
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Province merger (Mai Châu now Phú Thọ)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Thanh Hóa for two nights, return date, breakdown assistance and insurance."
+  ]
+ },
+ {
+  "path": "nord-vietnam/pu-luong-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Ce que l'on voit à Pù Luông à moto, quand y aller, comment rouler dans la réserve et avec quelle moto ?",
+  "words_before": 1859,
+  "words_after": 1535,
+  "new_meta": {
+   "title": "Pù Luông à moto : terrasses de riz, villages et roues à eau",
+   "description": "Pù Luông à moto depuis Hanoi : terrasses de riz et leurs saisons, roues à eau, villages, routes étroites de la réserve et choix de la moto.",
+   "h1": "Pù Luông à moto : la réserve, les terrasses et les villages"
+  },
+  "evidence": {
+   "FACTS": "Removed 'la page n'invente aucune adresse / tarif inventé / méthode du site / papiers du permis' wording and the 'location prise avec l'inspection'. Seasonal facts from search results (seen in search result): sources disagree on months (one says June and September, another late May–June and Sept–Oct, another March–April/July–Aug green); the page states the disagreement and says Sept–Oct is the most consistent peak; ~1-month water-filled period from VietnamNet (https://vietnamnet.vn/en/pu-luong-s-mirror-like-terraces-enchant-international-travelers-2483862.html, title matches, snippet only). Waterwheels (cọn nước) as working irrigation in Bản Công commune and Chiềng Lâu village; Kho Mường and Hiêu villages as trek stops; Kho Mường cave 'largest': operator/travel-blog snippets, phrased 'd'après les guides'. Thái and Mường communities: general knowledge. Thanh Hóa unchanged and Mai Châu now Phú Thọ per G-route digest §1/§6 (Tuổi Trẻ News retrieved). No distance printed (digest: no sourced Hanoi distance for Mai Châu/Pù Luông area). Expressway ban art. 25(3) and headlight art. 20 from E-legal/G digests. No prices; shop conditions only as questions.",
+   "INTENT": "Main question: what is a motorbike trip to Pù Luông like (overview). OWNER. Differs from /nord-vietnam/pu-luong-moto-2-jours/ (day-by-day plan; linked) and /nord-vietnam/hanoi-a-pu-luong-moto/ (approach; linked): this page covers sights, seasons table, roads, lodging/walking and bike choice.",
+   "CONTENT": "Full rewrite of mannered 'se lit en trois signatures / roues à eau aux images du pays d'avant' prose. New: short answer, sights checklist, seasons table with the source disagreement, roads checklist, duration, lodging/walking/respect, bike choice (trail link), booking questions, FAQ x5. Words 1859 -> 1535.",
+   "META": "Title 59 chars, description 139 chars, H1 rewritten; og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/pu-luong-moto-2-jours/, /nord-vietnam/hanoi-a-pu-luong-moto/, /nord-vietnam/mai-chau-voyage-moto/, /contact/. Dropped /hanoi/jour-voyages-de-hanoi-by-moto/ and /permis-securite/moto-montagne-pass-securite-vietnam/ for the cap.",
+   "AEO_GEO": "Direct answer first; seasons table; two checklists; FAQ 5; citations VietNamNet, Tuổi Trẻ News."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnet.vn/en/pu-luong-s-mirror-like-terraces-enchant-international-travelers-2483862.html",
+    "checked": "2026-10-31",
+    "used_for": "Water-filled terraces period (~1 month) described as most picturesque; seen in search result"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Province merger (Mai Châu now Phú Thọ; Thanh Hóa unchanged)"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Thanh Hóa and stay several nights, return conditions, breakdown assistance and insurance. Pù Luông terrace calendar not officially sourced."
+  ]
  }
 ]

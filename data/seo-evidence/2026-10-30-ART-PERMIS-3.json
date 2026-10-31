@@ -132,5 +132,143 @@
    "description": "Panneaux d’interdiction et de danger, sens uniques, priorités et ronds-points : comment lire la signalisation à Hanoi à moto d’après la loi 36/2024.",
    "h1": "Hanoi à moto : panneaux, ronds-points et sens uniques"
   }
+ },
+ {
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Quels papiers (identité, conduite, véhicule) garder sur soi à moto au Vietnam et que faire du passeport (hôtel, contrôle, garantie de location, perte). Group owner: location-moto-hanoi/passeport-location-moto-hanoi/ ('laisser son passeport location moto hanoi papiers à garder'). Documented angle: papiers d'identité à garder sur soi et démarches (hébergement, contrôles), pas la politique de garantie d'un loueur.",
+  "words_before": 1895,
+  "evidence": {
+   "FACTS": "Law 36/2024/QH15 art. 56 (documents the driver must carry: registration certificate, licence matching vehicle, inspection certificate where required, owner's compulsory civil-liability insurance certificate) from E-legal-digest (full text retrieved); licence = national + IDP per art. 57 (digest). 'Vérifié le 30 octobre 2026' stated. WebSearch 2026-10-31 (seen in search result only): accommodation establishments declare foreign guests incl. passport number (thuvienphapluat.vn hỏi đáp page). Whether a foreigner must carry the passport while riding was NOT confirmed: stated as unverified and not asserted. Passport-as-deposit is presented as a commercial practice of some loueurs, not a legal requirement and not the shop's policy; shop deposit/document policy explicitly to confirm before booking (phone/Zalo/WhatsApp 0334 699 969 from SEO-FACTS). No deposit amount, no refund timing. Removed the old text's market claims ('la plupart des comptoirs sérieux acceptent l'arrangement', 'un refus ferme se lit comme un signal sur la flotte'), certified-copy advice and unsourced loss procedure details. France embassy in Hanoi named (general, no URL).",
+   "INTENT": "Main question: which papers to keep on you and what to do with the passport when riding in Vietnam. Differs from the owner location-moto-hanoi/passeport-location-moto-hanoi (whether to leave a passport/deposit with the shop) by covering hotel declaration, road checks, copies/backups and loss; deposit comparison delegated by one natural link to the owner.",
+   "CONTENT": "Full rewrite: removed the repeated 'dix minutes de lecture' and 'liasse' abstractions, mannered passages and a FAQ that repeated the body. New sections: three sets of papers (table); hotel and passport declaration; road check; passport as guarantee (questions to ask only); copies and photos checklist; storing papers while riding; loss or theft; FAQ x5.",
+   "META": "Title 'Passeport et location de moto au Vietnam : papiers à garder' (was '…: garder ses papiers'); H1 'Passeport et location de moto au Vietnam : quels papiers garder sur soi'; description rewritten (153 chars); og tags identical; eyebrow 'Papiers · Passeport'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Added: /location-moto-hanoi/passeport-location-moto-hanoi/ (group owner), /permis-securite/permis/, /permis-securite/police-moto-vietnam-touriste/. 6/7 unique.",
+   "AEO_GEO": "Lead answers directly (which papers the law requires, what the passport is for, decide the guarantee before signing). Table of papers by purpose and storage, checklist of copies, FAQ x5. Two inline citations (law text, accommodation declaration summary)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 56 documents to carry (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/nguoi-nuoc-ngoai-muon-cu-tru-o-viet-nam-thi-lam-the-nao-270825.html",
+    "checked": "2026-10-31",
+    "used_for": "Accommodation establishments declare foreign guests, incl. passport number (seen in search result, snippet only)"
+   }
+  ],
+  "owner_gaps": [
+   "Shop policy on passport/deposit/copy at rental: not asserted, to confirm before booking.",
+   "Legal duty for foreigners to carry the passport on the road: not verified."
+  ],
+  "path": "permis-securite/passeport-location-moto-vietnam/index.html",
+  "words_after": 1635,
+  "new_meta": {
+   "title": "Passeport et location de moto au Vietnam : papiers à garder",
+   "description": "Passeport, permis, copies et photos : quels papiers garder sur soi à moto au Vietnam, ce que demandent hôtels et contrôles, et que faire en cas de perte.",
+   "h1": "Passeport et location de moto au Vietnam : quels papiers garder sur soi"
+  }
+ },
+ {
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Peut-on conduire une moto au Vietnam avec son permis étranger (national seul ou avec permis international) sans le convertir ? Group owner: permis-securite/conversion-permis-conduire-etranger-vietnam/ ('convertir permis étranger vietnam'). Documented angle: utiliser directement un permis étranger ou un permis international, sans conversion.",
+  "words_before": 2536,
+  "evidence": {
+   "FACTS": "Law 36/2024/QH15 art. 57(6)(8) (valid licences: IDP of a 1968-Convention state + national licence matching vehicle; bilateral agreements; treaties), art. 56 and 59 (xe gắn máy exemption, age 16), art. 9 (driving without required licence, handing vehicle to ineligible person), art. 34 categories A1/A: all from E-legal-digest (full text retrieved), 'Vérifié le 30 octobre 2026' stated. Convention 1968: Vietnam acceded 20 Aug 2014 (UN treaty page retrieved per digest); Canada/US/Australia not in participant table: wording per digest. France-Diplomatie and Belgian FPS statements (seen in search result per digest) stay within the digest wording. French 'B + 7 h' 125 cm3 equivalence stated as not verified. Decree 168/2024/NĐ-CP referenced without amounts. REMOVED unsupported claims of the old text: the ASEAN direct-recognition exception (WebSearch 2026-10-31 could not confirm it; stated now as unverified claim of some websites), 'les trois régimes', 'visa d'au moins trois mois' for conversion, claims about insurer behaviour (now 'peut… selon votre contrat'), 'un conducteur sans titre peut voir toutes les couvertures remises en cause', assertion that the shop lends without checking. Bilateral example: Vietnam–South Korea mutual recognition announced July 2023, seen in search result (baochinhphu.vn title/snippet only), explicitly not applicable to French/Belgian/Swiss/Canadian travellers. Shop conditions to be confirmed before booking (0334 699 969).",
+   "INTENT": "Main question: does a foreign licence work directly (without conversion) in Vietnam. Differs from the owner (conversion procedure for residents) and from touriste-conversion-permis-conduire-vietnam by focusing on direct use via national + IDP; conversion is one link. Also linked: permis-conduire-international-vietnam-moto (IDP details), idp-ou-translated (translation), permis hub.",
+   "CONTENT": "Full rewrite: removed the 'trois régimes' structure, repeated rhetorical sentences, the ASEAN section and the FAQ that repeated the body. New sections: the cases recognised by art. 57 (table); national + IDP; countries not party to the 1968 Convention (Canada, US, Australia) and bilateral cases; category match (xe gắn máy, A1, A); translation vs IDP; consequences of an invalid title; pre-rental checklist; FAQ x5.",
+   "META": "Title kept ('Permis de conduire étranger : valable directement au Vietnam ?'), H1 kept; description rewritten (157 chars) to remove the ASEAN promise; og tags identical; eyebrow 'Permis · Sans conversion'. Title/H1/description differ from data/seo-cluster-matrix.json only through the description.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Added or kept: /permis-securite/permis/, /permis-securite/permis-conduire-international-vietnam-moto/, /permis-securite/idp-ou-translated-permis-conduire-vietnam/, /permis-securite/conversion-permis-conduire-etranger-vietnam/ (group owner). Dropped /location-moto-hanoi/location-moto-hanoi-pour-tourists/, /location-moto-hanoi/location-moto-hanoi-vietnam/, /types-motos/50cc-moto-vietnam-debutant/. 7/7 unique.",
+   "AEO_GEO": "Lead answers the H1 directly with the legal basis and caveats. Table of recognised cases, checklist of 6 checks, FAQ x5 (French licence alone, IDP without national, Canadian/US licence, 50cc, translation). Inline citations: law text, UN treaty page, France-Diplomatie, Belgian FPS, Vietnamese government agency (Korea example)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 9, 34, 56, 57, 59 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "used_for": "1968 Convention: Vietnam accession 20 Aug 2014; participants (retrieved per legal digest)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "used_for": "IDP with French licence and vehicle insurance (seen in search result per digest)"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Belgian licence must be valid for category A for motorcycles over 50 cc (seen in search result per digest)"
+   },
+   {
+    "url": "https://en.baochinhphu.vn/viet-nam-south-korea-mutually-accept-driving-licenses-111230717162041176.htm",
+    "checked": "2026-10-31",
+    "used_for": "Example of bilateral recognition (Vietnam–South Korea, 2023), seen in search result only"
+   }
+  ],
+  "owner_gaps": [
+   "List of bilateral agreements/treaties covering foreign licences not verified (art. 57(6)(c)(d)); ASEAN direct-recognition claim unconfirmed.",
+   "Which documents the shop requires to hand over a motorbike: to confirm before booking."
+  ],
+  "path": "permis-securite/permis-conduire-etranger-valide-vietnam/index.html",
+  "words_after": 1660,
+  "new_meta": {
+   "title": "Permis de conduire étranger : valable directement au Vietnam ?",
+   "description": "Permis national seul ou avec permis international : ce que prévoit la loi 36/2024 pour conduire une moto au Vietnam sans conversion, selon catégorie et pays.",
+   "h1": "Permis de conduire étranger : peut-on l’utiliser directement au Vietnam ?"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Quand un permis de conduire international permet-il de conduire une moto au Vietnam (conditions, Convention de 1968, catégorie, validité, obtention). Owner of 'permis de conduire international et moto au Vietnam'. Closest: idp-ou-translated-permis-conduire-vietnam (translation vs IDP, owner of 'permis international ou traduction'), touriste-conversion-permis-conduire-vietnam (0.31); differs by being the conditions/validity/obtention guide.",
+  "words_before": 2473,
+  "evidence": {
+   "FACTS": "From E-legal-digest: Law 36/2024/QH15 art. 57(6)(b),(8)(a)-(d) (IDP of a 1968-Convention state + national licence matching vehicle, uniform model, max 3 years and within national licence validity, carry both; Vietnam-issued IDP for residents), art. 59 (ages 16/18), art. 9 (no handing over a vehicle to an ineligible person) - full text retrieved; UN Treaty Collection XI-B-19: Vietnam accession 20 Aug 2014; France, Belgium, Luxembourg, Switzerland, Monaco, Morocco, Senegal, Tunisia are parties; Canada, US, Australia not in the table (retrieved). France IDP via ANTS, 3 years or remaining licence validity (France Titres reply on Services Publics +, seen in search result). France-Diplomatie summary and Belgian FPS statement (seen in search result) kept to the digest wording. 'Vérifié le 30 octobre 2026' stated. Canada/Québec phrasing per digest; no fine for that case. 1949 Geneva-model for non-party states stated as 'souvent', as a general remark. B + 7 h 125 cm3 equivalence stated as not verified. No fine amounts; Decree 168/2024/NĐ-CP referenced only. Removed unsupported old claims: 'la plupart… un permis international est une traduction officielle', delays 'jours à semaines', application documents list (photo, ID, form), 'laminated copy', 'accident → insurance complications' stated as fact (now 'peut refuser… selon votre contrat'), and the 50cc 'traitement de faveur' blanket wording (now delegated to the 50cc guide with 16 years/conditions). Shop conditions to confirm before booking; NAP/hours from SEO-FACTS.",
+   "INTENT": "Main question: when is an IDP valid for a motorbike in Vietnam. Distinct from permis-conduire-etranger-valide-vietnam (direct use of a foreign licence/no conversion) and idp-ou-translated (translation vs IDP) which are linked once each.",
+   "CONTENT": "Full rewrite: removed the 'document le plus mal compris', 'sésame', 'la carte/le guichet' abstractions, ASEAN-free; new sections: law (art. 57); conditions table; what does not replace an IDP (checklist); category; obtaining it (France via ANTS, other countries via national authority); carrying documents; rental implications; five-point checklist; FAQ x5.",
+   "META": "Title kept ('Permis international : quand permet-il de conduire au Vietnam ?'), H1 kept; description rewritten (149 chars); og tags identical; eyebrow 'Permis · Permis international'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/permis/, /permis-securite/idp-ou-translated-permis-conduire-vietnam/, /permis-securite/permis-conduire-etranger-valide-vietnam/, /permis-securite/50cc-scooter-license-vietnam/. Dropped /location-moto-hanoi/location-moto-hanoi-pour-tourists/, /location-moto-hanoi/location-moto-hanoi-vietnam/, /types-motos/50cc-moto-vietnam-debutant/. 7/7 unique.",
+   "AEO_GEO": "Lead gives the direct answer in 3 sentences. Table of validity conditions, checklist of what does not replace an IDP, five-point checklist, FAQ x5 (alone, online purchase, duration, all motorbikes, Canadian IDP). Inline citations: law text, UN treaty page, France Titres/Services Publics +, France-Diplomatie, Belgian FPS."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 57, 59 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "used_for": "1968 Convention parties and Vietnam accession (retrieved per legal digest)"
+   },
+   {
+    "url": "https://www.plus.transformation.gouv.fr/experiences/4529463_permis-international-refuse",
+    "checked": "2026-10-30",
+    "used_for": "French IDP issued for 3 years or remaining licence validity, online via ANTS (seen in search result per digest)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "used_for": "IDP with French licence, vehicle insured (seen in search result per digest)"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Belgian licence category A for motorcycles over 50 cc (seen in search result per digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Shop document requirements at handover not confirmed.",
+   "Procedure for IDP in Belgium/Switzerland/Luxembourg not verified."
+  ],
+  "path": "permis-securite/permis-conduire-international-vietnam-moto/index.html",
+  "words_after": 1723,
+  "new_meta": {
+   "title": "Permis international : quand permet-il de conduire au Vietnam ?",
+   "description": "Permis international et moto au Vietnam : conditions de l’article 57 de la loi 36/2024, Convention de 1968, catégorie, validité, obtention en France.",
+   "h1": "Permis de conduire international et moto au Vietnam : quand est-il valable ?"
+  }
  }
 ]
