@@ -1,0 +1,336 @@
+[
+ {
+  "path": "nord-vietnam/index.html",
+  "new_meta": {
+   "title": "Road trip moto Nord Vietnam : itinéraires depuis Hanoi",
+   "description": "Ha Giang, Sapa, Ninh Binh, Ha Long ou Cao Bang : comparez les routes du Nord du Vietnam à moto depuis Hanoi, les jours à prévoir, les saisons et les règles.",
+   "h1": "Road trip moto dans le Nord du Vietnam"
+  },
+  "words": 3218,
+  "words_excl_guide_list": 2437,
+  "evidence": {
+   "FACTS": "Shop identity only (Thuê xe máy Nguyễn Hà, Long Biên near Bến xe Gia Lâm); no prices quoted (links /prix-location/); out-of-Hanoi use, one-way return, breakdown help, insurance and vehicle papers presented as questions to confirm before booking (single checklist).",
+   "INTENT": "primary intent 'road trip moto nord vietnam' (FND-036 pillar); owner URL /nord-vietnam/; distinct from the 4 destination pages (comparison/decision level) and from /hanoi/excursions-moto/ (day trips) and /centre-sud-vietnam/.",
+   "CONTENT": "Entire article body replaced: direct answer; 8-row route comparison table (post-2025 province, sourced distance or explicit 'pas de chiffre sourcé', days to plan, profile); days planning; seasons (rain Jun–Aug, cold Nov–Mar, Ô Quy Hồ snow, Hạ Long storm suspensions, Mù Cang Chải rice); expressway ban art. 25(3) + VOV case; vehicle choice; licence/border permit/owner questions; 2025 mergers; 10-item checklist; 6 FAQ; all 49 children in 7 h3 groups (guide-list); context links. Removed duplicated 'Marge de sécurité supplémentaire' filler after </article> and all SEO-process boilerplate.",
+   "META": "Title 54 chars, description 156 chars; og:title/og:description synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required /nord-vietnam/ha-giang/, /sapa/, /ninh-binh/, /ha-long/, /types-motos/ present; plus types (trail, semi-auto, scooter, 50cc), /permis-securite/ + permis + autoroute + pluie + brouillard + scooter-cols, /prix-location/, /contact/, /hanoi/excursions-moto/, /centre-sud-vietnam/; 49/49 child articles linked with H1-based anchors.",
+   "AEO_GEO": "Direct 4-sentence answer, comparison table with caption, 6 question-form FAQ, dated legal reference, sourced distances with inline citations."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3): motorcycles/mopeds not allowed on expressways; art. 88: in force 1 Jan 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026: 11 foreign riders fined VND 5 million each on Tuyên Quang–Phú Thọ expressway despite valid licences/visas",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "12 June 2025 merger table: Hà Giang→Tuyên Quang, Yên Bái→Lào Cai, Bắc Kạn→Thái Nguyên, Vĩnh Phúc+Hòa Bình→Phú Thọ, Hải Dương→Hải Phòng, Hà Nam+Nam Định→Ninh Bình; Quảng Ninh/Cao Bằng/Lạng Sơn/Thanh Hóa unchanged; operation from 1 July 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Hà Giang loop ~370 km, 4 legs (≈90/100/100/85 km), Mã Pì Lèng ≈20 km, Mèo Vạc ≈15 km from pass, Bắc Sum ≈7 km, 4 days most common (3–10), very rainy Jun–Aug, cold Nov–Mar, increased police presence, guided tour advice without licence, night buses from Hanoi",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ha_Giang_Loop",
+    "checked": "2026-10-30",
+    "used_for": "Loop ~350 km, QL4C backbone, Happiness Road 1959–1965, Đồng Văn Karst Plateau UNESCO Global Geopark, easy rider definition, steep/narrow roads, fog and rain",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Cao Bằng→Bản Giốc ≈80 km",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened; figure came through press coverage of the list"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi→Vân Long ≈86 km, Bái Đính ≈97, Tràng An ≈100, Tam Cốc ≈104 km",
+    "retrieval": "seen in search result by the F-hanoi review (2026-10-29); not opened; consistent with /hanoi/excursions-moto/"
+   },
+   {
+    "url": "https://sunparadiseland.com/en/tin-tuc/how-many-km-is-it-from-hanoi-to-ha-long-and-what-is-the-fastest-route-12507",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi→Hạ Long ≈150 km by expressway, ≈165 km by old QL18 via Bắc Ninh–Uông Bí (narrow, heavy traffic)",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened; snippet attribution likely"
+   },
+   {
+    "url": "https://sunparadiseland.com/SunParadiseLandSaPa/tin-tuc/ha-noi-cach-sa-pa-bao-nhieu-km-thong-tin-chi-tiet-nhat-26798",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi→Sa Pa ≈315–320 km via Nội Bài–Lào Cai expressway (closed to motorbikes)",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened; snippet attribution likely"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+    "checked": "2026-10-30",
+    "used_for": "Ô Quy Hồ ~50 km, ~2,000 m; snow possible in cold season",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened"
+   },
+   {
+    "url": "https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+    "checked": "2026-10-30",
+    "used_for": "Hạ Long Bay management board suspends boat operations/overnight stays before storms",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/mu-cang-chai-rice-terraces-the-complete-guide-for-2026",
+    "checked": "2026-10-30",
+    "used_for": "Mù Cang Chải ripe rice roughly mid-September to early October",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened; dates vary by source"
+   }
+  ],
+  "owner_gaps": [
+   "Owner: may a bike rented at Long Biên leave Hanoi, and to which destinations (Ninh Bình, Hạ Long/Cát Bà incl. boat crossing, Sapa, Hà Giang, Cao Bằng)? (existing O-items on out-of-Hanoi use)",
+   "Owner: one-way return or transport of the bike by bus (Hà Giang/Sapa) — unconfirmed (O02/O05)",
+   "Owner: breakdown help far from Hanoi, insurance and what it covers — unconfirmed",
+   "Owner: which models (semi-auto, trail) are actually available for mountain trips"
+  ]
+ },
+ {
+  "path": "nord-vietnam/ha-giang/index.html",
+  "new_meta": {
+   "title": "Boucle de Ha Giang à moto : étapes, permis et saisons",
+   "description": "Boucle de Ha Giang à moto : étapes de Quản Bạ à Mèo Vạc, nombre de jours, autorisation de zone frontalière, easy rider ou conduite seule, moto et sécurité.",
+   "h1": "Boucle de Ha Giang à moto"
+  },
+  "words": 2188,
+  "evidence": {
+   "FACTS": "No prices or shop policies asserted; bike-to-Hà-Giang permission, bus transport, return elsewhere, breakdown help and insurance framed as questions to the owner. Fine figure from Lonely Planet not repeated; no fee quoted for the border permit.",
+   "INTENT": "primary 'ha giang à moto' / 'boucle ha giang moto' (FND-037); owner URL /nord-vietnam/ha-giang/; distinct from child guides (3-day, 4-day, budget, best bike) by being the decision/overview page linking them.",
+   "CONTENT": "Body replaced: summary; 4-leg stage table (LP distances, highlights, cautions); QL4C/Happiness Road/geopark context; days; road conditions; seasons; border-area permit (Time Out Jun 2026, unofficial 1 June 2026 claim flagged); licence and police checks; self-ride vs easy rider table; semi-auto/trail/scooter; owner questions; 8-item safety checklist; 6 FAQ; 8 child guides; context links. Mentions July 2025 merger into Tuyên Quang. Filler after </article> removed.",
+   "META": "Title 53, description 155; og synced; H1 changed 'Ha Giang Loop à moto' → 'Boucle de Ha Giang à moto' (French). Matrix sync required for seo_title, meta_description, h1 (also breadcrumb name).",
+   "LINKS": "Required /types-motos/trail/, /types-motos/semi-automatique/, /permis-securite/permis/, /permis-securite/securite/ present; parent /nord-vietnam/, sibling /nord-vietnam/sapa/, safety guides (cols, brouillard, crevaison Hà Giang, scooter-cols), /contact/; 6 Hà Giang children + 2 combined routes.",
+   "AEO_GEO": "Direct answer with distance/days, stage table, comparison table, 6 FAQ (distance, days, permit, no licence, bike, province)."
+  },
+  "sources": [
+   {
+    "url": "https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Hà Giang loop ~370 km, 4 legs (≈90/100/100/85 km), Mã Pì Lèng ≈20 km, Mèo Vạc ≈15 km from pass, Bắc Sum ≈7 km, 4 days most common (3–10), very rainy Jun–Aug, cold Nov–Mar, increased police presence, guided tour advice without licence, night buses from Hanoi",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Ha_Giang_Loop",
+    "checked": "2026-10-30",
+    "used_for": "Loop ~350 km, QL4C backbone, Happiness Road 1959–1965, Đồng Văn Karst Plateau UNESCO Global Geopark, easy rider definition, steep/narrow roads, fog and rain",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "Border-area permit (Quản Bạ, Yên Minh, Đồng Văn, Mèo Vạc; via agency/homestay or local immigration/police); 1 June 2026 'new rule' not backed by official notice; separate from licence",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30); article dated 14 June 2026; no official government text found"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "12 June 2025 merger table: Hà Giang→Tuyên Quang, Yên Bái→Lào Cai, Bắc Kạn→Thái Nguyên, Vĩnh Phúc+Hòa Bình→Phú Thọ, Hải Dương→Hải Phòng, Hà Nam+Nam Định→Ninh Bình; Quảng Ninh/Cao Bằng/Lạng Sơn/Thanh Hóa unchanged; operation from 1 July 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   }
+  ],
+  "owner_gaps": [
+   "Owner: may a bike rented at Long Biên leave Hanoi, and to which destinations (Ninh Bình, Hạ Long/Cát Bà incl. boat crossing, Sapa, Hà Giang, Cao Bằng)? (existing O-items on out-of-Hanoi use)",
+   "Owner: one-way return or transport of the bike by bus (Hà Giang/Sapa) — unconfirmed (O02/O05)",
+   "Owner: breakdown help far from Hanoi, insurance and what it covers — unconfirmed",
+   "Owner: which models (semi-auto, trail) are actually available for mountain trips"
+  ]
+ },
+ {
+  "path": "nord-vietnam/sapa/index.html",
+  "new_meta": {
+   "title": "Sapa à moto depuis Hanoi : routes, col Ô Quy Hồ et météo",
+   "description": "Rejoindre Sapa à moto depuis Hanoi sans autoroute : routes nationales, col d’Ô Quy Hồ, brouillard et froid, choix du deux-roues, randonnée et stationnement.",
+   "h1": "Sapa à moto : route et préparation"
+  },
+  "words": 1833,
+  "evidence": {
+   "FACTS": "No prices or shop policies; Sapa trip permission, bus transport, breakdown help, insurance and return framed as questions. Local rental in Sapa explicitly marked as another provider.",
+   "INTENT": "primary 'sapa à moto' / 'hanoi sapa moto' (FND-038); owner URL /nord-vietnam/sapa/; distinct from children (1-day, 2-day, best bike, Hanoi–Sapa route) as overview/decision page.",
+   "CONTENT": "Body replaced: direct answer (expressway ~315–320 km forbidden, national roads longer); Lào Cai/Yên Bái merger with seat in ex-Yên Bái; route options table; navigation and VOV enforcement case; Ô Quy Hồ (~50 km, ~2,000 m, snow possible, post-reform location); weather; days; trekking + parking; vehicle choice; papers and owner questions; checklist; 6 FAQ; 9 child guides; context links. Filler after </article> removed.",
+   "META": "Title 56, description 156; og synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required /types-motos/semi-automatique/, /types-motos/trail/, /permis-securite/, /nord-vietnam/ present; plus /nord-vietnam/ha-giang/, /types-motos/, fog/rain/scooter-cols guides, /contact/; 5 Sapa + 2 Mù Cang Chải + Thác Bà + Hanoi–Sapa–Hà Giang children.",
+   "AEO_GEO": "Direct answer, route-options table, 6 FAQ, sourced distances and pass data inline."
+  },
+  "sources": [
+   {
+    "url": "https://sunparadiseland.com/SunParadiseLandSaPa/tin-tuc/ha-noi-cach-sa-pa-bao-nhieu-km-thong-tin-chi-tiet-nhat-26798",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi→Sa Pa ≈315–320 km via Nội Bài–Lào Cai expressway (closed to motorbikes)",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened; snippet attribution likely"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3): motorcycles/mopeds not allowed on expressways; art. 88: in force 1 Jan 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026: 11 foreign riders fined VND 5 million each on Tuyên Quang–Phú Thọ expressway despite valid licences/visas",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "12 June 2025 merger table: Hà Giang→Tuyên Quang, Yên Bái→Lào Cai, Bắc Kạn→Thái Nguyên, Vĩnh Phúc+Hòa Bình→Phú Thọ, Hải Dương→Hải Phòng, Hà Nam+Nam Định→Ninh Bình; Quảng Ninh/Cao Bằng/Lạng Sơn/Thanh Hóa unchanged; operation from 1 July 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://vietnamnet.vn/en/vietnam-finalizes-names-capitals-for-34-merged-provinces-and-cities-2390857.html",
+    "checked": "2026-10-30",
+    "used_for": "New Lào Cai province seat in present-day Yên Bái",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+    "checked": "2026-10-30",
+    "used_for": "Ô Quy Hồ ~50 km, ~2,000 m; snow possible in cold season",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened"
+   },
+   {
+    "url": "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-deo-o-quy-ho-mot-trong-tu-dai-dinh-deo-cua-viet-nam-500",
+    "checked": "2026-10-30",
+    "used_for": "Ô Quy Hồ on QL4D between Bình Lư commune (Lai Châu) and Sa Pa ward (Lào Cai), post-reform naming",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/mu-cang-chai-rice-terraces-the-complete-guide-for-2026",
+    "checked": "2026-10-30",
+    "used_for": "Mù Cang Chải ripe rice roughly mid-September to early October",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened; dates vary by source"
+   }
+  ],
+  "owner_gaps": [
+   "Owner: may a bike rented at Long Biên leave Hanoi, and to which destinations (Ninh Bình, Hạ Long/Cát Bà incl. boat crossing, Sapa, Hà Giang, Cao Bằng)? (existing O-items on out-of-Hanoi use)",
+   "Owner: one-way return or transport of the bike by bus (Hà Giang/Sapa) — unconfirmed (O02/O05)",
+   "Owner: breakdown help far from Hanoi, insurance and what it covers — unconfirmed",
+   "Owner: which models (semi-auto, trail) are actually available for mountain trips"
+  ]
+ },
+ {
+  "path": "nord-vietnam/ninh-binh/index.html",
+  "new_meta": {
+   "title": "Ninh Binh à moto depuis Hanoi : route, Tràng An et Tam Cốc",
+   "description": "Ninh Binh à moto depuis Hanoi : route nationale sans autoroute, Tràng An, Tam Cốc, Hoa Lư, Bái Đính et Hang Múa, journée ou nuit sur place, scooter ou 50cc.",
+   "h1": "Ninh Binh à moto depuis Hanoi"
+  },
+  "words": 1659,
+  "evidence": {
+   "FACTS": "No prices quoted (link to /prix-location/); out-of-Hanoi permission, breakdown help, insurance and return time framed as questions.",
+   "INTENT": "primary 'ninh binh à moto' / 'hanoi ninh binh moto' (FND-039); owner URL /nord-vietnam/ninh-binh/; distinct from children (1-day, 2-day, best bike, route) and from /hanoi/excursions-moto/ (which only summarises Ninh Bình).",
+   "CONTENT": "Body replaced: direct answer; 2025 merger (Hà Nam + Nam Định); UNESCO Tràng An facts; sites table with Oxalis distances; route by QL1 vs forbidden expressway (art. 25), truck-safety advice; day vs overnight table; scooter/semi-auto/50cc; on-site boats, parking, small roads, heat; owner questions; checklist; 6 FAQ; 6 child guides; context links. Filler after </article> removed. Unsourced details (kings' names, Hang Múa stair counts) deliberately left out.",
+   "META": "Title 58, description 156; og synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required /types-motos/scooter-automatique/, /types-motos/semi-automatique/, /types-motos/50cc/, /nord-vietnam/ present; plus /nord-vietnam/ha-long/, /hanoi/excursions-moto/, /permis-securite/ + autoroute guide, /prix-location/, /contact/; 5 Ninh Bình children + Hanoi–Ninh Bình–Pù Luông.",
+   "AEO_GEO": "Direct answer, 2 tables, 6 FAQ, UNESCO citation."
+  },
+  "sources": [
+   {
+    "url": "https://whc.unesco.org/en/list/1438",
+    "checked": "2026-10-30",
+    "used_for": "Tràng An Landscape Complex: mixed WH 2014, 3 protected areas incl. Hoa Lư ancient capital and Tràng An–Tam Cốc–Bích Động, towers up to 200 m, >30,000 years occupation, sampans, Bái Đính in buffer zone",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi→Vân Long ≈86 km, Bái Đính ≈97, Tràng An ≈100, Tam Cốc ≈104 km",
+    "retrieval": "seen in search result by the F-hanoi review (2026-10-29); not opened; consistent with /hanoi/excursions-moto/"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3): motorcycles/mopeds not allowed on expressways; art. 88: in force 1 Jan 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "12 June 2025 merger table: Hà Giang→Tuyên Quang, Yên Bái→Lào Cai, Bắc Kạn→Thái Nguyên, Vĩnh Phúc+Hòa Bình→Phú Thọ, Hải Dương→Hải Phòng, Hà Nam+Nam Định→Ninh Bình; Quảng Ninh/Cao Bằng/Lạng Sơn/Thanh Hóa unchanged; operation from 1 July 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   }
+  ],
+  "owner_gaps": [
+   "Owner: may a bike rented at Long Biên leave Hanoi, and to which destinations (Ninh Bình, Hạ Long/Cát Bà incl. boat crossing, Sapa, Hà Giang, Cao Bằng)? (existing O-items on out-of-Hanoi use)",
+   "Owner: one-way return or transport of the bike by bus (Hà Giang/Sapa) — unconfirmed (O02/O05)",
+   "Owner: breakdown help far from Hanoi, insurance and what it covers — unconfirmed"
+  ]
+ },
+ {
+  "path": "nord-vietnam/ha-long/index.html",
+  "new_meta": {
+   "title": "De Hanoi à Ha Long à moto : route, sécurité et croisière",
+   "description": "Faut-il rejoindre Ha Long à moto depuis Hanoi ? Nationale 18 sans autoroute, camions, quais et stationnement, météo de la baie, Cát Bà et alternatives en bus.",
+   "h1": "Hanoi à Ha Long à moto"
+  },
+  "words": 1712,
+  "evidence": {
+   "FACTS": "No prices; trip permission, multi-night parking during a cruise, boat crossing with the bike, breakdown help and insurance framed as questions. Ferry schedules to Cát Bà not stated (unsourced).",
+   "INTENT": "primary 'hanoi ha long à moto' (FND-040); owner URL /nord-vietnam/ha-long/; answers 'is it worth riding vs bus'; distinct from children (route, 2 days, Cát Bà, Quảng Ninh).",
+   "CONTENT": "Body replaced: direct answer (worth it only to explore coast/Cát Bà); Hải Dương→Hải Phòng merger; route table (expressway ~150 km forbidden, QL18 ~165 km); Long Biên east-bank start; VOV case; truck/dust/fatigue safety; UNESCO bay facts; Tuần Châu and parking during cruises; storm suspensions (Wipha Jul 2025); Cát Bà/Lan Hạ (UNESCO 2023, national park, langur); moto vs bus table; vehicle + owner questions; checklist; 6 FAQ; 7 child guides; context links. Filler after </article> removed.",
+   "META": "Title 56, description 158; og synced; H1 unchanged. Matrix sync required for seo_title + meta_description.",
+   "LINKS": "Required /nord-vietnam/, /nord-vietnam/ninh-binh/, /types-motos/, /permis-securite/securite/ present; plus /permis-securite/ + autoroute + pluie guides, /contact/; 3 Hạ Long + 2 Cát Bà + Hải Phòng + Quảng Ninh children.",
+   "AEO_GEO": "Direct answer to 'worth riding?', 2 tables, 6 FAQ, UNESCO and storm-suspension citations."
+  },
+  "sources": [
+   {
+    "url": "https://sunparadiseland.com/en/tin-tuc/how-many-km-is-it-from-hanoi-to-ha-long-and-what-is-the-fastest-route-12507",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi→Hạ Long ≈150 km by expressway, ≈165 km by old QL18 via Bắc Ninh–Uông Bí (narrow, heavy traffic)",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened; snippet attribution likely"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3): motorcycles/mopeds not allowed on expressways; art. 88: in force 1 Jan 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026: 11 foreign riders fined VND 5 million each on Tuyên Quang–Phú Thọ expressway despite valid licences/visas",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "12 June 2025 merger table: Hà Giang→Tuyên Quang, Yên Bái→Lào Cai, Bắc Kạn→Thái Nguyên, Vĩnh Phúc+Hòa Bình→Phú Thọ, Hải Dương→Hải Phòng, Hà Nam+Nam Định→Ninh Bình; Quảng Ninh/Cao Bằng/Lạng Sơn/Thanh Hóa unchanged; operation from 1 July 2025",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/672",
+    "checked": "2026-10-30",
+    "used_for": "Ha Long Bay – Cat Ba Archipelago: 1994, 2000, 2023 extension; 65,650 ha; 1,133 islands; Quảng Ninh + Hải Phòng; Cát Bà national park; Cát Bà langur critically endangered",
+    "retrieval": "retrieved (TinyFish fetch_content, 2026-10-30)"
+   },
+   {
+    "url": "https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+    "checked": "2026-10-30",
+    "used_for": "Hạ Long Bay management board suspends boat operations/overnight stays before storms",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened"
+   },
+   {
+    "url": "https://news.tuoitre.vn/ha-long-bay-tourist-boats-banned-from-departing-as-typhoon-wipha-nears-103250720163544717.htm",
+    "checked": "2026-10-30",
+    "used_for": "July 2025 departures banned ahead of Typhoon Wipha",
+    "retrieval": "seen in search result (WebSearch, 2026-10-30); page not opened"
+   }
+  ],
+  "owner_gaps": [
+   "Owner: may a bike rented at Long Biên leave Hanoi, and to which destinations (Ninh Bình, Hạ Long/Cát Bà incl. boat crossing, Sapa, Hà Giang, Cao Bằng)? (existing O-items on out-of-Hanoi use)",
+   "Owner: one-way return or transport of the bike by bus (Hà Giang/Sapa) — unconfirmed (O02/O05)",
+   "Owner: breakdown help far from Hanoi, insurance and what it covers — unconfirmed"
+  ]
+ }
+]

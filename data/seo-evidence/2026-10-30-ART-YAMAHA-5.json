@@ -290,5 +290,233 @@
    "Whether a WR155R can be proposed and at what rate",
    "Deposit/ID, damage terms off-road, protective gear supplied, insurance (asked, not stated)"
   ]
+ },
+ {
+  "path": "yamaha/yamaha-wr155r-ou-honda-ct125-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "WR155R ou CT125 : quelle prise en main selon le profil du conducteur (débutant, gabarit, transmission, ergonomie) ?",
+  "new_meta": {
+   "title": "WR155R ou CT125 : quelle prise en main selon votre profil ?",
+   "description": "Yamaha WR155R ou Honda CT125 : transmission, hauteur de selle, poids et ergonomie selon que vous êtes débutant, petit gabarit ou motard confirmé.",
+   "h1": "Yamaha WR155R ou Honda CT125 : quelle machine à boîte louer à Hanoi ?"
+  },
+  "words_before": 1602,
+  "words_after": 1625,
+  "evidence": {
+   "FACTS": "Removed the abstract « deux philosophies / grilles » prose, the generic budget section and unsourced claims. Specs only from manufacturer pages seen in search results: Yamaha Motor Vietnam WR155R page (seat 880 mm, 134 kg wet, wheelbase 1 430 mm, ground clearance 245 mm) and the Honda New Zealand CT125 Hunter page (seat 800 mm, kerb weight 120 kg, tank 5,3 L) with an explicit caveat that it is another market and that the weights are not measured the same way (the ~14 kg gap is labelled indicative). CT125 clutchless semi-automatic follows the Yamaha/Honda hubs; its cylinder capacity is not stated (A1 only if the papers show ≤125 cm3). No Vietnamese-spec CT125 numbers invented; seat-width/luggage claims for the CT125 removed and replaced by « regardez sur l’exemplaire ». Licence: Law 36/2024/QH15 A1/A split (chinhphu portal, consulté 2026-10-30); foreign-licence validity left to the permis guide. Price: no rate for either bike and no category range applies; availability and total to be requested.",
+   "INTENT": "Main question: quelle prise en main choisir entre WR155R et CT125 selon le profil. DISTINCT_ANGLE of CMP-CT125-WR155R, owner honda/honda-ct125-ou-yamaha-wr155r-location/ (linked once, natural anchor; general comparison delegated). Differs from types-motos/wr155r-ou-ct125-vietnam-voyage (trip) and from the owner by being limited to handling by rider profile.",
+   "CONTENT": "Full rewrite. New: manufacturer data table with market/weight caveats, profile table, clutch vs semi-automatic, seat-height and weight test incl. lifting a fallen bike, ergonomics, typical handling errors of each, programme as last criterion, licence and price statement, three-question decision, FAQ (5). Words 1602 -> 1625.",
+   "META": "Title « WR155R ou CT125 : quelle prise en main selon votre profil ? » (59 chars); description 145 chars; H1 kept (matches hub anchor); eyebrow « WR155R ou CT125 · Prise en main »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-ct125-ou-yamaha-wr155r-location/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/trail-aventure/, /yamaha/yamaha-wr155r-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /yamaha/yamaha-wr155r-location-hanoi/, /honda/honda-ct125-ou-yamaha-wr155r-location/ (owner, once); removed /location-moto-hanoi/location-moto-depot-hanoi/, /types-motos/trail/ and /yamaha/yamaha-wr155r-vietnam-voyage-moto/; added /yamaha/trail-aventure/ and /permis-securite/permis/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 2 tables, 2 checklists, 1 ordered list; FAQ of 5 distinct short answers (beginner, clutchless, lowest, Ha Giang, price); 4 external citations rel=noopener (Yamaha WR155R, Honda NZ CT125, chinhphu licence classes) plus the lead data."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/wr155r-b3mf/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: WR155R seat height 880 mm, wet weight 134 kg, wheelbase 1 430 mm, minimum ground clearance 245 mm"
+   },
+   {
+    "url": "https://www.hondamotorbikes.co.nz/ct125-hunter",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Honda NZ CT125 Hunter seat height 800 mm, kerb weight 120 kg, fuel capacity 5,3 L (New Zealand market, not Vietnam spec)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "CT125 availability, version and cylinder capacity on its papers, and Vietnamese-spec figures",
+   "WR155R availability and rate; CT125 rate",
+   "Deposit/ID, damage terms (not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-wr155r-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Combien coûte la location d’une Yamaha WR155R à Hanoi, et comment préparer la demande de prix ?",
+  "new_meta": {
+   "title": "Yamaha WR155R à Hanoi : pas de tarif publié, comment budgéter",
+   "description": "Aucun tarif n’est publié pour la Yamaha WR155R : ce qui fait varier le total d’une trail, la demande à envoyer et les points à faire confirmer.",
+   "h1": "Combien coûte la location d'un Yamaha WR155R à Hanoi ?"
+  },
+  "words_before": 1548,
+  "words_after": 1565,
+  "evidence": {
+   "FACTS": "Removed the « méthode du périmètre égal », « le dépôt : la ligne la plus lourde » and the unsourced claim that the WR155R is rare. Prices: no WR155R owner row and no category range applies (stated explicitly, consistent with the trail hub); the two other-category ranges (semi-automatic 150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND; automatic scooter 150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) appear only in a comparison block labelled « ni plancher ni plafond pour la WR155R », with the exact disclaimer. No multiplication, package, discount or € conversion. Availability, deposit/documents, damage off-road, breakdown cover, kilometre/zone limits, late return and what is included are phrased as questions to confirm in writing or as generic « certains loueurs » practice. Specs mentioned only as in the hub (155 cm3, seat 880 mm) from the Yamaha Motor Vietnam WR155R page seen in search results. Travel insurance: reader told to check their own policy; no insurance claimed by the shop. NAP and hours as in SEO-FACTS.",
+   "INTENT": "Main question: combien coûte la location d’une WR155R. OWNER of « combien coûte la location d'un Yamaha WR155R à Hanoi ». Differs from yamaha-sirius-prix-location-hanoi (semi-automatic range exists) by having no price at all and being a how-to-ask guide; from yamaha-wr155r-location-hanoi (rider profile).",
+   "CONTENT": "Full rewrite. New: why there is no benchmark, factors that may change the total (as questions), request message, when to send it, offer-checklist table, comparison with other categories (clearly not applicable), costs outside the rent (gear, fuel, insurance), three typical requests, budget mistakes, when a trail is justified, FAQ (5). Words 1548 -> 1565.",
+   "META": "Title « Yamaha WR155R à Hanoi : pas de tarif publié, comment budgéter » (61 chars, explicitly promises no amount); description 143 chars; H1 kept (primary query); eyebrow « Yamaha WR155R · Budget »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /prix-location/mois/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/trail-aventure/, /yamaha/yamaha-wr155r-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /prix-location/mois/; removed /location-moto-hanoi/1-mois-location-moto-hanoi/, /location-moto-hanoi/location-moto-depot-hanoi/ and /prix-location/jour/; added /yamaha/yamaha-wr155r-location-hanoi/, /yamaha/trail-aventure/ and /yamaha/semi-automatiques/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead (no published rate, ask availability then total); 2 tables, 5 checklists; FAQ of 5 distinct short answers (daily price, reference range, fall off-road, deposit, week/month); contact links Zalo/WhatsApp only (no external citation needed)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/wr155r-b3mf/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: WR155R seat height 880 mm (155 cm3 class as in the trail hub); only the model description is used in this article"
+   }
+  ],
+  "owner_gaps": [
+   "WR155R availability and any rate",
+   "Deposit/documents, damage terms off-road, kilometre/zone limits, inclusions (all asked, none stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-wr155r-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut la Yamaha WR155R sur les routes de montagne du Nord pour un road trip (atouts, limites, compétences) ?",
+  "new_meta": {
+   "title": "WR155R sur les routes de montagne du Nord : atouts et limites",
+   "description": "La Yamaha WR155R en road trip dans le Nord du Vietnam : ce qu’elle apporte hors goudron, ses limites, compétences à maîtriser et réflexes avant de partir.",
+   "h1": "Yamaha WR155R sur les routes de montagne : que vaut-il pour un road trip ?"
+  },
+  "words_before": 1551,
+  "words_after": 1591,
+  "evidence": {
+   "FACTS": "Removed the abstract prose (« le terrain : ce qu’une route de montagne vietnamienne exige », « road trip en confiance ») and the claim that the NVX voyage page is a reference. Specs only from the Yamaha Motor Vietnam WR155R page seen in search results (seat 880 mm, 134 kg wet, wheelbase 1 430 mm, ground clearance 245 mm; 155 cm3 as in the trail hub). The 155 vs 110 cm3 « plus de réserve » statement is qualitative. Route statements (Ha Giang main loop tarred, detours and post-rain sections, Sapa wider roads, closures, rain, fog, winter cold) follow the rewritten trail hub; no distances, drive times or altitudes. Skills list reworded from the hub; protective gear and offline maps are general advice. Licence: category A for 155 cm3 under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30), foreign-licence validity and travel insurance left to the reader. Price: no WR155R rate and no category range applies; availability, off-road damage terms and breakdown handling to be confirmed. Previous « assistance / formule voyage » promises removed.",
+   "INTENT": "Main question: que vaut la WR155R en road trip de montagne. OWNER of « yamaha WR155R sur les routes de montagne ». Differs from yamaha-nvx-vietnam-voyage-moto (0,67, scooter) and yamaha-sirius-vietnam-voyage-moto (semi-automatic baseline) by dealing with a clutch trail, off-road advantages and required skills.",
+   "CONTENT": "Full rewrite. New: Yamaha data table with mountain consequences, advantages and limits checklists, routes where a trail is justified, trail vs semi-automatic table by terrain, skills, safety reflexes, licence/insurance/budget, FAQ (5). Words 1551 -> 1591.",
+   "META": "Title « WR155R sur les routes de montagne du Nord : atouts et limites » (61 chars); description 154 chars; H1 kept (matches hub anchor); eyebrow « Yamaha WR155R · Road trip et montagne »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/ha-giang/, /permis-securite/permis/, /permis-securite/securite/, /prix-location/, /types-motos/, /yamaha/, /yamaha/trail-aventure/. Kept /yamaha/, /types-motos/, /prix-location/, /permis-securite/securite/; replaced /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /types-motos/trail/ and /yamaha/yamaha-wr155r-location-hanoi/ by /nord-vietnam/ha-giang/, /yamaha/trail-aventure/ and /permis-securite/permis/ (the WR155R rental guide is named in the closing text without a link, to respect the 7-link cap).",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 2 tables, 5 checklists; FAQ of 5 distinct short answers (Ha Giang, duo, off-road skills, small riders, price); 2 external citations rel=noopener (Yamaha WR155R, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/wr155r-b3mf/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: WR155R seat height 880 mm, wet weight 134 kg, wheelbase 1 430 mm, minimum ground clearance 245 mm"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "WR155R availability and rate",
+   "Off-road damage terms, breakdown handling, deposit/ID (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-xmax-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut un Yamaha XMAX dans la circulation de Hanoi (poids, largeur, stationnement, coffre) ?",
+  "new_meta": {
+   "title": "Yamaha XMAX dans Hanoi : poids, largeur et stationnement en ville",
+   "description": "Conduire un Yamaha XMAX dans Hanoi : à l’aise sur les grands axes et les ponts, plus encombrant dans les ruelles. Coffre, stationnement, permis A et limites.",
+   "h1": "Conduire un Yamaha XMAX dans Hanoi : sensations et praticité en ville"
+  },
+  "words_before": 2009,
+  "words_after": 1609,
+  "evidence": {
+   "FACTS": "Removed the mannered prose (« la position de conduite change le regard sur la ville », « sensations, limites et bilan honnête ») and any unsourced figures. Specs only from the Yamaha Motor Vietnam XMAX 300 page seen in search results (292 cm3, 20,6 kW, 13 L tank, 44,9 L storage, ABS both wheels, smart key, USB-C); weight and seat height deliberately not stated (sit on it, push it). The « nearly twice the NMAX 24 L » comparison reuses the NMAX figure given in the rewritten yamaha/scooters hub; I did not open the NMAX page myself. Licence: 292 cm3 > 125 cm3, category A under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30), foreign-licence validity left to /permis-securite/permis/. Price: no XMAX rate; the automatic-scooter range is explicitly said not to apply automatically; availability and total to be confirmed. Smart-key behaviour and damage assessment at return phrased as questions. Traffic advice is general good practice, no rules or fines quoted; the speed figures 20–30 km/h were removed.",
+   "INTENT": "Main question: que vaut le XMAX dans Hanoi. OWNER of « conduire un Yamaha XMAX dans Hanoi ». Differs from yamaha-nmax-hanoi-ville (lighter big scooter, linked once) and yamaha-neo-s / latte hanoi-ville (compact scooters) by dealing with weight, width and the grands axes vs ruelles split of a 292 cm3 scooter.",
+   "CONTENT": "Full rewrite. New: Yamaha data table with city consequences, dense traffic, manoeuvres and parking checklist, grands axes and bridges vs centre, rain and night, passenger, typical day, who can choose it (table), checks on the machine, licence and budget, FAQ (5). Words 2009 -> 1609.",
+   "META": "Title « Yamaha XMAX dans Hanoi : poids, largeur et stationnement en ville » (65 chars); description 157 chars; H1 kept (matches hub anchor); eyebrow « Yamaha XMAX · Conduite en ville »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-nmax-hanoi-ville/, /yamaha/yamaha-xmax-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /permis-securite/permis/, /yamaha/yamaha-xmax-location-hanoi/; removed /location-moto-hanoi/; added /yamaha/scooters/ and /yamaha/yamaha-nmax-hanoi-ville/.",
+   "AEO_GEO": "Direct answer in the 4-sentence lead; 2 tables, 3 checklists, 1 ordered list; FAQ of 5 distinct short answers (too big, parking, helmet in storage, beginner, licence); 2 external citations rel=noopener (Yamaha XMAX 300 page, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/xmax-bkau/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha Motor Vietnam « XMAX 300 - Thông số và giá bán »: 292 cc single-cylinder liquid-cooled, 20,6 kW, fuel tank 13 L, underseat storage 44,9 L, ABS on both wheels, USB-C port, smart key (seat height and weight not in the snippet, so not stated)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "XMAX availability (and year/version) and rate",
+   "Anti-theft supplied, damage assessment at return, deposit/ID (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-xmax-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "À qui convient la location d’un Yamaha XMAX à Hanoi ?",
+  "new_meta": {
+   "title": "Yamaha XMAX en location à Hanoi : à qui convient-il ?",
+   "description": "Le Yamaha XMAX 300 est un grand scooter de route : profils qui en profitent, permis de catégorie A, contrôles avant départ et questions à poser avant de louer.",
+   "h1": "Yamaha XMAX en location à Hanoi : à qui ce grand scooter convient-il ?"
+  },
+  "words_before": 1854,
+  "words_after": 1563,
+  "evidence": {
+   "FACTS": "Removed the mannered framing (« une autre ligue », « à son aise », « point non négociable ») and the unsourced shop statements. Specs only from the Yamaha Motor Vietnam XMAX 300 page seen in search results (292 cm3, 20,6 kW, 13 L, 44,9 L storage, ABS both wheels, smart key, USB-C); weight/seat height not stated. The 24 L NMAX comparison and the family table reuse the rewritten yamaha/scooters hub; I did not open the NMAX page myself. Licence: category A for 292 cm3 under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30); foreign-licence validity and travel insurance left to the reader with the permis guide; no blanket statement. Price: no XMAX rate; the automatic-scooter range stated not to apply automatically; no figure given; availability, deposit/documents, breakdown cover, leaving the city and duration formulas stated as unconfirmed questions. NAP and hours as in SEO-FACTS.",
+   "INTENT": "Main question: à qui convient le XMAX en location. OWNER of « yamaha XMAX en location à Hanoi ». Differs from yamaha-xmax-hanoi-ville (city riding), yamaha-xmax-prix-location-hanoi (quote reading), yamaha-xmax-vietnam-voyage-moto (trips) and from yamaha-nmax-location-hanoi (lighter big scooter) by covering the profile, licence gate, family comparison and how to request.",
+   "CONTENT": "Full rewrite. New: model overview with Yamaha data, licence gate, profile checklist, family table with NMAX/ADV350 pointers, handling at Hanoi, luggage and passenger, common mistakes, duration formulas, pre-signing checklist, how to request with NAP, FAQ (5). Words 1854 -> 1563.",
+   "META": "Title « Yamaha XMAX en location à Hanoi : à qui convient-il ? » (53 chars); description 159 chars; H1 kept (matches hub anchor); eyebrow « Yamaha XMAX · Location à Hanoi »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-xmax-ou-honda-adv350-location/, /yamaha/yamaha-xmax-prix-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /permis-securite/permis/; removed /location-moto-hanoi/, /prix-location/mois/ and /yamaha/yamaha-nmax-location-hanoi/; added /yamaha/scooters/, /yamaha/yamaha-xmax-prix-location-hanoi/ and /yamaha/yamaha-xmax-ou-honda-adv350-location/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 2 tables, 6 checklists; FAQ of 5 distinct short answers (availability, licence, beginner, XMAX vs NMAX, trips); 2 external citations rel=noopener (Yamaha XMAX 300 page, chinhphu licence classes) plus Zalo/WhatsApp contact links."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/xmax-bkau/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha Motor Vietnam « XMAX 300 - Thông số và giá bán »: 292 cc single-cylinder liquid-cooled, 20,6 kW, fuel tank 13 L, underseat storage 44,9 L, ABS on both wheels, USB-C port, smart key (seat height and weight not in the snippet, so not stated)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "XMAX availability (year/version) and any rate",
+   "Deposit/ID, breakdown cover, leaving the city, helmets/anti-theft supplied (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-xmax-ou-honda-adv350-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Yamaha XMAX ou Honda ADV350 : lequel louer à Hanoi (route ou aventure, disponibilité, budget) ?",
+  "new_meta": {
+   "title": "Yamaha XMAX ou Honda ADV350 : quel grand scooter louer ?",
+   "description": "Yamaha XMAX 300 ou Honda ADV350 à Hanoi : données annoncées, style route ou aventure, disponibilité à vérifier, permis A et questions pour comparer deux devis.",
+   "h1": "Yamaha XMAX ou Honda ADV350 : le duel des grands scooters en location"
+  },
+  "words_before": 1944,
+  "words_after": 1593,
+  "evidence": {
+   "FACTS": "Removed the abstract « deux philosophies » prose and « la méthode du devis comparatif », and every spec that was not sourced. XMAX data only from the Yamaha Motor Vietnam XMAX 300 page seen in search results. ADV350: only the 330 cm3 « adventure-styled scooter » description from the EICMA 2021 presentation (Paultan, seen in search result) and the Znews report that imported units were brought in by a private shop with no official sale announced (seen in search result, undated/older); no Honda Vietnam spec page was found, so no seat height, tank, storage, weight, price or features are stated and the article says so (« non repris ici »). Provenance, papers, maintenance and spare parts of an ADV350 are phrased as questions. Alternatives (NMAX, SH125i, Grande, LEAD) named without numbers; SH125i licence category flagged « à vérifier sur les papiers ». Licence: both > 125 cm3, category A under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30), foreign-licence validity left to the permis guide. Price: no row for either; the automatic-scooter range stated not to apply automatically; comparison table of items to confirm; no figure invented. Route and weather statements generic (no distances).",
+   "INTENT": "Main question: XMAX ou ADV350 en location. OWNER of « yamaha XMAX ou Honda ADV350 » (no distinct-angle owner elsewhere). Differs from yamaha-neo-s-ou-honda-icon-e and yamaha-latte-ou-honda-vision (electric / compact) by being the big-scooter duel, and from yamaha-xmax-location-hanoi by comparing with the Honda rival and covering the ADV350 availability issue.",
+   "CONTENT": "Full rewrite. New: sources table (with explicit gaps), route vs adventure positioning, ADV350 availability and provenance checklist, road and city use, ten-minute test, budget quote-comparison table, alternatives if neither is offered, licence, four-question decision, FAQ (5). Words 1944 -> 1593.",
+   "META": "Title « Yamaha XMAX ou Honda ADV350 : quel grand scooter louer ? » (56 chars); description 159 chars; H1 kept (matches hub anchor); eyebrow « XMAX ou ADV350 · Grands scooters »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/scooters/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/scooters/, /yamaha/yamaha-xmax-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /permis-securite/permis/, /yamaha/yamaha-xmax-location-hanoi/; replaced /honda/ with /honda/scooters/; removed /location-moto-hanoi/; added /yamaha/scooters/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 2 tables, 4 checklists, 1 ordered list; FAQ of 5 distinct short answers (ADV350 official sale, two-up comfort, trips, licence, price); 4 external citations rel=noopener (Yamaha XMAX 300, Paultan ADV350, Znews ADV350, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/xmax-bkau/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha Motor Vietnam « XMAX 300 - Thông số và giá bán »: 292 cc single-cylinder liquid-cooled, 20,6 kW, fuel tank 13 L, underseat storage 44,9 L, ABS on both wheels, USB-C port, smart key"
+   },
+   {
+    "url": "https://paultan.org/2021/11/24/eicma-2021-honda-adv350-330-cc-adventure-styled-scooter-with-app-based-smartphone-voice-control/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title): EICMA 2021, Honda ADV350 330 cc adventure-styled scooter; only the 330 cm3 and the adventure style are used"
+   },
+   {
+    "url": "https://znews.vn/honda-adv-350-xuat-hien-o-viet-nam-post1343565.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Znews report that a private shop brought ADV 350 units to Vietnam in small numbers and that official sale was not announced (older article)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether an ADV350 or an XMAX is actually proposed, year, origin and papers of an ADV350",
+   "Rates for either machine",
+   "Deposit/ID, breakdown cover, leaving the city (asked, not stated); no Honda Vietnam ADV350 spec page found"
+  ]
  }
 ]

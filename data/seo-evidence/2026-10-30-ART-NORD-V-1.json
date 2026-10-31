@@ -78,5 +78,263 @@
   "owner_gaps": [
    "Bike leaving Hanoi / assistance on QL3 (unconfirmed policy, only phrased as questions to ask)."
   ]
+ },
+ {
+  "path": "nord-vietnam/cao-bang-moto-boucle/index.html",
+  "role": "OWNER",
+  "primary_intent": "La boucle de Cao Bang à moto : quel enchaînement d'étapes et de sites autour de Cao Bằng, en combien de jours",
+  "words_before": 2044,
+  "words_after": 1522,
+  "new_meta": {
+   "title": "La boucle de Cao Bang à moto : étapes, sites et durée",
+   "description": "La boucle de Cao Bang à moto : Trùng Khánh, Bản Giốc, Ngườm Ngao, Thang Hen et Pác Bó. Programme sur trois jours, variantes, saisons et précautions.",
+   "h1": "La boucle de Cao Bang à moto : étapes, sites et durée"
+  },
+  "evidence": {
+   "FACTS": "Seen in search result (aggregated snippets, no inline link): operator route 'Cao Bằng -> DT 206 -> Trùng Khánh -> Bản Giốc' with stops (bamboo raft, Ngườm Ngao, Trúc Lâm Bản Giốc pagoda, Khuổi Ký stone village); 'no single official loop' (frommers/operator snippet); Ngườm Ngao ~3 km long / ~1 km open; Trùng Khánh chestnuts Oct–Dec; best seasons Sep–Nov and Mar–May; Aug–Sep strongest flow; Thang Hen ~36 lakes (Trà Lĩnh); Pác Bó (Hà Quảng). Cao Bằng–Bản Giốc ~80 km Lonely Planet (digest §2), range 60-115 km in other snippets. Operators' DT 206 itinerary explicitly flagged as unverified. Law 36/2024/QH15 arts. 9, 20, 25(3): legal digest 1.4, 1.17, 1.20 (art. 25(3) cited with link). No fines quoted. Removed all rhetoric and invented content ('deux nuits se défendent mieux que trois', 'ponts du commerce', 'cols frontiers', 'ateliers'). Shop: only questions to ask (bike leaving Hanoi, breakdown); NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: what is the Cao Bằng loop and how to ride it in 3 days. OWNER of 'la boucle de Cao Bang à moto'. Differs from /nord-vietnam/cao-bang-voyage-moto/ (province overview: sites, seasons, border) and from /nord-vietnam/hanoi-cao-bang-ha-giang-moto-boucle/ (combined Hanoi–Cao Bằng–Hà Giang trip, linked once): this page = sequencing, variants, stops and riding on the loop.",
+   "CONTENT": "Full rewrite: 'no official trace' section, 3-day table, stops, direction/variants, riding, sleeping, seasons, bike/papers, 5 FAQ. 2044 -> 1522 words.",
+   "META": "Title/description/H1 rewritten (53/148 chars); og tags identical; eyebrow plain.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/cao-bang-voyage-moto/, /nord-vietnam/hanoi-a-cao-bang-moto/, /nord-vietnam/hanoi-cao-bang-ha-giang-moto-boucle/, /permis-securite/permis/ = 7/7 unique. Dropped /nord-vietnam/ha-giang-boucle-voyage-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/, /types-motos/meilleur-moto-montagne-routes-vietnam/.",
+   "AEO_GEO": "Lead answers directly (no official route, 3 days, extensions). Table + 3 checklists/lists, 5-question FAQ, Law 36/2024/QH15 art. 25(3) cited inline."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest)"
+   },
+   {
+    "url": "https://vietnammotorcycletours.com/when-is-the-best-time-to-ride-the-cao-bang-loop",
+    "checked": "2026-10-31",
+    "used_for": "seasons, DT 206 route and stops (seen in search result; not opened, not cited inline)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/articles/best-road-trips-in-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Cao Bằng–Bản Giốc ~80 km (digest, seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the rented bike may travel to Cao Bằng (unconfirmed, question only)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/cao-bang-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Cao Bang à moto : vue d'ensemble (sites, durée, saisons, accès, moto) pour préparer un voyage à Cao Bằng",
+  "words_before": 2075,
+  "words_after": 1547,
+  "new_meta": {
+   "title": "Cao Bang à moto : Bản Giốc, geopark et routes du nord-est",
+   "description": "Cao Bang à moto depuis Hanoi : cascade de Bản Giốc, grotte de Ngườm Ngao, geopark, lacs de Thang Hen, saisons, nombre de jours et choix de la moto.",
+   "h1": "Cao Bang à moto : Bản Giốc, geopark et routes du nord-est"
+  },
+  "evidence": {
+   "FACTS": "Seen in search result (aggregated snippets; per-URL attribution uncertain, so no inline link): Hanoi–Cao Bằng ~270-300 km (one guide >330); Cao Bằng–Bản Giốc 60-115 km (digest: ~80 km Lonely Planet, linked in hub, 'seen in search result'); Non Nước Cao Bằng UNESCO Global Geopark recognised 2018, 2nd in Vietnam after Đồng Văn (threeland, vietnamnet, saigoneer, mytour snippets); Bản Giốc on the Quây Sơn river at the China border; Nguườm/Ngườm Ngao cave ~3 km long, ~1 km open, a few km from the falls; Thang Hen cluster of ~36 lakes (Trà Lĩnh); Trùng Khánh chestnuts Oct–Dec; best seasons Sep–Nov and Mar–May (a motorbike operator, vietnammotorcycletours snippet), Aug–Sep strongest flow (one source); QL3 via Thái Nguyên–Bắc Kạn, operators advise two days (localvietnam, vietnamtourism snippets). Cao Bằng unchanged by 2025 merger (route digest §1/§6; districts no longer in addresses so 'ancien district'). Border-area permit: Time Out article (retrieved per digest) concerns Hà Giang only; for Cao Bằng stated as 'no official information found, ask locally'. Law 36/2024/QH15 art. 25(3) expressway ban and art. 9(7) (handing a vehicle to unqualified person): legal digest 1.4/1.20; date 30 Oct 2026. Removed all rhetoric and unsupported statements ('trois nuits se défendent mieux que deux', 'ateliers du chef-lieu', 'la méthode du site'). No prices, no shop policy asserted (questions to ask only).",
+   "INTENT": "Main question: what does a motorbike trip to Cao Bằng involve (sites, days, season, access, bike). OWNER of 'cao Bang à moto'. Differs from /nord-vietnam/cao-bang-moto-boucle/ (loop sequencing) and /nord-vietnam/hanoi-a-cao-bang-moto/ (approach from Hanoi): this page is the overview and links to both once each, plus /nord-vietnam/meilleur-moto-cao-bang/ for bike choice.",
+   "CONTENT": "Complete rewrite from abstract prose to concrete content: repères table, sites (Bản Giốc, Ngườm Ngao, Trùng Khánh/Thang Hen, Pác Bó), days table, seasons, QL3/expressway, border zone and papers, bike section, 5 FAQ. 2075 -> 1547 words.",
+   "META": "Title/description/H1 rewritten (57/147 chars; 'Cao Bang à moto' query kept, diacritics in the body). og tags identical. Eyebrow plain.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/cao-bang-moto-boucle/, /nord-vietnam/hanoi-a-cao-bang-moto/, /nord-vietnam/meilleur-moto-cao-bang/, /permis-securite/permis/ = 7/7 unique. Dropped from original: /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/, /types-motos/meilleur-moto-montagne-routes-vietnam/.",
+   "AEO_GEO": "Lead answers directly (days, route, season, bike). 2 tables, 5-question FAQ, inline citations to Law 36/2024/QH15 art. 25(3) and Time Out."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest)"
+   },
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "border permit in Hà Giang (digest, retrieved 14 Jun 2026 article)"
+   },
+   {
+    "url": "https://vietnammotorcycletours.com/when-is-the-best-time-to-ride-the-cao-bang-loop",
+    "checked": "2026-10-31",
+    "used_for": "best seasons Sep-Nov / Mar-May (seen in search result, not opened, not cited inline)"
+   },
+   {
+    "url": "https://threeland.com/blogs/vietnam-s-2nd-unesco-recognized-global-geopark-i-non-nuoc-cao-bang",
+    "checked": "2026-10-31",
+    "used_for": "geopark recognised 2018, 2nd in Vietnam (seen in search result, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Bike leaving Hanoi for a 4-6 day trip, breakdown assistance, return conditions (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/cat-ba-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Cát Bà à moto : que faire sur l'île, comment s'y déplacer, avec quelle moto, combien de jours, quels risques saisonniers (propriétaire du groupe TOPIC-CAT-BA)",
+  "words_before": 1814,
+  "words_after": 1640,
+  "new_meta": {
+   "title": "Cát Bà à moto : sites de l’île, baie de Lan Hạ et ferries",
+   "description": "Cát Bà à moto : ce qu’il y a à voir sur l’île, la baie de Lan Hạ, rouler sur place, venir avec sa moto ou louer, saisons et tempêtes. Repères avant de partir.",
+   "h1": "Cát Bà à moto : sites de l’île, baie de Lan Hạ et ferries"
+  },
+  "evidence": {
+   "FACTS": "UNESCO 'Ha Long Bay – Cat Ba Archipelago' (1994, Cát Bà added 2023, 1,133 islands and islets, Cát Bà langur critically endangered): route digest §5 (whc.unesco.org/en/list/672, retrieved). Quảng Ninh suspends tourist boats when storms approach: digest §5 (halongbay.com.vn, seen in search result). Seen in search result (aggregated snippets, no inline link): Hanoi–Cát Bà route ~120-140 km via QL5 to the ferry, Cái Viềng pier to Cát Bà town 20-25 km, ferries carry motorbikes on the Cái Viềng route, Đồng Bài vs Gót pier discrepancy (one guide says Đồng Bài replaced Gót in March 2024), Tuần Châu–Gia Luận liaison; sites: Cannon Fort, Hospital Cave (~13 km from town, one guide), Trung Trang cave near the park entrance, national park (entrance fee exists, amount not quoted), Cát Cò beaches, Việt Hải village (access varies), Lan Hạ bay by boat/kayak. Ferry fares and island rental prices deliberately omitted (dated/unsourced). Expressway ban art. 25(3) Law 36/2024/QH15 stated without link in this page (link kept for other pages; also legal digest); rules (helmet, headlight 18-06, zero alcohol) legal digest 1.4, 1.17, 1.22, dated 30 Oct 2026. Removed: invented content (cages à poissons, drapeaux de baignade, cachets de mal de mer, 'scoot de la ville', shop 'inspection au comptoir'). Shop: only questions to ask (leaving Hanoi, ferry, breakdown/return); NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim; island rental shops: 'conditions non décrites ici, à vérifier sur place'.",
+   "INTENT": "Main question: how is a motorbike trip to Cát Bà organised and what is there to do. OWNER of 'cat ba moto' (group TOPIC-CAT-BA). Differs from /nord-vietnam/hanoi-a-cat-ba-moto/ (DISTINCT_ANGLE: route from Hanoi and crossings, linked once from the 'Venir de Hanoi' section) and /nord-vietnam/halong-voyage-moto/ (mainland bay).",
+   "CONTENT": "Full rewrite of mannered prose into concrete content: repères table, sites list, bay + UNESCO, route summary, riding on island, bring-or-rent, seasons/storms, 2-night table + pre-boarding checklist, bike/papers, 5 FAQ. 1814 -> 1640 words.",
+   "META": "Title/description/H1 rewritten (57/158 chars; 'Cát Bà à moto' keeps the query); og tags identical.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/hanoi-a-cat-ba-moto/ (DISTINCT_ANGLE sibling), /nord-vietnam/halong-voyage-moto/, /permis-securite/permis/ = 6/7 unique. Dropped /nord-vietnam/ha-long/, /permis-securite/moto-pluie-securite-vietnam/ from original.",
+   "AEO_GEO": "Lead answers directly (what, how to get there, bike use, nights). Table + 2-night table + 2 checklists, 5-question FAQ, inline citations (UNESCO, Hạ Long Bay management board)."
+  },
+  "sources": [
+   {
+    "url": "https://whc.unesco.org/en/list/672",
+    "checked": "2026-10-30",
+    "used_for": "UNESCO Ha Long Bay – Cat Ba Archipelago, 2023 extension, 1,133 islands, langur (digest, retrieved)"
+   },
+   {
+    "url": "https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+    "checked": "2026-10-30",
+    "used_for": "boat departures suspended when storms approach (digest, seen in search result)"
+   },
+   {
+    "url": "https://localvietnam.com/hai-phong/cat-ba-island/cat-ba-ferry/",
+    "checked": "2026-10-31",
+    "used_for": "ferry routes Cái Viềng / Gia Luận, motorbikes accepted (seen in search result; not opened, not cited inline)"
+   },
+   {
+    "url": "https://localvietnam.com/blog/cat-ba-island/",
+    "checked": "2026-10-31",
+    "used_for": "island sites: Cannon Fort, Hospital Cave, Trung Trang, Cát Cò, Việt Hải (seen in search result; not opened, not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the bike may leave Hanoi and board a ferry; breakdown assistance and return conditions (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/halong-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Faut-il rouler de Hanoi à la baie de Hạ Long à moto, ou prendre un transport collectif ? (décision et formules)",
+  "words_before": 1768,
+  "words_after": 1569,
+  "new_meta": {
+   "description": "Halong à moto ou en bus ? Distance de 150 à 170 km, autoroute interdite aux motos, baie visitée en bateau, tempêtes et formules pour décider."
+  },
+  "evidence": {
+   "FACTS": "Hanoi–Hạ Long ≈150 km by expressway (closed to motorbikes) and ≈165 km by old QL18, described as narrow and busy; other snippets 124-170 km: route digest §5 (sunparadiseland, seen in search result). Expressway ban: Law 36/2024/QH15 art. 25(3), link from digest. UNESCO 'Ha Long Bay – Cat Ba Archipelago': 65,650 ha, 1,133 islands and islets, Quảng Ninh and Hải Phòng, Cát Bà langur critically endangered: digest §5 (whc.unesco.org/en/list/672, retrieved). Quảng Ninh suspends boat departures and overnight stays when storms approach (several 2025 episodes): digest §5 (halongbay.com.vn link, seen in search result). Headlight 18-06 (art. 20) and phone ban (art. 9): legal digest 1.4, 1.17. No fine, no bus or cruise price, no bus duration printed. Removed from original: unsourced assertions ('certains loueurs acceptent de reprendre la machine', 'la méthode du site', 'la baie figure au palmarès', cruise price/format claims). Shop: only questions to ask (leaving Hanoi, papers, breakdown, multi-day parking); NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: is riding from Hanoi to the bay worth it versus bus/tour. OWNER of 'halong à moto'. Differs from /nord-vietnam/halong-voyage-moto-2-jours/ (the two-day itinerary), /nord-vietnam/moto-de-hanoi-a-halong-baie/ (route detail) and /prix-location/hanoi-halong-voyage-moto-cout/ (cost): this page decides; each of those is linked once.",
+   "CONTENT": "Full rewrite: moto-vs-bus table, route/expressway, bay by boat (UNESCO), formulas table, four decision questions, night on site, route preparation checklist, rent-on-site option, seasons/storms, bike/papers, 5 FAQ. 1768 -> 1569 words.",
+   "META": "Title and H1 kept (natural French, 51 chars, query 'halong à moto'); description rewritten (141 chars, factual); og:description updated identically; eyebrow made plain.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/moto-de-hanoi-a-halong-baie/, /nord-vietnam/halong-voyage-moto-2-jours/, /prix-location/hanoi-halong-voyage-moto-cout/, /permis-securite/permis/ = 7/7 unique. Dropped /nord-vietnam/ha-long/, /hanoi/jour-voyages-de-hanoi-by-moto/, /location-moto-hanoi/, /nord-vietnam/ninh-binh-voyage-moto/.",
+   "AEO_GEO": "Lead answers directly (yes if you like the road and have 2 days; 150-170 km; no expressway; bay by boat). Comparison table, formulas table, ordered decision list, checklist, 5-question FAQ, inline citations (Law 36/2024/QH15 art. 25(3), UNESCO, Hạ Long Bay management board)."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest, retrieved)"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/672",
+    "checked": "2026-10-30",
+    "used_for": "UNESCO property facts (digest, retrieved)"
+   },
+   {
+    "url": "https://sunparadiseland.com/en/tin-tuc/how-many-km-is-it-from-hanoi-to-ha-long-and-what-is-the-fastest-route-12507",
+    "checked": "2026-10-30",
+    "used_for": "150 km expressway / 165 km QL18 (digest, seen in search result, not cited inline)"
+   },
+   {
+    "url": "https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+    "checked": "2026-10-30",
+    "used_for": "boat and overnight suspensions in storms (digest, seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the rented bike may leave Hanoi for several days and be parked on the coast (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/hanoi-a-cao-bang-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment rejoindre Cao Bằng à moto depuis Hanoi : distance, nombre de jours, où dormir, route sans autoroute",
+  "words_before": 1873,
+  "words_after": 1676,
+  "new_meta": {
+   "title": "De Hanoi à Cao Bang à moto : QL3, étapes et nuits",
+   "description": "De Hanoi à Cao Bang à moto : environ 270 à 300 km par la QL3, deux jours conseillés, où dormir (Bắc Kạn, Ba Be), routes sans autoroute et préparation.",
+   "h1": "De Hanoi à Cao Bang à moto : QL3, étapes et nuits"
+  },
+  "evidence": {
+   "FACTS": "Seen in search result (aggregated snippets; no inline link): Hanoi–Cao Bằng ~270-300 km (one 332 km); QL3 via Thái Nguyên–Bắc Kạn; first part smooth/last part narrower, trucks (vietnamtourism, localvietnam snippets); operators suggest 1 long day or 2, stopping at Bắc Kạn or Ba Bể for safety; variants via Lạng Sơn and via Ba Bể (more scenic/rougher); best seasons Sep–Nov, Mar–May; Cao Bằng–Bản Giốc ~80 km Lonely Planet (digest). Expressway ban: Law 36/2024/QH15 art. 25(3) link (digest); VOV Feb 2026 case (11 foreign riders, VND 5 million each, Tuyên Quang–Phú Thọ expressway): digest, retrieved; explicitly 'ne fixe pas un barème', amounts of Decree 168/2024 not quoted (legal digest §3, §8). Road rules (helmet, headlight 18-06, zero alcohol, phone): legal digest 1.4, 1.17, 1.22, dated 30 Oct 2026. Cao Bằng unchanged by 2025 merger; Bắc Kạn in Thái Nguyên (route digest). 'Environ 150 km' marker between easy and mountain part comes from one operator guide and is flagged as route-dependent. Removed: rhetoric ('règle du crépuscule', 'la méthode du site'), invented 'bus et limousines du jour', claims on Delta/piedmont towns and tea. Shop: only questions to ask (leaving Hanoi, papers, breakdown, total, transport of the bike); NAP/hours per SEO-FACTS; no price, deposit, insurance, assistance or fleet claim.",
+   "INTENT": "Main question: how to ride from Hanoi to Cao Bằng (distance, days, nights, route). OWNER of 'de Hanoi à Cao Bang à moto'. Differs from /nord-vietnam/hanoi-a-sapa-moto/ (other destination) and from /nord-vietnam/cao-bang-voyage-moto/ (what to see on site, linked once): this page is only the approach and its stages; Bắc Kạn and Ba Be are linked for the stops.",
+   "CONTENT": "Full rewrite: repères table, 2/3-day table, QL3 description, expressway section with citations, stops checklist, operator variants, seasons, preparation checklist, return, arrival, bike/papers, 5 FAQ. 1873 -> 1676 words (rhetoric removed, substance added: seasons, arrival).",
+   "META": "Title/description/H1 rewritten (49/150 chars); og tags identical.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/bac-kan-voyage-moto/, /nord-vietnam/ba-be-lac-voyage-moto/, /nord-vietnam/cao-bang-voyage-moto/, /permis-securite/permis/ = 7/7 unique. Dropped from original: /hanoi/jour-voyages-de-hanoi-by-moto/, /nord-vietnam/hanoi-a-ha-giang-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/.",
+   "AEO_GEO": "Lead answers directly (distance, QL3, 2 days, no expressway). 2 tables, 2 checklists, 5-question FAQ, inline citations (Law 36/2024/QH15 art. 25(3), VOV)."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "motorbikes banned from expressways (digest, retrieved)"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026 fine case, 11 foreign riders, VND 5 million each (digest, retrieved)"
+   },
+   {
+    "url": "https://localvietnam.com/cao-bang/from-hanoi-to-cao-bang/",
+    "checked": "2026-10-31",
+    "used_for": "QL3 route and options Hanoi–Cao Bằng (seen in search result; not opened, not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Can the rented bike travel to Cao Bằng, breakdown assistance, one-way/return or transport of the bike (unconfirmed, only questions to ask)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/hanoi-a-cat-ba-moto/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Trajet de Hanoi à Cát Bà à moto et traversées en ferry (angle documenté : le trajet depuis Hanoi et les traversées, en renvoyant au guide de l'île)",
+  "words_before": 1705,
+  "words_after": 1543,
+  "new_meta": {
+   "title": "De Hanoi à Cát Bà à moto : route, ferry et retour",
+   "description": "De Hanoi à Cát Bà à moto : environ 120 à 140 km par la QL5 jusqu’au ferry, deux liaisons possibles, embarquer la moto, météo et conseils pour le retour.",
+   "h1": "De Hanoi à Cát Bà à moto : route, ferry et retour"
+  },
+  "evidence": {
+   "FACTS": "Seen in search result (aggregated snippets; no inline link): Hanoi–Cát Bà ~120-140 km via QL5 (one guide 120 km, another 135 km via Tân Vũ–Lạch Huyện bridge, 131 km elsewhere), Cái Viềng pier to Cát Bà town 20-25 km, Cái Viềng ferry carries motorbikes, Gia Luận ferry described as car-ferry option, Đồng Bài vs Gót pier discrepancy (March 2024), ferry crossing times vary widely (so only 'très différentes' stated), online booking difficult. Ferry fares not quoted (older, divergent figures). One snippet said motorbikes are not allowed on the Hanoi–Hải Phòng expressway: rule anchored on Law 36/2024/QH15 art. 25(3) (digest link, retrieved). Hạ Long distance 150-170 km (expressway closed to motorbikes / old QL18 narrow and busy): route digest §5 (sunparadiseland, seen in search result). Hải Dương merged into Hải Phòng 1 Jul 2025: route digest §1 (Tuổi Trẻ). Storm suspensions in Hạ Long Bay: halongbay.com.vn (digest, seen in search result), explicitly not extended to regular ferries. Road rules (helmet, headlight 18-06, zero alcohol, phone): legal digest 1.4/1.17/1.22 dated 30 Oct 2026. Removed: invented content (cachets de mal de mer, digues du delta, 'méthode du site', schedule rhetoric). Shop: only questions to ask (leaving Hanoi, ferry boarding, breakdown, one-way return); NAP/hours per SEO-FACTS; no price/deposit/insurance/fleet claim.",
+   "INTENT": "Main question: how to get from Hanoi to Cát Bà by motorbike (route, ferry, return). DISTINCT_ANGLE of group TOPIC-CAT-BA; owner /nord-vietnam/cat-ba-voyage-moto/ is linked once for the island programme and nothing on island sites is duplicated beyond that. Differs from /nord-vietnam/moto-de-hanoi-a-halong-baie/ (mainland bay, linked once as the Tuần Châu option).",
+   "CONTENT": "Full rewrite: repères table, QL5 section, Tuần Châu–Gia Luận option, ferry checklist, day breakdown table, storms, departure checklist, arrival, return, bike/papers, 5 FAQ. 1705 -> 1543 words.",
+   "META": "Title/description/H1 rewritten around route+ferry (49/152 chars); og tags identical; keywords 'Hanoi à Cát Bà à moto' kept.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/cat-ba-voyage-moto/ (owner), /nord-vietnam/moto-de-hanoi-a-halong-baie/, /permis-securite/permis/ = 6/7 unique. Dropped /hanoi/jour-voyages-de-hanoi-by-moto/, /nord-vietnam/ha-long/, /permis-securite/moto-pluie-securite-vietnam/.",
+   "AEO_GEO": "Lead answers directly (distance, QL5, ferry, expressway ban, one day). 2 tables, 2 checklists, 5-question FAQ, citations: Law 36/2024/QH15 art. 25(3), Hạ Long Bay management board."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest, retrieved)"
+   },
+   {
+    "url": "https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+    "checked": "2026-10-30",
+    "used_for": "boat suspensions when storms approach (digest, seen in search result)"
+   },
+   {
+    "url": "https://vinpearl.com/en/hanoi-to-cat-ba-the-ultimate-travel-guide",
+    "checked": "2026-10-31",
+    "used_for": "Hanoi–Cát Bà route and distance (seen in search result; not opened, not cited inline)"
+   },
+   {
+    "url": "https://localvietnam.com/hai-phong/cat-ba-island/cat-ba-ferry/",
+    "checked": "2026-10-31",
+    "used_for": "ferry routes and pier discrepancy (seen in search result; not opened, not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Can the rented bike board a ferry / go to Cát Bà, return or one-way options (unconfirmed, only questions to ask)."
+  ]
  }
 ]

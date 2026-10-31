@@ -357,5 +357,193 @@
   "owner_gaps": [
    "Whether a Yamaha Mio is in the fleet and at what rate; years/condition of the units; zone of use and breakdown handling."
   ]
+ },
+ {
+  "path": "types-motos/yamaha-mio-ou-honda-vision-location/index.html",
+  "role": "OWNER",
+  "words_before": 1726,
+  "words_after": 1520,
+  "primary_intent": "Yamaha Mio ou Honda Vision : quel petit scooter automatique louer à Hanoi.",
+  "new_meta": {
+   "title": "Yamaha Mio ou Honda Vision : quel petit scooter louer ?",
+   "description": "Yamaha Mio ou Honda Vision à Hanoi : selle, rangement, tarif connu ou non, état d’un exemplaire d’occasion. Les critères pour choisir entre ces deux scooters.",
+   "h1": "Yamaha Mio ou Honda Vision : quel petit scooter louer ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported market claims ('la Vision est l'un des modèles les plus vendus du marché', 'les flottes en proposent souvent plusieurs exemplaires', 'le Mio reste présent dans de nombreuses flottes', 'flotte entretenue', contract grid with caution/assistance as standard). Vision specs from Honda Vietnam product/comparison pages seen in search result (2026-10-30): 109.5 cm3, seat 785 mm (97 kg version) and 761 mm (other versions), weight 93–97 kg, versions vary (stated; tank/clearance not used). Mio: no current spec; history from vccinews.com (Mio Classico released October 2006, later Ultimo; seen in search result), used-market presence as general observation. Prices: Vision uses its own owner row (200 000 / 1 000 000 / 2 000 000 VND) with the mandatory disclaimer; Mio has no owner row -> 'aucune ligne propre', ask; availability explicitly not implied by a price row. Licence per E-legal-digest (2026-10-30): A1 up to 125 cm3, foreign licence + IDP of 1968 Vienna Convention state, B alone no motorcycle category; contract zone/breakdown/return as questions to ask (no assertion). Phone/hours from SEO-FACTS.",
+   "INTENT": "Main question: Mio or Vision as a small automatic scooter to rent. OWNER of its query; closest pages yamaha/yamaha-latte-ou-honda-vision-location and honda/honda-vision-ou-yamaha-janus-location (0.62) compare Vision with other models; this page is the Mio/Vision comparison built on what can be verified (Vision's sheet and tariff vs an older, used-market Mio) and links the two single-model guides.",
+   "CONTENT": "Full rewrite: comparison table of verifiable facts, Vision, Mio, decision checklist, profile table, programmes, five-step trial (ordered list), questions to ask, licence. FAQ 4 items. Words 1726→1520.",
+   "META": "Title 'quel scooter automatique louer ?' -> 'quel petit scooter louer ?' (55 chars); H1 aligned; description rewritten (158 chars); og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /types-motos/yamaha-mio-location-hanoi/, /honda/honda-vision-location-hanoi/, /prix-location/, /types-motos/honda-vision-ou-yamaha-janus-location/. Removed /types-motos/automatique-ou-semi-automatique-moto-vietnam/ and /types-motos/trail-moto-ou-scooter-ha-giang/.",
+   "AEO_GEO": "Direct answer in lead (3 sentences); 2 tables, 1 ordered list, 2 checklists; 4 FAQ; external citations: honda.com.vn, vccinews.com (seen in search results), Law 36/2024/QH15 full text."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Vision 110 = 109.5 cm3, seat 785 mm (97 kg version), other versions 761 mm / 93–94 kg"
+   },
+   {
+    "url": "https://vccinews.com/news/8144/.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Yamaha Motor Vietnam released the Mio Classico in October 2006"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 full text (retrieved per E-legal-digest): art. 57 A1 and IDP"
+   }
+  ],
+  "owner_gaps": [
+   "Whether Mio and Vision units are in the fleet, years/condition, and the Mio rate."
+  ]
+ },
+ {
+  "path": "types-motos/yamaha-nvx-ou-honda-air-blade-location-vietnam/index.html",
+  "role": "DISTINCT_ANGLE",
+  "words_before": 1827,
+  "words_after": 1601,
+  "primary_intent": "Prise en main du Honda Air Blade et du Yamaha NVX selon le profil du conducteur (débutant, gabarit, passager, permis/cylindrée).",
+  "new_meta": {
+   "title": "Yamaha NVX ou Honda Air Blade : prise en main selon le profil",
+   "description": "Yamaha NVX ou Honda Air Blade : selle, poids, cylindrée, rangement et permis selon votre gabarit et votre expérience. Comment choisir à l’essai ?",
+   "h1": "Yamaha NVX ou Honda Air Blade : prise en main selon le profil"
+  },
+  "evidence": {
+   "FACTS": "Removed the stereotyped 'Occidental' framing, 'philosophies', 'tempérament plus ferme/plus doux' (unsourced), and 'cylindrée volontairement tenue à distance'. Specs from manufacturer pages seen in search results (2026-10-30): Air Blade 125 = 124.8 cm3, Air Blade 160 = 156.9 cm3, both seat 775 mm, tank 4.4 L, kerb weight ~110–114 kg (honda.com.vn); NVX 155 VVA = seat 790 mm, wet weight 118–125 kg by version, tank 4.6–5.5 L by version, underseat storage ~24.5–25 L depending on sources, presented by Yamaha as a sport scooter (yamaha-motor.com.vn); weights flagged as different bases; Air Blade underseat capacity not found -> 'à vérifier'. Prices: Air Blade has an owner row (200 000/900 000/1 500 000 VND) and NVX has none -> automatic scooter category range 'à titre de repère', both with the mandatory disclaimer; no claim of availability or of which Air Blade version is held. Licence per E-legal-digest (2026-10-30): Law 36/2024/QH15 art. 57 (A1 up to 125 cm3, A above; hcc.nghean.gov.vn full text), IDP of a 1968 Vienna Convention state, France/Belgium/Luxembourg/Switzerland parties, Canada not, B alone shows no motorcycle category; Air Blade 125 = A1, Air Blade 160 and NVX 155 = A. Contract zone/breakdown/return only as questions to ask. Phone/hours from SEO-FACTS.",
+   "INTENT": "Distinct angle: prise en main by rider profile, not a general comparison. Owner: honda/honda-air-blade-125-ou-yamaha-nvx-location/ (linked once in the lead); the page no longer repeats the duel by displacement or the general strengths of each family, and instead organises by beginner, gabarit, passenger, licence/cylindrée and trial; closest pages yamaha/yamaha-nvx-ou-honda-air-blade-160-location and honda/honda-air-blade-160-ou-yamaha-nvx-155-location (0.54) are not linked as duplicates.",
+   "CONTENT": "Full rewrite: manufacturer sheet table (4 columns), beginner, gabarit, licence, profile table, powerful-scooter handling, budget, 6-point trial. FAQ 5 items. Words 1827→1601.",
+   "META": "Title 'quel scooter pour les Occidentaux ?' -> 'prise en main selon le profil' (61 chars); H1 aligned (was 'le choix d'un Occidental qui loue au Vietnam'); description rewritten (145 chars); og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /honda/honda-air-blade-125-ou-yamaha-nvx-location/ (owner), /yamaha/yamaha-nvx-location-hanoi/, /honda/honda-air-blade-160-location-hanoi/, /prix-location/. Removed /yamaha/yamaha-nvx-ou-honda-air-blade-160-location/ (duel page).",
+   "AEO_GEO": "Direct answer in lead (4 sentences + owner link); 2 tables, 2 checklists; 5 FAQ; external citations: honda.com.vn, yamaha-motor.com.vn (seen in search results), Law 36/2024/QH15 full text."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Air Blade 160/125 seat 775 mm, tank 4.4 L, 156.9 / 124.8 cm3, kerb weight ~111–114 kg"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NVX 155 VVA seat 790 mm, wet weight ~125 kg (ABS version), tank 5.5 L; Camo version 118 kg / 4.6 L"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 full text (retrieved per E-legal-digest): art. 57 A1/A, IDP recognition"
+   }
+  ],
+  "owner_gaps": [
+   "Whether an NVX or Air Blade (125/160) is in the fleet and their versions; NVX rate (no owner row)."
+  ]
+ },
+ {
+  "path": "types-motos/yamaha-nvx-ou-nmax-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "words_before": 1865,
+  "words_after": 1526,
+  "primary_intent": "Yamaha NVX ou NMAX : quel scooter pour de longues étapes au Vietnam.",
+  "new_meta": {
+   "description": "Yamaha NVX 155 ou NMAX 155 pour de longues étapes au Vietnam : selle, réservoir, rangement, poids, permis et limites en montagne. Les critères pour choisir."
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported character claims ('tempérament sportif', 'vocation routière', 'pare-brise/carénage selon la monte', 'assise plus épaisse', 'assistance joignable') and the earlier link to a Honda CT125 page. Specs from Yamaha Motor Vietnam pages seen in search results (2026-10-30): NVX 155 VVA seat 790 mm, wet weight 118–125 kg by version, tank 4.6–5.5 L by version, underseat ~24.5–25 L depending on sources; NMAX 155 = 155.1 cm3, seat 770 mm, weight 131 kg (standard) / 135 kg (Tech Max), tank 7.1 L, underseat 24 L (standard), published consumption 2.30 L/100 km for Tech Max (quoted as a sheet value, no range computed); wind protection not found -> 'jugez-la à l'essai'. Both above 125 cm3 -> category A (Law 36/2024/QH15 art. 57, hcc.nghean.gov.vn full text) with IDP wording per E-legal-digest (1968 Vienna Convention state; FR/BE/LU/CH parties, Canada not; B alone shows no motorcycle category). Expressway ban for two-wheelers (art. 25(3)) pointing to the site's autoroute page; headlight 18:00–06:00 and in bad visibility (art. 20). Prices: neither has an owner row -> automatic scooter category range 'à titre de repère' with the mandatory disclaimer, availability to confirm; contract zone/breakdown/return as questions; phone/hours from SEO-FACTS.",
+   "INTENT": "Main question: NVX or NMAX for long stages. OWNER; closest pages yamaha/yamaha-nvx-vietnam-voyage-moto and yamaha/yamaha-nmax-vietnam-voyage-moto (0.36) are single-model guides, linked once each; this page is the head-to-head built on the sheets.",
+   "CONTENT": "Full rewrite: sheet table, long-route needs (checklist), NVX, NMAX, mountain limits, profile table, long-stage checklist, licence, budget. FAQ 5 items. Words 1865→1526.",
+   "META": "Title and H1 kept (56 chars, natural, no promise); description rewritten (156 chars) with concrete criteria; og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /yamaha/yamaha-nvx-vietnam-voyage-moto/, /yamaha/yamaha-nmax-vietnam-voyage-moto/, /types-motos/station-essence-hanoi-moto/, /permis-securite/autoroute-moto-vietnam/. Removed /honda/honda-ct125-longue-distance-vietnam/ and /types-motos/trail-moto-ou-scooter-ha-giang/ (mentioned in text only).",
+   "AEO_GEO": "Direct answer in lead (4 sentences, figures from the sheets); 2 tables, 2 checklists; 5 FAQ; external citations: yamaha-motor.com.vn (seen in search results), Law 36/2024/QH15 full text."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NVX 155 VVA seat 790 mm, wet weight ~125 kg, tank 5.5 L (Camo 118 kg / 4.6 L)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NMAX 155 seat 770 mm, 131 kg, tank 7.1 L, underseat 24 L; Tech Max 135 kg, 2.30 L/100 km"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 full text (retrieved per E-legal-digest): art. 57 A1/A, IDP; art. 25(3) expressways; art. 20 lights"
+   }
+  ],
+  "owner_gaps": [
+   "Whether an NVX or an NMAX is in the fleet and their rate (no owner row)."
+  ]
+ },
+ {
+  "path": "types-motos/yamaha-pg1-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "words_before": 1980,
+  "words_after": 1551,
+  "primary_intent": "Yamaha PG-1 : ce qu'est cette petite moto à boîte, pour quelles balades autour de Hanoi, ses limites et ce qu'il faut vérifier.",
+  "new_meta": {
+   "title": "Yamaha PG-1 à louer à Hanoi : atouts et limites en balade",
+   "description": "Yamaha PG-1 pour des balades autour de Hanoi : fiche Yamaha (113,7 cm³, selle à 795 mm), atouts, limites, permis et points à vérifier avant de louer.",
+   "h1": "Yamaha PG-1 à louer à Hanoi : atouts et limites en balade"
+  },
+  "evidence": {
+   "FACTS": "Removed 'néo-rétro/scrambler' marketing claims, 'quarante kilomètres de la capitale' (unsourced distance), 'casque fourni ou personnel', 'assistance à quarante kilomètres', contract grid as if standard. Specs from yamaha-motor.com.vn pages seen in search results (2026-10-30): 113.7 cm3 air-cooled, 4-speed foot-shift gearbox with chain, seat 795 mm, ground clearance 190 mm, wet weight 107 kg (standard) / 109 kg (ABS), tank 5.1 L, published consumption ~1.7 L/100 km (sheet value); clutch lever presence not stated in results -> reader told to ask. Comparison table uses the Wave Alpha 110 (109.2 cm3, 770 mm, honda.com.vn) and Sirius (~110.3–113.7 cm3, 770–775 mm, yamaha-motor.com.vn) figures already sourced in this batch. Price: no owner row -> semi-automatic category range 'à titre de repère' with the mandatory disclaimer, availability/version to confirm. Licence per E-legal-digest (2026-10-30): 113.7 cm3 below the 125 cm3 A1 threshold (Law 36/2024/QH15 art. 57, hcc.nghean.gov.vn full text), IDP of a 1968 Vienna Convention state, B alone shows no motorcycle category. One passenger (art. 33) and headlight 18:00–06:00 / bad visibility (art. 20) from the digest. Expressway ban referenced generally. Contract zone/breakdown/return as questions to ask. Phone/hours from SEO-FACTS.",
+   "INTENT": "Main question: what is the Yamaha PG-1 and for which outings does it suit in the Hanoi area. OWNER; closest pages yamaha/yamaha-pg-1-abs-vietnam-voyage-moto (0.40), lexi and neo-s (0.27–0.30) are other single models; the ABS page is linked once for the ABS version; the C125 types guide linked as the other 'petite moto à boîte à caractère'.",
+   "CONTENT": "Full rewrite: sheet table, outing types, riding (foot gearbox), comparison with Wave/Sirius, profile table, half-day plan, limits checklist, budget/licence/contract. FAQ 5 items. Words 1980→1551.",
+   "META": "Title 'le compagnon des balades autour de Hanoi' (flowery) -> 'à louer à Hanoi : atouts et limites en balade' (57 chars); H1 aligned; description rewritten (149 chars); og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /types-motos/semi-automatique/, /types-motos/station-essence-hanoi-moto/, /types-motos/super-cub-c125-location-vietnam/, /yamaha/yamaha-pg-1-abs-vietnam-voyage-moto/. Removed /honda/honda-ct125-hanoi-ville/ and /types-motos/location-moto-manuelle-hanoi/.",
+   "AEO_GEO": "Direct answer in lead (4 sentences, sheet figures); 2 tables (sheet, comparison) + 1 profile table, 1 checklist; 5 FAQ; external citations: yamaha-motor.com.vn (seen in search result), Law 36/2024/QH15 full text."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-phien-ban-tieu-chuan-moi-2026-bns3/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 113.7 cm3, 4-speed foot shift, seat 795 mm, ground clearance 190 mm, wet weight 107 kg (ABS 109 kg), tank 5.1 L"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 full text (retrieved per E-legal-digest): art. 57 A1/IDP, art. 33 passenger, art. 20 lights"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a PG-1 (standard or ABS) is in the fleet, its clutch/controls on the rented unit and its rate (no owner row)."
+  ]
+ },
+ {
+  "path": "types-motos/yamaha-wr155r-vietnam-tout-terrain/index.html",
+  "role": "OWNER",
+  "words_before": 1966,
+  "words_after": 1572,
+  "primary_intent": "Yamaha WR155R au Vietnam : ce qu'est cette trail, ce qu'elle fait mieux hors du goudron, ses limites, le permis et les contrôles à la location.",
+  "new_meta": {
+   "title": "Yamaha WR155R au Vietnam : forces et limites d’une trail",
+   "description": "Yamaha WR155R au Vietnam : fiche (155 cm³, selle à 880 mm), forces hors du goudron, limites, permis requis et points à vérifier avant de louer.",
+   "h1": "Yamaha WR155R au Vietnam : forces et limites d’une trail"
+  },
+  "evidence": {
+   "FACTS": "Removed abstract marketing prose ('le tout-terrain passe au crible', 'qui pardonne les surfaces', 'les protections de motard occidental') and unconfirmed shop statements ('certains loueurs acceptent un retour dans une autre ville' now only as a question; 'le loueur tranche pour sa flotte'). Specs from yamaha-motor.com.vn WR155R page seen in search result (2026-10-30): 155.1 cm3 4-valve liquid-cooled VVA, 12.3 kW (16.7 PS) at 10 000 rpm, 14.3 N·m at 6 500 rpm, 6-speed with wet multi-plate clutch, seat 880 mm, ground clearance ~245 mm (from the search summary, hedged 'environ'), wet weight ~134 kg, tank ~8.1 L, front and rear disc brakes. No price (protocol: none for trail), availability/contract zone/breakdown/return as questions to ask. Licence per E-legal-digest (2026-10-30): Law 36/2024/QH15 art. 57 (full text hcc.nghean.gov.vn): >125 cm3 = category A; foreign licence + IDP of a 1968 Vienna Convention state, FR/BE/LU/CH parties, Canada/Quebec not (an IDP from a non-party is not the case provided by the law), B alone shows no motorcycle category. Art. 20 (headlight 18:00–06:00 and in bad visibility) and art. 33 (load limits 0.3 m each side / 0.5 m rear; helmet) from the digest. Expressway ban referenced. Vietnamese 'vá xe' = tyre repair. Phone/hours from SEO-FACTS.",
+   "INTENT": "Main question: what is the Yamaha WR155R and who/what is it for in Vietnam. OWNER; closest pages yamaha/yamaha-wr155r-vietnam-voyage-moto (0.21), yamaha-wr155r-prix-location-hanoi (0.15) are other aspects (road trip, price); the Yamaha road-trip page is linked once; the WR155R/CT125 and trail/scooter siblings are linked for comparisons.",
+   "CONTENT": "Full rewrite: sheet table, forces, limits checklist, programmes, handling in rough terrain (+ tyres, load), licence, pre-signing checklist (7 items). FAQ 5 items. Words 1966→1590.",
+   "META": "Title 'les forces du tout-terrain expliquées' -> 'forces et limites d'une trail' (56 chars; 'tout-terrain' overstated); H1 aligned (was 'le tout-terrain passe au crible'); description rewritten (143 chars); og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /types-motos/trail-moto-ou-scooter-ha-giang/, /types-motos/semi-automatique-ou-trail-moto-sapa/, /types-motos/wr155r-ou-ct125-vietnam-voyage/, /yamaha/yamaha-wr155r-vietnam-voyage-moto/. Removed /nord-vietnam/ha-giang/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /yamaha/yamaha-wr155r-location-hanoi/.",
+   "AEO_GEO": "Direct answer in lead (3 sentences, sheet figures); 1 sheet table, 2 checklists; 5 FAQ; external citations: yamaha-motor.com.vn (seen in search result), Law 36/2024/QH15 full text."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/wr155r-b3mf/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: WR155R 155.1 cm3, 12.3 kW, 14.3 N·m, 6-speed wet clutch, seat 880 mm, ground clearance ~245 mm, wet weight ~134 kg, tank 8.1 L, disc brakes front/rear"
+   },
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 full text (retrieved per E-legal-digest): art. 57 A/IDP, art. 33 load, art. 20 lights"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a WR155R is in the fleet, whether the contract allows the North, and its rate (no published trail tariff)."
+  ]
  }
 ]

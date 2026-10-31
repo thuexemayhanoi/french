@@ -44,5 +44,220 @@
    "Caution/dépôt, conservation du passeport, assurance de location, assistance panne/accident: conditions of Thuê xe máy Nguyễn Hà unconfirmed (page only tells readers to confirm before booking).",
    "Which papers (original/copy) are handed to the renter with the bike."
   ]
+ },
+ {
+  "path": "permis-securite/moins-de-125cc-license-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel permis faut-il pour une moto de moins de 125 cm3 au Vietnam (A1, cyclomoteur dispensé, électriques)",
+  "new_meta": {
+   "description": "Jusqu’à 125 cm3, la loi vietnamienne vise la catégorie A1. Seul le cyclomoteur de 50 cm3 ou 4 kW est dispensé de permis. Détail selon la moto et le profil."
+  },
+  "words_before": 2601,
+  "words_after": 1985,
+  "evidence": {
+   "FACTS": "Replaced the old 'régime de faveur / grille' narrative (vague, partly wrong: 'les électriques de l'ordre de 4 kW... environ 11 kW', 'dossier du silo') by digest-based rules: Law 36/2024 art. 34(1)(e)(g) xe gắn máy definition (<=50 cm3 or <=4 kW AND <=50 km/h by design) -> no licence, >=16 y, art. 56(4)/59; art. 57 A1 <=125 cm3 or <=11 kW, A above, age 18, no expiry; xe đạp máy (assist cut at 25 km/h) = non-motorised (art. 34(2)(b)); art. 57(6)/(8) IDP of Vienna 1968 state + national licence, max 3 years; Canada/Quebec not in participant table (n'entre pas dans le cas prévu; renseignez-vous); art. 89 old Vietnamese A1 covers 50 to <175 cm3 until expiry, explicitly not applicable to foreign licences; resident exchange per ministry circular, 'vérifiez la version en vigueur'; art. 9 ban on handing a vehicle to an ineligible person; no fine amounts. Removed the wrong implication that the A1 limit changed for foreign licences. B-only licence: IDP shows no motorcycle category (safe statement); the French B+formation equivalence is NOT asserted, only advice to ask the issuing authority. Belgian FPS (>50 cc needs category A) and France-Diplomatie as in the digest (seen in search result). 'Vérifié le 30 octobre 2026' near the table. Added caveat that one model name can exist in several displacements (no model spec stated). No prices, no shop policy; NAP/hours only in the 'avant de louer' paragraph.",
+   "INTENT": "Main question: which licence for a motorbike under 125 cm3 in Vietnam? OWNER. Differs from permis-securite/125cc-plus-permis-moto-vietnam (similarity 0.67) which covers >125 cm3 / category A: this page keeps the A1 / xe gắn máy side, refers to the 125cc+ page once in the table and in the further-reading block; differs from 50cc-scooter-license-vietnam and electrique-scooter-license-vietnam by giving the comparison table across all <=125 cm3 vehicle types and pointing to them for the details.",
+   "CONTENT": "Full rewrite (mannered 'régime de faveur', 'la méthode', 'silo' prose removed). New: decision table by vehicle type, A1 section with IDP/Convention and national-category pitfalls, cyclomoteur section with the obligations that remain, electric section, profile table + old A1 note, 3 pre-rental checks with shop contact, 5 FAQ. Words 2601 -> 1985.",
+   "META": "Title kept (59 chars, already literal and unique). Meta description rewritten to the actual answer (160 chars max), og tags synced. H1 kept ('Moins de 125 cm3 au Vietnam : quel permis faut-il pour conduire ?'), eyebrow simplified to 'Permis moto'.",
+   "LINKS": "Required: /permis-securite/, /types-motos/, /location-moto-hanoi/ kept. Replaced /types-motos/50cc-moto-vietnam-debutant/, /types-motos/50cc-ou-110cc-scooter-vietnam/ and /location-moto-hanoi/location-moto-hanoi-vietnam/ by the more relevant /permis-securite/permis/, /permis-securite/125cc-plus-permis-moto-vietnam/, /permis-securite/50cc-scooter-license-vietnam/, /permis-securite/electrique-scooter-license-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in lead (A1 up to 125 cm3, cyclomoteur exception, IDP+national licence, A above 125). Two tables (by vehicle type, by profile), 3 checklists, 5 FAQ with short answers; inline citations to Law 36/2024, UN treaty list, Belgian FPS, France-Diplomatie."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 9, 34, 56, 57, 59, 89 (retrieved per E-legal-digest)"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "used_for": "1968 Vienna Convention participants (retrieved per E-legal-digest)"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Belgian licence category A for >50 cc (seen in search result, via digest)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "used_for": "IDP with French licence, vehicle insured (seen in search result, via digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Which models of the shop's fleet fall in A1 vs xe gắn máy (displacement/power per exemplar) is unconfirmed; page only tells readers to ask for it."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-assurance-vietnam-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle assurance couvre une moto de location au Vietnam et quelles questions poser avant de louer",
+  "new_meta": {
+   "description": "Assurance obligatoire, couverture de la location, assurance voyage : ce que chacune couvre et les questions à poser avant de louer une moto au Vietnam."
+  },
+  "words_before": 1773,
+  "words_after": 1661,
+  "evidence": {
+   "FACTS": "Replaced vague 'en tendance, tout véhicule doit être couvert' by sourced statements: Law 36/2024 art. 56 (driver must carry the compulsory civil-liability insurance certificate of the owner), France-Diplomatie (vehicle must be insured; seen in search result via digest), art. 80 accident duties (stop, warn, preserve scene, help victims, notify police/health facility/People's Committee, stay until police arrive, give identity), art. 9 ban on leaving the scene. Emergency numbers 113/114/115 per digest (seen in search result), with the note that a merger was proposed and to verify on the spot. NEW external fact via WebSearch (standard, 2026-10-31): Decree 67/2023/ND-CP liability limits for a motorbike, 150 million VND per person per accident (bodily injury) and 50 million VND per accident (property) as reported in search results (e.g. thuvienphapluat.vn/banan article); marked in the text 'vues dans les résultats de recherche... non contrôlés dans le texte du décret... vérifiez la version en vigueur'; no conversion to EUR, no premium quoted. Removed the claims that 'certains contrats prévoient des pénalités' and similar stated as facts; rental-side cover (damage, theft, franchise, caution, assistance) presented only as 'depends on the contract / certains loueurs ... demandez la règle applicable'. Shop: NAP/hours as in SEO-FACTS; explicit statement that insurance, deposit and assistance conditions are not detailed on the site and must be confirmed before booking. No fines, no prices.",
+   "INTENT": "Main question: what does 'assurance moto au Vietnam' cover for a renter and what to ask? OWNER. Differs from location-moto-hanoi/location-moto-hanoi-vietnam (similarity 0.5, general rental guide) because it only treats the three insurance layers and the questions; and from location-moto-legal-liste-controle-vietnam (papers checklist) by going deep on cover, limits and travel insurance, with a link to it.",
+   "CONTENT": "Full rewrite. Removed mannered 'couches', 'socle', 'conversation d'assurance', 'la règle du site' and the repetitive FAQ. New: 3-level comparison table, compulsory insurance section with Decree 67/2023 limits (hedged), contract-side checklist of 7 questions, travel-insurance checklist incl. licence link, accident steps with legal duties and emergency numbers, pre-booking paragraph with shop contact, 5 FAQ. Words 1773 -> 1665.",
+   "META": "Title kept (64 chars, literal, unique); meta description rewritten (151 chars) and og tags synced; H1 kept; eyebrow simplified to 'Permis et sécurité'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept. Added /permis-securite/location-moto-legal-liste-controle-vietnam/, /permis-securite/permis/, /permis-securite/location-moto-accident-vietnam/, /permis-securite/vietnam-emergency-numbers-moto-touriste/. 7/7 unique, parent hub present.",
+   "AEO_GEO": "Direct answer in the lead (three assurances; compulsory one covers third parties). Comparison table, two checklists, one numbered accident list, 5 FAQ (no repetition of body; last one answers the price question honestly). Inline citations: Law 36/2024 full text, France-Diplomatie, Thư viện Pháp luật article (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 9, 56, 80 (retrieved per E-legal-digest)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "used_for": "vehicle must be insured (seen in search result, via digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/banan/tin-tuc/muc-boi-thuong-bao-hiem-khi-xe-may-gay-tai-nan-moi-nhat-8935.html",
+    "checked": "2026-10-31",
+    "used_for": "Decree 67/2023/ND-CP motorbike liability limits 150M VND/person/accident and 50M VND/accident property (seen in search result only, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop offers any rental-side cover (damage, theft, franchise), its deposit rules and assistance are unconfirmed; the page tells readers to confirm before booking."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-breakdown-vietnam-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire quand une moto de location tombe en panne au Vietnam (sécurité, diagnostic simple, aide, loueur)",
+  "new_meta": {
+   "title": "Panne de moto au Vietnam : que faire quand la machine s’arrête",
+   "description": "Moto en panne au Vietnam : s’arrêter en sécurité, vérifier carburant, électricité et partie visible, trouver un atelier et prévenir le loueur.",
+   "h1": "Panne de moto au Vietnam : que faire quand la machine s’arrête"
+  },
+  "words_before": 2424,
+  "words_after": 1637,
+  "evidence": {
+   "FACTS": "Removed unsourced local-colour generalisations ('des mécaniciens dans chaque bourg', 'le Vietnam est l'un des pays les plus doux du monde pour tomber en panne', 'la crevaison compose la moitié des pannes', 'la plupart des loueurs sérieux proposent une assistance') and the silo/'règle du silo' wording. Legal items only from the digest: art. 20 (headlight 18:00-06:00 and low-visibility weather), art. 25 (no expressways for motorcycles). Practical diagnostics are generic mechanics (fuel, kill switch, ignition, battery, chain, puncture) expressed as 'sur certaines motos / beaucoup de scooters'; the branch-behind-the-vehicle custom is qualified as 'on voit souvent' and conditional on safety. Vietnamese shop signs 'sửa xe máy' (motorcycle repair) and 'vá xe' (puncture repair) given as search terms (general language knowledge, no price). No repair prices, delays or distances. Assistance/replacement/towing of the shop: stated as not detailed on the site and to be asked before booking; shop NAP/hours as in SEO-FACTS. Rental-side practices phrased as 'les pratiques varient... c'est le contrat qui tranche'.",
+   "INTENT": "Main question: what to do when the motorbike breaks down in Vietnam. OWNER of « panne de moto au Vietnam ». Closest pages (backpacker-location-moto-hanoi, longue-duree-location-moto-hanoi, location-moto-dong-da) are rental guides (similarity <= 0.25) and do not treat the breakdown procedure; links to the brake, tyre and puncture guides instead of duplicating them.",
+   "CONTENT": "Full rewrite: removed mannered prose ('la méthode complète', 'discipline du silo', 'saga'). New: first minutes checklist, symptom/cause/gesture table, finding help (workshop terms, quote before repair, what to tell the loueur), questions on who pays, prevention checklist, 5 FAQ (the earlier duplicate FAQ about fuel kept in a shorter form). Words 2424 -> 1637.",
+   "META": "Title changed to the literal question form (62 chars) and H1 aligned; meta description rewritten (142 chars); og tags identical; eyebrow 'Permis et sécurité'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept. Kept /permis-securite/moto-frein-controle-location/ and /permis-securite/moto-pneu-controle-voyage-moto-vietnam/; added /permis-securite/crevaison-pneu-ha-giang-moto/ and /permis-securite/moto-assurance-vietnam-location/; dropped /location-moto-hanoi/location-moto-hanoi-vietnam/ and /nord-vietnam/ha-giang/. 7/7 unique, parent hub present.",
+   "AEO_GEO": "Direct 3-step answer in the lead; symptom table; 4 checklists; 5 FAQ with short, non-repeating answers. Inline legal citations limited to art. 20 and 25 of Law 36/2024 (retrieved, in digest)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 20, 25 (retrieved per E-legal-digest); cited in the digest, not linked in the text"
+   }
+  ],
+  "owner_gaps": [
+   "Shop's breakdown assistance (intervention, replacement, towing, who pays, distance limits) is unconfirmed.",
+   "Whether the 0334 699 969 line is staffed for breakdowns outside 09:00-21:00."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-chain-slack-location-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment contrôler la tension et l'état de la chaîne d'une moto de location et que dire au loueur",
+  "new_meta": {
+   "description": "Chaîne d’une moto de location au Vietnam : contrôler la tension en deux minutes, reconnaître une chaîne usée, réagir sur la route et questionner le loueur."
+  },
+  "words_before": 1724,
+  "words_after": 1583,
+  "evidence": {
+   "FACTS": "Removed unsupported claims 'les flottes sérieuses graissent entre chaque location / tiennent un carnet d'entretien', 'les villages du Vietnam connaissent les réparations de fortune', 'un loueur joint par téléphone résout presque tout'. Technical content is generic mechanics, no numeric spec: the correct free play is explicitly 'à demander au loueur / notice / parfois autocollant du bras oscillant' (no mm value invented); scooters automatiques 'en général' have no visible chain (transmission in a casing) and the reader is told to ask the loueur; risks of a jumping chain phrased conditionally ('peut abîmer... dans le pire des cas'). No legal claims, no prices, no manufacturer specs. Shop: only 'entretien et assistance non détaillés sur ce site, demandez avant de réserver' + NAP/hours per SEO-FACTS; rental-side responsibility for wear vs misuse phrased as a question ('les pratiques varient').",
+   "INTENT": "Main question: how to check chain tension/wear on a rental motorbike and what to tell the loueur. OWNER of « chaîne de moto ». Closest page location-moto-hanoi/3-mois-location-moto-hanoi (similarity 0.3) is a long-rental guide, not a mechanical check; this page keeps only the chain, and points to the oil guide for the engine oil side and to the breakdown guide for the roadside procedure.",
+   "CONTENT": "Full rewrite (removed 'la chaîne parle', 'trois canaux de lecture', 'le silo', 'enterrement'). New: which motorbikes have a chain; numbered 5-step counter check + observation/meaning/action table; riding symptoms list with stop criteria; new section on rain/dust/load/descents with a checking rhythm; who-does-what with 5 questions to the loueur; 5 FAQ. Words 1724 -> 1583.",
+   "META": "Title kept (60 chars, literal and unique), description rewritten (155 chars), og tags synced, H1 kept, eyebrow 'Contrôle de la moto'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; added /permis-securite/semi-automatique-moto-shifting-vietnam/, /permis-securite/moto-breakdown-vietnam-location/, /permis-securite/moto-oil-controle-location-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/. 7/7 unique, parent hub present.",
+   "AEO_GEO": "Direct answer in the lead (2-minute check, symptoms, who does what, scooters have no visible chain). Numbered procedure, observation table, 2 checklists, 5 FAQ (answers short, no repetition of body)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Which models in the shop's fleet use a chain, the recommended chain slack per model, and the shop's chain maintenance routine are unconfirmed; page only tells readers to ask."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-fog-montagne-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment rouler à moto dans le brouillard en montagne au Vietnam (visibilité, allure, arrêt)",
+  "new_meta": {
+   "description": "Brouillard en montagne au Vietnam à moto : phare allumé, allure réglée sur la visibilité, camions et épingles, et quand s’arrêter ou renoncer à une étape."
+  },
+  "words_before": 2031,
+  "words_after": 1628,
+  "evidence": {
+   "FACTS": "Legal statements limited to E-legal-digest (Law 36/2024, retrieved): art. 12 (adapt speed to terrain/weather, explicit mention of passes, slopes, fog, rain, slippery roads; no km/h quoted because Circular 38/2024 not verified, and the text says so), art. 20 (headlight 18:00-06:00 and whenever fog/smoke/dust/rain limit visibility; dipped beam in lit areas/when meeting traffic), art. 13 (slower vehicles keep right), art. 21 (horn only to warn of danger or signal overtaking, never continuous, not 22:00-05:00 in built-up areas), art. 33 (helmet for passenger). 'Vérifié le 30 octobre 2026' given next to art. 12 citation. Removed the invented numeric example (30 m visibility / 25 m stopping), the 'vingt mètres de bitume gris', altitude example '200 m', claims about cafés/teahouses and 'les gens du coin jugent avec bienveillance', and 'les loueurs de la région voient passer ces ajustements'. Fog formation described qualitatively (condensation, cool humid mornings/evenings, varies with altitude); no seasonal months given (rainy-season months not verified). Shop: only NAP/hours; what happens when a return is delayed is stated as not detailed on the site. No prices.",
+   "INTENT": "Main question: how to ride a motorbike in mountain fog in Vietnam. OWNER of « moto et brouillard en montagne au Vietnam ». Differs from types-motos/meilleur-moto-montagne-routes-vietnam (bike choice) and permis-securite/moto-montagne-pass-securite-vietnam (descent/engine-brake technique) by covering visibility, lights, speed vs visible distance, vehicles and stopping; links to both once.",
+   "CONTENT": "Full rewrite (removed 'discipline de visibilité', 'purée de pois', 'la brume cesse d'être l'ennemie', 'comme toujours sur ce site'). New: why fog arrives fast, preparation checklist with plan B, visibility (legal lights/keep right/horn), driving with a visibility-based table, trucks/buses/hairpins, stopping and giving up, 5 FAQ. Words 2031 -> 1624.",
+   "META": "Title kept (57 chars); description rewritten (154 chars) and og tags synced; H1 kept; eyebrow 'Conduite en montagne'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; kept /types-motos/meilleur-moto-montagne-routes-vietnam/ and /types-motos/semi-automatique-ou-trail-moto-sapa/; added /permis-securite/moto-montagne-pass-securite-vietnam/ and /permis-securite/moto-pluie-securite-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in lead; visibility/reaction table; 4 checklists; 5 FAQ answered with the legal articles (12, 20) and short advice; citation of the Law 36/2024 full text."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 12, 13, 20, 21, 33 (retrieved per E-legal-digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Shop policy if a rental is extended or returned late because of weather is unconfirmed."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-frein-controle-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment vérifier les freins d'une moto de location avant un long trajet et quand en demander une autre",
+  "new_meta": {
+   "title": "Vérifier les freins d’une moto de location avant de partir",
+   "description": "Levier, pédale, bruits, essai en trois freinages : comment contrôler les freins d’une moto de location avant un long trajet, et quand en demander une autre.",
+   "h1": "Vérifier les freins d’une moto de location avant un long trajet"
+  },
+  "words_before": 2295,
+  "words_after": 1644,
+  "evidence": {
+   "FACTS": "Removed mannered/unsupported text ('le métal qui chante n'est jamais une chanson d'attente', 'le loueur sérieux a plusieurs machines', 'entretient sa flotte', 'la page du silo', 'une centaine de mètres suffit', 'les machines à tambour, fréquentes en location'). Content is generic braking mechanics expressed conditionally ('selon le modèle', 'quand la moto en a un'): no brake specs, no distances, no model claims. No legal claim stated; the pages on descents and rain are linked instead. Shop: NAP/hours per SEO-FACTS, maintenance programme explicitly 'non détaillé sur ce site, posez les questions avant de réserver'; no deposit/assistance/replacement promise (replacement appears only as a question to ask).",
+   "INTENT": "Main question: how to check the brakes of a rental motorbike before a long trip and when to ask for another bike. OWNER of « vérifier les freins avant un long trajet ». Closest pages (backpacker-location-moto-hanoi 0.27, longue-duree-location-moto-hanoi 0.25, location-moto-depot-hanoi 0.21) are rental guides; this page is the brake-specific check and links to the descent (engine braking) and rain guides instead of repeating them.",
+   "CONTENT": "Full rewrite: removed abstract passages ('asymétrie', 'grammaire commune', 'le comptoir où la machine parle'). New: why before not during, at-rest table (normal / abnormal / action) including leak, wear marks, brake light and warning lights, 4-step road test, alert signs with a 3-way decision, what to ask the loueur, how to brake a bike you do not know, during the trip, 5 FAQ. Words 2295 -> see words_after.",
+   "META": "Title changed from 'Freins d'une moto de location : les contrôles avant un long trajet' to 'Vérifier les freins d’une moto de location avant de partir' (58 chars); H1 aligned on the owner query; description rewritten (156 chars); og tags synced; eyebrow 'Contrôle de la moto'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept; kept /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/moto-pluie-securite-vietnam/ and /location-moto-hanoi/debutant-location-moto-hanoi/; added /permis-securite/moto-breakdown-vietnam-location/; dropped /location-moto-hanoi/location-moto-hanoi-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Direct two-step answer in the lead with change-of-bike criteria; at-rest table, numbered road test, 3 checklists, 5 FAQ with short answers."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Shop's brake maintenance schedule (pad replacement), whether test rides before payment are allowed and whether a bike can be swapped are unconfirmed."
+  ]
+ },
+ {
+  "path": "permis-securite/moto-hanoi-nuit-securite/index.html",
+  "role": "OWNER",
+  "primary_intent": "Rouler à moto de nuit à Hanoi : règles d'éclairage, visibilité, dangers et prudence",
+  "new_meta": {
+   "description": "Moto de nuit à Hanoi : phare obligatoire de 18 h à 6 h, klaxon limité la nuit, zéro alcool, contrôle des feux et conseils de visibilité et de prudence."
+  },
+  "words_before": 1604,
+  "words_after": 1647,
+  "evidence": {
+   "FACTS": "Added the legal frame from E-legal-digest (Law 36/2024, retrieved): art. 20 headlight 18:00-06:00 + low-visibility weather, dipped beam in lit built-up areas/when meeting traffic/turning; art. 21 horn only for danger/overtaking, never continuous, banned 22:00-05:00 in built-up areas and near health facilities (except priority vehicles); art. 9 zero alcohol and no phone; art. 33 helmet; art. 22 intersection priority (right; left at signed roundabouts); art. 12 adapt speed incl. livestock (no km/h given, Circular 38/2024 unverified, stated in text); art. 13 keep right; art. 80 accident duties; emergency numbers 113/114/115 'à la date de vérification, vérifiez sur place, fusion évoquée'. Fines: only 'décret 168/2024/NĐ-CP, consultez le texte officiel pour les montants'. Removed unsupported local claims ('les feux se franchissent à l'appréciation', 'camions et bus de nuit se déplacent sur des horaires propres', 'à cent mètres / à vingt', specific street/lake lighting claims, Têt night anecdotes). 'Vérifié le 30 octobre 2026' next to the table. Shop: NAP/hours (09:00-21:00) only; return procedure and assistance outside opening hours stated as to be confirmed before booking; no policy affirmed, no price.",
+   "INTENT": "Main question: how to ride safely at night in Hanoi. OWNER of « rouler à moto de nuit à Hanoi ». Closest pages (moto-pluie-securite-vietnam 0.25, moto-heat-securite-vietnam 0.23) cover rain/heat; this page keeps the night angle (lights, visibility, alcohol, horn ban, planning) and links to rain, lanes, roundabouts and emergency numbers.",
+   "CONTENT": "Full rewrite: removed mannered 'la nuit transforme la lecture de la rue', 'chorégraphique', 'devinette'. New: legal table, lights checklist at the counter, seeing/being seen, urban dangers, speed/alcohol/phone/planning, preparing a night outing, what to do if a problem occurs (art. 80, numbers, shop hours), 5 FAQ. Words 1604 -> see words_after.",
+   "META": "Title kept (64 chars), description rewritten (151 chars) to state the rules, og tags synced, H1 kept, eyebrow 'Conduite de nuit'.",
+   "LINKS": "Required /permis-securite/, /types-motos/, /location-moto-hanoi/ kept. Replaced /location-moto-hanoi/location-moto-hanoi-tet/ and /permis-securite/moto-heat-securite-vietnam/ by /permis-securite/moto-pluie-securite-vietnam/, /permis-securite/moto-lane-hanoi/, /permis-securite/hanoi-roundabout-moto-conseils/, /permis-securite/vietnam-emergency-numbers-moto-touriste/. 7/7 unique.",
+   "AEO_GEO": "Direct answer in lead (lights, alcohol, horn, checks, speed, planning); rules table with article numbers; 4 checklists; 5 FAQ; citation of Law 36/2024 full text."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024 arts. 9, 12, 13, 20, 21, 22, 33, 80 (retrieved per E-legal-digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Late-evening return procedure and the number to call for a problem after 21:00 are unconfirmed (page says to confirm before booking).",
+   "Whether an antivol is supplied is unconfirmed (page tells readers to ask)."
+  ]
  }
 ]

@@ -1,0 +1,206 @@
+[
+ {
+  "path": "permis-securite/index.html",
+  "words": 2621,
+  "words_note": "article text excluding the 44-link guide lists (843 words); seo_page_check words_qa 3464 incl. lists",
+  "new_meta": {
+   "title": "Conduire une moto au Vietnam : permis, papiers et sécurité",
+   "description": "Avant de rouler au Vietnam : catégorie de permis, permis international de la Convention de 1968, papiers de la moto, casque, alcool zéro et sécurité.",
+   "h1": "Permis moto et sécurité au Vietnam : ce qu’il faut vérifier"
+  },
+  "evidence": {
+   "FACTS": "All legal statements tied to Law 36/2024/QH15 articles read in full text (arts 9, 20, 21, 25, 33, 56, 57, 59, 62, 89) and UN treaty status; no business promise on insurance, deposit or licence acceptance; Decree 168/2024 cited without amounts; « Vérifié le 30 octobre 2026 » note under the direct answer and in table caption.",
+   "INTENT": "primary intent: what a foreign visitor must check before riding a motorbike in Vietnam (permis moto vietnam étranger); owner URL /permis-securite/; distinct from /permis-securite/permis/ (detailed licence classes, IDP, conversion) and /permis-securite/securite/ (riding safety) which it summarises and links.",
+   "CONTENT": "Template filler and the three duplicated « Repère complémentaire » sections after </article> removed. New sections: direct answer + verification note; Law 36/2024 key rules list; decision table « votre situation → ce qu’il faut vérifier » (7 rows: 1968-party licence holders, B-only, non-party IDP e.g. Canada/US/Australia, >125 cm3/11 kW, residents/conversion, no licence/16–17, old VN A1); IDP and convention section with France-Diplomatie and Belgian FPS citations; vehicle papers and compulsory civil-liability insurance vs travel insurance exclusions; rules regardless of licence (helmet QCVN 2:2021 CR, zero alcohol, phone, passenger, no cao tốc, lights 18–6 h, horn); safety essentials; pre-booking checklist; 7 FAQ; all 44 children grouped in 5 h3 topics.",
+   "META": "Title 58 chars, meta 149 chars, og:title/og:description synced; H1 changed (matrix sync required for seo_title, meta_description, h1).",
+   "LINKS": "Required /permis-securite/permis/, /permis-securite/securite/, /types-motos/ kept; plus /location-moto-hanoi/; 44/44 child articles in <ul class=\"guide-list\"> under h3 groups (Permis/IDP/conversion 12, Papiers/assurance/contrôles 7, Règles/ville 10, Météo/montagne/équipement 7, Contrôle/panne/accident 8). Anchors use actual H1 except 50cc and electric children, where neutral anchors (« 50cc au Vietnam : faut-il un permis ? », « Scooter électrique au Vietnam : quel permis selon la puissance ? ») avoid repeating their inaccurate blanket claims. 8 external citations inline. seo_page_check: no broken links.",
+   "AEO_GEO": "Direct 4-sentence answer at top; decision table with caption; checklist; 7 question-form FAQ with self-contained answers; article numbers cited for machine extraction."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "status": "retrieved",
+    "used_for": "Law 36/2024/QH15 full text: arts 9, 12, 13, 15, 20, 21, 22, 25, 33, 34, 56, 57, 59, 62, 80, 88, 89"
+   },
+   {
+    "url": "https://chinhphu.vn/?pageid=27160&docid=211194&classid=1&orggroupid=1",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "official record: issued 27-06-2024, in force 01-01-2025"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "status": "retrieved",
+    "used_for": "1968 Convention parties: Viet Nam accession 20 Aug 2014 (reservation art. 52); France, Belgium, Luxembourg, Switzerland, Monaco, Morocco, Senegal, Tunisia dates; Canada/USA/Australia absent"
+   },
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "Decree 168/2024/ND-CP exists, fines and licence points, in force 1 Jan 2025 (no amounts quoted)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "IDP joined to French licence required; vehicle insurance"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "Belgian licence must cover motorcycles (cat. A) for > 50 cc"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "helmet standard QCVN 2:2021/BKHCN and CR mark"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/111-113-114-115-la-so-dien-thoai-gi-138013545.html",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "113 police, 114 fire/rescue, 115 medical emergency"
+   }
+  ],
+  "owner_gaps": [
+   "Shop's own licence/document acceptance policy, insurance and how vehicle registration/insurance papers are handed to renters are unconfirmed (not stated)."
+  ],
+  "check": "seo_page_check: errors only the 3 expected « differs from data/seo-cluster-matrix.json (sync required) »; review: legal sentences read and sourced; « delivery » hits are « délivré » (licence issuance), « deposit/fleet_promise » hit is « ni une garantie couvrant vos propres soins » (negation, no promise), « passport » hit is the child-guide anchor.",
+  "child_article_legal_issues": [
+   {
+    "path": "permis-securite/50cc-scooter-license-vietnam/index.html",
+    "wrong_claim": "H1 « 50cc au Vietnam : la cylindrée qui se conduit sans permis » and meta « Non, un 50cc se conduit sans permis au Vietnam selon la règle en vigueur » (blanket exemption)",
+    "correct_statement": "Only a xe gắn máy (≤ 50 cm3 AND design speed ≤ 50 km/h; electric ≤ 4 kW) is exempt from the driving licence (Law 36/2024 art. 34(1)(g), 56(1),(4)); the rider must be ≥ 16 (art. 59(1)(a)), know the rules and have riding skills; helmet (art. 33(2)), zero alcohol (art. 9(2)), registration and compulsory insurance papers (art. 56(1)) still apply; a vehicle outside the definition is a xe mô tô requiring A1.",
+    "source": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html"
+   },
+   {
+    "path": "permis-securite/electrique-scooter-license-vietnam/index.html",
+    "wrong_claim": "H1 « Scooter électrique au Vietnam : quand aucun permis n'est exigé » presented as a general rule",
+    "correct_statement": "No licence only for an electric xe gắn máy (motor ≤ 4 kW and design speed ≤ 50 km/h, rider ≥ 16) or a pedal-assist xe đạp máy (assistance cut at 25 km/h); electric two-wheelers up to 11 kW need A1 and above 11 kW need A (Law 36/2024 arts 34, 56, 57, 59).",
+    "source": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html"
+   },
+   {
+    "path": "permis-securite/vietnam-permis-moto-a1-a/index.html",
+    "wrong_claim": "Low-power electrics « autour de 4 kW … vitesse bridée autour de 50 km/h — se rangent du côté des vélos assistés et cyclomoteurs »",
+    "correct_statement": "Electric ≤ 4 kW and ≤ 50 km/h by design is a xe gắn máy (moped, motor vehicle, art. 34(1)(g)); the assisted bicycle (xe đạp máy, assistance cut at 25 km/h) is a separate non-motorised class (art. 34(2)(b)); thresholds are ceilings (« au plus »), not approximations.",
+    "source": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html"
+   }
+  ]
+ },
+ {
+  "path": "permis-securite/permis/index.html",
+  "words": 2440,
+  "words_note": "excluding guide lists (288 words); words_qa 2728",
+  "new_meta": {
+   "title": "Permis moto Vietnam pour étranger : A1, A et permis international",
+   "description": "Loi 36/2024 : catégories A1 et A, exemption du cyclomoteur, permis international de la Convention de 1968, conversion pour résidents et papiers à emporter."
+  },
+  "evidence": {
+   "FACTS": "Vehicle/licence table from Law 36 arts 34, 57, 59 (xe gắn máy ≤50 cm3/≤4 kW and ≤50 km/h, A1 ≤125 cm3/≤11 kW, A >125 cm3/>11 kW, B1 tricycle ≤400 kg, ages 16/18, A1/A/B1 no expiry); xe đạp máy 25 km/h; IDP rules art 57(6)(8) (1968 party, uniform model, ≤3 years, carry both, suspension ≤ stay, VN IDP for residents); UN party table with dates; Canada/US/Australia absent; conversion art 62(2)(đ) + Circular 12/2025/TT-BCA summary (seen) + Circular 108/2026/TT-BCA flagged as to verify; transitional art 89 (old A1 50–<175 cm3); what to carry art 56; risks: art 9(1),(7), Decree 168/2024 without amounts, travel-insurance refusal risk; shop acceptance ≠ legal validation.",
+   "INTENT": "primary intent: permis moto vietnam pour étranger / permis international vietnam moto / échange permis; owner URL /permis-securite/permis/; distinct from hub (overview) and from child articles (single sub-questions).",
+   "CONTENT": "Removed template filler and two duplicated « Repère complémentaire » sections after </article>. Sections: direct answer + note; categories table; 50 cm3/electric exemption conditions; IDP under Vietnamese law; 1968 party table; France/Belgium/Switzerland preparation (France-Diplomatie, France Titres reply, Belgian FPS); resident conversion; old VN A1/A2; what to carry checklist; risks; shop acceptance not validation; 7 FAQ; 16 relevant children in 4 h3 groups; next-step links.",
+   "META": "Title 65 chars, meta 155 chars, og synced; H1 unchanged « Permis moto au Vietnam pour les étrangers » (sync required for title/meta only).",
+   "LINKS": "Required /permis-securite/securite/, /types-motos/50cc/, /types-motos/scooter-automatique/, /location-moto-hanoi/ kept (contextual + context-links); parent /permis-securite/ linked; 16 children (categories 5, IDP 3, conversion 4, papers/insurance/control 4).",
+   "AEO_GEO": "Answer-first paragraph, two captioned tables, checklist, 7 FAQ (Vision/Air Blade category without stating model specs, IDP alone, IDP validity, ages, tourist conversion, 175 cm3 myth, US IDP)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "status": "retrieved",
+    "used_for": "Law 36/2024/QH15 full text: arts 9, 12, 13, 15, 20, 21, 22, 25, 33, 34, 56, 57, 59, 62, 80, 88, 89"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "status": "retrieved",
+    "used_for": "1968 Convention parties: Viet Nam accession 20 Aug 2014 (reservation art. 52); France, Belgium, Luxembourg, Switzerland, Monaco, Morocco, Senegal, Tunisia dates; Canada/USA/Australia absent"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "IDP joined to French licence required; vehicle insurance"
+   },
+   {
+    "url": "https://www.plus.transformation.gouv.fr/experiences/4529463_permis-international-refuse",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "France Titres reply: French IDP valid 3 years or remaining validity of French licence"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "Belgian licence must cover motorcycles (cat. A) for > 50 cc"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/huong-dan-thuc-hien-doi-giay-phep-lai-xe-theo-thong-tu-122025-201157.html",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "Circular 12/2025/TT-BCA (1 Mar 2025): exchange for foreigners residing/working/studying with residence card; Circular 108/2026/TT-BCA (1 Jul 2026) signalled in luatvietnam list, not read"
+   },
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "Decree 168/2024/ND-CP exists, fines and licence points, in force 1 Jan 2025 (no amounts quoted)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether Thuê xe máy Nguyễn Hà asks for a licence/IDP, and which vehicle papers accompany each rental, is unconfirmed."
+  ],
+  "check": "seo_page_check: errors only seo_title/meta_description sync; review legal sentences verified against Law 36 text; « delivery » = « délivré »; « deposit/fleet_promise » = sentence saying the shop's rental/guarantee/insurance conditions are not detailed here (no promise)."
+ },
+ {
+  "path": "permis-securite/securite/index.html",
+  "words": 2639,
+  "words_note": "excluding guide lists (286 words); words_qa 2925",
+  "new_meta": {
+   "title": "Sécurité à moto au Vietnam : Hanoi, pluie, montagne et accident",
+   "description": "Priorités et klaxon à Hanoi, casque conforme, nuit, pluie, cols de Ha Giang et Sapa, passager et gestes après un accident : les règles et conseils à connaître."
+  },
+  "evidence": {
+   "FACTS": "Legal points from Law 36: keep right/lane change (art 13), turning and U-turn bans (art 15), lights 18–6 h and dipped beam (art 20), horn only for danger/overtaking, none 22–5 h in populated areas (art 21), priorities incl. roundabout yield to left / unsigned yield to right (art 22), no cao tốc for motorbikes (art 25(3)), slow down in rain/fog/passes/livestock (art 12), one passenger + exceptions, helmet, load limits 0.3/0.5/2 m (art 33), accident duties (art 80), fleeing prohibited (art 9). Helmet standard QCVN 2:2021/BKHCN + CR (seen). Emergency 113/114/115 and 112 (seen, cited separately). No speed figures, no rainy-season months, no route conditions asserted.",
+   "INTENT": "primary intent: sécurité moto vietnam / conseils conduite moto hanoi; owner URL /permis-securite/securite/; distinct from permis page (documents) and child safety articles (single topics).",
+   "CONTENT": "Removed template filler and three duplicated « Repère complémentaire » sections after </article>. Sections: direct answer + note; reading Hanoi traffic; priorities/roundabouts/horn; expressway ban and national roads; helmet standard/fit/equipment; night riding; rain/storms/flooded streets; mountain (Ha Giang, Sapa: engine braking, automatic scooter limits, fog, landslides); fatigue/heat; passenger and luggage; ordered accident steps; pre-ride check table; 7 FAQ; 17 relevant children in 3 h3 groups.",
+   "META": "Title 63 chars, meta 159 chars, og synced; H1 unchanged.",
+   "LINKS": "Required /permis-securite/permis/, /nord-vietnam/, /nord-vietnam/ha-giang/, /nord-vietnam/sapa/ kept contextually and in context-links; parent /permis-securite/; 17 safety children + inline links to panneaux, limite-vitesse, protective gear, night, mountain pass, accident, brake and tyre guides.",
+   "AEO_GEO": "Answer-first summary, numbered accident procedure, captioned check table, 7 FAQ (roundabout priority, expressway, horn, helmet, rain, passengers, minor fall)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "status": "retrieved",
+    "used_for": "Law 36/2024/QH15 full text: arts 9, 12, 13, 15, 20, 21, 22, 25, 33, 34, 56, 57, 59, 62, 80, 88, 89"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "helmet standard QCVN 2:2021/BKHCN and CR mark"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/111-113-114-115-la-so-dien-thoai-gi-138013545.html",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "113 police, 114 fire/rescue, 115 medical emergency"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/phap-luat/112-la-so-dien-thoai-gi-so-dien-thoai-112-goi-cho-ai-goi-cho-so-112-co-mat-phi-khong-theo-nghi-dinh-225537-268000.html",
+    "checked": "2026-10-30",
+    "status": "seen in search result",
+    "used_for": "112 search and rescue"
+   }
+  ],
+  "owner_gaps": [
+   "Shop's roadside assistance/breakdown procedure and accident reporting contact are unconfirmed (page tells readers to contact the renter without promising assistance)."
+  ],
+  "check": "seo_page_check: errors only seo_title/meta_description sync; review legal sentences verified; insurance_assistance hits are the papers row and child-guide anchor (no promise)."
+ }
+]
