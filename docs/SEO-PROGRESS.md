@@ -16,9 +16,7 @@ This is a work plan, not a claim that SEO implementation is complete.
 | URL checkpoints | BLOCKED_TOOL | 543 |
 | URL checkpoints | DONE | 5430 |
 | Sitewide tasks | BLOCKED_TOOL | 2 |
-| Sitewide tasks | DONE | 23 |
-| Sitewide tasks | IN_PROGRESS | 1 |
-| Sitewide tasks | TODO | 2 |
+| Sitewide tasks | DONE | 26 |
 
 ## Findings to investigate and repair
 
