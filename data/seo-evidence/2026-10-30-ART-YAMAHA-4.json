@@ -384,5 +384,46 @@
    "Whether a PG-1 (ABS or standard) is offered and at what price",
    "Authorised riding zone, maintenance and replacement for monthly rentals, rack fitment (asked, not stated)"
   ]
+ },
+ {
+  "path": "yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Yamaha PG-1 ABS ou Honda Super Cub C125 : quelle semi-automatique louer à Hanoi ?",
+  "new_meta": {
+   "title": "Yamaha PG-1 ABS ou Honda Super Cub C125 : quel choix louer ?",
+   "description": "PG-1 ABS ou Super Cub C125 à Hanoi : garde au sol, selle, poids, réservoir et style baroudeur ou rétro. Deux semi-automatiques comparées, chiffres à l’appui.",
+   "h1": "Yamaha PG-1 ou Super Cub C125 : quel choix louer ?"
+  },
+  "words_before": 1574,
+  "words_after": 1591,
+  "evidence": {
+   "FACTS": "Removed « aucune disponibilité garantie, aucun chiffre inventé — la méthode, comme toujours sur cette plateforme », the stacked contract line (zone autorisée, assistance, caution, équipements inclus) and the « devis écrits comparés à conditions égales » method talk. Specs only from manufacturer pages seen in search results on 2026-10-30: Yamaha PG-1 ABS (113,7 cm3, seat 795 mm, minimum clearance 190 mm, 109 kg, tank 5,1 L, wheelbase 1 280 mm); Honda Vietnam Super Cub C125 (seat 780 mm, clearance 136 mm, 109 kg, tank 3,7 L, wheelbase 1 243 mm, consumption 1,52–1,55 L/100 km depending on table). Cylinder capacity of the C125 given only as « 125 cm3 d’après le nom, à relever sur les papiers »; a Honda Euro 4 update and a 12 L tank mention in search summaries were not used because the model attribution was unclear. The « environ 240 km » figure is arithmetic 3,7 L / 1,52–1,55 L per 100 km, flagged as an estimate; no PG-1 consumption quoted. Licence: Law 36/2024/QH15 A1 up to 125 cm3 (chinhphu portal, seen in search result). Prices: none for either bike (no owner row; batch rule: PG-1 no published price; none invented for the C125); reader sent to the PG-1 price article. Availability, breakdown number, maintenance/replacement for long rentals phrased as questions. Same-principle statement (semi-automatic, no clutch lever) for the C125 follows the Yamaha semi-automatiques hub (« même famille de boîte »).",
+   "INTENT": "Main question: PG-1 ou Super Cub C125, lequel louer. OWNER of « yamaha PG-1 ou Super Cub C125 ». Differs from honda/honda-super-cub-c125-ou-yamaha-pg-1-location (Honda-side duel, linked once as a natural pointer), honda/honda-super-cub-c125-location-hanoi (C125 profile, linked) and types-motos/super-cub-c125-location-vietnam by comparing the two bikes' figures (clearance, tank, seat) and a decision table.",
+   "CONTENT": "Full rewrite. Sections: two styles + shared limits, side-by-side spec table, rough roads (clearance), city handling, tank and fills, licence, decision table, shared checks (new), price and booking with NAP, FAQ (5). Words 1574 -> 1591.",
+   "META": "Title changed from « Yamaha PG-1 ou Super Cub C125 : quel choix louer ? » to « Yamaha PG-1 ABS ou Honda Super Cub C125 : quel choix louer ? » (60 chars; H1 keeps the hub wording); description 157 chars; eyebrow « PG-1 ou Super Cub C125 · semi-automatiques »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-super-cub-c125-location-hanoi/, /honda/honda-super-cub-c125-ou-yamaha-pg-1-location/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-pg-1-abs-location-hanoi/, /yamaha/yamaha-pg-1-abs-prix-location-hanoi/. Kept the three required targets and /yamaha/yamaha-pg-1-abs-location-hanoi/; added /yamaha/yamaha-pg-1-abs-prix-location-hanoi/, /honda/honda-super-cub-c125-location-hanoi/ and the Honda-side duel /honda/honda-super-cub-c125-ou-yamaha-pg-1-location/.",
+   "AEO_GEO": "Direct answer in the lead with the deciding figures; spec table, decision table, two checklists; FAQ of 5 (conduite, routes abîmées, bagages, permis, prix); 2 external manufacturer citations plus the chinhphu licence source, all rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 ABS seat 795 mm, clearance 190 mm, 109 kg, tank 5,1 L, wheelbase 1 280 mm, 113,7 cm3"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/super-cub-c125",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Super Cub C125 109 kg, seat 780 mm, clearance 136 mm, tank 3,7 L, wheelbase 1 243 mm, consumption 1,52–1,55 L/100 km"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Own price for a PG-1 and for a Super Cub C125, if offered",
+   "Whether either bike is available; maintenance/replacement rules for long rentals"
+  ]
  }
 ]

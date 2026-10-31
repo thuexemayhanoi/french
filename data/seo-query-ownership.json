@@ -2885,7 +2885,7 @@
      "similarity": 0.6
     },
     {
-     "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
+     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
      "similarity": 0.55
     }
    ]
@@ -3002,12 +3002,12 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
+     "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
      "similarity": 0.67
     },
     {
-     "path": "honda/honda-air-blade-125-prix-location-hanoi/index.html",
-     "similarity": 0.67
+     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
+     "similarity": 0.58
     },
     {
      "path": "honda/honda-vario-160-prix-location-hanoi/index.html",
@@ -3127,16 +3127,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
+     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
+     "similarity": 0.5
+    },
+    {
      "path": "honda/honda-vario-160-prix-location-hanoi/index.html",
      "similarity": 0.5
     },
     {
      "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
      "similarity": 0.5
-    },
-    {
-     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
-     "similarity": 0.46
     }
    ]
   },
@@ -3257,7 +3257,7 @@
     },
     {
      "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
-     "similarity": 0.5
+     "similarity": 0.55
     },
     {
      "path": "honda/honda-wave-alpha-110-prix-location-hanoi/index.html",
@@ -3852,16 +3852,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "yamaha/yamaha-nmax-ou-honda-sh125i-location/index.html",
-     "similarity": 0.75
-    },
-    {
      "path": "yamaha/yamaha-latte-ou-honda-vision-location/index.html",
      "similarity": 0.5
     },
     {
      "path": "honda/honda-vision-ou-yamaha-janus-location/index.html",
      "similarity": 0.5
+    },
+    {
+     "path": "yamaha/yamaha-nmax-ou-honda-sh125i-location/index.html",
+     "similarity": 0.46
     }
    ]
   },
@@ -4252,16 +4252,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
+     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
+     "similarity": 0.6
+    },
+    {
      "path": "honda/honda-vario-125-prix-location-hanoi/index.html",
      "similarity": 0.6
     },
     {
      "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
      "similarity": 0.58
-    },
-    {
-     "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
-     "similarity": 0.56
     }
    ]
   },
@@ -4377,16 +4377,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
+     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
+     "similarity": 0.67
+    },
+    {
      "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
      "similarity": 0.62
     },
     {
      "path": "honda/honda-icon-e-prix-location-hanoi/index.html",
      "similarity": 0.62
-    },
-    {
-     "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
-     "similarity": 0.6
     }
    ]
   },
@@ -4507,7 +4507,7 @@
     },
     {
      "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
-     "similarity": 0.5
+     "similarity": 0.55
     },
     {
      "path": "honda/honda-sh125i-prix-location-hanoi/index.html",
@@ -4752,16 +4752,16 @@
    "parent_hub": "/honda/",
    "closest_pages": [
     {
-     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
+     "path": "honda/honda-vision-prix-location-hanoi/index.html",
      "similarity": 0.67
     },
     {
-     "path": "honda/honda-vision-prix-location-hanoi/index.html",
+     "path": "honda/honda-vario-160-prix-location-hanoi/index.html",
      "similarity": 0.6
     },
     {
-     "path": "honda/honda-vario-160-prix-location-hanoi/index.html",
-     "similarity": 0.55
+     "path": "honda/honda-air-blade-160-prix-location-hanoi/index.html",
+     "similarity": 0.58
     }
    ]
   },
@@ -10957,16 +10957,16 @@
    "parent_hub": "/types-motos/",
    "closest_pages": [
     {
+     "path": "yamaha/yamaha-nmax-ou-honda-sh125i-location/index.html",
+     "similarity": 0.13
+    },
+    {
      "path": "yamaha/yamaha-exciter-155-ou-honda-winner-x-location/index.html",
      "similarity": 0.13
     },
     {
      "path": "permis-securite/deux-personnes-moto-vietnam-law/index.html",
      "similarity": 0.09
-    },
-    {
-     "path": "yamaha/yamaha-grande-ou-honda-lead-abs-location/index.html",
-     "similarity": 0.08
     }
    ]
   },
@@ -12958,15 +12958,15 @@
    "closest_pages": [
     {
      "path": "honda/honda-sh125i-ou-yamaha-nmax-location/index.html",
-     "similarity": 0.75
+     "similarity": 0.46
     },
     {
-     "path": "yamaha/yamaha-latte-ou-honda-vision-location/index.html",
-     "similarity": 0.4
+     "path": "yamaha/yamaha-grande-ou-honda-lead-abs-location/index.html",
+     "similarity": 0.35
     },
     {
-     "path": "honda/honda-vision-ou-yamaha-janus-location/index.html",
-     "similarity": 0.4
+     "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
+     "similarity": 0.33
     }
    ]
   },

@@ -588,5 +588,52 @@
    "Whether the shop offers an NMAX, which version, and its own tariff (a 155 cm3 grand scooter may not follow the automatic-scooter range).",
    "Passenger acceptance, deposit, breakdown procedure, trips outside Hanoi, licence categories accepted for category A (all phrased as questions)."
   ]
+ },
+ {
+  "path": "yamaha/yamaha-nmax-ou-honda-sh125i-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "NMAX ou SH125i pour sortir de Hanoi, rouler à deux et transporter des bagages (longues distances, passager, bagages).",
+  "words_before": 1612,
+  "words_after": 1649,
+  "new_meta": {
+   "title": "NMAX ou SH125i : lequel pour partir à deux hors de Hanoi ?",
+   "description": "NMAX ou Honda SH125i pour sortir de Hanoi à deux avec des bagages : puissance, coffre, ABS, réservoir, permis A ou A1 et préparation d’une longue étape.",
+   "h1": "Yamaha NMAX ou Honda SH125i : longues distances, passager et bagages"
+  },
+  "evidence": {
+   "FACTS": "Facts only from manufacturer pages seen in search results. NMAX standard (Yamaha Motor Vietnam): 155,1 cm3, 11,3 kW @ 8 000, 14,2 N·m @ 6 500, ABS both wheels, smart key, Stop & Start, réservoir 7,1 L, selle 770 mm, coffre 24 L; weight not found. SH125i (honda.com.vn SH160i/125i page): 124,8 cm3, 9,6 kW @ 8 250, 11,9 N·m @ 6 500, 133 kg, ABS 2 canaux on Sport/Spéciale/Premium and CBS on Standard, smart key available; coffre « jusqu’à 28 L » from Honda’s 2026 range press release; tank 7 L and the page’s seat height are from the shared SH160i/125i page and marked « à confirmer pour la version 125i » (seat height left out of the table). No consumption figure found for either machine: the article says so and gives no autonomy. Permit: A for NMAX, A1 for SH125i under Law 36/2024/QH15 (xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result), with the foreign-licence caveat. Price: neither has an owner row; only the scooter automatique category range « à titre de repère » with the mandatory disclaimer and the statement that a 125–155 cm3 grand scooter does not automatically fall in it; Vision and Air Blade named only as the models with own rows. Removed the old tariff talk (« le tarif grimpe », « la franchise et la caution méritent une lecture », « kilométrage inclus ou plafonné ») and generic style claims; passenger acceptance, second casque, top case, assistance and trips outside Hanoi are written as questions. The Honda software-recall and 2027 model news found in the results were not used.",
+   "INTENT": "Role DISTINCT_ANGLE (group CMP-SH125I-NMAX, owner honda/honda-sh125i-ou-yamaha-nmax-location/): sorties hors de Hanoi, longues distances, passager et bagages — not a second urban comparison. The owner is linked once (« comparatif Honda SH125i ou Yamaha NMAX », for the general urban duel). Differs from honda-sh125i-ou-yamaha-nmax-location (0.75), yamaha-latte-ou-honda-vision-location (0.40) and honda-vision-ou-yamaha-janus-location (0.40) by the route-oriented table (puissance, couple, poids, réservoir, coffre, ABS), the permit A vs A1 decision, the duo test, luggage and stage-pacing sections and the outing-adequacy table.",
+   "CONTENT": "Full rewrite. Sections: chiffres qui comptent sur la route (sourced table), permis A ou A1, distance et carburant, rouler à deux (5 checks), bagages, quelles sorties (table, no distances), la fatigue à deux, préparer une sortie à deux (8 items), budget indicatif, FAQ (5), pour aller plus loin. Removed the generic urban duel prose. Words 1612 → 1649.",
+   "META": "Title (58 chars) and description (152 chars) refocused on the documented angle (partir à deux hors de Hanoi, bagages, permis A/A1); H1 « Yamaha NMAX ou Honda SH125i : longues distances, passager et bagages »; eyebrow « Longues distances, duo et bagages »; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-sh125i-ou-yamaha-nmax-location/ (owner, once, natural anchor), /yamaha/yamaha-nmax-location-hanoi/, /honda/honda-sh125i-location-hanoi/, /permis-securite/permis/. Dropped /honda/scooters/ and /types-motos/meilleur-scooter-hanoi-circulation/. External: 4 rel=noopener citations (Yamaha NMAX page, Honda SH160i/125i page, Honda 2026 range press release, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences: puissance/coffre, then permis A vs A1, then scope). Sourced comparison table; outing-adequacy table; three checklists (duo test, stage rhythm, preparation); 5 FAQ items (confort à deux, coffre, longues distances, ABS du SH125i, disponibilité)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-30",
+    "used_for": "NMAX standard: 155,1 cm3, 11,3 kW, 14,2 N·m, ABS, smart key, Stop & Start, 7,1 L, 770 mm, 24 L (seen in search result summary)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/sh160i125i?version=99",
+    "checked": "2026-10-31",
+    "used_for": "SH125i: 124,8 cm3, 9,6 kW, 11,9 N·m, 133 kg, ABS 2 canaux selon version, smart key (seen in search result summary)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-chinh-thuc-gioi-thieu-sh160i125i-air-blade-160125-va-lead-abs-moi-2026-tai-su-kien-khai-pha-dau-an-doc-ban",
+    "checked": "2026-10-30",
+    "used_for": "SH160i/125i coffre jusqu’à 28 L (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Availability of an NMAX and an SH125i and their own tariffs.",
+   "Passenger acceptance, second casque, top case/side bags, assistance, trips outside Hanoi and licence categories accepted for a category-A scooter (all phrased as questions).",
+   "Hub note: yamaha/index.html and yamaha/scooters/index.html describe the LEXi among the compact scooters, but Yamaha Motor Vietnam’s current LEXi page is a 155 cm3 (category A) model; the hubs may need a one-line correction (LEXi 155,1 cm3, permis A)."
+  ]
  }
 ]

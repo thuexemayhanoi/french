@@ -350,7 +350,7 @@
   "role": "OWNER",
   "primary_intent": "Que vaut le Honda Winner X (moto à embrayage manuel) dans le trafic de Hanoi ?",
   "words_before": 1585,
-  "words_after": 1569,
+  "words_after": 1563,
   "new_meta": {
    "title": "Honda Winner X en ville : atouts et limites dans Hanoi",
    "description": "Le Honda Winner X dans le trafic de Hanoi : embrayage manuel, position sportive, chaleur, rangement et niveau requis, face à une Wave ou à un scooter.",
@@ -359,7 +359,7 @@
   "evidence": {
    "FACTS": "Aucun tarif: Winner X sans prix publié, aucune fourchette de catégorie appliquée, demande du montant renvoyée au loueur (conforme au hub honda/semi-automatiques). Specs uniquement depuis pages constructeur vues dans les résultats de recherche (checked 2026-10-30): actualité Honda Vietnam = 150 cc, quatre temps, monocylindre, refroidissement liquide, PGM-FI, boîte six rapports, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min; levier d'embrayage manuel cohérent avec le hub (BikeWale, même lien que honda/semi-automatiques; la fiche détaillée Winner X sur honda.com.vn n'est pas apparue dans les résultats). Comparaison de puissance avec la Wave RSX (6,46 kW, fiche Honda). Supprimé: 'une sportive se voit ... prévu dans le trafic', 'l'étage supérieur de l'échelle locale' (tarif non publié), 'loueur honnête', 'dépôt, assistance, exclusions, responsabilité' affirmés comme contrat type, 'chorégraphie du trafic'. Permis: aucune règle, renvoi à /permis-securite/. Caution/couverture/paiement posés en questions. Horaires et téléphone conformes à SEO-FACTS. Chaleur et refroidissement décrits comme généralité (liquide de refroidissement à vérifier).",
    "INTENT": "Question: le Winner X est-il jouable dans le trafic de Hanoi? Owner de 'honda Winner X en ville'. Distinct de honda-winner-x-location-hanoi (profil du motard), honda-sh125i-hanoi-ville et honda-vario-125-hanoi-ville (scooters) par l'embrayage manuel, les chiffres Honda et l'entraînement progressif.",
-   "CONTENT": "Réécriture complète du texte mannéré ('un trafic qui juge chaque machine', 'le vrai facteur: le conducteur'). Sections: chiffres Honda (tableau sourcé), levier d'embrayage dans les bouchons, atouts, limites (position, chaleur, rangement, stationnement), entraînement (étapes), heures et trajets, comparaison Winner X/Wave/scooter (tableau), niveau et permis, contrôles et tarif non publié, FAQ 5 questions. Mots 1585 -> 1569.",
+   "CONTENT": "Réécriture complète du texte mannéré ('un trafic qui juge chaque machine', 'le vrai facteur: le conducteur'). Sections: chiffres Honda (tableau sourcé), levier d'embrayage dans les bouchons, atouts, limites (position, chaleur, rangement, stationnement), entraînement (étapes), heures et trajets, comparaison Winner X/Wave/scooter (tableau), niveau et permis, contrôles et tarif non publié, FAQ 5 questions. Mots 1585 -> 1563.",
    "META": "Titre conservé (54 caractères); description 165 -> 150 caractères; H1 conservé; og:title/og:description identiques.",
    "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-winner-x-location-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/, /permis-securite/. Retiré: /hanoi/excursions-moto/. 2 liens externes (Honda Vietnam, BikeWale) rel=noopener.",
    "AEO_GEO": "Lead de 4 phrases avec verdict. 2 tableaux (chiffres sourcés, comparaison), 3 checklists + 2 listes numérotées, FAQ 5 questions courtes. Citations inline honda.com.vn et BikeWale."
@@ -496,6 +496,32 @@
    "Tarif du Winner X et de l'Exciter 155",
    "Version/année et présence d'ABS sur les motos louées",
    "Caution, couverture en cas de chute, conditions de sortie de Hanoi et assistance, règle de permis applicable à 150/155 cm³"
+  ]
+ },
+ {
+  "path": "honda/honda-winner-x-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle durée (jour, semaine, mois) choisir pour louer un Honda Winner X à Hanoi, sachant qu'aucun tarif n'est publié pour ce modèle ?",
+  "words_before": 1612,
+  "words_after": 1548,
+  "new_meta": {
+   "title": "Louer un Honda Winner X à Hanoi : jour, semaine ou mois ?",
+   "description": "Honda Winner X à Hanoi : tarif non publié, comment demander jour, semaine et mois, comparer deux offres et quelles conditions faire préciser avant de payer.",
+   "h1": "Location du Honda Winner X : faut-il payer à la journée, à la semaine ou au mois ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun tarif du Winner X (pas de ligne propriétaire; moto manuelle: aucun tarif publié, ne pas appliquer de fourchette). Le tableau montre les lignes propriétaire Vision (200 000/1 000 000/2 000 000) et Air Blade (200 000/900 000/1 500 000) et le repère semi-automatique uniquement pour situer ce qui existe, avec la ligne 'Honda Winner X : aucun tarif publié, à demander', le disclaimer exact et l'avertissement explicite 'ne déduisez aucun montant'. Aucun seuil chiffré pour le Winner X; méthode de comparaison à partir de devis réels. Mention 'fréquent dans la location de deux-roues' pour la dégressivité, vérifiable sur les catégories publiées (semaine/mois par jour inférieurs au jour) mais non affirmée pour le Winner X. Supprimé: 'le Winner X occupe l'étage supérieur de l'échelle des tarifs' (tarif/tendance non sourcé), 'le tarif journalier le plus élevé de la grille', 'sportive à embrayage s'use d...' (usure non sourcée), 'la semaine se négocie souvent mieux', 'négociation sur l'ensemble', assistance/rayon d'action affirmés comme lignes du contrat. Caution = 'certains loueurs'; couverture, kilométrage, casques, paiement, prolongation, remboursement posés en questions. Pas de conversion en euros. Horaires 09:00-21:00 et 0334 699 969 conformes à SEO-FACTS. Aucune spec modèle ni distance.",
+   "INTENT": "Question: payer au jour, à la semaine ou au mois pour un Winner X sans prix publié? Owner de 'location du Honda Winner X'. Distinct de honda-winner-x-location-hanoi (profil du motard) et de honda-air-blade-160-prix-location-hanoi / honda-vision-prix-location-hanoi (modèles avec ligne propriétaire) par l'absence de tarif et la méthode pour obtenir et comparer des devis.",
+   "CONTENT": "Réécriture complète du texte abstrait ('le tarif se lit comme une construction', 'où se situe le Winner X dans l'échelle', 'où se joue la bascule'). Sections: ce qui est publié ou non (tableau), usage de chaque formule pour une sportive, méthode de comparaison en quatre étapes (tableau), trois séjours et trois demandes de devis, essayer avant de s'engager, conditions que le devis doit préciser (checklist), coûts hors loyer, FAQ 5 questions. Mots 1612 -> 1548. Un paragraphe de FAQ identique à une autre page reformulé après alerte du QA.",
+   "META": "Titre 61 -> 57 caractères: l'ancien 'Tarif du Honda Winner X ...' promettait un tarif inexistant; remplacé par 'Louer un Honda Winner X à Hanoi : jour, semaine ou mois ?'; description 165 -> 156 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/honda-winner-x-location-hanoi/, /honda/honda-winner-x-ou-yamaha-exciter-155-location/, /honda/honda-wave-rsx-prix-location-hanoi/, /location-moto-hanoi/longue-duree/. Retiré: /nord-vietnam/.",
+   "AEO_GEO": "Lead de 3 phrases avec la réponse (pas de tarif publié, comment procéder). 2 tableaux (ce qui est publié, méthode en quatre étapes), 3 checklists, FAQ 5 questions courtes. Aucune citation externe nécessaire."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Tarif du Winner X (jour/semaine/mois), à publier ou à confirmer",
+   "Définition du jour/semaine/mois, prolongation, retour anticipé, remboursement",
+   "Caution, couverture en cas de chute, kilométrage, sortie de Hanoi, assistance, paiement"
   ]
  }
 ]

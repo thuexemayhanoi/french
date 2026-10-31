@@ -18471,7 +18471,7 @@
           "SH125i ou SH Mode 125 ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 7,
         "source_body_internal_inlink_examples": [
           "honda/honda-sh125i-hanoi-ville/index.html",
           "honda/honda-sh125i-longue-distance-vietnam/index.html",
@@ -18724,10 +18724,11 @@
           "Convient-il à un débutant ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
           "honda/index.html",
-          "honda/scooters/index.html"
+          "honda/scooters/index.html",
+          "yamaha/yamaha-nmax-ou-honda-sh125i-location/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -19102,7 +19103,7 @@
           "Y a-t-il de la place pour un passager et des bagages ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 8,
         "source_body_internal_inlink_examples": [
           "honda/honda-super-cub-c125-hanoi-ville/index.html",
           "honda/honda-super-cub-c125-longue-distance-vietnam/index.html",
@@ -19355,10 +19356,11 @@
           "Ont-elles l’ABS ?",
           "Peut-on les louer pour une boucle dans le Nord ?"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
           "honda/index.html",
-          "honda/semi-automatiques/index.html"
+          "honda/semi-automatiques/index.html",
+          "yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -21447,7 +21449,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "71f8899eb4468e711611ac971727062a068b8c034d455767ca5dfc84e41d4ab8"
         },
         "TECHNICAL": {
@@ -21700,7 +21702,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 11 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 11 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "00b91fbe07c00039d58a30b15827ef5800202de94a80da616c14b47885438b5b"
         },
         "TECHNICAL": {
@@ -22638,8 +22640,9 @@
           "Peut-on prolonger une location en cours ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 3,
         "source_body_internal_inlink_examples": [
+          "honda/honda-winner-x-prix-location-hanoi/index.html",
           "honda/index.html",
           "honda/semi-automatiques/index.html"
         ],
@@ -22689,7 +22692,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): 7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-wave-rsx-location-hanoi/, /honda/honda-wave-alpha-110-prix-location-hanoi/, /prix-location/semi-automatique-location-moto-hanoi-prix/. Retiré: /location-moto-hanoi/. 1 lien externe Honda Vietnam rel=noopener. Built check: 2 source-body incoming links (e.g. honda/index.html, honda/semi-automatiques/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): 7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-wave-rsx-location-hanoi/, /honda/honda-wave-alpha-110-prix-location-hanoi/, /prix-location/semi-automatique-location-moto-hanoi-prix/. Retiré: /location-moto-hanoi/. 1 lien externe Honda Vietnam rel=noopener. Built check: 3 source-body incoming links (e.g. honda/honda-winner-x-prix-location-hanoi/index.html, honda/index.html, honda/semi-automatiques/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "2b57615f5a99e0adab51e49c7b7aa4286c96a7cd23949bdc2a8de0bcc6c7f183"
         },
         "AEO_GEO": {
@@ -22807,7 +22810,7 @@
         },
         "CONTENT": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): Réécriture complète du texte mannéré ('un trafic qui juge chaque machine', 'le vrai facteur: le conducteur'). Sections: chiffres Honda (tableau sourcé), levier d'embrayage dans les bouchons, atouts, limites (position, chaleur, rangement, stationnement), entraînement (étapes), heures et trajets, comparaison Winner X/Wave/scooter (tableau), niveau et permis, contrôles et tarif non publié, FAQ 5 questions. Mots 1585 -> 1569. Sources: https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-bo-sung-tem-mau-moi-dam-chat-the-thao-cho-sieu-pham-winner-x-tu-hao-chat-x; https://www.bikewale.com/news/yamaha-aerox-155-rivaling-honda-winner-x-sports-launched-in-vietnam/; https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): Réécriture complète du texte mannéré ('un trafic qui juge chaque machine', 'le vrai facteur: le conducteur'). Sections: chiffres Honda (tableau sourcé), levier d'embrayage dans les bouchons, atouts, limites (position, chaleur, rangement, stationnement), entraînement (étapes), heures et trajets, comparaison Winner X/Wave/scooter (tableau), niveau et permis, contrôles et tarif non publié, FAQ 5 questions. Mots 1585 -> 1563. Sources: https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-bo-sung-tem-mau-moi-dam-chat-the-thao-cho-sieu-pham-winner-x-tu-hao-chat-x; https://www.bikewale.com/news/yamaha-aerox-155-rivaling-honda-winner-x-sports-launched-in-vietnam/; https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
           "verified_sha256": "3b15d53c493ff90da06d87ae23df48f6b251fe88dcd4de783c2ab48d0985c215"
         },
         "META": {
@@ -23148,11 +23151,11 @@
           "Vaut-il mieux choisir une version avec ABS ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "honda/honda-winner-x-location-hanoi/index.html",
           "honda/honda-winner-x-longue-distance-vietnam/index.html",
-          "honda/index.html"
+          "honda/honda-winner-x-prix-location-hanoi/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -23200,7 +23203,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): 7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/honda-winner-x-location-hanoi/, /honda/honda-winner-x-hanoi-ville/, /yamaha/yamaha-exciter-155-ou-honda-winner-x-location/ (page Yamaha liée une fois), /yamaha/yamaha-exciter-155-location-hanoi/. Retiré: /types-motos/meilleur-scooter-hanoi-circulation/. 2 liens externes constructeur rel=noopener. Built check: 8 source-body incoming links (e.g. honda/honda-winner-x-location-hanoi/index.html, honda/honda-winner-x-longue-distance-vietnam/index.html, honda/index.html); 8 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): 7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/honda-winner-x-location-hanoi/, /honda/honda-winner-x-hanoi-ville/, /yamaha/yamaha-exciter-155-ou-honda-winner-x-location/ (page Yamaha liée une fois), /yamaha/yamaha-exciter-155-location-hanoi/. Retiré: /types-motos/meilleur-scooter-hanoi-circulation/. 2 liens externes constructeur rel=noopener. Built check: 9 source-body incoming links (e.g. honda/honda-winner-x-location-hanoi/index.html, honda/honda-winner-x-longue-distance-vietnam/index.html, honda/honda-winner-x-prix-location-hanoi/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "7354c287f88a66be37c4475fa2d5f981f13c0fff9a61c5e21d88c9f5f8949675"
         },
         "AEO_GEO": {
@@ -23249,28 +23252,29 @@
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "f363681ae0572160eb88ea60fd88969f4aa064273a644387f209c3ce34811255",
-        "title": "Tarif du Honda Winner X en location : jour, semaine ou mois ?",
-        "title_chars": 61,
-        "description": "Le prix de location du Honda Winner X : comment comparer les formules jour, semaine et mois, ce que le contrat doit préciser et où la bascule entre formules se joue.",
-        "description_chars": 165,
+        "source_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f",
+        "title": "Louer un Honda Winner X à Hanoi : jour, semaine ou mois ?",
+        "title_chars": 57,
+        "description": "Honda Winner X à Hanoi : tarif non publié, comment demander jour, semaine et mois, comparer deux offres et quelles conditions faire préciser avant de payer.",
+        "description_chars": 156,
         "h1": "Location du Honda Winner X : faut-il payer à la journée, à la semaine ou au mois ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/honda/honda-winner-x-prix-location-hanoi/",
-        "editorial_word_count_estimate": 1557,
+        "editorial_word_count_estimate": 1486,
         "h2_h3": [
-          "Où se situe le Winner X dans l’échelle des tarifs",
-          "La journée : goûter la sportive",
-          "La semaine : la boucle qui la justifie",
-          "Le mois : l’installation et la longue route",
-          "Où se joue la bascule entre les formules",
-          "Ce que le contrat doit préciser pour une sportive",
+          "Ce qui est publié, et ce qui ne l’est pas",
+          "À quoi sert chaque formule avec une sportive",
+          "Comment comparer jour, semaine et mois sans prix publié",
+          "Trois séjours, trois demandes de devis",
+          "Essayer avant de s’engager sur une durée longue",
+          "Ce que le devis doit préciser pour une sportive",
+          "Les coûts qui s’ajoutent au loyer",
           "Questions fréquentes",
-          "Combien coûte la location d’un Honda Winner X à Hanoi ?",
-          "Pourquoi cette machine se loue-t-elle généralement plus cher qu’une semi-automatique ?",
-          "À partir de combien de jours la formule semaine devient-elle intéressante ?",
-          "Le mois vaut-il le coup pour une boucle de dix jours ?",
-          "Que faut-il vérifier dans le contrat d’une sportive avant de signer ?",
+          "Quel est le tarif du Honda Winner X ?",
+          "Peut-on utiliser la fourchette des semi-automatiques comme repère ?",
+          "La semaine est-elle toujours plus avantageuse que les journées ?",
+          "Les prix sont-ils donnés en euros ?",
+          "Peut-on prolonger la location en cours de route ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 2,
@@ -23303,47 +23307,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): Aucun tarif du Winner X (pas de ligne propriétaire; moto manuelle: aucun tarif publié, ne pas appliquer de fourchette). Le tableau montre les lignes propriétaire Vision (200 000/1 000 000/2 000 000) et Air Blade (200 000/900 000/1 500 000) et le repère semi-automatique uniquement pour situer ce qui existe, avec la ligne 'Honda Winner X : aucun tarif publié, à demander', le disclaimer exact et l'avertissement explicite 'ne déduisez aucun montant'. Aucun seuil chiffré pour le Winner X; méthode de comparaison à partir de devis réels. Mention 'fréquent dans la location de deux-roues' pour la dégressivité, vérifiable sur les catégories publiées (semaine/mois par jour inférieurs au jour) mais non affirmée pour le Winner X. Supprimé: 'le Winner X occupe l'étage supérieur de l'échelle des tarifs' (tarif/tendance non sourcé), 'le tarif journalier le plus élevé de la grille', 'sportive à embrayage s'use d...' (usure non sourcée), 'la semaine se négocie souvent mieux', 'négociation sur l'ensemble', assistance/rayon d'action affirmés comme lignes du contrat. Caution = 'certains loueurs'; couverture, kilométrage, casques, paiement, prolongation, remboursement posés en questions. Pas de conversion en euros. Horaires 09:00-21:00 et 0334 699 969 conformes à SEO-FACTS. Aucune spec modèle ni distance.",
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): Question: payer au jour, à la semaine ou au mois pour un Winner X sans prix publié? Owner de 'location du Honda Winner X'. Distinct de honda-winner-x-location-hanoi (profil du motard) et de honda-air-blade-160-prix-location-hanoi / honda-vision-prix-location-hanoi (modèles avec ligne propriétaire) par l'absence de tarif et la méthode pour obtenir et comparer des devis.",
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): Réécriture complète du texte abstrait ('le tarif se lit comme une construction', 'où se situe le Winner X dans l'échelle', 'où se joue la bascule'). Sections: ce qui est publié ou non (tableau), usage de chaque formule pour une sportive, méthode de comparaison en quatre étapes (tableau), trois séjours et trois demandes de devis, essayer avant de s'engager, conditions que le devis doit préciser (checklist), coûts hors loyer, FAQ 5 questions. Mots 1612 -> 1548. Un paragraphe de FAQ identique à une autre page reformulé après alerte du QA.",
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): Titre 61 -> 57 caractères: l'ancien 'Tarif du Honda Winner X ...' promettait un tarif inexistant; remplacé par 'Louer un Honda Winner X à Hanoi : jour, semaine ou mois ?'; description 165 -> 156 caractères; H1 conservé; og:title/og:description identiques. Built check: Unique title (57 chars) and description (156 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): 7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/honda-winner-x-location-hanoi/, /honda/honda-winner-x-ou-yamaha-exciter-155-location/, /honda/honda-wave-rsx-prix-location-hanoi/, /location-moto-hanoi/longue-duree/. Retiré: /nord-vietnam/. Built check: 2 source-body incoming links (e.g. honda/index.html, honda/semi-automatiques/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-HONDA-5.json): Lead de 3 phrases avec la réponse (pas de tarif publié, comment procéder). 2 tableaux (ce qui est publié, méthode en quatre étapes), 3 checklists, FAQ 5 questions courtes. Aucune citation externe nécessaire.",
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/honda/honda-winner-x-prix-location-hanoi/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "f363681ae0572160eb88ea60fd88969f4aa064273a644387f209c3ce34811255"
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-honda-honda-winner-x-prix-location-hanoi assets/images/seo/honda/honda-winner-x-prix-location-hanoi/hero.webp WebP 1200x630 194 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "f363681ae0572160eb88ea60fd88969f4aa064273a644387f209c3ce34811255"
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/honda/honda-winner-x-prix-location-hanoi/index.html: self canonical https://fr.rentbikehanoi.com/honda/honda-winner-x-prix-location-hanoi/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "f363681ae0572160eb88ea60fd88969f4aa064273a644387f209c3ce34811255"
+          "verified_sha256": "e7ca9debff8e09d11a97bf15cea4f82dc2c62bbd4a6620aed9d971050e19df1f"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -23411,7 +23422,7 @@
           "Honda CUV e:",
           "Préparer votre demande"
         ],
-        "source_body_internal_inlinks": 92,
+        "source_body_internal_inlinks": 91,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "honda/electriques/index.html",
@@ -23551,7 +23562,7 @@
           "Honda SH125i",
           "Comparer avant de choisir"
         ],
-        "source_body_internal_inlinks": 16,
+        "source_body_internal_inlinks": 15,
         "source_body_internal_inlink_examples": [
           "honda/electriques/index.html",
           "honda/honda-cuv-e-prix-location-hanoi/index.html",
@@ -35249,7 +35260,7 @@
           "Marge de sécurité supplémentaire",
           "Marge de sécurité supplémentaire"
         ],
-        "source_body_internal_inlinks": 83,
+        "source_body_internal_inlinks": 82,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "centre-sud-vietnam/centre/index.html",
@@ -42407,7 +42418,7 @@
           "Repère complémentaire",
           "Repère complémentaire"
         ],
-        "source_body_internal_inlinks": 61,
+        "source_body_internal_inlinks": 62,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/can-tho-voyage-moto/index.html",
           "centre-sud-vietnam/ho-chi-minh-route-moto-vietnam/index.html",
@@ -53636,7 +53647,7 @@
           "Peut-on klaxonner à Hanoi comme les habitants ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 18,
+        "source_body_internal_inlinks": 17,
         "source_body_internal_inlink_examples": [
           "honda/honda-future-125-fi-hanoi-ville/index.html",
           "honda/honda-lead-abs-ou-yamaha-grande-location/index.html",
@@ -57796,7 +57807,7 @@
           "PG-1 ABS",
           "Préparer votre demande"
         ],
-        "source_body_internal_inlinks": 21,
+        "source_body_internal_inlinks": 20,
         "source_body_internal_inlink_examples": [
           "honda/honda-future-125-fi-ou-yamaha-jupiter-finn-location/index.html",
           "honda/honda-wave-alpha-110-ou-yamaha-sirius-location/index.html",
@@ -63480,7 +63491,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "5ca7ec290708bf942937931efc1d7453738eada3a52ece57d14f3c78b5bd7fb3"
         },
         "TECHNICAL": {
@@ -63732,7 +63743,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 13 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 13 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "a37b15af3db90e3567eff8a23e3c4aa9c405fdbf888cb0bccb7832c683b73271"
         },
         "TECHNICAL": {
@@ -63861,7 +63872,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 12 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 12 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "8890a612c77b79c654f6fb84030a5334b6c6ebebba94a698f7f67ff282b55046"
         },
         "TECHNICAL": {
@@ -64012,34 +64023,36 @@
       "cluster": "yamaha",
       "parent_hub": "/yamaha/",
       "priority": "P1",
-      "keyword_seed_fr": "NMAX ou Honda SH125i : quel scooter haut de gamme louer ?",
+      "keyword_seed_fr": "Yamaha NMAX ou Honda SH125i : longues distances, passager et bagages",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "So sánh",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "9c902b2936190f4882305e9d1d1f85bae73fe3db58c1a12655859045f107bec2",
-        "title": "NMAX ou Honda SH125i : quel scooter louer à Hanoi ?",
-        "title_chars": 51,
-        "description": "NMAX ou Honda SH125i : deux scooters haut de gamme à louer à Hanoi. Gabarit, confort, rangement, usage ville ou route : la comparaison honnête, tarifs à vérifier.",
-        "description_chars": 162,
-        "h1": "NMAX ou Honda SH125i : quel scooter haut de gamme louer ?",
+        "source_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7",
+        "title": "NMAX ou SH125i : lequel pour partir à deux hors de Hanoi ?",
+        "title_chars": 58,
+        "description": "NMAX ou Honda SH125i pour sortir de Hanoi à deux avec des bagages : puissance, coffre, ABS, réservoir, permis A ou A1 et préparation d’une longue étape.",
+        "description_chars": 152,
+        "h1": "Yamaha NMAX ou Honda SH125i : longues distances, passager et bagages",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/yamaha/yamaha-nmax-ou-honda-sh125i-location/",
-        "editorial_word_count_estimate": 1564,
+        "editorial_word_count_estimate": 1590,
         "h2_h3": [
-          "Deux machines, un même étage",
-          "Dans le trafic de Hanoi : deux écoles",
-          "Sur les liaisons : la route départage",
-          "Rangement, duo, stationnement",
-          "Ce que la comparaison change au budget",
-          "Quel profil penche de quel côté",
-          "La vérification prime sur la marque",
+          "Les chiffres qui comptent sur la route",
+          "Permis : A ou A1, le critère à régler d’abord",
+          "Distance et carburant",
+          "Rouler à deux",
+          "Bagages : ce que chaque coffre accepte",
+          "Quelles sorties pour ces deux scooters ?",
+          "La fatigue à deux : le rythme d’une étape",
+          "Préparer une sortie à deux",
+          "Budget indicatif",
           "Questions fréquentes",
-          "Le NMAX et le SH125i sont-ils au même niveau de tarif ?",
-          "Lequel est le plus facile dans le trafic de Hanoi ?",
-          "Peut-on quitter Hanoi avec l’un ou l’autre ?",
-          "Le coffre de selle est-il plus grand sur l’un des deux ?",
-          "Faut-il réserver à l’avance pour ces modèles ?",
+          "Lequel est le plus confortable à deux sur une longue étape ?",
+          "Lequel a le plus grand coffre ?",
+          "Le NMAX est-il plus adapté aux longues distances ?",
+          "Le SH125i a-t-il l’ABS ?",
+          "Peut-on louer les deux chez Thuê xe máy Nguyễn Hà ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 3,
@@ -64073,47 +64086,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-3.json): Facts only from manufacturer pages seen in search results. NMAX standard (Yamaha Motor Vietnam): 155,1 cm3, 11,3 kW @ 8 000, 14,2 N·m @ 6 500, ABS both wheels, smart key, Stop & Start, réservoir 7,1 L, selle 770 mm, coffre 24 L; weight not found. SH125i (honda.com.vn SH160i/125i page): 124,8 cm3, 9,6 kW @ 8 250, 11,9 N·m @ 6 500, 133 kg, ABS 2 canaux on Sport/Spéciale/Premium and CBS on Standard, smart key available; coffre « jusqu’à 28 L » from Honda’s 2026 range press release; tank 7 L and the page’s seat height are from the shared SH160i/125i page and marked « à confirmer pour la version 125i » (seat height left out of the table). No consumption figure found for either machine: the article says so and gives no autonomy. Permit: A for NMAX, A1 for SH125i under Law 36/2024/QH15 (xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result), with the foreign-licence caveat. Price: neither has an owner row; only the scooter automatique category range « à titre de repère » with the mandatory disclaimer and the statement that a 125–155 cm3 grand scooter does not automatically fall in it; Vision and Air Blade named only as the models with own rows. Removed the old tariff talk (« le tarif grimpe », « la franchise et la caution méritent une lecture », « kilométrage inclus ou plafonné ») and generic style claims; passenger acceptance, second casque, top case, assistance and trips outside Hanoi are written as questions. The Honda software-recall and 2027 model news found in the results were not used. Sources: https://yamaha-motor.com.vn/xe/nmax-dc31/; https://www.honda.com.vn/xe-may/san-pham/sh160i125i?version=99; https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-chinh-thuc-gioi-thieu-sh160i125i-air-blade-160125-va-lead-abs-moi-2026-tai-su-kien-khai-pha-dau-an-doc-ban; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-3.json): Role DISTINCT_ANGLE (group CMP-SH125I-NMAX, owner honda/honda-sh125i-ou-yamaha-nmax-location/): sorties hors de Hanoi, longues distances, passager et bagages — not a second urban comparison. The owner is linked once (« comparatif Honda SH125i ou Yamaha NMAX », for the general urban duel). Differs from honda-sh125i-ou-yamaha-nmax-location (0.75), yamaha-latte-ou-honda-vision-location (0.40) and honda-vision-ou-yamaha-janus-location (0.40) by the route-oriented table (puissance, couple, poids, réservoir, coffre, ABS), the permit A vs A1 decision, the duo test, luggage and stage-pacing sections and the outing-adequacy table.",
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-3.json): Full rewrite. Sections: chiffres qui comptent sur la route (sourced table), permis A ou A1, distance et carburant, rouler à deux (5 checks), bagages, quelles sorties (table, no distances), la fatigue à deux, préparer une sortie à deux (8 items), budget indicatif, FAQ (5), pour aller plus loin. Removed the generic urban duel prose. Words 1612 → 1649. Sources: https://yamaha-motor.com.vn/xe/nmax-dc31/; https://www.honda.com.vn/xe-may/san-pham/sh160i125i?version=99; https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-chinh-thuc-gioi-thieu-sh160i125i-air-blade-160125-va-lead-abs-moi-2026-tai-su-kien-khai-pha-dau-an-doc-ban; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-3.json): Title (58 chars) and description (152 chars) refocused on the documented angle (partir à deux hors de Hanoi, bagages, permis A/A1); H1 « Yamaha NMAX ou Honda SH125i : longues distances, passager et bagages »; eyebrow « Longues distances, duo et bagages »; og tags identical to title/description. Built check: Unique title (58 chars) and description (152 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-3.json): 7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-sh125i-ou-yamaha-nmax-location/ (owner, once, natural anchor), /yamaha/yamaha-nmax-location-hanoi/, /honda/honda-sh125i-location-hanoi/, /permis-securite/permis/. Dropped /honda/scooters/ and /types-motos/meilleur-scooter-hanoi-circulation/. External: 4 rel=noopener citations (Yamaha NMAX page, Honda SH160i/125i page, Honda 2026 range press release, chinhphu.vn). Built check: 3 source-body incoming links (e.g. honda/honda-sh125i-ou-yamaha-nmax-location/index.html, yamaha/index.html, yamaha/scooters/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-3.json): Direct answer in the lead (4 sentences: puissance/coffre, then permis A vs A1, then scope). Sourced comparison table; outing-adequacy table; three checklists (duo test, stage rhythm, preparation); 5 FAQ items (confort à deux, coffre, longues distances, ABS du SH125i, disponibilité).",
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/yamaha/yamaha-nmax-ou-honda-sh125i-location/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "9c902b2936190f4882305e9d1d1f85bae73fe3db58c1a12655859045f107bec2"
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-yamaha-yamaha-nmax-ou-honda-sh125i-location assets/images/seo/yamaha/yamaha-nmax-ou-honda-sh125i-location/hero.webp WebP 1200x630 194 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "9c902b2936190f4882305e9d1d1f85bae73fe3db58c1a12655859045f107bec2"
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 11 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/yamaha/yamaha-nmax-ou-honda-sh125i-location/index.html: self canonical https://fr.rentbikehanoi.com/yamaha/yamaha-nmax-ou-honda-sh125i-location/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "9c902b2936190f4882305e9d1d1f85bae73fe3db58c1a12655859045f107bec2"
+          "verified_sha256": "ff20134360f27c0bf6a64049179010d522c64d9bb493658c09b2644fcb1fddb7"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -64232,7 +64252,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 8 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "43e9dbbcebd724d12fdffd345589df8d9000335e93e787533df5cd22a4629e30"
         },
         "TECHNICAL": {
@@ -64735,7 +64755,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "38fc25489beecde72654d405e44ee770df9c29b81488640d8146acf3848364ad"
         },
         "TECHNICAL": {
@@ -65113,7 +65133,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "450c70a62a2561ca88ce782b83b63be14b39c5630c5e0591a5de4a14ade7796c"
         },
         "TECHNICAL": {
@@ -65241,7 +65261,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 11 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 11 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "080058b0f65aa47fe963414112c03078b039d1362b3346f20bb11d1f1c9d1131"
         },
         "TECHNICAL": {
@@ -65270,27 +65290,31 @@
       "intent_to_validate": "So sánh",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "03b4b2ddf74bb7c42db880de2f40c38b4d7967250567650fb5d2db527836d1e0",
-        "title": "Yamaha PG-1 ou Super Cub C125 : quel choix louer ?",
-        "title_chars": 50,
-        "description": "Yamaha PG-1 ou Super Cub C125 ? Duel des transmissions simplifiées : mini-trail contre classique, selle haute contre basse — la méthode pour choisir au comptoir.",
-        "description_chars": 161,
+        "source_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d",
+        "title": "Yamaha PG-1 ABS ou Honda Super Cub C125 : quel choix louer ?",
+        "title_chars": 60,
+        "description": "PG-1 ABS ou Super Cub C125 à Hanoi : garde au sol, selle, poids, réservoir et style baroudeur ou rétro. Deux semi-automatiques comparées, chiffres à l’appui.",
+        "description_chars": 157,
         "h1": "Yamaha PG-1 ou Super Cub C125 : quel choix louer ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/",
-        "editorial_word_count_estimate": 1538,
+        "editorial_word_count_estimate": 1544,
         "h2_h3": [
-          "Deux écoles, une même conviction",
-          "Le programme avant le style",
-          "Selle haute ou selle basse : le ressenti tranche",
-          "Au comptoir : disponibilité et contrat d'abord",
-          "Le verdict honnête",
+          "Deux motos, deux styles",
+          "Les chiffres des constructeurs, côte à côte",
+          "Routes abîmées : l’avantage du PG-1",
+          "En ville : un air de famille",
+          "Réservoir et pleins",
+          "Permis",
+          "Les vérifications communes aux deux motos",
+          "Choisir selon votre situation",
+          "Prix et réservation",
           "Questions fréquentes",
-          "Quelle est la différence principale entre la PG-1 et la Super Cub C125 ?",
-          "Laquelle pour un débutant curieux de la boîte ?",
-          "Laquelle pour sortir de la ville sur chemins doux ?",
-          "Peut-on essayer les deux avant de choisir ?",
-          "Que vérifier si une seule des deux est disponible ?",
+          "Lequel est le plus facile à conduire ?",
+          "Lequel supporte le mieux les routes abîmées ?",
+          "Peut-on y mettre des bagages ?",
+          "Quel permis faut-il ?",
+          "Laquelle coûte le moins cher à louer ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 3,
@@ -65324,47 +65348,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-4.json): Removed « aucune disponibilité garantie, aucun chiffre inventé — la méthode, comme toujours sur cette plateforme », the stacked contract line (zone autorisée, assistance, caution, équipements inclus) and the « devis écrits comparés à conditions égales » method talk. Specs only from manufacturer pages seen in search results on 2026-10-30: Yamaha PG-1 ABS (113,7 cm3, seat 795 mm, minimum clearance 190 mm, 109 kg, tank 5,1 L, wheelbase 1 280 mm); Honda Vietnam Super Cub C125 (seat 780 mm, clearance 136 mm, 109 kg, tank 3,7 L, wheelbase 1 243 mm, consumption 1,52–1,55 L/100 km depending on table). Cylinder capacity of the C125 given only as « 125 cm3 d’après le nom, à relever sur les papiers »; a Honda Euro 4 update and a 12 L tank mention in search summaries were not used because the model attribution was unclear. The « environ 240 km » figure is arithmetic 3,7 L / 1,52–1,55 L per 100 km, flagged as an estimate; no PG-1 consumption quoted. Licence: Law 36/2024/QH15 A1 up to 125 cm3 (chinhphu portal, seen in search result). Prices: none for either bike (no owner row; batch rule: PG-1 no published price; none invented for the C125); reader sent to the PG-1 price article. Availability, breakdown number, maintenance/replacement for long rentals phrased as questions. Same-principle statement (semi-automatic, no clutch lever) for the C125 follows the Yamaha semi-automatiques hub (« même famille de boîte »). Sources: https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/; https://www.honda.com.vn/xe-may/san-pham/super-cub-c125; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-4.json): Main question: PG-1 ou Super Cub C125, lequel louer. OWNER of « yamaha PG-1 ou Super Cub C125 ». Differs from honda/honda-super-cub-c125-ou-yamaha-pg-1-location (Honda-side duel, linked once as a natural pointer), honda/honda-super-cub-c125-location-hanoi (C125 profile, linked) and types-motos/super-cub-c125-location-vietnam by comparing the two bikes' figures (clearance, tank, seat) and a decision table.",
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-4.json): Full rewrite. Sections: two styles + shared limits, side-by-side spec table, rough roads (clearance), city handling, tank and fills, licence, decision table, shared checks (new), price and booking with NAP, FAQ (5). Words 1574 -> 1591. Sources: https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/; https://www.honda.com.vn/xe-may/san-pham/super-cub-c125; https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-4.json): Title changed from « Yamaha PG-1 ou Super Cub C125 : quel choix louer ? » to « Yamaha PG-1 ABS ou Honda Super Cub C125 : quel choix louer ? » (60 chars; H1 keeps the hub wording); description 157 chars; eyebrow « PG-1 ou Super Cub C125 · semi-automatiques »; og tags identical. Built check: Unique title (60 chars) and description (157 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-4.json): 7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-super-cub-c125-location-hanoi/, /honda/honda-super-cub-c125-ou-yamaha-pg-1-location/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-pg-1-abs-location-hanoi/, /yamaha/yamaha-pg-1-abs-prix-location-hanoi/. Kept the three required targets and /yamaha/yamaha-pg-1-abs-location-hanoi/; added /yamaha/yamaha-pg-1-abs-prix-location-hanoi/, /honda/honda-super-cub-c125-location-hanoi/ and the Honda-side duel /honda/honda-super-cub-c125-ou-yamaha-pg-1-location/. Built check: 3 source-body incoming links (e.g. yamaha/index.html, yamaha/semi-automatiques/index.html, yamaha/yamaha-pg-1-abs-location-hanoi/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-YAMAHA-4.json): Direct answer in the lead with the deciding figures; spec table, decision table, two checklists; FAQ of 5 (conduite, routes abîmées, bagages, permis, prix); 2 external manufacturer citations plus the chinhphu licence source, all rel=noopener.",
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "03b4b2ddf74bb7c42db880de2f40c38b4d7967250567650fb5d2db527836d1e0"
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-yamaha-yamaha-pg-1-abs-ou-honda-super-cub-c125-location assets/images/seo/yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/hero.webp WebP 1200x630 201 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "03b4b2ddf74bb7c42db880de2f40c38b4d7967250567650fb5d2db527836d1e0"
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 11 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/index.html: self canonical https://fr.rentbikehanoi.com/yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "03b4b2ddf74bb7c42db880de2f40c38b4d7967250567650fb5d2db527836d1e0"
+          "verified_sha256": "e4362cd994e4e79408629c075faeb0d46dabbed776e83cac02646622c6acf49d"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -65410,7 +65441,7 @@
           "Le devis le moins cher est-il le meilleur choix ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "yamaha/index.html",
           "yamaha/semi-automatiques/index.html",
