@@ -1,0 +1,149 @@
+[
+ {
+  "path": "yamaha/yamaha-sirius-fi-vietnam-voyage-moto/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Que change l’injection du Sirius FI sur la route (démarrage, altitude, consommation, entretien) par rapport à la Sirius à carburateur ?",
+  "new_meta": {
+   "title": "Yamaha Sirius FI en road trip : ce que change l’injection",
+   "description": "Sur la route, l’injection du Yamaha Sirius FI simplifie le démarrage et annonce une consommation plus basse ; elle ne change ni le terrain ni la charge.",
+   "h1": "Le Sirius FI sur les routes du Vietnam : road trip et montagne"
+  },
+  "words_before": 1679,
+  "words_after": 1619,
+  "evidence": {
+   "FACTS": "Removed the unsourced claims that an injection « tient sa justesse du matin au soir sans dérives » and that a village mechanic « ne reprogramme pas un calculateur » stated as fact; rewrote them as general, hedged statements (« peut demander… selon le modèle », « souvent »). Specs only from Yamaha Motor Vietnam pages seen in search results: Sirius FI disc-brake 113,7 cm3, tank 4,0 L, 1,65 L/100 km; Sirius carburettor disc-brake 110,3 cm3, tank 4,2 L, 2,08 L/100 km; the ~200/~240 km figures are my arithmetic on those manufacturer values, labelled theoretical. Note for the coordinator: the yamaha/semi-automatiques hub table lists the Sirius FI as « 115 cm3 » (from the Sirius FI 2021 news page) while the product page seen here says 113,7 cm3; this article says 113,7 (A1 either way). Price: no Sirius FI row; semi-automatic category range « à titre de repère » with the exact disclaimer; no multiplication. Breakdown contact/coverage phrased as a question to confirm. Licence: A1 up to 125 cm3 (chinhphu portal, consulté 2026-10-30).",
+   "INTENT": "Main question: que change l’injection en voyage. DISTINCT_ANGLE of group TOPIC-SIRIUS-ROADTRIP, owner yamaha/yamaha-sirius-vietnam-voyage-moto/ (linked once in « Ce que l’injection ne change pas »). Differs from the owner by covering only the carburettor/FI differences; all route, limit and technique content is delegated to the owner.",
+   "CONTENT": "Full rewrite. Removed duplicated route/limits/itinerary blocks that repeated the owner. New: carburettor vs FI data table, cold start, altitude (what injection corrects and what it does not), consumption and refuelling incl. how to measure real consumption, maintenance and warning light, what injection does not change, FI-specific checklist, FI vs carburettor by programme table, budget, FAQ (5). Words 1679 -> 1619.",
+   "META": "Title « Yamaha Sirius FI en road trip : ce que change l’injection » (57 chars); description 152 chars; H1 kept so the hub anchor still matches; eyebrow « Yamaha Sirius FI · Road trip et altitude »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /types-motos/, /types-motos/carburateur-ou-injection-carburant-moto-vietnam/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-fi-location-hanoi/, /yamaha/yamaha-sirius-vietnam-voyage-moto/. Kept /yamaha/, /types-motos/, /prix-location/, /yamaha/yamaha-sirius-fi-location-hanoi/, /yamaha/yamaha-sirius-vietnam-voyage-moto/ (owner, once); removed /hanoi/excursions-moto/ and /yamaha/trail-aventure/; added /yamaha/semi-automatiques/ and /types-motos/carburateur-ou-injection-carburant-moto-vietnam/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 2 tables, 2 checklists; FAQ of 5 distinct short answers (mountain, consumption, repair, how to identify, licence); 3 external citations rel=noopener (2 Yamaha pages, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-dia-mau-hoan-toan-moi-bsab/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius FI disc-brake version 113,7 cm3, tank 4,0 L, 1,65 L/100 km"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-2025-bgye/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius carburettor disc-brake 110,3 cm3, tank 4,2 L, 2,08 L/100 km"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Sirius FI is actually available and its rate",
+   "Breakdown contact, repair cover, deposit/ID (asked, not stated)",
+   "Hub semi-automatiques table says 115 cm3 for the Sirius FI; Yamaha product page says 113,7 cm3 (hub wording to reconcile)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-sirius-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut une Yamaha Sirius dans la circulation de Hanoi (boîte, gabarit, stationnement, limites) ?",
+  "new_meta": {
+   "title": "Yamaha Sirius en ville à Hanoi : boîte, trafic et stationnement",
+   "description": "Conduire une Yamaha Sirius dans Hanoi : passer les rapports au feu, se faufiler, stationner, ce qui la limite en ville et les vérifications avant de partir.",
+   "h1": "Conduire un Yamaha Sirius dans la circulation de Hanoi : que vaut-il en ville ?"
+  },
+  "words_before": 1536,
+  "words_after": 1654,
+  "evidence": {
+   "FACTS": "Removed the abstract prose (« la ville d’abord : le décor de tout verdict », « habitudes qui prolongent la location ») and unsourced assertions. Facts: only the Sirius carburettor disc-brake data seen on the Yamaha Motor Vietnam page (110,3 cm3; 2,08 L/100 km); gearbox use (sélecteur au pied, voyant N, pas de coffre, three beginner errors, point-mort procedure) follows the rewritten yamaha/semi-automatiques hub. Traffic advice is phrased as general good practice, no traffic rules or fines quoted. Seat height left qualitative (version-dependent, sit on it). Price: only the semi-automatic category range « à titre de repère » with the exact disclaimer and an explicit « pas de ligne propre à la Sirius »; no package. Repairs/spare parts/who pays for a month-long rental phrased as conditions not confirmed. NAP/deposit/insurance not stated.",
+   "INTENT": "Main question: que vaut une Sirius en ville à Hanoi. OWNER of « conduire un Yamaha Sirius dans la circulation de Hanoi ». Differs from yamaha-wr155r-hanoi-ville and yamaha-nvx-hanoi-ville (clutch trail / sporty scooter) and from yamaha-sirius-fi-hanoi-ville (FI version) by focusing on how to ride a clutchless gearbox in city traffic.",
+   "CONTENT": "Full rewrite. New: Hanoi traffic overview, gearbox in daily use (stop, restart, crawl), size/braking/parking, situations-and-reflexes table, city trips where it fits, limits, multi-week care, pre-departure checklist with category price repère, FAQ (5). Words 1536 -> 1654.",
+   "META": "Title « Yamaha Sirius en ville à Hanoi : boîte, trafic et stationnement » (63 chars); description 156 chars; H1 kept (matches hub anchor); eyebrow « Yamaha Sirius · Conduite en ville »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /location-moto-hanoi/quartiers/, /permis-securite/securite/, /prix-location/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-location-hanoi/, /location-moto-hanoi/quartiers/; replaced /types-motos/semi-automatique/ with /permis-securite/securite/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 1 table, 4 checklists; FAQ of 5 distinct short answers (experience, scooter vs Sirius, neutral, rain, duo); 1 external citation rel=noopener (Yamaha Sirius page)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-2025-bgye/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius disc-brake version 110,3 cm3, 2,08 L/100 km (manufacturer page; rental machine may differ)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Sirius (version, disc or drum) is actually available",
+   "Repairs, spare parts, deposit/ID for long rentals (stated as not confirmed)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-sirius-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "À quel type de voyageur convient la location d’un Yamaha Sirius à Hanoi ?",
+  "new_meta": {
+   "title": "Louer un Yamaha Sirius à Hanoi : pour quel voyageur ?",
+   "description": "La Yamaha Sirius, semi-automatique simple et sobre : à qui elle convient, qui doit choisir autre chose, état à vérifier et questions à poser avant de réserver.",
+   "h1": "Louer un Yamaha Sirius à Hanoi : pour quel type de voyageur ?"
+  },
+  "words_before": 1516,
+  "words_after": 1583,
+  "evidence": {
+   "FACTS": "Removed the mannered framing (« la semi-automatique au quotidien », « les longues années », « la porte d’entrée idéale ») and the unsourced claims about shop terms. Specs only from the Yamaha Motor Vietnam Sirius disc-brake page seen in search results (110,3 cm3, 4,2 L, 2,08 L/100 km); versions (carburettor/FI, drum/disc) described qualitatively, generation caveat added. Gearbox and Wave Alpha statements are qualitative and consistent with the semi-automatiques hub. Price: no Sirius row; semi-automatic category range (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) « à titre de repère » with the exact disclaimer; no package, no multiplication. NAP and hours (09:00–21:00) as in SEO-FACTS, with tel/Zalo/WhatsApp. Availability, deposit, documents to present and breakdown handling stated as not confirmed and to be requested in writing; no stock promised. Licence: A1 up to 125 cm3 under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30), foreign-licence validity left to the reader.",
+   "INTENT": "Main question: à qui convient la location d’une Sirius. OWNER of « louer un Yamaha Sirius à Hanoi ». Differs from yamaha-nmax-location-hanoi and yamaha-wr155r-location-hanoi (scooter / clutch trail profiles) by being the clutchless semi-automatic profile page; from yamaha-sirius-prix-location-hanoi (rate reading) and yamaha-sirius-hanoi-ville (city riding) by covering who the bike suits and how to request it.",
+   "CONTENT": "Full rewrite. New: model overview with Yamaha data, profile table (yes/no with reasons), learning the gearbox, condition checklist, Sirius vs Wave Alpha pointer, price repère, three usage scenarios (recommendations, not anecdotes), luggage/helmet/rain, how to write the request with NAP, FAQ (5). Words 1516 -> 1583.",
+   "META": "Title « Louer un Yamaha Sirius à Hanoi : pour quel voyageur ? » (53 chars); description 159 chars; H1 kept (matches hub anchor); eyebrow « Yamaha Sirius · Location à Hanoi »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/, /location-moto-hanoi/debutant-location-moto-hanoi/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-sirius-prix-location-hanoi/, /yamaha/yamaha-sirius-vietnam-voyage-moto/. Kept /yamaha/, /types-motos/, /prix-location/, /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (comparison owner, once), /location-moto-hanoi/debutant-location-moto-hanoi/; removed /types-motos/semi-automatique/ and /yamaha/semi-automatiques/; added /yamaha/yamaha-sirius-prix-location-hanoi/ and /yamaha/yamaha-sirius-vietnam-voyage-moto/.",
+   "AEO_GEO": "Direct answer in the 4-sentence lead; 1 table, 4 checklists; FAQ of 5 distinct short answers (availability, licence, scooter vs Sirius, FI vs classic, duo); 2 external citations rel=noopener (Yamaha Sirius page, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-2025-bgye/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius disc-brake version 110,3 cm3, tank 4,2 L, 2,08 L/100 km"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Sirius (and which version) is available",
+   "Rates for a Sirius if any",
+   "Deposit/ID, helmets provided, breakdown handling (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-sirius-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Une Yamaha Sirius suffit-elle pour un road trip au Vietnam (routes, limites, préparation) ?",
+  "new_meta": {
+   "title": "Road trip au Vietnam en Yamaha Sirius : routes et limites",
+   "description": "La Yamaha Sirius convient aux routes goudronnées du Nord, pas aux pistes. Chiffres annoncés, étapes réalistes, préparation et questions à poser au loueur.",
+   "h1": "Le Yamaha Sirius est-il fait pour les road trips au Vietnam ?"
+  },
+  "words_before": 1530,
+  "words_after": 1574,
+  "evidence": {
+   "FACTS": "Removed the mannered prose (« le choix modeste », « école de la patience »), the unsourced « loyers accessibles » and the vague « périmètre de la formule : casques, assistance en zone éloignée, dépôt » stated as if known. Specs only from the Yamaha Motor Vietnam Sirius disc-brake page seen in search results (110,3 cm3, 5,9 kW, 4,2 L, 2,08 L/100 km, hydraulic front disc); the ~200 km range is my arithmetic on those manufacturer values and is labelled theoretical. Gearbox/quatre rapports, frein moteur and Ha Giang main-loop statements follow the rewritten yamaha/semi-automatiques hub. Price: no Sirius row, only the semi-automatic category range (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) « à titre de repère » with the exact disclaimer; no multiplication or package. Insurance/assistance/breakdown/leaving the province/late return are phrased as questions to confirm in writing, never as shop policy. Licence: A1 up to 125 cm3 under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30), foreign-licence validity left to /permis-securite/permis/. Route statements kept generic (no distances or drive times).",
+   "INTENT": "Main question: la Sirius est-elle faite pour un road trip. OWNER of « yamaha sirius road trip vietnam » (group TOPIC-SIRIUS-ROADTRIP). Differs from yamaha-sirius-fi-vietnam-voyage-moto (injection effects) and from yamaha-nvx / yamaha-wr155r voyage pages by being the semi-automatic baseline; the FI page is linked once in the FAQ.",
+   "CONTENT": "Full rewrite. New: Yamaha data table with trip consequences, routes where it is at ease, limits checklist, Sirius vs automatic scooter table, up/down technique, departure checklist, budget/conditions to confirm, FAQ (5), short further-reading block. Words 1530 -> 1574.",
+   "META": "Title « Road trip au Vietnam en Yamaha Sirius : routes et limites » (57 chars, no promise); description 154 chars; H1 kept (matches the hub anchor); eyebrow « Yamaha Sirius · Road trip et montagne »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/ha-giang/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-fi-vietnam-voyage-moto/. Kept /yamaha/, /types-motos/, /prix-location/; replaced /hanoi/excursions-moto/, /yamaha/yamaha-sirius-hanoi-ville/, /yamaha/yamaha-sirius-location-hanoi/ and /yamaha/yamaha-wr155r-vietnam-voyage-moto/ by /yamaha/semi-automatiques/, /nord-vietnam/ha-giang/, /yamaha/yamaha-sirius-fi-vietnam-voyage-moto/ and /permis-securite/permis/.",
+   "AEO_GEO": "Direct answer in the 4-sentence lead; 2 tables, 2 checklists; FAQ of 5 distinct short answers (Ha Giang, Sirius vs FI, autonomy, duo, licence); 2 external citations rel=noopener (Yamaha Sirius page, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-2025-bgye/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius disc-brake version 110,3 cm3 carburettor, 5,9 kW at 8 000 rpm, tank 4,2 L, 2,08 L/100 km, hydraulic front disc (manufacturer page; rental machine may be another version/generation)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3 (or electric up to 11 kW), A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Sirius (and which version, carburettor or FI, disc or drum) is actually available",
+   "Own rates for a Sirius if any",
+   "Conditions for leaving Hanoi/province, breakdown handling, repair costs, late return, deposit/ID (all asked, none stated)"
+  ]
+ }
+]

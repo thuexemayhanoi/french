@@ -205,5 +205,297 @@
    "Tarif propre de la Wave RSX",
    "Version (injection ou non), année et équipement (porte-bagages) des RSX louées"
   ]
+ },
+ {
+  "path": "honda/honda-wave-rsx-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel profil de voyageur la Honda Wave RSX est-elle un bon choix de location à Hanoi ?",
+  "words_before": 1936,
+  "words_after": 1617,
+  "new_meta": {
+   "title": "Louer une Honda Wave RSX à Hanoi : pour quel profil ?",
+   "description": "Honda Wave RSX en location à Hanoi : chiffres annoncés par Honda, profils de voyageurs, ce qu’il faut vérifier sur la moto et repère de tarif à confirmer.",
+   "h1": "Honda Wave RSX en location à Hanoi : le guide pour choisir selon votre profil"
+  },
+  "evidence": {
+   "FACTS": "ERREURS CORRIGÉES: l'ancien texte décrivait un levier d'embrayage ('il faut embrayer, rétro-pédaler', 'embrayage pardonne', 'réservoir entre les genoux', 'béquille centrale') alors que la RSX est semi-automatique sans levier; réécrit. Supprimé les affirmations de parc/stock ('se trouve couramment dans les parcs des agences', 'large disponibilité'), de hiérarchie tarifaire ('la cubique coûte moins à louer qu'un scooter équivalent'), 'agence sérieuse vous demandera vos documents', 'trail garde l'avantage'. Specs uniquement depuis la fiche Honda Vietnam vue dans les résultats de recherche (checked 2026-10-30): Wave RSX FI 109,2 cm³, PGM-FI, 6,46 kW à 7 500 tr/min, 8,70 Nm à 6 000 tr/min, consommation annoncée 1,56 L/100 km (valeur constructeur, qualifiée); Wave Alpha 110 6,12 kW / 8,44 Nm pour comparaison; mention qu'une RSX louée peut être plus ancienne. Prix: pas de ligne propre, repères de catégorie semi-automatique et scooter automatique avec disclaimer exact et 'pas le prix de cette moto'. Permis: aucune règle, renvoi à /permis-securite/. Caution = 'certains loueurs'; assurance, casques, sortie de Hanoi, assistance, paiement posés en questions. Horaires 09:00-21:00 et 0334 699 969 conformes à SEO-FACTS.",
+   "INTENT": "Question: la RSX convient-elle à mon profil? Owner de 'honda Wave RSX en location à Hanoi'. Distinct de honda-wave-rsx-hanoi-ville (conduite urbaine), honda-wave-rsx-prix-location-hanoi (durée/budget), honda-wave-rsx-longue-distance-vietnam (routes longues) et honda-sh125i-location-hanoi (scooter) par la fiche constructeur et le tri des profils.",
+   "CONTENT": "Réécriture complète: fiche Honda (tableau sourcé), profils (tableau), conduite et permis, injection, trois programmes types (checklist), semaine ou mois, alternatives (Alpha, Sirius FI, Future, scooter), vérifications, repères de tarif et questions, FAQ 5 questions. Mots 1936 -> 1617 (suppression du remplissage et des erreurs).",
+   "META": "Titre 55 -> 53 caractères recentré sur la requête 'louer' ; description 150 -> 154 caractères avec la donnée constructeur; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-wave-rsx-hanoi-ville/, /honda/honda-wave-rsx-ou-yamaha-sirius-fi-location/, /permis-securite/. Retiré: /location-moto-hanoi/. 2 liens externes constructeur rel=noopener.",
+   "AEO_GEO": "Lead de 3-4 phrases avec verdict par usage. 4 tableaux (chiffres sourcés, profils, repères de tarif), 4 checklists, FAQ 5 questions courtes. Citations inline honda.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI: 109,2 cm³, PGM-FI sur toutes les versions, 6,46 kW à 7 500 tr/min, 8,70 Nm à 6 000 tr/min, 1,56 L/100 km (seen in search result)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+    "checked": "2026-10-30",
+    "used_for": "Wave Alpha 110: 6,12 kW à 7 500 tr/min, 8,44 Nm à 5 500 tr/min (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif propre de la Wave RSX",
+   "Version, année et équipement (porte-bagages) des RSX louées",
+   "Conditions de sortie de Hanoi, assistance, caution, assurance"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-rsx-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "La Honda Wave RSX convient-elle à la longue distance au départ de Hanoi (journée, week-end, boucle de montagne) ?",
+  "words_before": 1874,
+  "words_after": 1565,
+  "new_meta": {
+   "title": "Honda Wave RSX et longues distances au départ de Hanoi",
+   "description": "La Honda Wave RSX peut-elle faire une sortie à la journée, un week-end ou une boucle de montagne depuis Hanoi ? Limites, préparation et alternatives.",
+   "h1": "Honda Wave RSX et longue distance : partir sur les routes du Vietnam depuis Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Supprimé: 'routiers de tous bords parcourent des milliers de kilomètres' et autres généralisations non sourcées, 'sympathie simple des gens de la route', 'le trail reste la référence', 'les modèles Honda en location se consultent', 'agence sérieuse', 'certaines locations limitent le rayon d'action, d'autres l'élargissent contre un ajustement' (non confirmé). Specs uniquement depuis la fiche Honda Vietnam vue dans les résultats de recherche (checked 2026-10-30): Wave RSX FI = injection PGM-FI sur toutes les versions, 6,46 kW à 7 500 tr/min, consommation annoncée 1,56 L/100 km, présentée comme valeur constructeur (consommation réelle variable) et pour des versions récentes. Arguments mécaniques (ateliers de bord de route, frein moteur, roues de grand diamètre, moteur modeste, chaîne) alignés sur honda/semi-automatiques. Aucune distance, aucune durée de trajet, aucune règle légale; rappel que itinéraires/météo/fermetures/contrôles changent. Conditions de sortie de Hanoi, assistance, caution: posées comme questions. Budget: repère de catégorie semi-automatique + disclaimer exact, 'pas de ligne propre'.",
+   "INTENT": "Question: la RSX tient-elle les longues routes? Owner de 'honda Wave RSX et longue distance'. Distinct de honda-wave-alpha-110-longue-distance-vietnam (autre modèle: ici injection et consommation annoncée par Honda) et de honda-wave-rsx-location-hanoi (profil) par le tableau d'itinéraires, le week-end type et la préparation.",
+   "CONTENT": "Réécriture complète du texte mannéré ('reine discrète de l'itinérance', 'honnêteté mécanique', 'le reste n'est que littérature'). Sections: verdict par type de sortie (tableau), atouts avec chiffres Honda, limites, montagne (rapports, freins, météo), préparation (checklist), week-end type, quand choisir une autre moto (Future 125), budget, FAQ 5 questions. Mots 1874 -> 1565. Paragraphes dupliqués avec l'article Wave Alpha détectés par le QA puis reformulés.",
+   "META": "Titre 53 -> 54 caractères ('longue distance' au pluriel, 'au départ de Hanoi'); description 156 -> 149 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-future-125-fi-longue-distance-vietnam/, /hanoi/excursions-moto/, /nord-vietnam/. Retiré: /location-moto-hanoi/. 1 lien externe Honda Vietnam rel=noopener.",
+   "AEO_GEO": "Lead de 3 phrases avec verdict. 1 tableau (4 itinéraires), 4 checklists, FAQ 5 questions courtes. Citation inline honda.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI: PGM-FI, 6,46 kW à 7 500 tr/min, 1,56 L/100 km (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Conditions de sortie de Hanoi et distance maximale",
+   "Assistance panne/crevaison",
+   "Tarif propre de la Wave RSX",
+   "Version/équipement des RSX louées"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-rsx-ou-yamaha-sirius-fi-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Wave RSX ou Yamaha Sirius FI : laquelle louer à Hanoi ?",
+  "words_before": 2145,
+  "words_after": 1553,
+  "new_meta": {
+   "title": "Honda Wave RSX ou Yamaha Sirius FI : que louer à Hanoi ?",
+   "description": "Wave RSX ou Yamaha Sirius FI à Hanoi : puissances annoncées par Honda et Yamaha, versions à vérifier, ville, route et repère de tarif à confirmer.",
+   "h1": "Honda Wave RSX ou Yamaha Sirius FI : le duel des cubiques pour choisir votre location"
+  },
+  "evidence": {
+   "FACTS": "ERREUR CORRIGÉE: l'ancien texte décrivait un embrayage à manœuvrer ('débrayer, rétro-pédaler') et un plancher plat pour la RSX; les deux motos sont des semi-automatiques sans levier. Supprimé: 'quasi chaque village', 'millions de kilomètres réels', 'routiers', 'continuité', 'les exemplaires de location ont souvent été conduits avec plus d'enthousiasme', 'cette assurance compte énormément', 'certaines locations limitent le rayon d'action', 'moins coûteuses à louer qu'un scooter équivalent', 'beaucoup recommandent', 'selle suffisamment longue pour deux adultes prudents'. Specs uniquement depuis pages constructeur vues dans les résultats de recherche (checked 2026-10-30): Honda Vietnam Wave RSX FI = 109,2 cm³, PGM-FI, 6,46 kW à 7 500 tr/min, 8,70 Nm à 6 000 tr/min, 1,56 L/100 km; Yamaha Vietnam Sirius FI version à frein à disque = 113,7 cm³, 6,4 kW à 7 000 tr/min, frein avant disque hydraulique et arrière tambour; existence de versions Sirius FI à frein à tambour et jantes alliage (titres de pages Yamaha vus dans les résultats). Valeurs absentes laissées 'non relevé' et mention qu'il s'agit de versions récentes. Prix: pas de ligne propre pour l'une ni l'autre, repère de catégorie semi-automatique + disclaimer exact. Caution = 'certains loueurs'; assurance, casques, assistance, paiement posés en questions. Pas de classement fiabilité/confort/consommation (aucune source Yamaha pour la consommation).",
+   "INTENT": "Question: laquelle choisir entre Wave RSX et Sirius FI pour louer à Hanoi? Owner de 'honda wave rsx ou yamaha sirius fi' (comparatif général). Distinct de la page miroir yamaha/yamaha-sirius-fi-ou-honda-wave-rsx-location (liée une fois) et de honda-wave-alpha-110-ou-yamaha-sirius-location (modèles sans injection documentée) par les chiffres constructeur des versions à injection et les versions à demander.",
+   "CONTENT": "Réécriture complète du texte mannéré ('deux philosophies', 'la valeur sûre qui ne discute pas', 'la modernité discrète', 'dîne de mécanique'). Sections: chiffres constructeurs (tableau sourcé), versions à demander (checklist), comparaison d'usage (tableau honnête sans gagnant), même limite sur la route, départager sur place (étapes), quatre cas pratiques, si vous hésitez, tarifs et questions, FAQ 5 questions. Mots 2145 -> 1553.",
+   "META": "Titre 48 -> 56 caractères avec 'à Hanoi'; description 159 -> 146 caractères factuelle; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-fi-ou-honda-wave-rsx-location/ (page miroir), /honda/honda-wave-rsx-location-hanoi/. Retirés: /location-moto-hanoi/, /prix-location/wave-ou-sirius-mensuelle-cout-location/, /types-motos/semi-automatique/. 2 liens externes constructeur rel=noopener.",
+   "AEO_GEO": "Lead de 3 phrases avec la réponse (presque à égalité, vérifier version/état). 3 tableaux (chiffres sourcés, usage, tarif), 3 checklists + 1 liste numérotée, FAQ 5 questions courtes. Citations inline honda.com.vn et yamaha-motor.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI: 109,2 cm³, PGM-FI, 6,46 kW à 7 500 tr/min, 8,70 Nm à 6 000 tr/min, 1,56 L/100 km (seen in search result)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-dia-mau-hoan-toan-moi-bsab/",
+    "checked": "2026-10-30",
+    "used_for": "Sirius FI disque: 113,7 cm³, 6,4 kW à 7 000 tr/min, frein avant disque hydraulique, arrière tambour (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif propre de la Wave RSX et de la Sirius FI",
+   "Versions réellement louées (frein, injection, année)",
+   "Caution, assurance, casques, entretien en cours de location"
+  ]
+ },
+ {
+  "path": "honda/honda-wave-rsx-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Prix de location d'une Honda Wave RSX à Hanoi : quels repères et quelle durée (jour, semaine, mois) choisir ?",
+  "words_before": 1928,
+  "words_after": 1525,
+  "new_meta": {
+   "title": "Wave RSX à Hanoi : repères de prix au jour, semaine ou mois",
+   "description": "Honda Wave RSX à Hanoi : repère de tarif des semi-automatiques, seuils pour choisir jour, semaine ou mois, et grille pour comparer deux devis.",
+   "h1": "Louer une Honda Wave RSX à Hanoi : quels repères de prix, et quelle durée ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun prix propre à la RSX: tableau avec les lignes propriétaire Vision (200 000/1 000 000/2 000 000) et Air Blade (200 000/900 000/1 500 000) et les repères de catégorie semi-automatique (150 000-200 000/700 000-800 000/1 000 000-1 200 000) et scooter automatique; disclaimer exact; 'la RSX n'a pas de ligne propre', Winner X/CT125/C125 hors fourchette. Seuils (4-5 jours = semaine, environ 10 jours = mois) présentés comme ordres de grandeur issus des repères, sans montant calculé. Consommation annoncée 1,56 L/100 km citée comme valeur Honda Vietnam (fiche vue dans les résultats de recherche, checked 2026-10-30) et qualifiée. Supprimé tout ce qui était non confirmé: dépôt de garantie 'plus modeste que pour un scooter premium', 'un dépôt restitué sans discussion est le meilleur indicateur d'une agence sérieuse', 'la RSX est la reine des locations mensuelles', négociation de gel de tarif/renouvellement, 'la Wave RSX circule beaucoup dans les parcs', 'paie parfois le double'. Caution, assurance, casques, prolongation, paiement présentés comme éléments à noter dans une grille (non affirmés). Pas de conversion en euros. Horaires et téléphone conformes à SEO-FACTS.",
+   "INTENT": "Question: quels repères de prix et quelle durée pour louer une RSX? Owner de 'prix de location d'une Honda Wave RSX à Hanoi'. Distinct de honda-wave-alpha-110-prix-location-hanoi (autre modèle, message-type de devis) par la grille de comparaison de deux offres, les variations liées à la version FI et les trois séjours types; de honda-vision-prix-location-hanoi (ligne propriétaire) par l'absence de prix propre.",
+   "CONTENT": "Réécriture complète du texte abstrait ('la logique des grilles', 'la méthode: demander et comparer les bons devis'). Sections: repère de tarif (tableau avec lignes propriétaire), facteurs de variation, seuils jour/semaine/mois, trois séjours types, ce qui évite une mauvaise surprise, grille de comparaison de deux offres (tableau à compléter), coûts hors loyer, FAQ 5 questions. Mots 1928 -> 1525.",
+   "META": "Titre 58 -> 59 caractères; l'ancien 'Prix location ...' (sans 'de') est remplacé par 'repères de prix' qui ne promet pas un montant; description 157 -> 142 caractères; H1 modifié pour s'aligner sur le titre ('Louer une Honda Wave RSX à Hanoi : quels repères de prix, et quelle durée ?') -> à synchroniser dans data/seo-cluster-matrix / content-matrix si nécessaire; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-wave-rsx-location-hanoi/, /honda/honda-wave-alpha-110-prix-location-hanoi/, /prix-location/semi-automatique-location-moto-hanoi-prix/. Retiré: /location-moto-hanoi/. 1 lien externe Honda Vietnam rel=noopener.",
+   "AEO_GEO": "Lead de 4 phrases avec repère de catégorie, disclaimer, seuils. 2 tableaux (repères, grille à compléter), 3 checklists, FAQ 5 questions courtes. Citation inline honda.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI: injection PGM-FI, consommation annoncée 1,56 L/100 km (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif propre de la Wave RSX",
+   "Version/année des RSX louées",
+   "Définition du jour/semaine/mois, caution, assurance, prolongation, remboursement"
+  ]
+ },
+ {
+  "path": "honda/honda-winner-x-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut le Honda Winner X (moto à embrayage manuel) dans le trafic de Hanoi ?",
+  "words_before": 1585,
+  "words_after": 1569,
+  "new_meta": {
+   "title": "Honda Winner X en ville : atouts et limites dans Hanoi",
+   "description": "Le Honda Winner X dans le trafic de Hanoi : embrayage manuel, position sportive, chaleur, rangement et niveau requis, face à une Wave ou à un scooter.",
+   "h1": "Honda Winner X en ville : que vaut cette sportive dans le trafic de Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun tarif: Winner X sans prix publié, aucune fourchette de catégorie appliquée, demande du montant renvoyée au loueur (conforme au hub honda/semi-automatiques). Specs uniquement depuis pages constructeur vues dans les résultats de recherche (checked 2026-10-30): actualité Honda Vietnam = 150 cc, quatre temps, monocylindre, refroidissement liquide, PGM-FI, boîte six rapports, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min; levier d'embrayage manuel cohérent avec le hub (BikeWale, même lien que honda/semi-automatiques; la fiche détaillée Winner X sur honda.com.vn n'est pas apparue dans les résultats). Comparaison de puissance avec la Wave RSX (6,46 kW, fiche Honda). Supprimé: 'une sportive se voit ... prévu dans le trafic', 'l'étage supérieur de l'échelle locale' (tarif non publié), 'loueur honnête', 'dépôt, assistance, exclusions, responsabilité' affirmés comme contrat type, 'chorégraphie du trafic'. Permis: aucune règle, renvoi à /permis-securite/. Caution/couverture/paiement posés en questions. Horaires et téléphone conformes à SEO-FACTS. Chaleur et refroidissement décrits comme généralité (liquide de refroidissement à vérifier).",
+   "INTENT": "Question: le Winner X est-il jouable dans le trafic de Hanoi? Owner de 'honda Winner X en ville'. Distinct de honda-winner-x-location-hanoi (profil du motard), honda-sh125i-hanoi-ville et honda-vario-125-hanoi-ville (scooters) par l'embrayage manuel, les chiffres Honda et l'entraînement progressif.",
+   "CONTENT": "Réécriture complète du texte mannéré ('un trafic qui juge chaque machine', 'le vrai facteur: le conducteur'). Sections: chiffres Honda (tableau sourcé), levier d'embrayage dans les bouchons, atouts, limites (position, chaleur, rangement, stationnement), entraînement (étapes), heures et trajets, comparaison Winner X/Wave/scooter (tableau), niveau et permis, contrôles et tarif non publié, FAQ 5 questions. Mots 1585 -> 1569.",
+   "META": "Titre conservé (54 caractères); description 165 -> 150 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-winner-x-location-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/, /permis-securite/. Retiré: /hanoi/excursions-moto/. 2 liens externes (Honda Vietnam, BikeWale) rel=noopener.",
+   "AEO_GEO": "Lead de 4 phrases avec verdict. 2 tableaux (chiffres sourcés, comparaison), 3 checklists + 2 listes numérotées, FAQ 5 questions courtes. Citations inline honda.com.vn et BikeWale."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-bo-sung-tem-mau-moi-dam-chat-the-thao-cho-sieu-pham-winner-x-tu-hao-chat-x",
+    "checked": "2026-10-30",
+    "used_for": "Winner X: 150 cc, PGM-FI, refroidissement liquide, six rapports, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min (seen in search result)"
+   },
+   {
+    "url": "https://www.bikewale.com/news/yamaha-aerox-155-rivaling-honda-winner-x-sports-launched-in-vietnam/",
+    "checked": "2026-10-30",
+    "used_for": "Winner X: moteur 150 cm³ à refroidissement liquide (seen in search result); levier d'embrayage manuel repris de honda/semi-automatiques"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI 6,46 kW pour comparaison (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif du Winner X (aucune ligne propriétaire)",
+   "Disponibilité et version (année) du Winner X loué",
+   "Caution, couverture en cas de chute, règle de permis applicable à un 150 cm³"
+  ]
+ },
+ {
+  "path": "honda/honda-winner-x-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel type de motard le Honda Winner X est-il un bon choix de location à Hanoi ?",
+  "words_before": 1617,
+  "words_after": 1538,
+  "new_meta": {
+   "title": "Honda Winner X en location à Hanoi : pour quel motard ?",
+   "description": "Louer un Honda Winner X à Hanoi : une sportive à embrayage manuel pour motard expérimenté. Profils adaptés, usages, vérifications et tarif à demander.",
+   "h1": "Louer un Honda Winner X à Hanoi : pour quel type de motard ?"
+  },
+  "evidence": {
+   "FACTS": "Aucun tarif: Winner X sans prix publié, fourchettes de catégorie explicitement écartées comme repère, montant à demander avec dates, version et année. Specs uniquement depuis la page constructeur vue dans les résultats de recherche (checked 2026-10-30): actualité Honda Vietnam = 150 cm³, refroidissement liquide, PGM-FI, six rapports, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min; Wave RSX FI 6,46 kW pour comparaison; levier d'embrayage manuel cohérent avec le hub. Supprimé: 'l'étage supérieur de l'échelle locale des locations' (tendance de prix non sourcée), 'mécaniciens familiers de la plateforme et pièces courantes dans les ateliers de province', 'clientèle jeune et passionnée', 'assistance — rayon d'action crucial' et 'dépôt, exclusions, responsabilité en cas de chute' présentés comme contenu du contrat, 'la machine se pilote, elle ne se conduit pas seulement'. Permis: aucune règle, renvoi à /permis-securite/ (nationalité, catégorie, cylindrée 150 cm³). Caution = 'certains loueurs'; couverture, casques, sortie de Hanoi, assistance, paiement, disponibilité posés en questions. Horaires et téléphone conformes à SEO-FACTS.",
+   "INTENT": "Question: à quel motard convient le Winner X en location? Owner de 'louer un Honda Winner X à Hanoi'. Distinct de honda-winner-x-hanoi-ville (conduite urbaine), honda-winner-x-prix-location-hanoi (durée/budget), honda-winner-x-longue-distance-vietnam (routes longues) et honda-winner-x-ou-yamaha-exciter-155-location (comparatif) par le tri des profils et le plan du premier jour.",
+   "CONTENT": "Réécriture complète du texte mannéré ('une partition à part', 'le pilotage comme raison du voyage'). Sections: catégorie (tableau + chiffres Honda), profils (tableau), usages, niveau et permis, équipement, premier jour (étapes), vérifications (checklist), tarif à demander, alternatives (Exciter, Wave RSX/Future, scooter), FAQ 5 questions. Mots 1617 -> 1538.",
+   "META": "Titre conservé (55 caractères); description 170 -> 150 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/semi-automatiques/, /honda/honda-winner-x-hanoi-ville/, /honda/honda-winner-x-ou-yamaha-exciter-155-location/, /permis-securite/. Retirés: /permis-securite/moto-frein-controle-location/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /types-motos/meilleur-scooter-hanoi-circulation/. 1 lien externe Honda Vietnam rel=noopener.",
+   "AEO_GEO": "Lead de 4 phrases avec la réponse. 2 tableaux (catégories, profils), 2 checklists + 2 listes numérotées, FAQ 5 questions courtes. Citation inline honda.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-bo-sung-tem-mau-moi-dam-chat-the-thao-cho-sieu-pham-winner-x-tu-hao-chat-x",
+    "checked": "2026-10-30",
+    "used_for": "Winner X: 150 cm³, PGM-FI, refroidissement liquide, six rapports, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min (seen in search result)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI 6,46 kW pour comparaison (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif du Winner X (aucune ligne propriétaire)",
+   "Disponibilité, version et année du Winner X loué",
+   "Caution, couverture en cas de chute, conditions de sortie de Hanoi et assistance, règle de permis applicable"
+  ]
+ },
+ {
+  "path": "honda/honda-winner-x-longue-distance-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Honda Winner X convient-il aux longues distances au départ de Hanoi (journée, week-end, boucle du Nord) ?",
+  "words_before": 1540,
+  "words_after": 1576,
+  "new_meta": {
+   "title": "Honda Winner X et longues distances au départ de Hanoi",
+   "description": "Le Honda Winner X sur les longues routes du Nord depuis Hanoi : routes goudronnées, fatigue, bagages, montagne, préparation et cas où choisir une autre moto.",
+   "h1": "Le Honda Winner X sur les longues distances au départ de Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Specs uniquement depuis la page constructeur vue dans les résultats de recherche (checked 2026-10-30): actualité Honda Vietnam = Winner X 150 cm³, refroidissement liquide, PGM-FI, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min; comparaison avec la Wave RSX FI 6,46 kW (fiche Honda Vietnam). Aucune consommation ni capacité de réservoir (aucune source constructeur trouvée) et le FAQ le dit explicitement. Supprimé: 'la semaine se négocie souvent mieux que les journées empilées' (pratique de tarif non confirmée), 'mécaniciens de province la connaissent, pièces courantes loin de la capitale', 'contrat d'assistance et son rayon d'action' affirmés comme existants, 'dépôt, exclusions, responsabilité en cas de chute', 'des centaines de kilomètres de nationales' (distance non sourcée). Pas de distance ni de durée de trajet; rappel que itinéraires, météo, fermetures et contrôles changent. Tarif non publié: fourchettes de catégorie écartées. Conditions de sortie de Hanoi, assistance, caution, couverture, paiement posés en questions; permis: aucune règle, vérification renvoyée. Horaires et téléphone conformes à SEO-FACTS.",
+   "INTENT": "Question: le Winner X tient-il une longue boucle depuis Hanoi? Owner de 'le Honda Winner X sur les longues distances au départ de Hanoi'. Distinct de honda-winner-x-location-hanoi (profil du motard) et de yamaha/yamaha-exciter-155-ou-honda-winner-x-location (longue distance, duo, bagages côté Yamaha) par le tableau des types de sortie, la gestion de la fatigue et la structure de programme sur quatre jours.",
+   "CONTENT": "Réécriture complète du texte mannéré ('la carte du Nord se roule en journées longues', 'sourire au soir d'étape', 'le programme d'abord, la machine ensuite'). Sections: verdict par type de sortie (tableau), atouts avec chiffres Honda, exigences, montagne, fatigue, programme sur quatre jours, préparation (checklist), alternatives (checklist), tarif, FAQ 5 questions. Mots 1540 -> 1576.",
+   "META": "Titre 54 -> 55 caractères ('au départ de Hanoi' remplace 'la route au Nord'); description 164 -> 157 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /nord-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /honda/honda-winner-x-location-hanoi/, /honda/honda-winner-x-ou-yamaha-exciter-155-location/. Retiré: /hanoi/excursions-moto/. 1 lien externe Honda Vietnam rel=noopener.",
+   "AEO_GEO": "Lead de 3 phrases avec verdict. 1 tableau (5 types de sortie), 4 checklists, FAQ 5 questions courtes. Citation inline honda.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-bo-sung-tem-mau-moi-dam-chat-the-thao-cho-sieu-pham-winner-x-tu-hao-chat-x",
+    "checked": "2026-10-30",
+    "used_for": "Winner X: 150 cm³, PGM-FI, refroidissement liquide, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min (seen in search result)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+    "checked": "2026-10-30",
+    "used_for": "Wave RSX FI 6,46 kW pour comparaison (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif du Winner X",
+   "Conditions de sortie de Hanoi, distance maximale, assistance",
+   "Disponibilité, version et année du Winner X loué"
+  ]
+ },
+ {
+  "path": "honda/honda-winner-x-ou-yamaha-exciter-155-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Honda Winner X ou Yamaha Exciter 155 : quelle sportive à embrayage manuel louer à Hanoi ?",
+  "words_before": 1501,
+  "words_after": 1574,
+  "new_meta": {
+   "title": "Honda Winner X ou Yamaha Exciter 155 : que louer à Hanoi ?",
+   "description": "Winner X ou Exciter 155 à Hanoi : chiffres annoncés par Honda et Yamaha, embrayage, position, rangement, ville et route, essai comparatif et tarif à demander.",
+   "h1": "Honda Winner X ou Yamaha Exciter 155 : quelle sportive louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "Specs uniquement depuis pages constructeur vues dans les résultats de recherche (checked 2026-10-30): Honda Vietnam (actualité) Winner X = 150 cm³, refroidissement liquide, PGM-FI, six rapports, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min; Yamaha Vietnam Exciter 155 VVA (page version standard 2026) = 155,1 cm³, quatre soupapes, refroidissement liquide, injection, six rapports, 13,6 kW à 9 500 tr/min (versions plus anciennes 13,2 kW), environ 14,4 Nm (régime variable selon les pages), réservoir 5,4 L, 2,07 L/100 km annoncés. Valeurs non trouvées pour le Winner X (réservoir, consommation) indiquées 'non relevé'. Existence de versions Exciter avec ABS/TCS déduite des titres de pages Yamaha vus dans les résultats (formulée comme telle). Tarif: aucun publié pour ces deux motos à embrayage manuel; fourchettes de catégorie écartées comme repère. Supprimé: 'étage supérieur de l'échelle locale', 'clientèle jeune et passionnée, mécaniciens familiers et pièces courantes en province', 'contrat d'assistance clair sur le rayon d'action', 'cette page ne publie ni chiffre ni promesse' (SEO-process). Permis: aucune règle (nationalité, catégorie, cylindrée). Caution = 'certains loueurs'; couverture, casques, sortie de Hanoi, assistance, paiement en questions. Horaires et téléphone conformes à SEO-FACTS.",
+   "INTENT": "Question: quelle sportive choisir entre Winner X et Exciter 155 pour louer à Hanoi? Owner de 'honda winner x ou yamaha exciter 155' (comparatif général: ville, confort, rangement, prise en main, tarifs). Distinct de la page Yamaha yamaha/yamaha-exciter-155-ou-honda-winner-x-location (longue distance, duo, bagages; liée une fois) et de types-motos/winner-x-ou-exciter-155-location-vietnam par le tableau de chiffres constructeur, l'essai comparatif et les cas pratiques.",
+   "CONTENT": "Réécriture complète du texte mannéré ('deux écoles du même registre', 'trois profils, trois réponses', 'le terrain tranche'). Sections: chiffres constructeurs (tableau sourcé), versions à demander, comparaison d'usage (tableau honnête sans gagnant), quatre cas pratiques, refroidissement/chaîne/freins, essai comparatif (étapes), niveau et permis, tarifs non publiés, FAQ 6 questions. Mots 1501 -> 1574.",
+   "META": "Titre 50 -> 58 caractères avec 'à Hanoi'; description 169 -> 158 caractères; H1 conservé; og:title/og:description identiques.",
+   "LINKS": "7/7 internes uniques: /honda/ (parent hub), /types-motos/, /prix-location/ (obligatoires), /honda/honda-winner-x-location-hanoi/, /honda/honda-winner-x-hanoi-ville/, /yamaha/yamaha-exciter-155-ou-honda-winner-x-location/ (page Yamaha liée une fois), /yamaha/yamaha-exciter-155-location-hanoi/. Retiré: /types-motos/meilleur-scooter-hanoi-circulation/. 2 liens externes constructeur rel=noopener.",
+   "AEO_GEO": "Lead de 3 phrases avec la réponse (écart de puissance modeste, choisir à l'essai). 3 tableaux (chiffres sourcés, usage), 3 checklists + 1 liste numérotée, FAQ 6 questions courtes. Citations inline honda.com.vn et yamaha-motor.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-bo-sung-tem-mau-moi-dam-chat-the-thao-cho-sieu-pham-winner-x-tu-hao-chat-x",
+    "checked": "2026-10-30",
+    "used_for": "Winner X: 150 cm³, PGM-FI, refroidissement liquide, six rapports, 11,5 kW à 9 000 tr/min, 13,5 Nm à 6 500 tr/min (seen in search result)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-phien-ban-tieu-chuan-mau-moi-b5vj/",
+    "checked": "2026-10-30",
+    "used_for": "Exciter 155 VVA: 155,1 cm³, quatre soupapes, six rapports, 13,6 kW à 9 500 tr/min (versions plus anciennes 13,2 kW), réservoir 5,4 L, 2,07 L/100 km; versions ABS/TCS d'après les titres de pages Yamaha (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Tarif du Winner X et de l'Exciter 155",
+   "Version/année et présence d'ABS sur les motos louées",
+   "Caution, couverture en cas de chute, conditions de sortie de Hanoi et assistance, règle de permis applicable à 150/155 cm³"
+  ]
  }
 ]

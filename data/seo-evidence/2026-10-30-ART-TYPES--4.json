@@ -68,5 +68,194 @@
   "owner_gaps": [
    "Fuel level at pickup, return rule (same level/full/forfait/fee) and recommended fuel for each rented model."
   ]
+ },
+ {
+  "path": "types-motos/super-cub-c125-location-vietnam/index.html",
+  "role": "OWNER",
+  "words_before": 1746,
+  "words_after": 1603,
+  "primary_intent": "Honda Super Cub C125 au Vietnam : ce qu'est cette Cub néo-rétro, où elle se place parmi les types de deux-roues, ses limites.",
+  "new_meta": {
+   "title": "Honda Super Cub C125 au Vietnam : charme rétro et limites",
+   "description": "Honda Super Cub C125 au Vietnam : une semi-automatique néo-rétro. Où elle se place parmi les types de motos, ce qu’elle fait bien, ses limites et quoi vérifier.",
+   "h1": "Honda Super Cub C125 au Vietnam : charme rétro et limites"
+  },
+  "evidence": {
+   "FACTS": "Removed 'flotte de location', 'liste les enseignes', 'le loueur fournit les papiers', 'protège le dépôt de caution' (unconfirmed policies/fleet) and the fictional-feeling 'regards retournés' prose. Qualitative specs only: 125 cm3 (model name), semi-automatic with centrifugal clutch and four speeds, injection, air-cooled -> attributed to 'la presse vietnamienne' (seen in search result: Vietnam News 'Two legendary motorbike models introduced in Viet Nam', Baohaiduong); no tank/seat height/ABS/consumption/price stated because honda.com.vn was not in results (reader sent to honda.com.vn / the renter). Price: C125 has no owner row -> only the semi-automatic category range 'à titre de repère' with the mandatory disclaimer, and an explicit note that the C125 may differ. Licence: only that the 125 cm3 name sits at the A1 threshold of Law 36/2024/QH15 (as in hub), cylindrée to be confirmed on papers, no blanket licence statement. Replaced Tam Coc/Ninh Binh 'petites routes du delta' by local places (Bát Tràng, Hồ Tây, dike roads, Long Biên bridges). Expressway ban consistent with site page.",
+   "INTENT": "Main question: what is the Super Cub C125 and where does it sit among the vehicle families. OWNER role but closest page honda/honda-super-cub-c125-location-hanoi/ (similarity 0.83) already covers 'pour qui / questions à poser / essai / budget'; this page is repositioned on type placement (comparison table vs scooter, ordinary semi-automatic, trail), conduct, terrain and limits, and links to the Honda rental page once in the lead; PG-1 (0.45) pointed to by a sibling link.",
+   "CONTENT": "Full rewrite into six sections: model, family placement (5-column table), who it suits, riding, terrain/limits, before booking (price repère, inspection checklist). FAQ 5 items incl. one explaining the difference with the Honda rental page. Words 1746→1605 (all invented-style filler removed).",
+   "META": "Title 'la location vintage au Vietnam' -> 'charme rétro et limites' (57 chars; 'vintage' was inaccurate for a neo-retro bike); description rewritten (160 chars), H1 identical to title; og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /honda/honda-super-cub-c125-location-hanoi/, /types-motos/semi-automatique/, /types-motos/yamaha-pg1-vietnam-voyage-moto/, /location-moto-hanoi/location-moto-inspection-liste-controle/. Dropped /hanoi/easy-moto-routes-hanoi-debutant/ and /honda/honda-super-cub-c125-ou-yamaha-pg-1-location/ to stay within 7.",
+   "AEO_GEO": "Direct answer in lead (3 sentences); 1 comparison table, 3 checklists; 5 FAQ; no external citation inline (specs attributed to the press, not linked)."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/bizhub/468967/two-legendary-motorbike-models-introduced-in-viet-nam.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result only: C125 centrifugal clutch, 125cc, four-speed, PGM-FI, air-cooled (search summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Super Cub C125 is in the fleet and its daily/weekly/monthly rate."
+  ]
+ },
+ {
+  "path": "types-motos/support-telephone-scooter-hanoi/index.html",
+  "role": "OWNER",
+  "words_before": 1847,
+  "words_after": 1584,
+  "primary_intent": "Quel support de téléphone et quelle recharge pour un scooter de location à Hanoi, sans se distraire ni se faire voler le téléphone.",
+  "new_meta": {
+   "title": "Support téléphone sur scooter à Hanoi : choix et recharge",
+   "description": "Quel support de téléphone choisir pour un scooter de location à Hanoi, comment le recharger et le protéger de la chaleur, de la pluie et du vol.",
+   "h1": "Support téléphone sur scooter à Hanoi : choix et recharge"
+  },
+  "evidence": {
+   "FACTS": "Removed 'certaines formules de location proposent des accessoires' and the old 'cette page ne recommande ni marque ni boutique' process wording. Phone-use rule added: fine of 800 000–1 000 000 VND for holding/using a phone on a two-wheeler under Decree 168/2024/NĐ-CP (in force 2025-01-01) per luatvietnam.vn page (seen in search result, snippet cites art. 7 para 4 point đ; other sources cite a different sub-paragraph, so the text says the exact point and complementary penalties vary and the official text prevails; demerit points deliberately not stated). Mounting a phone on a holder to follow navigation is not presented as legal or illegal. Loueur-related statements are conditional (ask for USB port, do not screw anything without the renter's agreement). Phone/Zalo/hours from SEO-FACTS. Snatch theft warning phrased as general 'conseils aux voyageurs' (general knowledge, soft wording, not cited).",
+   "INTENT": "Main question: which phone mount and charging solution for a rented scooter in Hanoi. OWNER; closest pages are electric-scooter charging pages (similarity 0.10-0.17) which concern vehicle batteries, not phones; one navigation sibling (google-maps-moto-hanoi) linked.",
+   "CONTENT": "Rewrote everything: mount choice (+ table of 3 mount types), fixing steps checklist, charging (battery bank, USB, halt, wireless warning), navigation (offline maps, two-wheeler mode, expressway warning), rule on holding the phone with citation, pre-departure checklist (new), theft/heat. FAQ 5 non-redundant items. Words 1847→1584.",
+   "META": "Title 'Support téléphone et recharge sur scooter à Hanoi' -> 'Support téléphone sur scooter à Hanoi : choix et recharge' (57 chars); description rewritten (146 chars); H1 identical to title; og tags identical; eyebrow 'Types de motos · Équipement'.",
+   "LINKS": "5/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required), /types-motos/google-maps-moto-hanoi/, /permis-securite/moto-pluie-securite-vietnam/.",
+   "AEO_GEO": "Direct 3-sentence answer in lead; 1 table (3 mount types), 3 checklists; 5 FAQ; 1 inline citation (luatvietnam.vn) marked as seen in search result."
+  },
+  "sources": [
+   {
+    "url": "https://luatvietnam.vn/giao-thong/nghi-dinh-168-doi-voi-xe-may-863-100609-article.html",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: fine 800 000–1 000 000 VND for holding and using a phone on a motorbike (Decree 168/2024/NĐ-CP, art. 7); not opened"
+   }
+  ],
+  "owner_gaps": [
+   "Whether rented scooters have a USB socket (model-dependent) and whether the shop lends phone mounts."
+  ]
+ },
+ {
+  "path": "types-motos/trail-moto-ou-scooter-ha-giang/index.html",
+  "role": "OWNER",
+  "words_before": 1866,
+  "words_after": 1714,
+  "primary_intent": "Trail ou scooter (et semi-automatique) pour la boucle de Ha Giang : quelle famille de moto louer.",
+  "new_meta": {
+   "title": "Trail ou scooter pour la boucle de Ha Giang : que choisir ?",
+   "description": "Trail, scooter automatique ou semi-automatique pour la boucle de Ha Giang : terrain, confort sur plusieurs jours, permis et questions à poser avant de partir.",
+   "h1": "Trail ou scooter pour la boucle de Ha Giang : que choisir ?"
+  },
+  "evidence": {
+   "FACTS": "Removed 'catégorie trail-aventure disponible à la location' link/claim (fleet), 'assistance en zone éloignée, dépôt' as if contract items, and 'centaines de kilomètres' vagueness. Loop figures: about 350 km in three days typical, one itinerary warns of 6+ h riding per day, Ma Pi Leng between Dong Van and Meo Vac (seen in search result: vietnammotorcycletours.com and aggregate; phrased as unofficial guide-book reference). Prices: owner category ranges only (scooter 150–200k/600k–1M/1.2–2M; semi-automatic 150–200k/700–800k/1.0–1.2M) with disclaimer; trail none published, availability to confirm. Licence: Law 36/2024/QH15 A1 ≤125 cm3 (as hub), note that 150–160 cm3 scooters are also above the threshold, no blanket statement on French/international licence. Contract zone, breakdown handling and return = questions to ask this shop, not affirmed.",
+   "INTENT": "Main question: which machine family for the Ha Giang loop. OWNER; closest pages nord-vietnam/meilleure-moto-pour-ha-giang-boucle (0.24, general 'best bike for the loop', linked once) and types-motos/trail (0.23, type page); this page stays on the trail vs scooter vs semi-automatic decision for the loop and adds the semi-automatic compromise as in the hub.",
+   "CONTENT": "Full rewrite (removed 'le match des deux écoles', 'la trail traverse… le scooter négocie', abstract paragraphs). New: terrain checklist, trail, scooter, semi-automatic, 3-column comparison table, rider questions, pre-departure (contract questions, inspection, gear). FAQ 5 items. Words 1866→1690.",
+   "META": "Title kept (59 chars, natural); H1 aligned with title (was '…le match des deux écoles'); description rewritten (158 chars); og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /nord-vietnam/ha-giang/, /types-motos/trail/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/. Removed /yamaha/trail-aventure/.",
+   "AEO_GEO": "Direct answer in lead (3 sentences); 1 comparison table; 3 checklists; 5 FAQ; no inline external link (loop distance given as unofficial guide-book figure)."
+  },
+  "sources": [
+   {
+    "url": "https://vietnammotorcycletours.com/itinerary/ha-giang-loop-motorbike-tour-3-days",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result only: standard 3-day loop around 350 km; Ma Pi Leng between Dong Van and Meo Vac (search summary, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the contract allows riding to Ha Giang/the North, breakdown handling away from Hanoi, availability and rate of a trail."
+  ]
+ },
+ {
+  "path": "types-motos/tubeless-ou-tube-pneu-location-moto-vietnam/index.html",
+  "role": "OWNER",
+  "words_before": 1702,
+  "words_after": 1574,
+  "primary_intent": "Pneu tubeless ou à chambre sur une moto de location au Vietnam : reconnaître le type, ce qui change en cas de crevaison, quoi vérifier.",
+  "new_meta": {
+   "title": "Pneus tubeless ou à chambre : que vérifier en location ?",
+   "description": "Pneu tubeless ou à chambre à air sur une moto louée au Vietnam : comment les reconnaître, ce qui change en cas de crevaison et quoi contrôler avant de partir.",
+   "h1": "Pneus tubeless ou à chambre : que vérifier en location ?"
+  },
+  "evidence": {
+   "FACTS": "Removed unsupported/odd claims: 'les flottes de location comptent des deux', 'ce que les enseignes fournissent selon les formules', 'assistance crevaison incluse chez certaines enseignes', 's'apprend en dix minutes sur YouTube', 'caution protégée par la photo'. Cost of a puncture, pump/cartridge supply and what the contract covers are now explicit questions to ask (no assertion about this shop). Technical statements are general tyre knowledge, qualified as tendencies: TUBELESS/TUBE TYPE sidewall marking, spoked rim usually means a tube, tubeless plug kit is a temporary fix, TWI wear marks, four-digit date code, no tyre pressure value (manufacturer label). 'vá xe' = tyre repair (Vietnamese vocabulary). Phone and hours from SEO-FACTS. No price, no spec, no legal claim.",
+   "INTENT": "Main question: tubeless or tube tyre on a rented bike, what to check. OWNER; closest pages (0.25) are generic rental/Grab comparisons, no real overlap; related permis-securite pages on tyres/punctures are linked rather than duplicated.",
+   "CONTENT": "Rewrote all sections: recognising the type (+ tendencies by bike family, comparison table), what happens in a puncture, Vietnamese roads, roadside repair and calling the renter, 7-point checklist, pressure/return. Removed mannered prose ('deux architectures nées de deux époques', 'la prudence reste le seul pneu qui ne crève jamais'). FAQ 5 items. Words 1702→1600.",
+   "META": "Title and H1 kept (56 chars); description rewritten (158 chars) with concrete content; og tags identical; eyebrow 'Types de motos · Pneus'.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /permis-securite/moto-pneu-controle-voyage-moto-vietnam/, /permis-securite/crevaison-pneu-ha-giang-moto/, /permis-securite/moto-breakdown-vietnam-location/, /location-moto-hanoi/location-moto-inspection-liste-controle/.",
+   "AEO_GEO": "Direct answer in lead (3 sentences); 1 comparison table, 2 checklists; 5 FAQ; no external citation (general technical knowledge)."
+  },
+  "sources": [],
+  "owner_gaps": [
+   "Tyre type of the rented models, whether a pump is supplied, and who bears puncture/tyre replacement costs."
+  ]
+ },
+ {
+  "path": "types-motos/wave-alpha-ou-sirius-location-vietnam/index.html",
+  "role": "DISTINCT_ANGLE",
+  "words_before": 1643,
+  "words_after": 1524,
+  "primary_intent": "Prise en main de la Honda Wave Alpha et de la Yamaha Sirius selon le profil du conducteur (débutant, scooter, gabarit, habitude des vitesses).",
+  "new_meta": {
+   "title": "Wave Alpha ou Yamaha Sirius : prise en main selon votre profil",
+   "description": "Honda Wave Alpha ou Yamaha Sirius : laquelle prendre en main le plus vite selon votre niveau, votre gabarit et votre habitude des vitesses ? L’essai tranche.",
+   "h1": "Wave Alpha ou Yamaha Sirius : prise en main selon votre profil"
+  },
+  "evidence": {
+   "FACTS": "Removed unsourced 'tendances de tempérament' (Sirius boîte 'franche', Wave 'douce'), 'plus légères du marché vietnamien' and 'la boîte s'apprend en une matinée'. Specs now from manufacturer pages seen in search results (2026-10-30): Wave Alpha 110 = 109.2 cm3, seat 770 mm, 4-speed 'tròn' (rotary) mechanical gearbox (honda.com.vn product page); Sirius = ~110.3 cm3 carburettor / ~113.7 cm3 FI, seat ~770 mm (carb) / ~775 mm (FI) (yamaha-motor.com.vn pages); Sirius gearbox type not found, so left 'à demander'; versions vary (stated). Both under 125 cm3 -> A1 threshold of Law 36/2024/QH15 (as hub), with no blanket licence statement. Price: no owner row for either model -> semi-automatic category range 'à titre de repère' with the mandatory disclaimer, availability to confirm; phone/Zalo/hours from SEO-FACTS. Braking layout (right lever front, right pedal rear, no clutch lever) consistent with the rewritten hub. Local training places (digue du fleuve Rouge, Bồ Đề, Long Biên/Chương Dương bridges) are general local context, no distance.",
+   "INTENT": "Distinct angle (prise en main by driver profile), not a general comparison. Owner: honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (links once in the lead with 'match complet Wave Alpha 110 contre Sirius'); closest pages (0.40-0.47) cover versions, usage, long stay, tariffs and 'avant de signer' which this page no longer duplicates.",
+   "CONTENT": "Rewrote everything around profiles: fiche comparison table (new, sourced), beginner steps (ordered list), scooter rider (brake layout), gabarit, 10-minute test checklist, returning rider, frequent mistakes checklist, training spots, budget. Removed the generic 'verdict/duel' and the 'honnêteté' filler. FAQ cut from 4 repetitive Q&A to 4 short ones not repeating the body. Words 1643→1540.",
+   "META": "Title 'Honda Wave Alpha ou Yamaha Sirius : la plus facile à conduire ?' -> 'Wave Alpha ou Yamaha Sirius : prise en main selon votre profil' (62 chars, matches the angle); H1 aligned (was a 90-char 'underbone' phrasing); description rewritten (<=160); og tags identical; eyebrow plain.",
+   "LINKS": "7/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (owner), /types-motos/semi-automatique/, /location-moto-hanoi/debutant-location-moto-hanoi/, /types-motos/scooter-pour-grand-gabarit-conducteur-vietnam/. Removed link to /yamaha/yamaha-sirius-ou-honda-wave-alpha-location/ (replaced by the Honda owner page).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences incl. owner link); 1 sourced table, 1 ordered list, 2 checklists; 4 FAQ; 2 external citations (honda.com.vn, yamaha-motor.com.vn) marked as seen in search result."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Wave Alpha 110 cylindrée 109.2 cm3, seat 770 mm, 4 số tròn (search summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius FI cylindrée ~113.7 cm3, seat ~775 mm; carburettor version ~110.3 cm3 / ~770 mm on sibling yamaha-motor.com.vn pages"
+   }
+  ],
+  "owner_gaps": [
+   "Which Wave Alpha/Sirius versions are in the fleet, if any, and their rate (no owner row)."
+  ]
+ },
+ {
+  "path": "types-motos/winner-x-ou-exciter-155-location-vietnam/index.html",
+  "role": "DISTINCT_ANGLE",
+  "words_before": 1977,
+  "words_after": 1546,
+  "primary_intent": "Prise en main de la Honda Winner X et de la Yamaha Exciter 155 selon le profil du conducteur (embrayage manuel, gabarit, position, permis).",
+  "new_meta": {
+   "title": "Winner X ou Exciter 155 : prise en main selon votre profil",
+   "description": "Honda Winner X ou Yamaha Exciter 155 : embrayage manuel, hauteur de selle, position de conduite et permis. Quelle moto pour quel profil de conducteur ?",
+   "h1": "Winner X ou Exciter 155 : prise en main selon votre profil"
+  },
+  "evidence": {
+   "FACTS": "Removed unconfirmed shop statements: 'leur rareté relative dans les flottes de location', 'les loueurs sérieux proposent du matériel adapté', 'zone autorisée, assistance, caution, couverture d'assurance' as contract lines, 'top case en option au comptoir'. Specs from manufacturer sites seen in search results (2026-10-30): Winner X = 150 cc, DOHC 4-valve, liquid-cooled, PGM-FI, 6-speed (Honda Vietnam); seat height/weight of Winner X NOT found (Winner R figures deliberately not used) -> 'à lire sur la fiche de la version louée'; Exciter 155 VVA = 155.1 cm3, 6-speed, wet multi-plate clutch, seat 795 mm, wet weight 119–124 kg by version, liquid-cooled (yamaha-motor.com.vn pages). Licence: Law 36/2024/QH15 A1 up to 125 cm3, A above (same wording/URL as hub), no blanket French/international statement. Price: no owner row and per protocol no rate for manual sport bikes -> 'aucun tarif indicatif publié', availability to confirm; contract zone, breakdown handling and return = questions to ask, not asserted. Phone/Zalo/hours from SEO-FACTS. Standard shift pattern (1-N-2…6) stated as usual with 'faites-vous montrer la séquence' (Yamaha page lists 'return' type for the Exciter).",
+   "INTENT": "Distinct angle: prise en main by rider profile (débutant, scooter rider, gabarit, ergonomie, transmission), not a general comparison. Owner: honda/honda-winner-x-ou-yamaha-exciter-155-location/ (similarity 0.75), linked once in the lead; the owner page covers 'locataire d'abord / deux écoles / trois profils / terrain / essai', so this page now concentrates on clutch handling, seat/weight/position, licence threshold, exercises and checks; Exciter single-model page linked as sibling.",
+   "CONTENT": "Full rewrite: removed mannered prose ('Deux écritures de la sportivité', 'main flottante', 'grille du comptoir', lengthy 'la route réelle' paragraphs). New sections: manufacturer sheet table, manual clutch, gabarit/position, profile table, exercises (ordered list), licence, pre-signing checks. FAQ 5 items. Words 1977→1550.",
+   "META": "Title 'quelle sportive louer ?' (owner-like) -> 'prise en main selon votre profil' (58 chars) to match the documented angle; H1 aligned; description rewritten (151 chars); og tags identical; eyebrow 'Types de motos · Sportives à embrayage'.",
+   "LINKS": "6/7 unique: /types-motos/ (parent), /location-moto-hanoi/, /permis-securite/ (required) + /honda/honda-winner-x-ou-yamaha-exciter-155-location/ (owner), /types-motos/location-moto-manuelle-hanoi/, /yamaha/yamaha-exciter-155-location-hanoi/. Dropped /permis-securite/moto-pluie-securite-vietnam/.",
+   "AEO_GEO": "Direct answer in lead (3 sentences + owner link); 2 tables (manufacturer sheet, profiles), 1 ordered list, 1 checklist; 5 FAQ; 3 external citations (Honda Vietnam, Yamaha Motor Vietnam, chinhphu.vn) marked as seen in search results / hub."
+  },
+  "sources": [
+   {
+    "url": "https://www.honda.com.vn/tin-tuc/xe-may/honda-viet-nam-bo-sung-tem-mau-moi-dam-chat-the-thao-cho-sieu-pham-winner-x-tu-hao-chat-x",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result only: Winner X 150 cc, DOHC 4 valves, liquid-cooled, PGM-FI, 6-speed (search summary attributed to Honda Vietnam)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-phien-ban-tieu-chuan-mau-moi-b5vj/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Exciter 155 VVA 155.1 cm3, 6-speed, wet multi-plate clutch, seat 795 mm, wet weight 119 kg (standard) to 124 kg (other versions)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "Licence categories A1/A under Law 36/2024/QH15 (URL cited in the rewritten hub; not re-opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Winner X or Exciter 155 is in the fleet, and the rate; Winner X seat height and weight from honda.com.vn."
+  ]
  }
 ]

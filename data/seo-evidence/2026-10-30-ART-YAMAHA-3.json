@@ -199,6 +199,52 @@
   ]
  },
  {
+  "path": "yamaha/yamaha-lexi-ou-honda-vario-125-location/index.html",
+  "role": "OWNER",
+  "primary_intent": "Choisir entre un Yamaha LEXi (155 cm3) et un Honda Vario 125 pour une location à Hanoi.",
+  "words_before": 1753,
+  "words_after": 1522,
+  "new_meta": {
+   "title": "Yamaha LEXi ou Honda Vario 125 : lequel louer à Hanoi ?",
+   "description": "Yamaha LEXi (155 cm³) ou Honda Vario 125 en location à Hanoi : permis A ou A1, puissance, réservoir, équipement et budget indicatif pour choisir.",
+   "h1": "Yamaha LEXi ou Honda Vario 125 : quel scooter louer à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "The old text claimed the two scooters were « compacts » of the same family with no figures and said the choice is « sur le feeling ». Replaced by sourced figures: LEXi 155 VVA-ABS (155,1 cm3, 11,3 kW, 14,2 N·m, 118 kg, 4,2 L, 2,19 L/100 km, selle 768 mm, ABS, clé intelligente, prise de recharge, Y-Connect; Yamaha Motor Vietnam, seen in search result); Vario 125 (selle 769 mm, réservoir 5,5 L on the product page; 765 mm / 5,6 L on a comparison page; honda.com.vn, seen in search result); weight, power and consumption of the Vario not found and stated as « non relevé ». The 125 cm3 displacement of the Vario is attributed to the model name, with the instruction to read the papers. Permit: Law 36/2024/QH15, A1 ≤125 cm3 / A above, cited to xaydungchinhsach.chinhphu.vn (consulté 2026-10-29, seen in search result), plus the foreign-licence caveat. Autonomy « ≈190 km en théorie » for the LEXi derived from 4,2 L and 2,19 L/100 km and flagged theoretical; no autonomy computed for the Vario. Prices: neither has an owner row; only the scooter automatique category range « à titre de repère » with the mandatory disclaimer; the article refuses to say which is cheaper. Removed: « les agences de Hanoi gèrent des flottes variées », « deux messages envoyés un soir donnent deux réponses », « certaines acceptent un échange en cas de panne », « il faut réserver à l’avance pour garantir la disponibilité » (policy-type claims), the generic « méthode du coût par jour ». Assistance/réparation phrased as questions.",
+   "INTENT": "Main question: LEXi ou Vario 125, lequel louer ? Owner of « yamaha LEXi ou Honda Vario 125 ». Closest: honda-vario-125-ou-yamaha-freego-location (0.75), honda-vario-160-ou-yamaha-nvx, honda-vario-125-location-hanoi. Differs because the axis here is licence category (A vs A1), power and tank, not a compact-vs-compact style duel; the FreeGo duel is linked once for the 125 cm3 alternative.",
+   "CONTENT": "Full rewrite. Sections: comparison table with sources, la vraie ligne de partage A ou A1, en ville, sur route (puissance et autonomie), équipement à vérifier, entretien et pièces, budget, comment trancher (6 conditional bullets), FAQ (5), pour aller plus loin. Words 1753 → 1522.",
+   "META": "Title (55 chars) kept in spirit but changed from « …que choisir en location ? » to « …lequel louer à Hanoi ? »; description (145 chars) now names permis A/A1, puissance, réservoir; H1 « …quel scooter louer à Hanoi ? »; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /permis-securite/permis/, /yamaha/yamaha-lexi-location-hanoi/, /honda/honda-vario-125-location-hanoi/, /honda/honda-vario-125-ou-yamaha-freego-location/. The LEXi driving and price pages are mentioned in text without links to stay within the cap. External: 4 rel=noopener citations (Yamaha LEXi page, Honda Vario 125 page and comparison page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences: A vs A1 first). Comparison table with sources and a note that Honda publishes two value sets; 6 conditional decision bullets; 5 FAQ items (155 cm3?, permis plus simple?, autonomie, prix, disponibilité des deux)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-tieu-chuan-bvy1/",
+    "checked": "2026-10-30",
+    "used_for": "LEXi 155 VVA-ABS specs (seen in search result summary)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+    "checked": "2026-10-30",
+    "used_for": "Vario 125: selle 769 mm, réservoir 5,5 L (seen in search result summary)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/so-sanh?sp=%5B%22vario-125%22%5D&version=18&category=2",
+    "checked": "2026-10-30",
+    "used_for": "Vario 125 comparison page: 765 mm, 5,6 L, i.e. version variance (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Availability of a LEXi and of a Vario 125 and their own rates.",
+   "Licence categories accepted for a category-A scooter; passenger and breakdown conditions."
+  ]
+ },
+ {
   "path": "yamaha/yamaha-lexi-prix-location-hanoi/index.html",
   "role": "OWNER",
   "primary_intent": "Quel budget et quel devis pour louer un Yamaha LEXi à Hanoi.",
@@ -232,6 +278,315 @@
   "owner_gaps": [
    "Own LEXi rate (if offered) and whether it follows the automatic-scooter range.",
    "Deposit, fuel rule, assistance, zone rules, hour counting, payment currency (all phrased as questions)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-lexi-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Yamaha LEXi convient-il à un road trip au Vietnam, et jusqu’où.",
+  "words_before": 1855,
+  "words_after": 1762,
+  "new_meta": {
+   "title": "Yamaha LEXi en road trip au Vietnam : jusqu’où aller ?",
+   "description": "Un Yamaha LEXi de 155 cm³ convient-il à un road trip au Vietnam ? Excursions possibles, limites en montagne, réservoir de 4,2 litres, permis A et préparation.",
+   "h1": "Le Yamaha LEXi en road trip au Vietnam : jusqu’où le pousser ?"
+  },
+  "evidence": {
+   "FACTS": "The old text called the LEXi a « compact automatique … né pour les feux rouges » with no figures and did not mention the 155 cm3 / category A. Now: Yamaha Motor Vietnam LEXi 155 VVA-ABS page (seen in search result summary): 155,1 cm3, 11,3 kW, 14,2 N·m, 118 kg, réservoir 4,2 L, conso annoncée 2,19 L/100 km, ABS, clé intelligente, prise de recharge, Y-Connect. Autonomy « ≈190 km en théorie » derived from the two fuel figures and flagged theoretical, with the advice to refuel at half. No distances or driving times (the outing table has none); outings are rated qualitatively. Permit: Law 36/2024/QH15 category A above 125 cm3 (xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) + foreign-licence caveat. Zone/outing rules, assistance, spare key and breakdown procedure are phrased as questions (« certains loueurs … demandez la règle applicable »). Roadside repair statement hedged (« souvent »). Price: automatic-scooter range « à titre de repère » with the mandatory disclaimer and the caution for a 155 cm3 model. Removed: « le parc étendu de réparateurs », « une chambre à air de rechange si l’agence en propose », « informez l’agence : cette information accélère l’assistance » (policy claim) and the generic verdict section.",
+   "INTENT": "Main question: jusqu’où peut-on aller en LEXi pour un road trip ? Owner of « le Yamaha LEXi en road trip au Vietnam ». Closest: yamaha-nmax-vietnam-voyage-moto (0.50), pg-1-abs, neo-s. Differs from yamaha-latte-vietnam-voyage-moto (125 cm3 compact) by the 155 cm3 power, the small 4,2 L tank, the smart-key failure scenario and category A; the three-level answer (oui / avec méthode / plutôt non) differs from the Latte’s.",
+   "CONTENT": "Full rewrite. Sections: réponse courte (3 levels), atouts en voyage (4), limites (5), sorties (table of five outing groups), préparer le départ (9 checks), planifier deux jours (5 steps), si quelque chose tourne mal (5), permis/zone/règles, budget indicatif, quand choisir une moto, FAQ (5), pour aller plus loin. Words 1855 → 1762.",
+   "META": "Title (54 chars) and description (158 chars) rewritten with the concrete answer (réservoir 4,2 L, permis A); H1 « Le Yamaha LEXi en road trip au Vietnam : jusqu’où le pousser ? »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-lexi-location-hanoi/, /permis-securite/permis/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/, /nord-vietnam/hanoi-a-ha-giang-moto/. Dropped /location-moto-hanoi/ and /types-motos/semi-automatique-ou-trail-moto-sapa/. External: 2 rel=noopener citations (Yamaha LEXi page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences) plus a 3-level yes/avec méthode/plutôt non list opening the first section; one outing-adequacy table; one 9-item checklist; 5 FAQ items (Ha Giang, autonomie, permis A, deux avec bagages, clé intelligente)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-tieu-chuan-bvy1/",
+    "checked": "2026-10-30",
+    "used_for": "LEXi 155 VVA-ABS specs (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop allows trips outside Hanoi and has a spare-key/assistance procedure for smart-key scooters.",
+   "LEXi availability and own tariff."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-neo-s-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit une Yamaha NEO’S électrique dans Hanoi : silence, ruelles, ponts, pluie, stationnement, batterie faible.",
+  "words_before": 1674,
+  "words_after": 1613,
+  "new_meta": {
+   "title": "Yamaha NEO’S dans Hanoi : conduire un électrique en ville",
+   "description": "Conduire une Yamaha NEO’S dans Hanoi : silence et piétons, ruelles du Vieux Quartier, ponts, mode ECO à 30–35 km/h, pluie, stationnement et batterie faible.",
+   "h1": "Yamaha NEO’S dans Hanoi : ce que l’électrique change en ville"
+  },
+  "evidence": {
+   "FACTS": "The old text had no figure (« aucun chiffre d’autonomie ne se publie ici, l’absence est volontaire ») and a long « portrait enthousiaste ». Now sourced from Yamaha Motor Vietnam (seen in search results): moteur 2,3 kW, couple 43,49 N·m, 98 kg batterie comprise, selle 795 mm, coffre 27 L, mode ECO à 30–35 km/h on the product page, ECO limited to 30 km/h under 20 % battery (Yamaha article), recharge ≈ 9 h, 72 km at 30 km/h with 75 kg; top speed stated as not found. Behaviour claims are limited to what follows from the figures (weight, saddle, power) or to general safety guidance. Rain/water resistance is explicitly stated as not published (ask the loueur) rather than asserted. Hoàn Kiếm pedestrian streets: only « renseignez-vous, les horaires changent ». Permit: electric ≤ 11 kW = A1 (Law 36/2024/QH15, xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result), 2,3 kW announced, plus the foreign-licence caveat. No prices, no shop policies (battery removability and loueur handover are phrased as questions). NAP not needed on this page.",
+   "INTENT": "Main question: comment est-ce de conduire une NEO’S dans Hanoi ? Owner of « yamaha NEO'S dans Hanoi ». Closest: yamaha-xmax-hanoi-ville (0.45), nmax-hanoi-ville, pg-1-abs-hanoi-ville; differs because it is the electric riding experience (silence/pedestrians, 98 kg/795 mm, ECO pace, ramps, battery-low behaviour) rather than rental terms (yamaha-neo-s-location-hanoi) or range planning (yamaha-neo-s-ou-honda-icon-e-location).",
+   "CONTENT": "Full rewrite. Sections: ce que l’on sait de la machine, les premières minutes (5 steps), le silence, Vieux Quartier et ruelles, ponts et grands axes, ce que le loueur doit vous montrer (6 items), un premier scooter ? (5 tips), pluie/chaleur/nuit, stationnement et recharge en ville, quand la batterie baisse, permis, FAQ (5), pour aller plus loin. Words 1674 → 1613.",
+   "META": "Title (57 chars) and description (156 chars) rewritten with the ECO 30–35 km/h fact; H1 changed to « Yamaha NEO’S dans Hanoi : ce que l’électrique change en ville »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-neo-s-location-hanoi/, /yamaha/yamaha-neo-s-ou-honda-icon-e-location/, /types-motos/electrique-scooter-recharge-hanoi/, /permis-securite/permis/. The rain guide is mentioned without link. Dropped /types-motos/electrique/. External: 2 rel=noopener citations (Yamaha NEO’S page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences). Two numbered/bulleted drills (5 first-minute steps, handover list), 5 FAQ items (trafic dense, silence, recharge en ville, pluie, ponts)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+    "checked": "2026-10-30",
+    "used_for": "NEO’S: 2,3 kW, 43,49 N·m, 98 kg, selle 795 mm, coffre 27 L, ECO 30–35 km/h, recharge ≈ 9 h (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+    "checked": "2026-10-30",
+    "used_for": "72 km at 30 km/h / 75 kg; ECO limited to 30 km/h under 20 % battery (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 11 kW electric; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop’s NEO’S (if any) can be used in rain/flooded streets and whether the battery is removable by the renter (not stated)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-neo-s-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "La Yamaha NEO’S électrique en location à Hanoi : pour qui, quelle recharge, quel permis, que vérifier.",
+  "words_before": 1604,
+  "words_after": 1526,
+  "new_meta": {
+   "title": "Yamaha NEO’S en location à Hanoi : recharge, permis, profils",
+   "description": "Yamaha NEO’S électrique en location à Hanoi : 72 km annoncés avec une batterie, recharge d’environ 9 h, profils, vérifications au retrait et tarif à confirmer.",
+   "h1": "Yamaha NEO’S en location à Hanoi : pour qui ?"
+  },
+  "evidence": {
+   "FACTS": "The old text had no figure at all (« le rayon d’action commande »). Added Yamaha-sourced figures (seen in search results): 72 km with one battery at constant 30 km/h and a 75 kg rider, up to 144 km with two batteries, « plus de 60 km » in ECO at 30–35 km/h on the product page, recharge ≈ 9 h 0–100 %, 51,1 V / 23,2 Ah, 2,3 kW / 43,49 N·m, 98 kg, selle 795 mm, coffre 27 L; top speed stated as not found; ECO mode limited to 30 km/h under 20 % battery (Yamaha article). Real-world range is said to be lower. Permit: electric ≤11 kW = A1, > 11 kW = A (Law 36/2024/QH15, xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) with the foreign-licence caveat. Price: electric category only (day « selon le modèle, à confirmer », week 600 000–800 000, month 1 500 000–1 800 000 VND), « à titre de repère », mandatory disclaimer; no daily price invented; no claim that a NEO’S is in the fleet. Recharge terms (chargeur fourni, électricité, batterie remise pleine, prise à l’hôtel) are written only as questions. « Deux tiers de l’autonomie » is explicitly labelled our precaution, not a Yamaha figure. The old claims about « le parc de réparateurs » and generic loueur behaviour were removed. NAP/hours as in SEO-FACTS.",
+   "INTENT": "Main question: la NEO’S est-elle un bon choix à louer à Hanoi, pour qui et avec quelle recharge ? Owner of « yamaha NEO'S en location à Hanoi ». Closest: yamaha-neo-s-prix-location-hanoi (0.50), yamaha-freego-location, honda-cuv-e-ou-yamaha-neo-s. Differs from yamaha-neo-s-ou-honda-icon-e-location (comparaison autonomie/recharge, linked once) and from yamaha-neo-s-prix (devis).",
+   "CONTENT": "Full rewrite. Sections: fiche constructeur (table), profils (+ contre-profils), recharge (5 questions), organiser une journée avec une batterie (5 steps), NEO’S ou scooter à essence (table), vérifications au retrait (8), permis, tarif et disponibilité, FAQ (5), pour aller plus loin. Removed the « portrait honnête » and « la méthode » prose. Words 1604 → 1526.",
+   "META": "Title (60 chars) and description (159 chars) rewritten to carry the 72 km / 9 h facts; H1 kept; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-neo-s-ou-honda-icon-e-location/, /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/, /permis-securite/permis/; /types-motos/electrique/ dropped. External: 3 rel=noopener citations (Yamaha NEO’S page and presentation, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences: 72 km, 9 h, for whom/not for whom). Spec table, electric-vs-petrol table, one 5-step planning list, one 8-item checklist, 5 FAQ items (autonomie, recharge, permis, deux personnes, disponibilité)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+    "checked": "2026-10-30",
+    "used_for": "NEO’S product page: selle 795 mm, 98 kg batterie comprise, coffre 27 L, 2,3 kW, 43,49 N·m, 51,1 V / 23,2 Ah, 72 km (1 batterie) / 144 km (2 batteries), « plus de 60 km » en mode ECO à 30–35 km/h, recharge ≈ 9 h (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+    "checked": "2026-10-30",
+    "used_for": "72 km at constant 30 km/h with 75 kg rider; ECO mode limited to 30 km/h under 20 % battery (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3 or 11 kW electric; A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop offers a NEO’S, with which battery/charger, and how recharge is organised and billed.",
+   "Own NEO’S tariff (the day rate for electric is « selon le modèle, à confirmer »)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-neo-s-ou-honda-icon-e-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Autonomie réelle, recharge et organisation quotidienne à Hanoi : NEO’S ou ICON e:.",
+  "words_before": 1545,
+  "words_after": 1580,
+  "new_meta": {
+   "title": "NEO’S ou ICON e: : autonomie réelle et recharge à Hanoi",
+   "description": "Yamaha NEO’S ou Honda ICON e: à Hanoi : 72 et 71 km annoncés, conditions de mesure, recharge de 8 à 9 heures et organisation d’une journée sans panne sèche.",
+   "h1": "Yamaha NEO’S ou Honda ICON e: : autonomie réelle et recharge à Hanoi"
+  },
+  "evidence": {
+   "FACTS": "Facts only from manufacturer pages seen in search results. Yamaha NEO’S: 72 km with one battery at constant 30 km/h and 75 kg rider, up to 144 km with two batteries, page produit « plus de 60 km » in ECO at 30–35 km/h, recharge ≈ 9 h (0–100 %), 51,1 V / 23,2 Ah, ECO limited to 30 km/h below 20 % battery (Yamaha Motor Vietnam NEO’S page and review article). Honda ICON e: ≈ 71 km per charge (« conditions de test internes »), ECO ≈ +15 %, 0–100 % ≈ 8 h, 25–75 % ≈ 3,5 h, max 48 km/h, 48 V / 30,6 Ah (honda.com.vn product page). Missing items stated as « non relevé » (Yamaha top speed and partial-charge time). The 72 vs 71 km values are explicitly not ranked because the test conditions differ. « Deux tiers de l’autonomie » (≈ 48 km) is labelled our rule of prudence, not a manufacturer figure; the 35 km / 55 km examples are labelled illustrations. No battery-swap offer is claimed (« non confirmée ici »). Price: electric category only (day « selon le modèle, à confirmer », week 600 000–800 000, month 1 500 000–1 800 000 VND), « à titre de repère », with the mandatory disclaimer; no model is promised. Recharge terms written as questions only. Removed the generic duel prose (style/comfort/rangement) and unsourced claims about both models’ comfort.",
+   "INTENT": "Role DISTINCT_ANGLE (group CMP-ICONE-NEOS, owner honda/honda-icon-e-ou-yamaha-neo-s-location/): autonomie réelle, recharge et organisation au quotidien à Hanoi, not a general comparison. Title, H1, lead, meta and every section now centre on measurement conditions, usable range, charging routine, battery-low behaviour, and the owner comparison is linked once (« comparatif Honda ICON e: ou Yamaha NEO’S ») for the general duel. Differs from the closest pages honda-icon-e-ou-yamaha-neo-s-location (0.60), honda-cuv-e-ou-yamaha-neo-s-location (0.50) and types-motos/honda-icon-e-ou-yamaha-neos-location-vietnam (0.46) by the sourced range/charge table and the planning method.",
+   "CONTENT": "Full rewrite. Sections: chiffres annoncés côte à côte (table), pourquoi 72 km ≠ 72 km à Hanoi (6 factors), calculer son autonomie utile (4 steps), recharge (nuit, journée, 5 questions), gagner des kilomètres (5 habits + top speed), trois situations d’hébergement, quand la batterie baisse, budget et disponibilité, FAQ (5), pour aller plus loin. Removed the general head-to-head. Words 1545 → 1580.",
+   "META": "Title (55 chars) and description (156 chars) refocused on autonomie réelle et recharge; H1 changed to « Yamaha NEO’S ou Honda ICON e: : autonomie réelle et recharge à Hanoi »; eyebrow « Électrique : autonomie et recharge »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /honda/honda-icon-e-ou-yamaha-neo-s-location/ (owner, once, natural anchor), /yamaha/yamaha-neo-s-location-hanoi/, /types-motos/electrique-scooter-recharge-hanoi/, /types-motos/electrique-scooter-hanoi-range/. Dropped /honda/honda-icon-e-location-hanoi/ and /types-motos/electrique/. External: 3 rel=noopener citations (Yamaha NEO’S page, NEO’S presentation, Honda ICON e: page).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences: 72 vs 71 km, not comparable, what the page covers). Comparison table with sources; numbered 4-step usable-range method; two checklists; 5 FAQ items (meilleure autonomie, recharge en journée, distance par jour, batterie presque vide, voyage)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+    "checked": "2026-10-30",
+    "used_for": "NEO’S: 72 km / 144 km, plus de 60 km en ECO à 30–35 km/h, 51,1 V 23,2 Ah, recharge ≈ 9 h (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+    "checked": "2026-10-30",
+    "used_for": "NEO’S: test conditions 30 km/h / 75 kg; ECO limited to 30 km/h under 20 % battery (seen in search result summary)"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/icon-e?category=5&version=3",
+    "checked": "2026-10-30",
+    "used_for": "ICON e: ≈ 71 km, ECO +15 %, 0–100 % ≈ 8 h, 25–75 % ≈ 3,5 h, 48 km/h, 48 V 30,6 Ah (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop offers a NEO’S or an ICON e:, with charger/battery terms and recharge billing.",
+   "Whether battery swapping or in-day charging exists (not stated)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-neo-s-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel budget et quels éléments de devis pour louer une Yamaha NEO’S électrique à Hanoi.",
+  "words_before": 1527,
+  "words_after": 1595,
+  "new_meta": {
+   "title": "Louer une Yamaha NEO’S à Hanoi : repères de prix électrique",
+   "description": "Yamaha NEO’S en location à Hanoi : repères de la catégorie électrique (semaine, mois), tarif journalier à confirmer, coût de la recharge et points du devis.",
+   "h1": "Yamaha NEO’S : quel budget pour une location électrique à Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "The old page published « aucun prix » and a long « méthode de la plateforme » speech. Now it states the owner’s electric category row once: day « selon le modèle, à confirmer », week 600 000–800 000, month 1 500 000–1 800 000 VND « à titre de repère », with the mandatory disclaimer next to the table and in the first FAQ; automatic-scooter and semi-automatic ranges shown for context, with three arithmetic readings that are straight comparisons of published ranges (week ranges overlap; electric month range lies inside the automatic range and above the semi-automatic range). No daily price derived, no € conversion, no electricity tariff invented. Battery capacity « environ 1,2 kWh » is derived from Yamaha’s 51,1 V × 23,2 Ah (NEO’S page, seen in search result); 9 h charge and 72 km at 30 km/h with 75 kg from Yamaha (seen in search result). Charger, battery of rechange, electricity billing, battery-level at return, assistance, caution are written as questions in a poste-par-poste table (published vs to ask). The claim that a second battery is possible comes from Yamaha; its availability in rental is expressly unconfirmed. Removed: « la plupart des loueurs sérieux écrivent volontiers », « un forfait longue durée se négocie dès le premier échange », « une journée complète s’obtient souvent à un meilleur taux ». NAP/hours as in SEO-FACTS.",
+   "INTENT": "Main question: combien coûte et que demander pour louer une NEO’S. Owner of « yamaha NEO'S » (prix). Closest: yamaha-pg-1-abs-prix (0.50), yamaha-neo-s-location-hanoi (0.50), yamaha-latte-prix (0.44). Differs through the electric-only lines (chargeur, batterie, électricité, retour) and the poste table; usage and profile stay in yamaha-neo-s-location-hanoi.",
+   "CONTENT": "Full rewrite. Sections: repères publiés (table + readings), ce que le devis doit préciser en plus pour un électrique (6), coût de l’énergie (1,2 kWh derived), postes d’un budget électrique (7-row table), choisir la durée, erreurs à éviter (5), message à envoyer (template + NAP), FAQ (5), pour aller plus loin. Words 1527 → 1595.",
+   "META": "Title (59 chars) and description (156 chars) rewritten (no « prix exact »/« sans chiffre inventé » claims); H1 changed to « Yamaha NEO’S : quel budget pour une location électrique à Hanoi ? »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-neo-s-location-hanoi/, /types-motos/electrique-scooter-recharge-hanoi/, /prix-location/electrique-location-scooter-hanoi-prix/, /prix-location/electrique-ou-essence-scooter-mensuelle-cout-hanoi/. Dropped /yamaha/yamaha-pg-1-abs-prix-location-hanoi/ (different model). External: 1 rel=noopener citation (Yamaha NEO’S page).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences with the week/month ranges and day « à confirmer »). Two tables (category ranges with disclaimer; budget lines published vs to ask), two checklists, copy-ready message, 5 FAQ items (coût, recharge comprise, électrique vs essence, location à la journée, batterie vide)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+    "checked": "2026-10-30",
+    "used_for": "NEO’S battery 51,1 V / 23,2 Ah, recharge ≈ 9 h, 72 km at 30 km/h with 75 kg, second battery option (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Own NEO’S day/week/month rate if offered; electricity billing, charger and battery terms, caution, assistance for an empty battery (all written as questions)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-neo-s-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Une Yamaha NEO’S électrique peut-elle servir pour une excursion ou un voyage au Vietnam, et jusqu’où.",
+  "words_before": 1594,
+  "words_after": 1642,
+  "new_meta": {
+   "title": "Yamaha NEO’S en voyage au Vietnam : jusqu’où aller ?",
+   "description": "Yamaha NEO’S en voyage au Vietnam : 72 km annoncés avec une batterie, recharge d’environ 9 h, sorties envisageables, calcul de l’aller-retour et alternatives.",
+   "h1": "Yamaha NEO’S et voyage au Vietnam : un électrique peut-il partir en excursion ?"
+  },
+  "evidence": {
+   "FACTS": "The old text (« le vrai verdict ») had no figures and called itself the « règle de cette plateforme ». Now sourced from Yamaha Motor Vietnam (seen in search results): 72 km with one battery at constant 30 km/h and 75 kg, up to 144 km with two batteries (availability in rental stated as unconfirmed), recharge ≈ 9 h, 2,3 kW, ECO 30–35 km/h (product page), ECO limited to 30 km/h under 20 % battery; top speed stated as not found. « Deux tiers de l’autonomie » (≈ 48 km) is labelled our rule of prudence. No distances for destinations are given: the outing table uses conditions, and every distance is to be measured on a map; the statement that a Ninh Bình round trip exceeds the announced range is hedged (« a priori ; vérifiez la distance sur une carte »). No public charging infrastructure is claimed; charger carrying and room-plug use are written as questions. Permit: electric ≤ 11 kW = A1 (Law 36/2024/QH15, xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) with the foreign-licence caveat; zone rules « certains loueurs … demandez la règle applicable ». Price: electric category (day « selon le modèle, à confirmer », 600 000–800 000 week, 1 500 000–1 800 000 month) « à titre de repère » with the mandatory disclaimer.",
+   "INTENT": "Main question: la NEO’S peut-elle faire un voyage/une excursion au Vietnam ? Owner of « yamaha NEO'S » (voyage). Closest: yamaha-lexi-vietnam-voyage-moto (0.38), pg-1-abs, grande. Differs because the limiting factors are the battery range, the 9 h recharge and the 30–35 km/h ECO pace, with a distance-calculation method and a recharge/prise decision test; no other Yamaha voyage page covers electric.",
+   "CONTENT": "Full rewrite. Sections: réponse courte (3 cases), calculer la distance qu’une batterie permet (4 steps), sorties (adequacy table), trois questions pour décider, préparer une boucle courte (7), le rythme (routes nationales), recharge en voyage, les pièges (5), alternatives (3), permis et règles, budget indicatif, FAQ (5), pour aller plus loin. Words 1594 → 1642.",
+   "META": "Title (52 chars) and description (158 chars) rewritten to state the 72 km / 9 h facts; H1 changed to « Yamaha NEO’S et voyage au Vietnam : un électrique peut-il partir en excursion ? »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-neo-s-location-hanoi/, /types-motos/electrique-scooter-hanoi-ninh-binh/, /types-motos/electrique-scooter-recharge-hanoi/, /permis-securite/permis/. Dropped /types-motos/electrique/, /types-motos/electrique-scooter-ou-essence-scooter-hanoi/ and /yamaha/yamaha-exciter-155-vietnam-voyage-moto/. External: 3 rel=noopener citations (Yamaha NEO’S page and presentation, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (3 sentences) plus a 3-case list opening the first section; adequacy table; 4-step distance method; decision questions; two checklists; 5 FAQ items (Ninh Bình, kilomètres par batterie, chargeur, seconde batterie, road trip)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+    "checked": "2026-10-30",
+    "used_for": "NEO’S: 72 km / 144 km, ECO 30–35 km/h, recharge ≈ 9 h, 2,3 kW (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+    "checked": "2026-10-30",
+    "used_for": "72 km at 30 km/h with 75 kg rider; ECO limited to 30 km/h under 20 % battery (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 11 kW electric; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop lets a NEO’S leave Hanoi, supplies a charger/second battery, and what its assistance is for an empty battery (all written as questions)."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-nmax-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit un Yamaha NMAX dans Hanoi (gabarit, Stop & Start, clé intelligente, ponts, stationnement).",
+  "words_before": 1533,
+  "words_after": 1579,
+  "new_meta": {
+   "title": "Yamaha NMAX en ville : conduire un grand scooter à Hanoi",
+   "description": "Conduire un Yamaha NMAX à Hanoi : gabarit dans les ruelles, Stop & Start, clé intelligente, ABS, ponts, stationnement, pluie et permis de catégorie A.",
+   "h1": "Yamaha NMAX en ville : que vaut ce grand scooter dans le trafic de Hanoi ?"
+  },
+  "evidence": {
+   "FACTS": "The old text had no figure and relied on adjectives (« posture droite », « silhouette affirmée », « fatigue zéro d’apprentissage », « tarif dans l’étage supérieur »). Now sourced from Yamaha Motor Vietnam’s NMAX standard page (seen in search result): 155,1 cm3, 11,3 kW, 14,2 N·m, ABS both wheels, smart key, Stop & Start, réservoir 7,1 L, selle 770 mm, coffre 24 L; weight stated as not published. The Latte’s 790 mm saddle (Yamaha Latte page, seen in search result) is used once for contrast. Stop & Start is described only as announced on the standard version, with « demandez comment le désactiver » (not published). Permit: Law 36/2024/QH15, A above 125 cm3 (xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) with the foreign-licence caveat. Local context hedged (gardiens de parking « dans de nombreuses zones fréquentées »). Passenger acceptance and smart-key procedure are asked as questions. No prices, no shop policies stated; the former sentence about the NMAX’s rental price tier (« registre haut de gamme … au-dessus des semi-automatiques ») was removed (it is not in the owner table).",
+   "INTENT": "Main question: que vaut le NMAX dans le trafic de Hanoi ? Owner of « yamaha NMAX en ville ». Closest: yamaha-xmax-hanoi-ville (0.50), yamaha-neo-s-hanoi-ville (0.45), yamaha-nvx-hanoi-ville (0.42). Differs by the NMAX-specific features (Stop & Start, smart key in daily use, 770 mm saddle, ABS) and the large-scooter behaviour; rental conditions stay in yamaha-nmax-location-hanoi.",
+   "CONTENT": "Full rewrite. Sections: ce qui change au guidon (4), Stop & Start, la clé intelligente au quotidien, Vieux Quartier et ruelles, grands axes et ponts, une première sortie pour apprivoiser le gabarit (3 steps), les erreurs fréquentes avec un grand scooter (5), stationnement et sécurité, pluie/chaleur/nuit, permis, FAQ (5), pour aller plus loin. Words 1533 → 1579.",
+   "META": "Title (56 chars) and description (150 chars) rewritten; H1 « Yamaha NMAX en ville : que vaut ce grand scooter dans le trafic de Hanoi ? »; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/yamaha-nmax-location-hanoi/, /types-motos/meilleur-scooter-hanoi-circulation/, /permis-securite/permis/, /yamaha/scooters/. External: 2 rel=noopener citations (Yamaha NMAX page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences). Two 3–5 item lists (first outing, mistakes), 5 FAQ items (trop grand pour Hanoi ?, Stop & Start, clé intelligente, à deux, permis A)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-30",
+    "used_for": "NMAX standard: 155,1 cm3, 11,3 kW, 14,2 N·m, ABS, smart key, Stop & Start, 7,1 L, 770 mm, 24 L (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "Latte selle 790 mm for contrast (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop’s NMAX (if any) allows deactivating Stop & Start and what its smart-key/spare-key procedure is; passenger acceptance."
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-nmax-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Louer un Yamaha NMAX à Hanoi : pour qui, avec quel permis, que vérifier, quel tarif demander.",
+  "words_before": 1597,
+  "words_after": 1591,
+  "new_meta": {
+   "title": "Louer un Yamaha NMAX à Hanoi : permis A, fiche et vérifications",
+   "description": "Louer un Yamaha NMAX à Hanoi : 155 cm³, ABS, clé intelligente et coffre de 24 litres selon Yamaha, permis A, vérifications et tarif à confirmer.",
+   "h1": "Louer un Yamaha NMAX à Hanoi : pour qui, avec quel permis ?"
+  },
+  "evidence": {
+   "FACTS": "The old text gave no figures and said the NMAX sits « dans l’étage supérieur de l’échelle locale », « circule en nombre au Vietnam », « suspension confortable ». Now sourced from Yamaha Motor Vietnam NMAX standard page (seen in search results): 155,1 cm3, 11,3 kW @ 8 000, 14,2 N·m @ 6 500, ABS both wheels, smart key, Stop & Start, réservoir 7,1 L, selle 770 mm, coffre 24 L; weight not found (stated as such); the TECH MAX variant shares the engine. Permit: Law 36/2024/QH15, A above 125 cm3 (xaydungchinhsach.chinhphu.vn, consulté 2026-10-29, seen in search result) with the foreign-licence caveat. Latte column (125 cm3, 37 L, 5,0 L, 790 mm, ≈100 kg) from Yamaha’s Latte page (seen in search result). No consumption figure was found: the FAQ says so and advises prudence. Price: no owner row; scooter automatique category range « à titre de repère » with the mandatory disclaimer, and the explicit statement (consistent with the hub) that a 155 cm3 grand scooter does not automatically fall in that range. Removed: « circule en nombre », « fatigue zéro d’apprentissage », passenger comfort claims, and the contract list (« formule, dépôt, assistance, exclusions, responsabilité en cas de chute »); caution, passenger acceptance, assistance, trips outside Hanoi are asked as questions. NAP/hours as in SEO-FACTS.",
+   "INTENT": "Main question: faut-il louer un NMAX à Hanoi, pour quel voyageur et avec quel permis ? Owner of « louer un Yamaha NMAX à Hanoi ». Closest: yamaha-sirius-location-hanoi (0.67), yamaha-wr155r-location-hanoi (0.57), yamaha-nvx-location-hanoi (0.50). Differs by the NMAX 155 / catégorie A / 24 L / 7,1 L facts and the NMAX-vs-compact table; riding in town is left to yamaha-nmax-hanoi-ville and the cost reading to yamaha-nmax-prix-location-hanoi.",
+   "CONTENT": "Full rewrite. Sections: fiche constructeur (table), profils (+ contre-profils), permis catégorie A, NMAX ou compact de 125 cm³ (sourced table), rouler à deux (5 checks), vérifications au retrait (8), questions à poser avant de réserver (8), tarif et disponibilité (+ NAP), FAQ (5), pour aller plus loin. Words 1597 → 1591.",
+   "META": "Title (63 chars) and description (144 chars) rewritten with the concrete facts (155 cm3, ABS, 24 L, permis A); H1 changed to « Louer un Yamaha NMAX à Hanoi : pour qui, avec quel permis ? »; og tags identical.",
+   "LINKS": "7/7 unique internal links in main: /yamaha/ (parent), /types-motos/, /prix-location/ (required), /yamaha/scooters/, /permis-securite/permis/, /yamaha/yamaha-nmax-prix-location-hanoi/, /yamaha/yamaha-nmax-hanoi-ville/. Dropped /types-motos/meilleur-scooter-hanoi-circulation/ and /types-motos/scooter-automatique/. External: 2 rel=noopener citations (Yamaha NMAX page, chinhphu.vn).",
+   "AEO_GEO": "Direct answer in the lead (4 sentences: specs, for whom, permit, price to ask). Spec table and NMAX/Latte table with sources; two checklists (8 checks, 8 questions) plus a 5-item passenger test; 5 FAQ items (est-ce un 125 ?, à deux, maniabilité à Hanoi, autonomie, disponibilité)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-30",
+    "used_for": "NMAX standard: 155,1 cm3, 11,3 kW, 14,2 N·m, ABS, smart key, Stop & Start, 7,1 L, selle 770 mm, coffre 24 L (seen in search result summary)"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/loai-xe/latte/",
+    "checked": "2026-10-30",
+    "used_for": "Latte figures in the comparison table (seen in search result summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-29",
+    "used_for": "A1 up to 125 cm3, A above; Law 36/2024/QH15 (seen in search result summary)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop offers an NMAX, which version, and its own tariff (a 155 cm3 grand scooter may not follow the automatic-scooter range).",
+   "Passenger acceptance, deposit, breakdown procedure, trips outside Hanoi, licence categories accepted for category A (all phrased as questions)."
   ]
  }
 ]

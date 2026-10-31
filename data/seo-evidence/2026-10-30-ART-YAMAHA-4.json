@@ -40,5 +40,349 @@
    "Whether a NMAX is actually available",
    "Deposit/ID document, helmets included, early return and extension rules, breakdown contact (all asked, none stated)"
   ]
+ },
+ {
+  "path": "yamaha/yamaha-nmax-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Un Yamaha NMAX convient-il à un road trip au Vietnam : quelles routes, quelles limites ?",
+  "new_meta": {
+   "title": "Road trip au Vietnam en Yamaha NMAX : routes et limites",
+   "description": "Le Yamaha NMAX convient aux routes revêtues et aux liaisons, pas aux pistes : réservoir, garde au sol, poids, bagages et préparation d’une boucle depuis Hanoi.",
+   "h1": "Road trip au Vietnam en Yamaha NMAX : quelles routes, quelles limites ?"
+  },
+  "words_before": 1542,
+  "words_after": 1624,
+  "evidence": {
+   "FACTS": "Removed mannered/unsupported material: « plateforme familière des mécaniciens de province », « journées de cent à deux cents kilomètres », « sérénité mécanique », and the assertion that the machine accepts a moderate rear bag. Specs only from the Yamaha Motor Vietnam NMAX standard page seen in search results (155,1 cm3, ABS on front and rear discs, tank 7,1 L, seat/ground clearance 127 mm, 131 kg, storage 24 L) with the caveat that the version/year can differ. Licence: Law 36/2024/QH15, A above 125 cm3, chinhphu portal (seen in search result, consulté 2026-10-30), foreign-licence validity left to the reader. Absence of engine braking on a CVT scooter stated qualitatively (consistent with the Yamaha hubs). Ha Giang treated as a question to put to the loueur, no distance, time or road-condition figure. Breakdown contact, who pays, authorised riding zone, spare key, rack/top-case fitment, max load: all phrased as questions, none as shop policy. No price quoted (price article linked).",
+   "INTENT": "Main question: le NMAX est-il adapté à un road trip et jusqu’où ? OWNER of « road trip au Vietnam en Yamaha NMAX ». Differs from types-motos/yamaha-nvx-ou-nmax-vietnam-voyage-moto (NVX vs NMAX comparison) because this page treats only the NMAX and its limits (brake heat in descents, bags, Ha Giang), and from yamaha-nmax-prix-location-hanoi (pricing).",
+   "CONTENT": "Full rewrite. Sections: data table read for travel, suitable roads, mountain descents and brakes (checklist), Ha Giang question, bags and passenger (checklist), pace/fatigue/fuel (new), pre-departure checklist, FAQ (5). Removed the generic three-requirements essay and the repeated « frontière honnête » paragraphs. Words 1542 -> 1624.",
+   "META": "Title « Road trip au Vietnam en Yamaha NMAX : routes et limites » (55 chars); description 159 chars; H1 kept; eyebrow « Yamaha NMAX · road trip »; og tags identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/moto-pluie-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-nmax-prix-location-hanoi/. Kept /yamaha/yamaha-nmax-prix-location-hanoi/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/moto-pluie-securite-vietnam/; replaced the generic /nord-vietnam/ hub with the more specific /nord-vietnam/ha-giang/.",
+   "AEO_GEO": "Direct answer with figures in the lead; one data table; four checklists; FAQ of 5 (Ha Giang, pistes, bagages, permis, NMAX vs semi-auto); 2 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NMAX standard 155,1 cm3, ABS front/rear discs, tank 7,1 L, seat 770 mm, 131 kg, storage 24 L, ground clearance 127 mm"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: licence classes A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether rented machines may leave Hanoi and which zones are allowed",
+   "Breakdown contact and cost sharing outside Hanoi",
+   "What luggage fittings (rack, top-case) a rented NMAX carries and its max load"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-nvx-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut le Yamaha NVX dans la circulation de Hanoi (gabarit, confort, limites, niveau de conduite) ?",
+  "new_meta": {
+   "title": "Yamaha NVX en ville à Hanoi : gabarit, confort, limites",
+   "description": "Le Yamaha NVX 155 dans la circulation de Hanoi : 125 kg annoncés, selle à 790 mm, ABS, clé intelligente. Ruelles, stationnement, pluie et limites en ville.",
+   "h1": "Yamaha NVX en ville : que vaut-il dans la circulation de Hanoi ?"
+  },
+  "words_before": 1508,
+  "words_after": 1555,
+  "evidence": {
+   "FACTS": "Removed the generic « ajoutez le périmètre habituel : casques, couverture, assistance, kilométrage, dépôt » line and the duplicated price paragraph. Specs only from Yamaha Motor Vietnam pages seen in search results on 2026-10-30: NVX 155 VVA ABS seat 790 mm, wet weight 125 kg (127 kg on the standard-version page), dimensions 1 980 x 700 x 1 150 mm, wheelbase 1 350 mm, ground clearance 145 mm, storage up to 25 L (24,5 L on another page), tank 5,5 L, ABS, smart-key knob, phone charging socket in the front compartment; Janus 125 (97 kg, seat 770 mm, tank 4,2 L) used as the compact reference. Licence: Law 36/2024/QH15, A above 125 cm3, chinhphu portal (seen in search result), foreign licence left to the reader. Repair cost of a sporty scooter's fairings stated as a general tendency. No price quoted; owner has no NVX row (price article linked). Helpline and fuel-level conventions phrased as questions to the loueur.",
+   "INTENT": "Main question: que vaut le NVX en ville à Hanoi. OWNER of « yamaha NVX en ville ». Differs from types-motos/meilleur-scooter-hanoi-circulation (all-brand choice by category) and from yamaha-nvx-location-hanoi (who the model suits) by working through the NVX's urban figures, strengths, limits and a programme table.",
+   "CONTENT": "Full rewrite. Sections: figures-to-consequences table, strengths, limits, real riding level with a 4-step first-ten-minutes checklist, programme table, habits checklist, FAQ (5). Removed the abstract « décor de tout verdict » and the « habitudes qui prolongent la location » prose. Words 1508 -> 1555.",
+   "META": "Title « Yamaha NVX en ville à Hanoi : gabarit, confort, limites » (55 chars); description 155 chars; H1 kept; eyebrow « Yamaha NVX · en ville »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/securite/, /prix-location/, /types-motos/, /types-motos/meilleur-scooter-hanoi-circulation/, /yamaha/, /yamaha/yamaha-nvx-location-hanoi/, /yamaha/yamaha-nvx-prix-location-hanoi/. Kept /yamaha/yamaha-nvx-location-hanoi/, /yamaha/yamaha-nvx-prix-location-hanoi/, /permis-securite/securite/; replaced /hanoi/excursions-moto/ with /types-motos/meilleur-scooter-hanoi-circulation/ (closest city-traffic page).",
+   "AEO_GEO": "Direct answer with the key figures in the lead; one specification table and one programme table; two checklists; FAQ of 5 (taille, ruelles, petit gabarit, pluie, permis); 3 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NVX 155 VVA ABS seat 790 mm, wet weight 125 kg, 25 L storage (24,5 L on another page), 5,5 L tank, ABS, smart-key knob functions, phone charging socket, dimensions"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-tieu-chuan-2025-d121/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: standard version weight 127 kg"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus 125 97 kg, seat 770 mm, tank 4,2 L (compact reference)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Whether an NVX is offered and which year/version",
+   "Breakdown contact and fuel-level convention at handover (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-nvx-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Yamaha NVX en location à Hanoi convient-il à votre projet (qui, pour quel usage, qui doit choisir autre chose) ?",
+  "new_meta": {
+   "title": "Louer un Yamaha NVX à Hanoi : convient-il à votre projet ?",
+   "description": "Yamaha NVX 155 en location à Hanoi : quels voyageurs il sert bien, qui doit choisir une autre machine, et ce qu’il faut vérifier avant de louer.",
+   "h1": "Le Yamaha NVX en location à Hanoi convient-il à votre projet ?"
+  },
+  "words_before": 1503,
+  "words_after": 1580,
+  "evidence": {
+   "FACTS": "Removed « le style se paie parfois dans la grille tarifaire, sans garantie », the stacked contract line (casques, couverture, franchise, assistance, kilométrage, dépôt), and « cette page n’en affirme aucun ». Specs only from Yamaha Motor Vietnam NVX 155 VVA ABS page seen in search results on 2026-10-30 (155 cm3 VVA, liquid-cooled, ABS, seat 790 mm, 125 kg / 127 kg on standard-version page, 25 L storage / 24,5 L elsewhere, smart-key knob, phone socket); NMAX tank 7,1 L and storage 24 L in the FAQ from the Yamaha NMAX page (seen in search result). Licence: Law 36/2024/QH15, A above 125 cm3, chinhphu portal. Prices: none quoted, no NVX owner row; reader sent to the NVX price article. Availability, deposit, helmets and breakdown number phrased as things to ask; NAP and hours per SEO-FACTS. Scenario paragraphs are advice, no invented customer stories.",
+   "INTENT": "Main question: le NVX en location convient-il à mon projet. OWNER of « le Yamaha NVX en location à Hanoi convient-il à votre projet ». Differs from yamaha-nmax-location-hanoi (NMAX/sirius-type profile, closest 0.5) by profiling NVX riders, anti-profiles and a family table; urban handling and mountain use are delegated to the NVX ville and voyage siblings.",
+   "CONTENT": "Full rewrite. Sections: quick fiche table, who it serves (checklist), who it does not suit (checklist), family comparison table, three scenarios (new), inspection checklist, booking questions with NAP, FAQ (5). Removed the abstract « prendre en main un scooter automatique » essay. Words 1503 -> 1580.",
+   "META": "Title « Louer un Yamaha NVX à Hanoi : convient-il à votre projet ? » (58 chars); description 144 chars; H1 kept; eyebrow « Yamaha NVX · pour qui ? »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-nvx-hanoi-ville/, /yamaha/yamaha-nvx-ou-honda-air-blade-160-location/, /yamaha/yamaha-nvx-prix-location-hanoi/, /yamaha/yamaha-nvx-vietnam-voyage-moto/. Kept the three required targets; replaced /honda/honda-air-blade-160-ou-yamaha-nvx-155-location/, /permis-securite/securite/, /types-motos/scooter-automatique/ and /yamaha/scooters/ with the NVX siblings /yamaha/yamaha-nvx-prix-location-hanoi/, /yamaha/yamaha-nvx-hanoi-ville/, /yamaha/yamaha-nvx-vietnam-voyage-moto/ and the Yamaha-side comparison /yamaha/yamaha-nvx-ou-honda-air-blade-160-location/.",
+   "AEO_GEO": "Direct answer in the lead naming riders/non-riders; fiche table and family table; two profile checklists plus an inspection checklist; FAQ of 5 (premier scooter, duo, NMAX, disponibilité, permis); 2 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NVX 155 VVA ABS 155 cm3 VVA, ABS, seat 790 mm, 125 kg, 25 L storage (24,5 L elsewhere), smart-key knob, phone socket"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nmax-dc31/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NMAX standard tank 7,1 L, storage 24 L"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a NVX is offered, which year/version",
+   "Deposit/ID document, helmets included, breakdown number, maintenance and replacement for monthly rentals (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-nvx-ou-honda-air-blade-160-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "NVX 155 ou Air Blade 160 pour les sorties hors de Hanoi, longues distances, passager et bagages (pas une seconde comparaison urbaine).",
+  "new_meta": {
+   "title": "Yamaha NVX ou Honda Air Blade 160 : longues sorties à deux",
+   "description": "NVX 155 ou Air Blade 160 pour quitter Hanoi : réservoir, coffre, passager, bagages et confort sur la route, avec les chiffres annoncés par les constructeurs.",
+   "h1": "NVX ou Air Blade 160 : quel scooter pour les longues sorties à deux ?"
+  },
+  "words_before": 1648,
+  "words_after": 1663,
+  "evidence": {
+   "FACTS": "Removed the « silo Honda » wording, the repeated « périmètre de la formule : casques, couverture, assistance, kilométrage, dépôt » lines and the « geste qui vaut pour toute machine » filler. Specs only from manufacturer pages seen in search results on 2026-10-30: Yamaha NVX 155 VVA ABS (155 cm3, seat 790 mm, 125/127 kg, tank 5,5 L, storage 25/24,5 L, ground clearance 145 mm); Honda Air Blade 160 (156,9 cm3, seat 775 mm, 114 kg on the 2025 page / 113 kg older page, tank 4,4 L, storage 23,2 L on the product page with a conflicting Nov 2025 Honda news item citing over 37 L on some versions, ground clearance 142 mm, 2,19 L/100 km on the 2025 page). The « about 200 km on paper » for the Air Blade is arithmetic 4,4 L / 2,19 L per 100 km, flagged as an estimate; no NVX consumption quoted (not seen). Licence: Law 36/2024/QH15 A above 125 cm3 (chinhphu portal, seen in search result); the Air Blade 125 mentioned only as a different A1 machine. Prices: NVX has no owner row, category range « à titre de repère »; Air Blade row 200 000 / 900 000 / 1 500 000 VND from the owner table with a note that the owner entry does not say whether 125 or 160; exact disclaimer next to the table; no multiplication, no claim that either is cheaper. Passenger seat length, max load, rack fitment, authorised riding zone and availability: phrased as things to check/ask.",
+   "INTENT": "Main question: which of the two scooters for longer outings with a passenger and luggage. DISTINCT_ANGLE of group CMP-AIRBLADE160-NVX155; group owner honda/honda-air-blade-160-ou-yamaha-nvx-155-location/ linked once from the criteria section with a natural anchor, and the general urban comparison explicitly left to it. Differs from honda/honda-air-blade-125-ou-yamaha-nvx-location (urban 125 comparison) and types-motos/yamaha-nvx-ou-honda-air-blade-location-vietnam by centring tank/consumption, passenger and luggage checks, weight loaded and mountain limits.",
+   "CONTENT": "Full rewrite. Sections: criteria for leaving Hanoi, side-by-side spec table, tank/consumption/pump rhythm, passenger and luggage checklist, comfort and fatigue, roads (no engine braking), budget table with exact disclaimer, decision table, FAQ (5). Removed the three-question prose and the counter-side mirror text. Words 1648 -> 1663.",
+   "META": "Title changed from « Yamaha NVX ou Honda Air Blade 160 : quel scooter louer à Hanoi ? » to « Yamaha NVX ou Honda Air Blade 160 : longues sorties à deux » (58 chars) to carry the distinct angle; description 157 chars; H1 changed to « NVX ou Air Blade 160 : quel scooter pour les longues sorties à deux ? » (the yamaha hub anchor still reads « quel scooter automatique louer ? »; the matrix/hub text can be synced by the coordinator); eyebrow « NVX ou Air Blade 160 · longues sorties »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-air-blade-160-location-hanoi/, /honda/honda-air-blade-160-ou-yamaha-nvx-155-location/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-nvx-prix-location-hanoi/, /yamaha/yamaha-nvx-vietnam-voyage-moto/. Kept the three required targets; added the group owner /honda/honda-air-blade-160-ou-yamaha-nvx-155-location/, /honda/honda-air-blade-160-location-hanoi/, /yamaha/yamaha-nvx-prix-location-hanoi/, /yamaha/yamaha-nvx-vietnam-voyage-moto/; removed /yamaha/yamaha-nvx-location-hanoi/ to stay within the cap.",
+   "AEO_GEO": "Direct answer in the lead with the deciding figures; two tables of manufacturer data and owner prices, one decision table, two checklists; FAQ of 5 (autonomie, passager, bagages, permis, Ha Giang); 4 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NVX 155 VVA ABS seat 790 mm, 125 kg, tank 5,5 L, 25 L storage (24,5 L elsewhere), ground clearance 145 mm"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Air Blade 160 seat 775 mm, tank 4,4 L, 23,2 L storage, 113 kg"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-2025",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Air Blade 160 114 kg, clearance 142 mm, 156,9 cm3, 2,19 L/100 km"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the owner's « Air Blade » price row is the 125 or the 160",
+   "Whether a NVX or an Air Blade 160 is offered; rack/top-case fitment, max load and authorised riding zone for outings"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-nvx-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Combien coûte la location d’un Yamaha NVX à Hanoi, et comment lire/comparer le prix ?",
+  "new_meta": {
+   "title": "Prix de location du Yamaha NVX à Hanoi : repères et questions",
+   "description": "Aucun tarif propre au Yamaha NVX n’est publié : repère de la catégorie scooter automatique, lignes Vision et Air Blade, et ce qui fait varier un devis.",
+   "h1": "Combien coûte la location d’un Yamaha NVX à Hanoi ?"
+  },
+  "words_before": 1507,
+  "words_after": 1519,
+  "evidence": {
+   "FACTS": "Removed the « structure des grilles vietnamiennes… cette page apprend à lire » framing, the stacked inclusion list (casques, couverture et franchise, assistance, kilométrage, dépôt en espèces ou bloqué) and the repeated « situer le tarif » paragraphs. Prices: no NVX owner row; only the automatic-scooter category range (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) « à titre de repère » with the exact disclaimer; Vision and Air Blade owner rows (200 000 / 1 000 000 / 2 000 000 and 200 000 / 900 000 / 1 500 000) shown only as comparison lines for other models, with an explicit statement that they say nothing about the NVX and that the owner Air Blade entry does not say 125 or 160. No multiplication, package, discount or conversion. NVX facts only from the Yamaha 155 VVA ABS page seen in search results (ABS, smart key, phone charging socket, tank 5,5 L; Janus 125 tank 4,2 L from the Yamaha Janus page seen in search results); no consumption quoted (not seen). Licence A above 125 cm3 per Law 36/2024/QH15 (chinhphu portal, seen in search result). Season adjustments, casques, deposit/document, early return, extension, replacement machine, availability: phrased as market observations or questions, never as shop policy.",
+   "INTENT": "Main question: combien coûte louer un NVX à Hanoi. OWNER of « combien coûte la location d’un Yamaha NVX à Hanoi ». Differs from yamaha-nmax-prix-location-hanoi (duration formulas for a larger scooter) and yamaha-nvx-location-hanoi (profile) by showing the Vision/Air Blade lines as comparison points, factors that move a NVX quote, fuel as a separate cost and a quote-comparison checklist.",
+   "CONTENT": "Full rewrite. Sections: category range table, Vision/Air Blade comparison table, factors that move a quote (checklist), stay-to-formula table, fuel, comparing two quotes (checklist), how to ask (NAP), FAQ (5). Removed abstract « paliers/périmètre » prose. Words 1507 -> 1519.",
+   "META": "Title « Prix de location du Yamaha NVX à Hanoi : repères et questions » (61 chars; no promise of an exact amount); description 151 chars; H1 kept; eyebrow « Yamaha NVX · budget »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-air-blade-160-prix-location-hanoi/, /prix-location/, /prix-location/mois/, /prix-location/semaine/, /types-motos/, /yamaha/, /yamaha/yamaha-nvx-location-hanoi/. Kept /prix-location/ and the required hub links; replaced /prix-location/jour/ with /prix-location/semaine/; kept /prix-location/mois/ and /yamaha/yamaha-nvx-location-hanoi/; added /honda/honda-air-blade-160-prix-location-hanoi/.",
+   "AEO_GEO": "Direct answer and exact disclaimer in the lead; three tables (category range, comparison lines, stay-to-formula); two checklists; FAQ of 5 (prix, vs Vision, mois depuis jour, casques, disponibilité); 2 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NVX 155 VVA ABS tank 5,5 L, ABS, smart key, phone charging socket"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus 125 tank 4,2 L (reference for the fuel paragraph)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly price for a NVX",
+   "Seasonal pricing, deposit/ID document, helmets included, early return/extension rules, replacement machine for monthly rentals (all asked, none stated)",
+   "Whether the owner's Air Blade row is 125 or 160"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-nvx-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut le Yamaha NVX sur les routes de montagne du Vietnam (montées, descentes, bagages, météo) ?",
+  "new_meta": {
+   "title": "Yamaha NVX et routes de montagne : montées, descentes, limites",
+   "description": "Le Yamaha NVX 155 sur les routes de montagne du Vietnam : montées, descentes sans frein moteur, bagages, pluie, et quand préférer une semi-automatique.",
+   "h1": "Yamaha NVX et routes de montagne : que vaut-il pour un road trip au Vietnam ?"
+  },
+  "words_before": 1839,
+  "words_after": 1544,
+  "evidence": {
+   "FACTS": "Removed the « terrain d’abord » essay, the stacked « périmètre de la formule : casques, assistance, kilométrage, dépôt » line, and unsupported statements about suspension/comfort. NVX facts only from the Yamaha NVX 155 VVA ABS page seen in search results on 2026-10-30 (155 cm3, liquid cooling, electronic injection, VVA, ABS, tank 5,5 L, storage about 25 L, seat 790 mm, ground clearance 145 mm, 125 kg); Janus 125 tank 4,2 L as reference. Effects stated as general reasoning (liquid cooling for heat, injection adjusting to altitude, no engine braking on automatic scooters, ABS does not shorten stopping distance on gravel). Ha Giang: « des voyageurs le font » kept consistent with the Yamaha hub, no distance, time, road-condition or closure claim. Licence: Law 36/2024/QH15, A above 125 cm3 (chinhphu portal, seen in search result), foreign licence left to the reader. Breakdown contact, spare key, authorised riding zone, availability: phrased as questions. No price quoted.",
+   "INTENT": "Main question: le NVX est-il adapté aux routes de montagne d’un road trip. OWNER of « yamaha NVX et routes de montagne ». Differs from types-motos/yamaha-nvx-ou-nmax-vietnam-voyage-moto (NVX vs NMAX), yamaha-nmax-vietnam-voyage-moto (NMAX limits) and yamaha-nvx-ou-honda-air-blade-160-location (long outings with passenger) by treating climbs/descents/hairpins/weather for the NVX with a situation table and the semi-automatic alternative.",
+   "CONTENT": "Full rewrite. Sections: what mountain roads demand, what the NVX brings (checklist), situation table, which routes it holds/does not, weather/fog/night (new), long day in the saddle (checklist), pre-departure checklist with NAP, FAQ (5). Removed the abstract section titles and the « road trips où il tient — et ceux qui le dépassent » prose. Words 1839 -> 1544.",
+   "META": "Title « Yamaha NVX et routes de montagne : montées, descentes, limites » (≈60 chars); description 151 chars; H1 kept; eyebrow « Yamaha NVX · montagne »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-nvx-location-hanoi/. Kept /yamaha/yamaha-nvx-location-hanoi/, /types-motos/, /prix-location/, /yamaha/; replaced /hanoi/excursions-moto/, /types-motos/trail/ and /yamaha/yamaha-nvx-hanoi-ville/ with /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/ and /yamaha/semi-automatiques/ (the practical alternative).",
+   "AEO_GEO": "Direct answer in the lead (power vs no engine braking, semi-automatic alternative); one situation table; three checklists; FAQ of 5 (Ha Giang, puissance, descente, pistes, permis); 2 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/nvx-155-vva-abs-mau-hoan-toan-moi-bbn7/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: NVX 155 VVA ABS 155 cm3 liquid-cooled, fuel injection, VVA, ABS, tank 5,5 L, 25 L storage, seat 790 mm, ground clearance 145 mm, 125 kg"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-tieu-chuan-hoan-toan-bj7p/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Janus 125 tank 4,2 L (reference)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Authorised riding zone for rented machines, breakdown contact outside Hanoi, availability of a NVX"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-pg-1-abs-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit le Yamaha PG-1 ABS dans la circulation de Hanoi (boîte sans levier, gabarit, limites) ?",
+  "new_meta": {
+   "title": "Yamaha PG-1 ABS en ville à Hanoi : conduite et limites",
+   "description": "Le Yamaha PG-1 ABS dans Hanoi : selle à 795 mm, 109 kg, boîte sans levier d’embrayage, ABS avant. Carrefours, ruelles, stationnement et limites.",
+   "h1": "Yamaha PG-1 ABS : la conduite en ville à Hanoi"
+  },
+  "words_before": 1549,
+  "words_after": 1513,
+  "evidence": {
+   "FACTS": "Specs only from Yamaha Motor Vietnam PG-1 pages seen in search results on 2026-10-30: 113,7 cm3 air-cooled, wet automatic centrifugal multi-plate clutch, seat 795 mm, minimum ground clearance 190 mm, tank 5,1 L, 109 kg (ABS limited version) / 107 kg (standard), wheelbase 1 280 mm, ABS version with front disc and rear drum, standard version front disc without ABS mention; gearbox with four gears is stated in Yamaha editorial/review pages rather than the spec table (not repeated as a number in the body); some articles quote 115 cm3 (flagged in evidence only). Rear rack sold as an accessory (Yamaha parts catalogue seen in search result), fitment on the rented machine phrased as a question. Licence: Law 36/2024/QH15, A1 up to 125 cm3 (chinhphu portal, seen in search result), foreign licence left to the reader. No price quoted (PG-1: no published price per batch rules; none on the page). Passenger seat details not found, so none claimed. Availability and breakdown number phrased as unconfirmed. Gear-shifting advice (neutral between gears, do not coast in neutral) is general semi-automatic practice consistent with the Yamaha semi-automatiques hub.",
+   "INTENT": "Main question: comment se conduit le PG-1 ABS en ville à Hanoi. OWNER of « yamaha PG-1 ABS en ville ». Differs from yamaha-pg-1-abs-location-hanoi (profile/for whom, closest 0.44 sibling yamaha-neo-s-hanoi-ville) by the urban handling figures, the gear-shift gestures for a first-timer and a pre-start check of chain, selector, brakes.",
+   "CONTENT": "Full rewrite. Sections: figures-to-consequences table, gesture checklist for the box, strengths, limits (checklist), programme table, five-minute check (new: chain, selector, ABS lamp, tyres), permit/price/booking with NAP, FAQ (5). Words 1549 -> 1513.",
+   "META": "Title « Yamaha PG-1 ABS en ville à Hanoi : conduite et limites » (54 chars); description 144 chars; H1 shortened to « Yamaha PG-1 ABS : la conduite en ville à Hanoi » (already the title shown in the hub); eyebrow « Yamaha PG-1 ABS · en ville »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/securite/, /prix-location/, /types-motos/, /types-motos/semi-automatique/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-pg-1-abs-location-hanoi/. Kept the three required targets and /yamaha/yamaha-pg-1-abs-location-hanoi/; added /yamaha/semi-automatiques/, /types-motos/semi-automatique/ and /permis-securite/securite/.",
+   "AEO_GEO": "Direct answer in the lead with the key figures and the honest limits; one specification table, one programme table, three checklists; FAQ of 5 (facilité, calage, petite taille, bagages, permis); 4 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 ABS seat 795 mm, minimum clearance 190 mm, tank 5,1 L, 109 kg, wheelbase 1 280 mm, front disc with ABS and rear drum, 113,7 cm3, centrifugal clutch"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-phien-ban-tieu-chuan-vanh-den-bns2-3/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 standard 107 kg, single front disc"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/phu-tung/bo-baga-pg-1/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title): rear luggage rack sold as a PG-1 accessory"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a PG-1 (ABS or standard) is offered and its price",
+   "Whether rented PG-1 are fitted with a rear rack; breakdown number"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-pg-1-abs-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Pour quel voyageur le Yamaha PG-1 ABS en location à Hanoi convient-il, et pour qui pas ?",
+  "new_meta": {
+   "title": "Louer un Yamaha PG-1 ABS à Hanoi : pour quel voyageur ?",
+   "description": "Le Yamaha PG-1 ABS en location à Hanoi : un look de petite trail sans levier d’embrayage. Pour qui il convient, ses limites et les vérifications avant de louer.",
+   "h1": "Yamaha PG-1 ABS en location à Hanoi : pour qui ?"
+  },
+  "words_before": 1570,
+  "words_after": 1584,
+  "evidence": {
+   "FACTS": "Removed « la méthode reste celle de toute la plateforme : aucune disponibilité garantie, aucun chiffre technique inventé », the stacked contract line (durée, caution, kilométrage, équipements inclus) and the « porte d’entrée vers la boîte » mannerisms. Specs only from Yamaha Motor Vietnam PG-1 pages seen in search results on 2026-10-30: 113,7 cm3 air-cooled, centrifugal automatic clutch, seat 795 mm, minimum ground clearance 190 mm, 109 kg (ABS version) / 107 kg (standard), ABS version front disc with ABS and rear drum, standard version without ABS mention; four gears stated in the lead as in Yamaha review pages (spec table does not list a gear count; some articles quote 115 cm3). Rear rack sold as accessory (Yamaha parts page seen in search result). Licence: Law 36/2024/QH15, A1 up to 125 cm3 (chinhphu portal, seen in search result), foreign licence left to the reader. No price quoted: the PG-1 has no owner row and the batch rule is no published price. Frein-moteur/chain/learning points are general semi-automatic practice consistent with the Yamaha semi-automatiques hub. Availability, authorised riding zone, maintenance/replacement for monthly rentals: phrased as questions. NAP and hours per SEO-FACTS.",
+   "INTENT": "Main question: pour qui le PG-1 ABS en location. OWNER of « yamaha PG-1 ABS en location à Hanoi ». Differs from yamaha-pg-1-abs-prix-location-hanoi (price), -hanoi-ville (urban handling) and -vietnam-voyage-moto (mountain) by profiling riders, listing anti-profiles with alternatives, answering « vraie trail ? » and comparing a semi-automatic with a scooter.",
+   "CONTENT": "Full rewrite. Sections: fiche table, riders served (checklist), anti-profile table with alternatives, « vraie trail ? », semi-automatic vs scooter (new), rental duration (new), trips from Long Biên (new), inspection checklist, permit/price/booking with NAP, FAQ (5). Words 1570 -> 1584.",
+   "META": "Title « Louer un Yamaha PG-1 ABS à Hanoi : pour quel voyageur ? » (55 chars); description 160 chars; H1 kept; eyebrow « Yamaha PG-1 ABS · pour qui ? »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-pg-1-abs-hanoi-ville/, /yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/, /yamaha/yamaha-pg-1-abs-prix-location-hanoi/, /yamaha/yamaha-pg-1-abs-vietnam-voyage-moto/. Kept the three required targets; added /yamaha/yamaha-pg-1-abs-prix-location-hanoi/, /yamaha/yamaha-pg-1-abs-hanoi-ville/, /yamaha/yamaha-pg-1-abs-vietnam-voyage-moto/, /yamaha/yamaha-pg-1-abs-ou-honda-super-cub-c125-location/.",
+   "AEO_GEO": "Direct answer in the lead (what it is, for whom, not for whom, no published price); fiche and alternatives tables, three checklists; FAQ of 5 (levier, tout-terrain, PG-1 vs PG-1 ABS, permis, disponibilité); 3 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 ABS seat 795 mm, clearance 190 mm, 109 kg, front disc with ABS, rear drum, 113,7 cm3, centrifugal clutch"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-phien-ban-tieu-chuan-vanh-den-bns2-3/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 standard 107 kg, front disc, no ABS mention"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/phu-tung/bo-baga-pg-1/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title): rear luggage rack sold as PG-1 accessory"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a PG-1 (ABS or standard) is offered and at what price",
+   "Authorised riding zone, maintenance and replacement for monthly rentals, rack fitment (asked, not stated)"
+  ]
  }
 ]
