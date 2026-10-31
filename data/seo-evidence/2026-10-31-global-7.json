@@ -1,0 +1,7 @@
+[
+ {
+  "task": "G18",
+  "status": "BLOCKED_TOOL",
+  "evidence": "2026-10-31 17:10 UTC retry: Figma accepted 2 calls — pending nodes 21:2 (courte-durée) and 22:2 (rental pillar) retrieved, inspected and ingested (tools/seo-art/figma-batch.mjs ingest-tsv, no grain needed: q98/q92), alts written from the pixels, srcset derivatives regenerated → 20/547 photographic. The Starter-plan tool-call limit then refused nodes 23:2 and 24:2 again. 527 valid vector illustrations stay integrated; no paid plan or API key requested; no retry loop (next attempt on a later « tiếp tục »)."
+ }
+]

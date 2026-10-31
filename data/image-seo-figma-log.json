@@ -120,14 +120,26 @@
    "blurred_marks": 0,
    "model": "gemini-3.1-flash-lite-image",
    "bytes_q": "205550 92"
+  },
+  "IMG-location-moto-hanoi-courte-duree": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "21:2",
+   "blurred_marks": 0,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "170754 98"
+  },
+  "IMG-location-moto-hanoi": {
+   "figma_file": "ADjYMc8iK0NclWtULInpOu",
+   "node": "22:2",
+   "blurred_marks": 2,
+   "model": "gemini-3.1-flash-lite-image",
+   "bytes_q": "218036 92"
   }
  },
  "pending_retrieval": {
   "file": "ADjYMc8iK0NclWtULInpOu",
-  "note": "Generated in Figma on 2026-10-28; full-resolution retrieval blocked since then by the Figma Starter-plan MCP tool-call limit (still blocked 2026-10-29). Retrieve with get_screenshot (maxDimension 1376, enableBase64Response) when the limit resets, then inspect and ingest.",
+  "note": "Generated in Figma on 2026-10-28; full-resolution retrieval blocked since then by the Figma Starter-plan MCP tool-call limit (still blocked 2026-10-29). Retrieve with get_screenshot (maxDimension 1376, enableBase64Response) when the limit resets, then inspect and ingest. 2026-10-31 17:10 UTC: 21:2 and 22:2 retrieved and ingested; 23:2 and 24:2 refused again by the Starter-plan limit after 2 calls.",
   "nodes": {
-   "21:2": "IMG-location-moto-hanoi-courte-duree",
-   "22:2": "IMG-location-moto-hanoi",
    "23:2": "IMG-location-moto-hanoi-longue-duree",
    "24:2": "IMG-location-moto-hanoi-quartiers"
   }
@@ -139,6 +151,9 @@
    "Adobe MCP: server failed to connect; its tools only edit existing images, no text-to-image.",
    "Container network cannot reach figma.com, base44.app or canva.com, so image URLs cannot be downloaded directly; only inline MCP responses work.",
    "16:35 UTC retry (SEO master G18): Figma MCP get_screenshot of pending node 21:2 refused again — Starter-plan tool-call limit. No further retry loop; vectors stay integrated; no paid plan requested."
+  ],
+  "2026-10-31": [
+   "17:10 UTC: Figma MCP accepted 2 get_screenshot calls (nodes 21:2, 22:2 ingested → 20/547 photographic), then the Starter-plan tool-call limit refused 23:2 and 24:2. No retry loop; vectors stay integrated; no paid plan requested."
   ]
  }
 }

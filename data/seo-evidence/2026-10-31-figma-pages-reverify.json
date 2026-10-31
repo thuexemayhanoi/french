@@ -1,0 +1,76 @@
+[
+{
+"path": "location-moto-hanoi/courte-duree/index.html",
+"checks": {
+"FACTS": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-A-rental-pricing.json): Owner NAP (Thuê xe máy Nguyễn Hà, Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm), 0334 699 969 / tel:+84334699969 / Zalo / WhatsApp, 09:00–21:00 daily) and owner price rows used verbatim with the exact disclaimer next to the table; no deposit amount, passport rule, delivery promise, insurance, assistance, stock, discount, refund, payment method or exchange rate stated; deposit/delivery each qualified once as \"non publié / à confirmer\"; no package derived by multiplying a day rate; electric day price kept as \"selon le modèle\". seo_page_check: no money_not_in_owner_table, no seo_process_language, no paragraph_duplicated_elsewhere, no mannered phrasing; remaining review hits are qualified questions or guide-list anchors (incl. false positives \"précautions\"→caution, \"permise\"→permis). Day + week columns (6 full rows)."
+},
+"INTENT": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-A-rental-pricing.json): primary intent: organiser une location de 1 jour à ~2 semaines à Hanoi (heures, jour compté, ligne jour/semaine, véhicule, retrait/contrôle à Long Biên); owner URL /location-moto-hanoi/courte-duree/; distinct from /prix-location/jour/ because it covers organisation (start/end times, extension, early return, vehicle per programme, pickup logistics, inspection, questions, short trips) while price reading/comparison lives on /prix-location/jour/."
+},
+"CONTENT": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-A-rental-pricing.json): All template filler replaced. Sections: essentiel avant de réserver; heure de début/fin et jour compté (24 h vs calendaire, worked question, arrival/departure cases, Bến xe Gia Lâm return, extension/early return); tableau jour+semaine + reading rules; choix du véhicule (transmission, programme, 50cc/électrique caveats, 5-row decision table); retrait à Long Biên (address, how to come, what to bring, deposit asked once, delivery only as a question, first metres); contrôle au retrait checklist (8 points); 7 questions à poser; sorties Bat Trang/Ba Vi/Duong Lam/Ninh Binh without fixed times; FAQ 6; guide list; contact. ~2,100 words excluding the guide list. No external source needed."
+},
+"META": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-A-rental-pricing.json): Title 59 chars, description 144 chars, og:title/og:description identical; H1 unchanged; old title/meta promised \"prix, dépôt\" — new meta promises only organisation content delivered. Built check: Unique title (59 chars) and description (144 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged."
+},
+"LINKS": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-A-rental-pricing.json): Required links kept in body: /location-moto-hanoi/longue-duree/, /prix-location/jour/, /hanoi/, /nord-vietnam/ninh-binh/. Parent /location-moto-hanoi/ and siblings /location-moto-hanoi/quartiers/, /prix-location/semaine/ in text; guide list (h3 groups: durée; réserver/retirer/rendre; profil; sorties; saisons/imprévus; prix et garantie) links 42 child articles (incl. the experienced-rider article, so every /location-moto-hanoi/ child appears on at least one of the three sub-hubs). Built check: 11 source-body incoming links (e.g. hanoi/index.html, index.html, location-moto-hanoi/choisir-location-moto-hanoi/index.html); 66 built pages link here incl. navigation; BreadcrumbList rendered; 51 unique internal body links, none broken."
+},
+"AEO_GEO": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-A-rental-pricing.json): Direct answer in lead (4 points to settle), question-form FAQ, decision table by programme, quoted example question for the counted day, checklists usable as extractable steps; local entities: Long Biên, Bồ Đề, Bến xe Gia Lâm, Nguyễn Văn Cừ, Vieux Quartier, Hoàn Kiếm, Ninh Binh."
+},
+"UX_CRO": {
+"status": "DONE",
+"evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 0 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS)."
+},
+"LIVE_VERIFY": {
+"status": "BLOCKED_TOOL",
+"evidence": "Live per-URL verification not possible from this session (2026-10-31): direct HTTP to fr.rentbikehanoi.com is refused by the session network policy (proxy 403, WebFetch ENOTFOUND), Firecrawl has no credits, and TinyFish fetch_content permission was denied for background use after a single successful main-thread check on 2026-10-29 (home, /location-moto-hanoi/, /honda/ served the then-current titles, canonicals and og images). Publication evidence instead: GitHub Actions QA, Local Chat Index, Shared Site Publish and pages-build-and-deployment runs succeeded for every pushed batch (see docs/SEO-FINAL-REPORT.md). Indexing, ranking and field CWV not inferred."
+}
+}
+},
+{
+"path": "location-moto-hanoi/index.html",
+"checks": {
+"FACTS": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-pillar.json): Template filler removed. Uses only confirmed NAP (Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, near Bến xe Gia Lâm; 09:00–21:00 daily; 0334 699 969 / +84 334 699 969 tel/Zalo/WhatsApp) and owner price facts (150 000–200 000 VND/day semi-auto and scooter; own rows for 50cc, Vision, Air Blade; electric day rate 'selon le modèle'; weekly/monthly not derived from day rate) with the exact disclaimer. Deposit amount, passport retention, delivery, assistance, insurance, availability explicitly not promised (O01/O02/O05). General road facts limited to helmet obligation, zero alcohol, motorbikes not allowed on expressways (cao tốc) and licence category depending on vehicle/IDP convention — no thresholds or fines stated here; detailed rules deferred to /permis-securite/ (G13)."
+},
+"INTENT": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-pillar.json): Primary intent: step-by-step guide to preparing a motorbike rental in Hanoi (keyword seed 'guide location moto hanoi'). The homepage owns the broad commercial query 'location moto hanoi' (rates + contact); this pillar covers process and choices and links to the homepage once. Distinct from /location-moto-hanoi/courte-duree/ and /longue-duree/ (duration-specific), /prix-location/ (rate comparison) and /types-motos/ (vehicle comparison), which it summarises and links."
+},
+"CONTENT": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-pillar.json): Rewritten 2026-10-29: 7-step overview (ordered list), duration table, vehicle-category comparison table, licence check, price coverage, booking request checklist, pickup at Long Biên, 8-point inspection checklist, breakdown/extension/return, Hanoi vs northern trips, common mistakes, 6 FAQ, full grouped index of the 59 rental guides (7 sub-topics). ~2,660 words (QA count) incl. guide list; no SEO-process language, no duplicated paragraph (tools/seo_page_check.py)."
+},
+"META": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-pillar.json): Title changed from 'Location moto Hanoi | Scooter, 50cc & longue durée' (competed with homepage) to a guide-intent title (51 chars); meta 145 chars; H1 'Louer une moto à Hanoi : le guide étape par étape'; og:title/og:description identical; cluster matrix synced via tools/sync_foundation_meta.py. Built check: Unique title (51 chars) and description (145 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged."
+},
+"LINKS": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-pillar.json): Body links: homepage, courte-duree, longue-duree, quartiers, types-motos, honda, yamaha, permis-securite, prix-location, contact, nord-vietnam, hanoi + all 59 child articles of the rental silo (grouped guide-list) — fixes their missing editorial inlink; required links /location-moto-hanoi/courte-duree/, /longue-duree/, /quartiers/, /types-motos/, /prix-location/ present. Built check: 267 source-body incoming links (e.g. a-propos/index.html, blog/index.html, centre-sud-vietnam/index.html); 542 built pages link here incl. navigation; BreadcrumbList rendered; 71 unique internal body links, none broken."
+},
+"AEO_GEO": {
+"status": "DONE",
+"evidence": "Reviewed 2026-10-29 (2026-10-29-pillar.json): Direct answer in the first section (7 steps in two sentences + ordered list); comparison tables (duration, vehicle category); checklists (request, inspection, mistakes); 6 concise FAQ answers; no FAQ rich-result promise; unstable legal facts deferred to the sourced permis hub."
+},
+"UX_CRO": {
+"status": "DONE",
+"evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 0 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS)."
+},
+"LIVE_VERIFY": {
+"status": "BLOCKED_TOOL",
+"evidence": "Live per-URL verification not possible from this session (2026-10-31): direct HTTP to fr.rentbikehanoi.com is refused by the session network policy (proxy 403, WebFetch ENOTFOUND), Firecrawl has no credits, and TinyFish fetch_content permission was denied for background use after a single successful main-thread check on 2026-10-29 (home, /location-moto-hanoi/, /honda/ served the then-current titles, canonicals and og images). Publication evidence instead: GitHub Actions QA, Local Chat Index, Shared Site Publish and pages-build-and-deployment runs succeeded for every pushed batch (see docs/SEO-FINAL-REPORT.md). Indexing, ranking and field CWV not inferred."
+}
+}
+}
+]

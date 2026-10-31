@@ -6,7 +6,7 @@ This is a work plan, not a claim that SEO implementation is complete.
 
 - Existing indexable URLs: **543** (500 articles + 43 foundation URLs including homepage).
 - Protected legacy redirects: **4**.
-- Image inventory: **547** mapped assets; **18** Figma upgrades and **529** other retained assets (from the current component log; actual bytes/integration need image checks).
+- Image inventory: **547** mapped assets; **20** Figma upgrades and **527** other retained assets (from the current component log; actual bytes/integration need image checks).
 - Source of truth: `data/seo-master-matrix.json`; CSV is a regenerated view, never a competing ledger.
 
 ## Work states

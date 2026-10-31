@@ -126,7 +126,7 @@ All evidence is recorded per URL and per dimension in the ledger. The underlying
 
 | Item | Status | Reason (real attempts) | Effect |
 | --- | --- | --- | --- |
-| G18 photographic image replacement | BLOCKED_TOOL, 18/547 | Figma MCP Starter-plan call limit (retry 2026-10-29 16:35 UTC refused); Canva credits exhausted | 529 valid vector illustrations stay in place; 4 generated Figma nodes still await retrieval |
+| G18 photographic image replacement | BLOCKED_TOOL, 20/547 | Figma MCP Starter-plan call limit (2026-10-29 refused; 2026-10-31 two calls accepted then refused); Canva credits exhausted | 527 valid vector illustrations stay in place; 2 generated Figma nodes (23:2, 24:2) still await retrieval |
 | G26 search / AI visibility measurement | BLOCKED_TOOL | OpenRush HTTP 402 (no credits), Firecrawl out of credits, no GSC/GA4 access | No rankings, impressions, clicks or AI citations reported |
 | LIVE_VERIFY on 543 URLs | BLOCKED_TOOL | Session network policy blocks fr.rentbikehanoi.com (proxy 403, WebFetch ENOTFOUND); TinyFish fetch permission denied for background use after one main-thread check (home, /location-moto-hanoi/, /honda/ on 2026-10-29) | Publication proven by GitHub Actions runs (§5), not by per-URL live fetches |
 | External citation reachability | Partial | 10 of the 153 cited URLs (as of 2026-10-30) fetched OK; fetch permission then denied | Other citations are URLs seen in search results, marked as such in the evidence; re-check when page fetching is allowed |
