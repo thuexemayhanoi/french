@@ -1,0 +1,82 @@
+[
+ {
+  "path": "nord-vietnam/ba-be-lac-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment aller au lac de Ba Be à moto depuis Hanoi et que faire sur place (route, jours, bateau, homestay, précautions)",
+  "words_before": 1810,
+  "words_after": 1793,
+  "new_meta": {
+   "title": "Le lac de Ba Be à moto : route, croisière et villages tày",
+   "description": "Le lac de Ba Be à moto depuis Hanoi : distance, route par la QL3 sans autoroute, jours à prévoir, croisière, nuit en homestay et précautions de saison.",
+   "h1": "Le lac de Ba Be à moto : route, croisière et villages tày"
+  },
+  "evidence": {
+   "FACTS": "Distance Hanoi–Ba Bể 'environ 240 km (230-250 selon source)' and Bắc Kạn–lac ~70 km: seen in search result (aggregated snippets: pickyourtrail, vietnamparadisetravel, 12go, UNESCO tentative list page; per-URL attribution uncertain, phrased as 'selon la plupart des guides'). 'Plus grand lac naturel d'eau douce' phrased as 'plusieurs guides le présentent' (seen in search result). QL3 via Thái Nguyên–Bắc Kạn, first part easier, last part narrower: seen in search result (localvietnam / vietnamtourism snippets), no driving time stated. Ba Bể now in Thái Nguyên (ex-Bắc Kạn, 1 Jul 2025): route digest §1/§6 (Tuổi Trẻ). Expressway ban: Law 36/2024/QH15 art. 25(3), link from digest (luatvietnam English translation), digest §1 / legal digest 1.20. Road rules paragraph (headlight 18:00-06:00, helmet, zero alcohol, phone, one passenger) = legal digest 1.4, 1.17, 1.21, 1.22, dated 30 Oct 2026. Removed: invented content on bats, fishing nets, legends, weaving workshops, 'tarifs se discutent de bonne foi', and unsourced claims (une journée suffit, 'oui' in FAQ). No shop policy asserted: only advice to ask the rental shop whether the bike may leave Hanoi and whether papers are handed over. No price, no fleet claim. NAP/hours as in SEO-FACTS.",
+   "INTENT": "Main question: how to reach and visit Ba Be lake by motorbike from Hanoi. OWNER of 'le lac de Ba Be à moto'. Differs from /nord-vietnam/hanoi-ba-be-itineraire-moto/ (itinerary-focused, linked once for the stage-by-stage route) and /nord-vietnam/thac-ba-lac-voyage-moto/ (another lake, Yên Bái).",
+   "CONTENT": "Full rewrite: removed mannered prose ('la voie calme', 'deux nuits valent tous les kilomètres du monde'), repetitive logistics paragraphs and filler FAQ. New: repères table, QL3/expressway section, 3-day table without driving times, lake section, homestay checklist, Cao Bằng extension, season/road-rule section, moto/licence section, 5 non-redundant FAQ. 1810 -> 1793 words.",
+   "META": "Title, description, H1 rewritten (plain French, 57/151 chars, query 'le lac de Ba Be à moto' kept); og:title/og:description identical. Eyebrow shortened.",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/hanoi-ba-be-itineraire-moto/, /nord-vietnam/cao-bang-voyage-moto/, /permis-securite/permis/, /location-moto-hanoi/ = 7/7 unique. Dropped /nord-vietnam/meilleur-moto-cao-bang/ to stay within the cap.",
+   "AEO_GEO": "Lead answers directly (distance, days, route, bike). Repères table + 3-day table + homestay checklist. FAQ: 5 questions (Ba Be in a day, province name after merger, boat booking, night riding, Ba Be+Cao Bằng). Inline citation of Law 36/2024/QH15 art. 25(3)."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "motorbikes banned from expressways, art. 25(3) (retrieved per G-route-digest)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Bắc Kạn merged into Thái Nguyên from 1 Jul 2025 (digest, not cited inline)"
+   },
+   {
+    "url": "https://pickyourtrail.com/attractions/vietnam/ba-be-national-park",
+    "checked": "2026-10-31",
+    "used_for": "Hanoi–Ba Bể ~240 km range (seen in search result; not opened, not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Can the rented bike leave Hanoi / travel to Ba Bể, and what assistance exists in case of breakdown (unconfirmed shop policy, not asserted)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/bac-kan-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Bắc Kạn à moto : que représente Bắc Kạn sur un itinéraire (étape QL3 vers Cao Bằng, base pour Ba Be), nom actuel, route, nuits",
+  "words_before": 1906,
+  "words_after": 1597,
+  "new_meta": {
+   "title": "Bắc Kạn à moto : étape sur la QL3 et base pour Ba Be",
+   "description": "Bắc Kạn à moto depuis Hanoi : une ville-étape sur la QL3 vers Cao Bằng et le lac de Ba Be. Nom actuel, routes sans autoroute, nuits et précautions.",
+   "h1": "Bắc Kạn à moto : étape sur la QL3 et base pour Ba Be"
+  },
+  "evidence": {
+   "FACTS": "Merger Bắc Kạn -> Thái Nguyên (1 Jul 2025, commune boundaries redrawn): route digest §1/§6, Tuổi Trẻ link (retrieved). Expressway ban art. 25(3) Law 36/2024/QH15: digest link. Bắc Kạn–Ba Bể ~70 km, Hua Mạ cave a few km from the lake, Sâm Chiêm grassland ~30 km from Bắc Kạn city, 'operators advise splitting Hanoi–Cao Bằng at Bắc Kạn or Ba Bể', QL3 first part easier/last part narrower, Hanoi–Bắc Kạn distance sources range ~124-280 km: all seen in search result (baolau, bookaway, 12go, wayro blog, localvietnam; aggregated snippets, per-URL attribution uncertain); therefore no Hanoi–Bắc Kạn figure printed ('varient du simple au double'), Hua Mạ and Sâm Chiêm flagged 'à vérifier'. Removed unsourced/invented content: Hmong hamlets, bamboo bridges, weekly markets, compulsory forest guides, tea routes, 'garages de moto', 'hôtels de pied d'axe' tariffs, 'matelas au sol', 'la règle du site'. Shop-related: only a checklist of questions to ask; NAP/hours per SEO-FACTS; no price, deposit, insurance, assistance or fleet claim.",
+   "INTENT": "Main question: what is Bắc Kạn on a motorbike trip and how to use it. OWNER of 'bắc Kạn à moto'. Distinct from /nord-vietnam/ba-be-lac-voyage-moto/ (lake itself, linked once), /nord-vietnam/ninh-binh-voyage-moto/ and /nord-vietnam/moc-chau-voyage-moto/ (other regions); angle = stage town + post-merger naming + routing formulas.",
+   "CONTENT": "Full rewrite replacing mannered prose and invented local colour. New: repères table, merger section, 3-formula table, QL3 section with checklist, what to see (with 'à vérifier'), where to sleep checklist, seasons, moto/papiers section, 5 FAQ. 1906 -> 1597 words.",
+   "META": "Title/description/H1 rewritten (52/147 chars). og tags identical. Matrix sync not needed (article).",
+   "LINKS": "/nord-vietnam/ (parent hub), /types-motos/trail/, /permis-securite/securite/ (required), /nord-vietnam/ba-be-lac-voyage-moto/, /nord-vietnam/hanoi-a-cao-bang-moto/, /permis-securite/permis/ = 6/7 unique. Dropped /location-moto-hanoi/ and /permis-securite/moto-montagne-pass-securite-vietnam/ from the original.",
+   "AEO_GEO": "Lead answers directly. Two tables, two checklists, 5-question FAQ, inline citations (Tuổi Trẻ, luatvietnam Law 36/2024 art. 25(3))."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "expressway ban (digest)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Bắc Kạn merged into Thái Nguyên (digest, retrieved)"
+   },
+   {
+    "url": "https://www.bookaway.com/routes/vietnam/hanoi-to-bac-kan",
+    "checked": "2026-10-31",
+    "used_for": "range of Hanoi–Bắc Kạn distances (seen in search result; not cited inline)"
+   }
+  ],
+  "owner_gaps": [
+   "Bike leaving Hanoi / assistance on QL3 (unconfirmed policy, only phrased as questions to ask)."
+  ]
+ }
+]

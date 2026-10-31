@@ -425,5 +425,179 @@
    "Own price for a PG-1 and for a Super Cub C125, if offered",
    "Whether either bike is available; maintenance/replacement rules for long rentals"
   ]
+ },
+ {
+  "path": "yamaha/yamaha-pg-1-abs-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Combien coûte (et comment demander/comparer le prix de) la location d’un Yamaha PG-1 ABS à Hanoi ?",
+  "new_meta": {
+   "title": "Prix de location du Yamaha PG-1 ABS à Hanoi : que savoir ?",
+   "description": "Aucun tarif propre au Yamaha PG-1 ABS n’est publié : ce qui fait varier le prix, comment obtenir un total fiable et quoi comparer avant de réserver.",
+   "h1": "Yamaha PG-1 ABS : le prix de location à Hanoi"
+  },
+  "words_before": 1633,
+  "words_after": 1618,
+  "evidence": {
+   "FACTS": "Removed « comprendre ce qui compose un tarif… repartir avec l’outil mental pour payer le juste prix », the mannered « le deuxième mot est la caution » sequence (deposit amount and form, cash/transfer) and the « méthode » framing. Prices: NONE for the PG-1 (no owner row; batch rule: PG-1 gets no published price, ask). No category range figure is quoted on this page; the reader is sent to /prix-location/ for category references and told that nothing shows the PG-1 sits at the Sirius level. Specs only from Yamaha Motor Vietnam pages seen in search results on 2026-10-30: PG-1 ABS version front disc 245 mm with ABS and rear drum, standard version front disc 220 mm without ABS mention, tank 5,1 L, minimum clearance 190 mm, 113,7 cm3; rear rack sold as an accessory (Yamaha parts page seen in search result). Licence: Law 36/2024/QH15, A1 up to 125 cm3 (chinhphu portal, seen in search result); foreign licence left to the reader. Season adjustments, casques, deposit/document, early return, extension, damage billing, maintenance and replacement on long rentals, availability: phrased as market observations or questions, never as shop policy. The sample message is a template for the reader, with no promise from the shop. NAP and hours per SEO-FACTS.",
+   "INTENT": "Main question: quel prix pour louer un PG-1 ABS et comment l’obtenir. OWNER of « yamaha PG-1 ABS » (price angle). Differs from yamaha-pg-1-abs-location-hanoi (profile), -hanoi-ville and -vietnam-voyage-moto by being the only PG-1 page about quote mechanics: published/not published table, ABS vs standard impact, ancillary costs, budget-equal comparison and a message template.",
+   "CONTENT": "Full rewrite. Sections: published vs to-confirm table, factors that move the quote, ABS vs standard (new), stay-to-formula table, ancillary costs, budget-equal comparison table, written-before-paying checklist, message template with NAP and licence note, FAQ (5). Words 1633 -> 1618.",
+   "META": "Title « Prix de location du Yamaha PG-1 ABS à Hanoi : que savoir ? » (58 chars; promises no amount); description 148 chars; H1 changed to « Yamaha PG-1 ABS : le prix de location à Hanoi » (the hub anchor); eyebrow « Yamaha PG-1 ABS · budget »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /prix-location/mois/, /prix-location/semaine/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-pg-1-abs-location-hanoi/. Kept the three required targets and /yamaha/yamaha-pg-1-abs-location-hanoi/; added /prix-location/semaine/, /prix-location/mois/ and /yamaha/semi-automatiques/.",
+   "AEO_GEO": "Direct answer in the lead (no published tariff, how to get one); three tables, three checklists, copy-ready message template; FAQ of 5 (prix, vs Sirius, mois depuis jour, version ABS, disponibilité); 4 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 ABS front disc 245 mm with ABS, rear drum, tank 5,1 L, clearance 190 mm"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-phien-ban-tieu-chuan-vanh-den-bns2-3/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 standard front disc 220 mm, no ABS mention"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/phu-tung/bo-baga-pg-1/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title): rear luggage rack sold as PG-1 accessory"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly price for a PG-1 (ABS and standard), if the shop offers it",
+   "Whether the ABS version changes the total; season adjustments; deposit/document; early return/extension; damage billing; maintenance and replacement for monthly rentals"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-pg-1-abs-vietnam-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Le Yamaha PG-1 ABS convient-il à un road trip et à la montagne au Vietnam ?",
+  "new_meta": {
+   "title": "Yamaha PG-1 ABS en road trip : montagne et limites au Vietnam",
+   "description": "Le Yamaha PG-1 ABS en road trip au Vietnam : frein moteur dans les descentes, garde au sol de 190 mm, petit moteur de 113,7 cm³, bagages et limites en montagne.",
+   "h1": "Yamaha PG-1 ABS : road trip et montagne au Vietnam ?"
+  },
+  "words_before": 1603,
+  "words_after": 1542,
+  "evidence": {
+   "FACTS": "Removed « la carte du Vietnam fait rêver en grand… la PG-1 rêve en petit », the « règle d’or » framing, « aucune disponibilité garantie, aucun chiffre technique : la méthode, rien que la méthode » and the budget-method paragraph (caution et assistance comprises, forfait). Specs only from the Yamaha Motor Vietnam PG-1 ABS page seen in search results on 2026-10-30 (113,7 cm3 air-cooled, seat 795 mm, minimum clearance 190 mm, 109 kg, tank 5,1 L, front disc with ABS and rear drum, centrifugal clutch); rear rack accessory from the Yamaha parts page (seen in search result). Mountain advice (engine braking by downshifting, never coast in neutral, ABS front only on this version) is general practice consistent with the Yamaha semi-automatiques hub and tied to the stated brake layout. Ha Giang marked « à discuter » with no distance, time or road-condition figure. Licence: Law 36/2024/QH15, A1 up to 125 cm3 (chinhphu portal, seen in search result). No price quoted (PG-1: no published price). Authorised riding zone, breakdown number, rack fitment/max load, availability: phrased as questions.",
+   "INTENT": "Main question: le PG-1 ABS pour un road trip/la montagne. OWNER of « yamaha PG-1 ABS » (road-trip angle). Differs from yamaha-exciter-155-vietnam-voyage-moto and yamaha-nvx-vietnam-voyage-moto (other machines) and from yamaha-pg-1-abs-location-hanoi (profile) by centring engine braking, small-engine limits, terrain table and alternatives.",
+   "CONTENT": "Full rewrite. Sections: figures-to-consequences table, small engine on climbs/fast roads, descents with engine braking (checklist), terrain table, luggage/passenger (checklist), pace/fuel/weather (new), when to choose another machine (new), pre-departure checklist with licence and NAP, FAQ (5). Words 1603 -> 1542.",
+   "META": "Title « Yamaha PG-1 ABS en road trip : montagne et limites au Vietnam » (61 chars); description 160 chars; H1 kept; eyebrow « Yamaha PG-1 ABS · road trip »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /nord-vietnam/ha-giang/, /permis-securite/moto-montagne-pass-securite-vietnam/, /prix-location/, /types-motos/, /yamaha/, /yamaha/trail-aventure/, /yamaha/yamaha-pg-1-abs-location-hanoi/. Kept the three required targets and /yamaha/yamaha-pg-1-abs-location-hanoi/; added /yamaha/trail-aventure/, /nord-vietnam/ha-giang/ and /permis-securite/moto-montagne-pass-securite-vietnam/ (replacing the generic method links).",
+   "AEO_GEO": "Direct answer in the lead (yes/no by terrain); two tables, four checklists; FAQ of 5 (plusieurs jours, Ha Giang, pistes, bagages, permis); 3 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: PG-1 ABS 113,7 cm3, seat 795 mm, clearance 190 mm, 109 kg, tank 5,1 L, front disc with ABS and rear drum"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/phu-tung/bo-baga-pg-1/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title): rear luggage rack sold as PG-1 accessory"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Authorised riding zone for rented machines, breakdown contact outside Hanoi, rack fitment and max load of a rented PG-1",
+   "Own price for a PG-1 and whether one is available"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-sirius-fi-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment se conduit le Yamaha Sirius FI dans Hanoi (ressenti, praticité, limites) ?",
+  "new_meta": {
+   "title": "Conduire un Yamaha Sirius FI dans Hanoi : praticité et limites",
+   "description": "Le Yamaha Sirius FI en ville à Hanoi : 98 kg, selle à 775 mm, injection, boîte sans levier d’embrayage. Démarrages, embouteillages, ruelles et limites.",
+   "h1": "Conduire un Yamaha Sirius FI dans Hanoi : ressenti et praticité"
+  },
+  "words_before": 1683,
+  "words_after": 1524,
+  "evidence": {
+   "FACTS": "Removed the previous mannered « ressenti » prose; no price, no stacked policy lines. Specs only from Yamaha Motor Vietnam Sirius FI pages seen in search results on 2026-10-30: Sirius FI cast-wheel version 113,7 cm3 SOHC air-cooled, electronic fuel injection, 1,65 L/100 km (manufacturer value), tank 4,0 L, dimensions 1 940 x 715 x 1 090 mm, seat 775 mm, clearance 155 mm, 98 kg wet; a drum-brake version also exists (page title). The page notes that older Yamaha documents give other values (115 cm3 in older texts; 2017 FI had a 3,8 L tank) so the reader checks the rented machine. The Sirius (carburettor) disc-brake page values (2,08 L/100 km, 4,2 L) were deliberately NOT used as FI data. Licence: Law 36/2024/QH15, A1 up to 125 cm3 (chinhphu portal, seen in search result). Gear-use advice (first/second in town, no stalling, neutral at long stops) is general semi-automatic practice consistent with the Yamaha semi-automatiques hub. Rack/basket fitment, passenger seat, availability: phrased as questions. Hanoi context limited to Long Biên, bridges over the Red River, Vieux Quartier, Tây Hồ, Ba Đình; no distance or time. No price quoted.",
+   "INTENT": "Main question: comment conduire une Sirius FI dans Hanoi. OWNER of « conduire un Yamaha Sirius FI dans Hanoi ». Differs from yamaha-sirius-hanoi-ville (carburettor Sirius, similarity 0.38) by the FI facts (injection, 1,65 L/100 km, 98 kg) and from yamaha-lexi-hanoi-ville (scooter) by the semi-automatic gesture and programme table; mountain and cold/altitude topics are left to yamaha-sirius-fi-vietnam-voyage-moto.",
+   "CONTENT": "Full rewrite. Sections: figures-to-consequences table, urban trips (checklist), gear gestures at lights (checklist), everyday strengths, limits (checklist), Sirius FI vs scooter programme table (new), rain/flooded streets/night (new), pre-start check, tariff and booking with NAP, FAQ (5). Words 1683 -> 1524.",
+   "META": "Title « Conduire un Yamaha Sirius FI dans Hanoi : praticité et limites » (62 chars); description 151 chars; H1 kept; eyebrow « Yamaha Sirius FI · en ville »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/securite/, /prix-location/, /types-motos/, /types-motos/semi-automatique/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-fi-location-hanoi/. Kept the three required targets and /yamaha/yamaha-sirius-fi-location-hanoi/; added /yamaha/semi-automatiques/, /types-motos/semi-automatique/ and /permis-securite/securite/.",
+   "AEO_GEO": "Direct answer in the lead with key figures and honest limits; one specification table, one programme table; four checklists; FAQ of 5 (facilité, calage, stationnement, petite taille, permis); 2 external citations plus chinhphu, all rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-vanh-duc-mau-hoan-toan-moi-bsac/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius FI 113,7 cm3 SOHC air-cooled, EFI, 1,65 L/100 km, tank 4,0 L, 1 940 x 715 x 1 090 mm, seat 775 mm, clearance 155 mm, 98 kg wet"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-hoan-toan-moi-bsad/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title): Sirius FI drum-brake version"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Sirius FI is offered, which version (drum or cast wheels) and its price",
+   "Rack/basket fitment and passenger seat of a rented Sirius FI"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-sirius-fi-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que change l’injection électronique (FI) du Yamaha Sirius FI pour un locataire à Hanoi ?",
+  "new_meta": {
+   "title": "Yamaha Sirius FI en location à Hanoi : que change l’injection ?",
+   "description": "Yamaha Sirius FI en location à Hanoi : ce que l’injection électronique change au démarrage, à la consommation et à l’entretien, face à une Sirius à carburateur.",
+   "h1": "Yamaha Sirius FI : que change l’injection pour votre location ?"
+  },
+  "words_before": 1638,
+  "words_after": 1566,
+  "evidence": {
+   "FACTS": "Removed the previous abstract « deux lettres font la différence » framing, « sans stock promis ni fiche technique inventée » self-reference and any budget/contract stacking. Specs only from Yamaha Motor Vietnam Sirius FI pages seen in search results on 2026-10-30: cast-wheel version 113,7 cm3 SOHC air-cooled, EFI, 6,4 kW (8,7 PS), 9,5 N·m, 1,65 L/100 km, tank 4,0 L, seat 775 mm, clearance 155 mm, 98 kg wet; drum-brake version exists; 2017 Sirius FI had a 3,8 L tank (Yamaha news page seen in search result) and older texts quote 115 cm3 — presented only as « values vary ». The 2,08 L/100 km figure quoted for the carburettor side comes from the Yamaha Sirius disc-brake 2025 page seen in search result; the page states both figures come from different versions/pages and are an order of magnitude only. Carburettor vs injection behaviour (cold start, altitude correction, repair in a garage with diagnostic tools) is stated as general tendencies to check on the machine. About 240 km per tank is arithmetic 4,0 L / 1,65 L per 100 km, flagged as an estimate. Licence: Law 36/2024/QH15, A1 up to 125 cm3 (chinhphu portal). Maintenance owner, replacement bike, breakdown number, availability: phrased as questions. No price quoted.",
+   "INTENT": "Main question: ce que change l’injection de la Sirius FI en location. OWNER of « yamaha Sirius FI » (profile/injection angle). Differs from types-motos/injection-carburant-moto-vietnam-location (generic injection vs carburettor guide, linked once) and yamaha-sirius-location-hanoi (carburettor Sirius) by treating the FI model: carb-vs-FI table, FI fiche, how to recognise an FI, who benefits, start-up checks.",
+   "CONTENT": "Full rewrite. Sections: carb vs injection table, FI fiche table, recognising the version, who benefits (checklist), fuel and range (new), maintenance on long rentals (new), where injection shows (new), start-up check, permit/price/booking with NAP, FAQ (5). Words 1638 -> 1566.",
+   "META": "Title « Yamaha Sirius FI en location à Hanoi : que change l’injection ? » (63 chars); description 160 chars; H1 « Yamaha Sirius FI : que change l’injection pour votre location ? » kept; eyebrow « Yamaha Sirius FI · injection »; og tags identical.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /prix-location/, /types-motos/, /types-motos/injection-carburant-moto-vietnam-location/, /yamaha/, /yamaha/yamaha-sirius-fi-prix-location-hanoi/, /yamaha/yamaha-sirius-fi-vietnam-voyage-moto/, /yamaha/yamaha-sirius-location-hanoi/. Kept the three required targets; added /types-motos/injection-carburant-moto-vietnam-location/, /yamaha/yamaha-sirius-location-hanoi/, /yamaha/yamaha-sirius-fi-prix-location-hanoi/ and /yamaha/yamaha-sirius-fi-vietnam-voyage-moto/.",
+   "AEO_GEO": "Direct answer in the lead (what FI means, what it changes, same driving); two tables; three checklists; FAQ of 5 (FI, consommation, starter, fiabilité, permis); 3 external citations rel=noopener."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-vanh-duc-mau-hoan-toan-moi-bsac/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius FI 113,7 cm3, 6,4 kW, 9,5 N·m, 1,65 L/100 km, tank 4,0 L, seat 775 mm, clearance 155 mm, 98 kg wet"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-hoan-toan-moi-bsad/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result (title): Sirius FI drum-brake version"
+   },
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-2025-bgye/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius disc-brake 2025 page quoting 2,08 L/100 km (carburettor model per summary)"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Law 36/2024/QH15 licence classes A1/A"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a Sirius FI is offered and at what price",
+   "Who handles maintenance on monthly rentals; replacement bike and breakdown number (asked, not stated)"
+  ]
  }
 ]

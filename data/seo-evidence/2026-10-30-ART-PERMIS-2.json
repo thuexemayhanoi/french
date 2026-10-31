@@ -1,0 +1,48 @@
+[
+ {
+  "path": "permis-securite/location-moto-legal-liste-controle-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quels papiers (permis, papiers de la moto, assurance, contrat) vérifier avant de partir avec une moto louée au Vietnam",
+  "new_meta": {
+   "title": "Louer une moto au Vietnam : les papiers à contrôler",
+   "description": "Permis et permis international, immatriculation, assurance obligatoire, contrat : les papiers à contrôler avant de partir avec une moto louée au Vietnam.",
+   "h1": "Louer une moto au Vietnam : les papiers à contrôler"
+  },
+  "words_before": 1988,
+  "words_after": 2216,
+  "evidence": {
+   "FACTS": "Rewritten against E-legal-digest: art. 56 documents to carry (registration certificate, licence matching vehicle, compulsory civil-liability insurance certificate of the owner, inspection certificate where law requires it, certified copy only if mortgaged); art. 57 categories A1 <=125 cm3 / 11 kW and A above, age 18; art. 57(6)/(8) IDP of a 1968 Vienna Convention state together with national licence, max 3 years; art. 9 ban on handing a vehicle to an ineligible person; xe gắn máy definition (<=50 cm3 or 4 kW and <=50 km/h, from 16, no licence but papers/helmet/alcohol rules remain); B-only licence gives no motorcycle category on the IDP; Canada/Quebec not in the 1968 participant table (phrased 'n'entre pas dans le cas prévu par la loi vietnamienne, renseignez-vous auprès des autorités'); residents: exchange via ministry circular, 'vérifiez la version en vigueur'. France-Diplomatie and Belgian FPS statements used as in digest (seen in search result, wording kept to snippet). No fine amounts, no blanket 'sans permis' / 'permis international suffit' (the page states the opposite and tells readers to ask 'de quelle catégorie de véhicule' a loueur speaks). 'Vérifié le 30 octobre 2026' placed next to the legal block. Removed mannered claims about shop practice; deposit/passport/insurance/assistance only as generic 'certains loueurs demandent... demandez la règle applicable' and as questions to ask. Insurance: obligatory civil-liability certificate vs rental cover vs travel insurance; amounts/extent of the compulsory cover explicitly not verified (Decree 67/2023 not read). Shop NAP and hours as in SEO-FACTS; no price quoted; no policy affirmed ('conditions ... à confirmer avant de réserver').",
+   "INTENT": "Main question: which papers must I check before leaving with a rental motorbike in Vietnam? OWNER of « louer une moto au Vietnam ». Differs from location-moto-hanoi/location-moto-inspection-liste-controle (mechanical inspection) because this page is the legal/paperwork checklist (licence, registration, insurance, contract); mechanical checks are left to the specific brake/chain/oil/tyre guides.",
+   "CONTENT": "Full rewrite: removed abstract 'quatre piliers' prose, silo/process wording ('page du silo'), invented usage claims; new structure: summary table of 4 checks (À vérifier / Trace à garder), licence section with country list and sources, papers of the moto, three levels of insurance, contract + condition photos, questions to ask before booking (with NAP/hours), 5 FAQ, further reading. Words 1988 -> 2216.",
+   "META": "Title shortened and made literal (51 chars), meta description 153 chars, H1 aligned with title, eyebrow plain 'Permis et sécurité'; og:title/og:description identical to title/description.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/ (parent hub present). Added /permis-securite/permis/, /permis-securite/moto-immatriculation-location-vietnam/, /permis-securite/moto-assurance-vietnam-location/; kept /permis-securite/moto-breakdown-vietnam-location/. Dropped /location-moto-hanoi/debutant-location-moto-hanoi/. 7/7 unique internal links.",
+   "AEO_GEO": "Direct answer in lead (4 contrôles, loueur's key hand-over is not legal validation). Summary table, 3 checklists, 5 FAQ Q&As without repetition of body; inline citations to Law 36/2024 full text, UN treaty page, France-Diplomatie, Belgian FPS."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 9, 56, 57, 59 (retrieved per E-legal-digest)"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "used_for": "1968 Vienna Convention participants (retrieved per E-legal-digest)"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "used_for": "IDP with French licence + vehicle insured (seen in search result, via digest)"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Belgian licence category A for >50 cc (seen in search result, via digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Caution/dépôt, conservation du passeport, assurance de location, assistance panne/accident: conditions of Thuê xe máy Nguyễn Hà unconfirmed (page only tells readers to confirm before booking).",
+   "Which papers (original/copy) are handed to the renter with the bike."
+  ]
+ }
+]

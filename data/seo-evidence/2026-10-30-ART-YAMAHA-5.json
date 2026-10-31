@@ -110,6 +110,79 @@
   ]
  },
  {
+  "path": "yamaha/yamaha-sirius-ou-honda-wave-alpha-location/index.html",
+  "role": "DISTINCT_ANGLE",
+  "primary_intent": "Sirius ou Wave Alpha pour sortir de Hanoi : longues distances, passager et bagages (quelle moto louer) ?",
+  "new_meta": {
+   "title": "Sirius ou Wave Alpha : laquelle pour les longues distances ?",
+   "description": "Yamaha Sirius ou Honda Wave Alpha pour sortir de Hanoi : chiffres annoncés, autonomie, passager, bagages et critères pour choisir l’exemplaire à louer.",
+   "h1": "Yamaha Sirius ou Honda Wave Alpha : quelle semi-automatique louer ?"
+  },
+  "words_before": 1589,
+  "words_after": 1564,
+  "evidence": {
+   "FACTS": "Removed the abstract « deux écoles / deux grilles parallèles » prose and any unsourced claim on model differences. Specs only from manufacturer pages seen in search results: Yamaha Sirius disc-brake page (110,3 cm3, 5,9 kW at 8 000 rpm, 4,2 L, 2,08 L/100 km) and honda.com.vn Wave Alpha 110 page (109,2 cm3, 6,12 kW at 7 500 rpm, 3,7 L, 1,72 L/100 km, 96 kg, seat 770 mm, ground clearance 134 mm); Sirius weight/seat/clearance left out because they were not in the snippet. Theoretical range (~200 vs ~215 km) is my arithmetic on those values and labelled as such; consumption figures flagged as non-comparable across manufacturers. Passenger/luggage comfort given as things to check on the exemplar, no invented spec. Price: no row for either model; semi-automatic category range « à titre de repère » with exact disclaimer; no package. Leaving the province, breakdown handling, repair cover and late return phrased as questions, not shop policy. Licence: A1 up to 125 cm3 (chinhphu portal, consulté 2026-10-30).",
+   "INTENT": "Main question: Sirius ou Wave Alpha pour les sorties hors de Hanoi, longues distances, passager et bagages. DISTINCT_ANGLE of CMP-WAVEALPHA-SIRIUS, owner honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (linked once with a natural anchor; the general urban comparison is delegated to it). Differs from yamaha-sirius-fi-ou-honda-wave-rsx-location (FI vs RSX) and types-motos/wave-alpha-ou-sirius-location-vietnam by being limited to range, passenger and luggage on trips.",
+   "CONTENT": "Full rewrite. New: manufacturer data table, fuel stops, passenger/luggage checklist, trip duration and questions to put in writing, criterion-by-criterion table, exemplar condition checklist, four-question decision, price repère, FAQ (5). Words 1589 -> 1564.",
+   "META": "Title « Sirius ou Wave Alpha : laquelle pour les longues distances ? » (60 chars); description 151 chars; H1 kept (matches hub anchor); eyebrow « Sirius ou Wave Alpha · Longues distances »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /honda/honda-wave-alpha-110-location-hanoi/, /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/, /nord-vietnam/ha-giang/, /prix-location/, /types-motos/, /yamaha/, /yamaha/yamaha-sirius-vietnam-voyage-moto/. Kept /yamaha/, /types-motos/, /prix-location/, /honda/honda-wave-alpha-110-ou-yamaha-sirius-location/ (owner, once), /honda/honda-wave-alpha-110-location-hanoi/; removed /types-motos/semi-automatique/ and /yamaha/yamaha-sirius-location-hanoi/; added /yamaha/yamaha-sirius-vietnam-voyage-moto/ and /nord-vietnam/ha-giang/.",
+   "AEO_GEO": "Direct answer in the 4-sentence lead; 2 tables, 3 checklists, one ordered decision list; FAQ of 5 distinct short answers (consumption, duo, Ha Giang, licence, version to request); 3 external citations rel=noopener (Yamaha Sirius page, honda.com.vn Wave Alpha page, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-2025-bgye/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius disc-brake version 110,3 cm3, 5,9 kW at 8 000 rpm, tank 4,2 L, 2,08 L/100 km"
+   },
+   {
+    "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Wave Alpha 110 109,2 cm3, 6,12 kW at 7 500 rpm, tank 3,7 L, 1,72 L/100 km, 96 kg, seat 770 mm, ground clearance 134 mm"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Which of the two (and which version) is actually available",
+   "Rates for either model if any",
+   "Out-of-province use, breakdown handling, repair costs, deposit/ID (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-sirius-prix-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "Combien coûte la location d’un Yamaha Sirius à Hanoi (repère par durée, ce qui change le total) ?",
+  "new_meta": {
+   "title": "Location d’un Yamaha Sirius à Hanoi : repères de prix par durée",
+   "description": "Pas de tarif propre à la Yamaha Sirius : repère de la catégorie semi-automatique par jour, semaine et mois, et points à faire confirmer avant de réserver.",
+   "h1": "Combien coûte la location d'un Yamaha Sirius à Hanoi ?"
+  },
+  "words_before": 1556,
+  "words_after": 1561,
+  "evidence": {
+   "FACTS": "Removed « trois étages du prix », « le dépôt : la ligne la plus lourde du budget » and the unsourced « décote / périmètre du tarif » assertions. Prices: no Sirius owner row; only the semi-automatic category range (150 000–200 000 / 700 000–800 000 / 1 000 000–1 200 000 VND) shown next to the automatic-scooter range (150 000–200 000 / 600 000–1 000 000 / 1 200 000–2 000 000 VND) « à titre de repère », exact disclaimer in the lead and under the table, explicit statement that ranges describe categories and do not prove availability; only comparison drawn is the lower monthly range (from the owner table). No multiplication, package, discount, € conversion or fuel cost. Deposit, helmets, documents, breakdown/repair cover, early/late return and seasonal adjustment are phrased as questions or as generic « certains loueurs » practice, never as the shop’s policy. Fuel/consumption figures (4,2 L, 2,08 L/100 km) from the Yamaha Sirius disc-brake page seen in search results.",
+   "INTENT": "Main question: combien coûte la location d’une Sirius. OWNER of « combien coûte la location d'un Yamaha Sirius à Hanoi ». Differs from yamaha-wr155r-prix-location-hanoi (no category range applies to trails) and yamaha-nvx-prix-location-hanoi (scooter) by using the semi-automatic range and the monthly advantage; differs from yamaha-sirius-location-hanoi (profiles) by being about reading durations and quotes.",
+   "CONTENT": "Full rewrite. New: category range table vs scooters, stay-to-formula table, factors that may change the total, what to have confirmed (deposit asked, not stated), three stay scenarios, when another category is cheaper, fuel and upkeep, how to request with NAP, FAQ (5). Words 1556 -> 1561.",
+   "META": "Title « Location d’un Yamaha Sirius à Hanoi : repères de prix par durée » (63 chars, says « repères » so no promise of an amount); description 154 chars; H1 kept (primary query); eyebrow « Yamaha Sirius · Budget »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /location-moto-hanoi/location-moto-depot-hanoi/, /prix-location/, /prix-location/mois/, /types-motos/, /yamaha/, /yamaha/semi-automatiques/, /yamaha/yamaha-sirius-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /prix-location/mois/, /location-moto-hanoi/location-moto-depot-hanoi/, /yamaha/yamaha-sirius-location-hanoi/; removed /prix-location/jour/; added /yamaha/semi-automatiques/.",
+   "AEO_GEO": "Direct answer and exact disclaimer in the lead; 2 tables, 4 checklists; FAQ of 5 distinct short answers (daily price, semi vs scooter, three days, inclusions, deposit); 1 external citation rel=noopener (Yamaha Sirius page)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/sirius-phien-ban-phanh-dia-mau-moi-2025-bgye/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: Sirius disc-brake version tank 4,2 L, 2,08 L/100 km"
+   }
+  ],
+  "owner_gaps": [
+   "Own daily/weekly/monthly rate for a Sirius, if the shop offers one",
+   "Deposit, documents, helmets, fuel, breakdown/repair cover, seasonal pricing, prolongation tariff (asked, none stated)"
+  ]
+ },
+ {
   "path": "yamaha/yamaha-sirius-vietnam-voyage-moto/index.html",
   "role": "OWNER",
   "primary_intent": "Une Yamaha Sirius suffit-elle pour un road trip au Vietnam (routes, limites, préparation) ?",
@@ -144,6 +217,78 @@
    "Whether a Sirius (and which version, carburettor or FI, disc or drum) is actually available",
    "Own rates for a Sirius if any",
    "Conditions for leaving Hanoi/province, breakdown handling, repair costs, late return, deposit/ID (all asked, none stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-wr155r-hanoi-ville/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que vaut une Yamaha WR155R dans la circulation de Hanoi (selle haute, embrayage, stationnement) ?",
+  "new_meta": {
+   "title": "Yamaha WR155R en ville à Hanoi : selle haute, embrayage, trafic",
+   "description": "Conduire une Yamaha WR155R dans Hanoi : selle annoncée à 880 mm, embrayage dans les embouteillages, stationnement, cas où cette trail a du sens en ville.",
+   "h1": "Conduire un Yamaha WR155R dans la circulation de Hanoi : que vaut-il en ville ?"
+  },
+  "words_before": 1550,
+  "words_after": 1634,
+  "evidence": {
+   "FACTS": "Removed the « paradoxe d’un trail en ville » framing and unsourced claims. Specs only from the Yamaha Motor Vietnam WR155R page seen in search results: seat 880 mm, 134 kg wet, wheelbase 1 430 mm, minimum ground clearance 245 mm (155 cm3 and clutch gearbox as stated in the rewritten yamaha/trail-aventure hub; the snippet itself did not repeat 155 cm3). Clutch technique, stalling, hill start and parking are general riding advice, no traffic rules or fines quoted. « Moins de 1,70 m probablement trop haute » mirrors the hub FAQ. Licence: 155 cm3 > 125 cm3, category A under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30); foreign-licence validity left to /permis-securite/permis/. Price: no WR155R rate and no category range applies; availability and total to be requested. Anti-theft supplied or not, and shop terms, stated as questions only.",
+   "INTENT": "Main question: que vaut la WR155R en ville à Hanoi. OWNER of « conduire un Yamaha WR155R dans la circulation de Hanoi ». Differs from yamaha-sirius-hanoi-ville (clutchless semi-automatic) and yamaha-nvx-hanoi-ville (sporty scooter) by dealing with seat height, clutch fatigue and parking of a tall clutch trail.",
+   "CONTENT": "Full rewrite. New: Yamaha data table with city consequences, seat-height test, clutch in traffic checklist, size/parking, road surface and rain, three-step first test, when the city is only a passage, yes/no table by situation, licence and price, FAQ (5). Words 1550 -> 1634.",
+   "META": "Title « Yamaha WR155R en ville à Hanoi : selle haute, embrayage, trafic » (63 chars); description 153 chars; H1 kept (matches hub anchor); eyebrow « Yamaha WR155R · Conduite en ville »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /location-moto-hanoi/debutant-location-moto-hanoi/, /permis-securite/permis/, /prix-location/, /types-motos/, /yamaha/, /yamaha/trail-aventure/, /yamaha/yamaha-wr155r-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /yamaha/trail-aventure/, /yamaha/yamaha-wr155r-location-hanoi/, /location-moto-hanoi/debutant-location-moto-hanoi/; added /permis-securite/permis/.",
+   "AEO_GEO": "Direct answer in the 4-sentence lead; 2 tables, 2 checklists, 1 ordered list; FAQ of 5 distinct short answers (beginner, height, clutch fatigue, parking, why rent a trail in town); 2 external citations rel=noopener (Yamaha WR155R page, chinhphu licence classes)."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/wr155r-b3mf/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: WR155R seat height 880 mm, wet weight 134 kg, wheelbase 1 430 mm, minimum ground clearance 245 mm"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a WR155R can be proposed and at what rate",
+   "Anti-theft supplied, deposit/ID, damage terms (asked, not stated)"
+  ]
+ },
+ {
+  "path": "yamaha/yamaha-wr155r-location-hanoi/index.html",
+  "role": "OWNER",
+  "primary_intent": "À quel type de voyageur convient la location d’une Yamaha WR155R à Hanoi ?",
+  "new_meta": {
+   "title": "Louer un Yamaha WR155R à Hanoi : pour quel voyageur ?",
+   "description": "La Yamaha WR155R est une trail à embrayage : profil du motard concerné, alternatives sans levier, permis, contrôles avant départ et questions à poser.",
+   "h1": "Louer un Yamaha WR155R à Hanoi : pour quel type de voyageur ?"
+  },
+  "words_before": 1735,
+  "words_after": 1613,
+  "evidence": {
+   "FACTS": "Removed the abstract framing (« une autre espèce de deux-roues », « le terrain qui le justifie ») and the unrelated link to the NVX voyage page. Specs only from the Yamaha Motor Vietnam WR155R page seen in search results (seat 880 mm, 134 kg wet, wheelbase 1 430 mm, minimum ground clearance 245 mm) (the category is described qualitatively, no external link); no speeds, fuel capacity or consumption stated. Route statements (Ha Giang main loop tarred, detours and post-rain sections, Sapa wider roads) follow the rewritten trail hub; no distances or drive times. PG-1 seat « plus basse que la WR155R selon Yamaha » mirrors the hub (no number repeated). Licence: 155 cm3 > 125 cm3 so category A under Law 36/2024/QH15 (chinhphu portal, consulté 2026-10-30); foreign-licence validity and travel insurance left to the reader with the permis guide. Price: no WR155R rate and no category range applies; the article explicitly says so. Deposit/documents, damage terms off-road, protective gear supplied and availability are stated as unconfirmed questions.",
+   "INTENT": "Main question: à quel voyageur convient la WR155R en location. OWNER of « louer un Yamaha WR155R à Hanoi ». Differs from yamaha-sirius-location-hanoi and yamaha-nmax-location-hanoi (semi-automatic / scooter profiles) and from yamaha-wr155r-hanoi-ville (city riding) and yamaha-wr155r-vietnam-voyage-moto (mountain trips) by covering the rider profile, alternatives, licence and how to request.",
+   "CONTENT": "Full rewrite. New: what the WR155R is (Yamaha data in prose), rider-profile checklist and seat test, coming from a scooter, programmes that justify a trail, alternatives table, licence/insurance, price statement, rider gear, how to request with NAP, pre-departure checklist, FAQ (5). Words 1735 -> 1613.",
+   "META": "Title « Louer un Yamaha WR155R à Hanoi : pour quel voyageur ? » (53 chars); description 150 chars; H1 kept (matches hub anchor); eyebrow « Yamaha WR155R · Location à Hanoi »; og:title/og:description identical to title/description.",
+   "LINKS": "7/7 unique internal links in <main>, parent hub /yamaha/ present, required /types-motos/ and /prix-location/ present: /permis-securite/permis/, /prix-location/, /types-motos/, /types-motos/trail/, /yamaha/, /yamaha/trail-aventure/, /yamaha/yamaha-wr155r-prix-location-hanoi/. Kept /yamaha/, /types-motos/, /prix-location/, /types-motos/trail/; removed /hanoi/excursions-moto/, /location-moto-hanoi/hanoi-location-moto-pour-ha-giang/ and /yamaha/yamaha-nvx-vietnam-voyage-moto/; added /yamaha/trail-aventure/, /yamaha/yamaha-wr155r-prix-location-hanoi/ and /permis-securite/permis/.",
+   "AEO_GEO": "Direct answer in the 3-sentence lead; 1 table, 4 checklists; FAQ of 5 distinct short answers (no clutch experience, availability, duo, Ha Giang, alternative without clutch); 3 external citations rel=noopener (Yamaha WR155R page, chinhphu licence classes) plus Zalo/WhatsApp contact links."
+  },
+  "sources": [
+   {
+    "url": "https://yamaha-motor.com.vn/xe/wr155r-b3mf/",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result: WR155R seat height 880 mm, wet weight 134 kg, wheelbase 1 430 mm, minimum ground clearance 245 mm"
+   },
+   {
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2025-co-nhung-hang-giay-phep-lai-xe-nao-119240812165630751.htm",
+    "checked": "2026-10-30",
+    "used_for": "seen in search result 2026-10-30: Law 36/2024/QH15 in force 1 Jan 2025, A1 up to 125 cm3, A above (government policy portal; not checked against the Official Gazette)"
+   }
+  ],
+  "owner_gaps": [
+   "Whether a WR155R can be proposed and at what rate",
+   "Deposit/ID, damage terms off-road, protective gear supplied, insurance (asked, not stated)"
   ]
  }
 ]

@@ -1,0 +1,93 @@
+[
+ {
+  "path": "permis-securite/125cc-plus-permis-moto-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quel permis pour une moto de 125 cm3 et plus au Vietnam (catégorie A), pour un visiteur étranger et pour un résident ?",
+  "words_before": 2551,
+  "new_meta": {
+   "title": "Moto de plus de 125 cm3 au Vietnam : quel permis faut-il ?",
+   "description": "Au-dessus de 125 cm3 (ou 11 kW en électrique), la catégorie A est exigée. Ce que couvre un permis étranger avec permis international, et ce qu’il faut vérifier.",
+   "h1": "Plus de 125 cm3 au Vietnam : quel permis pour une grosse moto ?"
+  },
+  "evidence": {
+   "FACTS": "Rewrote from E-legal-digest (law 36/2024/QH15 art. 34, 56, 57, 59, 62, 89, 9; UN 1968 convention list; Circ. 12/2025/TT-BCA seen in search result; Circ. 108/2026/TT-BCA mentioned as possibly superseding, not read). Corrected the old title/H1 inexactness: exactly 125 cm3 is A1 (art. 57), A starts above 125 cm3 / 11 kW. Removed the invented claims that conversion yields 'A if A at home, A1 otherwise' and 'dossier, traduction officielle, dépôt au département des transports' (not verified): replaced by 'ask which category will correspond; check circular in force'. Removed the claim that 'les loueurs sérieux vérifient le titre' and any fleet/WR155R rental claim; WR155R mentioned only as a name containing 155, to be confirmed on the manufacturer sheet. EU A1/A2 limits (125 cm3 and 11 kW; 35 kW) stated as EU licence categories. No fines amounts (Decree 168/2024 only pointed to). No shop price for >125 cm3; shop NAP and hours as in SEO-FACTS; travel insurance statement kept generic ('beaucoup de contrats...').",
+   "INTENT": "Main question: which licence for a motorbike above 125 cm3 in Vietnam. OWNER of '125 cm3 et plus au Vietnam'. Differs from /permis-securite/moins-de-125cc-license-vietnam/ (A1, <=125 cm3) because it covers the A category, foreign licence coverage above 125, resident exchange/exam and the counter checks for big bikes; the <=125 case is sent there with one link.",
+   "CONTENT": "Full rewrite: removed the mannered 'étage supérieur / palier / silo / rêve de grosse machine' prose and the repeated 'la formalité se fait avant le départ' closings. Added: category table with ages, calendar note on pre-2025 licences, how to check cylinder capacity, foreign-licence table (A, A2, A1, B only, non-1968 IDP), resident exchange with the circular caveat, pre-rental checklist, risks section, 'faut-il dépasser 125 cm3' section; FAQ reduced to 4 non-repeating questions. 2551 -> see words_after.",
+   "META": "Title kept close to the old one but 'et plus' replaced by 'plus de' for legal accuracy (125 cm3 is A1); description rewritten (old one 169 chars); H1 aligned; eyebrow simplified; og:title/og:description synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required targets), /permis-securite/vietnam-permis-moto-a1-a/, /permis-securite/moins-de-125cc-license-vietnam/, /permis-securite/permis-conduire-international-vietnam-moto/, /permis-securite/conversion-permis-conduire-etranger-vietnam/. TOC synced with section ids and #questions-frequentes.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences, date of verification and law link). Two tables (categories; foreign licences), a checklist for the cylinder check and one for the counter, 4 FAQ. Inline external citations: law 36/2024 text, UN treaty page, France Diplomatie and Belgian FPS (seen in search result), Circ. 12/2025 summary (seen in search result), Decree 168/2024 record (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 full text (art. 9, 34, 56, 57, 59, 62, 89): retrieved in the legal digest"
+   },
+   {
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11&Temp=mtdsg3&clang=_en",
+    "checked": "2026-10-30",
+    "used_for": "1968 Vienna Convention participants, Viet Nam accession 20 Aug 2014: retrieved in the legal digest"
+   },
+   {
+    "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/vietnam/conseils-aux-voyageurs-informations-utiles",
+    "checked": "2026-10-30",
+    "used_for": "IDP required with French licence, vehicle must be insured: seen in search result"
+   },
+   {
+    "url": "https://diplomatie.belgium.be/fr/pays/vietnam/voyager-au-vietnam-conseils-aux-voyageurs/informations-pratiques-pour-voyager-au-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "Belgian licence must be valid for motorcycles (category A) above 50 cc: seen in search result"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/huong-dan-thuc-hien-doi-giay-phep-lai-xe-theo-thong-tu-122025-201157.html",
+    "checked": "2026-10-30",
+    "used_for": "Circular 12/2025/TT-BCA conversion summary: seen in search result"
+   },
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024/ND-CP record (fines not read): seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "Whether and which motorbikes above 125 cm3 the shop rents, at what price and under which conditions is unconfirmed; the page only tells the reader to ask.",
+   "Vietnamese authorities' treatment of EU A2 and other foreign categories for >125 cm3 is not published in the law text; left as 'to confirm'."
+  ],
+  "words_after": 2073
+ },
+ {
+  "path": "permis-securite/50cc-scooter-license-vietnam/index.html",
+  "role": "OWNER",
+  "primary_intent": "Faut-il un permis pour conduire un 50cc au Vietnam, et à quelles conditions ?",
+  "words_before": 2328,
+  "new_meta": {
+   "title": "Faut-il un permis pour conduire un 50cc au Vietnam ?",
+   "description": "Un vrai cyclomoteur (50 cm3 au plus, 50 km/h maximum) se conduit sans permis dès 16 ans ; casque, alcool zéro et papiers restent obligatoires.",
+   "h1": "50cc au Vietnam : faut-il un permis pour conduire ?"
+  },
+  "evidence": {
+   "FACTS": "Corrected the absolute old H1 (« la cylindrée qui se conduit sans permis ») per legal digest §9: xe gắn máy = <=50 cm3 (or <=4 kW) AND <=50 km/h design speed (law 36/2024 art. 34), no licence (art. 56(4)) but age >=16 (art. 59), rules knowledge and riding skill, helmet (art. 33), zero alcohol and phone ban (art. 9), registration + compulsory insurance papers (art. 56), single passenger / child <12 exception (art. 33), no expressway (art. 25(3)), accident duties (art. 80). A '50cc' outside the definition is a xe mô tô needing A1 (18, IDP 1968). Removed claims: 'les flottes de location existent pour ouvrir la conduite...', 'les scooters automatiques courants dépassent en général la classe', any deposit/passport/4,000,000 VND. Price: only the owner 50cc row (200,000 / 1,000,000 / 2,000,000 VND) with the mandatory disclaimer. Loueur conditions only as generic market observation. No fine amounts (Decree 168/2024 pointed to).",
+   "INTENT": "Main question: do you need a licence for a 50cc in Vietnam. OWNER of '50cc au Vietnam'. Differs from /permis-securite/moins-de-125cc-license-vietnam/ (A1 up to 125 cm3) and /types-motos/50cc/ (machine/usage hub): this page owns the legal definition and conditions of the licence exemption; the other pages are linked once.",
+   "CONTENT": "Full rewrite: removed the mannered 'régime d'exemption / porte d'entrée / silo' prose and repetition. Added: legal definition with a 3-row table, 7-item obligations checklist, 4-step verification of whether a '50cc' is a real cyclomoteur, rental questions with the owner 50cc price, usage limits section (50 km/h design speed), 5 FAQ. 2328 -> see words_after.",
+   "META": "Title kept (already a question, 52 chars). H1 changed from the absolute 'se conduit sans permis' to a question; description rewritten, factual, 160 chars max; og tags synced.",
+   "LINKS": "7/7 unique internal links in main: /permis-securite/ (parent hub), /types-motos/, /location-moto-hanoi/ (required), /permis-securite/casque-law-vietnam-moto-touriste/, /permis-securite/moins-de-125cc-license-vietnam/, /types-motos/50cc/, /permis-securite/electrique-scooter-license-vietnam/. TOC synced.",
+   "AEO_GEO": "Direct answer in the lead (4 sentences + date and law link). 1 table, 1 checklist, 1 ordered steps list, 5 FAQ. Inline citations: law 36/2024 text, Decree 168/2024 record (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 9, 25, 33, 34, 56, 57, 59, 80: retrieved in the legal digest"
+   },
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024/ND-CP record (fine amounts not read): seen in search result"
+   }
+  ],
+  "owner_gaps": [
+   "Whether the shop's 50cc models meet the xe gắn máy definition (cylindrée, 50 km/h design speed, registration papers) and the shop's age, deposit, insurance and breakdown conditions are unconfirmed; the page tells readers to ask."
+  ],
+  "words_after": 1811
+ }
+]
