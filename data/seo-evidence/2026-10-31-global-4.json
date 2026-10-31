@@ -1,0 +1,3 @@
+[
+{"task":"G05","status":"DONE","evidence":"Ownership map re-run 2026-10-31 after the article rewrites (tools/seo_ownership.py → data/seo-query-ownership.json): 543 URLs, 28 overlap groups, 44 DISTINCT_ANGLE pages, and no two pages sharing a primary query seed (seeds now taken from the full H1). New groups since 2026-10-29: Hà Giang (sub-hub owner; first-timer guide and budget angles), Sapa (sub-hub owner; on-site angle), Ninh Bình (sub-hub owner; local-loops angle), pricing hub vs the 'lire une offre' article. Each angle was applied in the page rewrites (agent evidence under INTENT). Homepage owns 'location moto hanoi'. No redirect, noindex or cross-domain canonical; no query ceded to another owned domain."}
+]

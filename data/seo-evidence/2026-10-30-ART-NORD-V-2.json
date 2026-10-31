@@ -678,5 +678,205 @@
   "owner_gaps": [
    "Which semi-automatic and trail models are really available, their cylindrée/licence category, whether the bike may go to Cao Bằng, breakdown assistance, insurance, total price: unconfirmed, written as questions. No trail rate quoted (no owner row)."
   ]
+ },
+ {
+  "path": "nord-vietnam/meilleur-moto-ninh-binh/index.html",
+  "role": "OWNER",
+  "primary_intent": "50cc, scooter automatique ou semi-automatique pour Ninh Bình",
+  "new_meta": {
+   "title": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Bình ?",
+   "description": "50cc, scooter automatique ou semi-automatique pour Ninh Bình : terrain plat, une centaine de km depuis Hanoi, 50cc et loi, prix indicatifs, critères de choix.",
+   "h1": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Bình ?"
+  },
+  "words_before": 1849,
+  "words_after": 1546,
+  "evidence": {
+   "FACTS": "PRICES: only owner-table rows for semi-automatic (150,000-200,000 / 700,000-800,000 / 1,000,000-1,200,000 VND), automatic scooter (150,000-200,000 / 600,000-1,000,000 / 1,200,000-2,000,000) and 50cc (200,000 / 1,000,000 / 2,000,000), with the exact disclaimer next to the table; the observation that the 50cc is never cheaper than the two other rows is derived directly from those rows; no trail rate (stated that none exists). No multiplication, no conversion. Removed unsourced claims: 'coût de location parmi les plus bas', 'assistance proche en cas de souci', 'engins du coin bien adaptés', 'agences sérieuses', fleet claims. LEGAL (E-legal digest, 'Vérifié le 30 octobre 2026'): 50cc = xe gắn máy only if ≤50 cm3 AND design speed ≤50 km/h (art. 34); no driving licence under art. 56 but age ≥16, rules/skills, helmet, zero alcohol, vehicle registration + compulsory civil insurance; vehicle outside definition needs A1 (corrects the blanket '50cc sans permis'); A1 ≤125 cm3 / A above (art. 57); helmet art. 33 and QCVN 2:2021/BKHCN CR mark (thuvienphapluat page seen in search result per digest, not opened); expressway art. 25(3). Ninh Bình facts reused from the hub: Tràng An about 100 km, Tam Cốc 104, Bái Đính 97, Vân Long 86 (Oxalis, seen in search result per digest), UNESCO 2014 (whc.unesco.org/en/list/1438, retrieved per digest), province merger (Tuổi Trẻ, retrieved). Shop: address/hours/phone per SEO-FACTS; availability, cylindrée, leaving Hanoi, breakdown, insurance and total only as questions. Review flags are the cited legal rules and the question list.",
+   "INTENT": "Main question: 50cc, automatic scooter or semi-automatic for Ninh Bình. OWNER (primary query '50cc, scooter ou semi-automatique'), /nord-vietnam/meilleur-moto-ninh-binh/. Differs from types-motos/scooter-ou-semi-automatique-ninh-binh (closest, 0.44; two-way scooter vs semi comparison, linked) by including the 50cc with its legal conditions and the price rows, and from meilleur-moto-cao-bang (0.4) and meilleur-moto-dalat (0.36) by the Ninh Bình terrain.",
+   "CONTENT": "Fully rewritten: terrain, 3-way comparison table, indicative prices, sites and machine, 50cc conditions, trail, rent in Hanoi vs on site (with helmet and checks), 5-question FAQ. Removed the long generic descriptions of each machine.",
+   "META": "Title kept (64 chars, now with Bình diacritic), description rewritten (158 chars; 'Comparaison honnête' removed), H1 identical to title; og tags identical.",
+   "LINKS": "Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped /location-moto-hanoi/ and /types-motos/; added ninh-binh-voyage-moto, types-motos/50cc-hanoi-a-ninh-binh, types-motos/scooter-ou-semi-automatique-ninh-binh. Parent hub present. Internal links in main: 6/7 (/nord-vietnam/, /nord-vietnam/ninh-binh-voyage-moto/, /permis-securite/securite/, /types-motos/50cc-hanoi-a-ninh-binh/, /types-motos/scooter-ou-semi-automatique-ninh-binh/, /types-motos/trail/).",
+   "AEO_GEO": "Direct answer in lead (scooter or semi for most, 50cc only on site, trail only off main roads). Comparison table (5 criteria × 3 machines), price table with disclaimer, 2 checklists, 5-question FAQ (scooter, 50cc, licence, trail, where to rent) without repeating the body."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3), expressway ban for motorbikes (retrieved per G14 route digest); articles 20 and 57 per E-legal digest (full text retrieved at hcc.nghean.gov.vn)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "2025 provincial mergers (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://whc.unesco.org/en/list/1438",
+    "checked": "2026-10-30",
+    "used_for": "Tràng An UNESCO 2014, sampans (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/",
+    "checked": "2026-10-30",
+    "used_for": "distances Hanoi to Vân Long, Bái Đính, Tràng An, Tam Cốc (seen in search result per digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+    "checked": "2026-10-30",
+    "used_for": "QCVN 2:2021/BKHCN helmet standard, CR mark from 1 Jan 2024 (seen in search result per E-legal digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Which models of each category are available, 50cc registration category of the rented machine, trail rate (no owner row), leaving Hanoi, breakdown assistance, insurance: unconfirmed, written as questions."
+  ]
+ },
+ {
+  "path": "nord-vietnam/meilleur-moto-tam-dao/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto pour monter à Tam Đảo",
+  "new_meta": {
+   "title": "Quelle moto pour monter à Tam Đảo : trail, semi ou scooter",
+   "description": "Quelle moto pour Tam Đảo depuis Hanoi : montée d’une dizaine de km en lacets vers 900 m, freinage en descente, trail, semi-automatique ou scooter automatique.",
+   "h1": "Quelle moto pour monter à Tam Đảo ?"
+  },
+  "words_before": 1792,
+  "words_after": 1542,
+  "evidence": {
+   "FACTS": "Original had unsourced statements: 'monture la plus louée au Vietnam', 'les scooters montent tous les jours, les locaux le font', 'les contrôles de police existent aussi sur l'axe', 'machine la plus simple à louer donc moins bien préparée des flottes', 'assistance en cas de panne' as a selection criterion for rental agencies, deposit/'avant paiement' language. All removed or turned into questions. Added sourced context: Tam Đảo about 70-90 km from central Hanoi depending on start point (some pages lower, flagged), final climb about 11-13 km, town about 900-930 m (vietnamtourism.com French guide and other pages, seen in a WebSearch result, pages not opened; flagged to readers 'les chiffres varient'). Province: Tam Đảo ex-Vĩnh Phúc now Phú Thọ (Tuổi Trẻ, retrieved per digest). Law 36/2024/QH15: art. 12 (adapt speed, slow on passes/slopes, rain, fog), art. 20 headlight, art. 25(3) expressway ban, art. 57 licence classes (A1 ≤125 cm3, A above, IDP of 1968 Vienna state) from the E-legal digest, 'Vérifié le 30 octobre 2026'. Descent technique (engine braking, cadence braking) is general safety advice, not sourced to a model. No rate quoted for any model (no price in the article). Shop: address/hours/phone per SEO-FACTS; availability, cylindrée, passenger, leaving Hanoi, breakdown, insurance, total as questions. Review flags are the cited legal rules and the question list.",
+   "INTENT": "Main question: which motorbike for the Tam Đảo climb. OWNER, /nord-vietnam/meilleur-moto-tam-dao/. Differs from /nord-vietnam/tam-dao-voyage-moto-hanoi/ (destination guide, linked), location-moto-hanoi/choisir-location-moto-hanoi (general rental choice) and types-motos/meilleur-moto-montagne-routes-vietnam (general mountain choice) by focusing on the 11-13 km climb, descent braking and the Hanoi context.",
+   "CONTENT": "Rewritten: climb facts, 4-machine comparison table, descent checklist, weather and timing, profile checklist, step-by-step day, preparation, shop questions, 5 FAQ. Removed generic machine essays.",
+   "META": "Title 58 chars, description 158 chars, H1 shortened to the question; Tam Dao -> Tam Đảo; og tags identical.",
+   "LINKS": "Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped /location-moto-hanoi/, /nord-vietnam/meilleur-moto-cao-bang/ and /types-motos/semi-automatique-ou-trail-moto-sapa/ (other regions); added tam-dao-voyage-moto-hanoi, types-motos/semi-automatique, types-motos/automatique-ou-semi-automatique-moto-vietnam, permis-securite/automatique-scooter-montagne-pass-vietnam. Parent hub present, 7/7. Internal links in main: 7/7 (/nord-vietnam/, /nord-vietnam/tam-dao-voyage-moto-hanoi/, /permis-securite/automatique-scooter-montagne-pass-vietnam/, /permis-securite/securite/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /types-motos/semi-automatique/, /types-motos/trail/).",
+   "AEO_GEO": "Direct answer in lead (semi-automatique simplest, trail with margin, scooter experienced, distance, climb). Comparison table (4 machines), 3 checklists, 5-question FAQ not repeating the body; citations Tuổi Trẻ, vietnamtourism."
+  },
+  "sources": [
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3), expressway ban for motorbikes (retrieved per G14 route digest); articles 20 and 57 per E-legal digest (full text retrieved at hcc.nghean.gov.vn)"
+   },
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "2025 provincial mergers (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/fr/parc-national-de-tam-dao-le-guide-complet-pour-s-echapper-a",
+    "checked": "2026-10-31",
+    "used_for": "Tam Đảo distance range, final climb 11-13 km, altitude about 900-930 m (seen in search result, page not opened, attribution likely but not certain)"
+   }
+  ],
+  "owner_gaps": [
+   "Which models are available, their cylindrée/licence category, passenger conditions, whether the bike may go to Tam Đảo, breakdown assistance, insurance, total price: unconfirmed, written as questions."
+  ]
+ },
+ {
+  "path": "nord-vietnam/meilleure-moto-pour-ha-giang-boucle/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto pour la boucle de Hà Giang : trail, semi-automatique ou scooter",
+  "new_meta": {
+   "title": "Quelle moto pour la boucle de Hà Giang : trail, semi ou scooter ?",
+   "description": "Quelle moto pour la boucle de Hà Giang : semi-automatique, trail ou scooter, freinage en descente, permis selon la cylindrée, contrôles et questions au loueur.",
+   "h1": "Quelle moto pour la boucle de Hà Giang ? Trail, semi-automatique ou scooter"
+  },
+  "words_before": 2198,
+  "words_after": 1568,
+  "evidence": {
+   "FACTS": "Removed unsourced statements presented as fact: 'beaucoup d'enseignes du haut pays déconseillent ou refusent le scooter pour des raisons d'assurance', 'les catégories se vident dans l'ordre : trails d'abord', 'machine la plus efficace est celle qu'on sait réparer', 'la caution se comprend', insurance-reading advice, 'location partout, chaque ville-étape en tient'. Replaced by: loop about 370 km, mostly 4 days, 85-100 km legs, Bắc Sum about 7 km, Mã Pì Lèng about 20 km, rainy June-August, cold November-March (Lonely Planet, retrieved per G14 digest); consensus of travel guides that a semi-automatic is the usual pick, automatic scooters discouraged on descents (no real engine braking, brake fade), engine-size advice contested, check both brakes (The Broke Backpacker and Asia Tour Advisor pages, seen in a WebSearch result, pages not opened; presented as commercial/personal views). Local rental prices and specific models (XR150, CRF150L, Blade 160 kg rating) seen in snippets were deliberately NOT used (no manufacturer source; other shops' prices). Law 36/2024/QH15: art. 57 licence classes (A1 ≤125 cm3/11 kW, A above, IDP of a 1968 Vienna state), art. 20 headlight, art. 9 zero alcohol, from the E-legal digest, 'Vérifié le 30 octobre 2026'. Border permit (Time Out, June 2026, retrieved per digest; no fee; 'aucun texte officiel récent'), police presence and easy-rider advice (Lonely Planet). Province: Tuyên Quang (Tuổi Trẻ). No rate for any model. Shop: address/hours/phone per SEO-FACTS; availability, cylindrée, trip length, breakdown, insurance, total as questions. Review flags are the cited legal rules and the question list.",
+   "INTENT": "Main question: which motorbike for the Hà Giang loop. OWNER, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/. Differs from /nord-vietnam/ha-giang-boucle-voyage-moto/ (closest, 0.4; first-time loop guide, linked), meilleure-moto-pour-sapa (0.36) and meilleur-moto-cao-bang (0.36) by the Hà Giang terrain, the guide consensus, licence by cylindrée and the rental questions.",
+   "CONTENT": "Fully rewritten: what the loop asks of a machine, comparison table (5 criteria × 3 machines), guide views, licence and alternatives, rider profile checklist, weather, pre-stage checks, shop questions, 5 FAQ. Removed the abstract 'règle du choix' prose.",
+   "META": "Title 65 chars, description 159 chars, H1 kept; og tags identical.",
+   "LINKS": "Kept all 7 original internal links (/nord-vietnam/, ha-giang-boucle-voyage-moto, hanoi-location-moto-pour-ha-giang, meilleur-moto-montagne-routes-vietnam, /permis-securite/securite/, /types-motos/semi-automatique/, /types-motos/trail/). Parent hub present, 7/7. Internal links in main: 7/7 (/location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /nord-vietnam/, /nord-vietnam/ha-giang-boucle-voyage-moto/, /permis-securite/securite/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /types-motos/semi-automatique/, /types-motos/trail/).",
+   "AEO_GEO": "Direct answer in lead (semi-automatique per guides, trail for experienced, scooter least suited). Comparison table, 3 checklists, 5-question FAQ (which bike, scooter, licence, trail, two on a bike) not repeating the body; citations Lonely Planet, Tuổi Trẻ, Time Out, The Broke Backpacker, Asia Tour Advisor."
+  },
+  "sources": [
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "2025 provincial mergers (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3), expressway ban for motorbikes (retrieved per G14 route digest); articles 20 and 57 per E-legal digest (full text retrieved at hcc.nghean.gov.vn)"
+   },
+   {
+    "url": "https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam",
+    "checked": "2026-10-30",
+    "used_for": "rainy June-August, cold November-March in Hà Giang area; loop distances (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426",
+    "checked": "2026-10-30",
+    "used_for": "border-area permit (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://www.thebrokebackpacker.com/ha-giang-loop-vietnam-itinerary",
+    "checked": "2026-10-31",
+    "used_for": "semi-automatic is the usual recommendation; automatic scooters lack engine braking (seen in search result, page not opened, attribution likely but not certain)"
+   },
+   {
+    "url": "https://www.asiatouradvisor.com/get-inspired/vietnam/ha-giang-loop-automatic-bike/",
+    "checked": "2026-10-31",
+    "used_for": "automatic bike on the loop: brake load on descents (title seen in search result, page not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Which models and cylindrée are available, whether the bike may go to Hà Giang for several days, breakdown assistance, insurance, total price: unconfirmed, written as questions. No trail rate (no owner row)."
+  ]
+ },
+ {
+  "path": "nord-vietnam/meilleure-moto-pour-sapa/index.html",
+  "role": "OWNER",
+  "primary_intent": "Quelle moto pour Sapa : scooter, semi-automatique ou trail",
+  "new_meta": {
+   "title": "Quelle moto pour Sapa : scooter, semi-automatique ou trail ?",
+   "description": "Quelle moto pour Sapa : montée de Lào Cai, col de Trạm Tôn vers 2 000 m, brouillard, freinage. Scooter, semi-automatique ou trail, permis, questions au loueur.",
+   "h1": "Quelle moto pour Sapa : scooter, semi-automatique ou trail ?"
+  },
+  "words_before": 2059,
+  "words_after": 1554,
+  "evidence": {
+   "FACTS": "Removed SEO-process and policy-like wording: 'pages du silo sécurité', 'méthode du site', 'inspection à la livraison' (implied delivery), 'tarifs et conditions au comptoir du jour', 'la trail reine des vallées', 'se paie en assurance'. No price, no delivery claim, no fleet claim. Added sourced context: Lào Cai-Sapa about 35 km, Lào Cai about 90 m and Sapa about 1,650 m (single travel-blog figure, flagged), Trạm Tôn pass about 15 km from Sapa, altitude 1,900-2,047 m depending on source, morning fog under 50 m and pass often in clouds (north-vietnam.com, wayro.ai snippets, seen in a WebSearch result, pages not opened); Ô Quy Hồ nearly 50 km on QL4D and cold-season snow (Vietnam Airlines, seen in search result per digest); province Lào Cai (ex-Yên Bái) (Tuổi Trẻ, retrieved per digest). Law 36/2024/QH15: art. 12 (slow on passes/slopes, rain, fog), art. 20 headlight, art. 57 licence classes (A1 ≤125 cm3/11 kW, A above, IDP of a 1968 Vienna state) from the E-legal digest, 'Vérifié le 30 octobre 2026'. Parking advice reused from the sapa hub (steep streets, front wheel toward the kerb). Descent technique is general safety advice. Shop: address/hours/phone per SEO-FACTS; models, cylindrée, going to Sapa, breakdown, insurance, one-way return, total as questions. Review flags are the cited legal rules and the question list.",
+   "INTENT": "Main question: which motorbike for Sapa. OWNER, /nord-vietnam/meilleure-moto-pour-sapa/. Differs from the closest pages centre-sud-vietnam/meilleur-moto-dalat (0.5), location-moto-hanoi/hanoi-location-moto-pour-sapa (0.44, rental page, linked) and meilleur-moto-cao-bang (0.4) by the Sapa terrain (Lào Cai climb, Trạm Tôn), the three situations (from Hanoi, local rental, pass excursion) and the descent/brake advice.",
+   "CONTENT": "Fully rewritten: terrain with three situations, comparison table, descent checklist, rider-profile checklist, weather, town parking, licence and shop questions, 5 FAQ. Removed the abstract 'géographie du transfert' prose.",
+   "META": "Title 60 chars, description 160 chars or fewer, H1 identical to title; 'comparaison honnête' and 'sans inventer un seul tarif' removed; og tags identical.",
+   "LINKS": "Kept original /nord-vietnam/, sapa-voyage-moto, hanoi-location-moto-pour-sapa, meilleure-moto-pour-ha-giang-boucle, /permis-securite/securite/, /types-motos/trail/; dropped /types-motos/meilleur-moto-montagne-routes-vietnam/; added hanoi-a-sapa-moto. Parent hub present, 7/7. Internal links in main: 7/7 (/location-moto-hanoi/hanoi-location-moto-pour-sapa/, /nord-vietnam/, /nord-vietnam/hanoi-a-sapa-moto/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /nord-vietnam/sapa-voyage-moto/, /permis-securite/securite/, /types-motos/trail/).",
+   "AEO_GEO": "Direct answer in lead (semi-automatique, scooter possible, trail if mastered, 35 km climb, pass at about 2,000 m). Comparison table, 3 checklists, 5-question FAQ (which bike, scooter, Lào Cai-Sapa distance, licence, rent where) not repeating the body; citations Vietnam Airlines, Tuổi Trẻ, north-vietnam.com."
+  },
+  "sources": [
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "2025 provincial mergers (retrieved per G14 digest)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 25(3), expressway ban for motorbikes (retrieved per G14 route digest); articles 20 and 57 per E-legal digest (full text retrieved at hcc.nghean.gov.vn)"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+    "checked": "2026-10-30",
+    "used_for": "Ô Quy Hồ pass length, altitude, cold-season snow (seen in search result)"
+   },
+   {
+    "url": "https://north-vietnam.com/?p=22054",
+    "checked": "2026-10-31",
+    "used_for": "Lào Cai-Sapa about 35 km (seen in search result, page not opened, attribution likely but not certain)"
+   },
+   {
+    "url": "https://north-vietnam.com/tram-ton-pass-o-quy-ho/",
+    "checked": "2026-10-31",
+    "used_for": "Trạm Tôn pass about 15 km from Sapa, about 2,000 m, often in cloud (seen in search result snippet, page not opened)"
+   },
+   {
+    "url": "https://blog.wayro.ai/sapa-lao-cai-drive-must-stops-and-route-tips",
+    "checked": "2026-10-31",
+    "used_for": "Sapa about 1,650 m, Lào Cai about 90 m, morning fog under 50 m (seen in search result snippet, single low-reliability source, flagged)"
+   }
+  ],
+  "owner_gaps": [
+   "Which models and cylindrée are available, whether the bike may go to Sapa, one-way return, breakdown assistance, insurance, total price: unconfirmed, written as questions. No trail rate (no owner row)."
+  ]
  }
 ]

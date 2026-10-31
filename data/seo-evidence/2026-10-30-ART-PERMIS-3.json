@@ -270,5 +270,112 @@
    "description": "Permis international et moto au Vietnam : conditions de l’article 57 de la loi 36/2024, Convention de 1968, catégorie, validité, obtention en France.",
    "h1": "Permis de conduire international et moto au Vietnam : quand est-il valable ?"
   }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Comment échanger un permis étranger contre un permis vietnamien (procédure pas à pas, éligibilité, texte applicable). Owner of 'échanger son permis de conduire étranger au Vietnam'; the TOPIC-CONVERSION-PERMIS group owner for 'convertir permis étranger vietnam' is permis-securite/conversion-permis-conduire-etranger-vietnam/ (linked). Closest: 50cc-scooter-license-vietnam (0.3, different topic), touriste-conversion (linked), temporary-residence (linked).",
+  "words_before": 2289,
+  "evidence": {
+   "FACTS": "From E-legal-digest: Law 36/2024/QH15 art. 62(2)(đ) (still-valid foreign licence can be exchanged; full text retrieved), A1/A/B1 no expiry (art. 57(5)(a)); Circular 12/2025/TT-BCA in force 1 March 2025, foreigners residing/working/studying with valid national licence and diplomatic/official ID or temporary/permanent residence card (seen in search result); Circular 108/2026/TT-BCA, 29 June 2026, in force 1 July 2026, possibly superseding (seen in search result, not read). Additional WebSearch 2026-10-31 (snippets only): circular 12/2025 art. 18(7) and art. 24(2) for foreigners' file, form in Annex XIII for foreigners; non-exchangeable: temporary/provisional foreign licence, international licence, expired, erased/torn, not issued by competent authority; a source says the exchange provisions of circular 12/2025 cease from 1 July 2026; general filing venues (commune police reception point, traffic police office, online public service, art. 21(2)) presented as general procedure to confirm. No fees, delays, document lists or exam requirement stated (listed as questions to ask). REMOVED unsupported claims from the old text: Department of Transport as the counter (licence management is under Public Security per the circular), sworn translation step, medical certificate, 'visa d'au moins trois mois', 'permis expire avec le titre de séjour', theory exam in Vietnamese, delays in 'jours ouvrés', provincial variation. Shop NAP/hours from SEO-FACTS; documents required at rental to confirm before booking.",
+   "INTENT": "Main question: what is the procedure to exchange a foreign licence for a Vietnamese one. Differs from the group owner (who may convert, overview), from the tourist article (short-stay case) and from the residence-card article (the residence title) by laying out the ordered steps and the verification of the applicable circular; each of these is linked once.",
+   "CONTENT": "Full rewrite: removed the 'cinq étapes' narrative built on unverified detail, repetitive meta-commentary ('principe d'honnêteté'), and a FAQ that repeated the body. New sections: legal basis; who can apply; which licence can be exchanged; which text applies (12/2025 vs 108/2026); five steps; questions only the competent service can answer; riding meanwhile; five mistakes; FAQ x5.",
+   "META": "Title kept ('Échanger son permis étranger au Vietnam : la procédure pas à pas'); H1 kept; description rewritten (152 chars) to avoid implying a verified file list; og tags identical; eyebrow 'Permis · Échange pour résidents'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/conversion-permis-conduire-etranger-vietnam/ (group owner), /permis-securite/temporary-residence-permis-etranger-conversion-vietnam/, /permis-securite/touriste-conversion-permis-conduire-vietnam/, /permis-securite/permis-conduire-international-vietnam-moto/. Dropped /location-moto-hanoi/location-moto-hanoi-vietnam/, /location-moto-hanoi/debutant-location-moto-hanoi/, /permis-securite/permis/. 7/7 unique.",
+   "AEO_GEO": "Lead states in 3 sentences what the law allows, the five steps and what is not verified. Ordered checklist of 5 steps, checklist of 6 questions, checklist of 5 mistakes, FAQ x5 (tourist, IDP, documents, cost/time, which text applies). Citations: law text, circular summary (seen in search result)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 57, 62 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/huong-dan-thuc-hien-doi-giay-phep-lai-xe-theo-thong-tu-122025-201157.html",
+    "checked": "2026-10-31",
+    "used_for": "Circular 12/2025/TT-BCA summary: eligibility, non-exchangeable licences, annex XIII (seen in search result, snippets only)"
+   },
+   {
+    "url": "https://luatvietnam.vn/bai-viet-lien-quan/12-2025-tt-bca-392101.html",
+    "checked": "2026-10-31",
+    "used_for": "Circular 108/2026/TT-BCA mention in related-news list (seen in search result, not opened)"
+   }
+  ],
+  "owner_gaps": [
+   "Exact current circular, document list, fees, delays, competent office and any exam/medical requirement for exchange: not verified; the article gives questions to ask instead."
+  ],
+  "path": "permis-securite/permis-etranger-conversion-vietnam/index.html",
+  "words_after": 1651,
+  "new_meta": {
+   "title": "Échanger son permis étranger au Vietnam : la procédure pas à pas",
+   "description": "Échange d’un permis étranger contre un permis vietnamien : qui peut le demander, étapes à suivre, circulaire à vérifier et questions à poser au guichet.",
+   "h1": "Échanger son permis de conduire étranger au Vietnam : la démarche pas à pas"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Que faut-il présenter et comment se comporter lors d'un contrôle routier à moto au Vietnam. Owner of 'contrôle routier à moto au Vietnam'; closest pages (location-moto-hanoi-pour-tourists 0.15, documents-moto-location-vietnam 0.10, semi-automatique) are different topics; documents-moto-location-vietnam (list of papers) and passeport-location-moto-vietnam are linked.",
+  "words_before": 2063,
+  "evidence": {
+   "FACTS": "From E-legal-digest (full text of Law 36/2024/QH15 retrieved): art. 56(1) documents to carry (registration certificate or certified copy + bank confirmation if mortgaged; licence matching vehicle; inspection certificate where required; owner's compulsory civil-liability insurance certificate), art. 56(4)/59 xe gắn máy exemption and age 16, art. 57 (national licence + IDP), art. 9 (zero alcohol, phone, licence), art. 33 (helmet, one passenger), art. 25 (no expressways), arts. 15/22 (U-turn, priorities), art. 20 (headlight 18:00-06:00). 'Vérifié le 30 octobre 2026' stated. Emergency number 113 stated 'selon une synthèse juridique vietnamienne' (seen in search result per digest). Fine amounts not stated; Decree 168/2024/NĐ-CP referenced (seen in search result). Passport carrying duty for foreigners NOT verified: stated as unverified, copy + photo suggested as precaution. REMOVED unsupported claims of the old text: that checks target tourist zones/festival periods, that officers in tourist zones are used to travellers, details on how payment and appeals work, 'immobilisation de la machine', claims that the loueur's help is usual and that a serious loueur 'explique la conduite à tenir'. Shop: phone/Zalo/WhatsApp and hours from SEO-FACTS; no assistance or interpreting service promised, to ask before booking. Vietnamese phrases ('Xin chào', 'Tôi là khách du lịch', 'Tôi thuê xe này', 'Tôi gọi cho chủ xe được không ?') given as translation-app suggestions.",
+   "INTENT": "Main question: what to show and how to behave during a roadside check. Distinct from documents-moto-location-vietnam (full document list) and passeport-location-moto-vietnam (identity papers) by focusing on the check itself; both linked.",
+   "CONTENT": "Full rewrite: removed mannered passages ('un coup de sifflet…', 'la seule stratégie rationnelle', 'ce guide vient de la faire') and the repeated 'sources officielles' disclaimers; new sections: documents table (art. 56); passport/ID; rules a check can verify (checklist); gestures during the check; fine, record and receipt; the loueur; after the check; preparation checklist; FAQ x5.",
+   "META": "Title kept ('Contrôle routier à moto au Vietnam : papiers et conduite à tenir'), H1 kept; description rewritten (151 chars) with the legal basis; og tags identical; eyebrow 'Sécurité · Contrôle routier'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/permis/, /permis-securite/documents-moto-location-vietnam/, /permis-securite/passeport-location-moto-vietnam/, /permis-securite/vietnam-emergency-numbers-moto-touriste/. Dropped /permis-securite/location-moto-contrat-vietnam/ (cap). 7/7 unique.",
+   "AEO_GEO": "Lead answers directly in 4 sentences (papers, behaviour, written record, fines not quoted). Table of papers by legal basis, checklist of rules, preparation checklist, FAQ x5 (tourists, papers, passport, fine on the spot, missing papers). Citations: law text, decree 168/2024 page."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 arts. 9, 15, 20, 22, 25, 33, 56, 57 (full text retrieved per legal digest)"
+   },
+   {
+    "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+    "checked": "2026-10-30",
+    "used_for": "Decree 168/2024/NĐ-CP title (sanctions); amounts not read (seen in search result per digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Procedure for payment of fines, retention of documents/vehicle and passport carrying duty for foreigners: not verified.",
+   "Whether the shop gives roadside/after-incident assistance or interpreting: not asserted, to ask before booking."
+  ],
+  "path": "permis-securite/police-moto-vietnam-touriste/index.html",
+  "words_after": 1646,
+  "new_meta": {
+   "title": "Contrôle routier à moto au Vietnam : papiers et conduite à tenir",
+   "description": "Contrôle de police à moto au Vietnam : papiers exigés par la loi 36/2024, attitude à adopter, amende et procès-verbal, et réflexes avec une moto louée.",
+   "h1": "Contrôle routier à moto au Vietnam : papiers et conduite à tenir"
+  }
+ },
+ {
+  "role": "OWNER",
+  "primary_intent": "Comment passer les vitesses d'une moto semi-automatique au Vietnam, surtout en montée et descente de col. Owner of 'semi-automatique' in this path; sibling owner hanoi/semi-automatique-moto-routes-hanoi ('moto semi-automatique', similarity 0.38) and types-motos/automatique-ou-semi-automatique-moto-vietnam (0.44 with that one) cover the choice/route/comparison; this article stays on the shifting technique and mountain use, with links to the type pages.",
+  "words_before": 2356,
+  "evidence": {
+   "FACTS": "Mechanical technique only (centrifugal clutch, foot shifter, brake layout 'sur la plupart des modèles', N-1-2-3-4 rotary grid vs classic grid, engine braking weakens at very low rpm when the centrifugal clutch disengages). CORRECTED the old text: neutral stated between 1st and 2nd as universal (now depends on model), 'le guidon ne porte que le frein' (brake layout is model-dependent), claims that the semi-automatic is 'la machine la plus louée du Vietnam' and 'la machine des locaux sur ces routes' (unsourced, removed). No model specs. Licence statement from E-legal-digest: Law 36/2024/QH15 art. 57(1) A1 up to 125 cm3, xe gắn máy 50 cm3 exemption (full text retrieved); most semi-automatics exceed 50 cm3 so category A1 + IDP, to confirm with the exact cylindrée. Prices: owner table, semi-automatic row only (150 000–200 000 VND/day, 700 000–800 000 VND/week, 1 000 000–1 200 000 VND/month) with the mandatory disclaimer; no derived package, no availability promise (model availability to confirm by phone/Zalo 0334 699 969). NAP/hours from SEO-FACTS.",
+   "INTENT": "Main question: how to shift gears on a semi-automatic, particularly on mountain roads. Distinct from the sibling owners (route/comparison/type) by being the technique guide; links to the type page and the automatic-vs-semi-automatic comparison, and to the mountain descent guide.",
+   "CONTENT": "Full rewrite: removed mannered passages ('le levier conduit par la technique', 'les freins y sont des invités', 'discipline du silo', 'principe du silo') and the FAQ that repeated the body. New sections: how the gearbox works; three-step shift; climbing; descending (engine brake and its limit); summit and hairpins; errors table; pre-departure checks; which trip/licence/price reference; FAQ x5.",
+   "META": "Title kept ('Semi-automatique au Vietnam : passer les vitesses en montagne'), H1 kept; description rewritten (147 chars) without promises; og tags identical; eyebrow 'Sécurité · Boîte semi-automatique'.",
+   "LINKS": "Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others kept or added: /types-motos/semi-automatique/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/vietnam-permis-moto-a1-a/. Dropped /nord-vietnam/ha-giang/ and /location-moto-hanoi/location-moto-hanoi-vietnam/. 7/7 unique.",
+   "AEO_GEO": "Lead gives the answer in three sentences (no hand clutch, three-step shift, downshift early). Ordered list for the shift, errors table, checklist, FAQ x5 (how to shift, neutral location, descending in neutral, when to downshift, beginners)."
+  },
+  "sources": [
+   {
+    "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+    "checked": "2026-10-30",
+    "used_for": "Law 36/2024/QH15 art. 34, 57: A1 up to 125 cm3, xe gắn máy definition (full text retrieved per legal digest)"
+   }
+  ],
+  "owner_gaps": [
+   "Which semi-automatic models the shop rents and their exact cylindrée: not asserted, to confirm.",
+   "Shifting grid of rental models not verified: stated as model-dependent."
+  ],
+  "path": "permis-securite/semi-automatique-moto-shifting-vietnam/index.html",
+  "words_after": 1784,
+  "new_meta": {
+   "title": "Semi-automatique au Vietnam : passer les vitesses en montagne",
+   "description": "Comment passer les vitesses d’une semi-automatique au Vietnam : levier au pied, rétrogradage en col, frein moteur et erreurs courantes du débutant.",
+   "h1": "Semi-automatique : monter et descendre les rapports sur les routes du Vietnam"
+  }
  }
 ]

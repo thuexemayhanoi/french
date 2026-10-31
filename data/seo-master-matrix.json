@@ -67,7 +67,7 @@
       "files": "all 543 master page rows; data/seo-cluster-matrix.json; docs/SILO-MAP.md",
       "acceptance": "Assign each actual intent to one preferred French URL and distinct purpose for siblings. Home broad commercial query; rental pillar process/options. No surrender to other owned domains. Document duplicate-intent candidates and safe content differentiation; no bulk redirects/noindex.",
       "status": "DONE",
-      "evidence": "tools/seo_ownership.py → data/seo-query-ownership.json (543 URLs): primary French query seed, role OWNER/DISTINCT_ANGLE, group owner, angle and 3 closest pages per URL. 24 overlap groups decided from token-similarity candidates (same model set, Jaccard ≥0.45) and model-pair comparison clusters (e.g. Vision/Janus ×4, Air Blade/NVX ×5, Winner X/Exciter ×3, deposit/passport cluster, courte/longue durée article vs sub-hub). Homepage owns 'location moto hanoi'; /location-moto-hanoi/ re-titled as the step-by-step guide. 39 sibling pages keep URL+content with a documented distinct angle (road/duo, prise en main, coût, etc.); no redirect, noindex or cross-domain canonical; no query ceded to another owned domain. Implementation of each angle is verified per page under INTENT during the article reviews (docs/SEO-ARTICLE-REVIEW-PROTOCOL.md)."
+      "evidence": "Ownership map re-run 2026-10-31 after the article rewrites (tools/seo_ownership.py → data/seo-query-ownership.json): 543 URLs, 28 overlap groups, 44 DISTINCT_ANGLE pages, and no two pages sharing a primary query seed (seeds now taken from the full H1). New groups since 2026-10-29: Hà Giang (sub-hub owner; first-timer guide and budget angles), Sapa (sub-hub owner; on-site angle), Ninh Bình (sub-hub owner; local-loops angle), pricing hub vs the 'lire une offre' article. Each angle was applied in the page rewrites (agent evidence under INTENT). Homepage owns 'location moto hanoi'. No redirect, noindex or cross-domain canonical; no query ceded to another owned domain."
     },
     {
       "id": "G06",
@@ -6355,7 +6355,7 @@
           "Téléphone, Zalo et WhatsApp",
           "Préparer votre location"
         ],
-        "source_body_internal_inlinks": 25,
+        "source_body_internal_inlinks": 28,
         "source_body_internal_inlink_examples": [
           "a-propos/index.html",
           "blog/index.html",
@@ -25953,7 +25953,7 @@
           "Faut-il un permis pour louer ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 23,
+        "source_body_internal_inlinks": 22,
         "source_body_internal_inlink_examples": [
           "hanoi/easy-moto-routes-hanoi-debutant/index.html",
           "hanoi/que-faire-hanoi-vieux-quartier/index.html",
@@ -26593,7 +26593,7 @@
           "Saisons et périodes",
           "Partir de Hanoi et comparer les alternatives"
         ],
-        "source_body_internal_inlinks": 274,
+        "source_body_internal_inlinks": 269,
         "source_body_internal_inlink_examples": [
           "a-propos/index.html",
           "blog/index.html",
@@ -28799,7 +28799,7 @@
           "Questions fréquentes",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/index.html",
           "location-moto-hanoi/location-moto-hanoi-pour-tourists/index.html",
@@ -32508,7 +32508,7 @@
           "Guides détaillés sur Hà Giang",
           "Continuer la préparation"
         ],
-        "source_body_internal_inlinks": 27,
+        "source_body_internal_inlinks": 26,
         "source_body_internal_inlink_examples": [
           "honda/index.html",
           "location-moto-hanoi/hanoi-location-moto-pour-ha-giang/index.html",
@@ -33150,7 +33150,7 @@
           "Guides détaillés sur Hạ Long et la côte",
           "Continuer la préparation"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "hanoi/excursions-moto/index.html",
           "nord-vietnam/index.html",
@@ -33797,7 +33797,7 @@
           "Hà Giang est-elle encore une province ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 10,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "nord-vietnam/ha-giang-boucle-3-jours-moto/index.html",
           "nord-vietnam/ha-giang-boucle-4-jours-moto/index.html",
@@ -34317,7 +34317,7 @@
           "Peut-on rendre la moto à Sapa ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "nord-vietnam/hanoi-mu-cang-chai-moto-3-jours/index.html",
@@ -34369,7 +34369,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; kept sapa-voyage-moto, hanoi-location-moto-pour-sapa, moto-montagne-pass-securite-vietnam; dropped generic /hanoi/jour-voyages-de-hanoi-by-moto/; added /nord-vietnam/meilleure-moto-pour-sapa/. Parent hub present. Internal links in main: 7/7 (/location-moto-hanoi/hanoi-location-moto-pour-sapa/, /nord-vietnam/, /nord-vietnam/meilleure-moto-pour-sapa/, /nord-vietnam/sapa-voyage-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/securite/, /types-motos/trail/). Built check: 7 source-body incoming links (e.g. blog/index.html, nord-vietnam/hanoi-mu-cang-chai-moto-3-jours/index.html, nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html); 7 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; kept sapa-voyage-moto, hanoi-location-moto-pour-sapa, moto-montagne-pass-securite-vietnam; dropped generic /hanoi/jour-voyages-de-hanoi-by-moto/; added /nord-vietnam/meilleure-moto-pour-sapa/. Parent hub present. Internal links in main: 7/7 (/location-moto-hanoi/hanoi-location-moto-pour-sapa/, /nord-vietnam/, /nord-vietnam/meilleure-moto-pour-sapa/, /nord-vietnam/sapa-voyage-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/securite/, /types-motos/trail/). Built check: 9 source-body incoming links (e.g. blog/index.html, nord-vietnam/hanoi-mu-cang-chai-moto-3-jours/index.html, nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "2c5252dae2dcaeae70e36cd572a199f77d2eacc48edb7b475560d13a3301e166"
         },
         "AEO_GEO": {
@@ -34389,7 +34389,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "2c5252dae2dcaeae70e36cd572a199f77d2eacc48edb7b475560d13a3301e166"
         },
         "TECHNICAL": {
@@ -34641,7 +34641,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "b0f16067bdf234f8f5a1c533ce8958092f23ce6a3bd78048e8cb8a81f1c39fb1"
         },
         "TECHNICAL": {
@@ -35025,7 +35025,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "0d29f09b36cfaec71594b61e9c86db5276767604250db1fe38f368f93a630750"
         },
         "TECHNICAL": {
@@ -35156,7 +35156,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "350122d4aa01ad05b23c3ce11a9a2915b9cdf841fbda15e0bf243a9a79b1d08f"
         },
         "TECHNICAL": {
@@ -35282,7 +35282,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "d08b1c3bd410557e40ae06a2c1d99134a789ea62929f43ae650f9d92cac90631"
         },
         "TECHNICAL": {
@@ -35807,7 +35807,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "4598cb2d89d8edb419e11365e75789f14821ea827d2e03e6727c907978317d28"
         },
         "TECHNICAL": {
@@ -35988,7 +35988,7 @@
           "Peut-on changer de moto en cours de voyage ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 5,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "nord-vietnam/cao-bang-voyage-moto/index.html",
           "nord-vietnam/hanoi-ba-be-itineraire-moto/index.html",
@@ -36040,7 +36040,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped /location-moto-hanoi/; added /types-motos/semi-automatique/, hanoi-a-cao-bang-moto, cao-bang-moto-boucle, meilleure-moto-pour-ha-giang-boucle. Parent hub present, 7/7. Internal links in main: 7/7 (/nord-vietnam/, /nord-vietnam/cao-bang-moto-boucle/, /nord-vietnam/hanoi-a-cao-bang-moto/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /permis-securite/securite/, /types-motos/semi-automatique/, /types-motos/trail/). Built check: 5 source-body incoming links (e.g. nord-vietnam/cao-bang-voyage-moto/index.html, nord-vietnam/hanoi-ba-be-itineraire-moto/index.html, nord-vietnam/hanoi-lang-son-voyage-moto/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped /location-moto-hanoi/; added /types-motos/semi-automatique/, hanoi-a-cao-bang-moto, cao-bang-moto-boucle, meilleure-moto-pour-ha-giang-boucle. Parent hub present, 7/7. Internal links in main: 7/7 (/nord-vietnam/, /nord-vietnam/cao-bang-moto-boucle/, /nord-vietnam/hanoi-a-cao-bang-moto/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /permis-securite/securite/, /types-motos/semi-automatique/, /types-motos/trail/). Built check: 4 source-body incoming links (e.g. nord-vietnam/cao-bang-voyage-moto/index.html, nord-vietnam/hanoi-ba-be-itineraire-moto/index.html, nord-vietnam/hanoi-lang-son-voyage-moto/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "1fe3cb21c8f242ea7d71561ff848e1016d7550efc84c03afdd783b66dabb917e"
         },
         "AEO_GEO": {
@@ -36084,33 +36084,34 @@
       "cluster": "nord",
       "parent_hub": "/nord-vietnam/",
       "priority": "P1",
-      "keyword_seed_fr": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Binh ?",
+      "keyword_seed_fr": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Bình ?",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "9d7439d7c6535dda771a2f2c28966ce8b651f475c20b3dacd1a10e65a259e630",
-        "title": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Binh ?",
+        "source_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e",
+        "title": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Bình ?",
         "title_chars": 64,
-        "description": "50cc, scooter automatique ou semi-automatique pour Ninh Binh ? Comparaison honnête selon le parcours : rizières plates, pistes du parc et routes touristiques.",
+        "description": "50cc, scooter automatique ou semi-automatique pour Ninh Bình : terrain plat, une centaine de km depuis Hanoi, 50cc et loi, prix indicatifs, critères de choix.",
         "description_chars": 158,
-        "h1": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Binh ?",
+        "h1": "50cc, scooter ou semi-automatique : quelle moto pour Ninh Bình ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/meilleur-moto-ninh-binh/",
-        "editorial_word_count_estimate": 1775,
+        "editorial_word_count_estimate": 1489,
         "h2_h3": [
-          "D’abord le parcours : ce que le terrain demande vraiment",
-          "Le 50cc : l’option légère, pour un usage bien cadré",
-          "Le scooter automatique : le choix du confort quotidien",
-          "La semi-automatique : l’engin des routes locales",
-          "La petite trail : pour les pistes et les programmes larges",
-          "Louer à Hanoï ou sur place : la dernière variable du choix",
-          "Questions fréquentes sur le choix de la moto à Ninh Binh",
-          "Un scooter automatique suffit-il pour visiter Ninh Binh ?",
-          "Le 50cc est-il autorisé sur les routes de la région ?",
-          "Quelle machine pour aller jusqu’à Cuc Phuong ?",
-          "Faut-il savoir passer les vitesses pour une semi-automatique ?",
-          "Que vérifier avant de louer, quel que soit l’engin ?",
+          "Ce que le terrain de Ninh Bình demande",
+          "50cc, scooter automatique ou semi-automatique : la comparaison",
+          "Prix indicatifs",
+          "Les sites à relier : ce que cela change pour la machine",
+          "Le 50cc : à quelles conditions ?",
+          "Une trail à Ninh Bình ?",
+          "Louer à Hanoi ou à Ninh Bình ?",
+          "Questions fréquentes",
+          "Un scooter automatique suffit-il pour Ninh Bình ?",
+          "Le 50cc est-il adapté à Ninh Bình ?",
+          "Faut-il un permis pour un 50cc ?",
+          "La trail est-elle utile ?",
+          "Vaut-il mieux louer à Hanoi ou à Ninh Bình ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 2,
@@ -36143,47 +36144,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): PRICES: only owner-table rows for semi-automatic (150,000-200,000 / 700,000-800,000 / 1,000,000-1,200,000 VND), automatic scooter (150,000-200,000 / 600,000-1,000,000 / 1,200,000-2,000,000) and 50cc (200,000 / 1,000,000 / 2,000,000), with the exact disclaimer next to the table; the observation that the 50cc is never cheaper than the two other rows is derived directly from those rows; no trail rate (stated that none exists). No multiplication, no conversion. Removed unsourced claims: 'coût de location parmi les plus bas', 'assistance proche en cas de souci', 'engins du coin bien adaptés', 'agences sérieuses', fleet claims. LEGAL (E-legal digest, 'Vérifié le 30 octobre 2026'): 50cc = xe gắn máy only if ≤50 cm3 AND design speed ≤50 km/h (art. 34); no driving licence under art. 56 but age ≥16, rules/skills, helmet, zero alcohol, vehicle registration + compulsory civil insurance; vehicle outside definition needs A1 (corrects the blanket '50cc sans permis'); A1 ≤125 cm3 / A above (art. 57); helmet art. 33 and QCVN 2:2021/BKHCN CR mark (thuvienphapluat page seen in search result per digest, not opened); expressway art. 25(3). Ninh Bình facts reused from the hub: Tràng An about 100 km, Tam Cốc 104, Bái Đính 97, Vân Long 86 (Oxalis, seen in search result per digest), UNESCO 2014 (whc.unesco.org/en/list/1438, retrieved per digest), province merger (Tuổi Trẻ, retrieved). Shop: address/hours/phone per SEO-FACTS; availability, cylindrée, leaving Hanoi, breakdown, insurance and total only as questions. Review flags are the cited legal rules and the question list. Sources: https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://whc.unesco.org/en/list/1438; https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/; https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Main question: 50cc, automatic scooter or semi-automatic for Ninh Bình. OWNER (primary query '50cc, scooter ou semi-automatique'), /nord-vietnam/meilleur-moto-ninh-binh/. Differs from types-motos/scooter-ou-semi-automatique-ninh-binh (closest, 0.44; two-way scooter vs semi comparison, linked) by including the 50cc with its legal conditions and the price rows, and from meilleur-moto-cao-bang (0.4) and meilleur-moto-dalat (0.36) by the Ninh Bình terrain.",
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Fully rewritten: terrain, 3-way comparison table, indicative prices, sites and machine, 50cc conditions, trail, rent in Hanoi vs on site (with helmet and checks), 5-question FAQ. Removed the long generic descriptions of each machine. Sources: https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://whc.unesco.org/en/list/1438; https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/; https://thuvienphapluat.vn/tcvn/Giao-thong/QCVN-2-2021-BKHCN-Mu-bao-hiem-cho-nguoi-di-mo-to-xe-may-919120.aspx",
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Title kept (64 chars, now with Bình diacritic), description rewritten (158 chars; 'Comparaison honnête' removed), H1 identical to title; og tags identical. Built check: Unique title (64 chars) and description (158 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped /location-moto-hanoi/ and /types-motos/; added ninh-binh-voyage-moto, types-motos/50cc-hanoi-a-ninh-binh, types-motos/scooter-ou-semi-automatique-ninh-binh. Parent hub present. Internal links in main: 6/7 (/nord-vietnam/, /nord-vietnam/ninh-binh-voyage-moto/, /permis-securite/securite/, /types-motos/50cc-hanoi-a-ninh-binh/, /types-motos/scooter-ou-semi-automatique-ninh-binh/, /types-motos/trail/). Built check: 2 source-body incoming links (e.g. nord-vietnam/index.html, nord-vietnam/ninh-binh/index.html); 2 built pages link here incl. navigation; BreadcrumbList rendered; 6 unique internal body links, none broken.",
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Direct answer in lead (scooter or semi for most, 50cc only on site, trail only off main roads). Comparison table (5 criteria × 3 machines), price table with disclaimer, 2 checklists, 5-question FAQ (scooter, 50cc, licence, trail, where to rent) without repeating the body.",
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/meilleur-moto-ninh-binh/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "9d7439d7c6535dda771a2f2c28966ce8b651f475c20b3dacd1a10e65a259e630"
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-meilleur-moto-ninh-binh assets/images/seo/nord-vietnam/meilleur-moto-ninh-binh/hero.webp WebP 1200x630 198 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "9d7439d7c6535dda771a2f2c28966ce8b651f475c20b3dacd1a10e65a259e630"
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/meilleur-moto-ninh-binh/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/meilleur-moto-ninh-binh/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "9d7439d7c6535dda771a2f2c28966ce8b651f475c20b3dacd1a10e65a259e630"
+          "verified_sha256": "e8f5b00c2869ac4d54c6870c9ddcb5baa55f4498940dedcc1582a83ae0a5f41e"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -36201,34 +36209,35 @@
       "cluster": "nord",
       "parent_hub": "/nord-vietnam/",
       "priority": "P1",
-      "keyword_seed_fr": "Quelle moto pour monter à Tam Dao : choisir la bonne monture",
+      "keyword_seed_fr": "Quelle moto pour monter à Tam Đảo ?",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "f7738c56327e7cadb61764c609ec8b77deb02fa1245d09d91ef3d8ea2589834f",
-        "title": "Quelle moto pour Tam Dao : bien choisir pour la montée",
-        "title_chars": 54,
-        "description": "Quelle moto louer pour monter à Tam Dao depuis Hanoï ? Trail, semi-automatique ou scooter automatique : la pente, les lacets, la météo et les bons réflexes pour choisir juste.",
-        "description_chars": 175,
-        "h1": "Quelle moto pour monter à Tam Dao : choisir la bonne monture",
+        "source_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d",
+        "title": "Quelle moto pour monter à Tam Đảo : trail, semi ou scooter",
+        "title_chars": 58,
+        "description": "Quelle moto pour Tam Đảo depuis Hanoi : montée d’une dizaine de km en lacets vers 900 m, freinage en descente, trail, semi-automatique ou scooter automatique.",
+        "description_chars": 158,
+        "h1": "Quelle moto pour monter à Tam Đảo ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/meilleur-moto-tam-dao/",
-        "editorial_word_count_estimate": 1731,
+        "editorial_word_count_estimate": 1487,
         "h2_h3": [
-          "Une montée qui change les données",
-          "La petite trail : la monture qui rassure",
-          "La semi-automatique : le choix raisonnable",
-          "Le scooter automatique : possible, avec des garde-fous",
-          "Route et météo décident autant que la moto",
+          "La montée : ce que disent les guides",
+          "Trail, semi-automatique, scooter ou 50cc : la comparaison",
+          "La descente : le vrai sujet",
+          "Quel profil, quelle moto ?",
+          "Une journée type, étape par étape",
+          "Météo, horaires et fréquentation",
           "Préparer la machine et l’équipement",
-          "Louer à Hanoï : les questions qui départagent",
-          "Questions fréquentes sur la moto pour Tam Dao",
-          "Un scooter monte-t-il à Tam Dao ?",
-          "Faut-il une trail pour Tam Dao ?",
-          "La route de Tam Dao est-elle difficile ?",
-          "Peut-on faire Tam Dao en une journée depuis Hanoï ?",
-          "Quel est le meilleur moment pour monter ?",
+          "Les questions à poser avant de réserver",
+          "Questions fréquentes",
+          "Quelle moto choisir pour monter à Tam Đảo ?",
+          "Un scooter automatique peut-il monter à Tam Đảo ?",
+          "Quelle distance entre Hanoi et Tam Đảo ?",
+          "Un 50cc suffit-il ?",
+          "Faut-il un permis particulier ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 1,
@@ -36260,47 +36269,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Original had unsourced statements: 'monture la plus louée au Vietnam', 'les scooters montent tous les jours, les locaux le font', 'les contrôles de police existent aussi sur l'axe', 'machine la plus simple à louer donc moins bien préparée des flottes', 'assistance en cas de panne' as a selection criterion for rental agencies, deposit/'avant paiement' language. All removed or turned into questions. Added sourced context: Tam Đảo about 70-90 km from central Hanoi depending on start point (some pages lower, flagged), final climb about 11-13 km, town about 900-930 m (vietnamtourism.com French guide and other pages, seen in a WebSearch result, pages not opened; flagged to readers 'les chiffres varient'). Province: Tam Đảo ex-Vĩnh Phúc now Phú Thọ (Tuổi Trẻ, retrieved per digest). Law 36/2024/QH15: art. 12 (adapt speed, slow on passes/slopes, rain, fog), art. 20 headlight, art. 25(3) expressway ban, art. 57 licence classes (A1 ≤125 cm3, A above, IDP of 1968 Vienna state) from the E-legal digest, 'Vérifié le 30 octobre 2026'. Descent technique (engine braking, cadence braking) is general safety advice, not sourced to a model. No rate quoted for any model (no price in the article). Shop: address/hours/phone per SEO-FACTS; availability, cylindrée, passenger, leaving Hanoi, breakdown, insurance, total as questions. Review flags are the cited legal rules and the question list. Sources: https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://www.vietnamtourism.com/fr/parc-national-de-tam-dao-le-guide-complet-pour-s-echapper-a",
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Main question: which motorbike for the Tam Đảo climb. OWNER, /nord-vietnam/meilleur-moto-tam-dao/. Differs from /nord-vietnam/tam-dao-voyage-moto-hanoi/ (destination guide, linked), location-moto-hanoi/choisir-location-moto-hanoi (general rental choice) and types-motos/meilleur-moto-montagne-routes-vietnam (general mountain choice) by focusing on the 11-13 km climb, descent braking and the Hanoi context.",
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Rewritten: climb facts, 4-machine comparison table, descent checklist, weather and timing, profile checklist, step-by-step day, preparation, shop questions, 5 FAQ. Removed generic machine essays. Sources: https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://www.vietnamtourism.com/fr/parc-national-de-tam-dao-le-guide-complet-pour-s-echapper-a",
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Title 58 chars, description 158 chars, H1 shortened to the question; Tam Dao -> Tam Đảo; og tags identical. Built check: Unique title (58 chars) and description (158 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept required /nord-vietnam/, /types-motos/trail/, /permis-securite/securite/; dropped /location-moto-hanoi/, /nord-vietnam/meilleur-moto-cao-bang/ and /types-motos/semi-automatique-ou-trail-moto-sapa/ (other regions); added tam-dao-voyage-moto-hanoi, types-motos/semi-automatique, types-motos/automatique-ou-semi-automatique-moto-vietnam, permis-securite/automatique-scooter-montagne-pass-vietnam. Parent hub present, 7/7. Internal links in main: 7/7 (/nord-vietnam/, /nord-vietnam/tam-dao-voyage-moto-hanoi/, /permis-securite/automatique-scooter-montagne-pass-vietnam/, /permis-securite/securite/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /types-motos/semi-automatique/, /types-motos/trail/). Built check: 1 source-body incoming links (e.g. nord-vietnam/index.html); 1 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Direct answer in lead (semi-automatique simplest, trail with margin, scooter experienced, distance, climb). Comparison table (4 machines), 3 checklists, 5-question FAQ not repeating the body; citations Tuổi Trẻ, vietnamtourism.",
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/meilleur-moto-tam-dao/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "f7738c56327e7cadb61764c609ec8b77deb02fa1245d09d91ef3d8ea2589834f"
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-meilleur-moto-tam-dao assets/images/seo/nord-vietnam/meilleur-moto-tam-dao/hero.webp WebP 1200x630 200 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "f7738c56327e7cadb61764c609ec8b77deb02fa1245d09d91ef3d8ea2589834f"
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/meilleur-moto-tam-dao/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/meilleur-moto-tam-dao/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "f7738c56327e7cadb61764c609ec8b77deb02fa1245d09d91ef3d8ea2589834f"
+          "verified_sha256": "94cde6d145370ac2ff9a06233eb3006d6bbbb3dea101a5efcf330089fe8e4d2d"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -36323,28 +36339,30 @@
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "69d0adc37a41b08e32a86a5f15ba080b4f2918b004acbb3263a58316ee85ac30",
-        "title": "Quelle moto pour la boucle de Hà Giang ? Le comparatif complet",
-        "title_chars": 62,
-        "description": "Quelle moto pour la boucle de Hà Giang : trail, semi-automatique ou scooter — les arguments de chaque machine sur les cols du nord, et la règle du choix honnête expliquée.",
-        "description_chars": 171,
+        "source_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57",
+        "title": "Quelle moto pour la boucle de Hà Giang : trail, semi ou scooter ?",
+        "title_chars": 65,
+        "description": "Quelle moto pour la boucle de Hà Giang : semi-automatique, trail ou scooter, freinage en descente, permis selon la cylindrée, contrôles et questions au loueur.",
+        "description_chars": 159,
         "h1": "Quelle moto pour la boucle de Hà Giang ? Trail, semi-automatique ou scooter",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/meilleure-moto-pour-ha-giang-boucle/",
-        "editorial_word_count_estimate": 2137,
+        "editorial_word_count_estimate": 1501,
         "h2_h3": [
-          "La route d'abord : ce que la boucle demande à une machine",
-          "La trail : la machine des cols",
-          "La semi-automatique : la machine du pays",
-          "Le scooter : la tentative et ses limites",
-          "La règle du choix : qui conduit, comment, quand",
-          "La location : le contrat et l'état de la machine",
+          "Ce que la boucle demande à une moto",
+          "Trail, semi-automatique ou scooter : la comparaison",
+          "Ce que disent les guides de voyage",
+          "Permis, cylindrée et alternatives",
+          "Qui conduit, avec quelle expérience, avec qui ?",
+          "Pluie, froid, brouillard : ce que la météo change pour la moto",
+          "Contrôles avant chaque étape",
+          "Louer à Hanoi pour Hà Giang : les questions à poser",
           "Questions fréquentes",
-          "Quelle est la meilleure moto pour la boucle de Hà Giang ?",
-          "Peut-on faire la boucle de Hà Giang en scooter ?",
-          "Trail ou semi-automatique pour la boucle ?",
-          "Où louer la moto pour la boucle de Hà Giang ?",
-          "Faut-il réserver la machine à l'avance ?",
+          "Quelle moto choisir pour la boucle de Hà Giang ?",
+          "Un scooter automatique peut-il faire la boucle ?",
+          "Quel permis faut-il selon la cylindrée ?",
+          "Faut-il une trail ?",
+          "Peut-on faire la boucle à deux sur la même moto ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 6,
@@ -36378,47 +36396,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Removed unsourced statements presented as fact: 'beaucoup d'enseignes du haut pays déconseillent ou refusent le scooter pour des raisons d'assurance', 'les catégories se vident dans l'ordre : trails d'abord', 'machine la plus efficace est celle qu'on sait réparer', 'la caution se comprend', insurance-reading advice, 'location partout, chaque ville-étape en tient'. Replaced by: loop about 370 km, mostly 4 days, 85-100 km legs, Bắc Sum about 7 km, Mã Pì Lèng about 20 km, rainy June-August, cold November-March (Lonely Planet, retrieved per G14 digest); consensus of travel guides that a semi-automatic is the usual pick, automatic scooters discouraged on descents (no real engine braking, brake fade), engine-size advice contested, check both brakes (The Broke Backpacker and Asia Tour Advisor pages, seen in a WebSearch result, pages not opened; presented as commercial/personal views). Local rental prices and specific models (XR150, CRF150L, Blade 160 kg rating) seen in snippets were deliberately NOT used (no manufacturer source; other shops' prices). Law 36/2024/QH15: art. 57 licence classes (A1 ≤125 cm3/11 kW, A above, IDP of a 1968 Vienna state), art. 20 headlight, art. 9 zero alcohol, from the E-legal digest, 'Vérifié le 30 octobre 2026'. Border permit (Time Out, June 2026, retrieved per digest; no fee; 'aucun texte officiel récent'), police presence and easy-rider advice (Lonely Planet). Province: Tuyên Quang (Tuổi Trẻ). No rate for any model. Shop: address/hours/phone per SEO-FACTS; availability, cylindrée, trip length, breakdown, insurance, total as questions. Review flags are the cited legal rules and the question list. Sources: https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam; https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426; https://www.thebrokebackpacker.com/ha-giang-loop-vietnam-itinerary; https://www.asiatouradvisor.com/get-inspired/vietnam/ha-giang-loop-automatic-bike/",
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Main question: which motorbike for the Hà Giang loop. OWNER, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/. Differs from /nord-vietnam/ha-giang-boucle-voyage-moto/ (closest, 0.4; first-time loop guide, linked), meilleure-moto-pour-sapa (0.36) and meilleur-moto-cao-bang (0.36) by the Hà Giang terrain, the guide consensus, licence by cylindrée and the rental questions.",
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Fully rewritten: what the loop asks of a machine, comparison table (5 criteria × 3 machines), guide views, licence and alternatives, rider profile checklist, weather, pre-stage checks, shop questions, 5 FAQ. Removed the abstract 'règle du choix' prose. Sources: https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://www.lonelyplanet.com/articles/ultimate-itinerary-ha-giang-loop-vietnam; https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426; https://www.thebrokebackpacker.com/ha-giang-loop-vietnam-itinerary; https://www.asiatouradvisor.com/get-inspired/vietnam/ha-giang-loop-automatic-bike/",
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Title 65 chars, description 159 chars, H1 kept; og tags identical. Built check: Unique title (65 chars) and description (159 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept all 7 original internal links (/nord-vietnam/, ha-giang-boucle-voyage-moto, hanoi-location-moto-pour-ha-giang, meilleur-moto-montagne-routes-vietnam, /permis-securite/securite/, /types-motos/semi-automatique/, /types-motos/trail/). Parent hub present, 7/7. Internal links in main: 7/7 (/location-moto-hanoi/hanoi-location-moto-pour-ha-giang/, /nord-vietnam/, /nord-vietnam/ha-giang-boucle-voyage-moto/, /permis-securite/securite/, /types-motos/meilleur-moto-montagne-routes-vietnam/, /types-motos/semi-automatique/, /types-motos/trail/). Built check: 6 source-body incoming links (e.g. nord-vietnam/ha-giang/index.html, nord-vietnam/index.html, nord-vietnam/meilleur-moto-cao-bang/index.html); 6 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Direct answer in lead (semi-automatique per guides, trail for experienced, scooter least suited). Comparison table, 3 checklists, 5-question FAQ (which bike, scooter, licence, trail, two on a bike) not repeating the body; citations Lonely Planet, Tuổi Trẻ, Time Out, The Broke Backpacker, Asia Tour Advisor.",
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/meilleure-moto-pour-ha-giang-boucle/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "69d0adc37a41b08e32a86a5f15ba080b4f2918b004acbb3263a58316ee85ac30"
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-meilleure-moto-pour-ha-giang-boucle assets/images/seo/nord-vietnam/meilleure-moto-pour-ha-giang-boucle/hero.webp WebP 1200x630 205 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "69d0adc37a41b08e32a86a5f15ba080b4f2918b004acbb3263a58316ee85ac30"
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/meilleure-moto-pour-ha-giang-boucle/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "69d0adc37a41b08e32a86a5f15ba080b4f2918b004acbb3263a58316ee85ac30"
+          "verified_sha256": "fa1d16af70f0bed6c7e44ebc6e7077b376f5b154c2ef6a6b7221f3037b065d57"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -36436,35 +36461,37 @@
       "cluster": "nord",
       "parent_hub": "/nord-vietnam/",
       "priority": "P0",
-      "keyword_seed_fr": "Quelle moto pour Sapa : scooter, semi-auto ou trail ?",
+      "keyword_seed_fr": "Quelle moto pour Sapa : scooter, semi-automatique ou trail ?",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Điều tra thương mại",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "e7707d899bfe643e32cf955b46bd9a1359ecdb650884b5faeb26e95b20ed5151",
-        "title": "Quelle moto pour Sapa : scooter, semi-auto ou trail ?",
-        "title_chars": 53,
-        "description": "Quelle moto pour Sapa ? Scooter, semi-automatique ou trail : la comparaison honnête des trois machines selon le transfert, les vallées et la météo, sans inventer un seul tarif.",
-        "description_chars": 176,
-        "h1": "Quelle moto pour Sapa : scooter, semi-auto ou trail ?",
+        "source_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4",
+        "title": "Quelle moto pour Sapa : scooter, semi-automatique ou trail ?",
+        "title_chars": 60,
+        "description": "Quelle moto pour Sapa : montée de Lào Cai, col de Trạm Tôn vers 2 000 m, brouillard, freinage. Scooter, semi-automatique ou trail, permis, questions au loueur.",
+        "description_chars": 159,
+        "h1": "Quelle moto pour Sapa : scooter, semi-automatique ou trail ?",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/meilleure-moto-pour-sapa/",
-        "editorial_word_count_estimate": 2011,
+        "editorial_word_count_estimate": 1497,
         "h2_h3": [
-          "Les critères : ce que la géographie de Sapa demande",
-          "Le scooter automatique : la machine du transfert posé",
-          "La semi-automatique : le rapport du nord",
-          "La trail : la reine des vallées",
-          "La décision : lire son voyage avant sa machine",
+          "Ce que la route de Sapa demande à une moto",
+          "Scooter, semi-automatique ou trail : la comparaison",
+          "Descendre vers Lào Cai ou Lai Châu : freins et frein moteur",
+          "Quel profil, quelle moto ?",
+          "Brouillard, pluie et froid",
+          "Dans Sapa : stationnement et rues pentues",
+          "Permis, cylindrée et questions au loueur",
           "Questions fréquentes",
-          "Un scooter automatique suffit-il pour Sapa ?",
-          "Faut-il savoir passer les vitesses pour rouler vers Sapa ?",
-          "La trail est-elle nécessaire à Sapa ?",
-          "Le choix de la machine diffère-t-il de la boucle de Hà Giang ?",
-          "Où louer la machine pour Sapa ?",
+          "Quelle moto choisir pour Sapa ?",
+          "Un scooter automatique peut-il monter à Sapa ?",
+          "Quelle distance entre Lào Cai et Sapa ?",
+          "Quel permis faut-il ?",
+          "Vaut-il mieux louer à Hanoi ou à Sapa ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/hanoi-location-moto-pour-sapa/index.html",
           "nord-vietnam/hanoi-a-sapa-moto/index.html",
@@ -36495,47 +36522,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Removed SEO-process and policy-like wording: 'pages du silo sécurité', 'méthode du site', 'inspection à la livraison' (implied delivery), 'tarifs et conditions au comptoir du jour', 'la trail reine des vallées', 'se paie en assurance'. No price, no delivery claim, no fleet claim. Added sourced context: Lào Cai-Sapa about 35 km, Lào Cai about 90 m and Sapa about 1,650 m (single travel-blog figure, flagged), Trạm Tôn pass about 15 km from Sapa, altitude 1,900-2,047 m depending on source, morning fog under 50 m and pass often in clouds (north-vietnam.com, wayro.ai snippets, seen in a WebSearch result, pages not opened); Ô Quy Hồ nearly 50 km on QL4D and cold-season snow (Vietnam Airlines, seen in search result per digest); province Lào Cai (ex-Yên Bái) (Tuổi Trẻ, retrieved per digest). Law 36/2024/QH15: art. 12 (slow on passes/slopes, rain, fog), art. 20 headlight, art. 57 licence classes (A1 ≤125 cm3/11 kW, A above, IDP of a 1968 Vienna state) from the E-legal digest, 'Vérifié le 30 octobre 2026'. Parking advice reused from the sapa hub (steep streets, front wheel toward the kerb). Descent technique is general safety advice. Shop: address/hours/phone per SEO-FACTS; models, cylindrée, going to Sapa, breakdown, insurance, one-way return, total as questions. Review flags are the cited legal rules and the question list. Sources: https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass; https://north-vietnam.com/?p=22054; https://north-vietnam.com/tram-ton-pass-o-quy-ho/; https://blog.wayro.ai/sapa-lao-cai-drive-must-stops-and-route-tips",
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Main question: which motorbike for Sapa. OWNER, /nord-vietnam/meilleure-moto-pour-sapa/. Differs from the closest pages centre-sud-vietnam/meilleur-moto-dalat (0.5), location-moto-hanoi/hanoi-location-moto-pour-sapa (0.44, rental page, linked) and meilleur-moto-cao-bang (0.4) by the Sapa terrain (Lào Cai climb, Trạm Tôn), the three situations (from Hanoi, local rental, pass excursion) and the descent/brake advice.",
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Fully rewritten: terrain with three situations, comparison table, descent checklist, rider-profile checklist, weather, town parking, licence and shop questions, 5 FAQ. Removed the abstract 'géographie du transfert' prose. Sources: https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass; https://north-vietnam.com/?p=22054; https://north-vietnam.com/tram-ton-pass-o-quy-ho/; https://blog.wayro.ai/sapa-lao-cai-drive-must-stops-and-route-tips",
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Title 60 chars, description 160 chars or fewer, H1 identical to title; 'comparaison honnête' and 'sans inventer un seul tarif' removed; og tags identical. Built check: Unique title (60 chars) and description (159 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Kept original /nord-vietnam/, sapa-voyage-moto, hanoi-location-moto-pour-sapa, meilleure-moto-pour-ha-giang-boucle, /permis-securite/securite/, /types-motos/trail/; dropped /types-motos/meilleur-moto-montagne-routes-vietnam/; added hanoi-a-sapa-moto. Parent hub present, 7/7. Internal links in main: 7/7 (/location-moto-hanoi/hanoi-location-moto-pour-sapa/, /nord-vietnam/, /nord-vietnam/hanoi-a-sapa-moto/, /nord-vietnam/meilleure-moto-pour-ha-giang-boucle/, /nord-vietnam/sapa-voyage-moto/, /permis-securite/securite/, /types-motos/trail/). Built check: 5 source-body incoming links (e.g. location-moto-hanoi/hanoi-location-moto-pour-sapa/index.html, nord-vietnam/hanoi-a-sapa-moto/index.html, nord-vietnam/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-2.json): Direct answer in lead (semi-automatique, scooter possible, trail if mastered, 35 km climb, pass at about 2,000 m). Comparison table, 3 checklists, 5-question FAQ (which bike, scooter, Lào Cai-Sapa distance, licence, rent where) not repeating the body; citations Vietnam Airlines, Tuổi Trẻ, north-vietnam.com.",
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/meilleure-moto-pour-sapa/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "e7707d899bfe643e32cf955b46bd9a1359ecdb650884b5faeb26e95b20ed5151"
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-meilleure-moto-pour-sapa assets/images/seo/nord-vietnam/meilleure-moto-pour-sapa/hero.webp WebP 1200x630 215 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "e7707d899bfe643e32cf955b46bd9a1359ecdb650884b5faeb26e95b20ed5151"
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/meilleure-moto-pour-sapa/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/meilleure-moto-pour-sapa/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "e7707d899bfe643e32cf955b46bd9a1359ecdb650884b5faeb26e95b20ed5151"
+          "verified_sha256": "700baf9335981df71e4a2361d563a5de18f5171f5942ded3fb9cb90fe11831e4"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -36709,7 +36743,7 @@
           "La moto louée à Hanoi peut-elle aller à Hạ Long ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "location-moto-hanoi/moto-hanoi-a-halong-baie/index.html",
@@ -36761,7 +36795,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ha-long/, /nord-vietnam/halong-voyage-moto/, /nord-vietnam/quang-ninh-itineraire-moto/, /contact/. Dropped /hanoi/jour-voyages-de-hanoi-by-moto/ for the cap. Built check: 8 source-body incoming links (e.g. blog/index.html, location-moto-hanoi/moto-hanoi-a-halong-baie/index.html, nord-vietnam/ha-long/index.html); 8 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ha-long/, /nord-vietnam/halong-voyage-moto/, /nord-vietnam/quang-ninh-itineraire-moto/, /contact/. Dropped /hanoi/jour-voyages-de-hanoi-by-moto/ for the cap. Built check: 9 source-body incoming links (e.g. blog/index.html, location-moto-hanoi/moto-hanoi-a-halong-baie/index.html, nord-vietnam/ha-long/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "788c6dd2339febb01de60cba74c7bad50ddd4c6f21026a8a91d25abe55f2f8a0"
         },
         "AEO_GEO": {
@@ -36908,7 +36942,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "3dd9fa2b4a9817bdbf112faa728c652907b2791e59a33d38dbd8bd4e166e8524"
         },
         "TECHNICAL": {
@@ -37350,11 +37384,11 @@
           "Un 50cc suffit-il pour Ninh Bình ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "nord-vietnam/hanoi-ninh-binh-pu-luong-itineraire-moto/index.html",
           "nord-vietnam/index.html",
-          "nord-vietnam/ninh-binh-moto-2-jours/index.html"
+          "nord-vietnam/meilleur-moto-ninh-binh/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -37402,7 +37436,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ninh-binh/ (hub), /nord-vietnam/ninh-binh-itineraire-moto/, /nord-vietnam/ninh-binh-moto-2-jours/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/. Dropped /permis-securite/moto-pluie-securite-vietnam/ and /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/ for the cap. Built check: 4 source-body incoming links (e.g. nord-vietnam/hanoi-ninh-binh-pu-luong-itineraire-moto/index.html, nord-vietnam/index.html, nord-vietnam/ninh-binh-moto-2-jours/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ninh-binh/ (hub), /nord-vietnam/ninh-binh-itineraire-moto/, /nord-vietnam/ninh-binh-moto-2-jours/, /nord-vietnam/hanoi-a-ninh-binh-itineraire-moto/. Dropped /permis-securite/moto-pluie-securite-vietnam/ and /location-moto-hanoi/hanoi-a-ninh-binh-location-moto/ for the cap. Built check: 5 source-body incoming links (e.g. nord-vietnam/hanoi-ninh-binh-pu-luong-itineraire-moto/index.html, nord-vietnam/index.html, nord-vietnam/meilleur-moto-ninh-binh/index.html); 5 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "0c332da27f81d2df5bd6a7c8ac5680504cd387c53073758250a7207de49b0315"
         },
         "AEO_GEO": {
@@ -37422,7 +37456,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 12 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 12 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "0c332da27f81d2df5bd6a7c8ac5680504cd387c53073758250a7207de49b0315"
         },
         "TECHNICAL": {
@@ -37676,7 +37710,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "8ba6755ed6638f3322aebdeacd71560724349e913b186f7799f6f235e91c36ab"
         },
         "TECHNICAL": {
@@ -37705,28 +37739,29 @@
       "intent_to_validate": "Thông tin du lịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "8676e1ae9887a80e0021332ae92124d3e99dd586031e26be194846055a240fc2",
+        "source_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04",
         "title": "Quảng Ninh à moto au-delà d’Hạ Long : Yên Tử et la côte",
         "title_chars": 55,
-        "description": "Yên Tử, ses pagodes de forêt, et la côte du Quảng Ninh à moto au-delà de la baie : routes, îles et plages, saison, choix de la machine et conseils de location.",
-        "description_chars": 159,
+        "description": "Quảng Ninh à moto au-delà d’Hạ Long : Yên Tử (patrimoine mondial 2025), Vân Đồn, îles de Quan Lạn et Cô Tô, nationale 18 et points à vérifier.",
+        "description_chars": 142,
         "h1": "Quảng Ninh à moto au-delà d’Hạ Long : Yên Tử et la côte",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/quang-ninh-itineraire-moto/",
-        "editorial_word_count_estimate": 1871,
+        "editorial_word_count_estimate": 1495,
         "h2_h3": [
-          "Le Quảng Ninh, une province de mer et de forêt",
-          "Yên Tử, la montagne du Zen",
-          "La côte au-delà de la baie : ports, îles et plages",
-          "La route depuis Hanoï et la logistique",
-          "Saison, météo et traversées",
-          "Machine, location et sécurité",
-          "Questions fréquentes sur le Quảng Ninh à moto",
-          "Peut-on visiter Yên Tử en une demi-journée ?",
-          "Les îles de la province se rejoignent-elles avec la moto ?",
-          "Quelle est la meilleure saison pour la côte est ?",
-          "Yên Tử et la baie se combinent-ils en un week-end ?",
-          "Faut-il une trail pour le Quảng Ninh ?",
+          "Quảng Ninh à moto : la réponse courte",
+          "Yên Tử : la montagne du bouddhisme zen",
+          "La côte de Vân Đồn et les îles",
+          "La route : nationale 18, camions et autoroutes",
+          "Deux programmes possibles",
+          "Météo et tempêtes",
+          "Quelle moto et quelles conditions de location ?",
+          "Questions fréquentes",
+          "Yên Tử est-il vraiment un site UNESCO ?",
+          "Peut-on aller à Cô Tô ou Quan Lạn avec sa moto ?",
+          "Quelle route de Hanoi à Hạ Long pour une moto ?",
+          "Combien de temps prévoir pour Yên Tử ?",
+          "La moto louée à Hanoi peut-elle aller dans le Quảng Ninh ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 3,
@@ -37760,47 +37795,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Corrected an old error: 'un roi du siècle passé' -> Trần Nhân Tông, 13th century, Trúc Lâm school. Added UNESCO inscription of Yên Tử–Vĩnh Nghiêm–Côn Sơn, Kiếp Bạc on 12 July 2025 (47th session): seen in search result, Viet Nam News https://vietnamnews.vn/life-style/1721296/... (title supports it); spread across Quảng Ninh, Hải Phòng, Bắc Ninh per Vietnamese reports in search results (one English page said Hải Dương; flagged as unverified vs UNESCO, so only the three-province wording from the Vietnamese reports is used, and Yên Tử itself stated as in Quảng Ninh). Vân Đồn ~50 km from central Hạ Long; Quan Lạn ferries from Cái Rồng (Vân Đồn) or Hòn Gai port; Cô Tô ferries from Ao Tiên (~50–60 min crossing) or Tuần Châu: seen in search result (sunparadiseland / mia.vn / Vietnam Airlines pages), phrased 'd'après les guides'; no ticket prices. Whether motorbikes can board is NOT claimed: 'à demander à la compagnie'. Hanoi–Hạ Long 150–170 km and old QL18 via Bắc Ninh–Uông Bí from G digest §5; Uông Bí on that route per the digest. Expressway ban art. 25(3) (retrieved) and VOV Feb 2026 case; art. 20 lights; storm suspension from halongbay.com.vn (seen in search result). Removed unsourced claims: 'plages frontalières… zones douanières', 'conserveries', 'camions de glace', 'fête au printemps par dizaines de milliers' (kept only as 'forte affluence au printemps'), cable-car formulas left unverified. No prices; shop conditions only as questions. Sources: https://vietnamnews.vn/life-style/1721296/yen-tu-vinh-nghiem-con-son-kiep-bac-complex-recognised-as-world-cultural-heritage.html; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov; https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Main question: what to do by motorbike in Quảng Ninh beyond Hạ Long. OWNER. Differs from /nord-vietnam/ha-long/ and /nord-vietnam/halong-voyage-moto/ (the bay and whether to ride there; both linked) and /nord-vietnam/moto-de-hanoi-a-halong-baie/ (road to the bay; linked): this page covers Yên Tử, the Vân Đồn coast and islands, and two programmes.",
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Full rewrite. New: short answer, Yên Tử, coast/islands table, route/expressways, two programmes, weather, bike and booking questions, FAQ x5. Words 1925 -> 1547. Sources: https://vietnamnews.vn/life-style/1721296/yen-tu-vinh-nghiem-con-son-kiep-bac-complex-recognised-as-world-cultural-heritage.html; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html; https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov; https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Title kept close to the previous one (55 chars), description rewritten (142 chars, includes the 2025 UNESCO fact); H1 aligned; og identical. Built check: Unique title (55 chars) and description (142 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ha-long/, /nord-vietnam/halong-voyage-moto/, /nord-vietnam/moto-de-hanoi-a-halong-baie/, /contact/. Built check: 3 source-body incoming links (e.g. nord-vietnam/ha-long/index.html, nord-vietnam/index.html, nord-vietnam/moto-de-hanoi-a-halong-baie/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Direct answer first; table of destinations/moto access; two ordered programmes; FAQ 5; citations Viet Nam News, luatvietnam, VOV, halongbay.com.vn.",
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/quang-ninh-itineraire-moto/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "8676e1ae9887a80e0021332ae92124d3e99dd586031e26be194846055a240fc2"
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-quang-ninh-itineraire-moto assets/images/seo/nord-vietnam/quang-ninh-itineraire-moto/hero.webp WebP 1200x630 200 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "8676e1ae9887a80e0021332ae92124d3e99dd586031e26be194846055a240fc2"
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 9 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/quang-ninh-itineraire-moto/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/quang-ninh-itineraire-moto/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "8676e1ae9887a80e0021332ae92124d3e99dd586031e26be194846055a240fc2"
+          "verified_sha256": "fd21d23121bfc23fe62851053754c9238a4a441d94231606269a609168406a04"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -37852,7 +37894,7 @@
           "Guides détaillés sur Sapa et le Nord-Ouest",
           "Continuer la préparation"
         ],
-        "source_body_internal_inlinks": 10,
+        "source_body_internal_inlinks": 12,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/hanoi-location-moto-pour-sapa/index.html",
           "nord-vietnam/ha-giang/index.html",
@@ -37948,39 +37990,42 @@
       "cluster": "nord",
       "parent_hub": "/nord-vietnam/",
       "priority": "P1",
-      "keyword_seed_fr": "Sapa à moto : itinéraire d’une journée dans la vallée",
+      "keyword_seed_fr": "Sapa à moto en une journée : Mường Hoa, Thác Bạc et Ô Quy Hồ",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Lịch trình",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "595f0fe2ffd03957865a7ce8bfd7ae2ee81d6a167a4157ddf12f57f695ab2178",
-        "title": "Sapa à moto : itinéraire d'une journée dans la vallée",
-        "title_chars": 53,
-        "description": "Une journée à moto autour de Sapa : vallée de Muong Hoa, villages Hmong, routes de montagne et précautions de conduite pour un rider bien préparé.",
-        "description_chars": 146,
-        "h1": "Sapa à moto : itinéraire d’une journée dans la vallée",
+        "source_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e",
+        "title": "Sapa à moto en une journée : Mường Hoa, Thác Bạc, Ô Quy Hồ",
+        "title_chars": 58,
+        "description": "Sapa à moto en une journée : vallée de Mường Hoa, cascade Thác Bạc ou col d’Ô Quy Hồ, brouillard, équipement et questions à régler pour la moto.",
+        "description_chars": 144,
+        "h1": "Sapa à moto en une journée : Mường Hoa, Thác Bạc et Ô Quy Hồ",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/sapa-itineraire-moto-1-jour/",
-        "editorial_word_count_estimate": 1767,
+        "editorial_word_count_estimate": 1553,
         "h2_h3": [
-          "Sapa à moto : le cadre avant de partir",
-          "La machine et l’équipement adaptés",
-          "La boucle de la vallée de Muong Hoa",
-          "Variantes : vers Ta Phin et les routes de crête",
-          "Conduire en montagne : brume, pentes et pavés",
-          "Organiser sa journée : heures, météo, budget",
-          "Questions fréquentes sur l’itinéraire d’une journée à Sapa",
-          "Peut-on vraiment découvrir Sapa à moto en une seule journée ?",
-          "Quel type de moto faut-il pour cet itinéraire ?",
-          "La piste de Muong Hoa est-elle praticable toute l’année ?",
-          "Faut-il partir tôt le matin depuis Sapa ?",
-          "Que faire en cas de brume sur les crêtes ?",
+          "Sapa à moto en une journée : la réponse courte",
+          "Vallée de Mường Hoa ou col d’Ô Quy Hồ ?",
+          "La vallée de Mường Hoa",
+          "La route du col : Thác Bạc et Ô Quy Hồ",
+          "Un déroulé de journée",
+          "Équipement et météo",
+          "Quelle moto pour la journée ?",
+          "Avant de réserver une moto pour Sapa",
+          "Questions fréquentes",
+          "Une journée suffit-elle pour Sapa à moto ?",
+          "À quelle distance de Sapa se trouve Thác Bạc ?",
+          "Le col d’Ô Quy Hồ est-il dangereux à moto ?",
+          "Peut-on louer une moto à Sapa même ?",
+          "Une moto louée à Hanoi peut-elle aller à Sapa ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "nord-vietnam/index.html",
-          "nord-vietnam/sapa/index.html"
+          "nord-vietnam/sapa-moto-2-jours/index.html",
+          "nord-vietnam/sapa-voyage-moto/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -38007,47 +38052,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): ownership file lists this page as OWNER for 'sapa à moto' like /nord-vietnam/sapa-voyage-moto/; to avoid overlap the title, H1, lead and body now target the one-day loop only. Corrected old claims: 'Ta Phin… sources chaudes' removed (unverified), 'les motos de location se passent de top-case' removed, 'paiement sans contact reste rare' removed, 'la plupart des voyageurs montent… train de nuit' removed. Ô Quy Hồ facts (QL4D, ~50 km, ~2,000 m with sources varying, cold-season snow per Vietnam Airlines guide) from G-route digest §3 (seen in search result). Thác Bạc 12–15 km NW of Sapa and >200 m high: seen in search result (guides; Vietnam Airlines silver-waterfall page appeared but attribution of the distance to it is uncertain) so phrased 'd'après les guides', unlinked. Mường Hoa villages (Cát Cát, Lao Chải, Tả Van; Hmong, Dao, Giáy): general knowledge / tour listings; access fees only 'à vérifier'. Headlight art. 20 from E-legal digest. Rented-in-Sapa vs Hanoi distinction made explicit (hub already says so). No prices, no durations; shop conditions only as questions. Sources: https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Main question: what can be done in one day by motorbike around Sapa, and with which prerequisites. Differs from /nord-vietnam/sapa-voyage-moto/ (destination overview; linked), /nord-vietnam/sapa/ (Hanoi–Sapa route and preparation; linked) and /nord-vietnam/sapa-moto-2-jours/ (two days; linked): this page chooses between the two loops and gives a day outline.",
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Full rewrite keeping the useful structure (valley loop, equipment, variants). New: short answer with the prerequisite that the bike must already be in Sapa, comparison table, valley section, pass section, equipment/weather, bike choice, day outline (ordered list), booking questions, FAQ x5. Words 1826 -> 1615. Sources: https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Title 58 chars, description 144 chars, H1 aligned and now specific to a one-day loop; og identical. Built check: Unique title (58 chars) and description (144 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/sapa/, /nord-vietnam/sapa-voyage-moto/, /nord-vietnam/sapa-moto-2-jours/, /contact/. Built check: 4 source-body incoming links (e.g. nord-vietnam/index.html, nord-vietnam/sapa-moto-2-jours/index.html, nord-vietnam/sapa-voyage-moto/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Direct answer + prerequisite first; comparison table; checklists and ordered day outline; FAQ 5; citation Vietnam Airlines pass guide.",
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/sapa-itineraire-moto-1-jour/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "595f0fe2ffd03957865a7ce8bfd7ae2ee81d6a167a4157ddf12f57f695ab2178"
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-sapa-itineraire-moto-1-jour assets/images/seo/nord-vietnam/sapa-itineraire-moto-1-jour/hero.webp WebP 1200x630 206 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "595f0fe2ffd03957865a7ce8bfd7ae2ee81d6a167a4157ddf12f57f695ab2178"
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/sapa-itineraire-moto-1-jour/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/sapa-itineraire-moto-1-jour/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "595f0fe2ffd03957865a7ce8bfd7ae2ee81d6a167a4157ddf12f57f695ab2178"
+          "verified_sha256": "a68cd756614c06b1d0ad6c316d5735badd0e980c9d3211cbb54548c1311e3a6e"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -38065,39 +38117,42 @@
       "cluster": "nord",
       "parent_hub": "/nord-vietnam/",
       "priority": "P1",
-      "keyword_seed_fr": "Sapa à moto sur deux jours : villages, rizières et cols",
+      "keyword_seed_fr": "Sapa à moto sur deux jours : vallée de Mường Hoa et col d’Ô Quy Hồ",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Lịch trình",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "870256a81b27ef810455c35f7801188aec7f955ee5c8f6443398106c8b37ead5",
-        "title": "Sapa à moto sur deux jours : villages, rizières et cols",
-        "title_chars": 55,
-        "description": "Deux jours à moto autour de Sapa : villages de Muong Hoa, homestay chez l'habitant et cols d'altitude. Itinéraire étape par étape et conseils de sécurité.",
-        "description_chars": 154,
-        "h1": "Sapa à moto sur deux jours : villages, rizières et cols",
+        "source_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d",
+        "title": "Sapa à moto sur deux jours : vallée de Mường Hoa et Ô Quy Hồ",
+        "title_chars": 60,
+        "description": "Sapa à moto sur deux jours : nuit chez l’habitant dans la vallée de Mường Hoa, col d’Ô Quy Hồ, météo, équipement et conditions de location à confirmer.",
+        "description_chars": 151,
+        "h1": "Sapa à moto sur deux jours : vallée de Mường Hoa et col d’Ô Quy Hồ",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/sapa-moto-2-jours/",
-        "editorial_word_count_estimate": 1817,
+        "editorial_word_count_estimate": 1449,
         "h2_h3": [
-          "Pourquoi prendre deux jours plutôt qu’un",
-          "Premier jour : descendre dans Muong Hoa",
-          "Dormir chez l’habitant dans la vallée",
-          "Deuxième jour : le col et les crêtes",
-          "Météo, brume et sécurité en altitude",
-          "Préparer la location et le bagage de deux jours",
-          "Questions fréquentes sur Sapa à moto en deux jours",
-          "Faut-il de l’expérience pour cet itinéraire de deux jours ?",
-          "Où dormir entre les deux jours ?",
-          "Quelle saison choisir pour ce week-end à moto ?",
-          "Le col vers Lai Chau est-il dangereux pour un motard ?",
-          "Faut-il réserver les homestays à l’avance ?",
+          "Sapa à moto sur deux jours : la réponse courte",
+          "Jour 1 : descendre dans la vallée de Mường Hoa",
+          "Jour 2 : Thác Bạc, Ô Quy Hồ ou une variante plus calme",
+          "Météo et conduite dans le brouillard",
+          "Avec un passager ou des bagages",
+          "Visiter les villages avec respect",
+          "Équipement pour deux jours",
+          "Quelle moto et quelles conditions de location ?",
+          "Questions fréquentes",
+          "Pourquoi deux jours plutôt qu’un ?",
+          "Faut-il réserver la nuit dans la vallée ?",
+          "Le col d’Ô Quy Hồ est-il toujours ouvert ?",
+          "Quelle moto choisir pour ces deux jours ?",
+          "Peut-on partir de Hanoi pour ces deux jours ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 2,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "nord-vietnam/index.html",
-          "nord-vietnam/sapa/index.html"
+          "nord-vietnam/sapa-itineraire-moto-1-jour/index.html",
+          "nord-vietnam/sapa-voyage-moto/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -38124,47 +38179,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Removed unverified old details: 'ponts de jungle', 'douches chaudes se généralisent, l'électricité fonctionne', 'les villageois surveillent les engins avec attention', 'le col le plus haut… Lai Chau' (loose), cold-season 'duvet du gîte'. Ô Quy Hồ facts (QL4D, ~50 km, ~2,000 m, sources differ by ~100 m, cold-season snow) from G-route digest §3 (Vietnam Airlines pass guide, seen in search result). Thác Bạc 12–15 km NW of Sapa: seen in search result, 'd'après les guides'. Villages and ethnic groups (Cát Cát, Lao Chải, Tả Van; Hmong, Giáy) general knowledge/tour listings, access fees only 'à vérifier'. Law 36/2024 art. 20 (headlights/visibility), art. 33(1) (one passenger, two only in listed cases incl. child under 12) and art. 33(2) (helmet for rider and passenger) from E-legal digest §1.21–1.22, checked 30 Oct 2026. No prices, no durations; prerequisite 'bike already in Sapa' stated; shop conditions only as questions. Sources: https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Main question: a two-day motorbike plan around Sapa. OWNER. Differs from /nord-vietnam/sapa-itineraire-moto-1-jour/ (one-day loop choice; linked), /nord-vietnam/sapa/ (Hanoi–Sapa route; linked) and /nord-vietnam/meilleure-moto-pour-sapa/ (bike comparison; linked): this page is the two-day plan with a weather-driven day-2 decision table.",
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Full rewrite. New: short answer with prerequisite, day 1 ordered list, day 2 decision table, weather/fog riding, equipment checklist, passenger/luggage with legal limits, respectful visits, bike and booking conditions, FAQ x5. Words 1872 -> 1517. Sources: https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Title 60 chars, description 151 chars, H1 aligned; og identical. Built check: Unique title (60 chars) and description (151 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/sapa/, /nord-vietnam/sapa-itineraire-moto-1-jour/, /nord-vietnam/meilleure-moto-pour-sapa/, /contact/. Dropped /nord-vietnam/sapa-voyage-moto/ link to respect the cap (mentioned in the sibling articles). Built check: 4 source-body incoming links (e.g. nord-vietnam/index.html, nord-vietnam/sapa-itineraire-moto-1-jour/index.html, nord-vietnam/sapa-voyage-moto/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Direct answer first; ordered day-1 list; day-2 decision table; checklists; FAQ 5; citation Vietnam Airlines pass guide.",
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/sapa-moto-2-jours/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "870256a81b27ef810455c35f7801188aec7f955ee5c8f6443398106c8b37ead5"
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-sapa-moto-2-jours assets/images/seo/nord-vietnam/sapa-moto-2-jours/hero.webp WebP 1200x630 216 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "870256a81b27ef810455c35f7801188aec7f955ee5c8f6443398106c8b37ead5"
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/sapa-moto-2-jours/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/sapa-moto-2-jours/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "870256a81b27ef810455c35f7801188aec7f955ee5c8f6443398106c8b37ead5"
+          "verified_sha256": "62f6300476dc5dfb0d2c59f753d8197d77ea8510cdd2e863d4e16742c467e69d"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -38182,35 +38244,38 @@
       "cluster": "nord",
       "parent_hub": "/nord-vietnam/",
       "priority": "P0",
-      "keyword_seed_fr": "Sapa à moto : la route du nord-ouest, les terrasses et la météo",
+      "keyword_seed_fr": "Sapa à moto : vallées, col d’Ô Quy Hồ, saisons et choix de la machine",
       "keyword_evidence": "Editorial candidate from existing French page / owner scope; not search-volume or ranking data",
       "intent_to_validate": "Thông tin du lịch",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "b8fcb6743bf55df67765d5bc3ce9d5a63bbfad2afb1799a862e9935a2181263b",
-        "title": "Sapa à moto : la route, les terrasses et la météo",
-        "title_chars": 49,
-        "description": "Sapa à moto : l'aperçu complet du voyage — la route du nord-ouest, les terrasses de riz, les cols de la région et la météo de montagne, machine comprise, sans rien inventer.",
-        "description_chars": 173,
-        "h1": "Sapa à moto : la route du nord-ouest, les terrasses et la météo",
+        "source_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22",
+        "title": "Sapa à moto : vallées, col d’Ô Quy Hồ, saisons et machine",
+        "title_chars": 57,
+        "description": "Sapa à moto : vallée de Mường Hoa, col d’Ô Quy Hồ, saisons, brouillard et froid, comment y aller sans autoroute et quelle moto choisir.",
+        "description_chars": 135,
+        "h1": "Sapa à moto : vallées, col d’Ô Quy Hồ, saisons et choix de la machine",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/nord-vietnam/sapa-voyage-moto/",
-        "editorial_word_count_estimate": 1897,
+        "editorial_word_count_estimate": 1495,
         "h2_h3": [
-          "La route : rejoindre Sapa depuis le nord",
-          "La station : Sapa et ses monts",
-          "Les vallées : villages et terrasses",
-          "La météo : la question qui commande le voyage",
-          "La machine et la logistique du nord-ouest",
+          "Sapa à moto : la réponse courte",
+          "Où rouler autour de Sapa",
+          "Les saisons à Sapa",
+          "Y aller : deux formules, aucune autoroute à moto",
+          "Quelle moto pour Sapa ?",
+          "Moto, marche et stationnement",
+          "Avant de réserver une moto à Hanoi pour Sapa",
+          "Respecter les villages et les terrasses",
           "Questions fréquentes",
-          "Sapa se fait-il à moto depuis Hanoi ?",
+          "Peut-on aller de Hanoi à Sapa à moto ?",
           "Quelle est la meilleure saison pour Sapa à moto ?",
-          "Faut-il une trail pour rouler autour de Sapa ?",
-          "Que voit-on autour de Sapa à moto ?",
-          "Sapa ou la boucle de Hà Giang ?",
+          "Le col d’Ô Quy Hồ est-il praticable toute l’année ?",
+          "Faut-il une moto de grosse cylindrée ?",
+          "Peut-on louer une moto directement à Sapa ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 7,
         "source_body_internal_inlink_examples": [
           "nord-vietnam/hanoi-a-sapa-moto/index.html",
           "nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html",
@@ -38241,47 +38306,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Removed 'le transfert vers Sapa se bâtit sur la géographie des étapes', 'Sapa se mérite par la route… l'une des plus belles du pays', reference to the Hà Giang approach page as method, and all 'discipline du site' formulas. Facts from G-route digest §3: Hanoi–Sapa ~315–320 km by Nội Bài–Lào Cai expressway (sunparadiseland page, seen in search result; motos banned), national roads 'nettement plus long' (no figure); Ô Quy Hồ ~50 km, ~2,000 m (sources vary), snow in cold season (Vietnam Airlines guide, seen in search result), location between Bình Lư (Lai Châu) and Sa Pa ward (Lào Cai) (mia.vn, seen in search result). Lào Cai includes ex-Yên Bái: Tuổi Trẻ News (retrieved). Mù Cang Chải ripe-rice window from vietnamtourism.com (seen in search result, dates vary). Thác Bạc 12–15 km: seen in search result, 'd'après les guides'. Art. 25(3) (retrieved) and art. 20 (E-legal digest). Seasons table is generic (summer rain, winter cold/fog), no forecast. No prices; shop conditions only as questions with phone/hours from SEO-FACTS. Sources: https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass; https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-deo-o-quy-ho-mot-trong-tu-dai-dinh-deo-cua-viet-nam-500; https://www.vietnamtourism.com/en/mu-cang-chai-rice-terraces-the-complete-guide-for-2026; https://sunparadiseland.com/SunParadiseLandSaPa/tin-tuc/ha-noi-cach-sa-pa-bao-nhieu-km-thong-tin-chi-tiet-nhat-26798; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Main question: what is Sapa by motorbike (destination as seen from the saddle). OWNER (shares the query 'sapa à moto' with /nord-vietnam/sapa-itineraire-moto-1-jour/, which is now clearly the one-day-loop page). Differs from /nord-vietnam/sapa/ (route and preparation; linked), /nord-vietnam/hanoi-a-sapa-moto/ (route; linked), /nord-vietnam/sapa-itineraire-moto-1-jour/ and /sapa-moto-2-jours/ (programmes; linked): this page covers where to ride, seasons, the two ways to get there and bike choice.",
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Full rewrite; the previous text was mostly about the route to Sapa and abstract geography. New: short answer, where to ride (table), seasons (table), access (two formulas), bike choice, parking/walking, pre-booking questions, respect, FAQ x5. Words 1940 -> 1550. Sources: https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm; https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass; https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-deo-o-quy-ho-mot-trong-tu-dai-dinh-deo-cua-viet-nam-500; https://www.vietnamtourism.com/en/mu-cang-chai-rice-terraces-the-complete-guide-for-2026; https://sunparadiseland.com/SunParadiseLandSaPa/tin-tuc/ha-noi-cach-sa-pa-bao-nhieu-km-thong-tin-chi-tiet-nhat-26798; https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Title 57 chars, description 135 chars, H1 rewritten (previous title emphasised 'route du nord-ouest', now covered by the hub); og identical. Built check: Unique title (57 chars) and description (135 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): 7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/sapa/, /nord-vietnam/hanoi-a-sapa-moto/, /nord-vietnam/sapa-itineraire-moto-1-jour/, /nord-vietnam/sapa-moto-2-jours/. Old links to /nord-vietnam/hanoi-a-ha-giang-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/ and /permis-securite/moto-pluie-securite-vietnam/ dropped; no /contact/ link (phone number given in text). Built check: 7 source-body incoming links (e.g. nord-vietnam/hanoi-a-sapa-moto/index.html, nord-vietnam/hanoi-sapa-ha-giang-itineraire-moto/index.html, nord-vietnam/index.html); 7 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-NORD-V-3.json): Direct answer first; two tables (where to ride, seasons); checklist; FAQ 5; citations Tuổi Trẻ News, Vietnam Airlines, mia.vn, vietnamtourism.com, sunparadiseland, luatvietnam.",
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/nord-vietnam/sapa-voyage-moto/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "b8fcb6743bf55df67765d5bc3ce9d5a63bbfad2afb1799a862e9935a2181263b"
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-nord-vietnam-sapa-voyage-moto assets/images/seo/nord-vietnam/sapa-voyage-moto/hero.webp WebP 1200x630 213 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "b8fcb6743bf55df67765d5bc3ce9d5a63bbfad2afb1799a862e9935a2181263b"
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/nord-vietnam/sapa-voyage-moto/index.html: self canonical https://fr.rentbikehanoi.com/nord-vietnam/sapa-voyage-moto/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "b8fcb6743bf55df67765d5bc3ce9d5a63bbfad2afb1799a862e9935a2181263b"
+          "verified_sha256": "75ec48348a68e68dc0e984a2090d1b3c2cdd66abe192d1866035af26b246dc22"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -38327,9 +38399,10 @@
           "La station vit-elle aux week-ends ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 1,
+        "source_body_internal_inlinks": 2,
         "source_body_internal_inlink_examples": [
-          "nord-vietnam/index.html"
+          "nord-vietnam/index.html",
+          "nord-vietnam/meilleur-moto-tam-dao/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -38923,7 +38996,7 @@
           "Peut-on monter à deux avec des bagages ?",
           "À quelle heure faut-il partir pour un col ?"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 8,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/centre/index.html",
           "nord-vietnam/ha-giang/index.html",
@@ -39296,7 +39369,7 @@
           "La circulaire 12/2025/TT-BCA est-elle toujours en vigueur ?",
           "Un permis converti permet-il de louer une moto de plus de 125 cm3 ?"
         ],
-        "source_body_internal_inlinks": 6,
+        "source_body_internal_inlinks": 7,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/location-moto-hanoi-expat/index.html",
           "permis-securite/125cc-plus-permis-moto-vietnam/index.html",
@@ -39671,7 +39744,7 @@
           "Puis-je montrer mes documents sur mon téléphone ?",
           "Que risque-t-on si un document manque lors d’un contrôle ?"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "permis-securite/idp-ou-translated-permis-conduire-vietnam/index.html",
@@ -40555,7 +40628,7 @@
           "Puis-je prêter la moto à un ami ?",
           "La caution peut-elle être retenue en entier ?"
         ],
-        "source_body_internal_inlinks": 10,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/1-mois-location-moto-hanoi/index.html",
           "location-moto-hanoi/3-mois-location-moto-hanoi/index.html",
@@ -42185,7 +42258,7 @@
           "Que faire si les freins deviennent mous en descente ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 37,
+        "source_body_internal_inlinks": 36,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/centre/index.html",
           "centre-sud-vietnam/hue-a-hoi-an-moto/index.html",
@@ -42436,7 +42509,7 @@
           "Faut-il s’arrêter quand il pleut très fort ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 38,
+        "source_body_internal_inlinks": 37,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "centre-sud-vietnam/index.html",
@@ -43018,7 +43091,7 @@
         },
         "UX_CRO": {
           "status": "DONE",
-          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
           "verified_sha256": "827a8e7cf416f49873d162d1e1f17f2f0ff30b3393f51f41fe27346d0fe76889"
         },
         "TECHNICAL": {
@@ -43072,7 +43145,7 @@
           "Que faire si je perds mon passeport pendant la location ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "location-moto-hanoi/passeport-location-moto-hanoi/index.html",
           "permis-securite/documents-moto-location-vietnam/index.html",
@@ -43124,7 +43197,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Added: /location-moto-hanoi/passeport-location-moto-hanoi/ (group owner), /permis-securite/permis/, /permis-securite/police-moto-vietnam-touriste/. 6/7 unique. Built check: 3 source-body incoming links (e.g. location-moto-hanoi/passeport-location-moto-hanoi/index.html, permis-securite/documents-moto-location-vietnam/index.html, permis-securite/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 6 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Added: /location-moto-hanoi/passeport-location-moto-hanoi/ (group owner), /permis-securite/permis/, /permis-securite/police-moto-vietnam-touriste/. 6/7 unique. Built check: 4 source-body incoming links (e.g. location-moto-hanoi/passeport-location-moto-hanoi/index.html, permis-securite/documents-moto-location-vietnam/index.html, permis-securite/index.html); 4 built pages link here incl. navigation; BreadcrumbList rendered; 6 unique internal body links, none broken.",
           "verified_sha256": "01cfc37e344d43bae9de1554d81ffc0b4396d32ab8a9a5e6274961877a7763aa"
         },
         "AEO_GEO": {
@@ -43209,7 +43282,7 @@
           "Papiers, assurance et contrôles",
           "Étape suivante"
         ],
-        "source_body_internal_inlinks": 80,
+        "source_body_internal_inlinks": 79,
         "source_body_internal_inlink_examples": [
           "centre-sud-vietnam/can-tho-voyage-moto/index.html",
           "centre-sud-vietnam/ho-chi-minh-route-moto-vietnam/index.html",
@@ -43462,7 +43535,7 @@
           "Mon permis international canadien est-il accepté ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 8,
+        "source_body_internal_inlinks": 9,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "permis-securite/125cc-plus-permis-moto-vietnam/index.html",
@@ -43514,7 +43587,7 @@
         },
         "LINKS": {
           "status": "DONE",
-          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/permis/, /permis-securite/idp-ou-translated-permis-conduire-vietnam/, /permis-securite/permis-conduire-etranger-valide-vietnam/, /permis-securite/50cc-scooter-license-vietnam/. Dropped /location-moto-hanoi/location-moto-hanoi-pour-tourists/, /location-moto-hanoi/location-moto-hanoi-vietnam/, /types-motos/50cc-moto-vietnam-debutant/. 7/7 unique. Built check: 8 source-body incoming links (e.g. blog/index.html, permis-securite/125cc-plus-permis-moto-vietnam/index.html, permis-securite/conversion-permis-conduire-etranger-vietnam/index.html); 8 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/permis/, /permis-securite/idp-ou-translated-permis-conduire-vietnam/, /permis-securite/permis-conduire-etranger-valide-vietnam/, /permis-securite/50cc-scooter-license-vietnam/. Dropped /location-moto-hanoi/location-moto-hanoi-pour-tourists/, /location-moto-hanoi/location-moto-hanoi-vietnam/, /types-motos/50cc-moto-vietnam-debutant/. 7/7 unique. Built check: 9 source-body incoming links (e.g. blog/index.html, permis-securite/125cc-plus-permis-moto-vietnam/index.html, permis-securite/conversion-permis-conduire-etranger-vietnam/index.html); 9 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
           "verified_sha256": "eeb7a9603114b6eb898a494f1da98126700321780e5352616febd49940885c19"
         },
         "AEO_GEO": {
@@ -43563,28 +43636,30 @@
       "intent_to_validate": "Thông tin pháp lý",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "1394811ec2b1bc9245152654dc9d6442642f8af7fd111332db28bfb800f8ce18",
+        "source_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155",
         "title": "Échanger son permis étranger au Vietnam : la procédure pas à pas",
         "title_chars": 64,
-        "description": "La procédure d'échange d'un permis de conduire étranger au Vietnam, étape par étape : titre de séjour, dossier, traduction, dépôt, délais et suivi du permis obtenu.",
-        "description_chars": 164,
+        "description": "Échange d’un permis étranger contre un permis vietnamien : qui peut le demander, étapes à suivre, circulaire à vérifier et questions à poser au guichet.",
+        "description_chars": 152,
         "h1": "Échanger son permis de conduire étranger au Vietnam : la démarche pas à pas",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/permis-securite/permis-etranger-conversion-vietnam/",
-        "editorial_word_count_estimate": 2226,
+        "editorial_word_count_estimate": 1598,
         "h2_h3": [
-          "Avant de commencer : les trois vérifications qui conditionnent tout",
-          "Étape 1 : rassembler les pièces du dossier",
-          "Étape 2 : la traduction officielle, pièce maîtresse du dossier",
-          "Étape 3 : le dépôt au bon guichet",
-          "Étape 4 : l'instruction du dossier et ses délais",
-          "Étape 5 : le permis reçu, et ce qui vient après",
+          "Ce que la loi permet",
+          "Qui peut demander l’échange",
+          "Quel permis peut être échangé",
+          "Quel texte s’applique : à vérifier en premier",
+          "La démarche en cinq étapes",
+          "Ce que seul le service compétent peut vous préciser",
+          "En attendant l’échange : louer une moto",
+          "Cinq erreurs à éviter",
           "Questions fréquentes",
-          "Par où commencer la démarche d'échange de permis ?",
-          "Où dépose-t-on une demande d'échange de permis étranger ?",
-          "Faut-il faire traduire son permis de conduire ?",
-          "Combien de temps prend l'échange d'un permis étranger ?",
-          "Le permis vietnamien obtenu par échange est-il valable longtemps ?",
+          "Un touriste peut-il échanger son permis ?",
+          "Peut-on échanger un permis international ?",
+          "Quels documents faut-il fournir ?",
+          "Combien coûte l’échange et combien de temps dure-t-il ?",
+          "Quel texte s’applique en 2026 ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 3,
@@ -43618,47 +43693,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): From E-legal-digest: Law 36/2024/QH15 art. 62(2)(đ) (still-valid foreign licence can be exchanged; full text retrieved), A1/A/B1 no expiry (art. 57(5)(a)); Circular 12/2025/TT-BCA in force 1 March 2025, foreigners residing/working/studying with valid national licence and diplomatic/official ID or temporary/permanent residence card (seen in search result); Circular 108/2026/TT-BCA, 29 June 2026, in force 1 July 2026, possibly superseding (seen in search result, not read). Additional WebSearch 2026-10-31 (snippets only): circular 12/2025 art. 18(7) and art. 24(2) for foreigners' file, form in Annex XIII for foreigners; non-exchangeable: temporary/provisional foreign licence, international licence, expired, erased/torn, not issued by competent authority; a source says the exchange provisions of circular 12/2025 cease from 1 July 2026; general filing venues (commune police reception point, traffic police office, online public service, art. 21(2)) presented as general procedure to confirm. No fees, delays, document lists or exam requirement stated (listed as questions to ask). REMOVED unsupported claims from the old text: Department of Transport as the counter (licence management is under Public Security per the circular), sworn translation step, medical certificate, 'visa d'au moins trois mois', 'permis expire avec le titre de séjour', theory exam in Vietnamese, delays in 'jours ouvrés', provincial variation. Shop NAP/hours from SEO-FACTS; documents required at rental to confirm before booking. Sources: https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html; https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/huong-dan-thuc-hien-doi-giay-phep-lai-xe-theo-thong-tu-122025-201157.html; https://luatvietnam.vn/bai-viet-lien-quan/12-2025-tt-bca-392101.html",
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Main question: what is the procedure to exchange a foreign licence for a Vietnamese one. Differs from the group owner (who may convert, overview), from the tourist article (short-stay case) and from the residence-card article (the residence title) by laying out the ordered steps and the verification of the applicable circular; each of these is linked once.",
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Full rewrite: removed the 'cinq étapes' narrative built on unverified detail, repetitive meta-commentary ('principe d'honnêteté'), and a FAQ that repeated the body. New sections: legal basis; who can apply; which licence can be exchanged; which text applies (12/2025 vs 108/2026); five steps; questions only the competent service can answer; riding meanwhile; five mistakes; FAQ x5. Sources: https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html; https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/huong-dan-thuc-hien-doi-giay-phep-lai-xe-theo-thong-tu-122025-201157.html; https://luatvietnam.vn/bai-viet-lien-quan/12-2025-tt-bca-392101.html",
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Title kept ('Échanger son permis étranger au Vietnam : la procédure pas à pas'); H1 kept; description rewritten (152 chars) to avoid implying a verified file list; og tags identical; eyebrow 'Permis · Échange pour résidents'. Built check: Unique title (64 chars) and description (152 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/conversion-permis-conduire-etranger-vietnam/ (group owner), /permis-securite/temporary-residence-permis-etranger-conversion-vietnam/, /permis-securite/touriste-conversion-permis-conduire-vietnam/, /permis-securite/permis-conduire-international-vietnam-moto/. Dropped /location-moto-hanoi/location-moto-hanoi-vietnam/, /location-moto-hanoi/debutant-location-moto-hanoi/, /permis-securite/permis/. 7/7 unique. Built check: 3 source-body incoming links (e.g. permis-securite/conversion-permis-conduire-etranger-vietnam/index.html, permis-securite/index.html, permis-securite/permis/index.html); 3 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Lead states in 3 sentences what the law allows, the five steps and what is not verified. Ordered checklist of 5 steps, checklist of 6 questions, checklist of 5 mistakes, FAQ x5 (tourist, IDP, documents, cost/time, which text applies). Citations: law text, circular summary (seen in search result).",
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/permis-securite/permis-etranger-conversion-vietnam/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "1394811ec2b1bc9245152654dc9d6442642f8af7fd111332db28bfb800f8ce18"
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-permis-securite-permis-etranger-conversion-vietnam assets/images/seo/permis-securite/permis-etranger-conversion-vietnam/hero.webp WebP 1200x630 212 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "1394811ec2b1bc9245152654dc9d6442642f8af7fd111332db28bfb800f8ce18"
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/permis-securite/permis-etranger-conversion-vietnam/index.html: self canonical https://fr.rentbikehanoi.com/permis-securite/permis-etranger-conversion-vietnam/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "1394811ec2b1bc9245152654dc9d6442642f8af7fd111332db28bfb800f8ce18"
+          "verified_sha256": "da862e9ae36772ebdfa12af3b824be46fc7183a4f5a4e2e4358212c2785bd155"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -43681,28 +43763,30 @@
       "intent_to_validate": "Pháp lý",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "e7634a9c9baf5b50022fb26e34873d75606bec530dd869473a544cf173648545",
+        "source_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24",
         "title": "Contrôle routier à moto au Vietnam : papiers et conduite à tenir",
         "title_chars": 64,
-        "description": "Un contrôle de police en moto au Vietnam : quels papiers présenter, comment se comporter, ce que dit le contrat de location et les bons réflexes pour un voyageur serein.",
-        "description_chars": 169,
+        "description": "Contrôle de police à moto au Vietnam : papiers exigés par la loi 36/2024, attitude à adopter, amende et procès-verbal, et réflexes avec une moto louée.",
+        "description_chars": 151,
         "h1": "Contrôle routier à moto au Vietnam : papiers et conduite à tenir",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/permis-securite/police-moto-vietnam-touriste/",
-        "editorial_word_count_estimate": 2009,
+        "editorial_word_count_estimate": 1601,
         "h2_h3": [
-          "Pourquoi un contrôle arrive, et à qui",
-          "Les papiers demandés lors d’un contrôle",
-          "L’attitude : calme, courtoisie, coopération",
-          "Amende et procès-verbal : suivre la voie officielle",
-          "Le rôle du loueur pendant et après le contrôle",
-          "Se préparer en amont : le dossier du motard voyageur",
-          "Questions fréquentes sur les contrôles",
-          "Les touristes sont-ils contrôlés aussi ?",
-          "Quels papiers faut-il présenter exactement ?",
-          "Que faire si je ne comprends pas ce qu’on me dit ?",
-          "Une amende peut-elle se payer sur place ?",
-          "Le loueur doit-il être prévenu ?",
+          "Les papiers à pouvoir présenter",
+          "Passeport et pièce d’identité",
+          "Les règles qu’un contrôle peut vérifier",
+          "Pendant le contrôle : les bons gestes",
+          "Amende, procès-verbal et reçu",
+          "Le loueur : qui appeler",
+          "Après le contrôle",
+          "Se préparer avant de partir",
+          "Questions fréquentes",
+          "Les touristes sont-ils contrôlés comme les autres conducteurs ?",
+          "Quels papiers faut-il avoir sur soi ?",
+          "Dois-je montrer mon passeport ?",
+          "Peut-on payer une amende sur place ?",
+          "Que faire si je n’ai pas mes papiers avec moi ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 6,
@@ -43736,47 +43820,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): From E-legal-digest (full text of Law 36/2024/QH15 retrieved): art. 56(1) documents to carry (registration certificate or certified copy + bank confirmation if mortgaged; licence matching vehicle; inspection certificate where required; owner's compulsory civil-liability insurance certificate), art. 56(4)/59 xe gắn máy exemption and age 16, art. 57 (national licence + IDP), art. 9 (zero alcohol, phone, licence), art. 33 (helmet, one passenger), art. 25 (no expressways), arts. 15/22 (U-turn, priorities), art. 20 (headlight 18:00-06:00). 'Vérifié le 30 octobre 2026' stated. Emergency number 113 stated 'selon une synthèse juridique vietnamienne' (seen in search result per digest). Fine amounts not stated; Decree 168/2024/NĐ-CP referenced (seen in search result). Passport carrying duty for foreigners NOT verified: stated as unverified, copy + photo suggested as precaution. REMOVED unsupported claims of the old text: that checks target tourist zones/festival periods, that officers in tourist zones are used to travellers, details on how payment and appeals work, 'immobilisation de la machine', claims that the loueur's help is usual and that a serious loueur 'explique la conduite à tenir'. Shop: phone/Zalo/WhatsApp and hours from SEO-FACTS; no assistance or interpreting service promised, to ask before booking. Vietnamese phrases ('Xin chào', 'Tôi là khách du lịch', 'Tôi thuê xe này', 'Tôi gọi cho chủ xe được không ?') given as translation-app suggestions. Sources: https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html; https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Main question: what to show and how to behave during a roadside check. Distinct from documents-moto-location-vietnam (full document list) and passeport-location-moto-vietnam (identity papers) by focusing on the check itself; both linked.",
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Full rewrite: removed mannered passages ('un coup de sifflet…', 'la seule stratégie rationnelle', 'ce guide vient de la faire') and the repeated 'sources officielles' disclaimers; new sections: documents table (art. 56); passport/ID; rules a check can verify (checklist); gestures during the check; fine, record and receipt; the loueur; after the check; preparation checklist; FAQ x5. Sources: https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html; https://vanban.chinhphu.vn/?pageid=27160&docid=212167&classid=1&orggroupid=2",
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Title kept ('Contrôle routier à moto au Vietnam : papiers et conduite à tenir'), H1 kept; description rewritten (151 chars) with the legal basis; og tags identical; eyebrow 'Sécurité · Contrôle routier'. Built check: Unique title (64 chars) and description (151 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others: /permis-securite/permis/, /permis-securite/documents-moto-location-vietnam/, /permis-securite/passeport-location-moto-vietnam/, /permis-securite/vietnam-emergency-numbers-moto-touriste/. Dropped /permis-securite/location-moto-contrat-vietnam/ (cap). 7/7 unique. Built check: 6 source-body incoming links (e.g. permis-securite/autoroute-moto-vietnam/index.html, permis-securite/index.html, permis-securite/location-moto-accident-vietnam/index.html); 6 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Lead answers directly in 4 sentences (papers, behaviour, written record, fines not quoted). Table of papers by legal basis, checklist of rules, preparation checklist, FAQ x5 (tourists, papers, passport, fine on the spot, missing papers). Citations: law text, decree 168/2024 page.",
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/permis-securite/police-moto-vietnam-touriste/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "e7634a9c9baf5b50022fb26e34873d75606bec530dd869473a544cf173648545"
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-permis-securite-police-moto-vietnam-touriste assets/images/seo/permis-securite/police-moto-vietnam-touriste/hero.webp WebP 1200x630 208 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "e7634a9c9baf5b50022fb26e34873d75606bec530dd869473a544cf173648545"
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.97:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/permis-securite/police-moto-vietnam-touriste/index.html: self canonical https://fr.rentbikehanoi.com/permis-securite/police-moto-vietnam-touriste/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "e7634a9c9baf5b50022fb26e34873d75606bec530dd869473a544cf173648545"
+          "verified_sha256": "72290b2e85538eaa0ca618565a6c1bc14dd231c074204495daf8b961f000ef24"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -43936,27 +44027,30 @@
       "intent_to_validate": "An toàn",
       "content_depth_policy": "ARTICLE_1000_5000_USEFUL_WORDS",
       "baseline": {
-        "source_sha256": "3fb3eebdf321bb3843f37cdd974b4a4f41598af2a4b46210c7853b7d68804d6c",
+        "source_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc",
         "title": "Semi-automatique au Vietnam : passer les vitesses en montagne",
         "title_chars": 61,
-        "description": "Passer les vitesses d'une semi-automatique au Vietnam : la technique du levier au pied, montée et descente de col, erreurs à éviter. Le guide complet pour bien rétrograder.",
-        "description_chars": 172,
+        "description": "Comment passer les vitesses d’une semi-automatique au Vietnam : levier au pied, rétrogradage en col, frein moteur et erreurs courantes du débutant.",
+        "description_chars": 147,
         "h1": "Semi-automatique : monter et descendre les rapports sur les routes du Vietnam",
         "h1_count": 1,
         "canonical": "https://fr.rentbikehanoi.com/permis-securite/semi-automatique-moto-shifting-vietnam/",
-        "editorial_word_count_estimate": 2305,
+        "editorial_word_count_estimate": 1721,
         "h2_h3": [
-          "La semi-automatique : un levier au pied, l'embrayage en moins",
-          "La technique de base : passer les rapports sur le plat",
-          "En montagne : quand monter, quand rétrograder",
-          "Les erreurs classiques du débutant — et leur correction",
-          "Pour quel voyage choisir la semi-automatique ?",
+          "Comment fonctionne la boîte",
+          "Passer un rapport en trois temps",
+          "Monter un col : rétrograder avant que la moto ne le demande",
+          "Descendre un col : frein moteur et freins",
+          "Le sommet et les épingles",
+          "Les erreurs classiques et leur correction",
+          "Avant de partir : contrôler la boîte et la moto",
+          "Une semi-automatique pour quel voyage ?",
           "Questions fréquentes",
-          "Comment passer les vitesses sur une semi-automatique au Vietnam ?",
-          "Comment descendre les rapports en montagne sur une semi-automatique ?",
-          "Quand rétrograder en montée sur une route de col ?",
-          "La semi-automatique convient-elle aux débutants pour la montagne ?",
-          "Peut-on abîmer la boîte en passant mal les vitesses ?",
+          "Comment passer les vitesses sur une semi-automatique ?",
+          "Où se trouve le point mort ?",
+          "Peut-on descendre un col au point mort ?",
+          "Quand faut-il rétrograder en montée ?",
+          "Une semi-automatique convient-elle à un débutant ?",
           "Pour aller plus loin"
         ],
         "source_body_internal_inlinks": 12,
@@ -43990,47 +44084,54 @@
       "next_action": "Review intent, French usefulness, factual accuracy and every dimension; a clean mechanical audit is not completion",
       "checks": {
         "FACTS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Mechanical technique only (centrifugal clutch, foot shifter, brake layout 'sur la plupart des modèles', N-1-2-3-4 rotary grid vs classic grid, engine braking weakens at very low rpm when the centrifugal clutch disengages). CORRECTED the old text: neutral stated between 1st and 2nd as universal (now depends on model), 'le guidon ne porte que le frein' (brake layout is model-dependent), claims that the semi-automatic is 'la machine la plus louée du Vietnam' and 'la machine des locaux sur ces routes' (unsourced, removed). No model specs. Licence statement from E-legal-digest: Law 36/2024/QH15 art. 57(1) A1 up to 125 cm3, xe gắn máy 50 cm3 exemption (full text retrieved); most semi-automatics exceed 50 cm3 so category A1 + IDP, to confirm with the exact cylindrée. Prices: owner table, semi-automatic row only (150 000–200 000 VND/day, 700 000–800 000 VND/week, 1 000 000–1 200 000 VND/month) with the mandatory disclaimer; no derived package, no availability promise (model availability to confirm by phone/Zalo 0334 699 969). NAP/hours from SEO-FACTS. Sources: https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "INTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Main question: how to shift gears on a semi-automatic, particularly on mountain roads. Distinct from the sibling owners (route/comparison/type) by being the technique guide; links to the type page and the automatic-vs-semi-automatic comparison, and to the mountain descent guide.",
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "CONTENT": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Full rewrite: removed mannered passages ('le levier conduit par la technique', 'les freins y sont des invités', 'discipline du silo', 'principe du silo') and the FAQ that repeated the body. New sections: how the gearbox works; three-step shift; climbing; descending (engine brake and its limit); summit and hairpins; errors table; pre-departure checks; which trip/licence/price reference; FAQ x5. Sources: https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "META": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Title kept ('Semi-automatique au Vietnam : passer les vitesses en montagne'), H1 kept; description rewritten (147 chars) without promises; og tags identical; eyebrow 'Sécurité · Boîte semi-automatique'. Built check: Unique title (61 chars) and description (147 chars) sitewide; og:title/og:description identical; twitter summary_large_image with the primary image; canonical unchanged.",
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "LINKS": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Required targets kept: /permis-securite/, /types-motos/, /location-moto-hanoi/. Others kept or added: /types-motos/semi-automatique/, /types-motos/automatique-ou-semi-automatique-moto-vietnam/, /permis-securite/moto-montagne-pass-securite-vietnam/, /permis-securite/vietnam-permis-moto-a1-a/. Dropped /nord-vietnam/ha-giang/ and /location-moto-hanoi/location-moto-hanoi-vietnam/. 7/7 unique. Built check: 12 source-body incoming links (e.g. hanoi/semi-automatique-moto-routes-hanoi/index.html, honda/honda-future-125-fi-hanoi-ville/index.html, honda/honda-future-125-fi-location-hanoi/index.html); 12 built pages link here incl. navigation; BreadcrumbList rendered; 7 unique internal body links, none broken.",
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "AEO_GEO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Reviewed 2026-10-29 (2026-10-30-ART-PERMIS-3.json): Lead gives the answer in three sentences (no hand clutch, three-step shift, downshift early). Ordered list for the shift, errors table, checklist, FAQ x5 (how to shift, neutral location, descending in neutral, when to downshift, beginners).",
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "SCHEMA": {
           "status": "DONE",
           "evidence": "Built JSON-LD parses; @graph Article, BreadcrumbList, LocalBusiness, WebSite: LocalBusiness #business = confirmed name/phone/address/09:00–21:00 daily, WebSite #website, page node @id https://fr.rentbikehanoi.com/permis-securite/semi-automatique-moto-shifting-vietnam/#… with name = visible H1 and headline, isPartOf/publisher links, BreadcrumbList and primary ImageObject; no rating/review/offer/author/date/sameAs invented.",
-          "verified_sha256": "3fb3eebdf321bb3843f37cdd974b4a4f41598af2a4b46210c7853b7d68804d6c"
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "IMAGES": {
           "status": "DONE",
           "evidence": "IMG-permis-securite-semi-automatique-moto-shifting-vietnam assets/images/seo/permis-securite/semi-automatique-moto-shifting-vietnam/hero.webp WebP 1200x630 205 KiB; body <img> alt = image matrix alt_fr, width/height 1200x630, og:image/twitter:image/og:image:alt and built JSON-LD ImageObject match the primary asset. Visual review: 2026-10-29 contact-sheet review of all 547 assets (19 sheets, thumbnails 240px): asset renders, subject matches the page theme and the French alt describes the visible scene (original vector illustration); no text, logo, price or fake shop in the image.",
-          "verified_sha256": "3fb3eebdf321bb3843f37cdd974b4a4f41598af2a4b46210c7853b7d68804d6c"
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "UX_CRO": {
-          "status": "TODO",
-          "evidence": ""
+          "status": "DONE",
+          "evidence": "Local lab: _site served on 127.0.0.1, headless Chromium (Playwright), mobile 390x844 DPR2 touch and desktop 1366x900, no throttling; not field data; also rendered with prefers-color-scheme: dark: no horizontal overflow (mobile scrollWidth 390), H1 visible, hero loaded, 10 in-page anchors resolve, tel tel:+84334699969 + Zalo + WhatsApp links, footer address/09:00–21:00 present, min body text contrast 4.64:1, focus indicator on keyboard stops, no obstructive overlay, lab CLS 0.0001. CTA asks to confirm vehicle/dates/price before coming; copy reviewed for false promises (see FACTS).",
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "TECHNICAL": {
           "status": "DONE",
           "evidence": "Local build _site/permis-securite/semi-automatique-moto-shifting-vietnam/index.html: self canonical https://fr.rentbikehanoi.com/permis-securite/semi-automatique-moto-shifting-vietnam/, lang fr, no noindex, robots.txt allows, listed in sitemap.xml, 1 H1, JSON-LD parses (Article, BreadcrumbList, ImageObject, ListItem, LocalBusiness, OpeningHoursSpecification, PostalAddress, WebSite), all local href/src targets in the built document resolve. Local build audit only; live HTTP/indexing not inferred.",
-          "verified_sha256": "3fb3eebdf321bb3843f37cdd974b4a4f41598af2a4b46210c7853b7d68804d6c"
+          "verified_sha256": "11547c866c4261f6f6b20ef437c223ad260f9a8c610f5550e87877f33fce22cc"
         },
         "LIVE_VERIFY": {
           "status": "TODO",
@@ -44077,11 +44178,11 @@
           "Faut-il passer par un intermédiaire pour convertir son permis ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "permis-securite/conversion-permis-conduire-etranger-vietnam/index.html",
           "permis-securite/index.html",
-          "permis-securite/permis/index.html"
+          "permis-securite/permis-etranger-conversion-vietnam/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -44195,11 +44296,11 @@
           "Où vérifier les règles de conversion avant un voyage ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 3,
+        "source_body_internal_inlinks": 4,
         "source_body_internal_inlink_examples": [
           "permis-securite/conversion-permis-conduire-etranger-vietnam/index.html",
           "permis-securite/index.html",
-          "permis-securite/permis/index.html"
+          "permis-securite/permis-etranger-conversion-vietnam/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -44430,7 +44531,7 @@
           "Faut-il la catégorie A pour louer une grosse moto de voyage ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "permis-securite/125cc-plus-permis-moto-vietnam/index.html",
@@ -50552,11 +50653,11 @@
           "Quand faut-il éviter ce trajet ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 4,
+        "source_body_internal_inlinks": 5,
         "source_body_internal_inlink_examples": [
+          "nord-vietnam/meilleur-moto-ninh-binh/index.html",
           "types-motos/50cc-sapa-ha-giang/index.html",
-          "types-motos/50cc-scooter-long-distance-vietnam/index.html",
-          "types-motos/50cc/index.html"
+          "types-motos/50cc-scooter-long-distance-vietnam/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -51821,7 +51922,7 @@
           "Quel mot demander au comptoir ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 18,
+        "source_body_internal_inlinks": 19,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "centre-sud-vietnam/meilleur-moto-dalat/index.html",
@@ -53857,7 +53958,7 @@
           "Technique : freins, pneus, alimentation",
           "Au quotidien avec un deux-roues de location"
         ],
-        "source_body_internal_inlinks": 481,
+        "source_body_internal_inlinks": 479,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "centre-sud-vietnam/can-tho-voyage-moto/index.html",
@@ -54361,7 +54462,7 @@
           "Quand éviter la montagne à moto ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 21,
+        "source_body_internal_inlinks": 20,
         "source_body_internal_inlink_examples": [
           "blog/index.html",
           "hanoi/hanoi-a-ba-vi-moto/index.html",
@@ -55758,11 +55859,11 @@
           "La pluie change-t-elle le choix de la machine ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 5,
+        "source_body_internal_inlinks": 6,
         "source_body_internal_inlink_examples": [
+          "nord-vietnam/meilleur-moto-ninh-binh/index.html",
           "types-motos/50cc-hanoi-a-ninh-binh/index.html",
-          "types-motos/index.html",
-          "types-motos/scooter-automatique/index.html"
+          "types-motos/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,
@@ -56271,7 +56372,7 @@
           "Semi-automatique ou scooter pour un mois à Hanoi ?",
           "Guides pour les motos semi-automatiques et à vitesses"
         ],
-        "source_body_internal_inlinks": 32,
+        "source_body_internal_inlinks": 33,
         "source_body_internal_inlink_examples": [
           "honda/honda-air-blade-125-longue-distance-vietnam/index.html",
           "honda/honda-air-blade-160-longue-distance-vietnam/index.html",
@@ -56396,11 +56497,11 @@
           "Vaut-il mieux louer à Hanoi ou à Sapa ?",
           "Pour aller plus loin"
         ],
-        "source_body_internal_inlinks": 7,
+        "source_body_internal_inlinks": 6,
         "source_body_internal_inlink_examples": [
-          "nord-vietnam/meilleur-moto-tam-dao/index.html",
           "permis-securite/moto-fog-montagne-vietnam/index.html",
-          "types-motos/50cc-sapa-ha-giang/index.html"
+          "types-motos/50cc-sapa-ha-giang/index.html",
+          "types-motos/index.html"
         ],
         "broken_body_links_or_fragments": [],
         "repeated_paragraph_count": 0,

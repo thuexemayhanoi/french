@@ -89,6 +89,15 @@ GROUPS = [
      'angles': {'yamaha/yamaha-sirius-fi-vietnam-voyage-moto/index.html': 'Angle distinct : ce que change l’injection du Sirius FI sur la route (altitude, démarrage, consommation, entretien).'}},
     {'id': 'TOPIC-LIVRAISON', 'query': 'livraison moto hôtel hanoi', 'owner': 'location-moto-hanoi/moto-livraison-hotel-hanoi/index.html',
      'angles': {'prix-location/moto-livraison-frais-hanoi/index.html': 'Angle distinct : frais éventuels de remise, à demander avant réservation ; aucun montant ni seuil inventé.'}},
+    {'id': 'TOPIC-HA-GIANG', 'query': 'boucle ha giang moto', 'owner': 'nord-vietnam/ha-giang/index.html',
+     'angles': {'nord-vietnam/ha-giang-boucle-voyage-moto/index.html': 'Angle distinct : guide de la première fois (permis, préparation, étapes types), en renvoyant au guide de la boucle.',
+                'nord-vietnam/ha-giang-circuit-moto-prix/index.html': 'Angle distinct : budget du circuit poste par poste, sans forfait inventé.'}},
+    {'id': 'TOPIC-SAPA', 'query': 'sapa à moto', 'owner': 'nord-vietnam/sapa/index.html',
+     'angles': {'nord-vietnam/sapa-voyage-moto/index.html': 'Angle distinct : sur place (vallées, col d’Ô Quy Hồ, saisons), en renvoyant au guide de la route depuis Hanoi.'}},
+    {'id': 'TOPIC-NINH-BINH', 'query': 'ninh binh à moto depuis hanoi', 'owner': 'nord-vietnam/ninh-binh/index.html',
+     'angles': {'nord-vietnam/ninh-binh-voyage-moto/index.html': 'Angle distinct : boucles sur place entre karsts et rizières, en renvoyant au guide principal.'}},
+    {'id': 'TOPIC-PRIX', 'query': 'prix location moto hanoi', 'owner': 'prix-location/index.html',
+     'angles': {'prix-location/prix-location-moto-hanoi/index.html': 'Angle distinct : lire et comparer une offre de location, en renvoyant au tableau des tarifs.'}},
     {'id': 'TOPIC-CAT-BA', 'query': 'cat ba moto', 'owner': 'nord-vietnam/cat-ba-voyage-moto/index.html',
      'angles': {'nord-vietnam/hanoi-a-cat-ba-moto/index.html': 'Angle distinct : le trajet depuis Hanoi et les traversées, en renvoyant au guide de l’île.'}},
 ]
@@ -114,6 +123,11 @@ ANGLE_QUERY = {
     'yamaha/yamaha-sirius-fi-vietnam-voyage-moto/index.html': 'sirius fi injection',
     'prix-location/moto-livraison-frais-hanoi/index.html': 'frais',
     'nord-vietnam/hanoi-a-cat-ba-moto/index.html': 'depuis hanoi traversées',
+    'nord-vietnam/ha-giang-boucle-voyage-moto/index.html': 'première fois',
+    'nord-vietnam/ha-giang-circuit-moto-prix/index.html': 'budget',
+    'nord-vietnam/sapa-voyage-moto/index.html': 'sur place vallées col',
+    'nord-vietnam/ninh-binh-voyage-moto/index.html': 'boucles sur place',
+    'prix-location/prix-location-moto-hanoi/index.html': 'lire une offre',
 }
 
 STOP = set('le la les de du des un une et a au aux en pour par sur avec ou que qui quoi quel quelle quels quelles est sont son sa ses vos '
@@ -131,9 +145,8 @@ def tokens(text):
 
 
 def seed_from_h1(h1):
-    head = h1.split(' : ')[0].split(' — ')[0]
-    head = re.sub(r'[?!«»"“”]', '', head).strip()
-    return head[0].lower() + head[1:] if head else h1
+    seed = re.sub(r'[?!«»"“”]', '', h1.replace(' : ', ' ').replace(' — ', ' ')).strip()
+    return seed[0].lower() + seed[1:] if seed else h1
 
 
 def build():

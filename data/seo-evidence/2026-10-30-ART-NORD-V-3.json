@@ -338,5 +338,165 @@
   "owner_gaps": [
    "Confirm bike may go to Thanh Hóa and stay several nights, return conditions, breakdown assistance and insurance. Pù Luông terrace calendar not officially sourced."
   ]
+ },
+ {
+  "path": "nord-vietnam/quang-ninh-itineraire-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que faire à moto dans le Quảng Ninh au-delà d'Hạ Long : Yên Tử, côte de Vân Đồn, îles, et par quelle route ?",
+  "words_before": 1925,
+  "words_after": 1547,
+  "new_meta": {
+   "title": "Quảng Ninh à moto au-delà d’Hạ Long : Yên Tử et la côte",
+   "description": "Quảng Ninh à moto au-delà d’Hạ Long : Yên Tử (patrimoine mondial 2025), Vân Đồn, îles de Quan Lạn et Cô Tô, nationale 18 et points à vérifier.",
+   "h1": "Quảng Ninh à moto au-delà d’Hạ Long : Yên Tử et la côte"
+  },
+  "evidence": {
+   "FACTS": "Corrected an old error: 'un roi du siècle passé' -> Trần Nhân Tông, 13th century, Trúc Lâm school. Added UNESCO inscription of Yên Tử–Vĩnh Nghiêm–Côn Sơn, Kiếp Bạc on 12 July 2025 (47th session): seen in search result, Viet Nam News https://vietnamnews.vn/life-style/1721296/... (title supports it); spread across Quảng Ninh, Hải Phòng, Bắc Ninh per Vietnamese reports in search results (one English page said Hải Dương; flagged as unverified vs UNESCO, so only the three-province wording from the Vietnamese reports is used, and Yên Tử itself stated as in Quảng Ninh). Vân Đồn ~50 km from central Hạ Long; Quan Lạn ferries from Cái Rồng (Vân Đồn) or Hòn Gai port; Cô Tô ferries from Ao Tiên (~50–60 min crossing) or Tuần Châu: seen in search result (sunparadiseland / mia.vn / Vietnam Airlines pages), phrased 'd'après les guides'; no ticket prices. Whether motorbikes can board is NOT claimed: 'à demander à la compagnie'. Hanoi–Hạ Long 150–170 km and old QL18 via Bắc Ninh–Uông Bí from G digest §5; Uông Bí on that route per the digest. Expressway ban art. 25(3) (retrieved) and VOV Feb 2026 case; art. 20 lights; storm suspension from halongbay.com.vn (seen in search result). Removed unsourced claims: 'plages frontalières… zones douanières', 'conserveries', 'camions de glace', 'fête au printemps par dizaines de milliers' (kept only as 'forte affluence au printemps'), cable-car formulas left unverified. No prices; shop conditions only as questions.",
+   "INTENT": "Main question: what to do by motorbike in Quảng Ninh beyond Hạ Long. OWNER. Differs from /nord-vietnam/ha-long/ and /nord-vietnam/halong-voyage-moto/ (the bay and whether to ride there; both linked) and /nord-vietnam/moto-de-hanoi-a-halong-baie/ (road to the bay; linked): this page covers Yên Tử, the Vân Đồn coast and islands, and two programmes.",
+   "CONTENT": "Full rewrite. New: short answer, Yên Tử, coast/islands table, route/expressways, two programmes, weather, bike and booking questions, FAQ x5. Words 1925 -> 1547.",
+   "META": "Title kept close to the previous one (55 chars), description rewritten (142 chars, includes the 2025 UNESCO fact); H1 aligned; og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/ha-long/, /nord-vietnam/halong-voyage-moto/, /nord-vietnam/moto-de-hanoi-a-halong-baie/, /contact/.",
+   "AEO_GEO": "Direct answer first; table of destinations/moto access; two ordered programmes; FAQ 5; citations Viet Nam News, luatvietnam, VOV, halongbay.com.vn."
+  },
+  "sources": [
+   {
+    "url": "https://vietnamnews.vn/life-style/1721296/yen-tu-vinh-nghiem-con-son-kiep-bac-complex-recognised-as-world-cultural-heritage.html",
+    "checked": "2026-10-31",
+    "used_for": "UNESCO inscription of Yên Tử–Vĩnh Nghiêm–Côn Sơn, Kiếp Bạc, 12 July 2025 (seen in search result)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   },
+   {
+    "url": "https://english.vov.vn/en/society/11-foreign-bikers-fined-for-expressway-violation-in-northern-vietnam-post1267768.vov",
+    "checked": "2026-10-30",
+    "used_for": "Feb 2026 case"
+   },
+   {
+    "url": "https://halongbay.com.vn/en/p/240-tam-ngung-cap-phep-doi-voi-cac-phuong-tien-thuy-hoat-dong-va-luu-tru-tren-bien",
+    "checked": "2026-10-30",
+    "used_for": "Storm suspensions of boats (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Quảng Ninh and stay several nights, whether it may be carried on ferries, return conditions, breakdown assistance and insurance. Yên Tử access hours/fees not verified."
+  ]
+ },
+ {
+  "path": "nord-vietnam/sapa-itineraire-moto-1-jour/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment passer une journée à moto autour de Sapa : vallée de Mường Hoa ou route de Thác Bạc et du col d'Ô Quy Hồ ?",
+  "words_before": 1826,
+  "words_after": 1615,
+  "new_meta": {
+   "title": "Sapa à moto en une journée : Mường Hoa, Thác Bạc, Ô Quy Hồ",
+   "description": "Sapa à moto en une journée : vallée de Mường Hoa, cascade Thác Bạc ou col d’Ô Quy Hồ, brouillard, équipement et questions à régler pour la moto.",
+   "h1": "Sapa à moto en une journée : Mường Hoa, Thác Bạc et Ô Quy Hồ"
+  },
+  "evidence": {
+   "FACTS": "ownership file lists this page as OWNER for 'sapa à moto' like /nord-vietnam/sapa-voyage-moto/; to avoid overlap the title, H1, lead and body now target the one-day loop only. Corrected old claims: 'Ta Phin… sources chaudes' removed (unverified), 'les motos de location se passent de top-case' removed, 'paiement sans contact reste rare' removed, 'la plupart des voyageurs montent… train de nuit' removed. Ô Quy Hồ facts (QL4D, ~50 km, ~2,000 m with sources varying, cold-season snow per Vietnam Airlines guide) from G-route digest §3 (seen in search result). Thác Bạc 12–15 km NW of Sapa and >200 m high: seen in search result (guides; Vietnam Airlines silver-waterfall page appeared but attribution of the distance to it is uncertain) so phrased 'd'après les guides', unlinked. Mường Hoa villages (Cát Cát, Lao Chải, Tả Van; Hmong, Dao, Giáy): general knowledge / tour listings; access fees only 'à vérifier'. Headlight art. 20 from E-legal digest. Rented-in-Sapa vs Hanoi distinction made explicit (hub already says so). No prices, no durations; shop conditions only as questions.",
+   "INTENT": "Main question: what can be done in one day by motorbike around Sapa, and with which prerequisites. Differs from /nord-vietnam/sapa-voyage-moto/ (destination overview; linked), /nord-vietnam/sapa/ (Hanoi–Sapa route and preparation; linked) and /nord-vietnam/sapa-moto-2-jours/ (two days; linked): this page chooses between the two loops and gives a day outline.",
+   "CONTENT": "Full rewrite keeping the useful structure (valley loop, equipment, variants). New: short answer with the prerequisite that the bike must already be in Sapa, comparison table, valley section, pass section, equipment/weather, bike choice, day outline (ordered list), booking questions, FAQ x5. Words 1826 -> 1615.",
+   "META": "Title 58 chars, description 144 chars, H1 aligned and now specific to a one-day loop; og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/sapa/, /nord-vietnam/sapa-voyage-moto/, /nord-vietnam/sapa-moto-2-jours/, /contact/.",
+   "AEO_GEO": "Direct answer + prerequisite first; comparison table; checklists and ordered day outline; FAQ 5; citation Vietnam Airlines pass guide."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+    "checked": "2026-10-30",
+    "used_for": "Ô Quy Hồ pass, snow in cold season (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Sapa (multi-night), return conditions, breakdown assistance and insurance. Village access fees and opening conditions in Mường Hoa not verified."
+  ]
+ },
+ {
+  "path": "nord-vietnam/sapa-moto-2-jours/index.html",
+  "role": "OWNER",
+  "primary_intent": "Comment organiser deux jours à moto autour de Sapa : nuit dans la vallée de Mường Hoa, puis col d'Ô Quy Hồ selon la météo ?",
+  "words_before": 1872,
+  "words_after": 1517,
+  "new_meta": {
+   "title": "Sapa à moto sur deux jours : vallée de Mường Hoa et Ô Quy Hồ",
+   "description": "Sapa à moto sur deux jours : nuit chez l’habitant dans la vallée de Mường Hoa, col d’Ô Quy Hồ, météo, équipement et conditions de location à confirmer.",
+   "h1": "Sapa à moto sur deux jours : vallée de Mường Hoa et col d’Ô Quy Hồ"
+  },
+  "evidence": {
+   "FACTS": "Removed unverified old details: 'ponts de jungle', 'douches chaudes se généralisent, l'électricité fonctionne', 'les villageois surveillent les engins avec attention', 'le col le plus haut… Lai Chau' (loose), cold-season 'duvet du gîte'. Ô Quy Hồ facts (QL4D, ~50 km, ~2,000 m, sources differ by ~100 m, cold-season snow) from G-route digest §3 (Vietnam Airlines pass guide, seen in search result). Thác Bạc 12–15 km NW of Sapa: seen in search result, 'd'après les guides'. Villages and ethnic groups (Cát Cát, Lao Chải, Tả Van; Hmong, Giáy) general knowledge/tour listings, access fees only 'à vérifier'. Law 36/2024 art. 20 (headlights/visibility), art. 33(1) (one passenger, two only in listed cases incl. child under 12) and art. 33(2) (helmet for rider and passenger) from E-legal digest §1.21–1.22, checked 30 Oct 2026. No prices, no durations; prerequisite 'bike already in Sapa' stated; shop conditions only as questions.",
+   "INTENT": "Main question: a two-day motorbike plan around Sapa. OWNER. Differs from /nord-vietnam/sapa-itineraire-moto-1-jour/ (one-day loop choice; linked), /nord-vietnam/sapa/ (Hanoi–Sapa route; linked) and /nord-vietnam/meilleure-moto-pour-sapa/ (bike comparison; linked): this page is the two-day plan with a weather-driven day-2 decision table.",
+   "CONTENT": "Full rewrite. New: short answer with prerequisite, day 1 ordered list, day 2 decision table, weather/fog riding, equipment checklist, passenger/luggage with legal limits, respectful visits, bike and booking conditions, FAQ x5. Words 1872 -> 1517.",
+   "META": "Title 60 chars, description 151 chars, H1 aligned; og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/sapa/, /nord-vietnam/sapa-itineraire-moto-1-jour/, /nord-vietnam/meilleure-moto-pour-sapa/, /contact/. Dropped /nord-vietnam/sapa-voyage-moto/ link to respect the cap (mentioned in the sibling articles).",
+   "AEO_GEO": "Direct answer first; ordered day-1 list; day-2 decision table; checklists; FAQ 5; citation Vietnam Airlines pass guide."
+  },
+  "sources": [
+   {
+    "url": "https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+    "checked": "2026-10-30",
+    "used_for": "Ô Quy Hồ pass length/altitude, snow in cold season (seen in search result)"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Sapa for several nights, return conditions, breakdown assistance and insurance. Mường Hoa village access fees not verified."
+  ]
+ },
+ {
+  "path": "nord-vietnam/sapa-voyage-moto/index.html",
+  "role": "OWNER",
+  "primary_intent": "Que fait-on à Sapa à moto, quand y aller, comment s'y rendre sans autoroute et avec quelle moto ?",
+  "words_before": 1940,
+  "words_after": 1550,
+  "new_meta": {
+   "title": "Sapa à moto : vallées, col d’Ô Quy Hồ, saisons et machine",
+   "description": "Sapa à moto : vallée de Mường Hoa, col d’Ô Quy Hồ, saisons, brouillard et froid, comment y aller sans autoroute et quelle moto choisir.",
+   "h1": "Sapa à moto : vallées, col d’Ô Quy Hồ, saisons et choix de la machine"
+  },
+  "evidence": {
+   "FACTS": "Removed 'le transfert vers Sapa se bâtit sur la géographie des étapes', 'Sapa se mérite par la route… l'une des plus belles du pays', reference to the Hà Giang approach page as method, and all 'discipline du site' formulas. Facts from G-route digest §3: Hanoi–Sapa ~315–320 km by Nội Bài–Lào Cai expressway (sunparadiseland page, seen in search result; motos banned), national roads 'nettement plus long' (no figure); Ô Quy Hồ ~50 km, ~2,000 m (sources vary), snow in cold season (Vietnam Airlines guide, seen in search result), location between Bình Lư (Lai Châu) and Sa Pa ward (Lào Cai) (mia.vn, seen in search result). Lào Cai includes ex-Yên Bái: Tuổi Trẻ News (retrieved). Mù Cang Chải ripe-rice window from vietnamtourism.com (seen in search result, dates vary). Thác Bạc 12–15 km: seen in search result, 'd'après les guides'. Art. 25(3) (retrieved) and art. 20 (E-legal digest). Seasons table is generic (summer rain, winter cold/fog), no forecast. No prices; shop conditions only as questions with phone/hours from SEO-FACTS.",
+   "INTENT": "Main question: what is Sapa by motorbike (destination as seen from the saddle). OWNER (shares the query 'sapa à moto' with /nord-vietnam/sapa-itineraire-moto-1-jour/, which is now clearly the one-day-loop page). Differs from /nord-vietnam/sapa/ (route and preparation; linked), /nord-vietnam/hanoi-a-sapa-moto/ (route; linked), /nord-vietnam/sapa-itineraire-moto-1-jour/ and /sapa-moto-2-jours/ (programmes; linked): this page covers where to ride, seasons, the two ways to get there and bike choice.",
+   "CONTENT": "Full rewrite; the previous text was mostly about the route to Sapa and abstract geography. New: short answer, where to ride (table), seasons (table), access (two formulas), bike choice, parking/walking, pre-booking questions, respect, FAQ x5. Words 1940 -> 1550.",
+   "META": "Title 57 chars, description 135 chars, H1 rewritten (previous title emphasised 'route du nord-ouest', now covered by the hub); og identical.",
+   "LINKS": "7/7: /nord-vietnam/ (parent), /types-motos/trail/, /permis-securite/securite/ (required) + /nord-vietnam/sapa/, /nord-vietnam/hanoi-a-sapa-moto/, /nord-vietnam/sapa-itineraire-moto-1-jour/, /nord-vietnam/sapa-moto-2-jours/. Old links to /nord-vietnam/hanoi-a-ha-giang-moto/, /permis-securite/moto-montagne-pass-securite-vietnam/ and /permis-securite/moto-pluie-securite-vietnam/ dropped; no /contact/ link (phone number given in text).",
+   "AEO_GEO": "Direct answer first; two tables (where to ride, seasons); checklist; FAQ 5; citations Tuổi Trẻ News, Vietnam Airlines, mia.vn, vietnamtourism.com, sunparadiseland, luatvietnam."
+  },
+  "sources": [
+   {
+    "url": "https://news.tuoitre.vn/legislature-approves-mergers-to-reduce-vietnams-cities-provinces-to-34-103250612173225559.htm",
+    "checked": "2026-10-30",
+    "used_for": "Lào Cai now includes Yên Bái"
+   },
+   {
+    "url": "https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/o-quy-ho-pass",
+    "checked": "2026-10-30",
+    "used_for": "Ô Quy Hồ pass, snow in cold season (seen in search result)"
+   },
+   {
+    "url": "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-deo-o-quy-ho-mot-trong-tu-dai-dinh-deo-cua-viet-nam-500",
+    "checked": "2026-10-30",
+    "used_for": "Post-merger location of the pass (seen in search result)"
+   },
+   {
+    "url": "https://www.vietnamtourism.com/en/mu-cang-chai-rice-terraces-the-complete-guide-for-2026",
+    "checked": "2026-10-30",
+    "used_for": "Mù Cang Chải ripe-rice window (seen in search result)"
+   },
+   {
+    "url": "https://sunparadiseland.com/SunParadiseLandSaPa/tin-tuc/ha-noi-cach-sa-pa-bao-nhieu-km-thong-tin-chi-tiet-nhat-26798",
+    "checked": "2026-10-30",
+    "used_for": "Hanoi–Sapa ~315–320 km by expressway (seen in search result)"
+   },
+   {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "checked": "2026-10-30",
+    "used_for": "Art. 25(3) expressway ban"
+   }
+  ],
+  "owner_gaps": [
+   "Confirm bike may go to Sapa for several nights, return conditions, breakdown assistance and insurance."
+  ]
  }
 ]
