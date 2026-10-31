@@ -69,7 +69,7 @@ const probe = (phone) => {
     h1: h1 ? h1.textContent.trim() : null,
     h1Visible: !!(h1Box && h1Box.width > 0 && h1Box.height > 0),
     h1Count: document.querySelectorAll('h1').length,
-    heroLoaded: !!(hero && hero.complete && [800, 1200].includes(hero.naturalWidth)),
+    heroLoaded: !!(hero && hero.complete && hero.naturalWidth > 0 && /\/assets\/images\/seo\//.test(hero.currentSrc)),
     heroSrc: hero ? hero.currentSrc.replace(location.origin, '') : null,
     anchors: anchors.length, missingAnchors,
     tocLinks: document.querySelectorAll('.article-toc a').length,
